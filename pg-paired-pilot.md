@@ -731,6 +731,69 @@ designed to ask of it.
 
    If a transcription surfaces incidentally in the course of other work, record
    it as a collation witness and move on. Do not go looking.
+
+0c. ⚑ **REOPENED FOR MAXIMUS ONLY (Wilson, 2026-10-14).** Wilson explicitly
+   asked for a source check on **PG 90–91 (Maximus the Confessor)** against the
+   Church of Greece's online library. 0b still holds for every other volume.
+   The reopening covers Maximus alone. It is not a precedent for other volumes.
+
+   **What was found** (measured directly; mirror at
+   `raw/mirrors/myriobiblos-maximos/`, gitignored; source
+   `myriobiblos.gr/texts/greek/maximos/`): 44 pages, **~317K Greek words**,
+   polytonic, ano teleia intact. Each page names PG 90 or 91 and gives Migne
+   columns in the text as `(1033)`, about one marker per Greek column and
+   monotonic. That passes hard rule 1, which the Dorotheus page failed.
+   - **Covered:** Ambigua (91.1033–1417), Ad Thalassium (90.248–785; gaps at 481–488,
+     516–524, 565–572), Quaestiones et dubia, Ps 59, Pater noster, De caritate,
+     Capita theol., Diversa capita, Ad Theopemptum, Vita, Pyrrho (the site
+     mislabels it PG 90; it is 91.288–353), Mystagogia, and part of the Opuscula
+     (ad Marinum).
+   - **Missing:** the Epistulae (91.364–649), most of the Opuscula, Liber
+     asceticus (90.912–956), the Relatio motionis and other acta, and Loci
+     communes. Those remain plate work (Calfa pipeline).
+   - **Known defects:** every grave accent has been changed to an acute
+     (restoring them is mechanical). There are ~10 column-marker typos
+     (`(1001)` for 1101, `(241)` for 1241, …) and unexplained `[Fr.…]`/`[R.…]`
+     variant tags.
+   - **Status:** a *candidate* translation source, pending the plate collation
+     in 0d.
+
+0d. ✅ **DONE 2026-10-14 (Opus). PLATE COLLATION OF 5 PG 91 COLUMNS, WORD BY
+   WORD.** Plates come from archive.org `patrologia-volumes/091.pdf`, on disk at
+   `raw/pg091/` (gitignored), rendered at 300 dpi.
+   ⛔ **The page map DRIFTS through the volume** (inserted plates). The PDF page
+   for odd column *c* is (c + k)/2, with k = −37 near col 289, −69 near 661,
+   −97 near 1033, −113 near 1241, and −125 near 1403. Calibrate on the printed
+   corners every time.
+
+   | col | work | ~words | defects (transcription vs plate) |
+   |---|---|---|---|
+   | 289 | Pyrrho | 370 | **2 eye-skip omissions**: *εἰ δὲ ὡς εἷς ἤθελεν* (ἤθελεν→ἤθελεν) and *μόνον ἢ τὸ συναμφότερον, Θεὸς ὁμοῦ καὶ ἄνθρωπος* (ἄνθρωπος→ἄνθρωπος). **μή dropped** in *καὶ μὴ προδιαστέλλεσθαι*, which becomes *καί προσιαστέλλεσθαι*. οὐδέν→οὐδέ ×2. Two iota-subscript slips. |
+   | 661 | Mystagogia | 370 | ἐλέχθη→ἐλέγθη; θείαις→θείας. Nothing else. |
+   | 1033 | Ambigua | 330 | τόν and γάρ dropped; a parenthesis garbled into a bracket. |
+   | 1241 | Ambigua | 330 | **ὑπὲρ ἡμᾶς→ὑπὲρ αὐτούς** (changes the sense); πάσης dropped; ὑπεράνω→ὑπεράνων; μετ'→με᾿. One *silent correction* of a Migne misprint (ἐκουσίως→ἑκουσίως). |
+   | 1404 | Ambigua | 360 | Πνεύματος lowercased. Nothing else. |
+
+   **Ruling on provenance: CONFIRMED — the transcription was keyed from PG 91.**
+   It follows Migne's own text wherever Migne's footnotes record a different
+   reading (e.g. προτεθέντα, not Gale's variants), and its column breaks agree
+   with the plate to within a line. Its `[Fr.…]` tags are Migne's own
+   *Variae lectiones* siglum ("Marg. Fr."), seen on the plate at col 337.
+   Migne's Oehler page refs `(105 a)` and footnote numbers are left out.
+
+   **Ruling on quality: a good BASE, never a sole source.** There are roughly
+   1–2 word-level defects per 100 words overall, **unevenly spread** (Pyrrho bad,
+   Mystagogia and Ambigua 1404 near-clean). The dangerous class is **eye-skip
+   omission**: it drops whole clauses, the remaining Greek still construes, and
+   nothing in the text betrays it. Translating from this text alone would
+   silently lose clauses, and in one case Maximus's negation. So every column
+   must be checked against an independent witness before it is translated
+   (cf. the exhaustiveness rule in `CLAUDE.md`).
+   ⚑ **The cheap way to do that, still to be tested:** OCR the plates with Calfa's
+   model (`sources/pg/calfa/models/`), diff the OCR against this transcription,
+   and read only the disagreements at the plate. Two independent witnesses that
+   fail differently is what the attribution ladder asks for. Eye-skips show up as
+   long one-sided runs in the diff, so they are easy to catch. **Not yet tested.**
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
