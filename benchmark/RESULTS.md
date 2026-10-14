@@ -108,3 +108,63 @@ the model output that occurs fewer than K times in that list.
 full plate read stays mandatory, so the original ruling holds (Calfa's pipeline, not Claude
 vision, for volumes outside Calfa). Untested and costs model calls: two independent vision reads
 diffed against each other.
+
+### Follow-up, 2026-10-14 — Tesseract and the CLLG kraken model: CLLG works as a SECOND WITNESS
+
+The test asked whether a free local OCR could supply the Greek for volumes outside Calfa, starting
+with PG 91, whose Maximus *Epistulae* have no ready Greek (`pg-paired-pilot.md` 0f/0g).
+
+**Tesseract `grc`** (brew 4.1.0 and `tessdata_best`): REJECTED. Even after line joining and a
+lexicon-guided confusion corrector (`tess-correct.py`, learned on PG 145), WER is about 30%.
+`tess-eval.py` scores any hyp dir. It makes systematic κ→χ and β→δ errors.
+
+**CLLG Polytonic Greek** (Inria, Zenodo 22232579, CC-BY-4.0, kraken 7.1,
+`ppocr_v6_tau090.safetensors`). It runs on this Intel Mac with torch 2.2.2 and a one-line patch
+(`benchmark/CLLG-SETUP.md`). Speed: ~2 min/page with given lines, ~4–5 min/column when it segments the
+page itself. **As a base text it is not good enough**: on the benchmark pages its WER is about
+twice Sonnet's (`hyp/cllg`, `hyp/cllg-lay`). **As a witness it works**, because its errors are
+different in kind from Claude's. CLLG makes letter-shape errors and loses characters; Claude
+substitutes plausible real Greek words. Where the two readings disagree is where to look.
+
+**Test 1: Sonnet as primary, CLLG as witness, judged against Calfa GT** (`second-witness-eval.py`,
+7 pages, excluding the worn PG 98):
+
+| comparison key | Sonnet substitutions flagged | omissions flagged | words flagged (load) |
+|---|---|---|---|
+| accented (grave=acute) | **75 / 87 = 86%** | 13 / 15 | 394 / 2369 = 17% |
+| base letters only | 51 / 69 = 74% | 13 / 15 | 11% |
+
+Of the 12 misses on the accented key, about 7 are ρρ/ῤῥ or accent conventions, or GT typos. About
+5 are genuine joint misses (πύριον/θύριον, ἁλίαιτον, a breathing, εὐθὺ;, one dropped word). Compare
+the word-list detector above: 63% of errors caught while flagging 59% of words. Here it is 86%
+caught while flagging 17%. **This is the "second independent read" that the standing conclusion
+left untested, and it costs nothing in tokens.**
+
+**Test 2: CLLG against a keyed transcription, on the five PG 91 columns already collated at the
+plate** (`scripts/maximus-cllg-diff.py`, myriobiblos vs CLLG, cols 289/661/1033/1241/1404).
+**Every substantive defect found by the plate collation (pilot 0d) is flagged:**
+- col 289: both eye-skips, the dropped μή, οὐδέν→οὐδέ ×2, the iota-subscript slip
+- col 661: ἐλέγθη, θείας
+- col 1033: the dropped τόν and γάρ, the garbled parenthesis
+- col 1241: ὑπὲρ αὐτούς for ἡμᾶς, πάσης, ὑπεράνων, με᾿
+
+The one miss is the lowercased Πνεύματος (col 1404). The key ignores case, so this is by design.
+**Load: 168 of 1784 words flagged = 9.4%** (7–14% per column) on gutter-cropped columns. Kraken's
+whole-page segmentation was *worse* (231/1780 = 13%): it truncates line starts (speaker sigla),
+and it does not remove CLLG's line-break letter loss. Crop the Greek column, preferably with a few
+px of margin.
+
+Two diff rules carry the load figure, and both are safe for omissions:
+1. Start and end the alignment at a run of three or more agreeing words.
+2. Suppress CLLG's own faults: spacing-only differences, and readings that are the transcription
+   with letters lost, when the transcription's words are all known forms.
+
+A transcription that drops text always leaves the OCR side longer, so rule 2 cannot hide it.
+**Blind spot:** a transcription with an *extra* letter that still makes a known form, where CLLG
+happens to lose the same letter. `--all` shows everything.
+
+**Standing conclusion, revised:** CLLG is a free second witness for any non-Calfa PG volume. Its
+disagreement list becomes the checklist the plate stint must resolve. **It does not replace the
+every-page plate read** (the exhaustiveness rule). It does make that read targeted rather than
+blind, which is the affordable verification that 8a.D found missing for Dorotheus, Moschus,
+Sophronius and Procopius.

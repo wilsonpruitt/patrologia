@@ -862,6 +862,31 @@ designed to ask of it.
    or unsure Maximus items now in the queue: Opuscula (P, only Opusc. 3 and 7 in
    Louth), De anima, Loci communes (Ps.-Maximus), Ad Theopemptum, Capita alia,
    Ps 59.
+0g. ✅ **TESTED 2026-10-14 — option (b) works as a second witness, but not as a base
+   text.** The CLLG polytonic kraken model (Inria, CC-BY, runs locally, no token cost)
+   was tested twice; full figures are in `benchmark/RESULTS.md` (follow-up, 2026-10-14).
+   - **Test 1, as a witness to Sonnet on Calfa GT:** it flags 86% of Sonnet's
+     substitutions and 13 of 15 omissions, while flagging 17% of words.
+   - **Test 2, on the five PG 91 columns already collated at the plate (0d):** it flags
+     **every** substantive myriobiblos defect (only the lowercased Πνεύματος is missed,
+     by design), while flagging 9.4% of words.
+
+   Tesseract was rejected (~30% WER).
+
+   **Ruling (Wilson, same day): CLLG is the free second scan for non-Calfa PG.**
+   - It is an upgrade over a single read, and it addresses the 8a.D blocker ("no
+     affordable verification"). **Dorotheus, Moschus, Sophronius and Procopius are
+     therefore no longer blocked on Calfa alone.** Each still needs its own costing
+     before it moves.
+   - **The every-page plate stint stays mandatory.** The CLLG disagreement list
+     (`scripts/maximus-cllg-diff.py`) is its checklist, not its replacement.
+   - Running it: crop the Greek column (kraken's whole-page segmentation was worse, 13%
+     load vs 9.4%) and allow ~4–5 min/column of local CPU. For the 145 plate columns of
+     the Epistulae that is roughly 10–12 hours in the background, one job at a time.
+   - **The letters' pipeline is now:** Claude vision base text (≈2M tokens) + CLLG
+     witness (free) + a plate stint that resolves every flag and opens every page, then
+     translation (≈8M). That is a big token burn, so it needs Wilson's "which model,
+     and go?".
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
