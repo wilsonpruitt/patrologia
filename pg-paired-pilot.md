@@ -797,6 +797,36 @@ designed to ask of it.
    ⚠ `sources/pg/calfa/models/` holds only the YOLO *layout* model
    (`REG-YOLOv12s.pt`). The text-recognition model is NOT on disk, so it has to
    be found first.
+
+0e. ✅ **DONE 2026-10-14 (Opus). OMISSION SCAN TESTED: archive.org's junk OCR
+   used as an alignment witness.** Script: `scripts/maximus-omission-scan.py <pdfpage>
+   <L|R> <transcript.txt> [minrun]`. It reads `091_djvu.xml` (word coordinates),
+   finds the gutter on each page, drops Latin using a vocabulary built from the
+   PL TEI, maps the Latin look-alike letters back to Greek, and runs a
+   Smith-Waterman alignment. A run of OCR text with no counterpart in the
+   transcription is a candidate omission. Results on the five 0d columns at
+   minrun 3, scored against the known answers:
+   - **Caught:** both Pyrrho eye-skips, τόν (1033) and πάσης (1241).
+   - **Missed:** γάρ (1033) and μή (289). μή sits beside the nonsense word
+     προσιαστέλλεσθαι, so a word-list check catches it.
+   - **False positives:** 0 on Mystagogia 661. The only ones elsewhere are
+     Migne's Oehler page refs `(105 a)` / `(259 b)`, which can be filtered.
+   - **Combined with a word-list check and a careful read, about 16 of the 17
+     known defects are found.** The residue is a single short particle.
+
+   **Cost ruling (Wilson's test, 2026-10-14: if Maximus is cheaper it jumps the
+   line; if it costs the same with better ground truth, the queue stands): THE
+   QUEUE STANDS.** The scan removes the OCR step, but the regular PG queue
+   (Calfa volumes, e.g. Symeon PG 155) never paid one either. **The dominant
+   costs are the same on both sides:** translation, plus a stint that opens
+   **every plate page** (the exhaustiveness rule; the `[sic:]`/`[var:]` plate
+   gate). Symeon cost ≈1.7M for 13.1K Greek words (≈130 tokens/word). Nothing
+   here lowers that rate for Maximus, and the corpus is ~317K words (≈40M at
+   that rate). The scan would make Maximus cheaper only by **replacing the
+   per-page plate read with hot-spot reads**, and that is a change to the
+   exhaustiveness rule, which only Wilson can make. Not proposed here.
+   Maximus is a **better-witnessed** PG source than Calfa, so the tooling is
+   kept for when it comes up in the queue on its merits.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
