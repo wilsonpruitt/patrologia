@@ -1,0 +1,174 @@
+{
+  "volume": 90,
+  "source": "archive.org patrologia-volumes 090_djvu.txt",
+  "listSource": "ordo",
+  "colMap": "cols 3-1480 (pg-colfind --stats; 627 anchors)",
+  "note": "2026-10-14 by hand from the closing ORDO RERUM + pg-colfind heads (no brief agent). Elenchus is partial (8 items); Ordo rerum used. A myriobiblos.gr keyed transcription covers most of this tome (pg-paired-pilot.md 0c).",
+  "entries": [
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Notitia (Fabricius); Epistola nuncupatoria; Praefatio Combefisii",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 1,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": ""
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Vita ac certamen S. Maximi",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 67,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo 67; head 'S. MAXIMI VITA AC CERTAMEN' at col ~69"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Acta S. Maximi (Relatio motionis, etc.)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 109,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo 110; RELATIO MOTIONIS head col ~110"
+    },
+    {
+      "author": "COMBEFISIUS",
+      "title": "Notae ad Vitam et Acta; Monitum in Quaestiones ad Thalassium",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 222,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": ""
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Quaestiones ad Thalassium de Scriptura sacra",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 244,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "elenchus 244 = Ordo 244"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Quaestiones et dubia",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 785,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "elenchus 786; head col ~787"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Expositio in Psalmum LIX",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 856,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "elenchus 855; head col ~855"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Orationis Dominicae brevis expositio",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 872,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo 871; head col ~872"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Liber asceticus",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 912,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo 911; head col ~912"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Capita de charitate (centuriae IV)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 960,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "elenchus 959"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Capita theologiae et oeconomiae (centuriae II)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1084,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "elenchus 1083"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Diversa capita ad theologiam et oeconomiam spectantia (Capita quinquies centena)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1177,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "head col ~1178"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Quaestiones ad Theopemptum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1393,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "head col ~1393"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Capita alia",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1401,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "head col ~1400"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Excerptum ex opere LXIII dubiorum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1461,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "elenchus 1462"
+    }
+  ]
+}

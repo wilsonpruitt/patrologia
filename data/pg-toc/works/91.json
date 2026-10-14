@@ -1,0 +1,176 @@
+{
+  "volume": 91,
+  "source": "archive.org patrologia-volumes 091_djvu.txt",
+  "listSource": "ordo",
+  "colMap": "cols 1-1530 (pg-colfind --stats; 407 anchors)",
+  "note": "2026-10-14 by hand from the closing ORDO RERUM + pg-colfind heads (no brief agent). Elenchus prints no columns.",
+  "entries": [
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Opuscula theologica et polemica (ad Marinum et alios)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo 9"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Disputatio cum Pyrrho",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 287,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Monitum + head col ~281-288; myriobiblos (288)"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Opusculum de anima",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 353,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "head col ~356"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Epistulae XLV (partim communes, partim dogmaticae et polemicae)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 361,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "EPISTOLAE head + Monitum col ~361; Ep. XLV ends before the De Trinitate notice (~649). NOT on myriobiblos; OGL witnesses empty here; not in Calfa."
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "De sancta Trinitate dialogi tres (memorantur tantum)",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": 649,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "unknown",
+      "note": "",
+      "crossRefVolume": 28,
+      "crossRefCol": "1113"
+    },
+    {
+      "author": "HOESCHELIUS / MARGUNIUS",
+      "title": "Epistolae de Mystagogia S. Maximi",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 651,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": ""
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Mystagogia",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 657,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "head col ~657"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Loci communes",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 717,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Monitum ~717; LOCI COMMUNES head col ~721; Sermo LXXI col ~1016"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Confessio fidei Latinorum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1017,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo 1018"
+    },
+    {
+      "author": "OEHLER",
+      "title": "Praefatio ad Ambiguorum librum",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 1027,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": ""
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Ambiguorum liber (SS. Dionysii et Gregorii)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1031,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Oehler's edition; myriobiblos complete"
+    },
+    {
+      "author": "S. MAXIMUS CONFESSOR",
+      "title": "Hymni varii",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1417,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo 1418"
+    },
+    {
+      "author": "THALASSIUS ABBAS",
+      "title": "De charitate ac continentia, necnon de regimine mentis, ad Paulum presbyterum, centuriae IV",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1427,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "head col ~1428"
+    },
+    {
+      "author": "THALASSIUS ABBAS",
+      "title": "Libellus ad Theodosium imp.",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1469,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "head col ~1461-1474"
+    },
+    {
+      "author": "THEODORUS RAITHUENSIS ABBAS",
+      "title": "De incarnatione liber",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1483,
+      "bodyLine": null,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "elenchus col. 1483"
+    }
+  ]
+}

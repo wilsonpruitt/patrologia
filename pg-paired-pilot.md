@@ -827,6 +827,41 @@ designed to ask of it.
    exhaustiveness rule, which only Wilson can make. Not proposed here.
    Maximus is a **better-witnessed** PG source than Calfa, so the tooling is
    kept for when it comes up in the queue on its merits.
+0f. ✅ **RULED 2026-10-14 (Wilson): PG 90 and 91 are in the PG queue from now on,
+   and Maximus' untranslated letters rise to the head of it.** Done the same day:
+   `data/pg-toc/works/90.json` + `91.json` (built from the closing ORDO RERUM, with
+   heads confirmed by `pg-colfind`; OCR evidence, not plate reads), both tomes
+   appended to `data/pg-byzantine-queue.json` **after** PG 161 so the
+   `english-prior.tsv` indices 0–940 don't move, and priors added in
+   `scripts/pg-english-prior.py` (`MAX`, keyed by vol + startCol).
+   **Epistulae XLV, PG 91.361–650** (≈290 columns, ≈145 Greek, ≈55–60K Greek words
+   estimated from the Symeon density) are coded **P**: Ep. 2 is in Louth (1996) and
+   other letters are scattered, but there is no complete English. A `PRIORITY` set
+   lets them into `untranslated-queue.tsv` anyway. Check the English per letter
+   before translating; any letter already in English gets the usual `elsewhere`
+   pointer.
+   **⚠ The letters have no ready Greek text. All three of the other sources fail
+   here:**
+   - not on myriobiblos (0c);
+   - not in Calfa's 33 volumes, and Calfa's recognition model is not public;
+   - empty in every OGL witness, because the 2015 OGL run left the first
+     ~350 pages of all 6 PG 91 copies blank. PG 90's back half *is* covered,
+     Liber asceticus included.
+
+   **So the Greek has to come from the plates.** Choosing the Greek source is the
+   first decision of the pilot. It needs Wilson's model + go, because it is a big
+   token burn:
+   - **(a)** Claude vision transcription, then the usual stint that opens every plate
+     page. That is two independent reads, which also tests the one idea 0e left
+     untested.
+   - **(b)** First try an open polytonic Kraken/Ciaconna model locally, at no token
+     cost, as the base or the second witness.
+
+   Rough whole-work estimate: ≈8M for translation plus the every-page read (Symeon
+   rate), plus ≈2M if the base text comes from Claude vision. The other untranslated
+   or unsure Maximus items now in the queue: Opuscula (P, only Opusc. 3 and 7 in
+   Louth), De anima, Loci communes (Ps.-Maximus), Ad Theopemptum, Capita alia,
+   Ps 59.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read

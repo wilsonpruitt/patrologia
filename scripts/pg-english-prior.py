@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prior-English status for every PG 100-161 work in data/pg-toc/works.tsv.
+"""Prior-English status for every PG 100-161 work in data/pg-toc/works.tsv (plus PG 90-91, appended 2026-10-14).
 
 Judgments are from MODEL MEMORY (Opus, 2026-10-05), not verified against any
 catalogue. Wilson ruled this adequate for queueing; confirm per work before a
@@ -156,21 +156,47 @@ J = {
 }
 
 root = pathlib.Path(__file__).resolve().parent.parent / "data" / "pg-toc"
+# PG 90-91 (Maximus) were appended after PG 161 on 2026-10-14; keyed by (vol, startCol) so J's indices never move.
+# Model memory (Opus, 2026-10-14), unverified like J. Epistulae ranked to the head of the PG queue by Wilson.
+MAX = {
+ ("90","67"):("Y","Neil & Allen, Life of Maximus, recension 3 (2003)"),
+ ("90","109"):("Y","Allen & Neil, Maximus and his Companions: Documents from Exile (2002)"),
+ ("90","244"):("Y","Constas, FOTC 136 (2018)"),
+ ("90","785"):("Y","Prassas, Questions and Doubts (2010)"),
+ ("90","856"):("U","Ps 59: check (Constas? Armstrong?)"),
+ ("90","872"):("Y","Berthold, CWS (1985); Philokalia 2"),
+ ("90","912"):("Y","Sherwood, ACW 21 (1955)"),
+ ("90","960"):("Y","Sherwood, ACW 21 (1955); Philokalia 2"),
+ ("90","1084"):("Y","Philokalia 2; Berthold (1985)"),
+ ("90","1177"):("Y","Philokalia 2 (Various texts)"),
+ ("90","1393"):("U","Ad Theopemptum: check"),
+ ("90","1401"):("U","Capita alia: check"),
+ ("91","9"):("P","Opuscula: selected only (Louth 1996: Opusc. 3, 7); no complete English"),
+ ("91","287"):("Y","Farrell (1990)"),
+ ("91","353"):("U","De anima: check"),
+ ("91","361"):("P","Epistulae: NO complete English; Ep. 2 in Louth (1996), others scattered; check per letter. Wilson 2026-10-14: head of PG queue"),
+ ("91","657"):("Y","Berthold, CWS (1985); Constas, PPS (2019)"),
+ ("91","717"):("U","Loci communes (Ps.-Maximus): check"),
+ ("91","1031"):("Y","Constas, DOML 28-29 (2014)"),
+ ("91","1427"):("Y","Philokalia 2"),
+}
 rows = [r for r in csv.DictReader(open(root/"works.tsv"), delimiter="\t") if r["kind"]=="work"]
-assert len(rows)==941, len(rows)
+byz = [r for r in rows if int(r["vol"]) >= 100]
+assert len(byz)==941 and rows[:941]==byz, len(byz)
 def num(v):
     try: return int(v)
     except: return None
 out = []
 for i,r in enumerate(rows):
-    code,note = J.get(i,("N",""))
+    code,note = J.get(i,("N","")) if i < 941 else MAX.get((r["vol"], r["startCol"]),("N",""))
     s,e = num(r["startCol"]), num(r["endCol"])
     out.append({"idx":i,"vol":r["vol"],"startCol":r["startCol"],"cols":(e-s+1) if s and e else "",
                 "greek":r["greek"],"english":code,"note":note,"author":r["author"],"title":r["title"]})
 cols = ["idx","vol","startCol","cols","greek","english","note","author","title"]
 with open(root/"english-prior.tsv","w") as f:
     w = csv.DictWriter(f, cols, delimiter="\t"); w.writeheader(); w.writerows(out)
-q = [o for o in out if o["english"] in ("N","U")]
+PRIORITY = {("91","361")}  # Wilson 2026-10-14: Maximus' Epistulae join the queue despite P (no complete English)
+q = [o for o in out if o["english"] in ("N","U") or (o["vol"], o["startCol"]) in PRIORITY]
 with open(root/"untranslated-queue.tsv","w") as f:
     w = csv.DictWriter(f, cols, delimiter="\t"); w.writeheader(); w.writerows(q)
 from collections import Counter
