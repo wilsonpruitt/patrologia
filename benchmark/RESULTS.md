@@ -87,3 +87,24 @@ are rare (20 across 8 pages).
 **Where it DID work:** finding omissions in a *keyed* transcription against PG 91's OCR (Maximus,
 `pg-paired-pilot.md` 0e), where the candidate is clean, so every flag is signal. PG 91's OCR may
 also be cleaner than some of these volumes; PG 145 flagged 91% of its text.
+
+### Follow-up, same day — Calfa word-form list as a detector: also NEGATIVE
+
+`scripts/build-greek-lexicon.py` builds a frequency list from the 33 Calfa volumes (6.77M tokens,
+531K forms → `raw/greek-lexicon.tsv`, gitignored). `benchmark/lexicon-eval.py` flags every word of
+the model output that occurs fewer than K times in that list.
+- **Haiku:** at K≥2 it catches 668 of 950 letter errors with 95% of flags real, but it flags 20% of
+  all words, and Haiku is too inaccurate to use anyway.
+- **Sonnet**, after excluding ground-truth apparatus that Sonnet merely didn't transcribe (brackets,
+  chapter numerals, Latin sigla), has **43 genuine misreadings on 8 pages**. The word list catches
+  16, the junk-OCR scan 16, and the **union 27 (63%), while flagging 59% of all words.** Reading
+  every word costs little more than that and catches everything.
+- **Why:** Sonnet's residual errors are mostly *real Greek words*. It substitutes plausible
+  vocabulary (PG 89: διαπράττ- → ἐργάζ-, κηδό- → χρώ-, πολέμῳ → πᾶσι), drops particles (τοῦ, οὖν,
+  δέ σου) and makes accent swaps that still yield valid forms. No form-level or alignment-level
+  check sees these. Only a plate read does.
+
+**Standing conclusion:** there is no cheap verifier for Claude vision Greek with these tools. A
+full plate read stays mandatory, so the original ruling holds (Calfa's pipeline, not Claude
+vision, for volumes outside Calfa). Untested and costs model calls: two independent vision reads
+diffed against each other.
