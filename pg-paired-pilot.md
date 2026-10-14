@@ -790,10 +790,13 @@ designed to ask of it.
    must be checked against an independent witness before it is translated
    (cf. the exhaustiveness rule in `CLAUDE.md`).
    ⚑ **The cheap way to do that, still to be tested:** OCR the plates with Calfa's
-   model (`sources/pg/calfa/models/`), diff the OCR against this transcription,
+   pipeline, diff the OCR against this transcription,
    and read only the disagreements at the plate. Two independent witnesses that
    fail differently is what the attribution ladder asks for. Eye-skips show up as
    long one-sided runs in the diff, so they are easy to catch. **Not yet tested.**
+   ⚠ `sources/pg/calfa/models/` holds only the YOLO *layout* model
+   (`REG-YOLOv12s.pt`). The text-recognition model is NOT on disk, so it has to
+   be found first.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
