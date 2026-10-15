@@ -930,6 +930,19 @@ designed to ask of it.
    58/57 and there is no one-sided run. 56 `[?]` marks in total, 15 of them on p316.
    **Next: the every-page plate stint**, which opens every page and resolves every flag and `[?]`.
    It is agent work, under the token hard stop.
+   **PLATE CHECK 2026-10-15 (Wilson: "Sonnet go"): DONE, BUT NOT CONVERGED.**
+   `scripts/plate-check-api.py`: every line of every page against the image (6 strips), with the
+   CLLG list as a checklist only. Batch `msgbatch_018DjwEmKYxym2PggTroWKmr`, 160/160, **$9.08**.
+   Output in `raw/pg091/checked/` (the text + `.ledger.tsv`: line, old, plate, source, certainty,
+   note; `SUMMARY.jsonl`). **552 changes:** 329 on CLLG flags, 169 that CLLG never flagged, 54
+   `[?]` marks resolved. **283 of the 552 are self-rated `uncertain`.** 10 words are
+   `ILLEGIBLE`. No line-count drift.
+   ⚠ **Run-to-run variance (the test pages in `checked/pilot/` were re-run in the batch):** p274
+   differs on **11 of 58 lines** between the two runs (l.7 Θεῷ ἀντικειμέ- vs ἐνσωματουμέ-), and
+   p210 on 4 (τὰ/τὸ, ἀληθῆς/ἀληθής, πολιορχία/πολιορκία, ὢ/ὦ). **One check pass does not settle
+   a reading.** Caveat: the test run had no certainty column, so the two prompts are not identical.
+   The scan is the root cause: 1-bit and clogged. PG 91 has other copies (3 Google Books ids in
+   `data/volumes.json`, and the 6 OGL source scans of 0f), which have not yet been looked at.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
