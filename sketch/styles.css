@@ -317,7 +317,8 @@ a { color: inherit; }
 
 @media (max-width: 760px) {
   .bar { padding: .8rem 1rem .6rem; }
-  .bar nav { gap: .9rem; }
+  .bar { flex-wrap: wrap; row-gap: .4rem; }
+  .bar nav { gap: .5rem .9rem; flex-wrap: wrap; }
   .titlepage, .resolver, .recent, .ledger, .columns, .apparatus { padding-left: 1rem; padding-right: 1rem; }
   .ledger { grid-template-columns: 1fr; gap: 1.4rem; }
   .col-rules { grid-template-columns: 1fr; gap: 0; }
@@ -331,7 +332,7 @@ a { color: inherit; }
    Secondary pages: volume indexes, authors, queue, Migne essay
    ============================================================ */
 
-.vol-index, .authors-index, .queue, .essay {
+.vol-index, .authors-index, .browse, .queue, .essay {
   max-width: 60rem; margin: 0 auto; padding: 3rem 2rem 3.5rem;
 }
 
@@ -466,4 +467,31 @@ a { color: inherit; }
   font-family: "Frank Ruhl Libre", "Times New Roman", serif;
   direction: rtl; unicode-bidi: isolate;
   font-size: 1.08em; letter-spacing: 0;
+}
+
+/* /browse/ — Phase A tree (V2-PLAN.md) */
+.br-controls { display: flex; flex-wrap: wrap; gap: .8rem 1.2rem; align-items: center; max-width: 42rem; margin: 0 auto 1.6rem; }
+.br-controls input[type=search] {
+  flex: 1 1 16rem; font: inherit; padding: .55rem .8rem; border: 1px solid var(--rule);
+  background: #fff9ec; color: var(--encre); border-radius: 2px;
+}
+.br-en { font-size: .92rem; color: var(--encre-douce); }
+.br-count { font-size: .88rem; color: var(--encre-douce); }
+.browse summary { cursor: pointer; }
+.br-series { max-width: 42rem; margin: 0 auto 1.4rem; }
+.br-series > summary { padding: .5rem 0; border-bottom: 2px solid var(--dorure); }
+.br-series > summary h2 { display: inline; font-family: var(--didot); font-weight: 400; font-size: 1.5rem; color: var(--vert); }
+.br-author { border-bottom: 1px solid var(--rule); padding: .35rem 0; }
+.br-author > summary { padding: .15rem 0; }
+.br-name { color: var(--vert); }
+.br-n { float: right; font-family: var(--didot); font-size: .82rem; color: var(--encre-douce); }
+.br-n b { color: var(--maroquin); font-weight: 400; }
+.br-author .a-works { padding: .3rem 0 .6rem 1.2rem; }
+.br-author .a-latin, .br-author .a-dates { font-size: .85rem; color: var(--encre-douce); margin-left: .5em; }
+.br-en-work { font-weight: 600; }
+.br-en-work + .gilt-dot { margin-left: .4em; }
+.br-none { color: var(--encre-douce); padding: .6rem 0; }
+@media (max-width: 40rem) {
+  .browse { padding: 2rem 1rem 3rem; }
+  .br-n { float: none; display: block; }
 }

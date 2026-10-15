@@ -51,6 +51,11 @@ Rabira's three links are all *navigation* models: syriaccorpus and mlat.uzh.ch a
 
 Acceptance: every shipped work reachable within two clicks from `/browse/`; page weight reasonable on mobile.
 
+### Phase A as built (2026-10-15)
+
+`scripts/build-browse.mjs` → `site/browse/index.html` (397 KB raw, one embedded JSON block; PL 1,491 authors / 5,276 works, PG 237 / 973; 191 in English, gilt and linked). Series → author → work, counts at each level, filter box (author or title, accent-folded), "In English only" toggle; work lists render lazily. Added to `build-site.mjs` INDEXES, `preflight` freshness list and the nav (`Browse`). Checked in a browser: filter, English toggle, no horizontal scroll at 390 px. Also fixed an existing site-wide bug: the nav bar overflowed on phones (now wraps).
+**Caveats:** PG author names come from two sources, so a shipped author and the same author's unshipped works can show as two entries. The nav change reaches work pages only when they are next rebuilt. `sitemap.xml` not regenerated. Not deployed.
+
 ## Phase B — sentence highlighting
 
 Hover/tap a sentence in either column → its counterpart highlights in the other.

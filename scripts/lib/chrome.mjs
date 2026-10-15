@@ -7,6 +7,7 @@
 export const NAV_ITEMS = [
   { key: 'latina', href: '/latina/', label: 'Latina' },
   { key: 'graeca', href: '/graeca/', label: 'Græca' },
+  { key: 'browse', href: '/browse/', label: 'Browse' },
   { key: 'authors', href: '/authors/', label: 'Authors' },
   { key: 'queue', href: '/queue/', label: 'The Queue' },
   { key: 'scripture', href: '/scripture/', label: 'Scripture' },

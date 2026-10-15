@@ -97,7 +97,7 @@ run('index freshness — no index older than the newest work page', () => {
   const worksDir = path.join(ROOT, 'site/pl');
   if (!fs.existsSync(worksDir)) return 'no built work pages yet';
   const newestWork = newest(worksDir);
-  const INDEXES = ['index.html', 'glossa/index.html', 'authors/index.html', 'scripture/index.html',
+  const INDEXES = ['index.html', 'glossa/index.html', 'authors/index.html', 'browse/index.html', 'scripture/index.html',
                    'latina/index.html', 'graeca/index.html', 'queue/index.html', 'sources/index.html'];
   const stale = INDEXES.filter(rel => {
     const q = path.join(ROOT, 'site', rel);

@@ -40,6 +40,7 @@ const PERWORK = ['build-work-page.mjs', 'index-work.mjs', 'build-cruces.mjs'];
 const INDEXES = [
   'build-glossa.mjs',           // ← the one missed on 2026-09-05
   'build-authors-index.mjs',
+  'build-browse.mjs',           // /browse (Phase A, V2-PLAN.md)
   'build-scripture-index.mjs',
   'build-commentaries.mjs',
   'build-volume-indexes.mjs',   // /latina + /graeca
