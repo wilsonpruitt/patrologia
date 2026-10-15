@@ -1,6 +1,6 @@
 # migne.app 2.0 — reader tools
 
-Drafted 2026-10-15. **Status: SKETCH — no phase started.** Wilson's open calls are in the last section; nothing below is decided until he rules on them.
+Drafted 2026-10-15. **Status: RULED 2026-10-15 — no phase started.** Wilson's rulings are in the last section. Next action: Phase 0, before the next translated work.
 
 ## Origin
 
@@ -133,11 +133,11 @@ Acceptance: E1 live on all work pages. E2: a shared `/q/` link unfurls with a co
 
 Model tiers ([[reference_model-prudence-rubric]]): Phase 0's convention wording and Phase C's licensing/lexicon-source choice are judgment calls; Phases A, B rollout, C rollout and E are pattern-following volume work for a cheaper session working from this file.
 
-## Open calls for Wilson
+## Rulings (Wilson, 2026-10-15)
 
-1. Phase 0 marker syntax and paragraph-ID scheme — accept the proposals above or amend?
-2. Hypothesis embed (third-party, their branding) vs. browser-local notes vs. nothing until the app?
-3. Pilot work for Phases B and C — which PL work?
-4. Reply to Rabira — and whether to say what's coming.
-5. Phase B retrofit of shipped works — does a machine-only sentence alignment fall under the no-retrofit ruling, or is it outside it?
-6. Priority against translation: none of Phases A–E produces a new public work (E is the only one aimed at reach). Where do they sit in the queue relative to shipping works?
+1. **Phase 0 — accepted as proposed.** Sentence markers `⟦sN⟧` emitted at translation time in both languages; paragraph IDs `<textIdno>.<chunk>.<para>`, never renumbered after ship, splits take a suffix (`.4a`). Applies from the next translated work.
+2. **Phase D — Hypothesis** as the interim annotation layer. Own accounts only with the Press-wide app.
+3. **Pilot work for Phases B and C — Abbo, *Canones* (PL 139, idno 9741)**, the first pilot and style anchor.
+4. **Rabira — no reply now.** Write back once something ships.
+5. **Phase B retrofit — outside the no-retrofit ruling; do it.** Machine-only alignment over files we hold, text untouched; low-confidence paragraphs fall back to paragraph-level highlighting.
+6. **Priority — Phase 0 now; the rest slot between works** as small units and never displace a work in progress.
