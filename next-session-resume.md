@@ -2,6 +2,8 @@
 
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-14) — NEXT PG WORK: MAXIMUS THE CONFESSOR, *EPISTULAE* (PG 91.361–650) · PG 90–91 NOW IN THE QUEUE · ⏳ FIRST DECISION: THE GREEK SOURCE (token stop)
 
+**▶ 2026-10-15 UPDATE: the Greek source is SETTLED.** Wilson ruled the order: a blind vision read first, then CLLG confirms. The read ran through the API Batch (key in Keychain `anthropic-api`), all 160 pages for $5.07, output in `raw/pg091/api/`, with per-page CLLG checklists in `raw/pg091/api/diff/` (median 10.5% flagged). **Next: the every-page plate stint (token stop: which model, and go?), then translation.** Full record: `pg-paired-pilot.md` **0i**.
+
 **Wilson, 2026-10-14:** *"Let's make sure we include PG 90 and 91 as we go forward with patrologia. And these untranslated letters should rise up in the queue."* So the PG queue now covers 90–91 as well as 100–161, and **Maximus' 45 letters are the next PG work**. The PL volume queue is unchanged.
 **Done:** `data/pg-toc/works/90.json` + `91.json`, appended to `data/pg-byzantine-queue.json` after PG 161; works.tsv rows 1221–1250; priors via `MAX` in `scripts/pg-english-prior.py` (Epistulae = P, Louth 1996 has Ep. 2, let into `untranslated-queue.tsv` by `PRIORITY`). Full record: `pg-paired-pilot.md` **0f** (with 0c–0e on the myriobiblos transcription and the scans).
 **⚠ No Greek text exists for the letters:** not on myriobiblos, not in Calfa, and empty in all 6 OGL witnesses (the first ~350 pages of PG 91 are blank in every one). The Greek must come from the plates: `raw/pg091/091.pdf`, page map k drifts −37…−69 across this range (0d), so recalibrate from the corner numbers.
