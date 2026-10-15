@@ -943,6 +943,29 @@ designed to ask of it.
    a reading.** Caveat: the test run had no certainty column, so the two prompts are not identical.
    The scan is the root cause: 1-bit and clogged. PG 91 has other copies (3 Google Books ids in
    `data/volumes.json`, and the 6 OGL source scans of 0f), which have not yet been looked at.
+   ⛔ **RULED 2026-10-15 (Wilson): NO MORE READING PASSES. THE GREEK BASE TEXT IS CLOSED.**
+   Wilson stopped the proposed second check run: *"it keeps going up and up … we are doing a
+   fourth reading which will probably lead to a fifth."* **Why he was right:** on a 1-bit,
+   clogged scan the readings do not converge (the run-to-run variance above), so another pass on
+   the same image buys another set of guesses, not certainty. That is the same lesson as memory
+   `feedback_repass-needs-located-cause`. (CLLG was not the cost: it was free CPU, and 329 of the
+   552 corrections were at its flags.) **Final Greek spend: $14.15** ($5.07 read + $9.08 check).
+   **The rule from here:**
+   - **Base text = `raw/pg091/checked/p<page>.txt`.** The blind read in `api/` and the
+     `checked/pilot/` runs are superseded and kept only as evidence.
+   - **The remaining doubt travels with the text: `raw/pg091/checked/DOUBTS.tsv`, 298 rows**
+     (273 `uncertain`, 10 `illegible`, 15 `runs-disagree` on p210/p274; columns: page, line,
+     base, checked, kind, note).
+   - **The translation stint settles them during the plate visit it already makes** (one visit per
+     page, all layers at once, `CLAUDE.md`), **and only where the choice changes the English.** A
+     doubt that does not touch the sense (accent, κ/χ, ὢ/ὦ, τὰ/τὸ where both construe) is left
+     as checked and is NOT counted as a plate claim. Nothing in DOUBTS may become a `[sic:]` or
+     `[var:]` unless it was read at the plate.
+   - **A better scan is a per-reading tool, not a pass:** consult another PG 91 copy (the 3 Google
+     Books ids, the OGL source scans) only for a reading that matters to the sense and that this
+     plate cannot settle.
+   - **No further Greek-side spend before translation.** The next cost is translation itself,
+     under the token hard stop.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
