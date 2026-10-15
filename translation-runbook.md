@@ -80,6 +80,14 @@ after the translation is paid for.
    PL 114's on 8, and it is the work in hand that ships. The cost of skipping it is
    measured: 11613 col. 1254B had its crux answered by *Forte earum* at the foot of its own
    page, and the translator correctly declined it for want of a witness we already had.
+1a′. **Stamp sentence anchors (migne.app 2.0 Phase 0, Wilson 2026-10-15; `V2-PLAN.md`).**
+   `node scripts/mark-sentences.mjs <idno>` (PG: `<path to src/greek/<key>> --greek`) stamps
+   `⟦pN⟧` paragraph IDs and `⟦sN⟧` sentence anchors into the SOURCE chunks. Run it AFTER the
+   last re-chunk and BEFORE any translation: it refuses chunks already marked (IDs are never
+   renumbered once assigned; `--force` is for pre-translation reruns only), and a re-chunk
+   erases the markers. Full ID = `<idno>.<chunk>.<para>`. The segmenter is a cheap heuristic —
+   a wrong break is fixed in the English with a merge marker, not by editing the Latin.
+   Legacy works carry no markers and every check is a no-op for them; retrofit is Phase B.
 1b. **Lemma inventory + per-stint split** — for any lemma-and-gloss work (every Glossa
    book), and it is what makes the 7a″ clause a deliverable rather than an exhortation.
    `node scripts/lemma-inventory.mjs <idno>` writes `data/briefs/<idno>-lemmata.txt`:
@@ -331,6 +339,16 @@ after the translation is paid for.
 >   plate prints twice; `[sic: ...]` carried type that is the plate's own defect;
 >   `[ed: ...]` our own voice, sparingly, only where the DIGITIZATION has lost text
 >   the plate carries. Read those patterns before using any of them.
+>
+> Paragraph IDs and sentence anchors (works stamped by `mark-sentences.mjs` only — if your
+> Latin chunk has no `⟦p1⟧`, ignore this block). Every paragraph (and each `- ` list line)
+> opens `⟦pN⟧` and every Latin sentence opens `⟦sN⟧`. Reproduce **every** `⟦p⟧` verbatim,
+> and place an `⟦s⟧` where each English sentence begins, matching the Latin sentence it
+> renders. Many-to-one: two Latin sentences rendered as one English sentence take a merged
+> marker `⟦s2+s3⟧` (consecutive only). One-to-many: repeat the id (`⟦s2⟧ … ⟦s2⟧`). Never
+> drop, renumber or invent an id; never move text across a `⟦p⟧` boundary. Do not alter the
+> Latin. These markers are for the builder and never reach the reader; `verify-english.mjs`
+> checks IDs, coverage and order per paragraph. Heads (`## `) carry no marker.
 >
 > Scripture policy: translate what Migne prints, never substitute a conventional
 > version. Garbled type: render literally, log in `src/english/<idno>/cruces.md`

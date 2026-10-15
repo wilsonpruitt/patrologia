@@ -14,6 +14,7 @@ import path from 'node:path';
 import { nav } from './lib/chrome.mjs';
 import { isFirstEnglishPG } from './lib/first-english.mjs';
 import { canonicalTag, jsonLdScript, workJsonLd, writeWorkSiblings } from './lib/reading-layer.mjs';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const key = process.argv[2];
 if (!key) { console.error('usage: node scripts/build-work-page-pg.mjs <workKey>'); process.exit(1); }
@@ -27,7 +28,7 @@ if (!work) { console.error(`no pg-works.json entry for ${key}`); process.exit(1)
 const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8'));
 const workAbout = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/work-about.json'), 'utf8'));
 
-const body = f => fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '').trim();
+const body = f => stripMarkers(fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '')).trim(); // Phase 0 markers never reach the reader
 const joined = dir => manifest.chunks
   .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`)))
   .join('\n\n');

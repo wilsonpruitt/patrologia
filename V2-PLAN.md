@@ -1,6 +1,6 @@
 # migne.app 2.0 — reader tools
 
-Drafted 2026-10-15. **Status: RULED 2026-10-15 — no phase started.** Wilson's rulings are in the last section. Next action: Phase 0, before the next translated work.
+Drafted 2026-10-15. **Status: RULED 2026-10-15. Phase 0 TOOLING BUILT 2026-10-15 (see "Phase 0 as built"); nothing else started.** Wilson's rulings are in the last section. Next action: run `mark-sentences.mjs` on the next translated work and measure the cost.
 
 ## Origin
 
@@ -31,6 +31,15 @@ The underlying need in #1 is **verification**: a reader who distrusts a renderin
 5. **Cost check:** markers add a little to every translation stint. Measure on the first work; it must not slow the ship rate, since new works are the funding lever (CLAUDE.md, 2026-08-18).
 
 Acceptance: next translated work ships with markers in both languages and passes the new check. Retrofit of shipped works is Phase B's job, not Phase 0's.
+
+### Phase 0 as built (2026-10-15)
+
+- `scripts/lib/sentence-markers.mjs` — marker grammar, `stripMarkers`, `compareMarked`.
+- `scripts/mark-sentences.mjs <idno|dir> [--greek]` — stamps `⟦pN⟧` / `⟦sN⟧` into the SOURCE chunks (runbook step 1a′). **Deviation from the proposal, for Wilson's notice:** the source-language markers are stamped by script, not emitted by the translation agent. Reason: the Latin twin is a regenerable TEI transform, and an agent editing it risks drift; the agent now only mirrors markers into the English. A bad machine break is repaired in the English with a merge marker (`⟦s2+s3⟧`). Round-trip tested on 9741 (stripping markers restores every chunk byte-for-byte; 160 paragraphs, 516 sentences, in a scratch copy, not written to `src/`).
+- `verify-english.mjs` and `verify-english-pg.mjs` — new check (IDs equal, coverage 1..n, order, no orphans); no-op when neither side has markers; 9741 still verifies. Negative cases (orphan, out-of-order, mismatched ID) caught.
+- `build-work-page.mjs` / `build-work-page-pg.mjs` strip markers; `scan-raw-markers.mjs` flags a raw `⟦` in built HTML.
+- Runbook: step 1a′ and a prompt-template paragraph.
+- **Not yet done:** the cost check (item 5) — needs the first marked work. **Before that work ships, audit the other readers of `src/latin` / `src/english`** (`index-work*.mjs`, `plate-gate`, `build-cruces`, `polarity-record`, `extract-quotations`, `lemma-inventory`, `marker-reconcile`, `decade-check`) for marker tolerance; only the verifiers and the two page builders have been taught so far.
 
 ## Phase A — browse tree (small, visible, static)
 

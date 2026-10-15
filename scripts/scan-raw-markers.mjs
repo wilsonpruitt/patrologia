@@ -32,7 +32,8 @@ const SITE = path.join(ROOT, 'site');
 // Every inline marker in the vocabulary. Grown by attestation, like every other
 // list in this repo — add one here the same commit you add it to a builder.
 const MARKERS = ['n', 'nt', 'f', 'sic', 'ed', 'var', 'lat', 'cj', 'cn', 'vl', 'fn', 'b', 'bid'];
-const RAW = new RegExp(`\\[(?:${MARKERS.join('|')}):`, 'g');
+// ⟦pN⟧/⟦sN⟧ (Phase 0, V2-PLAN.md) carry no colon; the ⟦ glyph is the tell.
+const RAW = new RegExp(`\\[(?:${MARKERS.join('|')}):|⟦`, 'g');
 
 // Column anchors are NOT markers and are supposed to survive as text in some
 // contexts; they are excluded by the marker list above (they carry no colon).

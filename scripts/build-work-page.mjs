@@ -14,6 +14,7 @@ import path from 'node:path';
 import { nav } from './lib/chrome.mjs';
 import { isFirstEnglishPL, loadPlStatusByIdno, badgeHtml } from './lib/first-english.mjs';
 import { canonicalTag, jsonLdScript, workJsonLd, writeWorkSiblings } from './lib/reading-layer.mjs';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const idno = process.argv[2];
 if (!idno) { console.error('usage: node scripts/build-work-page.mjs <textIdno>'); process.exit(1); }
@@ -24,7 +25,9 @@ const manifest = JSON.parse(fs.readFileSync(path.join(latDir, 'manifest.json'), 
 
 const body = f => {
   const raw = fs.readFileSync(f, 'utf8');
-  return raw.replace(/^---\n[\s\S]*?\n---\n/, '');
+  // Phase 0 ⟦pN⟧/⟦sN⟧ markers are a translation-time hand-off (Phase B will consume them);
+  // the reading view never shows them.
+  return stripMarkers(raw.replace(/^---\n[\s\S]*?\n---\n/, ''));
 };
 const joined = dir => manifest.chunks
   .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`)))

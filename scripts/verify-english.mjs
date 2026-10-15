@@ -14,6 +14,7 @@
 //   9. Pattern-12 [sic: …] plate-defect markers: English-only, never empty, and
 //      content must be VERBATIM in the Latin twin (it is carried type, not translation).
 //  10. Pattern-13 [ed: …] editorial-voice notes: English-only, never empty, and content
+//  12. Phase 0 sentence/paragraph markers ⟦pN⟧ ⟦sN⟧ (scripts/lib/sentence-markers.mjs), when present.
 //  11. Pattern-14 [var: …] scripture-divergence notes: English-only, never empty, must
 //      name the witness (Vulg./LXX/Gk/Heb./Douay/Vet. Lat.).
 //      must NOT be verbatim Latin (it is ours, not Migne's).
@@ -27,6 +28,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { hasMarkers, stripMarkers, compareMarked } from './lib/sentence-markers.mjs';
 
 const idno = process.argv[2];
 if (!idno) { console.error('usage: node scripts/verify-english.mjs <textIdno>'); process.exit(1); }
@@ -61,6 +63,16 @@ for (const c of manifest.chunks) {
 
   if (eng.fm.trim() !== lat.fm.trim())
     errs.push(`${name}: frontmatter differs from Latin twin (must be verbatim copy)`);
+
+  // 12. Phase 0 (V2-PLAN.md): paragraph IDs ⟦pN⟧ + sentence anchors ⟦sN⟧. A no-op for legacy
+  // works (neither side carries a marker). Once EITHER side does, both must match per
+  // paragraph (IDs, coverage, order, no orphans). Everything below then sees marker-free
+  // bodies, so word ratios, dedupe and guillemet parity are unchanged.
+  if (hasMarkers(lat.body) || hasMarkers(eng.body)) {
+    compareMarked(lat.body, eng.body).forEach(e => errs.push(`${name}: ${e}`));
+    lat.body = stripMarkers(lat.body);
+    eng.body = stripMarkers(eng.body);
+  }
 
   const latCols = [...lat.body.matchAll(colRe)].map(m => m[1]);
   const engCols = [...eng.body.matchAll(colRe)].map(m => m[1]);

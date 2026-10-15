@@ -15,6 +15,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { hasMarkers, stripMarkers, compareMarked } from './lib/sentence-markers.mjs';
 
 const key = process.argv[2];
 if (!key) { console.error('usage: node scripts/verify-english-pg.mjs <workKey>'); process.exit(1); }
@@ -40,6 +41,13 @@ for (const c of manifest.chunks) {
   const grc = split(fs.readFileSync(path.join(grcDir, `${n}.md`), 'utf8'));
   const eng = split(fs.readFileSync(engPath, 'utf8'));
   if (grc.fm !== eng.fm) errs.push(`${n}: frontmatter differs from Greek chunk`);
+  // Phase 0 (V2-PLAN.md) ⟦pN⟧/⟦sN⟧ markers: checked when present, then stripped so the
+  // ratio and dedupe checks below see plain text. No-op for legacy works.
+  if (hasMarkers(grc.body) || hasMarkers(eng.body)) {
+    compareMarked(grc.body, eng.body).forEach(e => errs.push(`${n}: ${e}`));
+    grc.body = stripMarkers(grc.body);
+    eng.body = stripMarkers(eng.body);
+  }
   const gCols = [...grc.body.matchAll(colRe)].map(m => m[1]);
   const eCols = [...eng.body.matchAll(colRe)].map(m => m[1]);
   if (gCols.join(',') !== eCols.join(','))
