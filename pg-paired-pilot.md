@@ -921,6 +921,15 @@ designed to ask of it.
    προσετάχθημεν for **προσετάγημεν**. API and agent also differ at 6 other spots (e.g.
    προσφορᾷ/προφορᾷ). The every-page plate stint settles those, and it stays mandatory.
    Output: `raw/pg091/api/p<page>.txt`. General rule: memory `reference_api-vs-agent-cost`.
+   **RUN 2026-10-15: DONE.** Batch `msgbatch_01UiECs9z57ymQiDzT36RTzD` read pp. 200–359
+   (p201 was the single-call test), 159/159 succeeded, **$5.07** (2.34M in, 0.55M out). The
+   base text for all 160 pages is in `raw/pg091/api/`.
+   `scripts/cllg-pass/ep-diff-all.sh` → `raw/pg091/api/diff/p<page>.txt` (the per-page checklist)
+   + `SUMMARY.tsv`. **Flag load: median 10.5%, mean 10.9%. 14 pages are over 15%.** The worst,
+   p274 at 31.8%, is CLLG's fault (worn type), not a structural miss: the line counts agree
+   58/57 and there is no one-sided run. 56 `[?]` marks in total, 15 of them on p316.
+   **Next: the every-page plate stint**, which opens every page and resolves every flag and `[?]`.
+   It is agent work, under the token hard stop.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
