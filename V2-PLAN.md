@@ -98,6 +98,30 @@ The only phase that needs a backend (auth + annotation store) and robust anchori
 
 Acceptance (interim): annotation available on all work pages; a short note on the method/about page saying notes are held by Hypothesis, not by us.
 
+## Phase E — share a quote (link + OG image card)
+
+Added 2026-10-15 (Wilson). **The one phase aimed at reach rather than at readers already here:** a shared quote card carries the site, the author and a column citation into feeds, so it is the phase that feeds the funding lever.
+
+**E1 — stopgap, no dependencies (can ship any time):**
+- "Copy link to this passage" on text selection, building a text-fragment URL: `…/work#:~:text=<start>,<end>` (Chrome, Edge, Safari scroll to and highlight it natively).
+- Preview shows the site-wide OG image, not a per-quote card. Browsers without fragment support simply land on the page.
+- Static JS only; no server code. Roughly an hour.
+
+**E2 — per-quote card (after Phase 0 + B):**
+- **Share URL** addresses sentences, not character offsets: `migne.app/q/<series>/<vol>/<paraId>.<s>-<s>` (exact form to settle with Phase 0's ID scheme). Offsets would drift when a plate patch or polarity repair changes the text; sentence IDs don't.
+- **A Vercel function** answers that URL: returns HTML with `og:title`/`og:description`/`og:image` (crawlers don't run JS) and redirects humans to the work page with the sentences highlighted. Image route renders the card with `@vercel/og`.
+- **Card:** approved palette (vert `#1E3B2C`, dorure `#C3A343`, papier `#F2EAD8`), EB Garamond; English quote, optional Latin/Greek beneath; author · work · column citation (`PL 144, 1025A`); CC BY-NC credit line. 1200×630.
+- **Length cap ~280 chars.** Longer selections: truncate with ellipsis on the card (full text at the link), or decline to share — pick one at build time.
+- **Fonts bundled with the function** as TTF: EB Garamond, GFS Didot, and a Greek-capable face for PG quotes. Test polytonic Greek rendering in the card before PG goes live.
+- Cache images at the CDN (stable inputs → stable image).
+
+**Watch-outs:**
+- **First server code in the `migne` project.** The deploy (`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`) uploads `site/`; confirm a function under `site/api/` builds and serves under that recipe on a preview deploy before relying on it, and that `vercel.json` rewrites don't swallow `/q/`.
+- `preflight.mjs` and `scan-raw-markers.mjs` must not trip on the new route; add a preflight check that a sample `/q/` URL returns OG tags.
+- Card text comes from our built pages, so markers (`[n:]`, `⟦s3⟧`, etc.) must be stripped exactly as the reading view strips them; test against a paragraph carrying notes.
+
+Acceptance: E1 live on all work pages. E2: a shared `/q/` link unfurls with a correct card on at least iMessage, Facebook, and X/Bluesky; the link lands on the highlighted sentences.
+
 ## Order
 
 1. **Phase 0** — runbook + verifier change. Blocks nothing, but every day without it adds retrofit work.
@@ -105,8 +129,9 @@ Acceptance (interim): annotation available on all work pages; a short note on th
 3. **Phase B** — sentence highlighting, pilot then roll out.
 4. **Phase C** — word lookup, Latin pilot → Latin rollout → Greek.
 5. **Phase D** — Hypothesis interim; own accounts only with the Press-wide app.
+6. **Phase E** — E1 (text-fragment link) can go in alongside Phase A at any time; E2 (OG card) follows Phase B.
 
-Model tiers ([[reference_model-prudence-rubric]]): Phase 0's convention wording and Phase C's licensing/lexicon-source choice are judgment calls; Phases A, B rollout, and C rollout are pattern-following volume work for a cheaper session working from this file.
+Model tiers ([[reference_model-prudence-rubric]]): Phase 0's convention wording and Phase C's licensing/lexicon-source choice are judgment calls; Phases A, B rollout, C rollout and E are pattern-following volume work for a cheaper session working from this file.
 
 ## Open calls for Wilson
 
@@ -115,4 +140,4 @@ Model tiers ([[reference_model-prudence-rubric]]): Phase 0's convention wording 
 3. Pilot work for Phases B and C — which PL work?
 4. Reply to Rabira — and whether to say what's coming.
 5. Phase B retrofit of shipped works — does a machine-only sentence alignment fall under the no-retrofit ruling, or is it outside it?
-6. Priority against translation: none of Phases A–D produces a new public work. Where do they sit in the queue relative to shipping works?
+6. Priority against translation: none of Phases A–E produces a new public work (E is the only one aimed at reach). Where do they sit in the queue relative to shipping works?
