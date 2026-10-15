@@ -887,6 +887,24 @@ designed to ask of it.
      witness (free) + a plate stint that resolves every flag and opens every page, then
      translation (≈8M). That is a big token burn, so it needs Wilson's "which model,
      and go?".
+
+0h. ⏸ **PAUSED 2026-10-15 (Wilson): the Epistulae Claude-vision step is on hold.**
+   The free CLLG pass over all 160 pages DID finish (`raw/pg091/cllg/ep/`, scripts in
+   `scripts/cllg-pass/`). Then the Sonnet base-text read was piloted and **measured at
+   several times the 0g estimate**, so Wilson stopped it. The point of CLLG was to make the
+   Greek cheaper, and it doesn't:
+   - one page per agent: ≈87K tokens/page (≈14M for 160 pages), against the ≈2M estimate;
+   - three pages per agent, with parallel reads: ≈40K/page (≈6.4M), but the agent then said it
+     had normalized orthography and written χ for κ instead of reading letter by letter, and
+     the CLLG flag load rose from ≈10% to 12–18%.
+   The cost is the page images going into Claude, not the model's output. CLLG adds no tokens,
+   but it saves none either: it is a quality check, not a discount. The remaining
+   verification (the every-page plate read) is the same cost as before.
+   Kept: 6 Sonnet pilot pages in `raw/pg091/sonnet/` (p201, 202, 224 single-page; p203–205
+   batched), the strips in `raw/pg091/ep-strips/`, and the prompts `sonnet-prompt*.md`.
+   **Resume only with a new cost basis.** Options on the table when it resumes: single-page
+   agents at ≈8–10M, batches with a "redo any page above 15% flag load" rule at ≈7M, or starting
+   the scan check from the CLLG text and Combefis' Latin.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
