@@ -905,6 +905,22 @@ designed to ask of it.
    **Resume only with a new cost basis.** Options on the table when it resumes: single-page
    agents at ≈8–10M, batches with a "redo any page above 15% flag load" rule at ≈7M, or starting
    the scan check from the CLLG text and Combefis' Latin.
+0i. ✅ **RULED + TESTED 2026-10-15 (Wilson): ORDER INVERTED, AND THE READ MOVES TO THE API.**
+   **Order:** the vision read runs first and BLIND (no CLLG text in front of the reader and no
+   CLLG-driven redo loop). Only then does `maximus-cllg-diff.py` confirm it. The 0h option of
+   starting from the CLLG text and using vision for flagged spots is dropped. CLLG is the check,
+   never the base.
+   **Cost: 0h misread its own number.** The images were not the expensive part (3 strips ≈ 7–8K
+   tokens). The 87K/page was subagent overhead. A direct API call with the same prompt
+   (`scripts/vision-api-read.py`, key in macOS Keychain `anthropic-api`) on p201: **14.4K in +
+   5.6K out ≈ 20K tokens ≈ $0.085/page** on Sonnet 5.5 → **≈$14 for all 160 pages, ≈$7 via
+   the Batch API.** That is near the original 0g ≈2M estimate.
+   **Quality, p201 against CLLG:** the API read disagrees with CLLG at 4 spots, all of them CLLG's
+   faults (ἣν/ἢν, a split παρ|όν). The agent read had two disagreements the API read doesn't
+   share. Both are agent normalizations: ψύχος for **ψόγος** (beside ἔπαινος) and
+   προσετάχθημεν for **προσετάγημεν**. API and agent also differ at 6 other spots (e.g.
+   προσφορᾷ/προφορᾷ). The every-page plate stint settles those, and it stays mandatory.
+   Output: `raw/pg091/api/p<page>.txt`. General rule: memory `reference_api-vs-agent-cost`.
 1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
    WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
    has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
