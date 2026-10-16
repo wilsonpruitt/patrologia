@@ -1,7 +1,7 @@
 # Next session — resume note
 
-## ▶ NEWEST (2026-10-15 late) — Phase C Latin lookup BUILT for all 172 PL works, local only (not pushed, not deployed)
-Score: `PHASE-C-DECISIONS.md`. Click-a-word is live in every PL work page's HTML: global sharded layer `site/lex/` (gitignored; `scripts/build-lookup.py`, ~1.5 min; **must exist at deploy**, preflight 3b enforces), Collatinus analyses (ambiguity-only) + L&S + Du Cange (OCR). Ship routine: `build-site.mjs <idno>` → `build-lookup.py` → `preflight.mjs` → deploy. **Open:** Wilson's spot audit (`data/phase-c/sample-*.tsv`); credits on the open-corpus dataset card; PG/Greek lookup (own accuracy check, Sophocles digitization); deploy held until after Oct 20 and needs its own OK.
+## ▶ NEWEST (2026-10-15 late) — Phase C Latin AND Greek lookup BUILT (172 PL + 9 PG), local only (not pushed, not deployed); Greek ruled acceptable at 91.6%
+Score: `PHASE-C-DECISIONS.md`. Click-a-word is live in every PL work page's HTML: global sharded layer `site/lex/` (gitignored; `scripts/build-lookup.py`, ~1.5 min; **must exist at deploy**, preflight 3b enforces), Collatinus analyses (ambiguity-only) + L&S + Du Cange (OCR). Ship routine: `build-site.mjs <idno>` → `build-lookup.py` → `preflight.mjs` → deploy. **Open:** Wilson's spot audit (`data/phase-c/sample-*.tsv`); credits on the open-corpus dataset card; Greek layer `site/lexg/` via `python3 scripts/build-lookup-grc.py` (also gitignored, preflight 3c); Sophocles NOT being built; deploy held until after Oct 20 and needs its own OK.
 
 
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-15, newest) — migne.app 2.0 PHASE C (click a word: lemma, morphology, lexicon) · Phases 0, A, B DONE and PUSHED (`b3d861b0`), NOTHING DEPLOYED (Wilson: deploy held until after Oct 20)
