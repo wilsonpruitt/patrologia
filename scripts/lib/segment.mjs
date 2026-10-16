@@ -8,7 +8,7 @@ const mkBreak = greek => new RegExp(`(${greek ? '[.?!;·]' : '[.?!]'}[»*)\\u201
 export function segment(text, greek = false) {
   const BREAK = mkBreak(greek);
   const masks = [];
-  const masked = text.replace(/\[(?:n|nt|cn|fn|vl|f|b|bid): [^\]]*\]|\[\d{3,5}[A-D]?\]/g, m => { masks.push(m); return `\u0001${masks.length - 1}\u0002`; });
+  const masked = text.replace(/\[(?:n|nt|cn|fn|vl|f|b|bid|sic|ed|d|var|lat|cj): [^\]]*\]|\[\d{3,5}[A-D]?\]/g, m => { masks.push(m); return `\u0001${masks.length - 1}\u0002`; });
   const out = [];
   let last = 0, m;
   BREAK.lastIndex = 0;

@@ -57,9 +57,15 @@ export function compareMarked(srcBody, engBody) {
     if (want.some((x, j) => x !== j + 1)) errs.push(`${tag}: source sentence ids not 1..n (${want.join(',')})`);
     // flatten the English: each marker covers the ids it names; a repeated id (one-to-many)
     // is allowed only when adjacent; ids must be non-decreasing and cover 1..n with no gap.
+    // Groups (one per English marker) must advance: a group starts right after the highest id
+    // so far (many-to-one / plain), or repeats the previous group exactly (one-to-many 1:2,
+    // many-to-many 2:2). Anything else is out of order or skips an id.
     const flat = b.sents.flat();
-    let prev = 0, ok = true;
-    for (const x of flat) { if (x !== prev && x !== prev + 1) { ok = false; break; } prev = x; }
+    let prevMax = 0, prevG = null, ok = true;
+    for (const g of b.sents) {
+      if (g[0] === prevMax + 1 || (prevG && g.join() === prevG.join())) { prevMax = Math.max(prevMax, g[g.length - 1]); prevG = g; }
+      else { ok = false; break; }
+    }
     const covered = [...new Set(flat)].sort((p, q) => p - q);
     if (!ok) errs.push(`${tag}: English sentence ids out of order or skipping (${flat.join(',')})`);
     else if (covered.join(',') !== want.join(','))
