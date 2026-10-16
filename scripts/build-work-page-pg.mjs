@@ -378,7 +378,7 @@ ${crucesLink}
   <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a>${hasWords ? ' Word lookup draws on <a href="/rights/#lookup">Morpheus and Liddell&ndash;Scott&ndash;Jones</a>; see there for their terms.' : ''}</p>
 </footer>
 
-${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}${hasWords ? `<script>window.__WORDS=${JSON.stringify({ lang: 'grc', base: '/lexg' })};\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/word-lookup.js'), 'utf8')}</script>\n` : ''}
+<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/share-link.js'), 'utf8')}</script>\n${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}${hasWords ? `<script>window.__WORDS=${JSON.stringify({ lang: 'grc', base: '/lexg' })};\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/word-lookup.js'), 'utf8')}</script>\n` : ''}
 <script>
 /* nearest-anchor fallback: a deep link to a column mark this page doesn't
    carry lands on the nearest preceding one instead of the page top */

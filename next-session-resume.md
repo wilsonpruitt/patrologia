@@ -1,5 +1,8 @@
 # Next session — resume note
 
+## ▶ NEWEST (2026-10-16, later) — Phase E1 DONE (copy link to passage), local only
+`scripts/lib/share-link.js` (inlined by both work-page builders): select text in a column → "Copy link to passage" button → `…#:~:text=start,end` URL (multi-block or long selections use first/last 5 words). All 172 PL + 9 PG pages rebuilt; preflight OK; browser-checked on 9741 (button, URL, copy). Native highlight on arrival is browser behaviour, not separately verified. ⚠ Rebuilding all pages: run a PL `build-work-page.mjs` LAST (the PG builder alone drops the Phase C CSS from `site/styles.css`), then `build-site.mjs`. Not pushed, not deployed.
+
 ## ▶ NEWEST (2026-10-16) — Phase C WRAPPED UP (no deploy)
 Dataset-card credits added (`scripts/build_export.mjs` → `export/README.md`: Collatinus, Morpheus, L&S/LSJ CC BY-SA, Du Cange; marked as a separate layer, not in the export). Preflight OK (9 checks; `site/lex` + `site/lexg` present). **Only open:** Wilson's optional spot audit of `data/phase-c/sample-*.tsv`; the R2 upload of the regenerated export (`scripts/upload_export_r2.sh`, his OK); the deploy itself (held until after Oct 20, own OK). Committed locally, not pushed.
 
