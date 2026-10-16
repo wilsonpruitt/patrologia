@@ -24,6 +24,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const arg = process.argv[2];
@@ -72,7 +73,7 @@ const markersFor = idno => {
   if (!fs.existsSync(engDir)) return null;
   const out = [];
   for (const f of fs.readdirSync(engDir).filter(f => /^\d{4}\.md$/.test(f)).sort()) {
-    const raw = fs.readFileSync(path.join(engDir, f), 'utf8');
+    const raw = stripMarkers(fs.readFileSync(path.join(engDir, f), 'utf8'));
     const fm = raw.match(/^---\n([\s\S]*?)\n---\n/);
     const ctx = fm?.[1].match(/colContext:\s*"?([0-9]{3,5}[A-D]?)"?/)?.[1]
              ?? fm?.[1].match(/colFirst:\s*"?([0-9]{3,5}[A-D]?)"?/)?.[1] ?? null;

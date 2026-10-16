@@ -23,6 +23,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const args = process.argv.slice(2);
 const flag = (f) => args.includes(f);
@@ -43,7 +44,7 @@ for (const work of fs.readdirSync(ENG).sort()) {
   const dir = path.join(ENG, work);
   if (!fs.statSync(dir).isDirectory()) continue;
   for (const f of fs.readdirSync(dir).filter((x) => /^\d{4}\.md$/.test(x)).sort()) {
-    const body = fs.readFileSync(path.join(dir, f), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+    const body = stripMarkers(fs.readFileSync(path.join(dir, f), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
     for (let i = 0; i < body.length; i++) {
       if (body[i] !== '—') continue;
       const before = body.slice(Math.max(0, i - CTX), i);

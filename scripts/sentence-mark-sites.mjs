@@ -21,6 +21,7 @@
 //   node scripts/sentence-mark-sites.mjs --report data/sweeps/sentence-marks
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const colRe = /\[([0-9]{3,5}[A-D]?)\]/g; // keep in sync with verify-english.mjs
 // Apparatus is stripped the same way verify-english strips it for the word
@@ -32,7 +33,7 @@ const strip = s => s.replace(/\[d: ([^\]]*)\]/g, '$1').replace(/\[sic: ([^\]]*)\
   .replace(/\[cj: ([^\]]*)\]/g, '').replace(colRe, '');
 
 const body = f => {
-  const t = fs.readFileSync(f, 'utf8');
+  const t = stripMarkers(fs.readFileSync(f, 'utf8'));
   const m = t.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/);
   return m ? m[1] : t;
 };

@@ -23,6 +23,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const BOOK = '(?:Gen|Exod|Levit|Num|Deut|Josue|Judic|Ruth|Reg|Paralip|Esdr|Tob|Judith|Esther|Job|Psal|Prov|Eccle|Cant|Sap|Eccli|Isai|Esai|Jerem|Thren|Baruch|Ezech|Dan|Ose|Joel|Amos|Abdi|Jon|Mich|Nahum|Habac|Soph|Agg|Zach|Malach|Machab|Matth|Marc|Luc|Joan|Act|Rom|Cor|Galat|Ephes|Philipp|Coloss|Thess|Tim|Tit|Philem|Hebr|Jac|Petr|Jud|Apoc|Aeneid)';
@@ -52,7 +53,7 @@ for (const idno of fs.readdirSync(latin)) {
       if (r.inline) harvested.add(`${r.column}|${(r.refDisplay ?? r.raw ?? '').replace(/^\(|\)$/g, '')}`);
   }
   for (const f of fs.readdirSync(dir).filter(f => /^\d+\.md$/.test(f))) {
-    const raw = fs.readFileSync(path.join(dir, f), 'utf8');
+    const raw = stripMarkers(fs.readFileSync(path.join(dir, f), 'utf8'));
     const body = raw.split('---').slice(2).join('---') || raw;
     const masked = body.replace(/\[n(?:t)?:[\s\S]*?\]/g, '').replace(/\[f:[\s\S]*?\]/g, '');
     for (const m of masked.matchAll(CIT)) {

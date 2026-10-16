@@ -51,7 +51,7 @@ const parse = f => {
 
 const paraSeen = new Map(); // normalized English paragraph -> [chunk ids]
 const latDupPairs = new Set(); // "0002.md+0005.md" keys where the LATIN itself repeats
-const norm = p => p.replace(colRe, '').replace(/[^a-z0-9 ]/gi, '').replace(/\s+/g, ' ').trim().toLowerCase();
+const norm = p => stripMarkers(p).replace(colRe, '').replace(/[^a-z0-9 ]/gi, '').replace(/\s+/g, ' ').trim().toLowerCase();
 
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;

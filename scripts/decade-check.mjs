@@ -12,10 +12,11 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const p = (...a) => path.join(ROOT, ...a);
-const read = f => fs.readFileSync(f, 'utf8');
+const read = f => stripMarkers(fs.readFileSync(f, 'utf8'));
 const jread = f => JSON.parse(read(f));
 
 const shipped = fs.readdirSync(p('src/english'))

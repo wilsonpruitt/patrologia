@@ -495,3 +495,7 @@ a { color: inherit; }
   .browse { padding: 2rem 1rem 3rem; }
   .br-n { float: none; display: block; }
 }
+
+/* Phase B: sentence counterpart highlight (CSS Custom Highlight API) */
+.sm { display: none; }
+::highlight(sentence) { background-color: rgba(195,163,67,.38); }

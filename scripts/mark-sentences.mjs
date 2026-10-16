@@ -16,36 +16,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { hasMarkers } from './lib/sentence-markers.mjs';
+import { segment } from './lib/segment.mjs';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const arg = process.argv[2];
 if (!arg) { console.error('usage: node scripts/mark-sentences.mjs <textIdno|dir> [--greek] [--dry] [--force]'); process.exit(1); }
 const flag = f => process.argv.includes(f);
 const dir = /^\d+$/.test(arg) ? path.join(ROOT, 'src/latin', arg) : path.resolve(arg);
-
-const ABBR = new Set(['ep', 'epist', 'cap', 'concil', 'lib', 'hom', 'serm', 'tom', 'dom', 'sanct', 'ibid', 'id', 'gr', 'hier', 'vid', 'cf', 'loc', 'cit', 'tit', 'dist', 'quaest', 'art', 'conc', 'can', 'ms', 'edit', 'col', 'pag', 'num', 'vers', 'ps', 'prov', 'eccl', 'matth', 'luc', 'joan', 'rom', 'cor', 'gal', 'eph', 'tim', 'hebr', 'apoc', 'deut', 'reg', 'isa', 'jer', 'ezech', 'dan', 'gen', 'exod', 'levit', 'sap', 'ecclus']);
-const ender = flag('--greek') ? '[.?!;·]' : '[.?!]';
-// punctuation + closers, whitespace, then something that opens a sentence
-const BREAK = new RegExp(`(${ender}[»*)\\u2019"]*)( +)(?=(?:\\[\\d{3,5}[A-D]?\\] *)*[«*A-ZÆŒ\\u0391-\\u03A9\\u1F08-\\u1FFF])`, 'g');
-
-function segment(text) {
-  const masks = [];
-  const masked = text.replace(/\[(?:n|nt|cn|fn|vl|f|b|bid): [^\]]*\]|\[\d{3,5}[A-D]?\]/g, m => { masks.push(m); return `\u0001${masks.length - 1}\u0002`; });
-  const out = [];
-  let last = 0, m;
-  BREAK.lastIndex = 0;
-  while ((m = BREAK.exec(masked))) {
-    const before = masked.slice(last, m.index + m[1].length);
-    const tok = before.match(/([^\s.]+)\.?[»*)’"]*$/)?.[1] ?? '';
-    const bare = tok.replace(/[^A-Za-zÆŒæœ]/g, '');
-    // abbreviation guard (only for '.', never for ? !)
-    if (m[1].startsWith('.') && (/^[A-ZÆŒ]$/.test(bare) || ABBR.has(bare.toLowerCase()))) continue;
-    out.push(before);
-    last = m.index + m[0].length;
-  }
-  out.push(masked.slice(last));
-  return out.map(s => s.replace(/\u0001(\d+)\u0002/g, (_, i) => masks[i]));
-}
 
 const manifest = JSON.parse(fs.readFileSync(path.join(dir, 'manifest.json'), 'utf8'));
 let totalP = 0, totalS = 0, skipped = 0;
@@ -62,7 +39,7 @@ for (const c of manifest.chunks) {
     if (!line.trim() || /^##\s/.test(line)) return line;
     const lead = line.startsWith('- ') ? '- ' : '';
     const text = line.slice(lead.length);
-    const sents = segment(text);
+    const sents = segment(text, flag('--greek'));
     p++; totalP++; totalS += sents.length;
     return `${lead}⟦p${p}⟧ ` + sents.map((s, i) => `⟦s${i + 1}⟧ ${s}`).join(' ');
   });

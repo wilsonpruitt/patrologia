@@ -70,6 +70,17 @@ Hover/tap a sentence in either column → its counterpart highlights in the othe
 
 Acceptance: pilot work live with sentence highlighting; measured alignment accuracy on the hand-checked sample stated in the work's build notes.
 
+### Phase B pilot as built (2026-10-15, Sonnet, Abbo *Canones* 9741)
+
+- **Method chosen: local Gale–Church length alignment, no API.** `scripts/align-sentences.mjs <idno> [--write]` aligns each paragraph (beads 1:1, 1:2, 2:1, 2:2, plus a ?-parity penalty) and stamps `⟦sN⟧` into the English; text untouched. A paragraph with any doubtful bead (|z|>2.2 or a ?-break) falls back to paragraph level (one merged marker over the whole paragraph). Per-paragraph report: `data/sentence-align/9741.tsv`. Shared segmenter: `scripts/lib/segment.mjs`. Cost: zero tokens beyond this session; the Haiku and LaBSE options were not needed.
+- **Result:** 160 paragraphs, 516 Latin sentences; 158 sentence-level (98.8%), 2 paragraph-level (a 16-sentence and a 12-sentence paragraph). Non-1:1 beads: 8 of 1:2, 3 of 2:1 (all legitimate: a Latin split at "Ex conc. Tolet." / "III, cap. 20", a question rendered as two English sentences, a Latin sentence pair joined in English).
+- **Accuracy, stated honestly:** hand-checked by the model (Sonnet), not by Wilson: all 11 paragraphs with unequal sentence counts, 14 of the 1:1 paragraphs (every 11th), and both fallbacks, 28 paragraphs in all. **0 wrong pairings found.** Sample is 17.5% of paragraphs; the 1:1 majority is checked only at that rate, and a Wilson spot-check of a few paragraphs is still worth doing before the rollout.
+- **Front end:** `scripts/lib/sentence-highlight.js`, inlined by `build-work-page.mjs` only on pages with markers. Hover (desktop) or tap: the counterpart sentence lights up in the other column (CSS Custom Highlight API, no DOM wrapping); merged and repeated ids light the whole group; browsers without the API get the plain page. Verified in a real browser on the 9741 page: clicking a Latin sentence highlights the matching English one.
+- **Marker audit done:** `index-work`, `extract-quotations`, `marker-reconcile`, `plate-gate`, `lemma-inventory`, `emdash-sites`, `decade-check`, `cj-inversion`, `sentence-mark-sites`, `scan-inline-citations` now strip markers on read. A real leak was found and fixed first: `index-work` had put raw `⟦sN⟧` into the citation-index excerpts. Re-run on 9741: index JSON byte-identical to before. `preflight` OK, `verify-english` OK.
+- **Not yet audited:** `build-cruces`, `build-glossa`, `build-queue`, `build-polarity-report`, `polarity-record`, `withdrawn-net` (no direct chunk reads found; they ran clean in `build-site 9741`).
+- **⚠ Incident, 2026-10-15:** my Phase A commit `cd87be1b` (pushed) overwrote `site/styles.css` with a plain copy of `sketch/styles.css`, dropping the work-page CSS that `build-work-page.mjs` appends (828 → 497 lines). Never deployed. Fixed: rebuilding a work page regenerates the full file. **Never `cp sketch/styles.css site/styles.css`; run a work-page build instead.** Anything built from `master` as pushed would have had unstyled work pages.
+- **Rollout (not started):** the other ~180 works. Run `mark-sentences.mjs` then `align-sentences.mjs` per work. Zero tokens, so no token stop, but it edits shipped English files, so run `verify-english` per work and eyeball each work's paragraph-level fallback rate. English already shipped is untouched in wording.
+
 ## Phase C — click a word: lemma, morphology, lexicon
 
 Precomputed at build time; nothing runs in the reader's browser but a lookup.

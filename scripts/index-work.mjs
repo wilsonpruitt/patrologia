@@ -27,6 +27,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs'; // Phase 0 ⟦pN⟧/⟦sN⟧ never reach index excerpts
 // The citation parser lives in scripts/lib/citations.mjs so index-work-pg.mjs uses
 // the SAME alias table and shape rules. A PG work's [n:] notes are Migne's own
 // Latin apparatus — the two indexers must not drift (2026-08-06).
@@ -143,14 +144,14 @@ const proseNotePositions = new Map(); // chunk -> Set of note indices
 for (const c of manifest.chunks) {
   const f = path.join(engDir, `${String(c.chunk).padStart(4, '0')}.md`);
   if (!fs.existsSync(f)) continue;
-  const body = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const body = stripMarkers(fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
   const set = new Set();
   // ⚠ The English sequence also carries the [nt:] TWINS of Migne's plate notes ([cn: a|*],
   // Floss's [fn:], a prose [vl: n+]), which have no [n:] on the Latin side. Counting them
   // shifted every later [n:] by one, and 8382's Matt 25 / Matt 18 / Ps 5 citations were filed
   // as prose (2026-09-19). So walk both sequences together, as verify-english.mjs pairs them,
   // and index the prose set by the Latin [n:] ordinal, which is what routeNote counts.
-  const latBody = fs.readFileSync(path.join(latDir, `${String(c.chunk).padStart(4, '0')}.md`), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const latBody = stripMarkers(fs.readFileSync(path.join(latDir, `${String(c.chunk).padStart(4, '0')}.md`), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
   const inSeq = m => m[1] === 'n' || m[1] === 'fn' || (m[1] === 'cn' && /^(?:\*|[a-z])\s*\|/.test(m[2])) || (m[1] === 'vl' && /^[0-9]+\+\s*\|/.test(m[2]));
   const latSeq = [...latBody.matchAll(/\[(n|cn|fn|vl): ([^\]]*)\]/g)].filter(inSeq).map(m => m[1]);
   const engSeq = [...body.matchAll(/\[(n|nt): ([^\]]*)\]/g)].map(m => m[1]);
@@ -162,7 +163,7 @@ const proseNotes = [];
 
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
-  const body = fs.readFileSync(path.join(latDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const body = stripMarkers(fs.readFileSync(path.join(latDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
   let col = c.colContext;
   const prose = proseNotePositions.get(c.chunk) || new Set();
   let noteIdx = 0; // document-order note counter, shared by the head and body branches
@@ -268,9 +269,9 @@ function harvestInlineFontes() {
     const name = `${String(c.chunk).padStart(4, '0')}.md`;
     const engPath = path.join(engDir, name);
     if (!fs.existsSync(engPath)) continue;
-    const eng = fs.readFileSync(engPath, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
-    const latFlat = stripF(fs.readFileSync(path.join(latDir, name), 'utf8')
-      .replace(/^---\n[\s\S]*?\n---\n/, ''));
+    const eng = stripMarkers(fs.readFileSync(engPath, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
+    const latFlat = stripF(stripMarkers(fs.readFileSync(path.join(latDir, name), 'utf8')
+      .replace(/^---\n[\s\S]*?\n---\n/, '')));
     let col = c.colContext;
     // f-tag alternative FIRST: a tag may contain an anchor, and the anchor branch
     // would otherwise match inside it and shred the locator.
@@ -313,7 +314,7 @@ function harvestHeadnotes(dir, colContextByChunk) {
   const out = [];
   for (const c of manifest.chunks) {
     const name = `${String(c.chunk).padStart(4, '0')}.md`;
-    const body = fs.readFileSync(path.join(dir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+    const body = stripMarkers(fs.readFileSync(path.join(dir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
     for (const m of body.matchAll(/«/g)) {
       const before = body.slice(0, m.index);
       const bound = Math.max(before.lastIndexOf('»'), before.lastIndexOf('\n\n'), before.lastIndexOf('\n## '));
@@ -347,7 +348,7 @@ if (hnLa.length !== hnEn.length)
 const headsEn = [];
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
-  const body = fs.readFileSync(path.join(engDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const body = stripMarkers(fs.readFileSync(path.join(engDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
   // skip "(cont.)" heads in step with the Latin side above, so the two lists pair
   for (const m of body.matchAll(/^## (.*)$/gm)) {
     if (CONT_HEAD.test(m[1].trim())) continue;

@@ -20,6 +20,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const args = process.argv.slice(2);
 const idno = args[0];
@@ -57,7 +58,7 @@ const rows = [];
 const guillemetWarnings = [];
 
 for (const file of chunkFiles) {
-  const raw = fs.readFileSync(path.join(latinDir, file), 'utf8');
+  const raw = stripMarkers(fs.readFileSync(path.join(latinDir, file), 'utf8'));
   const chunk = file.replace('.md', '');
   const body = raw.replace(/^---\n[\s\S]*?\n---\n/, '');
 

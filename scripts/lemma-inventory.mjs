@@ -14,6 +14,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const idno = process.argv[2];
 if (!idno) { console.error('usage: node scripts/lemma-inventory.mjs <idno>'); process.exit(1); }
@@ -139,7 +140,7 @@ const rows = [];
 let unclosed = 0, unclosedQuote = 0, strayClose = 0;
 
 for (const f of files) {
-  const raw = fs.readFileSync(path.join(latinDir, f), 'utf8');
+  const raw = stripMarkers(fs.readFileSync(path.join(latinDir, f), 'utf8'));
   const body = raw.replace(/^---\n[\s\S]*?\n---\n/, '');
   // ⛔ Band must start from THIS CHUNK's colContext, not the work's colFirst.
   // Found 2026-08-28 by the 8977 0015-0019 translator, which reported its chunk's three

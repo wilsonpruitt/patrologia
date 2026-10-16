@@ -23,14 +23,16 @@ const latDir = path.join(ROOT, 'src/latin', String(idno));
 const engDir = path.join(ROOT, 'src/english', String(idno));
 const manifest = JSON.parse(fs.readFileSync(path.join(latDir, 'manifest.json'), 'utf8'));
 
-const body = f => {
-  const raw = fs.readFileSync(f, 'utf8');
-  // Phase 0 ⟦pN⟧/⟦sN⟧ markers are a translation-time hand-off (Phase B will consume them);
-  // the reading view never shows them.
-  return stripMarkers(raw.replace(/^---\n[\s\S]*?\n---\n/, ''));
+// Phase 0/B ⟦pN⟧/⟦sN⟧ markers: kept (with the chunk number folded into the paragraph id,
+// ⟦p1.4⟧ = chunk 1 paragraph 4) only for the parallel reading view, where inlineHtml turns
+// them into empty .sm boundary spans for sentence highlighting. Every other use (the
+// export, word counts) gets them stripped.
+const body = (f, chunk, keep) => {
+  const raw = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  return keep ? raw.replace(/⟦p(\d+[a-z]?)⟧/g, `⟦p${chunk}.$1⟧`) : stripMarkers(raw);
 };
-const joined = dir => manifest.chunks
-  .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`)))
+const joined = (dir, keep = false) => manifest.chunks
+  .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`), c.chunk, keep))
   .join('\n\n');
 
 // "(cont.)" is the chunker's marker and must pass through translation untouched,
@@ -179,6 +181,10 @@ function assertWellNested(html, src) {
 // gets its own, seeded from the work's first column.
 function inlineHtml(s, { anchorIds, state }) {
   return assertWellNested(esc(s)
+    // Phase B boundaries: empty spans, so nothing nests badly. ⟦p1.4⟧ opens a paragraph,
+    // ⟦s2+s3⟧ opens a sentence covering source sentences 2 and 3.
+    .replace(/⟦p([0-9.]+[a-z]?)⟧ ?/g, '<span class="sm" data-p="$1"></span>')
+    .replace(/⟦s([0-9+s]+)⟧ ?/g, (_, ids) => `<span class="sm" data-s="${ids.replace(/s/g, '').split('+').join(',')}"></span>`)
     // anchors and notes are matched in ONE alternation so they are replaced in
     // document order; two sequential .replace passes would finish every anchor
     // before the first note and leave the column tracker useless.
@@ -289,8 +295,9 @@ function blockHtml(text, opts) {
   return html.join('\n');
 }
 
-const latSecs = sections(joined(latDir));
-const engSecs = sections(joined(engDir));
+const latSecs = sections(joined(latDir, true));
+const engSecs = sections(joined(engDir, true));
+const hasSentences = joined(engDir, true).includes('⟦s');
 if (latSecs.length !== engSecs.length) {
   console.error(`section mismatch: Latin ${latSecs.length}, English ${engSecs.length} — run verify-english.mjs first`);
   process.exit(1);
@@ -464,7 +471,7 @@ ${crucesLink}
   <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a></p>
 </footer>
 
-<script>
+${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}<script>
 /* nearest-anchor fallback: a deep link to a column mark this page doesn't
    carry lands on the nearest preceding one instead of the page top */
 document.addEventListener('DOMContentLoaded', function () {

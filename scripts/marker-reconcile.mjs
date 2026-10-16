@@ -13,6 +13,7 @@
 //
 // Usage: node scripts/marker-reconcile.mjs <idno> [--band 10]
 import fs from 'node:fs';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const idno = process.argv[2];
 const bandIdx = process.argv.indexOf('--band');
@@ -25,7 +26,7 @@ const files = fs.readdirSync(engDir).filter(f => /^\d{4}\.md$/.test(f)).sort();
 // map column -> english chunk text (a column belongs to the chunk whose body carries its anchor)
 const chunkText = {}, colToChunk = {};
 for (const f of files) {
-  const t = fs.readFileSync(`${engDir}/${f}`, 'utf8');
+  const t = stripMarkers(fs.readFileSync(`${engDir}/${f}`, 'utf8'));
   chunkText[f] = t;
   // ⚑ A COLUMN CAN STRADDLE A CHUNK BOUNDARY, so a column maps to a SET of chunks, not one.
   // Mapping it to the first chunk carrying its anchor reported five correctly-fired Band C

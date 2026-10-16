@@ -495,3 +495,366 @@ a { color: inherit; }
   .browse { padding: 2rem 1rem 3rem; }
   .br-n { float: none; display: block; }
 }
+
+/* Phase B: sentence counterpart highlight (CSS Custom Highlight API) */
+.sm { display: none; }
+::highlight(sentence) { background-color: rgba(195,163,67,.38); }
+
+/* ---------- work page: volume badge as a true spine ---------- */
+/* one volume off the landing shelf: spine proportions, gilt head bands,
+   morocco label running down the spine, volume number gilt at the tail */
+.vol-badge {
+  flex: none; width: 40px; height: 178px;
+  display: flex; flex-direction: column; align-items: center;
+  padding: 9px 0 10px;
+  background: linear-gradient(90deg, #26543C 0%, var(--vert) 45%, #16301F 100%);
+  border-top: 3px solid var(--dorure); border-bottom: 5px solid #0B140E;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 3px 4px 8px rgba(20, 37, 25, .3);
+  color: var(--dorure-pale); font-family: var(--didot);
+}
+.vol-badge .series-abbr {
+  font-size: .58rem; letter-spacing: .14em; color: var(--dorure);
+  padding-bottom: .3rem; border-bottom: 1px solid var(--dorure);
+  margin-top: 0;
+}
+.vol-badge .label {
+  flex: 1; display: flex; align-items: center; justify-content: center;
+  writing-mode: vertical-rl;
+  background: var(--maroquin); color: var(--dorure-pale);
+  font-size: .58rem; letter-spacing: .26em;
+  width: 28px; margin: .55rem 0 .5rem; padding: .4rem 0;
+  overflow: hidden;
+}
+.vol-badge .num {
+  display: block; font-size: .92rem; color: var(--dorure);
+  letter-spacing: .04em; margin-top: 0; background: none; padding: 0;
+}
+
+/* ---------- work page: sections + note citations ---------- */
+/* modern u everywhere Latin appears (locked convention, commit 0c149a4) —
+   the sketch rule only covered .coltext.latin; heads are lang="la" too */
+[lang="la"] { font-feature-settings: "locl" 0; }
+.passage { border-top: 0; margin-bottom: .5rem; }
+.columns .passage:first-child { border-top: 2px solid var(--encre); }
+.book-title .coltext { text-align: center; font-variant: small-caps; letter-spacing: .02em; }
+.book-title { border-bottom: 1px solid var(--rule, #d9cdb4); padding-bottom: .6rem; margin-bottom: 1rem; }
+.canon-head {
+  font-family: var(--didot); font-weight: 400; font-size: 1.05rem;
+  letter-spacing: .04em; margin: 1.6rem 0 .8rem;
+}
+.canon-head i { font-style: italic; }
+.notecite {
+  font-size: .78em; color: var(--encre-douce); letter-spacing: .02em;
+  white-space: nowrap;
+}
+/* Apparatus too long to sit on one line. The nowrap above is right for
+   "Prov. v, 22" and wrong for anything sentence-length: an unbreakable span the
+   width of a clause cannot share a line, so it drops to one of its own AND
+   stretches the justified line above it into a row of isolated words. That is
+   what shipped on the Antiochus letter (PG 89), whose [nt:] gloss on *laura* is
+   the corpus's first long one — and the site-wide scan then found 41 more, all
+   plain [n:] notes where Migne writes prose or stacks a dozen references, up to
+   592 chars on the Becket vita. The builders add .wraps above NOWRAP_MAX chars;
+   see the note there for the threshold. Long apparatus sits inside the sentence
+   flow and must wrap, exactly as .fonscite does below.
+   Run scripts/scan-nowrap-apparatus.mjs to check the class is clear. */
+.notecite.wraps { white-space: normal; }
+/* Floss's apparatus in PL 122 ([vl:] variae lectiones, [fn:] notae): the EDITOR's, not
+   Migne's, so it is labelled in words and kept off the maroquin that marks Migne's own notes. */
+.notecite.floss { border-bottom: 1px dotted var(--encre-douce); cursor: help; }
+.notecite.floss .floss-label { font-variant: small-caps; letter-spacing: .03em; }
+/* Migne's foot-of-page conjecture notes ([cn: …]), recovered from the plate: his
+   apparatus, so it sits in the .notecite family — but his CONJECTURES must not read
+   like his CITATIONS, so this one carries the maroquin and a dotted rule. It appears
+   on the Latin side only, and only in works whose plate has been read (tier 3 in
+   data/plate-notes/coverage.json). */
+.notecite.conj {
+  color: var(--maroquin);
+  border-bottom: 1px dotted var(--maroquin);
+  cursor: help;
+}
+/* pattern-4 inline locator tails: apparatus, so quieter than body text, but they
+   sit INSIDE the sentence flow (unlike .notecite) and must be able to wrap. */
+.fonscite {
+  font-size: .82em; color: var(--encre-douce); letter-spacing: .02em;
+}
+/* pattern-11 dittography: Migne prints the run twice and we print it twice. The
+   text is NOT dimmed or shrunk — it is the author's words, not apparatus — but a
+   dotted underline plus the title attribute tell a reader the repetition is on the
+   plate. Without this the page reads as though WE duplicated the words. */
+.dittog {
+  border-bottom: 1px dotted var(--encre-douce);
+  cursor: help;
+}
+/* pattern-12 [sic: …]: type carried verbatim from a defective plate. Distinguished
+   from .dittog by a wavy rule — both say "this oddity is Migne's, not ours", but a
+   reader should be able to tell a doubled run from broken type without hovering.
+   Deliberately NOT dimmed or shrunk: it is the author's text, printed as it stands. */
+.sic {
+  border-bottom: 1px wavy var(--dorure);
+  text-decoration-skip-ink: none;
+  cursor: help;
+}
+/* pattern-13 [ed: …]: the edition's own voice. Deliberately the ONLY thing on the
+   page that does not look like the text — smaller, spaced, in the gilt, so it reads
+   as a label rather than as something Migne printed. */
+.ednote {
+  display: inline-block;
+  font-family: var(--didot);
+  font-size: .82rem;
+  letter-spacing: .03em;
+  color: var(--dorure);
+  font-style: normal;
+  margin: .15em 0;
+}
+/* pattern-14 [var: …]: the plate's scripture reading against the received text. In the
+   maroquin rather than the gilt, and unspaced — it is a scholarly aside about the
+   quotation, not the edition confessing a hole, and the two must not read alike. */
+/* pattern-16 [lat: …] (PG only): Migne's parallel LATIN column asserting a
+   different fact than his Greek. Same family as .varnote and deliberately so —
+   both are scholarly asides about a divergence between witnesses, not the
+   edition confessing a hole ([ed:]) nor broken type ([sic:]).
+   NB this rule must live HERE, not in site/styles.css: that file is GENERATED
+   (sketch/styles.css + this block), so anything written into it directly is
+   silently clobbered by the next work-page build. */
+.varnote,
+.latnote,
+/* pattern-18 [cj: …]: our conjecture standing beside a REAL printed word whose
+   faithful English misleads. Same family as .varnote and .latnote deliberately —
+   all three are asides about a divergence between what is printed and what is
+   meant, and none of them is the edition confessing a hole. */
+.cjnote {
+  font-family: var(--didot);
+  font-size: .8rem;
+  color: var(--maroquin);
+  font-style: normal;
+  cursor: help;
+}
+
+/* ---- /cruces/ — the published apparatus (build-cruces.mjs) ----
+   These pages reuse the .essay chrome and inherit its measure; only the
+   constructs the cruces themselves use need adding. */
+.cruces-note {
+  border-left: 2px solid var(--dorure);
+  padding: .1rem 0 .1rem 1.1rem;
+  margin: 1.6rem 0 2.2rem;
+  color: var(--encre-douce);
+  font-size: .95rem;
+  line-height: 1.55;
+}
+.cruces-note p { margin: .55rem 0; }
+.cruces-note strong { color: var(--encre); }
+.essay-body ul li,
+.essay-body ol li { margin-bottom: .45rem; }
+.tablewrap { overflow-x: auto; margin: 1.2rem 0; }
+.tablewrap table { border-collapse: collapse; font-size: .92rem; min-width: 100%; }
+.tablewrap th,
+.tablewrap td {
+  border-bottom: 1px solid var(--rule);
+  padding: .38rem .7rem .38rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+.tablewrap th {
+  font-family: var(--didot);
+  font-weight: normal;
+  color: var(--encre-douce);
+  border-bottom-color: var(--encre-douce);
+  white-space: nowrap;
+}
+.essay-body blockquote {
+  margin: 1.1rem 0 1.1rem 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--rule);
+  color: var(--encre-douce);
+}
+.essay-body blockquote p { margin: .4rem 0; }
+.essay-body hr { border: 0; border-top: 1px solid var(--rule); margin: 2.2rem 0; opacity: .6; }
+.volgroup { margin: 1.6rem 0; }
+.volgroup h3 {
+  font-family: var(--didot);
+  font-size: .82rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--dorure);
+  margin: 0 0 .4rem;
+}
+.volgroup ul { list-style: none; padding-left: 0; margin: 0; }
+.volgroup li { margin-bottom: .3rem; }
+.cruces-link {
+  font-family: var(--didot);
+  font-size: .9rem;
+  color: var(--encre-douce);
+  margin: 0 0 .9rem;
+}
+.coltext ul { list-style: none; margin-bottom: 1em; }
+.coltext li { margin-bottom: .2em; }
+.coltext li.colmark { list-style: none; }
+
+/* English column: anchors hang into the RIGHT page margin (outer edge),
+   mirroring the Latin side — never into the center gutter where the rule runs */
+.coltext.english .anchor {
+  float: right; margin: .1em -3.4rem 0 .5em;
+  border-right: 0; border-left: 2px solid var(--dorure);
+  padding-right: 0; padding-left: .35rem; text-align: left;
+}
+/* below ~1080px the right margin is too tight for a hanging anchor —
+   fall back to the inline treatment early (Latin's left hang just clips) */
+@media (max-width: 1080px) {
+  .coltext.english .anchor {
+    float: none; display: inline-block; margin: 0 .5em 0 0;
+    border-left: 0; border-bottom: 2px solid var(--dorure);
+    width: auto; padding: 0 .1rem;
+  }
+}
+
+/* ---------- author popover (native Popover API, no JS) ---------- */
+/* the byline / crumbs author name is a button that opens a modest bio card;
+   authors without a bio render as plain text (no button) */
+.author-pop {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0;
+  cursor: pointer; text-decoration: underline; text-decoration-color: var(--dorure);
+  text-underline-offset: .18em; text-decoration-thickness: 1px;
+}
+.author-pop:hover { color: var(--maroquin); text-decoration-color: var(--maroquin); }
+.crumbs .author-pop { text-decoration: none; }
+.crumbs .author-pop:hover { text-decoration: underline; }
+.author-card {
+  max-width: 26rem; padding: 1.2rem 1.4rem; border: 0;
+  background: var(--papier); color: var(--encre);
+  border-top: 3px solid var(--dorure);
+  box-shadow: 0 8px 30px rgba(20, 37, 25, .28);
+}
+.author-card h3 { font-family: var(--didot); font-weight: 400; font-size: 1.2rem; margin: 0 0 .1rem; }
+.author-card .latin-name { font-style: italic; color: var(--encre-douce); font-size: .92rem; margin: 0 0 .1rem; }
+.author-card .dates { font-size: .82rem; letter-spacing: .04em; color: var(--dorure); margin: 0 0 .7rem; text-transform: uppercase; }
+.author-card .bio { font-size: .92rem; line-height: 1.6; margin: 0; }
+/* Attribution caveat: set apart from the bio by a rule and the maroquin accent,
+   because it says something ABOUT the ascription rather than about the person —
+   a reader must not mistake it for biography. */
+.author-card .attrib-flag {
+  font-size: .88rem; line-height: 1.55; margin: .8rem 0 0; padding-top: .7rem;
+  border-top: 1px solid rgba(126, 45, 38, .35);
+  color: var(--encre-douce);
+}
+/* A citation Migne misprints. The printed form still reads exactly as he set it —
+   only a maroquin dotted rule marks it, with the resolved reference on hover. The
+   correction is ATTACHED to the printed number, never substituted for it. */
+.notecite.corrected {
+  border-bottom: 1px dotted var(--maroquin, #7E2D26);
+  cursor: help;
+}
+.author-card::backdrop { background: rgba(20, 37, 25, .35); }
+
+/* ---------- scripture index (/scripture/) ---------- */
+.jump {
+  display: block; margin: 1.4rem 0 2.4rem; line-height: 2;
+  font-size: .88rem; color: var(--encre-douce);
+}
+.jump a { color: var(--encre-douce); text-decoration: none; border-bottom: 1px solid transparent; }
+.jump a:hover { border-bottom-color: var(--dorure); }
+.idx-note { font-size: .9rem; color: var(--encre-douce); max-width: 42rem; }
+.idx-sibling { border-left: 2px solid var(--dorure); padding-left: .8rem; }
+
+/* ---------- commentary map: /scripture/commentaries/ ---------- */
+/* Emitted here because this file fully rewrites site/styles.css; kept next to the
+   scripture-index rules its page is a sibling of. */
+.commentaries .lede { max-width: 44rem; }
+.commentaries .note { font-size: .9rem; color: var(--encre-douce); max-width: 44rem; }
+.cm-toc { margin: 1.6rem 0 2.4rem; line-height: 2.1; font-size: .88rem; }
+.cm-toc a {
+  color: var(--encre-douce); text-decoration: none; white-space: nowrap;
+  border-bottom: 1px solid transparent; margin-right: .9rem;
+}
+.cm-toc a:hover { border-bottom-color: var(--dorure); }
+.cm-toc a span { color: var(--dorure); font-size: .8rem; }
+.cm-book { margin: 2.4rem 0 0; scroll-margin-top: 5rem; }
+.cm-book > h2 {
+  font-family: var(--didot); font-weight: 400; font-size: 1.5rem;
+  border-bottom: 1px solid var(--dorure); padding-bottom: .3rem;
+  margin-bottom: .5rem; display: flex; justify-content: space-between;
+  align-items: baseline; gap: 1rem; flex-wrap: wrap;
+}
+.cm-count { font-family: var(--body); font-size: .78rem; color: var(--encre-douce); letter-spacing: .03em; }
+/* A collection heads its part of Scripture (Wilson, 2026-07-30): it sits just before
+   its first member, so it needs to read as the head of an area and not as one more
+   book. Italic title + a gilt rule down the side, no extra chrome. */
+.cm-group > h2 { font-style: italic; border-bottom-style: dotted; }
+.cm-group { border-left: 2px solid var(--dorure); padding-left: 1rem; margin-left: -1rem; }
+.cm-list { list-style: none; padding: 0; margin: 0; }
+.cm-list li {
+  display: grid; grid-template-columns: 5.6rem 1fr; gap: .1rem .8rem;
+  padding: .5rem 0; border-bottom: 1px solid rgba(0,0,0,.06); align-items: baseline;
+}
+.cm-en, .cm-no, .cm-app {
+  font-size: .68rem; letter-spacing: .06em; text-transform: uppercase;
+  text-align: center; padding: .12rem .3rem; border-radius: 2px; align-self: start;
+}
+.cm-en { background: var(--vert); color: var(--papier); }
+.cm-no { color: var(--encre-douce); border: 1px solid rgba(0,0,0,.18); }
+.cm-app { grid-column: 1; font-size: .6rem; color: var(--maroquin); border: 0; }
+.cm-t { font-size: 1rem; }
+.cm-t a { color: var(--encre); text-decoration: none; border-bottom: 1px solid var(--dorure); }
+.cm-t a:hover { background: rgba(195,163,67,.16); }
+.cm-a, .cm-c { grid-column: 2; font-size: .82rem; color: var(--encre-douce); }
+.cm-c { font-size: .76rem; }
+@media (max-width: 34rem) {
+  .cm-list li { grid-template-columns: 1fr; }
+  .cm-a, .cm-c { grid-column: 1; }
+}
+
+.book { margin: 2.6rem 0 0; scroll-margin-top: 5rem; }
+.book > h2 {
+  font-family: var(--didot); font-weight: 400; font-size: 1.5rem;
+  border-bottom: 1px solid var(--dorure); padding-bottom: .3rem; margin-bottom: .2rem;
+}
+.chapter { margin: 1.1rem 0; }
+.chapter h3 {
+  font-family: var(--didot); font-weight: 400; font-size: 1.05rem;
+  color: var(--encre-douce); margin: 0 0 .3rem; letter-spacing: .03em;
+}
+.chapter ul { list-style: none; margin: 0; padding: 0; }
+.chapter li { margin: .2rem 0; line-height: 1.5; }
+.chapter li .cite { font-size: .82em; color: var(--encre-douce); letter-spacing: .02em; }
+/* Migne's printed form beside a corrected reference — the index files the citation
+   under its TRUE place, but never hides what he actually set. */
+.chapter li .printed {
+  font-size: .78em; color: var(--maroquin, #7E2D26);
+  border-bottom: 1px dotted currentColor; cursor: help;
+}
+/* a citation Migne sets in the chapter head governs its whole section */
+.chapter li .inhead {
+  font-size: .7em; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--dorure); cursor: help;
+}
+
+/* ---------- resolver: shared-column disambiguation ---------- */
+.choices { list-style: none; margin: 1rem 0; padding: 0; }
+.choices li { margin: .5rem 0; line-height: 1.5; }
+.choices .cite-range { font-size: .8em; color: var(--encre-douce); letter-spacing: .02em; }
+
+/* ---------- sources page (/sources/) ---------- */
+.src { margin: 1.4rem 0; padding-left: .9rem; border-left: 2px solid var(--dorure); }
+.src h3 { font-family: var(--didot); font-weight: 400; font-size: 1.05rem; margin: 0 0 .2rem; }
+.src .origin { font-size: .86rem; margin: .1rem 0; word-break: break-all; }
+.src .meta, .src .sha { font-size: .8rem; color: var(--encre-douce); margin: .1rem 0; letter-spacing: .02em; }
+.src .sha { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; cursor: help; }
+.src .note { font-size: .88rem; color: var(--encre-douce); margin: .3rem 0 0; }
+.src .lbl {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .09em;
+  color: var(--dorure); margin-right: .4rem;
+}
+
+/* ---------- PG work page ---------- */
+/* Greek body in GFS Didot — the face Migne's Greek type descends from.
+   Rows cut at sentence ends near each column anchor; anchors inline,
+   hanging into the outer margins per the base .anchor rules.
+   Emitted from BOTH builders, byte-identical: a PL rebuild fully rewrites
+   site/styles.css and would otherwise drop the rules a live PG page depends
+   on, while the PG builder strips+re-adds this block by the header line above,
+   so there is never a duplicate. Keep the two copies in sync or every rebuild
+   flips the file back and forth. */
+.coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
+.colpair { border-top: 0; padding-top: .4rem; }
+.columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }

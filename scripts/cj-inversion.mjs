@@ -24,6 +24,7 @@
 // overlap test cannot see. TREAT THE OUTPUT AS A READING LIST. The count it prints is not a
 // measurement of anything and must never be quoted as one.
 import fs from 'node:fs';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 
 const dir = process.argv[3] || 'src/english/8967';
 const STOP = new Set(['the','a','an','is','are','was','were','be','to','of','in','on','it','he','she','they','thou','thee','thy','his','her','their','that','this','and','or','not','for','with','by','as','shall','will','may','let','him','them','us','we','i','you','one','who','which','what','when','from','at','into','up','out','do','does','did','has','have','had']);
@@ -33,7 +34,7 @@ const words = s => s.toLowerCase().replace(/[^a-z\s]/g,' ').split(/\s+/).filter(
 const files = fs.readdirSync(dir).filter(f=>/^\d{4}\.md$/.test(f)).sort();
 let inv=0, ok=0, noExp=0;
 for (const f of files) {
-  const t = fs.readFileSync(`${dir}/${f}`,'utf8');
+  const t = stripMarkers(fs.readFileSync(`${dir}/${f}`,'utf8'));
   for (const m of t.matchAll(/\[cj:\s*\*([^*]+)\*;\s*read\s*\*([^*]+)\*(?:,\s*"([^"]*)")?\s*\]/g)) {
     const [, printed, conj, gloss] = m;
     if (!gloss) { noExp++; continue; }
