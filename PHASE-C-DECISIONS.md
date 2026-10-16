@@ -1,0 +1,69 @@
+# Phase C — decisions (step 1), RULED 2026-10-15
+
+## Wilson's rulings (2026-10-15)
+1. **BY-SA lexicon layer is acceptable** (separate, attributed layer; Perseus credited).
+2. **Du Cange is public domain** — use it; no email to the ENC needed. Still credit the edition used.
+3. **Accuracy thresholds: my recs adopted** — single-analysis display only if >=95% correct-in-candidates AND >=90% top-1 on the hand-checked Abbo sample; otherwise ambiguity-only.
+4. Still to do: read the actual Perseus LICENSE file at the commit we pull (BY-SA vs BY-NC-SA).
+
+---
+
+Written by Sonnet from web searches, not primary licence files. Items marked ⚠ are **unverified** and must be checked against the actual LICENSE file / terms page before anything ships. Wilson rules on the open questions at the bottom.
+
+## 1. Sources and provenance
+
+| Need | Source | Status |
+|---|---|---|
+| Latin classical lexicon | Lewis & Short, PerseusDL `lexica_latin_lsj` (XML) | ⚠ Licence conflicting: a third-party dataset card says CC BY-SA 4.0; older Perseus notices say CC BY-**NC**-SA 3.0. Read the repo's LICENSE at the commit we pull. |
+| Greek classical lexicon | LSJ, PerseusDL | ⚠ Same ambiguity (Digital Classicist wiki mentions an NC term). |
+| Late/medieval Latin | Du Cange (Favre ed.), Sorbonne/ENC online edition | ⚠ Open access to read; **no stated licence found**. Underlying text is PD (1883–87), but the ENC's encoding may be claimed. Fallback: OCR of the archive.org PD print (cost, and OCR noise in a dictionary). Ask ENC. |
+| Late Greek | Sophocles 1887 (archive.org scan) | ⚠ No clean digitization located. Likely needs OCR. Greek is second, so defer. |
+| Not usable | Lampe, Niermeyer | In copyright. |
+
+## 2. Licensing seam (proposal)
+
+Our rule: CC BY-NC 4.0 on the English + encoding; PD on source ([[wroot-press-licensing]]).
+
+- **Lexicon and morphology data ship as a separate layer** (own files/bundles, own attribution line, own licence statement), never merged into the `.md` translation store or the CC BY-NC export.
+- **If L&S/LSJ are BY-SA:** the bundle stays BY-SA and is credited to Perseus; the BY-SA terms bind only that layer, not our English. Popups display it alongside, they don't adapt it into our text. Reasonable, but a lawyerly read of "collection vs adaptation" is Wilson's call.
+- **If they are BY-NC-SA 3.0:** compatible with our NC use, same separation applies.
+- **Collatinus is GPL-3.** Running it at build time to produce analyses: output is data, not a derivative of the program, so GPL does not attach to `words.json`. We must not ship its lexicon files inside the site; if we do, the GPL attaches to that file. Credit it regardless.
+- `words.json` (token → candidate analyses) is part of **our encoding**, so it falls under the existing claim (3) in the licensing memory, with inbound credits to Collatinus and the lexica.
+- Add the inbound credits to the dataset card in `open-corpus` and to `/rights`.
+
+## 3. Latin tagger
+
+- **Collatinus** (GPL-3, ~11k-lemma core + extensions, 500k+ forms): rule-based, returns **all** analyses natively. That matches "show ambiguity". Weak where Migne spelling is medieval (ae/e, ci/ti, h-drops) and for words missing from its lexicon (returns nothing, which is honest).
+- **LatinCy** (spaCy; ⚠ licence not confirmed): statistical, gives one best tag with a confidence-ish signal. Trained on classical + some later text. Good as a **disambiguator** over Collatinus candidates, not as the display source.
+- **Recommendation:** Collatinus for candidate analyses, orthography-normalized first (plan step 1). LatinCy only if the accuracy sample shows Collatinus leaves too many tokens unanalysed or too ambiguous. No tool is installed on this machine yet (checked: no `collatinus`, no `spacy/latincy/cltk`). Disk is tight (13 GB free, 94% full) so a LatinCy model download is a real cost.
+- **Gate before any display:** hand-check a sample of ~300 tokens from Abbo *Canones* (9741): % with ≥1 analysis, % where the correct analysis is among the candidates, and the failure classes. Record in this file. Single-analysis display only above a threshold Wilson sets.
+
+## 4. Pilot and order
+
+1. Abbo *Canones* (9741) Latin: normalize → Collatinus → accuracy sample → `words.json` + lemma bundle → popup UI.
+2. Latin rollout (Sonnet, pattern work).
+3. Greek: Morpheus/greCy accuracy check on Byzantine text first; Sophocles digitization question.
+
+## Open questions for Wilson
+
+1. Is a BY-SA lexicon layer next to our NC English acceptable, or do we want only PD lexica (Du Cange print OCR, Sophocles, and the PD originals of L&S via archive.org)?
+2. OK to email the ENC (Du Cange) about reuse terms? That is an outward-facing send, so it needs your go.
+3. Accuracy threshold for single-analysis display (suggest: ≥95% correct-in-candidates and ≥90% top-1 on the sample; otherwise ambiguity-only).
+4. Deploy stays held until after Oct 20; nothing here touches the live site.
+
+---
+
+## Pilot result — Abbo *Canones* (9741), Collatinus via pycollatinus, 2026-10-15
+
+Script: `scripts/phase-c-latin-pilot.py`; sample + verdicts: `data/phase-c/abbo-sample.tsv`. Env: `~/.venvs/collatinus` (pycollatinus 3.14 needed a one-line import patch in `util.py`: `Callable` from `collections.abc`; the patch lives only in the venv).
+
+- **Coverage (all 11,150 tokens):** 98.3% get >=1 analysis. The 194 misses are Roman numerals, abbreviations (`cap`, `concil`), proper names (`Tullensi`, `Agapitus`). Spelling-variant fallback fired only twice: Abbo's spelling is near-classical.
+- **Hand check, 300 random tokens, judged in sentence context:** correct reading present among the candidates for **296/300 = 98.7%**. The 4 misses are 2 abbreviations + 2 proper names, all returned empty (honest, no wrong answer).
+- **Ambiguity:** only 112/300 tokens (37%) have a single analysis; 192/300 (64%) have a single *lemma* (the rest are real ambiguity such as `est` = sum/edo, `quod`/`qui`, `sive` = si/siue). Mixed in are some junk candidates (`Eus`, `sion`, `Ios`).
+- **Verdict against the ruled thresholds:** correct-in-candidates **PASS** (98.7% vs >=95%). **Top-1 is NOT MEASURED**: Collatinus does not rank, so there is no top-1 to test. Therefore **Phase C ships ambiguity-only: list all candidate lemmas/parses, no "best guess" tag.** A disambiguator (LatinCy) would be a separate step with its own sample.
+- **Caveats:** (1) I checked lemma presence, not the full morphological parse; parse correctness is unverified. (2) One-model hand check by Sonnet, so a spot audit by Wilson is worthwhile. (3) Abbo is classical-spelling; the **medieval-spelling stress test is still owed** on a work with `e` for `ae`, `ci/ti`, etc. before the rollout. (4) The pycollatinus lexicon is Collatinus's core lexicon, not the larger extension set.
+
+## Next
+1. Build `words.json` + lemma bundle for 9741 (tokens -> all candidates), with sentence/paragraph keys from the `⟦pN⟧/⟦sN⟧` markers.
+2. Lexicon bundles: pull Du Cange (PD) and L&S (BY-SA; read the repo LICENSE first); join on lemma, with a lemma-form mapper (Collatinus `uita`/`canon` vs headwords `vita`).
+3. Popup UI in `site/` build; nothing deployed until after Oct 20.
