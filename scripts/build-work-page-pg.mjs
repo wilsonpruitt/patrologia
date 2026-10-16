@@ -28,9 +28,23 @@ if (!work) { console.error(`no pg-works.json entry for ${key}`); process.exit(1)
 const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8'));
 const workAbout = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/work-about.json'), 'utf8'));
 
-const body = f => stripMarkers(fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '')).trim(); // Phase 0 markers never reach the reader
-const joined = dir => manifest.chunks
-  .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`)))
+// Phase 0/B ⟦pN⟧/⟦sN⟧ markers. A page is cut into per-column-anchor ROWS, so a sentence marker
+// can land in a row that never saw its ⟦pN⟧. Qualify them first: ⟦pN⟧ is consumed, and every
+// ⟦sK⟧ becomes ⟦q<chunk>.<N>|<K>⟧, which names its own paragraph. With keep=false (anything
+// that is not the parallel view) all markers are stripped.
+const qualifyMarkers = (text, chunk) => {
+  let cur = null;
+  return text.replace(/⟦p(\d+[a-z]?)⟧ ?|⟦s(\d+(?:\+s?\d+)*)⟧/g, (m, pid, sid) => {
+    if (pid !== undefined) { cur = `${chunk}.${pid}`; return ''; }
+    return cur ? `⟦q${cur}|${sid.replace(/s/g, '')}⟧` : '';
+  });
+};
+const body = (f, chunk, keep) => {
+  const raw = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  return (keep ? qualifyMarkers(raw, chunk) : stripMarkers(raw)).trim();
+};
+const joined = (dir, keep = false) => manifest.chunks
+  .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`), c.chunk, keep))
   .join('\n\n');
 
 // Rows pair Greek|English per column anchor, but CUT at the sentence end
@@ -79,8 +93,8 @@ function sentenceRows(text, terminalRe) {
 }
 // sentence terminal + space, followed by a capital or a column anchor.
 // Greek: '.' and ';' (erotimatiko) end sentences — the ano teleia does NOT.
-const GRC_TERM = /[.;][)\]»]*\s+(?=[A-ZΑ-ΩἈ-ᾯὉ-Ὗ«]|\[\d{4}\])/g;
-const ENG_TERM = /[.!?][)\]»”"']*\s+(?=[A-ZΑ-Ω«“"]|\[\d{4}\])/g;
+const GRC_TERM = /[.;][)\]»]*\s+(?=(?:⟦q[^⟧]*⟧ ?)*(?:[A-ZΑ-ΩἈ-ᾯὉ-Ὗ«]|\[\d{4}\]))/g;
+const ENG_TERM = /[.!?][)\]»”"']*\s+(?=(?:⟦q[^⟧]*⟧ ?)*(?:[A-ZΑ-Ω«“"]|\[\d{4}\]))/g;
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const colId = c => 'c' + String(parseInt(c, 10));
@@ -159,6 +173,8 @@ function qualifyBands(text) {
 function paras(text, { anchorIds }) {
   return text.split(/\n\n+/).map(p => {
     const inline = assertWellNested(esc(p.replace(/\n/g, ' '))
+      // Phase B sentence boundaries (empty spans; see qualifyMarkers): data-p = paragraph, data-s = source sentences
+      .replace(/⟦q([0-9.]+[a-z]?)\|([0-9+]+)⟧ ?/g, (_, pid, ids) => `<span class="sm" data-p="${pid}" data-s="${ids.split('+').join(',')}"></span>`)
       .replace(/\[(\d{4})\]\s*/g, (_, c) =>
         `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
       // Inline markers. These MUST be transformed here or they reach the reader as
@@ -207,8 +223,9 @@ function paras(text, { anchorIds }) {
 
 // Qualify bands before the text is split into sentence rows or paragraphs — the
 // running column that resolves `[b: C]` into an id crosses both boundaries.
-const grcText = qualifyBands(joined(grcDir));
-const engText = qualifyBands(joined(engDir));
+const grcText = qualifyBands(joined(grcDir, true));
+const engText = qualifyBands(joined(engDir, true));
+const hasSentences = engText.includes('⟦q');
 const grcBlocks = sentenceRows(grcText, GRC_TERM);
 const engBlocks = sentenceRows(engText, ENG_TERM);
 if (grcBlocks.length !== engBlocks.length || grcBlocks.some((b, i) => b.col !== engBlocks[i].col)) {
@@ -359,6 +376,7 @@ ${crucesLink}
   <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a></p>
 </footer>
 
+${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}
 <script>
 /* nearest-anchor fallback: a deep link to a column mark this page doesn't
    carry lands on the nearest preceding one instead of the page top */

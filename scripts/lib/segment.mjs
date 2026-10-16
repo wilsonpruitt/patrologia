@@ -1,9 +1,9 @@
 // Shared sentence segmenter (heuristic) for mark-sentences.mjs and align-sentences.mjs.
-// Masks [n: …] notes and [col] anchors, breaks after . ? ! (Greek also ; ·) before an opener.
+// Masks [n: …] notes and [col] anchors, breaks after . ? ! (Greek also ;, the question mark; the raised dot · is a pause, not a stop) before an opener.
 
 const ABBR = new Set(['ep', 'epist', 'cap', 'concil', 'lib', 'hom', 'serm', 'tom', 'dom', 'sanct', 'ibid', 'id', 'gr', 'hier', 'vid', 'cf', 'loc', 'cit', 'tit', 'dist', 'quaest', 'art', 'conc', 'can', 'ms', 'edit', 'col', 'pag', 'num', 'vers', 'ps', 'prov', 'eccl', 'matth', 'luc', 'joan', 'rom', 'cor', 'gal', 'eph', 'tim', 'hebr', 'apoc', 'deut', 'reg', 'isa', 'jer', 'ezech', 'dan', 'gen', 'exod', 'levit', 'sap', 'ecclus']);
 // punctuation + closers, whitespace, then something that opens a sentence
-const mkBreak = greek => new RegExp(`(${greek ? '[.?!;·]' : '[.?!]'}[»*)\\u2019"]*)( +)(?=(?:\\[\\d{3,5}[A-D]?\\] *)*[«*A-ZÆŒ\\u0391-\\u03A9\\u1F08-\\u1FFF])`, 'g');
+const mkBreak = greek => new RegExp(`(${greek ? '[.?!;]' : '[.?!]'}[»*)\\u2019"]*)( +)(?=(?:\\[\\d{3,5}[A-D]?\\] *)*[«*A-ZÆŒ\\u0391-\\u03A9\\u1F08-\\u1FFF])`, 'g');
 
 export function segment(text, greek = false) {
   const BREAK = mkBreak(greek);

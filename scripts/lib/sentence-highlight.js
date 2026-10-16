@@ -16,7 +16,7 @@
     col.querySelectorAll('p, li').forEach(function (blk) {
       var ms = blk.querySelectorAll('.sm'), list = [];
       ms.forEach(function (m, i) {
-        if (m.dataset.p) { pid = m.dataset.p; return; }
+        if (m.dataset.p) pid = m.dataset.p;   // a marker may carry both (PG rows name their own paragraph)
         if (!m.dataset.s) return;
         var r = document.createRange();
         r.setStartAfter(m);

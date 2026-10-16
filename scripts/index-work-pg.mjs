@@ -43,6 +43,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripMarkers } from './lib/sentence-markers.mjs';
 import {
   KNOWN_FONTES, parseScripture, citeCol, isAnaphoric, isScriptureShaped,
 } from './lib/citations.mjs';
@@ -56,7 +57,7 @@ const manifest = JSON.parse(fs.readFileSync(path.join(grcDir, 'manifest.json'), 
 const reg = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/pg-works.json'), 'utf8'));
 const work = reg.works.find(w => w.key === key);
 
-const body = f => fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '').trim();
+const body = f => stripMarkers(fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '')).trim();
 const joined = dir => manifest.chunks
   .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`)))
   .join('\n\n');
@@ -125,7 +126,7 @@ for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
   const p = path.join(engDir, name);
   if (!fs.existsSync(p)) continue;
-  const text = fs.readFileSync(p, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const text = stripMarkers(fs.readFileSync(p, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
   let col = c.colContext ?? c.colFirst ?? null; // Antiochus's manifest carries colFirst, the Calfa works colContext
   for (const t of text.matchAll(tokenRe)) {
     if (t[3]) { col = t[3]; continue; }
@@ -147,7 +148,7 @@ const bands = [];
 for (const c of manifest.chunks) {
   const f = path.join(grcDir, `${String(c.chunk).padStart(4, '0')}.md`);
   if (!fs.existsSync(f)) continue;
-  const text = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const text = stripMarkers(fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
   let col = c.colContext ?? c.colFirst ?? null;
   for (const t of text.matchAll(/\[([0-9]{3,5}[A-D]?)\]|\[b: *([A-D])\]/g)) {
     if (t[1]) { col = t[1]; continue; }

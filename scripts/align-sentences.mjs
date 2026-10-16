@@ -27,13 +27,16 @@ if (!idno) { console.error('usage: node scripts/align-sentences.mjs <textIdno> [
 const WRITE = process.argv.includes('--write');
 const Z_MAX = Number(process.env.Z_MAX ?? 2.2);
 const ROOT = path.join(import.meta.dirname, '..');
-const latDir = path.join(ROOT, 'src/latin', idno), engDir = path.join(ROOT, 'src/english', idno);
+// <idno> (numeric) = a PL work; anything else = a PG work key (Greek source in src/greek/<key>)
+const IS_PG = !/^\d+$/.test(idno);
+const latDir = path.join(ROOT, IS_PG ? 'src/greek' : 'src/latin', idno), engDir = path.join(ROOT, 'src/english', idno);
 const manifest = JSON.parse(fs.readFileSync(path.join(latDir, 'manifest.json'), 'utf8'));
 
 const split = raw => { const m = raw.match(/^(---\n[\s\S]*?\n---\n)([\s\S]*)$/); return { fm: m[1], body: m[2] }; };
 const plain = s => s.replace(/\[(?:n|nt|cn|fn|vl|f|b|bid|sic|ed|d|var|lat|cj): [^\]]*\]|\[\d{3,5}[A-D]?\]/g, ' ').replace(/\s+/g, ' ').trim();
 const len = s => plain(s).length;
 const qmarks = s => (plain(s).match(/\?/g) || []).length;
+const qmarksSrc = s => (plain(s).match(IS_PG ? /[?;]/g : /\?/g) || []).length; // Greek ; IS the question mark (English ; is not)
 
 // ---- Gale–Church ----
 const erf = x => { const t = 1 / (1 + 0.3275911 * Math.abs(x)); const y = 1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x); return x >= 0 ? y : -y; };
@@ -44,7 +47,7 @@ function beadCost(lSents, eSents, c) {
   const lL = lSents.reduce((n, s) => n + len(s), 0), lE = eSents.reduce((n, s) => n + len(s), 0);
   const mean = c * Math.max(lL, 1), z = (lE - mean) / Math.sqrt(mean * 6.8);
   const p = Math.max(2 * (1 - Phi(Math.abs(z))), 1e-6);
-  const qL = lSents.reduce((n, s) => n + qmarks(s), 0), qE = eSents.reduce((n, s) => n + qmarks(s), 0);
+  const qL = lSents.reduce((n, s) => n + qmarksSrc(s), 0), qE = eSents.reduce((n, s) => n + qmarks(s), 0);
   const qBreak = (qL > 0) !== (qE > 0);
   return { cost: -Math.log(p) + (qBreak ? 2.5 : 0), z, qBreak };
 }
@@ -86,7 +89,7 @@ const chunks = manifest.chunks.map(c => {
 const C = sumE / sumL;
 
 const rows = [];
-let nFallback = 0, nRagged = 0;
+let nFallback = 0, nRagged = 0, wideBeads = 0;
 const fb = (ids, first) => `⟦s${ids.map((x, i) => (i === 0 ? x : `s${x}`)).join('+')}⟧`;
 for (const ch of chunks) {
   const outLines = ch.eng.body.split('\n');
@@ -101,6 +104,9 @@ for (const ch of chunks) {
   // 1. pair paragraphs into groups [latStart, latEnd, engStart, engEnd)
   let groups;
   if (latParas.length === engParas.length) groups = latParas.map((_, k) => [k, k + 1, k, k + 1]);
+  // a source chunk with ONE paragraph (PG: Calfa's Greek has no paragraphing) against an English
+  // that is paragraphed: the whole chunk is one group, English paragraphs are continuation lines
+  else if (latParas.length === 1) groups = [[0, 1, 0, engParas.length]];
   else {
     const pl = latParas.map(p => p.sents.join(' ')), pe = engParas.map(p => p.text);
     const extra = (i, a, j, b) => {
@@ -121,8 +127,24 @@ for (const ch of chunks) {
     const E = [], emap = [];
     EP.forEach((p, pj) => p.sents.forEach(x => { E.push(x); emap.push(pj); }));
     const beads = L.length && E.length ? align(L, E, C, bounds) : null;
-    const conf = !!beads && beads.every(b => Math.abs(b.z) <= Z_MAX && !b.qBreak);
-    const shape = beads ? beads.map(b => `${b.l[1] - b.l[0]}:${b.e[1] - b.e[0]}`).join(' ') : 'none';
+    const doubtful = b => Math.abs(b.z) > Z_MAX || b.qBreak;
+    let conf = !!beads && beads.every(b => !doubtful(b));
+    // PG only: a long group (a whole Greek chunk is one paragraph) must not fall back wholesale
+    // because of one doubtful bead. Collapse each doubtful bead WITH ITS NEIGHBOURS into one wide
+    // many:many bead (the true pair lies inside it), unless that would straddle a Latin paragraph.
+    if (IS_PG && beads && !conf) {
+      const bad = new Set(); beads.forEach((b, k) => { if (doubtful(b)) { bad.add(k - 1); bad.add(k); bad.add(k + 1); } });
+      const merged = []; let ok = true;
+      for (let k = 0; k < beads.length; k++) {
+        if (!bad.has(k)) { merged.push(beads[k]); continue; }
+        let k2 = k; while (bad.has(k2 + 1) && k2 + 1 < beads.length) k2++;
+        const m = { l: [beads[k].l[0], beads[k2].l[1]], e: [beads[k].e[0], beads[k2].e[1]], z: 0, qBreak: false, wide: true };
+        if (bounds[m.l[0]] !== bounds[m.l[1] - 1]) { ok = false; break; }
+        merged.push(m); k = k2;
+      }
+      if (ok) { beads.length = 0; beads.push(...merged); conf = true; wideBeads += merged.filter(m => m.wide).length; }
+    }
+    let shape = beads ? beads.map(b => `${b.l[1] - b.l[0]}:${b.e[1] - b.e[0]}`).join(' ') : 'none';
     const worstZ = beads ? Math.max(...beads.map(b => Math.abs(b.z))).toFixed(2) : '';
     const ragged = l1 - l0 !== 1 || e1 - e0 !== 1;
     const outE = EP.map(() => []); // per English paragraph: marked pieces
@@ -154,6 +176,6 @@ const dir = path.join(ROOT, 'data/sentence-align');
 fs.mkdirSync(dir, { recursive: true });
 fs.writeFileSync(path.join(dir, `${idno}.tsv`), 'paraId\tlatSents\tengSents\tbeads\tworstZ\tlevel\tgroup\n' + rows.join('\n') + '\n');
 const nP = rows.length, nSentLvl = nP - nFallback;
-console.log(`${idno}: ${nP} paragraphs, ${nSentLvl} sentence-level (${(100 * nSentLvl / nP).toFixed(1)}%), ${nFallback} fall back to paragraph level; ${nRagged} ragged paragraph group(s); ratio ${C.toFixed(2)}; Z_MAX ${Z_MAX}`);
+console.log(`${idno}: ${nP} paragraphs, ${nSentLvl} sentence-level (${(100 * nSentLvl / nP).toFixed(1)}%), ${nFallback} fall back to paragraph level; ${nRagged} ragged paragraph group(s)${IS_PG ? `; ${wideBeads} wide (merged) bead(s)` : ''}; ratio ${C.toFixed(2)}; Z_MAX ${Z_MAX}`);
 if (WRITE) { for (const ch of chunks) fs.writeFileSync(path.join(engDir, ch.name), ch.out); console.log('written to src/english'); }
 else console.log('(dry run; --write to stamp src/english)');

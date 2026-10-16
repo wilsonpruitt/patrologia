@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 // Phase 0 (V2-PLAN.md): stamp paragraph IDs ⟦pN⟧ and sentence anchors ⟦sN⟧ into the
 // SOURCE-language chunks of a work, so the translation agent only has to mirror them.
-// Usage: node scripts/mark-sentences.mjs <textIdno|dir> [--greek] [--dry] [--force]
-//        <textIdno> → src/latin/<idno>; a path → that chunk directory (PG: src/greek/<key>).
+// Usage: node scripts/mark-sentences.mjs <textIdno|pgKey|dir> [--greek] [--dry] [--force]
+//        <textIdno> → src/latin/<idno>; <pgKey> → src/greek/<key> (Greek mode); a path → that chunk dir.
 //
 // Run AFTER chunking, BEFORE translating. Idempotent-by-refusal: a chunk that already
 // carries markers is left alone (IDs are never renumbered once assigned), unless --force,
 // which is for pre-translation reruns only.
 //
-// Segmentation is a heuristic, deliberately cheap: break after . ? ! (Greek also ; ·) when
+// Segmentation is a heuristic, deliberately cheap: break after . ? ! (Greek also ;) when
 // the next token opens a sentence (capital, « or *). [n: …] notes and [col] anchors are
 // masked first; common abbreviations and single capitals ("S. Augustinus") do not break.
 // A wrong break is not an error: the English marks the two as one with ⟦s2+s3⟧.
@@ -22,7 +22,10 @@ const ROOT = path.join(import.meta.dirname, '..');
 const arg = process.argv[2];
 if (!arg) { console.error('usage: node scripts/mark-sentences.mjs <textIdno|dir> [--greek] [--dry] [--force]'); process.exit(1); }
 const flag = f => process.argv.includes(f);
-const dir = /^\d+$/.test(arg) ? path.join(ROOT, 'src/latin', arg) : path.resolve(arg);
+// a PG work key (src/greek/<key> exists) implies --greek
+const isKey = !/^\d+$/.test(arg) && fs.existsSync(path.join(ROOT, 'src/greek', arg));
+const dir = /^\d+$/.test(arg) ? path.join(ROOT, 'src/latin', arg) : isKey ? path.join(ROOT, 'src/greek', arg) : path.resolve(arg);
+const GREEK = flag('--greek') || isKey;
 
 const manifest = JSON.parse(fs.readFileSync(path.join(dir, 'manifest.json'), 'utf8'));
 let totalP = 0, totalS = 0, skipped = 0;
@@ -39,7 +42,7 @@ for (const c of manifest.chunks) {
     if (!line.trim() || /^##\s/.test(line)) return line;
     const lead = line.startsWith('- ') ? '- ' : '';
     const text = line.slice(lead.length);
-    const sents = segment(text, flag('--greek'));
+    const sents = segment(text, GREEK);
     p++; totalP++; totalS += sents.length;
     return `${lead}⟦p${p}⟧ ` + sents.map((s, i) => `⟦s${i + 1}⟧ ${s}`).join(' ');
   });
