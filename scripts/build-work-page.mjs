@@ -473,7 +473,7 @@ ${crucesLink}
 <footer class="colophon">
   <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
   <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
-  <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a></p>
+  <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a>${hasWords ? ' Word lookup draws on <a href="/rights/#lookup">Collatinus, Lewis &amp; Short, and Du Cange</a>; see there for their terms.' : ''}</p>
 </footer>
 
 ${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}${hasWords ? `<script>window.__WORDS=${JSON.stringify({ words: `/pl/${vol}/${slug}.words.json`, lex: wordLex })};\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/word-lookup.js'), 'utf8')}</script>\n` : ''}<script>

@@ -2,6 +2,7 @@
 """Phase C pilot: Collatinus coverage + accuracy sample on Abbo Canones (9741).
 Run: ~/.venvs/collatinus/bin/python scripts/phase-c-latin-pilot.py"""
 import re, glob, random, unicodedata, json, sys
+IDNO = sys.argv[1] if len(sys.argv) > 1 else '9741'
 from collections import Counter
 from pycollatinus import Lemmatiseur
 
@@ -12,12 +13,12 @@ def norm(w):
 
 def variants(w):
     n = norm(w); out = [n]
-    for a,b in (('ae','e'),('oe','e'),('e','ae'),('ti','ci'),('ci','ti'),('ph','f')):
+    for a,b in (('ae','e'),('oe','e'),('e','ae'),('ti','ci'),('ci','ti'),('ph','f'),('ch','c'),('th','t')):
         if a in n: out.append(n.replace(a,b))
     return out
 
 txt = ''
-for f in sorted(glob.glob('src/latin/9741/*.md')):
+for f in sorted(glob.glob(f'src/latin/{IDNO}/*.md')):
     t = open(f).read().split('---',2)[2]
     t = re.sub(r'⟦[^⟧]*⟧','',t); t = re.sub(r'\[[^\]]*\]','',t)
     txt += t + '\n'
@@ -40,9 +41,9 @@ for w in toks:
 print(f"tokens {len(toks)}, types {len(set(t.lower() for t in toks))}")
 print(f"analysed {n_ok} ({100*n_ok/len(toks):.1f}%), via spelling-variant {n_var}, none {len(toks)-n_ok}")
 print("top unanalysed:", none.most_common(25))
-random.seed(9741)
+random.seed(int(IDNO))
 sample = random.sample(toks, 300)
-with open('data/phase-c/abbo-sample.tsv','w') as o:
+with open(f'data/phase-c/sample-{IDNO}.tsv','w') as o:
     o.write("token\tvariant_used\tn_analyses\tcandidates(lemma:morph)\tcorrect_in_candidates\ttop1_correct\tnote\n")
     for w in sample:
         var, r = analyse(w)

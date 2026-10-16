@@ -11,7 +11,7 @@ def norm(w):
     return w.replace('æ','ae').replace('œ','oe').replace('j','i').replace('v','u')
 def variants(w):
     n = norm(w); out = [n]
-    for a,b in (('ae','e'),('oe','e'),('e','ae'),('ti','ci'),('ci','ti'),('ph','f')):
+    for a,b in (('ae','e'),('oe','e'),('e','ae'),('ti','ci'),('ci','ti'),('ph','f'),('ch','c'),('th','t')):
         if a in n: out.append(n.replace(a,b))
     return out
 
