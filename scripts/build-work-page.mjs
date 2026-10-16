@@ -337,8 +337,8 @@ const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '
 // Phase C: click-a-word needs the precomputed <slug>.words.json beside the page (scripts/build-words.py)
 const wordsFile = `site/pl/${vol}/${slug}.words.json`;
 const hasWords = fs.existsSync(path.join(ROOT, wordsFile));
-const wordLex = ['ls'].filter(k => fs.existsSync(path.join(ROOT, `site/pl/${vol}/${slug}.lex-${k}.json`)))
-  .map(k => ({ url: `/pl/${vol}/${slug}.lex-${k}.json`, label: { ls: 'L&S' }[k] }));
+const wordLex = ['ls', 'dc'].filter(k => fs.existsSync(path.join(ROOT, `site/pl/${vol}/${slug}.lex-${k}.json`)))
+  .map(k => ({ url: `/pl/${vol}/${slug}.lex-${k}.json`, label: { ls: 'L&S', dc: 'Du Cange (OCR)' }[k] }));
 const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.colLast);
 // Author display: English-first byline from data/author-bios.json, with the
 // Latin form carried into the popup (and the index) to disambiguate. Dedicatees

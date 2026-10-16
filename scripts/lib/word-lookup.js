@@ -45,14 +45,14 @@
           var es = L.d && L.d.entries && L.d.entries[l];
           if (!es) return;
           es.forEach(function (e) {
-            var d = el('details', 'wl-entry'); d.appendChild(el('summary', null, L.label + ': ' + e.head));
+            var d = el('details', 'wl-entry'); d.appendChild(el('summary', null, L.label + ': ' + e.head + (e.fuzzy ? ' (OCR spelling matched)' : '')));
             d.appendChild(el('p', null, e.def)); blk.appendChild(d);
           });
         });
         card.appendChild(blk);
       });
     }
-    card.appendChild(el('p', 'wl-foot', 'Automatic analysis, all candidates shown, not ranked. Lexicon: Lewis & Short via Perseus (CC BY-SA 4.0); analysis: Collatinus.'));
+    card.appendChild(el('p', 'wl-foot', 'Automatic analysis, all candidates shown, not ranked. Lexica: Lewis & Short via Perseus (CC BY-SA 4.0); Du Cange (ed. Favre, public domain), uncorrected OCR; analysis: Collatinus.'));
     document.body.appendChild(card);
     var w = card.offsetWidth, h = card.offsetHeight;
     card.style.left = Math.max(8, Math.min(x, window.innerWidth - w - 8)) + 'px';
