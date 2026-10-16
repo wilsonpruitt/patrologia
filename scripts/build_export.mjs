@@ -82,6 +82,12 @@ permission (§3a of LICENSE), which covers commercial model training.
 Inbound credits: Greek (PG) from the CGPG corpus (CC BY 4.0); Latin (PL)
 from the University of Zurich's Corpus Corporum.
 
+Word-lookup layer (migne.app click-a-word, **not part of this export**; a
+separate layer with its own terms, see https://migne.app/rights): morphological
+analysis by Collatinus (GPL-3) for Latin and Morpheus (Perseus; MPL 2.0) for
+Greek; Lewis & Short and Liddell-Scott-Jones from the Perseus Digital Library
+(CC BY-SA 4.0); Du Cange, ed. Favre (public domain; uncorrected OCR).
+
 ## Hosting
 
 Served from the shared Cloudflare R2 bucket \`wroot-corpus-export\`

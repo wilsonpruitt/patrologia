@@ -1,5 +1,8 @@
 # Next session — resume note
 
+## ▶ NEWEST (2026-10-16) — Phase C WRAPPED UP (no deploy)
+Dataset-card credits added (`scripts/build_export.mjs` → `export/README.md`: Collatinus, Morpheus, L&S/LSJ CC BY-SA, Du Cange; marked as a separate layer, not in the export). Preflight OK (9 checks; `site/lex` + `site/lexg` present). **Only open:** Wilson's optional spot audit of `data/phase-c/sample-*.tsv`; the R2 upload of the regenerated export (`scripts/upload_export_r2.sh`, his OK); the deploy itself (held until after Oct 20, own OK). Committed locally, not pushed.
+
 ## ▶ NEWEST (2026-10-15 late) — Phase C Latin AND Greek lookup BUILT (172 PL + 9 PG), local only (not pushed, not deployed); Greek ruled acceptable at 91.6%
 Score: `PHASE-C-DECISIONS.md`. Click-a-word is live in every PL work page's HTML: global sharded layer `site/lex/` (gitignored; `scripts/build-lookup.py`, ~1.5 min; **must exist at deploy**, preflight 3b enforces), Collatinus analyses (ambiguity-only) + L&S + Du Cange (OCR). Ship routine: `build-site.mjs <idno>` → `build-lookup.py` → `preflight.mjs` → deploy. **Open:** Wilson's spot audit (`data/phase-c/sample-*.tsv`); credits on the open-corpus dataset card; Greek layer `site/lexg/` via `python3 scripts/build-lookup-grc.py` (also gitignored, preflight 3c); Sophocles NOT being built; deploy held until after Oct 20 and needs its own OK.
 
