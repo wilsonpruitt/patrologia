@@ -1,5 +1,8 @@
 # Next session — resume note
 
+## ▶ 2026-10-16 (late) — E1/E2 + reading-view polish PUSHED (`6c8052ac`), NOT deployed (goes live with the next big deploy)
+E2 preview deploy tested OK (`/q/` page + `/q/img/` PNG; functions now forward the preview protection-bypass headers on their self-fetch; prod unaffected). Reading view: lookup is a bottom DOCK (open entries go full width, sources behind ⓘ), looked-up word has its own `::highlight(lookup)`, "Sentence highlights" toggle under the byline (localStorage `hl-sentences`), share bar skipped for single-word selections, trailing hover throttle, and a `.hl-nudge` repaint to kill Chrome slivers on justified lines (Wilson confirmed fixed). ⚠ Never swap `Highlight` objects via `CSS.highlights.set` per hover — Chrome kept stale paint (everything stayed lit). Still owed: social-unfurl check (iMessage/FB/X/Bluesky) only possible after prod deploy.
+
 ## ⏸ 2026-10-16 — E2 preview deploy ON HOLD (Wilson): Vercel CLI login is dead (`vercel whoami` → forbidden, with or without `--scope`). To resume: Wilson runs `vercel login` (the `npx vercel` path also fails with npm `ECOMPROMISED`; a scratch install at `/tmp/claude-501/vc/node_modules/.bin/vercel` worked for the CLI itself, reinstall with `npm i vercel` in a scratch dir if gone), then preview deploy from `site/` (`--archive=tgz`, no `--prod`) and test `/q/pl/139/canones/0.62.1-5` + its `/q/img/…png`. Production deploy still held until after Oct 20.
 
 ## ▶ NEWEST (2026-10-16, evening) — Phase E2 BUILT locally (share card), NOT deployed, bundling UNPROVEN
