@@ -54,7 +54,7 @@ Acceptance: every shipped work reachable within two clicks from `/browse/`; page
 ### Phase A as built (2026-10-15)
 
 `scripts/build-browse.mjs` → `site/browse/index.html` (397 KB raw, one embedded JSON block; PL 1,491 authors / 5,276 works, PG 237 / 973; 191 in English, gilt and linked). Series → author → work, counts at each level, filter box (author or title, accent-folded), "In English only" toggle; work lists render lazily. Added to `build-site.mjs` INDEXES, `preflight` freshness list and the nav (`Browse`). Checked in a browser: filter, English toggle, no horizontal scroll at 390 px. Also fixed an existing site-wide bug: the nav bar overflowed on phones (now wraps).
-**Caveats:** PG author names come from two sources, so a shipped author and the same author's unshipped works can show as two entries. The nav change reaches work pages only when they are next rebuilt. `sitemap.xml` not regenerated. Not deployed.
+**Caveats:** PG author names come from two sources, so a shipped author and the same author's unshipped works can show as two entries. The nav change reaches work pages only when they are next rebuilt. `sitemap.xml` not regenerated. Pushed 2026-10-15 (`cd87be1b`); **not deployed: held until after the Oct 20 pause (Wilson).**
 
 ## Phase B — sentence highlighting
 
@@ -152,6 +152,6 @@ Model tiers ([[reference_model-prudence-rubric]]): Phase 0's convention wording 
 1. **Phase 0 — accepted as proposed.** Sentence markers `⟦sN⟧` emitted at translation time in both languages; paragraph IDs `<textIdno>.<chunk>.<para>`, never renumbered after ship, splits take a suffix (`.4a`). Applies from the next translated work.
 2. **Phase D — Hypothesis** as the interim annotation layer. Own accounts only with the Press-wide app.
 3. **Pilot work for Phases B and C — Abbo, *Canones* (PL 139, idno 9741)**, the first pilot and style anchor.
-4. **Rabira — no reply now.** Write back once something ships.
+4. **Rabira — replied by Wilson (2026-10-15); closed.**
 5. **Phase B retrofit — outside the no-retrofit ruling; do it.** Machine-only alignment over files we hold, text untouched; low-confidence paragraphs fall back to paragraph-level highlighting.
 6. **Priority — Phase 0 now; the rest slot between works** as small units and never displace a work in progress.
