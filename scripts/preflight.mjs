@@ -130,6 +130,23 @@ run('word lookup — site/lex covers every shipped Latin work', () => {
   return `${works} works, ${m.forms_n} forms, ${m.lemmas_n} lemmas`;
 });
 
+// 3c. Same for the Greek lookup layer (site/lexg), against src/greek works.
+run('word lookup (Greek) — site/lexg covers every shipped Greek work', () => {
+  const man = path.join(ROOT, 'site/lexg/manifest.json');
+  if (!fs.existsSync(man)) throw new Error('site/lexg/manifest.json missing; fix: python3 scripts/build-lookup-grc.py');
+  const gDir = path.join(ROOT, 'src/greek');
+  let works = 0, newest = 0;
+  for (const d of fs.readdirSync(gDir, { withFileTypes: true })) {
+    if (!d.isDirectory()) continue;
+    works++;
+    for (const f of fs.readdirSync(path.join(gDir, d.name))) newest = Math.max(newest, fs.statSync(path.join(gDir, d.name, f)).mtimeMs);
+  }
+  const m = JSON.parse(fs.readFileSync(man, 'utf8'));
+  if (m.works !== works || fs.statSync(man).mtimeMs < newest - 1000) throw new Error(
+    `Greek lookup layer built over ${m.works} works, ${works} are shipped (or a chunk is newer than the layer)\n  fix: python3 scripts/build-lookup-grc.py`);
+  return `${works} works, ${m.forms_n} forms, ${m.lemmas_n} lemmas`;
+});
+
 // 4. Every englished work actually has a built page. Catches a work marked `ours`
 //    whose page was never generated — invisible on the landing page, which lists
 //    RECENT explicitly rather than deriving it.
