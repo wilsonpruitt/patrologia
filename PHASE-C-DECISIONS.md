@@ -93,3 +93,16 @@ Script: `scripts/phase-c-latin-pilot.py`; sample + verdicts: `data/phase-c/abbo-
 - **Second work: PL 162, Anselm of Laon, *Enarrationes in Cantica canticorum* (10725)**, chosen as the shipped work with the highest density of medieval-spelling markers (`ecclesie`, `celum`, `ymago`…). Result: **99.5% of 17,532 tokens analysed**, **300/300 (100%)** of a random hand-checked sample (`data/phase-c/sample-10725.tsv`, judged in context, lemma presence only) have the correct reading among the candidates. Top-1 still not measurable (no ranking), so ambiguity-only stands.
 - **Finding that matters:** Migne's printed Latin is already orthographically regularised (classical `ae`, `j/v` aside), so the feared medieval-spelling problem did not appear. The real residual risk is **vocabulary and proper names** (`hierusalem`, `Hermon`, `sunamite`) and **clitic fusions** (`seipsum`), plus `ch-` spellings (`charitate`), which I fixed by adding `ch→c` and `th→t` to the spelling-variant fallback (Abbo and 10725 both rebuilt: spelling-variant hits 2 → 20 on 10725). Caveat: two works from Migne's regularised orthography, both Sonnet-judged. A work with a genuinely non-regularised edition (e.g. a later critical-spelling text) was not tested.
 - **Verdict:** rollout cleared for the Latin PL works, on the ambiguity-only display.
+
+## Storage architecture: RECOMMENDATION for Wilson's approval (not built), 2026-10-15
+**Measured:** two unrelated works (Abbo 9741, Anselm 10725) share 43% of their lemmas (1,503 of 3,514 / 3,329; union 5,340) and 21% of their word forms. Per-work bundles for Abbo are ~880 KB gz (words 100 + L&S 563 + Du Cange 216). Times 172 shipped works that is ~150 MB of mostly duplicated data, and every new work adds another bundle.
+
+**Proposal: one global, sharded lookup layer, not per-work files.**
+- `/lex/forms/<first2>.json` — normalised form → candidate analyses (lemma + parse). Analysis is context-free, so it belongs to the language, not the work.
+- `/lex/ls/<first2>.json` and `/lex/dc/<first2>.json` — dictionary entries by lemma initial pair (shortened as now).
+- Popup fetches the form shard, then the lemma shard(s) for the lemmas it names: 2–3 small cacheable requests per first click, browser-cached across every work.
+- One build script (`build-lookup.py`) walks all shipped works' Latin, analyses each distinct form once (cached), and writes the shards. **Shipping a new work = re-run it; it only adds forms.** No per-work lexicon step, which also removes the rollout (steps 4's 171 per-work builds) as a task.
+- Estimated size: ~25–30K distinct lemmas -> roughly 10 MB gz for everything, versus ~150 MB; shard file count ~1–2K, well under Vercel's upload cap with `--archive=tgz`.
+- Cost of the choice: popup needs network for 2–3 shard fetches (not one); a global build must run before any deploy that adds a work; Greek gets its own parallel namespace (`/lex/grc/...`).
+- **Alternative (keep per-work files):** simpler and works today, but ~150 MB duplicated, and every future work repeats the build.
+**Recommend the sharded global layer.** Existing Abbo per-work files become throwaway once it exists.
