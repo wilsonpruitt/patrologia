@@ -13,8 +13,10 @@
       ? function (x, y) { var r = document.caretRangeFromPoint(x, y); return r && [r.startContainer, r.startOffset]; }
       : null;
   if (!caret) return;
-  var manifest = null, mloading = null, cache = {}, card = null, lhl = null;
-  if (window.CSS && CSS.highlights && window.Highlight) { lhl = new Highlight(); CSS.highlights.set('lookup', lhl); }
+  var manifest = null, mloading = null, cache = {}, card = null, canHl = !!(window.CSS && CSS.highlights && window.Highlight), seq = 0;
+  var lhl = canHl ? new Highlight() : null;
+  if (lhl) CSS.highlights.set('lookup', lhl);
+  function paintWord(rng) { if (!lhl) return; lhl.clear(); if (rng) lhl.add(rng); }
   function norm(w) {
     return w.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       .replace(/æ/g, 'ae').replace(/œ/g, 'oe').replace(/j/g, 'i').replace(/v/g, 'u');
@@ -73,11 +75,11 @@
     });
   }
   function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
-  function close() { if (card) { card.remove(); card = null; document.body.style.paddingBottom = ''; } if (lhl) lhl.clear(); }
+  function close() { seq++; if (card) { card.remove(); card = null; document.body.style.paddingBottom = ''; } paintWord(null); }
   function show(word, rng, r) {
     close();
     card = el('div', 'wl-card');
-    if (lhl && rng) lhl.add(rng);
+    paintWord(rng);
     card.setAttribute('role', 'dialog'); card.setAttribute('aria-label', 'Word lookup: ' + word);
     var head = el('div', 'wl-head'); head.appendChild(el('strong', null, word));
     var x_ = el('button', 'wl-x', '\u00d7'); x_.setAttribute('aria-label', 'Close'); x_.onclick = close; head.appendChild(x_);
@@ -123,7 +125,8 @@
     if (GREEK && e < t.length && ELIDE.indexOf(t[e]) >= 0) e++;   // trailing elision mark belongs to the word
     var word = t.slice(s, e); if (word.length < 2) { close(); return; }
     var rng = document.createRange(); rng.setStart(c[0], s); rng.setEnd(c[0], e);
-    lookup(word).then(function (r) { show(word, rng, r); });
+    var my = ++seq;
+    lookup(word).then(function (r) { if (my === seq) show(word, rng, r); });
   });
   document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') close(); });
 })();

@@ -867,12 +867,14 @@ a { color: inherit; }
 .wl-head { flex: 0 0 100%; display: flex; justify-content: space-between; align-items: baseline; }
 .wl-x { background: none; border: 0; font-size: 1.3rem; line-height: 1; cursor: pointer; color: inherit; }
 .wl-lemma { flex: 1 1 18rem; max-width: 30rem; padding: .1rem 0; }
+.wl-lemma:has(details[open]) { flex: 1 1 100%; max-width: none; }
 .wl-lemma-name { font-weight: 600; }
 .wl-parse { font-size: .82rem; opacity: .8; }
 .wl-entry { margin-top: .25rem; } .wl-entry summary { cursor: pointer; }
 .wl-note, .wl-foot { font-size: .78rem; opacity: .75; margin: .2rem 0 0; }
 .wl-src { flex: 0 0 100%; font-size: .78rem; } .wl-src summary { cursor: pointer; opacity: .75; }
 ::highlight(lookup) { background-color: rgba(30,59,44,.22); }
+.hl-nudge { background-color: rgba(0,0,0,.004); }
 .hl-toggle { margin: .4rem 0 0; background: none; border: 1px solid var(--dorure); color: inherit; font: inherit; font-size: .78rem;
   padding: .1rem .5rem; cursor: pointer; }
 .hl-toggle[aria-pressed="false"] { opacity: .6; }

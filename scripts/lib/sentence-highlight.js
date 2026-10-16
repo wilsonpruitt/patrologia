@@ -67,16 +67,40 @@
     for (var i = 0; i < l.length; i++) if (l[i].r.isPointInRange(c[0], c[1])) return l[i];
     return null;
   }
+  // Chrome leaves thin stale slivers at the end of justified lines when a highlight is cleared
+  // (its invalidation rect is shorter than what it painted). Repainting the whole containing block
+  // for a frame wipes them.
+  function nudge(rs) {
+    var blks = [];
+    rs.forEach(function (r) {
+      var n = r.startContainer, b = n.nodeType === 1 ? n : n.parentElement;
+      b = b && b.closest && b.closest('p, li');
+      if (b && blks.indexOf(b) < 0) blks.push(b);
+    });
+    if (!blks.length) return;
+    blks.forEach(function (b) { b.classList.add('hl-nudge'); });
+    requestAnimationFrame(function () { requestAnimationFrame(function () { blks.forEach(function (b) { b.classList.remove('hl-nudge'); }); }); });
+  }
   function show(it) {
     if (it === current || (!on && it)) return;
+    var old = hl.size ? Array.from(hl) : [];
     current = it; hl.clear();
     if (it) group(it).forEach(function (x) { hl.add(x.r); });
+    nudge(old);
   }
-  var t = 0;
-  document.addEventListener('mousemove', function (e) {
-    var now = Date.now(); if (now - t < 40) return; t = now;
+  // Throttled, but the LAST position always gets processed (a bare "drop if <40ms" left the old
+  // highlight up whenever the final mousemove landed inside the window).
+  var t = 0, pend = null, timer = null;
+  function move(e) {
+    if (!on) return;
     if (e.target.closest && !e.target.closest('.coltext')) return show(null);
     show(at(e.clientX, e.clientY));
+  }
+  document.addEventListener('mousemove', function (e) {
+    var now = Date.now();
+    if (now - t < 40) { pend = e; if (!timer) timer = setTimeout(function () { timer = null; if (pend) { t = Date.now(); move(pend); pend = null; } }, 45); return; }
+    t = now; pend = null; move(e);
   });
+  document.documentElement.addEventListener('mouseleave', function () { show(null); });
   document.addEventListener('click', function (e) { show(at(e.clientX, e.clientY)); });
 })();
