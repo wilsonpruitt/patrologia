@@ -334,11 +334,8 @@ ${blockHtml(engSecs[i].text, { anchorIds: false, state: engState })}
 const vol = manifest.volume;
 const title = manifest.title;
 const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-// Phase C: click-a-word needs the precomputed <slug>.words.json beside the page (scripts/build-words.py)
-const wordsFile = `site/pl/${vol}/${slug}.words.json`;
-const hasWords = fs.existsSync(path.join(ROOT, wordsFile));
-const wordLex = ['ls', 'dc'].filter(k => fs.existsSync(path.join(ROOT, `site/pl/${vol}/${slug}.lex-${k}.json`)))
-  .map(k => ({ url: `/pl/${vol}/${slug}.lex-${k}.json`, label: { ls: 'L&S', dc: 'Du Cange (OCR)' }[k] }));
+// Phase C: click-a-word reads the GLOBAL sharded lookup layer (site/lex/, scripts/build-lookup.py)
+const hasWords = fs.existsSync(path.join(ROOT, 'site/lex/manifest.json'));
 const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.colLast);
 // Author display: English-first byline from data/author-bios.json, with the
 // Latin form carried into the popup (and the index) to disambiguate. Dedicatees
@@ -476,7 +473,7 @@ ${crucesLink}
   <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a>${hasWords ? ' Word lookup draws on <a href="/rights/#lookup">Collatinus, Lewis &amp; Short, and Du Cange</a>; see there for their terms.' : ''}</p>
 </footer>
 
-${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}${hasWords ? `<script>window.__WORDS=${JSON.stringify({ words: `/pl/${vol}/${slug}.words.json`, lex: wordLex })};\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/word-lookup.js'), 'utf8')}</script>\n` : ''}<script>
+${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}${hasWords ? `<script>window.__WORDS=${JSON.stringify({ base: '/lex' })};\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/word-lookup.js'), 'utf8')}</script>\n` : ''}<script>
 /* nearest-anchor fallback: a deep link to a column mark this page doesn't
    carry lands on the nearest preceding one instead of the page top */
 document.addEventListener('DOMContentLoaded', function () {

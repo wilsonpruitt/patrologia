@@ -106,3 +106,11 @@ Script: `scripts/phase-c-latin-pilot.py`; sample + verdicts: `data/phase-c/abbo-
 - Cost of the choice: popup needs network for 2–3 shard fetches (not one); a global build must run before any deploy that adds a work; Greek gets its own parallel namespace (`/lex/grc/...`).
 - **Alternative (keep per-work files):** simpler and works today, but ~150 MB duplicated, and every future work repeats the build.
 **Recommend the sharded global layer.** Existing Abbo per-work files become throwaway once it exists.
+
+## Global sharded lookup BUILT, 2026-10-15 (Wilson: "keep going", read as approval of the recommendation)
+- `scripts/build-lookup.py` -> `site/lex/` (gitignored, regenerable, 775 files, 22.6 MB raw / **5.5 MB gz total**, largest shard 110 KB gz). 172 shipped Latin works -> **98,351 distinct forms, 23,470 lemmas**; L&S for 19,345 lemmas, Du Cange for 6,365. 7 big form shards and 2 L&S shards are re-cut to 3 letters (listed in `site/lex/manifest.json`). Runs in ~1.5 min.
+- `word-lookup.js` reads the manifest, fetches `forms/<k>`, then `ls/<k>` and `dc/<k>` per lemma; browser-cached across works. Tested in a browser on a split shard (`concilio` -> forms/con), an unsplit one, and a fuzzy Du Cange match.
+- **All 172 PL work pages rebuilt** with the lookup script + footer credit (the per-work Abbo files and the three per-work scripts are deleted).
+- **Preflight gained check 3b:** `site/lex` must exist, cover every shipped Latin work (count) and be newer than the newest chunk. Preflight: 8/8 OK.
+- **Ship routine now:** `node scripts/build-site.mjs <idno>` -> `~/.venvs/collatinus/bin/python scripts/build-lookup.py` -> `node scripts/preflight.mjs` -> deploy. ⚠ The deploy uploads from `site/`, so `site/lex/` must be present locally at deploy time (it is gitignored).
+- **Still open:** PG/Greek lookup (own namespace, needs its own accuracy check + Sophocles); Wilson's spot audit; `open-corpus` dataset-card credits; nothing deployed (hold until after Oct 20, own OK).

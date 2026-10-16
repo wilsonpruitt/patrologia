@@ -1,7 +1,7 @@
 # Next session — resume note
 
-## ▶ NEWEST (2026-10-15 late) — Phase C Latin pilot BUILT locally on Abbo 9741, NOT pushed, NOT deployed
-Score: `PHASE-C-DECISIONS.md` (rulings, accuracy result, progress). Done: Collatinus pilot (98.7% correct-in-candidates, ambiguity-only display), `scripts/build-words.py`, `scripts/build-lexicon-ls.py` (L&S, CC BY-SA 4.0 confirmed), `scripts/lib/word-lookup.js` wired into `build-work-page.mjs` (injects only when `site/pl/<vol>/<slug>.words.json` exists), popup tested in browser. **Open:** (1) Du Cange bundle from archive.org OCR (own sub-project, needs burn estimate + go); (2) medieval-spelling stress test on a second work; (3) rights page + footer credit for Collatinus (GPL-3 tool) and Perseus (BY-SA) before any deploy; (4) Latin rollout (Sonnet), Greek after. Deploy held until after Oct 20.
+## ▶ NEWEST (2026-10-15 late) — Phase C Latin lookup BUILT for all 172 PL works, local only (not pushed, not deployed)
+Score: `PHASE-C-DECISIONS.md`. Click-a-word is live in every PL work page's HTML: global sharded layer `site/lex/` (gitignored; `scripts/build-lookup.py`, ~1.5 min; **must exist at deploy**, preflight 3b enforces), Collatinus analyses (ambiguity-only) + L&S + Du Cange (OCR). Ship routine: `build-site.mjs <idno>` → `build-lookup.py` → `preflight.mjs` → deploy. **Open:** Wilson's spot audit (`data/phase-c/sample-*.tsv`); credits on the open-corpus dataset card; PG/Greek lookup (own accuracy check, Sophocles digitization); deploy held until after Oct 20 and needs its own OK.
 
 
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-15, newest) — migne.app 2.0 PHASE C (click a word: lemma, morphology, lexicon) · Phases 0, A, B DONE and PUSHED (`b3d861b0`), NOTHING DEPLOYED (Wilson: deploy held until after Oct 20)

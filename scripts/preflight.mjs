@@ -109,6 +109,27 @@ run('index freshness — no index older than the newest work page', () => {
   return `all ${INDEXES.length} indexes current`;
 });
 
+// 3b. Phase C word lookup: the global lookup layer (site/lex) must cover every shipped Latin
+//     work. A work shipped after the last `build-lookup.py` run would still render, but its
+//     words would answer "no analysis". Count AND mtime, same instrument as 3a.
+run('word lookup — site/lex covers every shipped Latin work', () => {
+  const man = path.join(ROOT, 'site/lex/manifest.json');
+  if (!fs.existsSync(man)) throw new Error('site/lex/manifest.json missing; fix: ~/.venvs/collatinus/bin/python scripts/build-lookup.py');
+  const latDir = path.join(ROOT, 'src/latin');
+  let works = 0, newest = 0;
+  for (const d of fs.readdirSync(latDir, { withFileTypes: true })) {
+    if (!d.isDirectory()) continue;
+    const first = path.join(latDir, d.name, '0000.md');
+    if (!fs.existsSync(first) || !fs.readFileSync(first, 'utf8').includes('⟦p')) continue;
+    works++;
+    for (const f of fs.readdirSync(path.join(latDir, d.name))) newest = Math.max(newest, fs.statSync(path.join(latDir, d.name, f)).mtimeMs);
+  }
+  const m = JSON.parse(fs.readFileSync(man, 'utf8'));
+  if (m.works !== works || fs.statSync(man).mtimeMs < newest - 1000) throw new Error(
+    `lookup layer built over ${m.works} works, ${works} are shipped (or a chunk is newer than the layer)\n  fix: ~/.venvs/collatinus/bin/python scripts/build-lookup.py`);
+  return `${works} works, ${m.forms_n} forms, ${m.lemmas_n} lemmas`;
+});
+
 // 4. Every englished work actually has a built page. Catches a work marked `ours`
 //    whose page was never generated — invisible on the landing page, which lists
 //    RECENT explicitly rather than deriving it.
