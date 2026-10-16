@@ -147,6 +147,13 @@ run('word lookup (Greek) — site/lexg covers every shipped Greek work', () => {
   return `${works} works, ${m.forms_n} forms, ${m.lemmas_n} lemmas`;
 });
 
+// 3d. Phase E2: the share-card function answers for a PL and a PG passage (og tags + PNG).
+//     In-process only; Vercel bundling and the /q/ rewrites need a preview deploy to prove.
+run('share card — /q/ handlers answer for a PL and a PG passage', () => {
+  if (!fs.existsSync(path.join(ROOT, 'site/node_modules/@vercel/og'))) throw new Error('site/node_modules missing; fix: cd site && npm install');
+  return execFileSync('node', [path.join(ROOT, 'scripts/check-quote-route.mjs')], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
+});
+
 // 4. Every englished work actually has a built page. Catches a work marked `ours`
 //    whose page was never generated — invisible on the landing page, which lists
 //    RECENT explicitly rather than deriving it.
