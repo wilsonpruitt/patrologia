@@ -1,5 +1,9 @@
 # Next session — resume note
 
+## ▶ NEWEST (2026-10-15 late) — Phase C Latin pilot BUILT locally on Abbo 9741, NOT pushed, NOT deployed
+Score: `PHASE-C-DECISIONS.md` (rulings, accuracy result, progress). Done: Collatinus pilot (98.7% correct-in-candidates, ambiguity-only display), `scripts/build-words.py`, `scripts/build-lexicon-ls.py` (L&S, CC BY-SA 4.0 confirmed), `scripts/lib/word-lookup.js` wired into `build-work-page.mjs` (injects only when `site/pl/<vol>/<slug>.words.json` exists), popup tested in browser. **Open:** (1) Du Cange bundle from archive.org OCR (own sub-project, needs burn estimate + go); (2) medieval-spelling stress test on a second work; (3) rights page + footer credit for Collatinus (GPL-3 tool) and Perseus (BY-SA) before any deploy; (4) Latin rollout (Sonnet), Greek after. Deploy held until after Oct 20.
+
+
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-15, newest) — migne.app 2.0 PHASE C (click a word: lemma, morphology, lexicon) · Phases 0, A, B DONE and PUSHED (`b3d861b0`), NOTHING DEPLOYED (Wilson: deploy held until after Oct 20)
 
 **Read `V2-PLAN.md` first; its Phase C section and the "as built" notes under Phases 0/A/B are the score.** State: every shipped work (172 PL + 9 PG) carries `⟦pN⟧`/`⟦sN⟧` markers and sentence highlighting; `/browse/` built; Rabira's email is answered (closed). Deploy = `cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`, needs Wilson's own OK, and not before Oct 20.

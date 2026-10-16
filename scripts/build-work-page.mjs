@@ -334,6 +334,11 @@ ${blockHtml(engSecs[i].text, { anchorIds: false, state: engState })}
 const vol = manifest.volume;
 const title = manifest.title;
 const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+// Phase C: click-a-word needs the precomputed <slug>.words.json beside the page (scripts/build-words.py)
+const wordsFile = `site/pl/${vol}/${slug}.words.json`;
+const hasWords = fs.existsSync(path.join(ROOT, wordsFile));
+const wordLex = ['ls'].filter(k => fs.existsSync(path.join(ROOT, `site/pl/${vol}/${slug}.lex-${k}.json`)))
+  .map(k => ({ url: `/pl/${vol}/${slug}.lex-${k}.json`, label: { ls: 'L&S' }[k] }));
 const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.colLast);
 // Author display: English-first byline from data/author-bios.json, with the
 // Latin form carried into the popup (and the index) to disambiguate. Dedicatees
@@ -471,7 +476,7 @@ ${crucesLink}
   <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a></p>
 </footer>
 
-${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}<script>
+${hasSentences ? `<script>\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/sentence-highlight.js'), 'utf8')}</script>\n` : ''}${hasWords ? `<script>window.__WORDS=${JSON.stringify({ words: `/pl/${vol}/${slug}.words.json`, lex: wordLex })};\n${fs.readFileSync(path.join(ROOT, 'scripts/lib/word-lookup.js'), 'utf8')}</script>\n` : ''}<script>
 /* nearest-anchor fallback: a deep link to a column mark this page doesn't
    carry lands on the nearest preceding one instead of the page top */
 document.addEventListener('DOMContentLoaded', function () {
@@ -864,6 +869,19 @@ css += `
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
 .colpair { border-top: 0; padding-top: .4rem; }
 .columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }
+
+/* Phase C: word lookup card */
+.wl-card { position: fixed; z-index: 50; width: min(26rem, calc(100vw - 16px)); max-height: min(70vh, 32rem); overflow: auto;
+  background: var(--papier); color: var(--encre); border: 1px solid var(--dorure); box-shadow: 0 6px 24px rgba(0,0,0,.25);
+  padding: .6rem .8rem; font-size: .9rem; line-height: 1.45; }
+.wl-head { display: flex; justify-content: space-between; align-items: baseline; }
+.wl-x { background: none; border: 0; font-size: 1.3rem; line-height: 1; cursor: pointer; color: inherit; }
+.wl-lemma { border-top: 1px solid rgba(0,0,0,.15); padding: .4rem 0; }
+.wl-lemma-name { font-weight: 600; }
+.wl-parse { font-size: .82rem; opacity: .8; }
+.wl-entry { margin-top: .25rem; } .wl-entry summary { cursor: pointer; }
+.wl-note, .wl-foot { font-size: .78rem; opacity: .75; margin: .4rem 0 0; }
+.coltext.latin { cursor: text; }
 `;
 fs.writeFileSync(path.join(ROOT, 'site/styles.css'), css);
 
