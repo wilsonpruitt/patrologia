@@ -31,7 +31,18 @@
   });
   if (!items.length) return;
   var hl = new Highlight(); CSS.highlights.set('sentence', hl);
-  var current = null;
+  var current = null, on = true;
+  try { on = localStorage.getItem('hl-sentences') !== 'off'; } catch (e) {}
+  var host = document.querySelector('.work-id');
+  if (host) {
+    var tg = document.createElement('button'); tg.type = 'button'; tg.className = 'hl-toggle';
+    var paint = function () { tg.textContent = 'Sentence highlights: ' + (on ? 'on' : 'off'); tg.setAttribute('aria-pressed', on); };
+    tg.onclick = function () {
+      on = !on; paint(); if (!on) { current = null; hl.clear(); }
+      try { localStorage.setItem('hl-sentences', on ? 'on' : 'off'); } catch (e) {}
+    };
+    paint(); host.appendChild(tg);
+  }
   function group(it) {
     var mates = items.filter(function (x) { return x.p === it.p; });
     var ids = {}; it.ids.forEach(function (i) { ids[i] = 1; });
@@ -57,7 +68,7 @@
     return null;
   }
   function show(it) {
-    if (it === current) return;
+    if (it === current || (!on && it)) return;
     current = it; hl.clear();
     if (it) group(it).forEach(function (x) { hl.add(x.r); });
   }

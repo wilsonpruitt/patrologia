@@ -56,7 +56,7 @@
     var s = window.getSelection();
     if (!s || s.isCollapsed || !s.rangeCount) return hide();
     var t = s.toString(), col = colOf(s.anchorNode);
-    if (t.trim().length < 3 || !col || colOf(s.focusNode) !== col) return hide();
+    if (t.trim().length < 3 || !/\s/.test(t.trim()) || !col || colOf(s.focusNode) !== col) return hide();
     text = t;
     ref = sentenceRef(s.getRangeAt(0), col);
     bCard.hidden = !(ref && cardUrl(ref));

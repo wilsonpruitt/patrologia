@@ -859,15 +859,21 @@ a { color: inherit; }
 .colpair { border-top: 0; padding-top: .4rem; }
 .columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }
 
-/* Phase C: word lookup card */
-.wl-card { position: fixed; z-index: 50; width: min(26rem, calc(100vw - 16px)); max-height: min(70vh, 32rem); overflow: auto;
-  background: var(--papier); color: var(--encre); border: 1px solid var(--dorure); box-shadow: 0 6px 24px rgba(0,0,0,.25);
-  padding: .6rem .8rem; font-size: .9rem; line-height: 1.45; }
-.wl-head { display: flex; justify-content: space-between; align-items: baseline; }
+/* Phase C: word lookup dock (bottom of the window; never covers the text being read) */
+.wl-card { position: fixed; z-index: 50; left: 0; right: 0; bottom: 0; max-height: 38vh; overflow: auto;
+  background: var(--papier); color: var(--encre); border-top: 2px solid var(--dorure); box-shadow: 0 -4px 16px rgba(0,0,0,.15);
+  padding: .5rem max(.8rem, calc((100vw - 64rem) / 2)); font-size: .9rem; line-height: 1.4;
+  display: flex; flex-wrap: wrap; gap: .2rem 1.6rem; align-items: flex-start; }
+.wl-head { flex: 0 0 100%; display: flex; justify-content: space-between; align-items: baseline; }
 .wl-x { background: none; border: 0; font-size: 1.3rem; line-height: 1; cursor: pointer; color: inherit; }
-.wl-lemma { border-top: 1px solid rgba(0,0,0,.15); padding: .4rem 0; }
+.wl-lemma { flex: 1 1 18rem; max-width: 30rem; padding: .1rem 0; }
 .wl-lemma-name { font-weight: 600; }
 .wl-parse { font-size: .82rem; opacity: .8; }
 .wl-entry { margin-top: .25rem; } .wl-entry summary { cursor: pointer; }
-.wl-note, .wl-foot { font-size: .78rem; opacity: .75; margin: .4rem 0 0; }
+.wl-note, .wl-foot { font-size: .78rem; opacity: .75; margin: .2rem 0 0; }
+.wl-src { flex: 0 0 100%; font-size: .78rem; } .wl-src summary { cursor: pointer; opacity: .75; }
+::highlight(lookup) { background-color: rgba(30,59,44,.22); }
+.hl-toggle { margin: .4rem 0 0; background: none; border: 1px solid var(--dorure); color: inherit; font: inherit; font-size: .78rem;
+  padding: .1rem .5rem; cursor: pointer; }
+.hl-toggle[aria-pressed="false"] { opacity: .6; }
 .coltext.latin { cursor: text; }

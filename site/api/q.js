@@ -27,11 +27,14 @@ export function renderHtml(origin, rt, q) {
 </head><body><p><a href="${esc(go)}">${esc(title)}</a></p></body></html>`;
 }
 
+// Preview deployments sit behind Deployment Protection; pass the caller's bypass credentials on the self-fetch.
+const bypass = r => Object.fromEntries(['cookie', 'x-vercel-protection-bypass'].map(k => [k, r.headers.get(k)]).filter(([, v]) => v));
+
 export default {
   async fetch(request) {
     const u = new URL(request.url);
     const rt = route(u.searchParams.get('series'), u.searchParams.get('vol'), u.searchParams.get('slug'), u.searchParams.get('ref'));
-    const q = await resolve(rt, async p => { const r = await fetch(u.origin + p); return r.ok ? r.text() : null; });
+    const q = await resolve(rt, async p => { const r = await fetch(u.origin + p, { headers: bypass(request) }); return r.ok ? r.text() : null; });
     if (!q) return new Response(null, { status: 302, headers: { Location: '/' } });
     return new Response(renderHtml(u.origin, rt, q), { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'public, s-maxage=86400, stale-while-revalidate=604800' } });
   },
