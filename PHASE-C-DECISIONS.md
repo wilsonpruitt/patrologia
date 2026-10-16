@@ -67,3 +67,9 @@ Script: `scripts/phase-c-latin-pilot.py`; sample + verdicts: `data/phase-c/abbo-
 1. Build `words.json` + lemma bundle for 9741 (tokens -> all candidates), with sentence/paragraph keys from the `⟦pN⟧/⟦sN⟧` markers.
 2. Lexicon bundles: pull Du Cange (PD) and L&S (BY-SA; read the repo LICENSE first); join on lemma, with a lemma-form mapper (Collatinus `uita`/`canon` vs headwords `vita`).
 3. Popup UI in `site/` build; nothing deployed until after Oct 20.
+
+## Progress 2026-10-15 (later)
+- **Licence closed:** PerseusDL/lexica `license.md` = CC BY-SA 4.0, and the L&S XML header says the same. Source on disk (gitignored): `sources/lexica/ls/ls.xml` + LICENSE.md.
+- **Built for 9741:** `site/pl/139/canones.words.json` (4,280 forms, 3,513 lemmas, ~100 KB gz; morph labels translated from Collatinus's French to English abbreviations) and `canones.lex-ls.json` (L&S entries, first 500 chars, max 3 homographs per lemma). Scripts: `scripts/build-words.py`, `scripts/build-lexicon-ls.py`. L&S covers 91% of lemmas; the misses are Roman numerals, medieval words (`abbatia`, `episcopium`, `degradatio`, `sacerdus`) and a few Collatinus oddities: exactly the gap Du Cange fills.
+- **Du Cange is the open item.** No clean digitization exists on GitHub. Route: archive.org OCR of the Favre ed. (10 vols), entry-split on the headword pattern, validate by headword sequence (alphabetical order is the detector, like note numbering). That is its own sub-project; needs a separate session and a hard-stop burn estimate (OCR text is free from archive.org's djvu; the cost is the parser + QA).
+- **Then:** popup UI in the work-page builder (wrap tokens, lazy-load words + lexicon, show ALL candidates, label automatic, credit Collatinus + Perseus BY-SA).
