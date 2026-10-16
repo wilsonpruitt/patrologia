@@ -19,24 +19,29 @@ export const hasMarkers = s => s.includes('⟦');
 // and "⟦p3⟧ ⟦s1⟧ Text" → "Text".
 export const stripMarkers = s => s.replace(/⟦[^⟧\n]*⟧ ?/g, '');
 
-// Split a chunk body into paragraph records. A paragraph is any non-blank line that is
-// not a `## ` head (list lines count: each `- ` line is its own paragraph).
-// Returns [{ id, sents: [[srcIds…], …] }] in document order, plus `problems`.
+// An English-only editorial line ([ed: …], [sic: …] … standing alone as its own paragraph)
+// carries no source text, so it takes no marker and is skipped.
+export const isEditorialOnly = line => /^\s*(?:- )?(?:\[(?:ed|d|sic|var|lat|cj|nt): [^\]]*\]\s*)+$/.test(line);
+
+// Read a chunk body as a stream of paragraph records. A paragraph opens at each ⟦pN⟧ token,
+// which may sit at the start of a line OR mid-line (an English paragraph that renders two
+// source paragraphs), and runs over any following lines that carry only ⟦sN⟧ tokens (an
+// English paragraph break inside one source paragraph). Heads (## …), blank lines and
+// editorial-only lines are skipped. Returns { paras: [{ id, sents: [[ids…], …] }], problems }.
 export function parseMarked(body) {
   const paras = [], problems = [];
+  let cur = null;
   for (const line of body.split('\n')) {
-    if (!line.trim() || /^##\s/.test(line)) continue;
-    const pm = line.match(/^(?:- )?⟦p(\d+[a-z]?)⟧ /);
-    if (!pm) {
-      // text with sentence markers but no paragraph marker, or none at all
-      problems.push(`paragraph without ⟦p⟧ marker: "${line.slice(0, 50)}…"`);
-      continue;
+    if (!line.trim() || /^##\s/.test(line) || isEditorialOnly(line)) continue;
+    const toks = [...line.matchAll(/⟦p(\d+[a-z]?)⟧|⟦s(\d+(?:\+s?\d+)*)⟧/g)];
+    if (!toks.length) { problems.push(`text without any marker: "${line.slice(0, 50)}…"`); continue; }
+    if (toks[0].index > 3 && !line.startsWith('- ')) problems.push(`unmarked text before the first marker: "${line.slice(0, 40)}…"`);
+    for (const t of toks) {
+      if (t[1] !== undefined) { cur = { id: t[1], sents: [] }; paras.push(cur); }
+      else if (!cur) problems.push(`sentence marker before any ⟦p⟧: "${line.slice(0, 40)}…"`);
+      else cur.sents.push(t[2].split('+').map(x => Number(x.replace(/^s/, ''))));
     }
-    const sents = [];
-    for (const m of line.matchAll(/⟦s(\d+(?:\+s?\d+)*)⟧/g))
-      sents.push(m[1].split('+').map(x => Number(x.replace(/^s/, ''))));
-    const stray = stripMarkers(line).match(/⟦|⟧/);
-    paras.push({ id: pm[1], sents, line, stray: !!stray });
+    if (/⟦|⟧/.test(stripMarkers(line))) paras.forEach(p => { p.stray = true; });
   }
   return { paras, problems };
 }
