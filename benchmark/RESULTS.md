@@ -168,3 +168,42 @@ disagreement list becomes the checklist the plate stint must resolve. **It does 
 every-page plate read** (the exhaustiveness rule). It does make that read targeted rather than
 blind, which is the affordable verification that 8a.D found missing for Dorotheus, Moschus,
 Sophronius and Procopius.
+
+## 2026-10-17 — Fine-tuned CLLG on a GAP volume: clears the Phase 3b bar (PLAN step 4)
+
+The 2026-10-14 verdict above ("as a base text it is not good enough") was for the **stock** CLLG
+model. Fine-tuned on the 40-page task2 split (`htr/`, PLAN 3b step 3; recipe in memory
+`reference_kraken-apple-silicon`), the picture reverses.
+
+**Test set:** PG 88 (Dorotheus) — a gap volume, never seen in training. 20 batch-2 leaves
+(pdf pp. 846–865) + the 4 Epistolae leaves (971–974, trimmed to cols 1837–1841): **58,308
+reference characters.** Kraken segmented the raw 600 dpi pages itself (default blla), Greek lines
+kept by script + side of gutter. Reference = our own plate transcriptions (`raw/pg088/batch2-final`,
+shipped `src/greek/dorotheus-epistolae-ad-diversos`).
+
+**Method — every disagreement read at the plate** (exhaustive, no sampling): 833 disagreements,
+merged to 633 items, cropped at native resolution, ruled by 6 Opus readers (~870K tokens, ~5 min
+wall): K (Kraken = print) 118 · T (transcription = print) 164 · N (neither) 18 · L (not body text)
+119 · U (undecidable on this 1-bit JBIG2 copy) 214. Scripts + verdicts: `htr/gaptest/`.
+
+| reading | CER on gap-volume Greek |
+|---|---|
+| **Fine-tuned Kraken** | **0.50% (U counted right) – 1.08% (U counted wrong)** |
+| Our vision-model transcription (Sonnet/Opus + adjudication) | 1.75% + up to 0.57% on U |
+
+**Decision rule (≤2% CER): MET even at the worst case.** Kraken's residual errors: letters 190 chars
+(much of it Latin-column bleed on lines the default segmenter ran across the gutter), accents and
+breathings 71, spaces 24 (drops the space before »), punctuation 8. The transcription's: 405 chars of
+⟨?⟩ gaps (full-width lines the old crops halved, which Kraken read whole), letters 540 (κ read as χ in
+this face; dropped/duplicated phrases), and graves "corrected" to acutes, the convention PLAN warns about.
+
+**What it does and does not license:**
+- Kraken can now be the **primary** reading for gap volumes, with the vision model as the second witness:
+  the 2026-10-14 arrangement turned around. Both are local or cheap, and their errors still differ in kind.
+- It does **not** replace the every-page plate read before shipping (exhaustiveness rule, plate gate).
+  It makes that read a checklist of disagreements rather than a blind read.
+- **The 119 L items are the next job:** layout. The default segmenter merges Latin+Greek lines across the
+  gutter and picks up band letters, running heads, headings and footnotes. PLAN step 2 (`REG-YOLOv12s.pt`)
+  is now the bottleneck, not recognition.
+- Breathing (smooth vs rough) is the main undecidable class on this copy (most of the 214 U); a second
+  scan witness (the Google Books copies in `volumes.json`) would settle them if a work ever needs it.

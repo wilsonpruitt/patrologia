@@ -108,6 +108,7 @@ Phase 3 closed with "do not vision-OCR Greek at bulk scale" and left the gap vol
 3. **Fine-tune a Kraken recognizer** on `benchmark/greek-gt/task2/`, ~70 train / ~30 held out.
    ✅ **DONE 2026-10-17, locally (see Compute).** 50 pages (the 100 files are image+XML pairs), split by page 40/10, seed 42. Base: CLLG Polytonic Greek (Inria, PP-OCRv6, CC BY 4.0, `10.5281/zenodo.22232579`). **Held-out task2: 95.5% → 99.09% char, 77% → 94.4% word** after 5 passes. Model + data in `htr/` (gitignored locally, not committed — 61 MB weights, 100 MB arrows). Biggest residual class: smooth/rough breathing swaps (44 of 247 errors). ⚠ Task2-optimistic, per step 4 — not the model's real number.
 4. **Validate on fresh pages from a *gap* volume**, hand-corrected — not on Zenodo pages. The task2 set is plausibly Calfa's own eval set; a CER measured on it is optimistic and must not be reported as the model's real number.
+   ✅ **DONE 2026-10-17: PG 88, 24 pages, every disagreement plate-read → CER 0.50–1.08%** (range = 214 breathings undecidable on the 1-bit copy). Clears the ≤2% rule at the worst case; beats our own vision transcription (1.75%+). Full write-up: `benchmark/RESULTS.md` § 2026-10-17. **Next bottleneck is layout (step 2), not recognition.**
 
 ### Compute
 
