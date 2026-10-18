@@ -207,3 +207,21 @@ this face; dropped/duplicated phrases), and graves "corrected" to acutes, the co
   is now the bottleneck, not recognition.
 - Breathing (smooth vs rough) is the main undecidable class on this copy (most of the 214 U); a second
   scan witness (the Google Books copies in `volumes.json`) would settle them if a work ever needs it.
+
+### Follow-up, same day — layout: Calfa's region model as a GLYPH FILTER (PLAN step 2)
+
+Same 24 PG 88 pages, same references and normalization; raw disagreement (includes our
+transcription's own ~2% error, so the floor is ~2%, not 0):
+
+| layout | raw disagreement |
+|---|---|
+| Kraken whole-page segmentation only | 4.46% |
+| REG-YOLOv12s Greek blocks cropped, Kraken on each crop | 6.22% — thin full-width strips fail to segment; tight crops clip accents |
+| **whole-page segmentation, glyphs filtered by Greek boxes (conf ≥0.25) + unclaimed-Greek fallback** | **3.32%** |
+| same, but rescuing Greek glyphs inside Latin boxes | 4.23% (rejected) |
+
+Excluding spans that touch the transcription's ⟨?⟩ gaps, the remainder is 2.71%, led by whole
+Greek phrases the transcription dropped without marking — the reference's fault, not the pipeline's.
+Packaged as `htr/pg-ocr.sh` (+ `htr/pipeline/regions.py`, `extract.py`); reproduces the measured
+numbers exactly. Region-model misses seen: a Greek title boxed only on the Latin side (856),
+full-width Greek lines labelled Latin (864) — the fallback recovers the first kind, not the second.
