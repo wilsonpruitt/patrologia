@@ -106,11 +106,12 @@ Phase 3 closed with "do not vision-OCR Greek at bulk scale" and left the gap vol
 1. **Try Calfa Vision's hosted PG models on a gap volume first.** They offer the PG project type free on the platform. Inference on someone else's trained recognizer beats training ours. Only if this is unavailable, rate-limited, or unusable at our scale does step 2 begin.
 2. **Wire up `REG-YOLOv12s.pt` regardless of step 1's outcome** — it improves the *existing* Sonnet workflow immediately by feeding it correctly-bounded Greek regions instead of x-coordinate crops. This is the cheapest win in the whole phase and is not contingent on any training happening.
 3. **Fine-tune a Kraken recognizer** on `benchmark/greek-gt/task2/`, ~70 train / ~30 held out.
+   ✅ **DONE 2026-10-17, locally (see Compute).** 50 pages (the 100 files are image+XML pairs), split by page 40/10, seed 42. Base: CLLG Polytonic Greek (Inria, PP-OCRv6, CC BY 4.0, `10.5281/zenodo.22232579`). **Held-out task2: 95.5% → 99.09% char, 77% → 94.4% word** after 5 passes. Model + data in `htr/` (gitignored locally, not committed — 61 MB weights, 100 MB arrows). Biggest residual class: smooth/rough breathing swaps (44 of 247 errors). ⚠ Task2-optimistic, per step 4 — not the model's real number.
 4. **Validate on fresh pages from a *gap* volume**, hand-corrected — not on Zenodo pages. The task2 set is plausibly Calfa's own eval set; a CER measured on it is optimistic and must not be reported as the model's real number.
 
 ### Compute
 
-Off this machine (8 GB won't host it). A ~70-page Kraken fine-tune is one mid-tier GPU for a couple of hours — under ~$20 anywhere. Lightning.ai Studios, Colab, Runpod, Modal all work; **the vendor is not a decision worth deliberating.** Lightning's only real edge is a persistent Studio, which matters because the painful part is standing up eScriptorium/Kraken, not the training run.
+**ON THIS MACHINE (revised 2026-10-17).** The original line — "off this machine, 8 GB won't host it" — was the old Air. The M5 Pro (24 GB) fine-tunes on its GPU at **~18–20 min per pass**; the run above took ~1½ h. Run overnight with `htr/train.sh <base> <train.arrow> <eval.arrow> <out> [passes]`. It took a day of traps to get there — normalization, compiled arrows, `torch.compile` OOM, the base model's saved **Muon** optimizer (72% of compute, bfloat16, single-core on a Mac → force `--optimizer AdamW`), and unbounded GPU memory (22 GB → swap; cap it). All recorded in memory `reference_kraken-apple-silicon`; the script encodes the fixes. A rented GPU is now only a fallback.
 
 ### Decision rule
 
