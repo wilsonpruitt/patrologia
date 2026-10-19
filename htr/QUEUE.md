@@ -29,6 +29,28 @@ checked at the plate: Latin-only (Sophronius Or. I *In Christi Natalitia* and ot
 Ballerini's *Monitum* to Or. II) or the Latin *Notatio*/notes at the ends of Moschus and Procopius.
 Empty is correct there; the next step is the every-page plate read against this output.
 
+## Plate check, work by work (the "every page" step)
+
+**Method** (`scripts/pg-plate-api.py <work> strips|read|diff|check`, Opus 5.5 via the Batch API, key in Keychain):
+a blind vision read of the Greek column, a diff against this queue's Kraken text, then an every-line check of
+the read against the plate with that diff as a checklist only (the Maximus 0i pipeline, `pg-paired-pilot.md`).
+Band letters are captured in both passes as `[b: X]` at the start of the line they stand beside. One check pass,
+no third reading (Wilson's Maximus ruling, 2026-10-15): the remaining doubt travels in `checked/DOUBTS.tsv` and
+the translation stint settles it at the plate, only where it changes the English.
+
+### 1. Dorotheus, *Doctrinae* — ✅ DONE 2026-10-19, $18.29
+Base text = `raw/kraken/dorotheus-doctrinae/checked/p-NNNN.txt` (113 pages, 6,105 lines, 444 band markers),
+ledgers beside each page. Read vs Kraken: median 3.8% of words flagged (Maximus vs generic CLLG: 10.5%).
+The check made 228 changes (88 at Kraken flags, 110 `[?]` resolved, 22 band markers, 8 unflagged); **103
+doubts** (102 uncertain, 1 illegible: p-0837 l.1 μέ[?]ων, the word carried over from p. 836).
+⚠ **Crop lesson (cost the redo, ~$4 of the total):** the first strips were cut to the region model's boxes and
+those run tight. 28 pages lost a line edge, a centred heading the model never boxed (p-0839, Doctrina I), or
+full-width Greek at the page foot (pp. 955/959/962). Fixed in the script: 100 px margins, unboxed stretches that
+cross the gutter go full width, the crop ends at the lowest text box of either language, strip cuts look ±150 px
+for a blank row. **The test that settles it is text, not geometry:** every Kraken line of 4+ words must be found
+in the checked text (`scripts/pg-plate-missing.py`, `fuzz.partial_ratio` ≥ 75); 0 misses on the final run. Run that test on every work.
+Superseded crops and reads kept in `superseded-crop{1,2,3}/`.
+
 ## Page maps
 - **PG 88** (`raw/pg088/088.pdf`): use the column map, never a formula — the scan repeats three blocks.
 - **PG 87.3** (`raw/pg087c/087c.pdf`, archive.org `patrologia-volumes/087c.pdf`, 712 pp., 1-bit
