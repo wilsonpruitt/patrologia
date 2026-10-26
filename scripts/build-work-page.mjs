@@ -430,7 +430,7 @@ ${canonicalTag(canonical)}
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 ${jsonLdScript(jsonLd)}
-<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/insights/script.js"></script><script defer src="https://wrootpress.com/shelves.js"></script>
 </head>
 <body>
 
