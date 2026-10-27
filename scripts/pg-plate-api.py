@@ -22,7 +22,11 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 MODEL = 'claude-opus-5-5'
 PRICE = {'claude-opus-5-5': (4, 20), 'claude-sonnet-5-5': (2, 10)}   # USD per MTok in/out, before batch -50%
-WORKS = {'dorotheus-doctrinae': 'vol. 88 (Dorotheus of Gaza, Doctrinae diversae)'}
+WORKS = {'dorotheus-doctrinae': 'vol. 88 (Dorotheus of Gaza, Doctrinae diversae)',
+         'moschus-pratum': 'vol. 87.3 (John Moschus, Pratum spirituale)',
+         'sophronius-orationes': 'vol. 87.3 (Sophronius of Jerusalem, Epistola synodica and Orationes)',
+         'sophronius-anacreontica': 'vol. 87.3 (Sophronius of Jerusalem, Anacreontica)',
+         'procopius-rhetorica': 'vol. 87.3 (Procopius of Gaza, Panegyricus, Descriptio S. Sophiae, Monodia)'}
 STRIP_H = 520           # strip height at 300 dpi
 GUTTER = 110            # px at 600 dpi kept beyond the Greek column, toward the gutter (the A-D letters)
 MARGIN = 100            # px at 600 dpi kept on the outer side, above and below (YOLO boxes run tight: 2026-10-19)
