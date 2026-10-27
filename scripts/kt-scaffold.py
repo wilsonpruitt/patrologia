@@ -19,6 +19,8 @@ WORKS = {  # work -> (column map, copyA djvu xml)
     'dorotheus-doctrinae': ('data/pg-column-maps/pg088.json', 'raw/scans/pg088/copyA_088_djvu.xml'),
 }
 
+SRC = 'text'
+if '--checked' in sys.argv: sys.argv.remove('--checked'); SRC = 'checked'   # plate-checked Greek (pg-plate-api.py) where it exists
 work = sys.argv[1]
 OUT = os.path.join(ROOT, 'translate', work)
 os.makedirs(OUT, exist_ok=True)
@@ -27,7 +29,8 @@ if sys.argv[2] == 'brief':
     ks = sys.argv[3:]
     os.makedirs(f'{OUT}/_briefs', exist_ok=True)
     out = f'{OUT}/_briefs/{ks[0]}_{ks[-1].split("-")[-1]}.md'
-    parts = [open(f'{OUT}/CARD.md').read()]
+    card = os.environ.get('KT_CARD', 'CARD.md')
+    parts = [open(f'{OUT}/{card}').read()]
     for extra in ('GLOSSARY.md', 'MISREADS.md'):
         if os.path.exists(f'{OUT}/{extra}'): parts.append(open(f'{OUT}/{extra}').read())
     for k in ks: parts.append(f'# SCAFFOLD {k} (write: ~/patrologia/translate/{work}/{k}.en.md)\n\n' + open(f'{OUT}/{k}.md').read())
@@ -37,7 +40,10 @@ if sys.argv[2] == 'brief':
 
 cid, first, last = sys.argv[2:5]
 cmap_path, xml_path = WORKS[work]
-cmap = {p['pdfPage']: p for p in json.load(open(os.path.join(ROOT, cmap_path)))['pages']}
+_m = json.load(open(os.path.join(ROOT, cmap_path)))
+cmap = {p['pdfPage']: p for p in _m['pages']}
+DOUBTS = [l.rstrip('\n').split('\t') for l in open(os.path.join(ROOT, 'raw/kraken', work, 'checked', 'DOUBTS.tsv'))][1:] if SRC == 'checked' else []
+SKIP = {l + 1 for l in _m.get('duplicateLeaves', [])}   # re-scanned duplicate leaves: pdf page = leaf + 1, never in the queue
 regions = json.load(open(os.path.join(ROOT, 'raw/kraken', work, 'regions.json')))
 xml = open(os.path.join(ROOT, xml_path)).read().split('<OBJECT ')   # xml[k] = djvu page k (1-based) = pdf page k
 
@@ -57,8 +63,10 @@ def latin(pdf):
 (fp, fl), (lp, ll) = [(int(s.split(':')[0][2:]), int(s.split(':')[1])) for s in (first, last)]
 parts, words = [], 0
 for pdf in range(fp, lp + 1):
-    f = os.path.join(ROOT, 'raw/kraken', work, 'text', f'p-{pdf:04d}.txt')
-    if not os.path.exists(f): sys.exit(f'missing {f} (skipped re-scan leaf?) — cut chunks around it')
+    f = os.path.join(ROOT, 'raw/kraken', work, SRC, f'p-{pdf:04d}.txt')
+    if not os.path.exists(f):
+        if pdf in SKIP: continue
+        sys.exit(f'missing {f}')
     lines = open(f).read().split('\n')
     a = fl if pdf == fp else 1
     b = ll if pdf == lp else len(lines)
@@ -68,9 +76,12 @@ for pdf in range(fp, lp + 1):
     body = [f'p{pdf:04d}.{i:02d} | {lines[i-1]}' for i in range(a, b + 1) if lines[i - 1].strip()]
     words += sum(len(lines[i - 1].split()) for i in range(a, b + 1))
     note = '' if (a == 1 and b == len(lines)) else f' · lines {a}–{b} only'
+    dz = [d for d in DOUBTS if d[0] == f'p-{pdf:04d}' and a <= int(d[1]) <= b]
+    dtxt = ('\nOpen doubts from the plate check on this page (settle where the English depends on it; log in the OCR table):\n' +
+            '\n'.join(f'- p{pdf:04d}.{int(d[1]):02d}: kept `{d[3]}` (blind read `{d[2]}`): {d[5] if len(d) > 5 else ""}' for d in dz) + '\n') if dz else ''
     parts.append(f'## p-{pdf:04d} · Greek col {gcol} · Latin col {lcol}{note}\n\n```\n' + '\n'.join(body) +
                  f'\n```\n\nLatin column {lcol} (whole page, archive.org OCR — a witness, not a source):\n\n> ' +
-                 latin(pdf).replace('\n', '\n> ') + '\n')
-head = f'chunk: {cid}\nwork: {work}\nrange: {first} – {last}\ngreek_words: {words}\n\n'
+                 latin(pdf).replace('\n', '\n> ') + '\n' + dtxt)
+head = f'chunk: {cid}\nwork: {work}\nsource: {SRC}\nrange: {first} – {last}\ngreek_words: {words}\n\n'
 open(f'{OUT}/{cid}.md', 'w').write(head + '\n'.join(parts))
 print(f'{OUT}/{cid}.md', words, 'Greek words')
