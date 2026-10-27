@@ -28,3 +28,5 @@ After all: image-check the flagged rows (`scripts/kt-crop.py`), then card-shape 
 - Image check: dd-017 p0918.01 band "A" printed as text, placed [b: A]; p0919.01 no band A tagged at the head of col 1745 (logged, no marker inserted). Check both at the plate.
 - θρασύτης: also "insolence" (dd-018–020) → pick one at the sweep (glossary currently: rashness).
 - dd-023: page files jump p0941 → p0948 = the re-scanned duplicate leaves (pg088.json), columns continuous; expected, not a gap.
+
+✅ Sweep done 2026-10-27: acedia (dd-006), speak ill of (dd-001/003/006/007), service (dd-007/008), rancour (dd-015), insolence (dd-013); "boldness" left only where it is παρρησία; dd-015 "rashness" kept (the mean).

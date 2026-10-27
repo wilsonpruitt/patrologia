@@ -69,7 +69,7 @@ your report (Greek → English, one line).
 | θυμός / ὀργή / ὀργίζεσθαι | anger / wrath / be angry | kept distinct (Instr. VIII) |
 | ταραχή | agitation | |
 | ὀξυχολία / τολμηρία | quick temper / audacity | |
-| θρασύτης | rashness | NOT "boldness" (that is παρρησία) |
+| θρασύτης / θρασύς / θρασύνειν | insolence / insolent / embolden | NOT "boldness" (that is παρρησία); "rashness" only in the virtue-as-mean list (courage between cowardice and rashness) |
 | συμπάθεια | compassion | |
 | ψεῦδος / ὑπόνοια / περιέργεια | lying / suspicion / meddling | |
 | σύναξις / οἰκονόμος | synaxis / steward | |
