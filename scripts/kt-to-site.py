@@ -141,7 +141,7 @@ def english(cid, sics, ns):
     crux = []; col = None; band = None
     def rep(m):
         n = m.group(1)
-        if n in sics: return f' [sic: *{sics[n]}*]'
+        if n in sics: return f' [sic: *{sics[n]}*]⟪{n}⟫'   # the translator's explanation still goes to the cruces
         if n in ns:   # Migne's own reference replaces ours; a translator's note that says MORE stays in the cruces
             keep = len(re.sub(r'^S\.\s*', '', notes.get(n, '')).strip()) > 30
             return f' [n: {ns[n]}]' + (f'⟪{n}⟫' if keep else '')
@@ -205,6 +205,10 @@ if __name__ == '__main__':
                 if page not in cmap: continue
                 anc = f'[{gcol(page)}]'; start = g.find(anc)
                 if start < 0: continue
+                nth = {(940, 'ἑπτὰ'): 3}.get((page, word), 1)   # blind read R5: Migne's mark is on the THIRD ἑπτὰ of the page (Αἱ γὰρ ἑπτὰ, p0940.37)
+                for _ in range(nth - 1):
+                    k = g.find(word, start)
+                    if k >= 0: start = k + len(word)
                 hit = find_word(g, word, start)
                 if hit is None: continue
                 g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word))
@@ -238,7 +242,9 @@ if __name__ == '__main__':
     with open(f'{edir}/cruces.md', 'w') as o:
         o.write(f'# Cruces — {KEY}\n\nTranslators\' notes (kt method, 2026-10-27), moved out of the running English. Each is keyed by '
                 'chunk, column and band, and quotes the English words it follows. Plate verdicts: '
-                f'`translate/{work}/verify/VERDICTS.tsv`. Glossary: `translate/{work}/GLOSSARY.md`.\n\n')
+                f'`translate/{work}/verify/VERDICTS.tsv`. Glossary: `translate/{work}/GLOSSARY.md`. In the English, ⟨…⟩ marks words '
+                'we supply where the printed sentence needs them (whether the plate lost them or Migne\'s text never had them); '
+                'each has a note below.\n\n')
         cur = None
         for ci, cid, col, band, before, txt in allcrux:
             if ci != cur: o.write(f'\n## Chunk {ci:04d} ({cid})\n\n'); cur = ci
