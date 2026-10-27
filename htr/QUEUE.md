@@ -31,6 +31,8 @@ Empty is correct there; the next step is the every-page plate read against this 
 
 ## Plate check, work by work (the "every page" step)
 
+> ⚠ **2026-10-27: superseded for works not yet checked.** Translation + flagged-row image check replaces the blind read + every-line check (Dorotheus pilot, `translate/dorotheus-doctrinae/PILOT.md`). Dorotheus below stays as done.
+
 **Method** (`scripts/pg-plate-api.py <work> strips|read|diff|check`, Opus 5.5 via the Batch API, key in Keychain):
 a blind vision read of the Greek column, a diff against this queue's Kraken text, then an every-line check of
 the read against the plate with that diff as a checklist only (the Maximus 0i pipeline, `pg-paired-pilot.md`).
