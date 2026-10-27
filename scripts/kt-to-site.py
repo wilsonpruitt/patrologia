@@ -62,7 +62,7 @@ def patched(pdf, i, line):
         line = line.replace(a, b, 1)
     return line
 
-SECT = re.compile(r"^(\[b: .\] )?([ΑΒΓΔΕϚΖΗΘΙΚΛΜ]{1,3}['ʹ΄´′]\.|Ἐρώτησις)")
+SECT = re.compile(r"^(\[b: .\] )?([ΑΒΓΔΕϚΖΗΘΙΚΛΜ]{1,3}['ʹ΄´′]\.|Ἐρώτησις|Ἀπόκρισις)")
 def is_head(line, prev):
     t = re.sub(r'^\[b: .\] ', '', line)
     letters = [c for c in t if c.isalpha()]
@@ -158,13 +158,15 @@ def english(cid, sics, ns):
     body = re.sub(r'[ \t]+([,.;:·])', r'\1', re.sub(r'[ \t]{2,}', ' ', body))
     return body, crux
 
-def frontmatter(ci, g):
-    cols = re.findall(r'\[(\d{4})\]', g)
+def frontmatter(ci, g, ctx=None):
+    body = re.findall(r'\[(\d{4})\]', g)
+    cols = body or [ctx]
+    ctxv = ctx or cols[0]
     words = len(re.sub(r'\[[^\]]*\]', ' ', g).split())
     inc = ' '.join(g.split()[:14]).replace('"', '\\"')
     return '\n'.join(['---', f'workKey: "{KEY}"', f'work: "{W["title"]}"', f'workEn: "{W["titleEn"]}"',
         f'authors: ["{W["author"]}"]', 'series: "pg"', f'volume: {C["vol"]}', 'language: "grc"',
-        f'chunk: {ci + 1}', f'chunkCount: {N}', f'colContext: "{cols[0]}"', f'colFirst: "{cols[0]}"',
+        f'chunk: {ci + 1}', f'chunkCount: {N}', f'colContext: "{ctxv}"', f'colFirst: "{cols[0]}"',
         f'colLast: "{cols[-1]}"', f'words: {words}', f'incipit: "{inc}"', 'greekSource: "ours-vision-ocr"', '---', '']), cols, words
 
 if __name__ == '__main__':
@@ -206,8 +208,13 @@ if __name__ == '__main__':
                 hit = find_word(g, word, start)
                 if hit is None: continue
                 g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word))
-        fm, cols, words = frontmatter(ci, g)
         e, crux = english(cid, SICS.get(cid, {}), APP.get('english', {}).get(cid, {}))
+        ctx = None
+        if fl > 1:   # opens mid-page: the column anchor belongs to the previous chunk; this one carries it as colContext only
+            ctx = f'{gcol(fp)}'
+            g = re.sub(r'^\[' + ctx + r'\]\s*', '', g, count=1)
+            e = re.sub(r'\[' + ctx + r'\]\s*', '', e, count=1)
+        fm, cols, words = frontmatter(ci, g, ctx)
         allcrux += [(ci + 1, cid) + c for c in crux]
         pages = [p for p in range(fp, lp + 1) if p not in SKIP]
         lat = '\n\n'.join(f'[{lcol(p)}] ' + latin(p) for p in pages)
