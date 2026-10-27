@@ -8,64 +8,38 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1613A** · …with the holy Fathers, Antony, Ephrem and others; — T. ἐνδυτή is the altar-covering; the Latin has only *in Magna ecclesia*.
 - **1613C** · …and what follows upon so blessed a man, — T. τὰ μετὰ τὸν οὕτως μακάριον does not construe cleanly; rendered literally. The Latin (*et rationem alterius ac verae vitae habere*) paraphrases and does not settle it.
 - **1613C** · …procures zeal; and zeal, virtue; and virtue, blessedness. — S. Gregory (of Nazianzus?); not located.
-- **1613C** · …Behold, we have left all and followed thee. — S. Matt 19:27.
 - **1613C** · …short time with God, he fulfilled long years; — S. Wis 4:13.
 - **1613D** · …saving and kindly yoke to be kindly indeed. — S. Matt 11:29–30.
-- **1616C** · …truly was fulfilled, Thy commandment is exceeding broad. — S. Ps 118 (119):96.
-- **1617A** · …wise man occasion, and he will be wiser. — S. Prov 9:9.
 
 ## Chunk 0002 (dd-001)
 
-- **1617B** · …in paradise (as the divine Holy Scripture says), — S. Gen 2:8, 2:15–17.
 - **1617B** · …made man according to the image of God, — S. Gen 1:27.
-- **1620A** · …says, "The Lord thy God is one Lord," — S. Deut 6:4.
 - **1620A** · …all thy soul and with all thy mind." — S. Deut 6:5, as Dorotheus gives it (no "heart," no "strength").
 - **1620A** · …cleave, and by his name shalt thou swear." — S. Deut 6:13, 10:20 (LXX ὀμῇ, "shalt swear"); not strictly from the Decalogue, though he says so.
 - **1620A** · …above or that is on the earth beneath." — S. Ex 20:3–4.
-- **1620A** · …to apply a plaster, nor oil, nor bandages"; — S. Isa 1:6 LXX.
 - **1620A** · …"We healed Babylon, and she was not healed"; — S. Jer 51:9 (LXX 28:9).
 - **1620A** · …the promises, we foretold the risings of enemies, — T. The foot of the plate leaked into the OCR as p0840.55 («προυμηνύταμεν.» ἀλλαχοῦν»): evidently Migne's notes, a variant προεμηνύσαμεν ("we forewarned") for προεσημηνήσαμεν, and ἀλλαχοῦ for line 51. Same sense either way; the English follows the text. Check the plate for the note keys (the ʃ after προεσημηνήσαμεν is probably one).
-- **1620A** · …says elsewhere too, "They did not receive correction," — S. Jer 2:30 (cf. Zeph 3:2).
-- **1620A** · …they drew near unto the gates of death." — S. Ps 106(107):18.
-- **1621A** · …up thy might and come to save us." — S. Ps 79(80):2–3.
 - **1621A** · …And, "Lord, bow the heavens and come down," — S. Ps 143(144):5 (Dorotheus omits "thy").
 - **1621A** · …Gregory says, he might heal like by like: — S. Gregory of Nazianzus (the Theologian); the "like healed by like" principle, cf. Or. 38.13 and Ep. 101. Not located verbatim.
-- **1621B** · …evil that I would not, that I do." — S. Rom 7:19, loosely.
-- **1621B** · …and upon all the power of the enemy, — S. Luke 10:19.
 - **1621B** · …diligently set upon evil things from his youth" — S. Gen 8:21 LXX, reading ἔγκειται (see OCR table).
 - **1624A** · …but I say, Do not even be angry." — S. Matt 5:21–22, 27–28, paraphrased.
 - **1624A** · …an eye, and a tooth for a tooth," — S. Ex 21:24; Matt 5:38–39.
-- **1624A** · …fast with the cords of his own sins." — S. Prov 5:22 LXX.
-- **1624A** · …and ye shall find rest unto your souls." — S. Matt 11:29.
 
 ## Chunk 0003 (dd-002)
 
-- **1625B** · …in the prophet, "Thy apostasy shall chasten thee." — S. Jer 2:19 LXX.
-- **1625B** · …heavy laden, and I will give you rest"; — S. Matt 11:28.
-- **1625B** · …and ye shall find rest unto your souls." — S. Matt 11:29.
-- **1625B** · …came saying to him, "Adam, where art thou?" — S. Gen 3:9.
-- **1628** · …answers back: "The woman whom thou gavest me." — S. Gen 3:12.
 - **1628** · …she too answers, saying, "The serpent deceived me"; — S. Gen 3:13.
 - **1628** · …be rid of wickedness and to acquire virtue." — S. Mark the Monk (Mark the Hermit); not located.
 - **1628** · …virtues, and so returns to his own rest. — T. The sentence opens Οὖν διὰ τῆς συντριβῆς, which cannot stand: a word has gone before οὖν (Ἐὰν? Ὅταν?). Migne's Latin reads *Igitur si per dolorem cordis*. The English keeps the sense and marks the gap.
 - **1628** · …"from all filthiness of the flesh and spirit," — S. 2 Cor 7:1.
-- **1628** · …of the Lord is far-shining, enlightening the eyes" — S. Ps 18(19):9 LXX.
 - **1629A** · …shalt not bear false witness against thy neighbour," — S. Luke 18:18–20 (cf. Matt 19:16–18).
 - **1629A** · …what thou hast and give to the poor," — S. Matt 19:20–21.
-- **1629A** · …crucified unto me, and I unto the world." — S. Gal 6:14.
 - **1632** · …let that little tool do in us , — T. The Greek has only ἀφοῦμεν τὸ μικρὸν ἐργαλεῖον ἐκείνῳ ποιῆσαι ἐν ἡμῖν, "we let that little tool do in us," with no object. Migne's Latin has *ut illud instrumentum fiat nobis loco centenarii*, "that the tool take for us the place of a hundredweight of gold," i.e. the attachment once given to great wealth. That phrase is probably missing from the plate or the OCR.
 - **1632B** · …the symbols of our habit signify to us. — T. The text reads τὰ σύμβολα τοῦ σώματος ἡμῶν, "of our body." The foot of the page leaked into the OCR as p0846.55 «σχήματος.», evidently Migne's note giving σχήματος, "of our habit," which the Latin (*habitus nostri*) and the context support. The English follows the note.
-- **1633A** · …who reign and Lord of those who rule; — S. 1 Tim 6:15; Rev 19:16.
-- **1633A** · …that he may please him who enlisted him"; — S. 2 Tim 2:4.
-- **1633A** · …virgin waiting well upon the Lord, and undistracted." — S. 1 Cor 7:34–35, blended.
 
 ## Chunk 0004 (dd-003)
 
 - **1633** · …it says, "Let your loins be girded about." — S. Luke 12:35.
-- **1633** · …members which are upon the earth, fornication, uncleanness," — S. Col 3:5.
-- **1633** · …says, "Take up thy cross and follow me." — S. Matt 16:24; Mark 10:21.
 - **1633** · …faith, as it says again in the Gerontikon, — S. The symbolism of belt, analavos and cowl that Dorotheus credits to the Gerontikon goes back to the prologue of Evagrius' *Praktikos*.
-- **1633** · …in understanding, but in malice be ye children." — S. 1 Cor 14:20.
 - **1636** · …cut gains a long stretch of that road, — T. κοπενδάριον (twice): Latin *compendiarium*, a short cut, spelled so as to echo κόπτειν, "to cut off," whether as a pun or as a real Byzantine form. Not reported as a misread. Migne's Latin reads *scipione*, "a staff," which misses the sense.
 - **1637** · …him among all those saints, enjoying their blessedness. — S. The *Life of Dositheus*, which precedes the *Instructions* in the tradition.
 - **1637B** · …a prostration from there, and takes his leave, — T. λαμβάνει παράθεσιν, "takes his commendation," i.e. his leave. The Latin has *a nobis impetrata venia*. The phrase is uncertain but the OCR gives no sign of a misread.
@@ -75,28 +49,18 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 ## Chunk 0005 (dd-004)
 
 - **1641A** · …Everyone who strives is self-controlled in all things. — S. 1 Cor 9:25.
-- **1641A** · …of wisdom is the fear of the Lord; — S. Ps 110 (111):10; Prov 1:7.
-- **1641A** · …of the Lord everyone turns away from evil. — S. Prov 15:27a LXX (16:6).
 - **1641A** · …By alms and faiths sins are purged away; — S. Prov 15:27a LXX.
-- **1641A** · …Without faith it is impossible to please God. — S. Heb 11:6.
-- **1641D** · …and my toil, and forgive all my sins; — S. Ps 24 (25):18.
-- **1641D** · …was brought low, and the Lord saved me. — S. Ps 114 (116):6.
 - **1644B** · …add? "And they do not even touch it." — S. Apophthegmata, Antony 7.
 - **1648B** · …saw the Lord, called himself earth and ashes; — S. Gen 18:27.
-- **1648B** · …Isaiah said, O wretched and unclean am I. — S. Isa 6:5.
 - **1648B** · …he answered, saying, Has God then remembered me? — S. Bel 33–38 (Dan 14:33–38); the second time in the pit is Dan 6.
 
 ## Chunk 0006 (dd-005)
 
 - **1648C** · …am thin of voice and slow of tongue. — S. Exod 4:13, 10.
-- **1648C** · …tongue. And Jeremiah said: I am too young. — S. Jer 1:6.
 - **1649C** · …is one thing, and that of men another." — S. Apophthegmata, Agathon 29.
 - **1649C** · …humility. But humility itself is divine and incomprehensible. — S. Apophthegmata (anonymous collection), on humility.
 - **1652A** · …of pleasure and to the self-rule of error; — S. Gregory of Nazianzus; not located.
-- **1652B** · …remain in these men, because they are flesh. — S. Gen 6:3.
-- **1652D** · …have said, and which the Philistines filled up. — S. Gen 26:15, 18.
 - **1653C** · …says: Ephraim overpowered his adversary, and trampled judgment. — S. Hos 5:11.
-- **1653C** · …thence until thou hast paid the last farthing. — S. Matt 5:25–26.
 - **1653C** · …well-disposed to thine adversary while thou art in — T. Printed ἐκ; read ἐν, as in the full quotation above.
 
 ## Chunk 0007 (dd-006)
@@ -107,18 +71,12 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1656C** · …there is a gesture too, as I always — T. Printed δεὶ, which is not a word here; read ἀεί "always" (Latin *saepe*).
 - **1657A** · …patchwork blanket, and he looks for a rug, — T. κεντώνιον = patchwork blanket (cento). λονάτον is unknown to me; "rug" follows the Latin *tapetem*.
 - **1657C** · …the Catholic Epistles, "Perfect love casts out fear." — S. 1 Jn 4:18.
-- **1657C** · …psalm, "Fear the Lord, all ye his saints"; — S. Ps 33:10 LXX (34:9).
 - **1660A** · …there are three dispositions, as Saint Gregory says, — S. The triad of slave, hireling and son is in almost these words in Basil, *Longer Rules*, prologue; cf. Gregory Nazianzen, *Or.* 40.13. Dorotheus names Gregory.
 - **1660B** · …son, and an heir of God through Christ." — S. Gal 4:7.
 - **1660B** · …Saint Antony says: "I no longer fear God." — S. Gerontikon, Antony 32.
-- **1660B** · …son, "Now I know that thou fearest God," — S. Gen 22:12.
-- **1660D** · …of wisdom is the fear of the Lord"; — S. Ps 110:10 LXX; Prov 1:7.
 - **1660D** · …"Beginning and end is the fear of God." — S. Not located in this form.
 - **1661A** · …from all evil, as tinning guards a vessel. — T. γάνωσις is the tinning of copper vessels against corrosion; "a vessel" is supplied for the sense. The Latin is garbled here.
-- **1661A** · …of the Lord everyone turns aside from evil." — S. Prov 15:27a LXX.
-- **1661B** · …the Apostle said, from the love of Christ? — S. Rom 8:35.
 - **1661B** · …will teach you the fear of the Lord." — S. Ps 33:12 LXX (34:11); the quotations that follow are vv. 13–15.
-- **1661B** · …travail again until Christ be formed in you." — S. Gal 4:19.
 
 ## Chunk 0008 (dd-007)
 
@@ -141,39 +99,29 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1673A** · …one does not do his service ⟨with⟩ knowledge. — T. οὐ ποιεῖ γνῶσιν τὴν ἰδίαν διακονίαν does not construe; ⟨with⟩ (κατὰ or μετὰ) is supplied, with the Latin *in cognitione vera non administrare*.
 - **1673C** · …you wish, but as it meets the necessity, — T. The sentence is troubled. ἀπαντῶ ("I meet") is read as ἀπαντᾷ "it meets", and the comparative ⟨than⟩ (ἤ) is supplied before "to trouble"; the Latin (*melius… quam turbari vos*) has the comparison.
 - **1673D** · …that from the neighbour come life and death. — S. Gerontikon, Antony 9.
-- **1676A** · …commandments, for this is required of every man." — S. Eccl 12:13.
-- **1676A** · …like leaves; but salvation is in much counsel." — S. Prov 11:14.
 - **1676D** · …wicked one does evil when he mingles self-justification." — S. Prov 11:15 LXX, where the received text has δικαίῳ "with a righteous man"; Dorotheus reads δικαίωμα.
 - **1677A** · …is a bronze wall between man and God. — S. Gerontikon, Poemen.
-- **1677A** · …a wall. My God, his way is blameless." — S. Ps 17:30–31 LXX (18:29–30).
 - **1677B** · …will, the man is not easily brought round." — T. Printed εὐσυστροφῇ, not a form I can construe; the sense is taken from the Latin *non bene convertitur*.
 
 ## Chunk 0010 (dd-009)
 
 - **1680A** · …whenever he sees me, spins like a top." — T: printed ἀνέθη; read ἀνέμη, "reel, spinning top" (the plate check's blind read), with the Latin *uti turbinem*. S: Apophthegmata, Macarius the Egyptian 3 (Theopemptus).
 - **1680A** · …a hand. For did not that demon go — T: printed ἀπῆλθεν τῷ Θεῷ, which does not construe; the line end is damaged and the Latin has nothing for it. Left untranslated.
-- **1681B** · …we must enter into the kingdom of God, — S: Acts 14:22.
 - **1681D** · …in the habit of a bishop, wearing , — T: printed φοροῦντα ὡς μυῖνον; μυῖνον is not a word. The Latin has him "carrying sacred things in his hands" (*sacra manibus ferre*).
-- **1684B** · …into my mouth, a hymn to our God. — S: Ps 39(40):2–4.
 - **1684D** · …speaks, I the Lord have deceived that prophet. — S: Ezek 14:9.
 - **1685A** · …is one thing, and that of men another." — S: Apophthegmata, Agathon (his answer on fear at the hour of death).
 
 ## Chunk 0011 (dd-010)
 
 - **1688A** · …cast out the mote from thy brother's eye. — S: Matt 7:5.
-- **1688A** · …publican and said, Nor even like this publican, — S: Luke 18:11.
 - **1688D** · …be comforted from that mourning until he died. — S: cf. Apophthegmata, Isaac of Thebes 1.
 - **1689B** · …What, can anyone give an account of this? — T: printed Τί; ("What?"), rendered as printed. The Latin reads *Quis potest*, i.e. Τίς; see the table.
 - **1692A** · …mercy on him: and dost thou know it? — T: printed καὶ σὺ γινώσκεις αὐτό, rendered as an indignant question. The Latin has *et ignovit* ("and forgave"), which may point to a different text.
-- **1692C** · …gives his neighbour a muddied overthrow to drink; — S: Hab 2:15.
-- **1692D** · …it says: Love covers a multitude of sins; — S: 1 Pet 4:8.
-- **1692D** · …no evil, bears all things, and so on. — S: 1 Cor 13:5, 7.
 - **1693C** · …shamed them, and cried out to them too, — T: printed ἐδόησε, not a word; read ἐβόησε (the OCR's β). ἐβοήθησε ("helped them too") is also possible.
 - **1693C** · …compassion of the elder worked in his soul. — S: Apophthegmata, Ammonas 10.
 
 ## Chunk 0012 (dd-011)
 
-- **1696A** · …member suffers, all the members suffer with it. — S: Rom 12:5; 1 Cor 12:12, 26.
 - **1696B** · …of the circle, as far as the centre, — T: ἕως τοῦ κέντρου does not construe after τὸ μεσώτατον τοῦ κύκλου; rendered literally. The Latin passes over the sentence.
 - **1697C** · …as fine dogs take what comes from men?" — T: the sense of ὡς παρ᾿ ἀνθρώπων ὡραῖοι κύνες is uncertain. The Latin takes it as "I bear them as fawning dogs bear things from men" (*ut ab hominibus blandi canes*).
 - **1697D** · …of life but does ⟨not⟩ keep this way, — T: no negative is printed with κρατήσει, but the conclusion (he never ceases to afflict and be afflicted) requires one; supplied. The Latin has "turns aside from this way".
@@ -197,22 +145,16 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1709B** · …"Where there is no anger, strife is quiet." — S: Prov 26:20 LXX.
 - **1712A** · …empty is ⟨to have⟩ no good at all, — T: the infinitive is missing (*τὸ μηδέποτε ἀγαθὸν*); ⟨to have⟩ supplied, perhaps *τὸ μηδὲν ἔχειν ἀγαθόν*; Latin *neque ullum bonum in se habere*.
 - **1712A** · …enemy then pursue my soul and overtake it": — S: Ps 7:6 LXX, continued through the next sentences.
-- **1712B** · …glory, as the Apostle says, in our shame, — S: Phil 3:19.
-- **1712B** · …abide in these men, because they are flesh." — S: Gen 6:3.
 - **1713D** · …unless you work at these things, ⟨you cannot⟩ — T: the main verb is missing from *ἐὰν μὴ ἐργάσησθε λόγῳ ταῦτα παραλαβεῖν*; ⟨you cannot⟩ supplied by sense and the next sentence (Latin *ut opere magis parentur quam oratione*).
 
 ## Chunk 0015 (dd-014)
 
 - **1716B** · …written that lying is of the evil one; — S: cf. Matt 5:37 (*ἐκ τοῦ πονηροῦ*).
-- **1716B** · …is a liar, and the father of it. — S: John 8:44.
-- **1716B** · …the way, and the truth, and the life." — S: John 14:6.
 - **1716D** · …then can a bad tree bear good fruit? — S: Matt 7:18.
 - **1721B** · …danger: as abba Alonius said to abba Agatho, — S: Apophthegmata, Alonius (to Agatho).
 
 ## Chunk 0016 (dd-015)
 
-- **1724A** · …ministers also are transformed as ministers of righteousness. — S: 2 Cor 11:14–15.
-- **1724B** · …to him who said, I am the truth. — S: John 14:6.
 - **1724D** · …the Fathers says: Give blood and receive spirit; — S: Apophthegmata, Longinus (alphabetical collection); locus not checked here.
 - **1725D** · …by the royal road, and count the miles." — S: a saying of the elders; locus not located here.
 - **1725D** · …the left, but travel by the royal road. — S: Prov 4:27 with Num 20:17 / 21:22 ("royal road").
@@ -227,7 +169,6 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 - **1732B** · …among themselves the two differ from the rest: — T: "the two" is printed, but three cases follow. The Latin also reads *primi duo*, and it runs the third case into the second. Kept as printed.
 - **1732C** · …said that wickedness in no way removes wickedness. — S: Apophthegmata, Poemen (alphabetical collection); locus not checked here.
-- **1733C** · …own hearts, and let their bows be broken. — S: Ps 36:15 (LXX; Heb. 37:15).
 - **1736C** · …let us be watchful ⟨while we have⟩ time. — T: printed νήψωμεν καιρόν, which does not construe; ⟨while we have⟩ supplied with the Latin *vigilemus dum tempus habemus*.
 - **1736D** · …hour of this time, and not find it." — S: a saying of the elders; locus not located here.
 - **1737C** · …and dash thy little ones against the rock. — S: Ps 136:8–9 (LXX; Heb. 137:8–9).
@@ -241,56 +182,33 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1745A** · …Forgive me: he gives me whatever I want. — T: the band letter A stands beside the first line of col. 1745 on the plate (checked 2026-10-27); our transcription had dropped it.
 - **1745A** · …that that brother was stealing morsels of bread, — T: βουκκία, i.e. *buccellae*, morsels of bread; the Latin has *fabas*, "beans".
 - **1745B** · …he has become the slave of the passion. — S: Apophthegmata, Nisterus (alphabetical collection); locus not checked here.
-- **1745C** · …my blood, when I go down to corruption? — S: Ps 29:10 (LXX; Heb. 30:9).
 
 ## Chunk 0019 (dd-018)
 
 - **1748B** · …bad habit, prevails over the ten good ones. — T. The sentence breaks off after "one passion" (ἓν πάθος) and starts again with "if a man has ten good works". The Latin reads a full clause here (*vitium omne in habitum conversum gehennae subjectum est*), so something may be lost. Translated as printed.
-- **1749B** · …not good; rather all things are very good. — S. Gen 1:31.
-- **1752A** · …psalm too: I remembered God and was glad; — S. Ps 76:4 (LXX).
-- **1752D** · …fire prepared for the devil and his angels. — S. Matt 25:41.
-- **1753A** · …psalm, On that day their reasonings shall perish, — S. Ps 145:4 (LXX).
 - **1756A** · …a man not to reap what he sowed. — S. Gal 6:7.
 
 ## Chunk 0020 (dd-019)
 
 - **1756** · …for the most part, the strength of nature." — S. Basil, *Regulae fusius tractatae* (on the difficulty of overcoming custom); not checked here.
-- **1757A** · …of that man becomes worse than the first. — S. Matt 12:43–45; Luke 11:24–26.
 - **1757A** · …the psalm: Turn from evil and do good. — S. Ps 33:15 (LXX).
-- **1757C** · …man after our image and after our likeness. — S. Gen 1:26.
 - **1757C** · …Be merciful, as your heavenly Father is merciful. — S. Luke 6:36.
-- **1757C** · …is merciful. Be holy, for I am holy. — S. Lev 19:2; 1 Pet 1:16.
-- **1757C** · …the Apostle says: Be kind to one another. — S. Eph 4:32.
 - **1757C** · …is good to those who wait for him; — S. Lam 3:25, cited as "the psalm".
 - **1757D** · …that comes about through the privation of light, — S. Basil, *Hexaemeron* 2.5.
 - **1761A** · …he who wills ⟨to be saved⟩ in truth — T. The Greek prints only ὁ θέλων μετὰ ἀληθείας, "he who wills in truth"; the Latin (*qui vere salvari optat*) and the sense of the whole Instruction supply "to be saved".
-- **1761B** · …to serve the Lord ought, according to Wisdom, — S. Sir 2:1.
-- **1761B** · …in everything to give thanks to his goodness, — S. 1 Thess 5:18.
 
 ## Chunk 0021 (dd-020)
 
-- **1764B** · …us be tempted beyond what we are able. — S. 1 Cor 10:13.
-- **1765B** · …and was taken by force among the Assyrians. — S. Hos 5:11; 7:11; 11:5.
 - **1765D** · …the trumpet, and shall not hunger for bread. — S. Jer 42 (LXX 49):11–19; 27 (LXX 34):12; 42:13–14, quoted freely and run together.
 - **1768A** · …of Nebuchadnezzar, for his life is your salvation. — S. Bar 1:11–12; compare Jer 29 (LXX 36):7. T. Printed ὑπὸ τῆς ζωῆς; read ὑπὲρ, as the same phrase prints in section 7.
 - **1768D** · …him. For if a man is not tempted — T. The plate prints πειρατθῇ; read πειρασθῇ.
 - **1769A** · …they may be destroyed for ever and ever. — S. Ps 91:8 (LXX).
 - **1769C** · …Pithom and Raamses and On, that is, Heliopolis. — S. Exod 1:11 (LXX).
-- **1769C** · …us go and serve the Lord our God. — S. Exod 5:17.
-- **1772A** · …Or he who turns away not turn back? — S. Jer 8:4.
-- **1772A** · …I will heal your bruises, says the Lord; — S. Jer 3:22.
-- **1772A** · …only leave your sheep and your oxen behind; — S. Exod 10:24.
-- **1772B** · …we shall not leave behind even a hoof. — S. Exod 10:25–26.
 - **1772B** · …springs of water, first ⟨led⟩ them to Marah, — T. No verb with "first … them to Marah"; "led" is supplied (Latin *traxit*).
 - **1772B** · …seventy palms and the twelve springs of water. — S. Exod 15:22–27.
-- **1772B** · …we must enter into the kingdom of heaven. — S. Acts 14:22.
-- **1772C** · …prophet says: Lord, in affliction we remembered thee. — S. Isa 26:16.
 
 ## Chunk 0022 (dd-021)
 
-- **1772** · …midwives feared God, they made houses for themselves. — S. Exod 1:21.
-- **1773D** · …Apostle says, it is impossible to please God; — S. Heb 11:6.
-- **1776A** · …In your patience you shall possess your souls. — S. Luke 21:19.
 - **1776B** · …it is impossible to be saved without humility. — S. The alphabetical *Apophthegmata* give the saying to Amma Syncletica.
 - **1776C** · …your children do not fall from the housetop. — S. Deut 22:8, very loosely; the children are Dorotheus' own, and he reads them below.
 - **1776D** · …the house, which we said is the perfection; — T. Printed *ἰδοὺ ὁ οἶκος ὅνπερ εἴπομεν εἶναι τὴν τελείωσιν*. The relative should belong to the roof, which was called "the perfection of the virtues" above (so the Latin, *hanc dicimus perfectionem esse*), but it is masculine and agrees with *οἶκος*. Translated as printed.
@@ -301,22 +219,9 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 ## Chunk 0023 (dd-022)
 
-- **1780B** · …says: Thou shalt love thy neighbour as thyself. — S. Lev 19:18; Matt 22:39.
-- **1780D** · …knock, and it shall be opened unto you. — S. Matt 7:7.
-- **1781A** · …Apostle said, fitted out for every good work. — S. 2 Tim 3:17; cf. Heb 13:21.
-- **1781B** · …will of God, good and well-pleasing and perfect? — S. Rom 12:2.
-- **1781B** · …the Lord who makes light and creates darkness; — S. Isa 45:7, loosely.
-- **1781B** · …a city which the Lord has not done. — S. Amos 3:6.
 - **1784A** · …her as a poor orphan, a beautiful one. — T. Printed *δόξαντος αὐτοῦ, ὡς ὀρφανὴν πτωχὴν εὔμορφον*. The clause does not construe cleanly; perhaps a word is lost. The point is plain: the charity looks like care for an orphan, but the motive is her beauty (Latin *exterius autem… ut ejus pulchritudine delectetur*).
-- **1784B** · …says: A man's ransom is his own wealth. — S. Prov 13:8.
-- **1784B** · …elsewhere he says: Redeem thy sins with alms. — S. Dan 4:24 (4:27).
-- **1784B** · …Be merciful, as your heavenly Father is merciful. — S. Luke 6:36.
 - **1784C** · …by it. But these all have their reward; — S. Matt 6:2.
 - **1785A** · …ought to do good, as saint Gregory says; — T. The Greek names Gregory; Migne's Latin has *ex Basilii sententia*. Both Fathers set out the triad of slave, hireling and son (Basil, *Regulae fusius tractatae*, prooemium; Gregory Nazianzen, *Or.* 40.13). The English follows the Greek.
-- **1785B** · …treasury, give two mites, like the poor widow; — S. Mark 12:41–44; Luke 21:1–4.
-- **1785C** · …says: A good word is better than gifts. — S. Sir 18:16–17, loosely.
-- **1785D** · …says: Forgive, and it shall be forgiven you; — S. Luke 6:37; cf. Matt 6:14.
-- **1788A** · …and none of the adversaries can shake it. — S. Matt 7:24–25.
 
 ## Chunk 0024 (dd-023)
 
@@ -331,26 +236,17 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1796B** · …brother; thou hast seen the Lord thy God." — S. A saying of the Fathers: *Apophthegmata*, alphabetical series, Apollo 3.
 - **1796D** · …to do as it says of abba Antony: — S. Athanasius, *Life of Antony* 4.
 - **1797A** · …one harms anyone. But if we are harmed, — T. Printed καταβλαβῶμεν; read καὶ βλαβῶμεν. The English is the same either way.
-- **1797D** · …"All things are contrary to a foolish man." — S. Prov 14:7 LXX.
 - **1800A** · …own good state he was helped by each. — T. The plate prints ὠφελεῖ τὸ, with Migne's note mark 40; read ὠφελεῖτο, "he was helped," the blind read; Latin *utilitatem traxit*. Migne's note 40 is not in the scaffold and may bear on this spot.
-- **1800C** · …fruits of the Spirit numbered by the Apostle: — S. Gal 5:22–23.
-- **1801A** · …For "Forgive, and it shall be forgiven you." — S. Luke 6:37.
-- **1801A** · …evil with good, and not good with evil. — S. Rom 12:21.
 - **1801B** · …with good, and not good with evil. 2. — T. Printed Ϛʹ; read Βʹ. The next section is Γʹ (p0954.02), and the Latin numbers this one II.
 - **1801B** · …to wrath, thou hast fulfilled thine own passion"; — S. *Apophthegmata*, alphabetical series, Macarius the Egyptian 17.
 - **1801C** · …I say to you, I know you not,' — S. Matt 25:12; the lamps, Matt 25:8.
 - **1801C** · …according to the apostolic command, reprove and rebuke, — S. 2 Tim 4:2.
-- **1801C** · …for I am meek and lowly in heart." — S. Matt 11:29.
 - **1804A** · …the worthless, thou shalt be as my mouth." — S. Jer 15:19.
 
 ## Chunk 0026 (dd-025)
 
-- **1805B** · …mete, it shall be measured to you again." — S. Matt 7:2.
 - **1808C** · …but the great thing is not to judge, — T. The second μὴ κρῖναι repeats the first; the Latin has *non irasci* here. Translated as printed.
-- **1809D** · …a perfect hatred; they became enemies to me." — S. Ps 138:22 LXX.
 - **1812A** · …judgments of God, and of the ⟨going forth⟩ — T. A noun is wanting after τῆς; supplied ἐξόδου from Latin *egressus animae a corpore*.
-- **1812B** · …fire, prepared for the devil and his angels." — S. Matt 25:41.
-- **1812C** · …is his good and acceptable and perfect will, — S. Rom 12:2.
 - **1812D** · …to be made perfect for every good work. — S. Cf. Heb 13:21; 2 Tim 3:17.
 - **1812D** · …be made perfect for every good work. Question — T: the plate prints ΕΡΩΤΗΣΙΣ ΚΑΙ ΑΠΟΚΡΙΣΙΣ as a centred heading across both columns (checked 2026-10-27); our transcription had lost ΕΡΩΤΗΣΙΣ.
 
@@ -358,42 +254,18 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 - **1813B** · …gathered they beget godly grief in the heart, — S. 2 Cor 7:10.
 - **1813B** · …is freed, then with confidence and much boldness — T. παρρησία here in its good sense, the freed debtor's freedom of bearing, against the vice in Questions 1 and 4; the glossary keeps "boldness" for both.
-- **1813C** · …my lowliness and my toil," and the rest. — S. Ps 24:18 LXX.
-- **1813D** · …with him, we are also glorified with him." — S. Rom 8:17.
-- **1813D** · …thy building upon the rock, which is Christ. — S. 1 Cor 10:4; cf. Matt 7:24.
 - **1816A** · …and my toil, and forgive all my sins." — S. Ps 24:18 LXX.
-- **1816A** · …the Lord came to cast upon the earth — S. Luke 12:49.
 - **1816B** · …let a coal of fire fall on him. — T. Printed Οὐδὲ θίξειν, which does not construe; left untranslated. The sentence before it has no main clause in Greek or Latin.
-- **1816C** · …it says, "Be at leisure," and the rest. — S. Ps 45:11 LXX.
 - **1817C** · …commandment? Answer. Brother, he who wishes to be — T. ὁ θέλων εἶναι has no complement, and the Latin (*volens esse*) has none either; the gap is left marked.
-- **1817C** · …to do my own will," and the rest. — S. John 6:38.
-- **1820A** · …"For every good tree brings forth good fruits." — S. Matt 7:17.
 - **1820C** · …into sickness; for it brings the soul out. — T. Greek and Latin (*ejicit enim animam*) agree; the sense is obscure, and the phrase is rendered literally.
 
 ## Chunk 0028 (dd-027)
 
 - **1821** · …of resurrection: let us offer ourselves as fruit.* — S. Gregory Nazianzen, *Oration* 1.1–3 (on Pascha).
-- **1821D** · …the multitude of your sacrifices? says the Lord*, — S. Isa 1:11.
-- **1824A** · …*For indeed our Pascha has been sacrificed,* *Christ*, — S. 1 Cor 5:7.
 - **1824A** · …might take away the sin of the world; — S. John 1:29.
-- **1824A** · …*Cursed is everyone who hangs on a tree*, — S. Gal 3:13; Deut 21:23.
-- **1824A** · …that we might receive the adoption of sons: — S. Gal 4:5.
-- **1824B** · …holy, well-pleasing to the Lord, your reasonable worship.* — S. Rom 12:1.
-- **1824B** · …and not fulfilling the desire of the flesh. — S. Eph 2:3; Gal 5:16.
-- **1824B** · …death the members that are on the earth. — S. Col 3:5.
-- **1824C** · …long; we were counted as sheep for slaughter.* — S. Ps 43:23 (LXX); Rom 8:36.
-- **1824C** · …of the eyes and the arrogance of life, — S. 1 John 2:15–16.
-- **1824C** · …crucified the flesh with its passions and desires.* — S. Gal 5:24.
-- **1824D** · …*See, we have left everything and followed thee.* — S. Matt 19:27.
-- **1825A** · …no longer I, but Christ lives in me.* — S. Gal 2:20.
-- **1825A** · …it was; and: *Let the waters bring forth*, — S. Gen 1:3, 11, 20.
-- **1825B** · …breathed into his face the breath of life.* — S. Gen 1:26–27; 2:7.
 - **1825C** · …the image what is according to the image.* — S. Gregory Nazianzen, *Oration* 1.4.
-- **1825C** · …ourselves from every defilement of flesh and spirit.* — S. 2 Cor 7:1.
-- **1825D** · …in thy will grant power to my beauty.* — S. Ps 29:8 (LXX).
 - **1825D** · …spot or wrinkle or anything of the kind. — S. Eph 5:27.
 - **1828C** · …as the Apostle says, by trespasses and sins, — S. Eph 2:1.
-- **1828C** · …cast out of paradise, and *led captivity captive*, — S. Ps 67:19 (LXX); Eph 4:8.
 
 ## Chunk 0029 (dd-028)
 
@@ -401,21 +273,83 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1829A** · …have mercy on us, and give us watchfulness — T. Printed νήψειν, an infinitive that cannot follow δώσει with τοῦ συνιέναι; read the noun νῆψιν (Latin *studium*).
 - **1829C** · …words, says: *Living victims, rational whole burnt offerings*, — S. A sung line from Gregory Nazianzen on the martyrs; not located here.
 - **1829D** · …one thing ⟨and a whole burnt offering another⟩. — T. The Greek has only "a sacrifice is one thing"; the second member, needed by the answer that follows (sacrifice, then whole burnt offering), is supplied. Latin *Sacrificii genus aliud est*.
-- **1829D** · …lobe of the liver, and the two kidneys*, — S. Lev 7:32; 3:4.
-- **1832A** · …*The head with the feet and the entrails*; — S. Lev 1:9; 4:11.
-- **1832B** · …types; and they were written for our admonition. — S. 1 Cor 10:11.
 - **1832D** · …a boiling of the blood around the heart." — S. Basil, *Homily against the angry* (Hom. 10), the definition of anger.
 - **1832D** · …oracle on his breast, according to God's command. — S. Exod 28:30; Lev 8:8.
 - **1832D** · …of the things that have come to be. — S. Evagrius, *Praktikos* 86.
-- **1833A** · …*See, we have left everything and followed thee.* — S. Matt 19:27.
-- **1833A** · …*Take up thy cross, and come, follow me.* — S. Matt 19:20–21; Mark 10:21.
-- **1833B** · …all thy soul, and with all thy mind.* — S. Deut 6:5; Matt 22:37.
 - **1833C** · …I know mine, and am known by mine.* — S. John 10:14, 27.
 - **1833D** · …likewise said to know and to be known. — T. The sentence as printed ("to that extent he is said not to know, drawing near; likewise he is said to know and to be known") has lost its middle: the participle ἐγγίζων belongs to a second member about drawing near. The supplied words follow the Latin, *ignorare et ignorari ab aliquo dicitur per elongationem, et per appropinquationem sciri et cognosci*.
-- **1833D** · …say to you, I do not know you.* — S. Matt 25:12.
-- **1836A** · …Lord said, where thieves do not break through, — S. Matt 6:20.
 - **1836B** · …found not far from those who are crowned. — S. 2 Clement 7:3, loosely.
 - **1836B** · …the present we may get clear of Hades; — T. ἐξειλήσωμεν is an unusual form (ἐξειλέω, "extricate oneself"?); rendered by sense, "get clear of". The Latin paraphrases (*gehenna repulsa*).
+
+## Migne's notes not placed in the running text
+
+Migne's foot-of-page apparatus was read for every page (translate/dorotheus-doctrinae/notes/result-*.jsonl). Placed in the text: 48 of 48 numbered Greek notes, and the Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne's own prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.
+
+- p. 0836 (lettered, p): Scalig. De emendat. tempor. Prolegom. pag. xxviii, et lib. vi.
+- p. 0836 (lettered, q): Maffei Veron. illustr. lib. iii, pag. 114.
+- p. 0836 (lettered, marker illegible): Journal des Savants 1686, pag. 551.
+- p. 0840 (lettered, h): Deut. v, 8.
+- p. 0840 (lettered, j): Jerem. ii,
+- p. 0842 (lettered, r): Matth. v, 27, 28.
+- p. 0842 (lettered, t): ibid. 33. 39.
+- p. 0843 (lettered, v): Inclusa desunt in Græco.
+- p. 0844 (lettered, b): Gen. iii, 17.
+- p. 0844 (lettered, d): II Cor. vii, [verse unprinted].
+- p. 0847 (lettered, k): Exod. xii, 11.
+- p. 0851 (lettered, o): II Tim. ii, 5.
+- p. 0852 (lettered, marker illegible): I Cor. xiii, 4, 5.
+- p. 0854 (lettered, x): ibid. 37.
+- p. 0854 (lettered, y): Exod. iv, 10.
+- p. 0856 (lettered, b): Gen. i, 26.
+- p. 0857 (lettered, d): Osee x, 11.
+- p. 0859 (lettered, f): I Joan. iv, 18.
+- p. 0860 (lettered, i): Psal. cx, 18.
+- p. 0860 (parenthesized, (1)): Caute lege: nam innuit nullo pacto haberi posse timorem filialem, quin præcesserit servilis. Ordinarie quidem ita evenit in peccatoris justificatione extra sacramenta, ut habetur cap. 6 concil Trid. At contingit interdum aliter, cum quis per sacramenta justificatur, et in subitariis et miraculosis justificationibus. Vide S. Thom. part. ii, quæst. 113, art. 7 et 10.
+- p. 0860 (parenthesized, (2)): Caute lege, et regreditor ad notam superiorem.
+- p. 0861 (lettered, m): Psal. xxxiii, 2.
+- p. 0861 (lettered, p): ibid. 14.
+- p. 0861 (lettered, q): ibid. 15.
+- p. 0872 (lettered, r): Galat. vi, 2.
+- p. 0876 (lettered, x): Prov. xi, 14.
+- p. 0878 (lettered, a): Deut. xiii, 1, 5.
+- p. 0879 (lettered, b): Luc. vi, 42.
+- p. 0884 (lettered, h): I Cor. xii, 26.
+- p. 0889 (lettered, marker illegible): II Reg. xvi, 11.
+- p. 0889 (lettered, j): ibid. 12.
+- p. 0889 (lettered, k): ibid. 10.
+- p. 0891 (lettered, l): Rom. xii, 17.
+- p. 0909 (lettered, t): Deut. xvii, 11.
+- p. 0911 (numbered, 1): (1) Caute lege : nam frequens est in ista non satis tuta sententia, aliquos peccatores non posse [continued on p-0912:] pœnitentiam agere, nisi eos alicujus sancti oratio adjuvet. Sic enim dicere videtur in proxime sequentibus, et alibi. — keyed to etiam
+- p. 0912 (numbered, 1): pœnitentiam agere, nisi eos alicujus sancti oratio adjuvet. Sic enim dicere videtur in proxime sequentibus, et alibi.
+- p. 0916 (lettered, x): I Cor. x, 4.
+- p. 0923 (lettered, d): Psal. xxv, 7.
+- p. 0925 (lettered, f): Psal. xxxvi, 27.
+- p. 0925 (lettered, h): Matth. vi, 36.
+- p. 0929 (lettered, p): Jerem. XLII, 19.
+- p. 0929 (lettered, q): ibid. 11.
+- p. 0929 (lettered, r): ibid. 15, 16
+- p. 0929 (lettered, s): ibid. 13, 14.
+- p. 0929 (numbered, 1): (1) Caute lege ut etiam aliis locis, ubi ita loqui solet, forsan hyperbolice de vehementia impuræ cogitationis aut vitiosi habitus : alioquin in omni actu letalis peccati adest actio voluntatis plene liberæ et sui juris. — keyed to peccati
+- p. 0931 (lettered, marker illegible): Psal. cxi, 8.
+- p. 0937 (numbered, 1): (1) Caute lege : nam malum pœnæ certum est ex theologia, nedum permittente Deo, sed etiam efficiente, ordinante et disponente fieri : nec satis explicite ad regulas theologiæ hic loquitur auctor. — keyed to bella
+- p. 0938 (lettered, v): Tob. xii, 9.
+- p. 0939 (numbered, marker illegible): Basilii. Gregorii. — keyed to ex
+- p. 0940 (lettered, e): Num. xviii, 2.
+- p. 0949 (lettered, f): Psal. XLVIII, 21.
+- p. 0951 (lettered, g): Prov. xxviii, 13.
+- p. 0953 (lettered, l): Psal. xxix, 20.
+- p. 0953 (lettered, n): Galat. vi, 1.
+- p. 0954 (lettered, p): Jerem. xv, 29.
+- p. 0956 (lettered, r): Psal. cx, 10.
+- p. 0956 (lettered, marker illegible): Rom. xiii, 10.
+- p. 0964 (lettered, n): Galat. vi, 14.
+- p. 0965 (lettered, s): ibid. 11.
+- p. 0965 (lettered, t): ibid. 20.
+- p. 0965 (lettered, v): ibid. 27.
+- p. 0966 (lettered, z): Psal. xciv, 6.
+- p. 0969 (lettered, i): Joan. x, 27.
+- p. 0970 (asterisk, *): (*) Clem. Epist. II ad Corinth. cap. vii. — keyed to Clemens
+- p. 0842 (numbered, marker illegible): (variant line unprinted) — keyed to αὐτῆς
 
 ## Readings checked at the plate
 

@@ -142,7 +142,9 @@ def english(cid, sics, ns):
     def rep(m):
         n = m.group(1)
         if n in sics: return f' [sic: *{sics[n]}*]'
-        if n in ns: return f' [n: {ns[n]}]'
+        if n in ns:   # Migne's own reference replaces ours; a translator's note that says MORE stays in the cruces
+            keep = len(re.sub(r'^S\.\s*', '', notes.get(n, '')).strip()) > 30
+            return f' [n: {ns[n]}]' + (f'⟪{n}⟫' if keep else '')
         return f'⟪{n}⟫'
     body = re.sub(r'\[\^(\d+)\]', rep, body)
     # locate the remaining notes for cruces.md
@@ -174,11 +176,36 @@ if __name__ == '__main__':
            'authors': [W['author']], 'citRange': W['citRange'], 'chunkCount': N, 'greekSource': 'ours-vision-ocr',
            'builtBy': 'scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators\')',
            'chunks': []}
-    allcrux = []
+    allcrux = []; placed_g = set()
+    def base(x): return ''.join(c for c in ud.normalize('NFD', x.lower()) if ud.category(c) in ('Ll', 'Lu', 'Lo'))
+    def find_word(g, word, start):
+        """end offset of `word` (or its letters, accents ignored) at or after `start`; multiword allowed"""
+        word = {'προεσημηνύσαμεν': 'προεσημηνήσαμεν', 'ἀφαρῇ': 'ἀφρῇ'}.get(word, word)   # note reader's spelling vs ours
+        i = g.find(word, start)
+        if i >= 0: return i + len(word)
+        want = base(word)
+        for m in re.finditer(r'\S+', g[start:]):
+            for k in (1, 2):                                   # one token, or two (ἀλλὰ χοῦ)
+                toks = re.findall(r'\S+', g[start + m.start():])[:k]
+                if base(''.join(toks)) == want or (len(want) > 4 and base(toks[0]).startswith(want[:-1]) and k == 1):
+                    end = start + m.start() + len(' '.join(toks))
+                    while end > 0 and g[end - 1] in ',.·;»':
+                        end -= 1
+                    return end
+        return None
     for ci, (cid, (fp, fl, lp, ll)) in enumerate(chunks):
         g = greek(ci)
-        for no, txt in APP.get('greek', {}).get(cid, []):          # Migne's numbered notes, keyed to the Greek
-            g = g  # placed by the apparatus step (notes/place.py); left as a hook
+        for ckey, items in APP.get('greek', {}).items():           # Migne's numbered notes, keyed to the GREEK
+            if cid not in ckey.split('|'): continue
+            for page, word, txt in items:
+                if not txt.strip(): continue                           # an unprinted variant line: listed, never placed
+                if (cid, page, word) in placed_g: continue
+                if page not in cmap: continue
+                anc = f'[{gcol(page)}]'; start = g.find(anc)
+                if start < 0: continue
+                hit = find_word(g, word, start)
+                if hit is None: continue
+                g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word))
         fm, cols, words = frontmatter(ci, g)
         e, crux = english(cid, SICS.get(cid, {}), APP.get('english', {}).get(cid, {}))
         allcrux += [(ci + 1, cid) + c for c in crux]
@@ -209,6 +236,18 @@ if __name__ == '__main__':
         for ci, cid, col, band, before, txt in allcrux:
             if ci != cur: o.write(f'\n## Chunk {ci:04d} ({cid})\n\n'); cur = ci
             o.write(f'- **{col}{band or ""}** · …{before} — {txt}\n')
+        placed_words = {(p_, w_) for _, p_, w_ in placed_g}
+        miss = [n for n in APP.get('unplaced', [])] + [
+            {'page': f'p-{p_:04d}', 'series': 'numbered', 'marker': None, 'text': t_ or '(variant line unprinted)', 'greekWord': w_}
+            for k_, its in APP.get('greek', {}).items() for p_, w_, t_ in its if (p_, w_) not in placed_words]
+        allg = sum(len(v) for v in APP.get('greek', {}).values())
+        o.write(f'\n## Migne\'s notes not placed in the running text\n\nMigne\'s foot-of-page apparatus was read for every page '
+                f'(translate/{work}/notes/result-*.jsonl). Placed in the text: {len(placed_g)} of {allg} numbered Greek notes, and the '
+                'Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne\'s own '
+                'prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.\n\n')
+        for n in miss:
+            o.write(f"- p. {n['page'][2:]} ({n.get('series')}, {n.get('marker') or 'marker illegible'}): {n['text']}"
+                    + (f" — keyed to {n.get('latinWord') or n.get('greekWord') or ''}" if (n.get('latinWord') or n.get('greekWord')) else '') + '\n')
         vf = f'{T}/verify/VERDICTS.tsv'
         if os.path.exists(vf):
             o.write('\n## Readings checked at the plate\n\nEvery reading the translators flagged, looked up on the page image '
