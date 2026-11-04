@@ -1,0 +1,968 @@
+{
+ "volume": "87.3",
+ "file": "raw/pg087c/087c.pdf (archive.org patrologia-volumes/087c.pdf, 712 pp.)",
+ "work": "moschus-pratum",
+ "colRange": "PG 87.3, 2851–3112 (Greek p. 40 line 2 – p. 170 line 21); p. 39 = Lipomanus's Latin preface (2849–2850), pp. 171–173 = Latin notes, then Sophronius's Notitia from p. 172",
+ "method": "Linear: pdf page = (left column − 2771) / 2 (htr/QUEUE.md, read off running heads at pp. 100…600 and 172). No re-scanned blocks recorded for this volume. greekSide = side of the page holding the majority of Kraken MainText_ColGreek box centres (regions.json); null = no Greek region on the page.",
+ "anchorsPlateVerified": {
+  "38": 2849,
+  "39": 2851,
+  "40": 2853,
+  "171": 3115,
+  "172": 3117
+ },
+ "_anchorsNote": "Keys are LEAF numbers (pdf page − 1), as in pg088.json. Read 2026-11-04 off the running heads of the Kraken page images: p.39 PRATUM SPIRITUALE — LIPOMANUS LECTORI 2849/2850; p.40 JOANNIS MOSCHI 2851/2852 (title JOANNES EVIRATUS … SOPHRONIO SOPHISTAE); p.41 PRATUM SPIRITUALE 2853/2854; p.172 S. SOPHRONIUS PATRIARCHA HIEROSOL. 3115/3116; p.173 NOTITIA 3117/3118.",
+ "pagesWithoutGreekRegion": [
+  39,
+  171,
+  173
+ ],
+ "duplicateLeaves": [],
+ "pages": [
+  {
+   "leaf": 38,
+   "pdfPage": 39,
+   "colLeft": 2849,
+   "colRight": 2850,
+   "greekSide": null
+  },
+  {
+   "leaf": 39,
+   "pdfPage": 40,
+   "colLeft": 2851,
+   "colRight": 2852,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 40,
+   "pdfPage": 41,
+   "colLeft": 2853,
+   "colRight": 2854,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 41,
+   "pdfPage": 42,
+   "colLeft": 2855,
+   "colRight": 2856,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 42,
+   "pdfPage": 43,
+   "colLeft": 2857,
+   "colRight": 2858,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 43,
+   "pdfPage": 44,
+   "colLeft": 2859,
+   "colRight": 2860,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 44,
+   "pdfPage": 45,
+   "colLeft": 2861,
+   "colRight": 2862,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 45,
+   "pdfPage": 46,
+   "colLeft": 2863,
+   "colRight": 2864,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 46,
+   "pdfPage": 47,
+   "colLeft": 2865,
+   "colRight": 2866,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 47,
+   "pdfPage": 48,
+   "colLeft": 2867,
+   "colRight": 2868,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 48,
+   "pdfPage": 49,
+   "colLeft": 2869,
+   "colRight": 2870,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 49,
+   "pdfPage": 50,
+   "colLeft": 2871,
+   "colRight": 2872,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 50,
+   "pdfPage": 51,
+   "colLeft": 2873,
+   "colRight": 2874,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 51,
+   "pdfPage": 52,
+   "colLeft": 2875,
+   "colRight": 2876,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 52,
+   "pdfPage": 53,
+   "colLeft": 2877,
+   "colRight": 2878,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 53,
+   "pdfPage": 54,
+   "colLeft": 2879,
+   "colRight": 2880,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 54,
+   "pdfPage": 55,
+   "colLeft": 2881,
+   "colRight": 2882,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 55,
+   "pdfPage": 56,
+   "colLeft": 2883,
+   "colRight": 2884,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 56,
+   "pdfPage": 57,
+   "colLeft": 2885,
+   "colRight": 2886,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 57,
+   "pdfPage": 58,
+   "colLeft": 2887,
+   "colRight": 2888,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 58,
+   "pdfPage": 59,
+   "colLeft": 2889,
+   "colRight": 2890,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 59,
+   "pdfPage": 60,
+   "colLeft": 2891,
+   "colRight": 2892,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 60,
+   "pdfPage": 61,
+   "colLeft": 2893,
+   "colRight": 2894,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 61,
+   "pdfPage": 62,
+   "colLeft": 2895,
+   "colRight": 2896,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 62,
+   "pdfPage": 63,
+   "colLeft": 2897,
+   "colRight": 2898,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 63,
+   "pdfPage": 64,
+   "colLeft": 2899,
+   "colRight": 2900,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 64,
+   "pdfPage": 65,
+   "colLeft": 2901,
+   "colRight": 2902,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 65,
+   "pdfPage": 66,
+   "colLeft": 2903,
+   "colRight": 2904,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 66,
+   "pdfPage": 67,
+   "colLeft": 2905,
+   "colRight": 2906,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 67,
+   "pdfPage": 68,
+   "colLeft": 2907,
+   "colRight": 2908,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 68,
+   "pdfPage": 69,
+   "colLeft": 2909,
+   "colRight": 2910,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 69,
+   "pdfPage": 70,
+   "colLeft": 2911,
+   "colRight": 2912,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 70,
+   "pdfPage": 71,
+   "colLeft": 2913,
+   "colRight": 2914,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 71,
+   "pdfPage": 72,
+   "colLeft": 2915,
+   "colRight": 2916,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 72,
+   "pdfPage": 73,
+   "colLeft": 2917,
+   "colRight": 2918,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 73,
+   "pdfPage": 74,
+   "colLeft": 2919,
+   "colRight": 2920,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 74,
+   "pdfPage": 75,
+   "colLeft": 2921,
+   "colRight": 2922,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 75,
+   "pdfPage": 76,
+   "colLeft": 2923,
+   "colRight": 2924,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 76,
+   "pdfPage": 77,
+   "colLeft": 2925,
+   "colRight": 2926,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 77,
+   "pdfPage": 78,
+   "colLeft": 2927,
+   "colRight": 2928,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 78,
+   "pdfPage": 79,
+   "colLeft": 2929,
+   "colRight": 2930,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 79,
+   "pdfPage": 80,
+   "colLeft": 2931,
+   "colRight": 2932,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 80,
+   "pdfPage": 81,
+   "colLeft": 2933,
+   "colRight": 2934,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 81,
+   "pdfPage": 82,
+   "colLeft": 2935,
+   "colRight": 2936,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 82,
+   "pdfPage": 83,
+   "colLeft": 2937,
+   "colRight": 2938,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 83,
+   "pdfPage": 84,
+   "colLeft": 2939,
+   "colRight": 2940,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 84,
+   "pdfPage": 85,
+   "colLeft": 2941,
+   "colRight": 2942,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 85,
+   "pdfPage": 86,
+   "colLeft": 2943,
+   "colRight": 2944,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 86,
+   "pdfPage": 87,
+   "colLeft": 2945,
+   "colRight": 2946,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 87,
+   "pdfPage": 88,
+   "colLeft": 2947,
+   "colRight": 2948,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 88,
+   "pdfPage": 89,
+   "colLeft": 2949,
+   "colRight": 2950,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 89,
+   "pdfPage": 90,
+   "colLeft": 2951,
+   "colRight": 2952,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 90,
+   "pdfPage": 91,
+   "colLeft": 2953,
+   "colRight": 2954,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 91,
+   "pdfPage": 92,
+   "colLeft": 2955,
+   "colRight": 2956,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 92,
+   "pdfPage": 93,
+   "colLeft": 2957,
+   "colRight": 2958,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 93,
+   "pdfPage": 94,
+   "colLeft": 2959,
+   "colRight": 2960,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 94,
+   "pdfPage": 95,
+   "colLeft": 2961,
+   "colRight": 2962,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 95,
+   "pdfPage": 96,
+   "colLeft": 2963,
+   "colRight": 2964,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 96,
+   "pdfPage": 97,
+   "colLeft": 2965,
+   "colRight": 2966,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 97,
+   "pdfPage": 98,
+   "colLeft": 2967,
+   "colRight": 2968,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 98,
+   "pdfPage": 99,
+   "colLeft": 2969,
+   "colRight": 2970,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 99,
+   "pdfPage": 100,
+   "colLeft": 2971,
+   "colRight": 2972,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 100,
+   "pdfPage": 101,
+   "colLeft": 2973,
+   "colRight": 2974,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 101,
+   "pdfPage": 102,
+   "colLeft": 2975,
+   "colRight": 2976,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 102,
+   "pdfPage": 103,
+   "colLeft": 2977,
+   "colRight": 2978,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 103,
+   "pdfPage": 104,
+   "colLeft": 2979,
+   "colRight": 2980,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 104,
+   "pdfPage": 105,
+   "colLeft": 2981,
+   "colRight": 2982,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 105,
+   "pdfPage": 106,
+   "colLeft": 2983,
+   "colRight": 2984,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 106,
+   "pdfPage": 107,
+   "colLeft": 2985,
+   "colRight": 2986,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 107,
+   "pdfPage": 108,
+   "colLeft": 2987,
+   "colRight": 2988,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 108,
+   "pdfPage": 109,
+   "colLeft": 2989,
+   "colRight": 2990,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 109,
+   "pdfPage": 110,
+   "colLeft": 2991,
+   "colRight": 2992,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 110,
+   "pdfPage": 111,
+   "colLeft": 2993,
+   "colRight": 2994,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 111,
+   "pdfPage": 112,
+   "colLeft": 2995,
+   "colRight": 2996,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 112,
+   "pdfPage": 113,
+   "colLeft": 2997,
+   "colRight": 2998,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 113,
+   "pdfPage": 114,
+   "colLeft": 2999,
+   "colRight": 3000,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 114,
+   "pdfPage": 115,
+   "colLeft": 3001,
+   "colRight": 3002,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 115,
+   "pdfPage": 116,
+   "colLeft": 3003,
+   "colRight": 3004,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 116,
+   "pdfPage": 117,
+   "colLeft": 3005,
+   "colRight": 3006,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 117,
+   "pdfPage": 118,
+   "colLeft": 3007,
+   "colRight": 3008,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 118,
+   "pdfPage": 119,
+   "colLeft": 3009,
+   "colRight": 3010,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 119,
+   "pdfPage": 120,
+   "colLeft": 3011,
+   "colRight": 3012,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 120,
+   "pdfPage": 121,
+   "colLeft": 3013,
+   "colRight": 3014,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 121,
+   "pdfPage": 122,
+   "colLeft": 3015,
+   "colRight": 3016,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 122,
+   "pdfPage": 123,
+   "colLeft": 3017,
+   "colRight": 3018,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 123,
+   "pdfPage": 124,
+   "colLeft": 3019,
+   "colRight": 3020,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 124,
+   "pdfPage": 125,
+   "colLeft": 3021,
+   "colRight": 3022,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 125,
+   "pdfPage": 126,
+   "colLeft": 3023,
+   "colRight": 3024,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 126,
+   "pdfPage": 127,
+   "colLeft": 3025,
+   "colRight": 3026,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 127,
+   "pdfPage": 128,
+   "colLeft": 3027,
+   "colRight": 3028,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 128,
+   "pdfPage": 129,
+   "colLeft": 3029,
+   "colRight": 3030,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 129,
+   "pdfPage": 130,
+   "colLeft": 3031,
+   "colRight": 3032,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 130,
+   "pdfPage": 131,
+   "colLeft": 3033,
+   "colRight": 3034,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 131,
+   "pdfPage": 132,
+   "colLeft": 3035,
+   "colRight": 3036,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 132,
+   "pdfPage": 133,
+   "colLeft": 3037,
+   "colRight": 3038,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 133,
+   "pdfPage": 134,
+   "colLeft": 3039,
+   "colRight": 3040,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 134,
+   "pdfPage": 135,
+   "colLeft": 3041,
+   "colRight": 3042,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 135,
+   "pdfPage": 136,
+   "colLeft": 3043,
+   "colRight": 3044,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 136,
+   "pdfPage": 137,
+   "colLeft": 3045,
+   "colRight": 3046,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 137,
+   "pdfPage": 138,
+   "colLeft": 3047,
+   "colRight": 3048,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 138,
+   "pdfPage": 139,
+   "colLeft": 3049,
+   "colRight": 3050,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 139,
+   "pdfPage": 140,
+   "colLeft": 3051,
+   "colRight": 3052,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 140,
+   "pdfPage": 141,
+   "colLeft": 3053,
+   "colRight": 3054,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 141,
+   "pdfPage": 142,
+   "colLeft": 3055,
+   "colRight": 3056,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 142,
+   "pdfPage": 143,
+   "colLeft": 3057,
+   "colRight": 3058,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 143,
+   "pdfPage": 144,
+   "colLeft": 3059,
+   "colRight": 3060,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 144,
+   "pdfPage": 145,
+   "colLeft": 3061,
+   "colRight": 3062,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 145,
+   "pdfPage": 146,
+   "colLeft": 3063,
+   "colRight": 3064,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 146,
+   "pdfPage": 147,
+   "colLeft": 3065,
+   "colRight": 3066,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 147,
+   "pdfPage": 148,
+   "colLeft": 3067,
+   "colRight": 3068,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 148,
+   "pdfPage": 149,
+   "colLeft": 3069,
+   "colRight": 3070,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 149,
+   "pdfPage": 150,
+   "colLeft": 3071,
+   "colRight": 3072,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 150,
+   "pdfPage": 151,
+   "colLeft": 3073,
+   "colRight": 3074,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 151,
+   "pdfPage": 152,
+   "colLeft": 3075,
+   "colRight": 3076,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 152,
+   "pdfPage": 153,
+   "colLeft": 3077,
+   "colRight": 3078,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 153,
+   "pdfPage": 154,
+   "colLeft": 3079,
+   "colRight": 3080,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 154,
+   "pdfPage": 155,
+   "colLeft": 3081,
+   "colRight": 3082,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 155,
+   "pdfPage": 156,
+   "colLeft": 3083,
+   "colRight": 3084,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 156,
+   "pdfPage": 157,
+   "colLeft": 3085,
+   "colRight": 3086,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 157,
+   "pdfPage": 158,
+   "colLeft": 3087,
+   "colRight": 3088,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 158,
+   "pdfPage": 159,
+   "colLeft": 3089,
+   "colRight": 3090,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 159,
+   "pdfPage": 160,
+   "colLeft": 3091,
+   "colRight": 3092,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 160,
+   "pdfPage": 161,
+   "colLeft": 3093,
+   "colRight": 3094,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 161,
+   "pdfPage": 162,
+   "colLeft": 3095,
+   "colRight": 3096,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 162,
+   "pdfPage": 163,
+   "colLeft": 3097,
+   "colRight": 3098,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 163,
+   "pdfPage": 164,
+   "colLeft": 3099,
+   "colRight": 3100,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 164,
+   "pdfPage": 165,
+   "colLeft": 3101,
+   "colRight": 3102,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 165,
+   "pdfPage": 166,
+   "colLeft": 3103,
+   "colRight": 3104,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 166,
+   "pdfPage": 167,
+   "colLeft": 3105,
+   "colRight": 3106,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 167,
+   "pdfPage": 168,
+   "colLeft": 3107,
+   "colRight": 3108,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 168,
+   "pdfPage": 169,
+   "colLeft": 3109,
+   "colRight": 3110,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 169,
+   "pdfPage": 170,
+   "colLeft": 3111,
+   "colRight": 3112,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 170,
+   "pdfPage": 171,
+   "colLeft": 3113,
+   "colRight": 3114,
+   "greekSide": null
+  },
+  {
+   "leaf": 171,
+   "pdfPage": 172,
+   "colLeft": 3115,
+   "colRight": 3116,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 172,
+   "pdfPage": 173,
+   "colLeft": 3117,
+   "colRight": 3118,
+   "greekSide": null
+  }
+ ]
+}

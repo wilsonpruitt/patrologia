@@ -18,6 +18,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, '..')
 WORKS = {  # work -> (column map, copyA djvu xml)
     'dorotheus-doctrinae': ('data/pg-column-maps/pg088.json', 'raw/scans/pg088/copyA_088_djvu.xml'),
+    'moschus-pratum': ('data/pg-column-maps/pg087c.json', 'raw/scans/pg087c/copyA_087c_djvu.xml'),
 }
 
 SRC = None
