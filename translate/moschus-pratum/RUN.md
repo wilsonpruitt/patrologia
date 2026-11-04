@@ -87,3 +87,17 @@ The translators of mp-005 and mp-021 filled these from the Latin and marked them
 three openings from the Greek. Rejected after reading the image: p53 5572, p120 5624, p133 5430, p162 5386 (all NOTÆ).
 ⚑ **For every later Kraken work (Sophronius, Procopius):** run the xml-vs-text check BEFORE chunking
 (scratchpad scripts lost.py + pitch.py, to be promoted to `scripts/`).
+
+## ✅ Steps 1–3 done 2026-11-04 (in session)
+1. **Dropped openings restored** (ch. 43, 166, 184→183): lines read on the plate, appended to `text/`, recorded in
+   `RESTORED-LINES.tsv`, `ruled/` regenerated; English redone from the Greek, notes + OCR rows (`kind` = restored).
+2. **Chapter numbers reconciled** against the full-page djvu CAPUT heads: 166 of 172 legible numerals match an English
+   chapter of the same number within ±2 pages; the other 6 = the 3 Latin-only + 3 Latin-OCR garbles (XI=XLV p64,
+   CLI=CLIX p128, CCI=CCVI p163). One real error, fixed: p141 carries Migne's CLXXXII (y≈2640, Xeropotamus) and CLXXXIII
+   (foot, Theodore the Cilician), so the headless saying at p0141.19–23 rejoins ch. 181 and mp-023's 183/184 became
+   182/183 (the duplicate 184 is gone; Ennaton = 184 by its Greek head p0142.29). Result: 216 chapters + 121, 122, 132
+   Latin-only = 219. Within-page chapter BOUNDARIES are the translators' (Latin titles); only numbers were checked.
+3. **Glossary sweep:** ἀκηδία → acedia (mp-016, 017, 021); ποίησον ἀγάπην → "Do me a kindness" (mp-015, 017, 020, 026,
+   030); ναύκληρος → shipmaster (mp-022); προσκομιδή → oblation, εὐλογίαι → blessings (mp-001); διακονητής → server
+   (mp-017). Kept on purpose, each with a note: καλόγηρε "good old man" to laymen (mp-011, 026); κῦρι "sir" (mp-026 register).
+   ⚑ Left for Wilson's eye, not swept: "lord abba" (16) vs "my lord abba" (5) for κῦρι ἀββᾶ; παρρησία "familiarity" (mp-025).
