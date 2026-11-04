@@ -9,7 +9,8 @@ the plate must say. Those reports replace the blind read + every-line check of s
       e.g. dorotheus-doctrinae dd-001 p-0839:7 p-0843:4   ->  translate/<work>/<chunk-id>.md
   python3 scripts/kt-scaffold.py <work> brief <chunk-id> …  ->  translate/<work>/_briefs/<first>_<last>.md
 
-Tags are pNNNN.LL = Kraken page file + line number in raw/kraken/<work>/text/p-NNNN.txt.
+Tags are pNNNN.LL = Kraken page file + line number in raw/kraken/<work>/text/p-NNNN.txt (identical in ruled/).
+Run scripts/kt-rules.py <work> first: the scaffold then reads ruled/ (--raw for text/, --checked for checked/).
 """
 import json, os, re, sys
 
@@ -19,9 +20,13 @@ WORKS = {  # work -> (column map, copyA djvu xml)
     'dorotheus-doctrinae': ('data/pg-column-maps/pg088.json', 'raw/scans/pg088/copyA_088_djvu.xml'),
 }
 
-SRC = 'text'
+SRC = None
 if '--checked' in sys.argv: sys.argv.remove('--checked'); SRC = 'checked'   # plate-checked Greek (pg-plate-api.py) where it exists
+if '--raw' in sys.argv: sys.argv.remove('--raw'); SRC = 'text'             # Kraken as it came, without the rule pass
 work = sys.argv[1]
+# Default since 2026-11-04: the rule-passed Greek (scripts/kt-rules.py) when it exists. Same files, same line
+# numbers, so pNNNN.LL tags and kt-crop.py still point at the right plate line.
+SRC = SRC or ('ruled' if os.path.isdir(os.path.join(ROOT, 'raw/kraken', work, 'ruled')) else 'text')
 OUT = os.path.join(ROOT, 'translate', work)
 os.makedirs(OUT, exist_ok=True)
 

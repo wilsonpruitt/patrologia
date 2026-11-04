@@ -50,3 +50,30 @@ Tools: `scripts/kt-scaffold.py` (scaffolds + briefs), `scripts/kt-score.py` (ans
 Line crops for the image check: `scripts/kt-crop.py --out=<dir> p-0841:41 …` (Dorotheus paths; generalise per work).
 ⬜ The English is in card shape (`dd-00N.en.md`), not yet site chunks: conversion to `src/english/` format, the
 Latin twin and the site build remain open.
+
+## Addendum 2026-11-04: the rule pass, built and scored (`scripts/kt-rules.py`)
+
+Run over all 113 pages of raw Kraken and scored against `checked/` (`--score`). Counted on word pairs whose
+letters already match, i.e. the accent/breathing/glyph layer the translator misses:
+
+| rule | fixed | broke | changed, still wrong |
+|---|---|---|---|
+| glyph (elision marks → ᾿, stray `]`) | 505 | 0 | 9 |
+| accent (Migne's grave/acute by position) | 312 | 27 | 19 |
+| lexical (one breathing / iota-subscript edit to a clean-lexicon form) | 361 | 18 | 39 |
+
+Errors in this layer fall from ≈2,300 to ≈1,170 (1,178 fixed, 45 introduced, every change listed in
+`ruled/CHANGES.tsv`). **What the 45 are:** the accent breaks are Migne's own inconsistency (acute before a comma,
+clustered on p. 877; no rule can predict them); about half the lexical breaks restore correct Greek where Migne
+misprints (`φάγη`, `ἀπέλθη`, `ἀγίαν`) or uses an older spelling (`ζῶον`, `παῤῥησία` dat.), which counts against
+the rule because the displayed Greek is Migne's.
+**What it leaves:** ≈450 breathing and ≈120 iota-subscript errors on forms that are real words either way, or that
+the lexicon does not know. Those are context's call, and they remain the translator's and the image check's.
+**Tuning, all measured here:** acute↔circumflex edits are OFF (Byzantine accentuation like `κρῖμα` read as error:
++12 breaks for +12 fixes); the frequency-ratio swap is 10× (knee of the curve: 5× adds 23 fixes for 6 more
+wrong-either-way rows); it is NOT capped by the form's own frequency (`ἣ`→`ἢ` fixed 92, broke 0). Removing an iota
+subscript is never proposed (Kraken drops them; it does not add them). Half-words at a line-end hyphen are skipped.
+⚠ **Not tested by the answer key:** Moschus prints chapter numerals `ιʹ`; the first version turned them into elisions.
+`ʹ` is now never touched. Any new work's first `CHANGES.tsv` should be skimmed for a class Dorotheus did not have.
+The lexicon leaves out every work whose key shares the ruled work's first word (`dorotheus-*` here), so the score
+is not self-confirming. `kt-scaffold.py` now reads `ruled/` by default (`--raw` for `text/`).
