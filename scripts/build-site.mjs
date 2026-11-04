@@ -3,6 +3,7 @@
 //
 // Usage: node scripts/build-site.mjs [<idno> …]
 //   with idnos : rebuild those work + cruces pages, then every index that lists them
+//                (a PL idno is numeric; a PG work is named by its key in data/pg-works.json)
 //   without    : rebuild the whole site
 //
 // ⛔ WHY THIS EXISTS. Shipping 8950 (Liber Genesis) on 2026-09-05 meant remembering NINE
@@ -16,10 +17,22 @@
 //
 // So: one command, and the ordering written down once instead of recalled each time.
 import { execFileSync } from 'node:child_process';
+import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.join(import.meta.dirname, '..');
-const idnos = process.argv.slice(2).filter(a => /^\d+$/.test(a));
+const args = process.argv.slice(2);
+const idnos = args.filter(a => /^\d+$/.test(a));
+// ⛔ PG KEYS WERE SILENTLY DROPPED UNTIL 2026-11-04. Shipping Dorotheus *Doctrinae* (2026-10-27)
+// ran this with the PG key, the numeric filter threw it away, the PL builders below never
+// applied to it anyway, and build-cruces did not run -- so its cruces page was missing while
+// preflight (which then only looked under /cruces/pl/) passed. An unknown argument now stops
+// the build instead of vanishing.
+const pgKeys = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, 'data/pg-works.json'), 'utf8'))
+  .works.map(w => w.key));
+const pgWorks = args.filter(a => !/^\d+$/.test(a));
+const unknown = pgWorks.filter(a => !pgKeys.has(a));
+if (unknown.length) { console.error(`not a PL idno or a PG work key: ${unknown.join(', ')}`); process.exit(1); }
 
 // Data spine first: everything downstream reads these.
 const SPINE = ['build-supplements.mjs', 'build-volumes.mjs'];
@@ -33,7 +46,10 @@ const SPINE = ['build-supplements.mjs', 'build-volumes.mjs'];
 // symptom was a cruces page silently not published, i.e. an apparatus link that would have
 // 404'd on a live page that looked completely healthy -- the 2026-08-05 Glabas failure again.
 // ⚑ It must run BEFORE build-cruces, which reads what it writes.
-const PERWORK = ['build-work-page.mjs', 'index-work.mjs', 'build-cruces.mjs'];
+const PERWORK = ['build-work-page.mjs', 'index-work.mjs'];
+const PERWORK_PG = ['build-work-page-pg.mjs', 'index-work-pg.mjs'];
+// build-cruces.mjs takes no argument: it rebuilds every cruces page from src/english +
+// data/index, so it runs ONCE, after all the per-work steps above (and on a full build too).
 // Indexes. ⚑ Every one of these lists works, so every one goes stale the moment a work ships.
 // build-landing.mjs is LAST: it asserts that each built page is in its RECENT list and exits
 // non-zero if not, which is the one check that wants everything else already in place.
@@ -65,8 +81,11 @@ const run = (script, args = []) => {
   }
 };
 
-console.log(idnos.length ? `building site for ${idnos.join(', ')} + all indexes` : 'building the whole site');
+const named = [...idnos, ...pgWorks];
+console.log(named.length ? `building site for ${named.join(', ')} + all indexes` : 'building the whole site');
 for (const s of SPINE) run(s);
 for (const idno of idnos) for (const s of PERWORK) run(s, [idno]);
+for (const key of pgWorks) for (const s of PERWORK_PG) run(s, [key]);
+run('build-cruces.mjs');
 for (const s of INDEXES) run(s);
 console.log('\nsite built. Now: node scripts/preflight.mjs   (must exit 0 before deploying)');

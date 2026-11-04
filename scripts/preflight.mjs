@@ -191,8 +191,24 @@ run('cruces pages — every apparatus link has a page behind it', () => {
       if (!fs.existsSync(p)) missing.push(`${t.idno} ${t.title} → ${path.relative(ROOT, p)}  (run build-cruces.mjs)`);
     }
   }
+  // PG works are not in works.json: they are keyed by directory name under src/english, and
+  // data/index/pg/<key>.json (written by index-work-pg.mjs) carries the volume + slug. This
+  // half was MISSING until 2026-11-04, which is how Dorotheus *Doctrinae* passed with no
+  // cruces page (2026-10-27).
+  let pg = 0;
+  for (const key of fs.readdirSync(path.join(ROOT, 'src/english'))) {
+    if (/^\d+$/.test(key)) continue;
+    const src = path.join(ROOT, 'src/english', key);
+    if (!fs.statSync(src).isDirectory() || !fs.readdirSync(src).some(f => /^cruces.*\.md$/.test(f))) continue;
+    const idx = path.join(ROOT, 'data/index/pg', `${key}.json`);
+    if (!fs.existsSync(idx)) { missing.push(`${key} → no data/index/pg/${key}.json  (run index-work-pg.mjs)`); continue; }
+    const { volume, slug } = JSON.parse(fs.readFileSync(idx, 'utf8'));
+    const p = path.join(ROOT, 'site/cruces/pg', String(volume), slug, 'index.html');
+    pg++;
+    if (!fs.existsSync(p)) missing.push(`${key} → ${path.relative(ROOT, p)}  (run build-cruces.mjs)`);
+  }
   if (missing.length) throw new Error(`apparatus link would 404 for:\n  ${missing.join('\n  ')}`);
-  return 'all present';
+  return `all present (incl. ${pg} PG)`;
 });
 
 // 6. THE 2026-09-02 FAILURE, made loud. first-english.mjs reads work-level
