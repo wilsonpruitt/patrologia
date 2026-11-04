@@ -1,4 +1,4 @@
-# Pratum spirituale translation run (kt method; SET UP 2026-11-04, NOT STARTED: needs Wilson's go)
+# Pratum spirituale translation run (kt method; Opus, Wilson's go 2026-11-04) — ✅ ALL 31 CHUNKS TRANSLATED (≈2.1M)
 
 Source: rule-passed Kraken Greek (`raw/kraken/moschus-pratum/ruled/`, `scripts/kt-rules.py`; 1,003 changes in
 `ruled/CHANGES.tsv`), facing Latin = archive.org OCR of the same scan (`raw/scans/pg087c/copyA_087c_djvu.xml`).
@@ -11,20 +11,79 @@ Three agents at a time (CLAUDE.md rule 5). On resume: a brief is done when every
 
 | brief | chunks | status |
 |---|---|---|
-| mp-000_002 | mp-000 (dedication) – mp-002 | ⬜ |
-| mp-003_005 | mp-003–005 | ⬜ |
-| mp-006_008 | mp-006–008 | ⬜ |
-| mp-009_011 | mp-009–011 | ⬜ |
-| mp-012_014 | mp-012–014 | ⬜ |
-| mp-015_017 | mp-015–017 | ⬜ |
-| mp-018_020 | mp-018–020 | ⬜ |
-| mp-021_023 | mp-021–023 | ⬜ |
-| mp-024_026 | mp-024–026 | ⬜ |
-| mp-027_028 | mp-027–028 | ⬜ |
-| mp-029_030 | mp-029–030 | ⬜ |
+| mp-000_002 | mp-000 (dedication) – mp-002 | done (218K; ded. + ch. 1–32) |
+| mp-003_005 | mp-003–005 | done (208K; ch. 33–50) |
+| mp-006_008 | mp-006–008 | done (188K; ch. 51–76) |
+| mp-009_011 | mp-009–011 | done (ch. 77–96) |
+| mp-012_014 | mp-012–014 | done (ch. 97–115) |
+| mp-015_017 | mp-015–017 | done (ch. 116–142) |
+| mp-018_020 | mp-018–020 | done (ch. 143–163) |
+| mp-021_023 | mp-021–023 | done (ch. 164–184) |
+| mp-024_026 | mp-024–026 | done (ch. 184 cont.–194) |
+| mp-027_028 | mp-027–028 | done (ch. 195–201) |
+| mp-029_030 | mp-029–030 | done (ch. 202–219, doxology) |
 
 After all: glossary-clash sweep, image-check the flagged rows (`scripts/kt-crop.py`, needs generalising off its
 hard-coded Dorotheus path), Migne's foot-of-page apparatus (Latin notes on many pages + the NOTÆ at pp. 171–172),
 Latin twin, card-shape English → site chunks (`kt-to-site.py`), polarity read, ship.
 ⚑ Open at chunking: chunk boundaries were placed by text, not read at the plate; the first page of each chunk is
 seen by its translator against the Latin. Pp. 39 and 171–173 carry no Moschus Greek (preface, notes, Sophronius).
+
+## Sweeps owed after the run (briefs ran in parallel)
+- **Chapter numbering.** Translators number by sequence where no head is readable; reconcile every brief's numbers
+  against the Latin CAPUT list (djvu, 214 heads with page positions) before the site build. mp-006–008: 51–53, 57,
+  60–63, 68, 74–76 rest on counting; 74 ("Νουθετῶν δὲ ἡμᾶς") as its own chapter is the decision to check first.
+- **Glossary clashes:** mp-006 πάθος (bodily) → "ailment"; κῦρις → "lord"; ἔγκλειστος → "recluse".
+- Image check notes from mp-006–008: glued Σ = band C (p0071.31, 0073.29, 0074.30, 0077.26); p0068.46 καυκαλίου =
+  leaked footnote (stray); p0073.19 possible lost line (Latin has a reply); p0070.08 τεσσάρων vs Lat. quadraginta.
+- **Ch. 1–50 numbering** (mp-000–005): no head for 6, 8, 10, 13, 15, 17, 19, 21–23, 25, 27, 29, 35, 36, 41, 49; the
+  mp-000–002 agent read Kraken's numerals as dropping a final i (xv→XVI, xvii→XVIII, xχvi→XXVIII). Star story folded into
+  ch. 6, coals story into ch. 27. Reconcile against the full-page djvu CAPUT list (the scaffold's Latin witness is
+  region-filtered and misses most heads).
+- **p0062, one Greek line DROPPED by the text build** (Kraken read it; the line sat inside a footnote box): restore
+  `Ἐν Θεσσαλονίκῃ ἦν τις ἀρχιεπίσκοπος τῷ ὀνόματι` before p0063.01 `Θαλέλαιος.` (ch. 43, mp-005, where the agent left
+  `[?]`). The Latin witness lost its twin line too (`Fuit quidam Thessalonicae archiepiscopus, Thale-`). Whole-work
+  check (xml vs text/, scratchpad lost.py/dropped.py): this is the only lost body line on pages with a note heading;
+  p106's "two heads at the foot" are ch. CXXI–CXXII printed in LATIN ONLY (corrected 2026-11-04 by the mp-015 translator; I first misread the head as CXXVI), not a loss. ⚑ Latin-only chapters: decide at
+  assembly how they appear (Dorotheus precedent: Doctrina XXIV, Latin-only, not translated).
+- mp-000–005 report Greek/Latin disagreements on names and numbers (Εὐτύχιος/Eustochius p0043.43, Κύριλλος/Cyriacus
+  p0052.03, years 69/63, 35/30): kept the Greek with T notes. Image-check these.
+- mp-009–011 (ch. 77–96): counted only 78, 82, 83, 94, 95; Latin title without numeral 87, 89. Image-check:
+  p0086.46–47 dots = lost text; p0088.04 ὄρους Σινᾶ vs Lat. "supra Rosum" (Rhossus?); p0088.07 possible lost line;
+  George (Gr.) vs Gregorius (Lat.) ch. 91–94; number clashes (ship 3½ myriads/30,000; blessings 5/13; hour 9th/6th).
+- mp-012–014 (ch. 97–115): 101–105 fill five slots between CAPUT C and CVI by count (one story each; an alternative
+  split would leave a Latin-only number); 107, 108, 113, 114 counted. Name clashes Gr./Lat.: Παῦλος/Pardus (ch. 99),
+  Theodulus/Theodorus (104–106), Ianthus/Antonius (99); number clashes 500/50 (102), 22/25 days. p0100.47 lacuna `καί.....`.
+- mp-015–017 (ch. 116–142): **LATIN-ONLY: 121, 122, 132** (and the rest of 120 after τεθνηκότας); no text, T note at
+  each break. Counted: 116–118, 123, 124, 128, 131, 133, 136, 138, 139, 140 (mangled), 141, 142. ⚑ Glossary clash:
+  ἀκηδία → "listlessness" here vs Dorotheus "acedia" (house): sweep. Vocative Ἰωάννῃ ×3 logged `ocr`: check plate.
+- mp-018–020 (ch. 143–163): counted 144–146, 156–158, 161; **weak spot 151–154** (five story units in four numbers;
+  Marcellus ×2 + Psalms sayings taken as one ch. 152). p0118.33–36 possible lost line (Κωνσταντι- breaks off);
+  p0120.12–13 gap, no main verb.
+- mp-027–028 (ch. 195–201): counted 198–200 (alt.: Athanasius answer inside 197 ⇒ a missing number before 201).
+  p0153.11–12 likely dropped line (pope's name, Leontius's office); δηνάρια/κεντηνάρια p0153.51; Latin extras not in
+  our Greek ("ex oppido Thorax"; "Deditque mihi filiam suam et pecunias", ch. 201); Γεώργιος vs Lat. Gregorius again.
+- mp-021–023 (ch. 164–184): counted 165–168, 170–173, 178, 179, 182–184; 171/172 split most open. ἀκηδία →
+  "accidie" here (third rendering: sweep to house "acedia"). p0138.27 Γεώργιος vs Lat. Gregorius again.
+
+- mp-024–026 (ch. 184–194): counted 185–189, 191, 192 (count lands exactly on printed CXC, CXCIII, CXCIV). Possible
+  dittography p0143.10–15; p0149.50–51 lacuna (Chrysostom); Eustathius/Eustachius; 50/55 years.
+
+- mp-029–030 (ch. 202–219): counted CCIII, CCVII, CCIX, CCX, CCXII–CCXIV, CCXVI–CCXVIII; run fills exactly to CCXIX.
+  p0169.28 διδάσκαλον → διάκονον (whole-word: OCR or Migne? image-check); bare "(" glued to words = lost note-calls.
+
+## ⛔ DROPPED GREEK LINES — the text build lost chapter openings at page feet (found 2026-11-04)
+Kraken READ these lines (they are in `raw/kraken/moschus-pratum/xml/`), but its footnote box overlapped them and the
+build of `text/` kept only lines inside the Greek-column boxes. Whole-work search: every Greek xml line missing from
+`text/`, shortlisted by body line-pitch (≥84 px), every doubtful one read on the page image. **Confirmed, and the
+only ones:**
+| page | insert | chapter / chunk | recovered Greek (Kraken, unchecked) |
+|---|---|---|---|
+| p-0062 | after line 49 (head) | ch. 43, mp-005 | Ἐν Θεσσαλονίκῃ ἦν τις ἀρχιεπίσκοπος τῷ ὀνόματι |
+| p-0130 | at the foot, after the ch. 166 head | ch. 166, mp-021 | Ἔλεγεν ὁ ἀββᾶς Σαββάτιος· Ὡς ἐκαθήμην εἰς τὴν / λαύραν τοῦ ἀββᾶ Φιρμίνου, ἦλθέν τις ληστὴς πρὸς |
+| p-0141 | at the foot | ch. 184, mp-023 | Ἔλεγεν ὁ ἀββᾶς Θεόδωρος ὁ Κίλιξ, ὅτι Καθημένου (→ p0142.01 `[μ]ου ἐν τῇ Σκήτει`) |
+The translators of mp-005 and mp-021 filled these from the Latin and marked them; mp-023's ch. 184 opens mid-phrase.
+**Fix at the image check:** insert the lines into `ruled/` (read each on the plate first) and re-English those
+three openings from the Greek. Rejected after reading the image: p53 5572, p120 5624, p133 5430, p162 5386 (all NOTÆ).
+⚑ **For every later Kraken work (Sophronius, Procopius):** run the xml-vs-text check BEFORE chunking
+(scratchpad scripts lost.py + pitch.py, to be promoted to `scripts/`).
