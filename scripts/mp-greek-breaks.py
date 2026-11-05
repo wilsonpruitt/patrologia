@@ -9,8 +9,8 @@ Line y: text/ lines are matched to Kraken TextLines by their first 10 letters; u
 monotone down a page in reading order). Run from ~/patrologia:  python3 scripts/mp-greek-breaks.py"""
 import re, unicodedata as ud
 import xml.etree.ElementTree as ET
-K = 'raw/kraken/moschus-pratum'; T = 'translate/moschus-pratum'
-def key(s): return ''.join(c for c in ud.normalize('NFD', s.lower()) if ud.category(c) in ('Ll', 'Lo'))[:10]
+import sys, os; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from mpcommon import K, T, key, line_ys
 djvu = open('raw/scans/pg087c/copyA_087c_djvu.xml').read().split('<OBJECT ')
 heads = {}   # page -> [(y_mid, caput)]
 for pdf in range(40, 171):
@@ -21,32 +21,6 @@ for pdf in range(40, 171):
         if m and ws:
             c = list(map(int, ws[0][0].split(',')))
             heads.setdefault(pdf, []).append(((c[1] + c[3]) / 2, m.group(1).strip()))
-def line_ys(pdf):
-    p = f'p-{pdf:04d}'
-    t = ET.parse(f'{K}/xml/{p}.xml'); ns = t.getroot().tag.split('}')[0][1:]
-    ys = {}
-    for tl in t.getroot().iter('{%s}TextLine' % ns):
-        pts = [tuple(map(int, q.split(','))) for q in tl.find('{%s}Baseline' % ns).get('points').split()]
-        u = tl.find('{%s}TextEquiv/{%s}Unicode' % (ns, ns)); s = (u.text or '') if u is not None else ''
-        if s.strip(): ys.setdefault(key(s), []).append(sum(q[1] for q in pts) / len(pts))
-    lines = open(f'{K}/text/{p}.txt').read().split('\n')
-    y = [None] * len(lines)
-    for i, l in enumerate(lines):
-        if l.strip() and key(l) in ys: y[i] = ys[key(l)][0]
-    # interpolate: unmatched lines between matched neighbours; enforce monotone
-    last = None
-    for i in range(len(y)):
-        if y[i] is not None:
-            if last is not None and y[i] < y[last]: y[i] = None; continue
-            last = i
-    known = [i for i, v in enumerate(y) if v is not None]
-    for i in range(len(y)):
-        if y[i] is None and lines[i].strip():
-            a = max((k for k in known if k < i), default=None); b = min((k for k in known if k > i), default=None)
-            if a is not None and b is not None: y[i] = y[a] + (y[b] - y[a]) * (i - a) / (b - a)
-            elif a is not None: y[i] = y[a] + 91 * (i - a)
-            elif b is not None: y[i] = y[b] - 91 * (b - i)
-    return y, lines
 rows = []; carry = []
 for pdf in range(40, 171):
     y, lines = line_ys(pdf)
