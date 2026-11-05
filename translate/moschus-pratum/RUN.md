@@ -157,3 +157,27 @@ numbered Greek notes to place** (181 anchor words confirmed on the page in `chec
 p43 ἀπενέγκωμεν, p47 παλίον, p59 Χαλκηδόνι, p73 εἶπεν, p95 λέγοντες, p108 οἰκονομοῦντες, p169 τούτου — fall to the cruces list
 if kt-to-site's fuzzy match also misses) · **151 unplaced** (95 lettered scholia, 49 NOTÆ, 7 numbered) → cruces page. Pages
 39 and 171–173 are in no chunk (preface, NOTÆ, Sophronius): their notes are cruces-only.
+
+## ✅ Greek chapter breaks located 2026-11-04: `scripts/mp-greek-breaks.py` → `verify/GREEK-BREAKS.tsv`
+The checked Greek has NO chapter heads (Migne's CAPUT heads are Latin, centred; Kraken read each as a garbled Greek-column line,
+`ΣΑΡΥΤ ΣLxχv.`, and the italic title is a separate Title region). Computed, not read: djvu CAPUT heads (same 3971×6300
+frame) × Kraken line y (text/ lines matched to xml TextLines by first 10 letters, the 4% unmatched interpolated).
+**200 breaks** (of 216 chapters; 203 heads found by the djvu OCR); column `line` = first real Greek line of the chapter;
+column `drop` = Kraken's garbled read of the head, to DELETE from the Greek (96; also drop any short Greek-less line matching
+`ΡΥΤ`). Spot-checked: p-0080 LXXVIII → Ὁ δὲ ἀββᾶς Ἰωάννης…, p-0128 CLX, p-0113 CXXXIV all land on the right line. Latin-only
+CXXI/CXXII (p-0106) leave a garble line still in the text: strip by pattern.
+
+## ⬜ NEXT (build, local only): generalise `scripts/kt-to-site.py` to Moschus
+1. `CONF['moschus-pratum']` (vol 87, `data/pg-column-maps/pg087c.json`, xml `raw/scans/pg087c/copyA_087c_djvu.xml`; chunk files
+   `mp-NNN.md` not `dd-`; Latin twin works as is: djvu object index = pdf page, verified at p80); **registry entry** in
+   `data/pg-works.json` (none yet: key, slug, titleEn, `citRange` PG 87.3 2851–3112, badge = weak "New" (Wortley's Cistercian
+   translation exists; rule 8, do not research), `englishState` stays unset until it ships).
+2. `greek()`: replace Dorotheus's `is_head`/`SECT` with GREEK-BREAKS (paragraph break at each `line`, delete `drop` lines).
+3. ⚠ **Band letters** (CLAUDE.md `[b: X]`, captured at chunking or never): the margin A–D are fused into Kraken lines
+   (`…ἐπὶ Πόντον, Α` trailing; `Αλέγουσι`, `ΒΔιηγήσατο` glued) and must be stripped from the Greek. Plan: take their y from the
+   `Marginalia` regions (178 boxes in `regions.json`) → line index by the same y interpolation as GREEK-BREAKS → `[b: X]`;
+   check on 5 pages by eye before trusting. The English cards already carry `[b: X]` and `[NNNN]` anchors from the translators.
+4. Feed `notes/APPARATUS.json` (`greek` = 3-tuples as Dorotheus; use `greekLines` to pick the right occurrence of a repeated word
+   instead of the hard-coded `nth`); `unplaced` → cruces.
+5. Then `mark-sentences` → `align-sentences --write` → `verify` → `plate-gate` → `build-work-page-pg` → `build-site` →
+   `build-lookup-grc` → `preflight` (never deploy without Wilson's OK) → blind polarity read (≈1.5–2M, Wilson's go + model).
