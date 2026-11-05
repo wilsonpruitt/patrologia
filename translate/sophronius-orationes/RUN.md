@@ -111,6 +111,27 @@ read sheets → `kt-verdict.py` → `kt-apply.py`; ≈800 rows, a fresh session'
   are missing from the Or. VII scaffold** (the English supplies them by sequence): image-check, add to the doubt list.
 - Seams: 17 boundaries read, continuous; chunk ranges contiguous in CHUNKS.tsv. No doubling.
 
+## ✅ Step 3 DONE 2026-11-05: image check of every flagged Greek row (coordinator, in session)
+All **641** Greek OCR rows of kind ocr/doubt/print/subscript (the Latin-only so-019–021 rows are NOT in this: their
+pNNNN.L|R tags need a Latin sheet builder, still owed) read on the plates in three passes: `kt-sheet.py` (27 sheets) →
+`--redo` whole lines (19 sheets) → wide full-line crops for the 31 rows cut at the right edge (4 sheets, scale 0.6).
+Verdicts in `IMAGE-CHECK.tsv`: **R 408 · M 89 · P 92 · ? 52.** `kt-apply.py` → `raw/kraken/sophronius-orationes/checked/`
+(379 applied, 25 applied~, 11 already); **10 cross-line readings patched line-exact in `verify/GREEK-PATCHES.tsv`** (all
+found). `verify/PRINT-ERRORS.tsv` = the 89 M rows (the [sic:] layer).
+- ⚑ **Translator labels vs the plate: of ≈560 rows labelled `ocr`, 89 are Migne's own misprints** (≈1 in 6, the Moschus
+  rate again) and ≈60 more are the plate's real text, which the translator emended (P).
+- ⚑ **Note calls read as letters (the class to know):** p0211.13 φησιοις = φησι + calls 34·35 (the doubt is gone: English
+  fixed, row → R); p0228.29 », p0239.40 ʃ, p0250.13 ʃ, p0250.39 ς, p0252.24 αι, p0256.18 ʃ, p0292.43 "(2)" = note calls.
+  Calls standing beside doubted words: p0197.20 κατ᾿ αὐτὸ (7), p0205.02 ἄφραστον (26), p0205.16 φήσωμεν (28), p0209.56
+  Ἑλκεσέως (32), p0211.34 Πιθιανῶν (36·37), p0228.29 ἀμοτρεῖ (10), p0246.23 ἀπότευξιν (51), p0247.54 μητρὸς (57), p0255.05
+  συνόμιλλοι (80), p0197.01 φυσικῇ (8). **The apparatus step reads those notes first.**
+- Settled doubts: **p0292.03 prints δʹ: "the FOURTH day of the Nativity" stands.** p0296.11: a blank where καὶ should be
+  (M). p0228.33: the plate ends ἐναυλίζε- and sets σθαι. on a short line Kraken never segmented (R restores the word).
+- ⬜ **52 undecided** stand as `ruled/` reads them: mostly breathings on capitals the 1-bit scan cannot show, and crops
+  kt-sheet matched to the wrong line. ⬜ **≈30 P rows change the sense** (e.g. p0209.29 ἡμῶν, p0285.10 ἥνωσε, p0233.17
+  τελειωμένη, p0282.49 θάτερον, p0291.13 καταλειψομένην, the so-018 optatives): the English follows the emendation, so
+  each needs the English brought to the plate or a T note marking our conjecture against Migne. That is step 3b.
+
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·
    F 016–018), three at a time (rule 5), from `kt-scaffold.py sophronius-orationes brief …`.
