@@ -294,10 +294,17 @@ if __name__ == '__main__':
                     + (f" — keyed to {n.get('latinWord') or n.get('greekWord') or ''}" if (n.get('latinWord') or n.get('greekWord')) else '') + '\n')
         vf = f'{T}/verify/VERDICTS.tsv'
         if os.path.exists(vf):
-            o.write('\n## Readings checked at the plate\n\nEvery reading the translators flagged, looked up on the page image '
+            if MP: o.write('\n## Readings checked at the plate\n\nEvery reading the translators flagged was looked up on the page image '
+                    '(2026-11-04). **migne** = the plate prints it (Migne\'s own text); the Greek stands as printed. '
+                    'Of the 1,018 flagged readings, 650 were slips in our own transcription and are corrected in the Greek without comment; '
+                    'this table lists the 368 where the plate agrees with the machine reading: 210 where Migne\'s type is itself wrong and the '
+                    'English follows the corrected reading, 144 where the translator suspected a misprint but the plate prints that very form '
+                    '(Migne\'s own text, so not emended), and 14 not settled at the plate. No misprint is marked `[sic:]` in the English: '
+                    'that mark claims a defect in Migne\'s page and waits on a full-page reading of each column.\n\n')
+            else: o.write('\n## Readings checked at the plate\n\nEvery reading the translators flagged, looked up on the page image '
                     '(2026-10-27). **migne** = the plate prints it (Migne\'s own text; a misprint carries `[sic:]` in the English where '
-                    'a note marked the spot); **ours** = a slip in our transcription, corrected in the Greek; **neither** = worn type.\n\n'
-                    '| page.line | printed | read as | kind | verdict | plate |\n|---|---|---|---|---|---|\n')
+                    'a note marked the spot); **ours** = a slip in our transcription, corrected in the Greek; **neither** = worn type.\n\n')
+            o.write('| page.line | printed | read as | kind | verdict | plate |\n|---|---|---|---|---|---|\n')
             for r in csv.DictReader(open(vf), delimiter='\t'):
                 cell = lambda x: x.replace('|', '/').replace('\n', ' ')
                 o.write(f"| {r['tag']} | {cell(r['printed'])} | {cell(r['reading'])} | {r['kind']} | {r['verdict']} | {cell(r['plate'])} |\n")

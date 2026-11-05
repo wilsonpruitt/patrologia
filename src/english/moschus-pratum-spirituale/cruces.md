@@ -699,3 +699,378 @@ Aliter Callistus in Synaxario: Ἐδήλουν δὲ διὰ τῶν βαΐων,
 - p. 0123 (numbered, marker illegible): al. λόγος. — keyed to λογισμὸς
 - p. 0138 (numbered, marker illegible): al. add. γέροντα διακριτικόν. — keyed to ἄλλον
 - p. 0169 (numbered, marker illegible): al. add. τοῦ αἰτιᾶσθαι ἑαυτὸν ἕκαστος πάντοτε ἐν παντὶ πράγματι. — keyed to Ποιμένος
+
+## Readings checked at the plate
+
+Every reading the translators flagged was looked up on the page image (2026-11-04). **migne** = the plate prints it (Migne's own text); the Greek stands as printed. Of the 1,018 flagged readings, 650 were slips in our own transcription and are corrected in the Greek without comment; this table lists the 368 where the plate agrees with the machine reading: 210 where Migne's type is itself wrong and the English follows the corrected reading, 144 where the translator suspected a misprint but the plate prints that very form (Migne's own text, so not emended), and 14 not settled at the plate. No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne's page and waits on a full-page reading of each column.
+
+| page.line | printed | read as | kind | verdict | plate |
+|---|---|---|---|---|---|
+| p0040.03 | θέαν. ἀγαπητὲ | θέαν, ἀγαπητὲ | ocr | migne | period printed |
+| p0041.40 | ἡμῖν | ἦμεν | ocr | migne | plate ἡμῖν |
+| p0041.52 | ἤκουσεν ἀρχιεπίσκοπος | ἤκουσεν ὁ ἀρχιεπίσκοπος | ocr | migne | pass2: no ὁ on plate |
+| p0042.01 | αυτοῦ | αὐτοῦ | ocr | migne | pass2: no breathing on plate |
+| p0042.10 | ἀνασκέψας | ἀνασκεπάσας | ocr | migne | plate ἀνασκέψας |
+| p0042.13 | ἤθελόν σοι ἔχειν | ἤθελόν σε ἔχειν | ocr | migne | plate σοι |
+| p0042.26 | λαυρήτας | λαυρίτας | ocr | migne | plate λαυρήτας |
+| p0042.27 | ἐκάθισεν | ἐκάθισα | ocr | migne | plate ἐκάθισεν |
+| p0040.04 | παντοδαπὴς | παντοδαπὴ | ocr | migne | ς printed |
+| p0042.47 | πυργίων | Πυργίων | ocr | migne | lowercase on plate |
+| p0040.09 | λειμωνος | λειμῶνος | ocr | migne | no accent on plate |
+| p0040.15 | ἀναδδοται | ἀναδίδοται | ocr | migne | broken sort ἀναδ δοται |
+| p0040.40 | ὁ ἐν ἁγίοις ἡμῶν ὁ ἀρχιεπίσκοπος | ὁ ἐν ἁγίοις ἡμῶν [Ἠλίας?] ὁ ἀρχιεπίσκοπος | doubt | migne | pass2: no name on plate |
+| p0044.27 | ὁ ἔξω θάλλει | ὁ ἔσω θάλλει | ocr | migne | plate ἔξω |
+| p0045.02 | Κοίμα | Κοιμῶ | ocr | migne | plate Κοίμα |
+| p0045.07 | ἀρχόντων | ἀρθέντων | ocr | migne | plate ἀρχόντων |
+| p0043.11 | ἀνέπαυέν | ἀνεπαύετο | ocr | migne | plate ἀνέπαυεν |
+| p0045.31 | ἡμῖν λέγων | λέγων | print | migne | confirmed |
+| p0045.44 | Βίτων ἅγιον | ? | doubt | migne | plate Βίτων ἅγιον, sense doubt stands |
+| p0043.30 | αὐτὸν | αὑτὸν | ocr | migne | smooth reflexive is Migne's habit |
+| p0043.36 | εἰς τοσαύτην σκληραγωγίαν | εἰς τοσαύτην [ἤλασε] σκληραγωγίαν | doubt | migne | pass2: plate as printed |
+| p0043.43 | Εὐτύχιος | Εὐστόχιος? | doubt | migne | plate Εὐτύχιος |
+| p0044.15 | σακκὴν | σακκίν | ocr | migne | plate σακκὴν with note c |
+| p0048.34 | ἐξαφῆκαν | ἐξαφῆκεν | ocr | migne | plate ἐξαφῆκαν |
+| p0049.36 | κὰ | κα- | ocr | undecided | pass2: line end reads καὶ ν-/νόνα; needs reading |
+| p0046.24 | ῥάθυμός | ῥᾴθυμός | ocr | migne | plate ῥάθυμός no subscript |
+| p0046.26 | ῥάθυμός (second) | ῥᾴθυμός | ocr | migne | same |
+| p0051.36 | Ἴδω | ἴδω | ocr | migne | capital on plate |
+| p0052.03 | Κύριλλος | ? | doubt | migne | plate Κύριλλος note 38 |
+| p0052.19 | αὐτόν· ὁ γέρων | αὐτῷ ὁ γέρων | ocr | migne | plate αὐτὸν +note-call 44 |
+| p0052.23 | ὁρίου | ὁρρίου | ocr | migne | plate ὁρίου, Migne's note m |
+| p0051.14 | ποιήσει | ποιήσῃ | ocr | migne | plate ποιήσει |
+| p0051.14 | δοξάζει | δοξάζῃ | ocr | migne | plate δοξάζει |
+| p0051.20 | Μάρδαρδος | ? | doubt | migne | plate Μάρδαρδος |
+| p0054.39 | ἠνεγινώσκετο | ἀνεγινώσκετο | ocr | migne | pass2: plate ἠνεγινώ- |
+| p0055.11 | εἰς ἕνα τῶν τειχῶν τοῦ πύργου | ? | doubt | migne | plate as printed |
+| p0056.10 | Αἰγύπτου· καὶ | Αἰγύπτου καὶ | ocr | migne | plate has the point |
+| p0057.41 | ἁγία» | ἁγίᾳ | ocr | undecided | pass2: wrong line matched |
+| p0057.46 | Κώμης | Κόμης | ocr | migne | plate Κώμης |
+| p0057.47 | Διὰ τοῦτο | Διὰ τούτου | ocr | migne | plate τοῦτο note-call 81 |
+| p0058.21 | ἐργασείας | ἐργατείας | ocr | migne | plate ἐργασείας |
+| p0058.30 | θελήσει | θελήσῃ | ocr | migne | plate θελήσει |
+| p0058.35 | ἄρτου | ἄρτου. | ocr | migne | pass2: no period on plate |
+| p0057.23 | ξύλα· ἅψας | ξύλα, ἅψας | ocr | migne | pass2: plate has the point |
+| p0057.40 | ὑτῷ | αὐτῷ | ocr | undecided | pass2: word not in view |
+| p0057.41 | προῆλθεν | προσῆλθεν | ocr | undecided | pass2: wrong line matched |
+| p0058.39 | ποιμαίνης | ποιμαίνῃς | ocr | migne | plate ποιμαίνης |
+| p0060.12 | πράξης | πράξῃς | ocr | undecided | pass2: subscript unclear |
+| p0060.25 | σου. ἐὰν | σου· ἐὰν | ocr | migne | plate period |
+| p0058.40 | αἵματος· Χριστὸς | αἵματος Χριστὸς | ocr | migne | plate has the point |
+| p0060.48 | πάνυ | πάνυ· | ocr | migne | pass2: no point on plate |
+| p0058.47 | Κωνσταντίνουπό- | Κωνσταντινουπό- | ocr | migne | pass2: accent on ι on plate |
+| p0059.02 | Χαλχηδόνι | Χαλκηδόνι | ocr | migne | plate Χαλχηδόνι |
+| p0061.52 | ἀρετάς. τέλειός | ἀρετάς, τέλειός | ocr | migne | pass2: plate period |
+| p0061.55 | Φαρῶν | Φαρὼν | ocr | migne | plate circumflex |
+| p0062.04 | ἔχεις | ἔχῃς | ocr | migne | plate ἔχεις |
+| p0063.07 | Ἱλεώς | Ἵλεώς | ocr | migne | pass2: first letter broken on plate |
+| p0063.18 | κατὰ τοὺς ἀποστολικοὺς | παρὰ τοὺς (?) | doubt | migne | plate as printed |
+| p0063.43 | τὴν ἀνίερον αὐτοῦ | ? | doubt | migne | plate as printed |
+| p0063.51 | δέκα ἕνα | δέκα· ἕνα | ocr | migne | no point on plate |
+| p0061.39 | νέλλης | κέλλης | ocr | migne | κ broken on plate |
+| p0065.14 | οὐδὲ γὰρ ὁ ἕτερός | οὐδὲ γὰρ ἕτερός | ocr | migne | pass2: plate ὁ ἕτερός |
+| p0065.37 | Φοινίκης τῆς Λιβανησίας | Ἡλιούπολις Φοινίκης τῆς Λιβανησίας | ocr | migne | pass2: Ἡλιούπολις not printed |
+| p0065.51 | ἐξομολογήσατο | ἐξωμολογήσατο | ocr | migne | plate ἐξομολογήσατο |
+| p0066.16 | κοινωνήσης | κοινωνήσῃς | ocr | migne | no subscript on plate |
+| p0066.31 | παρεχόμενος | συνεχόμενος (?) | doubt | migne | plate as printed |
+| p0064.21 | λοιπὸν συνεγγήρασαί μοι | λοιπόν· συνεγήρασάς μοι | ocr | migne | pass2: plate λοιπὸν συνεγγήρασαί μοι |
+| p0064.35 | δέ τοι | δέ σοι | ocr | migne | pass2: plate τοι |
+| p0064.38 | ἡμων | ἡμῶν | ocr | migne | no circumflex on plate |
+| p0064.40 | τόπον Φαίνεται | τόπον. Φαίνεται | ocr | migne | no period on plate |
+| p0066.39 | ὅρμησεν | ὥρμησεν | ocr | migne | plate ὅρμησεν |
+| p0067.25 | πορφύραν. | πορφύραν | ocr | migne | plate period |
+| p0067.35 | ἰσταμένου | ἱσταμένου | ocr | undecided | pass2: breathing unclear |
+| p0068.03 | μεγαλείου | ? | doubt | migne | Migne's note c |
+| p0068.17 | Τριχῖνας | Τριχίνας | ocr | migne | plate circumflex |
+| p0068.21 | Καύσονος | Καύσωνος | ocr | migne | plate Καύσονος |
+| p0066.41 | Τοῦτο πλειστάκις γεγονότος | Τούτου πλειστάκις γεγονότος | ocr | migne | plate Τοῦτο |
+| p0068.41 | τέκνον | τέκνα | ocr | migne | pass2: plate τέκνον |
+| p0069.04 | Σαββάτου | Σάββατον | ocr | migne | plate Σαββάτου |
+| p0066.54 | σταυ. | σταυ- | ocr | migne | plate period |
+| p0067.22 | ἔμπροσθεν τινὸς | ἔμπροσθέν τινος | ocr | migne | plate as printed |
+| p0071.20 | ἔδακεν | ἔδωκεν | ocr | migne | plate ἔδακεν |
+| p0071.36 | φολερὰ( | φολλερὰ | ocr | migne | plate φολερὰ with note (f) |
+| p0071.39 | μοι. Πάτερ | μοι, Πάτερ | ocr | migne | plate period |
+| p0069.34 | ἐν τόπῳ. | ἐν τῷ τόπῳ τούτῳ | doubt | migne | plate as printed |
+| p0069.53 | οἱῳδήποτε | οἵῳδήποτε | ocr | migne | no acute on plate |
+| p0070.08 | τεσσάρων | ? | doubt | migne | plate as printed |
+| p0070.39 | ἔχωμεν | ἔχομεν | ocr | migne | plate ἔχωμεν |
+| p0070.47 | ἐπίουρεν | ἐπήγειρεν | ocr | migne | plate ἐπίουρεν |
+| p0070.47 | Ἀνέβαλε | Ἐνέβαλε | ocr | migne | plate Ἀνέβαλε |
+| p0074.01 | κου σούλλιον | ? | doubt | migne | plate κου-/σούλλιον |
+| p0074.15 | ἀσκητὰ́ς | ἀσκητὰς | ocr | migne | plate acute |
+| p0075.12 | ποθεν | πόθεν | ocr | migne | no accent on plate |
+| p0076.09 | τὸ ἀπὸ μέρος | τὸ ἄλλο μέρος | doubt | migne | plate as printed |
+| p0073.19 | παλαῖσαι; εἴσελθε | ? | doubt | migne | plate as printed |
+| p0073.21 | εἰσῆλθεν | εἰσῆλθον | ocr | migne | plate εἰσῆλθεν |
+| p0073.34 | εἴπει | ? | doubt | migne | plate εἴπει note-call 30 |
+| p0077.31 | σακκομάχην | σακκομάχιον | ocr | migne | plate σακκομάχην |
+| p0077.31 | μαλάκια | ? | doubt | migne | pass2: plate as printed |
+| p0077.38 | ἕβδομον | ἑπτάκις | doubt | migne | plate as printed |
+| p0077.40 | ὃ ἐφόρει | καὶ ἐφόρει | doubt | migne | pass2: plate as printed |
+| p0076.26 | ἀπόφατιν | ἀπόφασιν | ocr | migne | plate ἀπόφατιν |
+| p0077.48 | ἀγαπᾷν | ἀγαπᾶν | ocr | migne | plate ἀγαπᾷν |
+| p0078.27 | κρατῆται | κρατεῖται | ocr | migne | plate κρατῆται |
+| p0076.30 | ὑπάψων | ὑπάγων | ocr | migne | pass2: plate ὑπάψων |
+| p0076.32 | σοι | σύ | ocr | migne | plate σοι |
+| p0077.07 | μόνος | μόνον | ocr | migne | plate μόνος |
+| p0081.10 | υτενάξας | στενάξας | ocr | migne | σ broken on plate (reads υ) |
+| p0081.46 | Ἄρα | Ἆρα | ocr | migne | pass2: plate Ἄρα (breathing+acute) |
+| p0081.48 | Ἄρα | Ἆρα | ocr | migne | pass2: same |
+| p0081.50 | Ἄρα | Ἆρα | ocr | migne | pass2: plate Ἄρα |
+| p0081.52 | Ἆ́ρα | Ἆρα | ocr | migne | pass2: plate Ἄρα |
+| p0082.10 | γενήσεται | γενήσεται. | ocr | migne | pass2: no period on plate |
+| p0079.21 | ἔμειναν | ἔμεινα | ocr | migne | plate ἔμειναν |
+| p0079.54 | ἐξικακήσατε | (uncertain; sense "wait") | doubt | migne | plate as printed |
+| p0082.14 | ἐξομνύμε- / νον | ἐξομνύμενος | print | migne | confirmed |
+| p0083.40 | Οὐκ ἔτι | Οὐκ ἔστι | ocr | migne | plate ἔτι |
+| p0084.13 | σκόπελον | Σκόπελον | ocr | migne | lowercase on plate |
+| p0084.25 | Οἷος | (Ὅστις / Ὅσος?) | doubt | migne | plate as printed |
+| p0085.12 | ἀνήλυθεν | ἀνῆλθεν | ocr | migne | plate ἀνήλυθεν |
+| p0085.30 | φαλερῶν | φολλερῶν | ocr | migne | plate φαλερῶν |
+| p0085.36 | παράσχης | παράσχῃς | ocr | migne | no subscript on plate |
+| p0085.48 | οὗτος | ὅλος | ocr | migne | plate οὗτος |
+| p0082.24 | δουλευθεὶς | (δουλεύσεις?) | doubt | migne | plate as printed |
+| p0082.43 | τὶ | τι | ocr | migne | plate grave |
+| p0083.17 | οὐχ οἱ δύο, οἱ τρεῖς | (word lost?) | doubt | migne | plate as printed |
+| p0087.02 | μεγαλεῖον | ? | doubt | migne | plate as printed |
+| p0087.19 | ἑβρασεν | (ἀν)έβρασεν | ocr | migne | plate ἐβρασεν |
+| p0088.04 | ὄρους Σινᾶ | Ῥόσου? | doubt | migne | plate ὄρους Σινᾶ |
+| p0088.07 | Σκόπελον. Καὶ | (line lost?) | doubt | migne | plate as printed |
+| p0088.14 | γεωργʹ̀ς | γεωργὸς | ocr | migne | broken ο on plate |
+| p0088.15 | ὑέδειξεν | ὑπέδειξεν | ocr | migne | broken π on plate |
+| p0088.18 | Υ̓̔́ρυξον | Ὄρυξον | ocr | migne | plate Ὕρυξον |
+| p0086.46 | Πάλιν.. νυκτὶ | Πάλιν [τῇ ἑξῆς?] νυκτὶ | doubt | migne | Migne prints the ellipsis |
+| p0086.46 | φῶτα... οὖν | φῶτα. [Ἐθεωροῦμεν?] οὖν | doubt | migne | same |
+| p0086.47 | τὸ πῦρ... | (verb lost) | doubt | migne | same |
+| p0086.47 | τινας... | τινας [ἐκ τοῦ κτήματος?] | doubt | migne | same |
+| p0089.14 | Κοπρουθᾶʃ. | Κοπρουθᾶ. | ocr | undecided | pass2: wrong line matched |
+| p0089.40 | Κηρυκοῦ | Κηρύκου | ocr | migne | plate Κηρυκοῦ |
+| p0089.41 | Φασιλαῖδι | Φασιλαΐδι | ocr | migne | pass2: plate Φασιλαΐδι with circumflex |
+| p0088.35 | ἐργαλία | ἐργαλεῖα | ocr | migne | plate ἐργαλία note-call 38 |
+| p0088.46 | νεώτερ ϛτ | νεώτερος | ocr | migne | broken ο on plate |
+| p0089.01 | ωσι | νῶσι (καταπονῶσι) | ocr | undecided | pass2: damaged on plate |
+| p0089.01 | καύσονα | καύσωνα | ocr | migne | plate καύσονα |
+| p0089.05 | παρακάλει | παρεκάλει | ocr | migne | plate παρακαλει |
+| p0091.36 | μίλλια | μίλια | ocr | migne | plate μίλλια |
+| p0092.01 | χωρῆσαι | χωρίσαι | ocr | migne | plate χωρῆσαι |
+| p0092.04 | προσκομίσει | προσκομίσῃ | ocr | migne | plate προσκομίσει note (s) |
+| p0092.05 | οὗτὸς | οὗτος | ocr | migne | pass2: plate οὗτὸς |
+| p0094.02 | Ὡ | Ὡς | ocr | undecided | pass2: wrong line matched |
+| p0091.17 | Η͂ν | Ἦν | ocr | migne | no breathing on plate |
+| p0096.48 | αὐτους | αὐτοὺς | ocr | migne | no accent on plate |
+| p0096.49 | εις | εἰς | ocr | migne | no breathing on plate |
+| p0097.08 | τοποποιῆσαι | τοποτηρῆσαι | ocr | migne | plate τοποποιῆσαι |
+| p0097.16 | μεταλάβης | μεταλάβῃς | subscript | migne | no subscript on plate |
+| p0096.03 | βαθμοι | βαθμοὶ | ocr | migne | no accent on plate |
+| p0099.33 | κεκτημένω | κεκτημένῳ | subscript | migne | no subscript on plate |
+| p0099.35 | Σαβιῶν | Σαμίων | ocr | migne | plate Σαβιῶν |
+| p0100.05 | ἔνθα παρακέκληται | (subject + verb wanting; ? κατακέκλειστο) | doubt | migne | plate as printed |
+| p0100.30 | ἀδίκως | ? | doubt | migne | plate as printed |
+| p0100.47 | καί..... | καὶ [word lost] | doubt | migne | pass2: Migne prints the ellipsis |
+| p0100.49 | ἐχάμωσεν | ἐκήμωσεν | ocr | migne | plate ἐχάμωσεν |
+| p0100.52 | τὴν γλῶσσαν | τὴν γῆν | print | migne | confirmed |
+| p0101.06 | Εἶπον | Εἰπὸν | ocr | migne | plate Εἶπον |
+| p0098.39 | λέοντι, Καὶ | λέοντι. Καὶ | ocr | migne | plate comma |
+| p0103.12 | ρῷ | ρῳ | ocr | migne | plate ρῷ |
+| p0102.34 | λέγων | Λέων | ocr | migne | plate λέγων |
+| p0102.41 | Ὥασιν | Ὤασιν | ocr | undecided | pass2: breathing unclear |
+| p0102.44 | τῇ Με- | τῆς Με- | ocr | migne | pass2: plate τῇ Με- |
+| p0107.10 | σὺ τῶν ἔνθεν | ? (ἐντεῦθεν) | doubt | migne | plate as printed |
+| p0107.15 | ἐάσης | ἐάσῃς | ocr | migne | no subscript on plate |
+| p0107.22 | θάψης | θάψῃς | ocr | migne | pass2: no subscript on plate |
+| p0107.50 | Ἰωάννῃ | Ἰωάννη | ocr | migne | plate Ἰωάννῃ |
+| p0108.06 | μετ | μετ᾿ | ocr | migne | pass2: no elision mark on plate |
+| p0105.06 | ἔλαβον | ἔλαβον. | ocr | migne | pass2: no period on plate |
+| p0106.01 | Ραϊθοῦ | Ῥαϊθοῦ | ocr | migne | no breathing on plate |
+| p0108.09 | ἀββᾶς Ἀλεξανδρείας | πάπας Ἀλεξανδρείας? | doubt | migne | plate ἀββᾶς note-call 51 |
+| p0109.44 | ἀνέπαυον | ἀνεπαύσαντο? | doubt | migne | pass2: plate ἀνέπαυον |
+| p0109.47 | λέγων | λέγουσα | print | migne | plate λέγων note-call 56 |
+| p0110.02 | νουμίων | νουμμίων | ocr | migne | plate νουμίων |
+| p0110.24 | τὶ τοιοῦτον | τι τοιοῦτον | ocr | migne | plate grave |
+| p0108.20 | μαργονίου | ? (bag) | doubt | migne | plate as printed |
+| p0109.08 | εὐχὰς ἡμῶν | εὐχὰς ὑμῶν | ocr | migne | pass2: plate ἡμῶν |
+| p0109.13 | ὁ δὲ εἶπεν | Ὁ δὲ εἶπεν | ocr | migne | lowercase on plate |
+| p0111.22 | ἐπισκόπου Πέτρου | ἐπισκόπου Πετρῶν | ocr | migne | pass2: plate Πέ-/τρου |
+| p0112.28 | ὄφειλον | ὤφειλον | ocr | migne | plate ὄφειλον |
+| p0112.38 | Καισαρείας.. | Καισαρείας. | ocr | migne | Migne prints the ellipsis |
+| p0112.44 | σίναι | σῖναι | ocr | migne | plate σίναι |
+| p0111.23 | χώρᾳ σου | χώρᾳ μου | ocr | migne | plate σου |
+| p0113.32 | Οὕπως | Οὔ? | doubt | migne | plate as printed |
+| p0113.33 | σακκομάχην | σακκομάχιον | ocr | migne | plate σακκομάχην |
+| p0113.38 | φόλεις πέντε | φόλεις πέντε | doubt | migne | plate as printed |
+| p0112.07 | Ὅ τι ἆρά | Τί ἆρά? | doubt | migne | pass2: plate Ὅ τι ἆρά |
+| p0114.20 | Ἑβραῗστί | Ἑβραϊστί | ocr | migne | pass2: plate Ἑβραῗ-/στί |
+| p0115.07 | ὅτε Οὗτος | ὅτι Οὗτος | ocr | migne | plate ὅτε note-call 57 |
+| p0116.17 | κατόρθωσεν | κατώρθωσεν | ocr | migne | plate κατόρθωσεν |
+| p0116.24 | κάθη | κάθῃ | ocr | migne | pass2: no subscript on plate |
+| p0116.25 | κνίφας͂ς | σκνίφας | ocr | migne | plate κνίφας |
+| p0116.39 | Θηβαῗδα | Θηβαΐδα | ocr | migne | pass2: plate Θηβαῗδα |
+| p0114.24 | ὑπάγουσιν; | ὑπάγουσιν [εἰς κόλασιν]; | doubt | migne | pass2: plate as printed |
+| p0114.43 | γέροντα- | γέροντα, | ocr | migne | pass2: no comma on plate |
+| p0114.49 | ἐρώτησα | ἠρώτησα | ocr | migne | pass2: plate ἐρώτησα |
+| p0114.50 | εἶπέν οι | εἶπέν μοι | ocr | migne | μ missing on plate |
+| p0116.42 | ἐρήμου πόλεως | Ἑρμοῦ πόλεως | ocr | migne | plate ἐρήμου |
+| p0117.38 | Δαυῗδ | Δαυΐδ | ocr | migne | pass2: plate Δαυῒδ |
+| p0117.51 | αἱρετήσωμεν | αἱρετίσωμεν | ocr | migne | plate αἱρετήσωμεν |
+| p0117.55 | ἀσθενεῖς | ἀσελγεῖς | ocr | migne | plate ἀσθενεῖς |
+| p0118.33 | ναῷ | ἐννάτῳ | ocr | migne | plate ναῷ |
+| p0118.35–36 | Κωνσταντι- / Καὶ | Κωνσταντι-[νουπόλεως …] / Καὶ | doubt | migne | plate as printed |
+| p0119.02 | Πατρικῶς | πατρικῶς | ocr | migne | capital on plate |
+| p0119.08 | διόρβωσαι | διόρθωσαι | ocr | migne | plate διόρβωσαι |
+| p0117.15 | καὶ τὸν κατοικοῦντα | κατὰ (μὰ?) τὸν κατοικοῦντα | doubt | migne | plate as printed |
+| p0117.27 | ἐνεπέστη | ἐπέστη | ocr | migne | plate ἐνεπέστη |
+| p0117.27 | Δαυῖδ | Δαυΐδ | ocr | migne | pass2: plate Δαυῒδ |
+| p0117.28 | Δαυῒδ | Δαυΐδ | ocr | migne | pass2: plate Δαυῒδ |
+| p0119.16 | εύρέθη | εὑρέθη | ocr | undecided | pass2: wrong line |
+| p0120.22 | Ὁ τι | Ὅ τι | ocr | migne | pass2: plate Ὁ (note-call 90) τι |
+| p0121.03 | ἔνθεν | ἔνθεον | ocr | migne | plate ἔνθεν |
+| p0122.04 | εἶπεν | διηπόρει (?) | doubt | migne | plate as printed |
+| p0122.08 | προσκομίσαι | προσκομίσῃ (?) | doubt | migne | plate as printed |
+| p0120.05 | προθυμὶσς | προθυμίας | ocr | migne | damaged α on plate |
+| p0120.13 | ἀνδρί... | ἀνδρὶ [ἁγίῳ?] | doubt | migne | plate ellipsis |
+| p0123.08 | ἢλ ην | ἤμην | ocr | migne | damaged μ on plate |
+| p0123.30 | οὐ πολέμησαι | οὐ πολεμηθήσῃ (?) | doubt | migne | pass2: plate as printed |
+| p0124.12 | ἀποῤῥίψης | ἀποῤῥίψῃς | ocr | migne | no subscript on plate |
+| p0124.13 | αἰσχύνην | ἰσχύν | ocr | migne | plate αἰσχύνην note (i) |
+| p0122.40 | νοῆσαί | ποιῆσαί | ocr | migne | plate νοῆσαί |
+| p0123.03–04 | κουσσοὺτ / λιν | κουκούλ- / λιν (?) | ocr | undecided | pass2: next line not in view |
+| p0125.31 | ἧς | ἦς | ocr | migne | pass2: plate ἧς |
+| p0126.34 | προσαγάγης | προσαγάγῃς | ocr | migne | no subscript on plate |
+| p0126.48 | φιλολόγοι | φιλόλογοι | ocr | migne | plate φιλολόγοι |
+| p0127.31 | Μάρες | Μάρδες | ocr | migne | plate Μάρες |
+| p0128.03 | ὀββᾶς | ἀββᾶς | ocr | migne | plate ὀββᾶς |
+| p0126.08 | ὑπομείνης | ὑπομείνῃς | ocr | migne | no subscript on plate |
+| p0126.20 | Ἀννωνὰ | Ἀρνωνᾶ | ocr | migne | plate Ἀννωνὰ |
+| p0126.29 | λογαρὴν | λογάριν | ocr | migne | plate λογαρὴν |
+| p0126.30 | ὑπάγων ἑπέτω | ὑπάγω ἐγὼ (?) | doubt | migne | plate as printed |
+| p0129.03 | ζημιοῖ | ζημιοῖς | ocr | migne | plate ζημιοῖ no ς |
+| p0130.18 | ληστοῦ | λῃστοῦ | ocr | migne | plate ληστοῦ (valid spelling) |
+| p0130.30 | μεν | μὲν | ocr | migne | no accent on plate |
+| p0131.09 | ἀντιφαντιασταί | ? | doubt | migne | plate as printed |
+| p0131.21 | ὡς ἐπὶ μοὶ | ὡς ἔνι μοι | ocr | migne | plate ἐπὶ |
+| p0131.36 | μᾇ | μιᾷ | ocr | migne | broken ι on plate |
+| p0129.03–04 | ποιή- / σης | ποιή- / σῃς | ocr | migne | pass2: no subscript on plate |
+| p0131.41 | πρωῒ γέρων | πρωῒ ὁ γέρων | ocr | migne | no ὁ on plate |
+| p0131.44 | τέκνον; | τέκνον, | ocr | migne | plate question mark |
+| p0129.12 | μάττιν | ? | doubt | migne | plate as printed |
+| p0129.30 | Πάτερες | Πατέρες | ocr | migne | plate Πάτερες |
+| p0132.24 | στεφανοῦνται! | στεφανοῦνται; | ocr | migne | plate exclamation |
+| p0132.31 | αὐτοῦ. | αὐτοῦ· | ocr | migne | plate period |
+| p0132.34 | εὐ-ρίσκηται | εὑ-ρίσκηται | ocr | migne | pass2: smooth breathing on plate |
+| p0132.43 | Ἱεροσολύμων., | Ἱεροσολύμων [line lost] | doubt | migne | Migne prints the ellipsis |
+| p0133.08 | τερὶ | περὶ | ocr | migne | broken π on plate |
+| p0133.16 | κρατήσαμεν | ἐκρατήσαμεν | ocr | migne | pass2: plate κρατήσαμεν |
+| p0133.28 | φιλοσόφος | φιλόσοφος | ocr | migne | plate φιλοσόφος |
+| p0133.40 | τὰ καλιγραφία(. | τὴν καλλιγραφίαν. | ocr | migne | plate τὰ καλιγραφ- |
+| p0133.42 | Παλα-δίου | Παλλα-δίου | ocr | migne | pass2: plate Παλα-/δίου |
+| p0135.21 | ὁμό-σαι | ὀμό-σαι | ocr | migne | pass2: plate ὁμό- |
+| p0136.11 | ἐφήπλω-σεν | ἐφήπλω-σαν | ocr | migne | pass2: plate ἐφήπλω-/σεν |
+| p0136.14 | συνηκουλούθει | συνηκολούθει | ocr | migne | plate συνηκουλούθει |
+| p0137.20 | Διονύσῳ | Διονυσίῳ | ocr | migne | plate Διονύσῳ |
+| p0138.27 | Γεώργιος | ? | doubt | migne | plate Γεώργιος |
+| p0138.29 | πονικὸς | ? | doubt | migne | plate πονικὸς |
+| p0134.09 | ἀσυναλά-λητος | ἀσυνάλλακτος? | doubt | migne | pass2: plate ἀσυναλά-/λητος |
+| p0134.11 | παραθυμίαν | παραμυθίαν | ocr | migne | plate παραθυμίαν |
+| p0134.18 | ἀταπείνωτος | ? | doubt | migne | plate as printed |
+| p0134.23 | πολλῇ | ? | doubt | migne | plate as printed |
+| p0140.20 | ἀπίη | ἀπῄει | ocr | migne | plate ἀπίη |
+| p0140.24 | Σαφᾶς | Σαραφᾶς | ocr | migne | plate Σαφᾶς |
+| p0140.30 | πολλῶν ἡμερῶν / καὶ σβεννυμένην | [line lost] | doubt | migne | plate as printed |
+| p0140.39 | εἴμσεν | εἴασεν | ocr | undecided | pass2: wrong line |
+| p0141.26 | ἐπονο-μάζομενον | ἐπονο-μαζόμενον | ocr | migne | plate μάζομενον |
+| p0139.14 | θεωρήσασα τῆς | ? | doubt | migne | pass2: plate as printed (note-call 69) |
+| p0139.35 | τι τινι | τί τινι | ocr | migne | plate τι (q) τινι |
+| p0141.41 | ἧς | ἦς | ocr | migne | pass2: plate ἧς |
+| p0142.47 | λογάρην | λογάριν | ocr | migne | plate λογάρην |
+| p0143.05 | ὠφέλησας | ? | doubt | migne | plate as printed |
+| p0143.10 | καὶ παρεῖχεν αὐτῷ / φαγεῖν καὶ πιεῖν | (dittography?) | doubt | migne | pass2: plate as printed |
+| p0143.25 | εὐκρὰς | εὔκρατον? | doubt | migne | plate as printed |
+| p0143.26 | σερῆς | σέρεις | ocr | migne | plate σερῆς |
+| p0143.26 | τρόζημα | τρώξιμα | ocr | migne | plate τρόζημα |
+| p0143.32 | εὔκρατος | εὐκράτου | ocr | migne | plate εὔκρατος |
+| p0143.34 | ἵνα τί | ἵνα, εἴ τι | ocr | migne | plate ἵνα τί |
+| p0143.34 | δύνα- | δυνα- | ocr | migne | plate δύνα- |
+| p0143.45 | εὗρον | εὗρεν | ocr | migne | plate εὗρον |
+| p0142.36 | γέρων ἄλλο | γέρων; ἄλλο | ocr | migne | no point on plate |
+| p0143.45 | περὶ ἃ … ἐγκρατευόμενοι ἄσκησιν | ? | doubt | migne | plate as printed |
+| p0145.53 | δεῖπνον; | δεῖπνον· | ocr | migne | plate question mark |
+| p0143.56 | ὁ θεοφιλὴς | ἡ θεοφιλὴς | ocr | migne | pass2: plate ὁ θεοφιλὴς |
+| p0146.07 | ἀτιμίας | ἀπορίας | ocr | migne | plate ἀτιμίας |
+| p0146.08 | τί ἄλλο ἐστὶ χρέος | ? | doubt | migne | plate as printed |
+| p0146.18 | Ἡμερούσιον | ? | doubt | migne | pass2: plate Ἡμε-/ρούσιον |
+| p0144.11 | ἀπόλλοις | ἀπολεῖς? | ocr | migne | plate ἀπόλλοις |
+| p0144.20 | παράσχης | παράσχῃς | ocr | migne | pass2: no subscript on plate |
+| p0144.33 | ὡς ἐνόμιζεν … εἰ μὴ μόνον | ? | doubt | migne | plate as printed |
+| p0144.38 | συν-αδελφοῖς | ? | doubt | migne | pass2: plate as printed |
+| p0146.23 | ἓν τὸ | ἐστιν ὃ | ocr | migne | plate ἓν τὸ |
+| p0147.39 | ἐλευθε-/ρίαν | ἐλευθέραν | ocr | migne | pass2: plate ἐλευθε-/ρίαν |
+| p0147.53 | διέβαλεν | διεβεβαίου | ocr | migne | plate διέβαλεν |
+| p0148.16 | ὡς ἐντολὴν ἐλάμβανεν | ? | doubt | migne | plate as printed |
+| p0148.28 | ὠραιοτάτη | ὡραιοτάτη | ocr | migne | pass2: plate ὠραιοτάτη |
+| p0149.02 | ὠρύξαντες | ὀρύξαντες | ocr | migne | plate ὠρύξαντες |
+| p0146.24 | μοῦ | μου | ocr | migne | plate μοῦ |
+| p0146.33 | εἶδεν μετὰ | εἶδέν με μετὰ | ocr | migne | plate εἶδεν μετὰ |
+| p0146.34 | τῷ ἄρτι | τὸ ἄρτι | ocr | migne | plate τῷ ἄρτι |
+| p0146.44 | ᾕρησάμην | ἐῤῥυσάμην | ocr | migne | plate damaged ἠ?ρησάμην |
+| p0149.11 | ἡλήθευσεν | ἠλήθευσεν | ocr | migne | pass2: plate ἡλήθευσεν |
+| p0150.29 | ἧς | ἦς | ocr | migne | pass2: plate ἧς |
+| p0150.40 | τῶν αὐτῶν | αὐτῷ? | ocr | migne | plate τῶν αὐ- |
+| p0150.48 | παρέχων | ὑπάρχων | ocr | migne | plate παρέχων |
+| p0151.24 | αἴρε μοι αὐτὸ τὸ πρόσωπον | ? | doubt | migne | plate as printed |
+| p0151.25 | κελευθὲν | κελευσθὲν | ocr | migne | plate κελευθὲν |
+| p0149.22 | ζημαρχὸν | Ζήμαρχον | ocr | migne | pass2: plate ζημαρ-/χὸν (lowercase) |
+| p0151.42 | σοὶ | σοι | ocr | migne | plate σοὶ |
+| p0151.57 | ἀπετίθη | ἀπαιτηθῇ | ocr | migne | plate ἀπετίθη |
+| p0151.59 | πεντηκόντα | πεντήκοντα | ocr | migne | plate πεντηκόντα |
+| p0152.05 | ἧς | ἦς | ocr | migne | pass2: plate ἧς |
+| p0149.47 | Ἔλεγεν | Ἔλεγον | ocr | migne | plate Ἔλεγεν |
+| p0149.50 | ... | (words lost) | doubt | migne | Migne prints the ellipsis |
+| p0149.51 | οὔτε ὀμόσαι οὔτε | οὔτε ὀμόσαι [τινὰ ἠνάγκασεν] οὔτε | doubt | migne | plate as printed |
+| p0150.26 | ἐπιστολην | ἐπιστολὴν | ocr | migne | no accent on plate |
+| p0150.27 | τοιαύτη | τῇ αὐτῇ | ocr | migne | plate τοιαύτῃ |
+| p0152.21 | πλήρεις | πλῆρες? | ocr | migne | plate πλήρεις |
+| p0153.11 | πά- / α Ἀλεξανδρείας | πάπα Εὐλογίου Ἀλεξανδρείας … [ἐπίσκοπος μέλλων γίνεσθαι] | doubt | migne | plate πά- |
+| p0153.22 | διὰ ἣν | διὰ [τὴν ἀγάπην] ἣν | doubt | migne | plate as printed |
+| p0153.51 | χρυσίων | χρυσίου | ocr | migne | plate χρυσίων |
+| p0153.51 | δηνάρια | κεντηνάρια | doubt | migne | plate δηνάρια |
+| p0154.27 | ἀπίη | ἀπῄει | ocr | migne | plate ἀπίη |
+| p0152.22 | παρακαλῶ. κύριέ | παρακαλῶ, κύριέ | ocr | migne | plate period |
+| p0154.40 | θαυμασίαν | θαυμάσια | ocr | migne | plate θαυμασίαν |
+| p0154.43 | τὸν ἔχον | τὸ ἔχον | ocr | migne | plate τὸν ἔχον |
+| p0152.49 | διαβόλου: | διαβόλου; | ocr | migne | plate colon |
+| p0153.01 | πεντήκοντα ἔτη | πεντήκοντα πέντε ἔτη? | doubt | migne | pass2: plate as printed |
+| p0156.23 | ἐκομίσατο, τῆς ἀρχαιολογίας | ἐκομίσατο, [ἀκόλουθον δοκεῖ] τῆς ἀρχαιολογίας | doubt | migne | plate as printed |
+| p0156.25 | ἀναγωγῆς | ἀγωγῆς | ocr | migne | plate ἀναγωγῆς |
+| p0157.29 | ἐπιδέξασθαι | ἐπιλέξασθαι | ocr | migne | plate ἐπιδέξασθαι |
+| p0157.40 | Ἠκούσατε | Ἤκουσα? | doubt | migne | plate as printed |
+| p0157.45 | πάντη | πάντῃ | ocr | migne | plate πάντη (valid) |
+| p0158.38 | μέλλῃ. καὶ | μέλλῃ, καὶ | ocr | migne | plate period |
+| p0158.43 | χρυσοῦν | χρυσόν | ocr | migne | plate χρυσοῦν |
+| p0155.43 | ἐρωτῶντες. | ἐρωτῶντες, | ocr | migne | plate period |
+| p0155.51 | τρόπον | τόπον | ocr | migne | plate τρόπον |
+| p0156.08 | κῦρος | κῦρις (or κύριος) | ocr | migne | plate κῦρος |
+| p0156.10 | θαῦμα· γέγονεν | θαῦμα γέγονεν | ocr | migne | plate has the point |
+| p0161.17 | ἐξαφίη | ἐξαφίει | ocr | migne | plate ἐξαφίη |
+| p0161.21 | Εἶ́ τι ἂν | Εἴ τι ἂν | ocr | migne | pass2: plate Εἶ τι |
+| p0159.02 | ἐκαίνωσας | ἐκοίνωσας | doubt | migne | plate ἐκαίνωσας |
+| p0161.42 | Χριστὸν ἔχης | Χριστὸν ἔχε (?) | doubt | migne | plate as printed |
+| p0159.17 | πατὴρ μου | πατήρ μου | ocr | migne | plate grave |
+| p0159.38 | αὐτῷ | αὐτῇ | ocr | migne | plate αὐτῷ |
+| p0163.25 | πραότητι, | πραότητι. | ocr | migne | plate comma |
+| p0163.30 | διακρίνουσα | ? | doubt | migne | plate as printed |
+| p0163.36 | Τὸ ὄντως σοι | ? | doubt | migne | plate as printed |
+| p0162.29 | Ὡδέ | Ὧδέ | ocr | migne | pass2: plate Ὦδέ with smooth+acute |
+| p0164.02 | Ἄρα | Ἆρα | ocr | migne | pass2: plate Ἄρα |
+| p0164.22 | καὶ (line end) θέντες | κατα-θέντες | ocr | undecided | pass2: wrong line |
+| p0162.34 | Τῷ ὄντως | Τὸ ὄντως | ocr | migne | plate Τῷ |
+| p0162.42 | σιανθεὶς( | σιχανθεὶς | ocr | migne | plate σιανθεὶς note (x) |
+| p0162.50 | νήψον | νῆψον | ocr | migne | plate νήψον |
+| p0166.48 | ἐν τῷ κρεμάμενον | ἐν τῷ κελλίῳ κρεμάμενον (?) | doubt | migne | plate note-call 78 stands where the word is wanting |
+| p0166.51 | [ἦλθεν.ἐντὸς ὶκελλίῳ. | ? | doubt | migne | plate as printed |
+| p0167.33 | Πρὸς γὰρ | ? | doubt | migne | plate as printed |
+| p0167.34 | εἴ τι ἄνωθεν | ἔτι ἄνωθεν | ocr | migne | pass2: plate εἴ τι |
+| p0165.13 | Διηγήσατο τίς | Διηγήσατό τις | ocr | migne | no throwback on plate |
+| p0166.07 | ὁ γαστὴρ | ἡ γαστὴρ | ocr | migne | pass2: plate ὁ γαστὴρ |
+| p0166.21 | Ἦν δὲ λαβὼν … καὶ ποιήσῃ | ? | doubt | migne | plate as printed |
+| p0169.28 | διδάσκαλον | διάκονον | ocr | migne | pass2: plate διδάσκαλον with note-call 85 |
+| p0170.02 | τὰ[̔]ἐποίησας | ἃ ἐποίησας | ocr | migne | Migne prints τὰ [al. ἃ] |
