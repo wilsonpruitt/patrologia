@@ -149,3 +149,11 @@ agrees), **overlay these when placing**. Thumbnails of p-0113/114/117/135/136/13
 citations, not apparatus: NOT recorded; decide at placement. ⚑ Brief 5 and 4 saw degraded image reads early; spot-checked.
 ⬜ Not yet done: `place.py` (Moschus version of the Dorotheus script: Greek numbered → `[n:]` in the Greek, lettered →
 Latin/English, NOTÆ → cruces), then (6) Latin twin + `kt-to-site.py` generalised + build + polarity read + ship (each a Wilson go).
+
+## ✅ Placement script built 2026-11-04: `notes/place.py` → `notes/APPARATUS.json`
+Same shape as Dorotheus's (`greek[cids]` = [page, word, text]; + `greekLines` sidecar of anchor lines; `unplaced[]` with
+`chunks`). `verify-54-58.jsonl` REPLACES result-1's rows for pp. 54–58. 339 notes after 2 exact duplicates dropped: **188
+numbered Greek notes to place** (181 anchor words confirmed on the page in `checked/`; 7 not found, orthography —
+p43 ἀπενέγκωμεν, p47 παλίον, p59 Χαλκηδόνι, p73 εἶπεν, p95 λέγοντες, p108 οἰκονομοῦντες, p169 τούτου — fall to the cruces list
+if kt-to-site's fuzzy match also misses) · **151 unplaced** (95 lettered scholia, 49 NOTÆ, 7 numbered) → cruces page. Pages
+39 and 171–173 are in no chunk (preface, NOTÆ, Sophronius): their notes are cruces-only.
