@@ -83,11 +83,11 @@ once as kind `heading`.
 
 ## Your English file, exactly this shape
 
-    title: Panegyric on the Emperor Anastasius, 1–8
+    title: Panegyric on the Emperor Anastasius, 1–7
     ---
     [2793] PANEGYRIC ON THE EMPEROR ANASTASIUS
 
-    1. Already, most mighty emperor, every city, proud in thee … [b: A] … [2795] …[^1]
+    1. [b: A] Already, most mighty emperor, every city, proud in thee … [b: A] … [2795] …[^1]
 
     2. For to thee fortune, …
     …
@@ -157,19 +157,19 @@ are least sure of, any glossary term you had to decide (Greek → English, one l
 
 ---
 
-# STYLE ANCHOR — Panegyric §§ 1–2 (p-0011:6 – p-0013:22), translated by the coordinator (Fable, 2026-11-05)
+# STYLE ANCHOR — Panegyric §§ 1–2 (p-0011:6 – p-0013:22), translated by the coordinator (Fable, 2026-11-05; column anchor corrected 2795→2796 and band letters added by the pr-001 translator — p-0012's GREEK column is 2796)
 
 **pr-001 carries this English verbatim** (notes and OCR rows included; renumber the notes if yours come first —
 they will not, these are the opening sections) and continues from section 3 at p0013.23. Every other chunk
 matches it.
 
-    title: Panegyric on the Emperor Anastasius, 1–8
+    title: Panegyric on the Emperor Anastasius, 1–7
     ---
     [2793] PANEGYRIC ON THE EMPEROR ANASTASIUS
 
-    1. Already, most mighty emperor, every city, proud in thee and glorying in thy trophies, and having learned
+    1. [b: A] Already, most mighty emperor, every city, proud in thee and glorying in thy trophies, and having learned
     by experience what happiness truly is, contriving by every means not to be seen lagging behind thy gifts,
-    [2795] is at a loss for a requital to contend with thy deeds;[^1] and hence admires its benefactor the more,
+    [2796] [b: A] is at a loss for a requital to contend with thy deeds;[^1] and hence admires its benefactor the more,
     since by the good he does he outstrips the requitals of those he has done good to. For this is an adornment
     that befits an emperor: to conquer, together with his enemies, his subjects too — the one by arms, the other
     by the abundance of the goods at his command, and both by his virtues. But our city, having received through
@@ -194,7 +194,7 @@ matches it.
     2. For to thee fortune, as though divining the future well, furnished everything that befits the rule of the
     Romans; and first, as was right, she bestows a native city that surpasses the happiness of the others. For
     Epidamnus the historians sing,[^3] and report cries out along with them: a city thrust out from the mainland
-    [2797] into the sea, as though inhabiting each of the two elements, and having the advantage in all that
+    [2797] [b: A] into the sea, as though inhabiting each of the two elements, and having the advantage in all that
     land and sea know how to bear; for there one may both live on an island, in part, and be mainlanders, and
     keep clear of what is troublesome in both, enjoying either one purely.[^4] For it lies out ahead as though
     holding out a hand to those coming from the open sea, and meeting them kindly; and a man sailing out over

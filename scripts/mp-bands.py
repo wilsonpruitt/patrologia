@@ -13,12 +13,14 @@ GREEK-BANDS-REVIEW.tsv (glued letters left alone because the evidence did not de
 import csv, json, os, re, statistics, sys, unicodedata as ud
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from mpcommon import K, T, line_ys
+import os
+PAGES = range(int(os.environ.get('MP_FIRST', 40)), int(os.environ.get('MP_LAST', 170)) + 1)   # MP_FIRST/MP_LAST override (Procopius 11–35)
 djvu = open('raw/scans/pg087c/copyA_087c_djvu.xml').read().split('<OBJECT ')
 regs = json.load(open(f'{K}/regions.json'))
 cmap = {p['pdfPage']: p for p in json.load(open('data/pg-column-maps/pg087c.json'))['pages']}
 def base(x): return ''.join(c for c in ud.normalize('NFD', x.lower()) if ud.category(c) in ('Ll', 'Lo'))
 freq = {}
-for n in range(40, 171):
+for n in PAGES:
     for l in open(f'{K}/checked/p-{n:04d}.txt').read().split('\n'):
         for w in l.split(): freq[base(w)] = freq.get(base(w), 0) + 1
 RANK = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
@@ -37,7 +39,7 @@ def gutter_letters(pdf):
     top = min(b[1] for b in mains)
     return out, top
 pages = {}
-for pdf in range(40, 171):
+for pdf in PAGES:
     seen, top = gutter_letters(pdf)
     pages[pdf] = (seen, top)
 ds = []
@@ -48,7 +50,7 @@ for pdf, (seen, top) in pages.items():
     if len(ks) >= 3 and (d[ks[-1]] - d[ks[0]]) / (ks[-1] - ks[0]) > 1200: ds.append((d[ks[-1]] - d[ks[0]]) / (ks[-1] - ks[0]))
 D0 = statistics.median(ds)
 bands, review, nfit = [], [], {'fit': 0, 'default': 0, 'none': 0}
-for pdf in range(40, 171):
+for pdf in PAGES:
     seen, top = pages[pdf]
     if top is None: nfit['none'] += 1; continue
     d = {}
@@ -72,7 +74,7 @@ for pdf in range(40, 171):
         bands.append([pdf, i + 1, 'ABCD'[k], how + ('' if k in d else '+inferred'), '', ''])
 # strip glued letters (on any line: the band may sit a line off)
 bl = {(b[0], b[1]): b for b in bands}
-for pdf in range(40, 171):
+for pdf in PAGES:
     side = cmap[pdf]['greekSide']; lines = open(f'{K}/checked/p-{pdf:04d}.txt').read().split('\n')
     for i, l in enumerate(lines):
         t = l.strip()

@@ -1,7 +1,9 @@
 """Shared helpers for the Moschus Greek scripts (mp-greek-breaks.py, mp-bands.py)."""
 import re, unicodedata as ud
 import xml.etree.ElementTree as ET
-K = 'raw/kraken/moschus-pratum'; T = 'translate/moschus-pratum'
+import os
+WORK = os.environ.get('MP_WORK', 'moschus-pratum')   # generalised 2026-11-05: MP_WORK=procopius-rhetorica
+K = f'raw/kraken/{WORK}'; T = f'translate/{WORK}'
 def key(s): return ''.join(c for c in ud.normalize('NFD', s.lower()) if ud.category(c) in ('Ll', 'Lo'))[:10]
 def line_ys(pdf):
     p = f'p-{pdf:04d}'

@@ -23,6 +23,8 @@ CONF = {
                                 xml='raw/scans/pg088/copyA_088_djvu.xml', prefix='dd'),
     'moschus-pratum': dict(key='moschus-pratum-spirituale', vol=87, cmap='data/pg-column-maps/pg087c.json',
                            xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='mp'),
+    'procopius-rhetorica': dict(key='procopius-gazaeus-rhetorica', vol=87, cmap='data/pg-column-maps/pg087c.json',
+                                xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='pr'),
 }
 work = sys.argv[1]; DRY = '--dry' in sys.argv
 C = CONF[work]; KEY = C['key']
@@ -65,7 +67,7 @@ def patched(pdf, i, line):
     return line
 
 # ---------- Moschus: chapter breaks, band letters, garbled head lines (scripts/mp-greek-breaks.py, mp-bands.py) ----------
-MP = work == 'moschus-pratum'
+MP = os.path.exists(f'{T}/verify/GREEK-BREAKS.tsv')   # Moschus, Procopius: any work with a breaks table (2026-11-05)
 MP_GARBLE = re.compile(r'[ΡρPp][ΥυYy][ΤτT]')
 MP_BREAK, MP_DROP, MP_BANDS = set(), set(), {}
 if MP:

@@ -80,7 +80,7 @@ def locate(p, ln, printed):
     return (x1 - 20, y1 - h // 3, x2 + 20, y2 + h // 3, None, y1, y2), 'line'
 
 rows = []
-for f in sorted(glob.glob(os.path.join(ROOT, 'translate', TDIR, 'mp-0*.en.md'))):
+for f in sorted(glob.glob(os.path.join(ROOT, 'translate', TDIR, '[a-z][a-z]-0*.en.md'))):
     chunk = os.path.basename(f)[:6]
     for l in open(f).read().split('\n## OCR', 1)[-1].split('\n'):
         if not l.startswith('| p'): continue

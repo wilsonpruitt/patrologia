@@ -1,0 +1,94 @@
+{
+  "workKey": "procopius-gazaeus-rhetorica",
+  "series": "pg",
+  "volume": 87,
+  "title": "Panegyricus in imperatorem Anastasium; Descriptio S. Sophiae; Monodia in S. Sophiam",
+  "titleEn": "Panegyric on the Emperor Anastasius, with the two pieces on Hagia Sophia",
+  "authors": [
+    "Procopius of Gaza"
+  ],
+  "citRange": "PG 87.3, 2793–2842 (Panegyric 2793–2825; Descriptio 2827–2837; Monodia 2839–2842)",
+  "chunkCount": 5,
+  "greekSource": "ours-kraken-ocr",
+  "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "pr-001",
+      "colFirst": "2793",
+      "colLast": "2804",
+      "words": 1429,
+      "pdfPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "0002.md",
+      "source": "pr-002",
+      "colFirst": "2805",
+      "colLast": "2813",
+      "words": 1531,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "chunk": 3,
+      "file": "0003.md",
+      "source": "pr-003",
+      "colFirst": "2816",
+      "colLast": "2825",
+      "words": 1835,
+      "pdfPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "chunk": 4,
+      "file": "0004.md",
+      "source": "pr-004",
+      "colFirst": "2829",
+      "colLast": "2837",
+      "words": 1773,
+      "pdfPages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "chunk": 5,
+      "file": "0005.md",
+      "source": "pr-005",
+      "colFirst": "2840",
+      "colLast": "2841",
+      "words": 817,
+      "pdfPages": [
+        34,
+        35
+      ]
+    }
+  ],
+  "colFirst": "2793",
+  "colLast": "2841",
+  "words": 7385
+}

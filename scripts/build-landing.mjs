@@ -19,6 +19,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
   // — 2026-11-04 session (DRAFT line, Wilson to review before any deploy): John Moschus's Spiritual Meadow, some 220 short chapters on the monks of Palestine and Egypt, from a Migne volume with no transcription; the Greek is our own Kraken reading, plate-checked, with Migne's own variant notes set into it.
+  // — 2026-11-05 session (DRAFT line, Wilson to review before any deploy): Procopius of Gaza's Panegyric on the emperor Anastasius, with the two pieces on Hagia Sophia Migne prints after it; the Greek is our own Kraken reading, plate-checked.
+  'pg/87/rhetorica',
   'pg/87/pratum-spirituale',                                     // John Moschus — The Spiritual Meadow (chapters I–CCXIX; the dedication to Sophronius)
   // — 2026-10-27 session: Dorotheus of Gaza's Instructions to his monks, the sixth-century Palestinian handbook of humility, from a Migne volume that had no transcription at all. The Greek is our own reading of the plates, checked line by line; the translators then flagged every place the sense would not stand, and each was looked up on the page: 199 are Migne's own misprints and are marked as printed, 8 were our slips and are corrected. Migne's foot notes, including his corrections to the Greek, were read off every page.
   'pg/88/doctrinae',                                             // Dorotheus of Gaza — The Spiritual Instructions (Doctrinae I–XXIII, with the prologue and the questions to his elders)
