@@ -24,7 +24,7 @@ Letter's argument is made of these words, and a synonym is an error.**
 | θέλησις | volition | the faculty as distinct from its object (Maximus will need the pair; keep them apart from the start); θέλειν = to will |
 | θεανδρικὴ ἐνέργεια | theandric operation | Dionysius's word, left Greek-English; T note once with the source (Ep. 4) |
 | ἰδιότης | property | the natural properties; ἰδίωμα = idiom (a single characteristic mark); never merge the two |
-| ἕνωσις | union | ἑνοῦν = unite; καθ᾿ ὑπόστασιν ἕνωσις = hypostatic union; συνάφεια = conjunction (Nestorius's word, pejorative here) |
+| ἕνωσις | union | ἑνοῦν = unite; καθ᾿ ὑπόστασιν ἕνωσις = hypostatic union; συνάφεια = conjunction (Nestorius's word, pejorative here); συζυγία = pairing (swept 2026-11-05: so-007/anchor had "conjunction", so-018 sets συζυγία "pairing" beside συνάφεια "conjunction" in one sentence); ταπείνωσις = humility as a virtue, "humbling" where it is the act against ὕψωσις or a figura etymologica (so-008, so-018), ταπεινότης = lowliness |
 | σύγχυσις / ἀσύγχυτος / ἀσυγχύτως | confusion / unconfused / without confusion | |
 | τροπή / ἄτρεπτος / ἀτρέπτως | change / unchangeable / without change | ἀναλλοίωτος = unalterable |
 | διαίρεσις / ἀδιαίρετος / ἀδιαιρέτως | division / undivided / without division | Chalcedon's four adverbs: without confusion, without change, without division, without separation |
@@ -42,7 +42,7 @@ Letter's argument is made of these words, and a synonym is an error.**
 | Θεομήτωρ | Mother of God | |
 | Παρθένος | Virgin | capital when it is Mary; ἀειπάρθενος = ever-virgin; παρθενία = virginity |
 | θεοδόχος | God-receiving | κυοφορία = child-bearing, κυοφορεῖν = bear in the womb |
-| Δεσπότης | Master | capital for Christ (ὁ Δεσπότης, Δέσποτα); lower-case "master" in the Letter's address to Sergius; δεσποτεία = lordship (the Trinity's) |
+| Δεσπότης | Master | capital for Christ (ὁ Δεσπότης, Δέσποτα); lower-case "master" in the Letter's address to Sergius; δεσποτεία = dominion (the Trinity's; swept 2026-11-05: so-002 lists it beside κυριότης = lordship, so the two stay apart) |
 | Κύριος | Lord | κυριότης = lordship |
 | Σωτήρ | Saviour | σωτηρία = salvation; σωτήριος = saving |
 | πάθος / παθήματα | passion / sufferings | Christ's πάθος = passion; πάθη of the soul = passions |

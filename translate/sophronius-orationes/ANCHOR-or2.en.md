@@ -37,7 +37,7 @@ the triple comparatives and the technical doublets cost English words; budget by
     paradoxical and astounding: because neither, on account of the One, which the nature is, is it poured
     together and driven to one and only hypostasis; nor, on account of the Three, which are enhypostatic
     persons, is it cut asunder in alien and total fashion; but it is unbroken and impartible, refusing every
-    partition and every conjunction.
+    partition and every pairing.
 
     ## Notes
     [^1]: T. The printed heading: Τοῦ ἐν ἁγίοις πατριάρχου Ἱεροσολύμων Σωφρονίου λόγος εἰς τὸν Εὐαγγελισμὸν τῆς

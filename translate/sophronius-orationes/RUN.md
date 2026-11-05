@@ -96,6 +96,21 @@ far: p0214 lacuna (Migne's dots), p0197.31 + p0199.23 (Migne's text, note calls 
 division (Greek). NEXT = step 2 sweep, then step 3 image check of every row (Moschus method: `kt-sheet.py` →
 read sheets → `kt-verdict.py` → `kt-apply.py`; ≈800 rows, a fresh session's work).
 
+## ✅ Step 2 DONE 2026-11-05: sweep (coordinator, no agents)
+- **δεσποτεία = dominion** (so-005 "lordship" → "dominion"; so-002 lists it beside κυριότης = lordship, which is "lordship" in all 4 chunks). Glossary fixed.
+- **συζυγία = pairing** (so-007 + `ANCHOR-or2` "every conjunction" → "every pairing": the generation refuses sexual coupling, and
+  "conjunction" is συνάφεια, Nestorius's word; so-018 already sets συζυγία "pairing" beside συνάφεια "conjunction"). All other
+  "conjunction"s checked = συνάφεια.
+- ταπείνωσις: "humility" (virtue, so-006) vs "humbling" (the act against ὕψωσις, so-018; figura etymologica, so-008): sense-split, kept;
+  ταπεινότης = lowliness throughout. ἀγάπησις: "love" in the Letter (×2), "loving" in so-018 (×8, beside ἀγάπη "love"): not a
+  technical term, kept, logged in the glossary.
+- Θεοτόκος/Θεομήτωρ: every Greek form checked against the English, 001–018; all clean (the surplus = chunk titles; Μήτηρ ἔσῃ Θεοῦ
+  p0239.18 = Mother of God). Duplicate Theotokos T note dropped from so-004 (Letter already has it at so-002 [^7]); so-004 notes
+  renumbered 1–12, markers verified. Per-oration first-use notes (so-007, so-019, so-020) kept: each oration reads alone.
+- Section numbers continuous: Or. II 1–50, Or. VII 1–20, Or. VIII 1–6, Or. III 1–23 under 5 chapters. ⚑ Greek marks **ιαʹ (11) and ιηʹ (18)
+  are missing from the Or. VII scaffold** (the English supplies them by sequence): image-check, add to the doubt list.
+- Seams: 17 boundaries read, continuous; chunk ranges contiguous in CHUNKS.tsv. No doubling.
+
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·
    F 016–018), three at a time (rule 5), from `kt-scaffold.py sophronius-orationes brief …`.
