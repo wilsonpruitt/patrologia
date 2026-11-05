@@ -234,14 +234,17 @@ if __name__ == '__main__':
                 ln_ = (APP.get('greekLines', {}).get(f'{page}|{word}|{txt.strip()}') or {}).get('line')
                 if ln_:                                                  # Moschus: begin the search at the note's own line
                     ltok = nfc(open(f'{K}/checked/p-{page:04d}.txt').read().split('\n')[ln_ - 1]).split()[1:4]
-                    k_ = gm.find(' '.join(ltok), start) if ltok else -1
-                    if k_ >= 0: start = k_
+                    m_ = re.compile(r'(?:\s|\0)+'.join(re.escape(t_) for t_ in ltok)).search(gm, start) if ltok else None   # earlier notes sit between the line's words as \0 runs
+                    if m_: start = m_.start()
                 nth = {(940, 'ἑπτὰ'): 3}.get((page, word), 1)   # blind read R5: Migne's mark is on the THIRD ἑπτὰ of the page (Αἱ γὰρ ἑπτὰ, p0940.37)
                 for _ in range(nth - 1):
                     k = gm.find(word, start)
                     if k >= 0: start = k + len(word)
                 hit = find_word(gm, word, start)
                 if hit is None: continue
+                if MP:                                                   # a note belongs to ITS page's column: never look past the next column anchor
+                    nx = re.search(r'\[\d{4}\]', gm[start + len(anc):])
+                    if nx and hit > start + len(anc) + nx.start(): continue
                 g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word)); placed_all.add((page, word, txt.strip()))
         e, crux = english(cid, SICS.get(cid, {}), APP.get('english', {}).get(cid, {}))
         ctx = None
@@ -296,9 +299,9 @@ if __name__ == '__main__':
         if os.path.exists(vf):
             if MP: o.write('\n## Readings checked at the plate\n\nEvery reading the translators flagged was looked up on the page image '
                     '(2026-11-04). **migne** = the plate prints it (Migne\'s own text); the Greek stands as printed. '
-                    'Of the 1,018 flagged readings, 650 were slips in our own transcription and are corrected in the Greek without comment; '
-                    'this table lists the 368 where the plate agrees with the machine reading: 210 where Migne\'s type is itself wrong and the '
-                    'English follows the corrected reading, 144 where the translator suspected a misprint but the plate prints that very form '
+                    'Of the 1,018 flagged readings, 648 were slips in our own transcription and are corrected in the Greek without comment; '
+                    'this table lists the 368 where the plate agrees with the machine reading: 208 where Migne\'s type is itself wrong and the '
+                    'English follows the corrected reading, 146 where the translator suspected a misprint but the plate prints that very form '
                     '(Migne\'s own text, so not emended), and 14 not settled at the plate. No misprint is marked `[sic:]` in the English: '
                     'that mark claims a defect in Migne\'s page and waits on a full-page reading of each column.\n\n')
             else: o.write('\n## Readings checked at the plate\n\nEvery reading the translators flagged, looked up on the page image '

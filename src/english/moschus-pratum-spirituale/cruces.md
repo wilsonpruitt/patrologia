@@ -77,7 +77,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **2892B** · …from Jerusalem, he of the laura of Pharon, — P. Pharon (elsewhere Pharan), the laura of St Chariton in the Judaean desert.
 - **2893A** · …making three prostrations and saying a priest's prayer, — T. εὐχὴν πρεσβυτέρου, "a priest's prayer" (Basil is a priest); the Latin has him praying for the elder (*seni orationem facientem*). Rendered as printed.
 - **2893A** · …saying to the bishop: "Do not touch me; — S. Cf. John 20:17.
-- **2893A** · …And they said, "See, here are two swords." — S. Luke 22:36, 38, as printed.
+- **2893A** · …a sword"? And they said, "See, two swords." — S. Luke 22:36, 38, as printed.
 - **2893A** · …I was in the desert near the Calamon, — P. The Calamon and the laura of the Towers were lauras in the Jordan valley near Jericho.
 - **2896A** · …stillness, content with the blessing of the church — T. εὐλογία, "blessing": the gift of blessed bread given out by the church (Latin: *panis eleemosyna, quam ecclesia dabat*).
 - **2896A** · …In the same place we saw abba Auxanon — P. The Latin prints the name as *Anaxanon*.
@@ -199,7 +199,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **2957B** · …spirit according to God, he departed this life. — T. The subject is not named in the Greek; the Latin makes it the brother who had fallen.
 - **2957B** · …asleep, an elder from the laura of Calamon — P. The laura of Calamon, near the Jordan by Jericho.
 - **2957B** · …times there was here an elder named Ianthus, — P. Ἴανθος, Ianthus; the Latin calls him *Antonius* and adds his fasting. The Koutila is the desert region west of the Dead Sea.
-- **2957B** · …this elder Theodore, who became bishop of Rhosus, — P. Rhosus, on the gulf of Issus in Cilicia/Syria. The laura of the Towers = τῶν Πυργίων.
+- **2957B** · …this elder Theodore, who became bishop of Rhossus, — P. Rhossus, on the gulf of Issus in Cilicia/Syria. The laura of the Towers = τῶν Πυργίων.
 - **2960A** · …at the holy Anastasis of Christ our God, — P. The Anastasis: the church of the Resurrection at Jerusalem. Saint Menas: the shrine of Abu Mina, west of Alexandria.
 - **2960A** · …"There was here one by name abba Paul, — T. Παῦλος four times in the Greek; the Latin reads *Pardus* each time and adds that he had been a muleteer and that he went to Jericho. The English follows the Greek; checked on the plate either way.
 - **2960A** · …at this, withdrew and went off to Aronan; — P. Ἀρονάν as printed; the Latin has *in Arnonem* (the Arnon, in Moab).
@@ -236,7 +236,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **2973B** · …live, and declare the works of the Lord.' — S. Ps 117:17 LXX (118:17).
 - **2976** · …saying, 'Flee to the mountains like a sparrow.' — S. Ps 10:1 LXX (11:1).
 - **2976** · …Saviour, my helper; I shall not flee away.'" — S. Ps 61:3 LXX (62:2); the LXX ends οὐ μὴ σαλευθῶ, and Moschus has οὐ μὴ μεταναστεύσω, picking up the verse before.
-- **2976** · …saying, 'Art thou ours, or of the adversaries?'" — S. Josh 5:13 LXX.
+- **2976** · …say, 'Art thou ours, or of the adversaries?'" — S. Josh 5:13 LXX.
 - **2976** · …of Tiberius, the emperor and most faithful Caesar, — P. Tiberius II Constantine (Caesar 574, emperor 578–582).
 - **2976** · …we say to him, "Believe it, abba Leo: — T. Printed λέγων, "saying"; read Λέων, the vocative name, with the Latin *abba Leo*.
 - **2976** · …give up this thought. So when the Mazices — P. The Mazices: Berber raiders of the Egyptian western desert and the Oasis.
@@ -255,7 +255,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **2984A** · …Raithu the fathers received him with open arms, — T. ὑπτίαις χερσίν, literally "with upturned hands"; Latin supinis manibus.
 - **2984A** · …Saviour Jesus Christ, suddenly his eye came out. — T. As printed: ἐξῆλθεν ὁ ὀφθαλμὸς αὐτοῦ; the Latin agrees (exiit oculus ejus unus).
 - **2984A** · …The elder says to him a third time, — T. ἐκ τρίτου, "a third time", though only two exchanges are printed; the Latin has simply rursus.
-- **2984A** · …we found under a rock three anchorites, dead" — T. The Greek breaks off here, at τεθνηκότας, with no full stop. Migne prints the rest of the chapter (their clothing, the calmed sea, the burial at Raithu) in Latin only, then two whole chapters (121, Gregory of Byzantium and Gregory the Pharanite; 122, Stephen the Cappadocian and the two naked anchorites) in Latin only, with no Greek. Nothing is supplied here.
+- **2984A** · …a rock three anchorites, dead . . ." — T. The Greek breaks off here, at τεθνηκότας, with no full stop. Migne prints the rest of the chapter (their clothing, the calmed sea, the burial at Raithu) in Latin only, then two whole chapters (121, Gregory of Byzantium and Gregory the Pharanite; 122, Stephen the Cappadocian and the two naked anchorites) in Latin only, with no Greek. Nothing is supplied here.
 - **2985A** · …Mount Sinai and went off to the Ammoniake, — P. The Ammoniake: the district of Ammon, the Libyan desert west of the Nile.
 - **2985A** · …there an elder wearing a colobion of sibinon. — T. ἀπὸ σιβίνου κολόβιον; Latin colobium de sibino. Sibinon is a coarse cloth, apparently of palm fibre or hair.
 - **2985A** · …for, Zosimus? Go thou away from here ; — T. ὕπαγε σὺ τῶν ἔνθεν does not construe as printed; the sense "go hence" is clear and the Latin has just vade. See the OCR table.
@@ -280,7 +280,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **2996A** · …strive, and for those who do not strive?' — T. The Greek opens the thought with Ὅ τι, which does not construe as printed; the sense is clear from the Latin, Quid putas erit. See the OCR table.
 - **2996B** · …world.'" CHAPTER 131 Procopius the scholasticus, of Porphyreon, — P. Porphyreon: a coastal town between Tyre and Sidon. A scholasticus is a man trained in the law, an advocate.
 - **2996B** · …courtyard, and I tell him about my sons. — T. The Latin is fuller: "I came into the court of holy Mary the Mother of God, and found him standing in a corner of the court, and told him about my sons." The Greek as printed passes straight from the courtyard to the telling; the OCR line shows no break, so this is probably Migne's Greek.
-- **2996B** · …after two days the plague ceases from Caesarea.'" — T. The Latin goes on, "And it happened according to the elder's word," and then gives a whole chapter in Latin only (132: abba Cyprian, called Cuculas, and the voice that said "Abba Zacchaeus has received this grace"). Migne prints no Greek for it, so nothing is supplied here.
+- **2996B** · …the plague ceases from Caesarea . . .'" — T. The Latin goes on, "And it happened according to the elder's word," and then gives a whole chapter in Latin only (132: abba Cyprian, called Cuculas, and the voice that said "Abba Zacchaeus has received this grace"). Migne prints no Greek for it, so nothing is supplied here.
 - **2996B** · …Saracen, a pagan, told the townsmen at Clysma, — P. Clysma: the port at the head of the Gulf of Suez. "Pagan" renders Ἕλλην.
 
 ## Chunk 0018 (mp-017)
@@ -402,7 +402,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3052** · …estate, a little under twenty miles from Jerusalem; — T. *ἀπὸ μιλίων μικρῷ πρὸς Ἱεροσολύμων κʹ*, "a little short of twenty miles from Jerusalem"; the Latin has *viginti fere milliaribus*.
 - **3052** · …at Ephesus, now to Saint Theodore at Euchaita, — P. Euchaita in Pontus, the shrine of Theodore the Recruit. The plate's foot-note 5 (leaked at p0140.49) gives Εὐχαΐτας.
 - **3052** · …Seleucia, and again to Saint Sergius at Saraphas; — P. Probably Rusafa (Sergiopolis) in Syria; the Latin has *Saraphas*. Greek printed *Σαφᾶς*, see the table.
-- **3052** · …to walk a long road of many days, — T. A line seems lost after *πολλῶν ἡμερῶν*: the Greek resumes *καὶ σβεννυμένην αὐτὴν … φύλαξαι*. The Latin: *diebus multis perficiendum, candelae tu curam habe, eamque ne exstinguatur … serva*, "take thou care of the lamp, and keep it from going out".
+- **3052** · …thy lamp, and keep it from going out — T. The line the machine reading lost after *πολλῶν ἡμερῶν* was found on the plate (blind read R5): *προθεσμίαν ἔχουσαν, τῆς κανδήλας σου φρόντισον,* "that has a term of many days, take care of thy lamp"; the Latin has the same (*diebus multis perficiendum, candelae tuae tu curam habe*). The Greek then resumes *καὶ σβεννυμένην αὐτὴν … φύλαξαι*.
 - **3053B** · …"This cave, child, is a wrestling-ground: give, take." — T. κήρωμα, a wrestling-ground: the ascetic contest, given and taken. The Latin reads *spiritualis mercatura est; dat et accipit*, a market.
 - **3053B** · …ago, so that, through Christ who strengthens me, — S. Phil 4:13.
 - **3053B** · …Cilician used to say: When I was living — T. The opening line (p0141.54, Ἔλεγεν ὁ ἀββᾶς Θεόδωρος ὁ Κίλιξ, ὅτι Καθημένου) was read by the OCR but dropped from our working text, and at the head of col. 3056 the OCR lost the μ of μου beside the band letter; both restored from the plate 2026-11-04 (`RESTORED-LINES.tsv`). The Latin calls David *senex Aegyptius*, which the Greek lacks. Chapter number from Migne's Latin head CAPUT CLXXXIII at the foot of p. 141 (reconciled 2026-11-04).
@@ -424,6 +424,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3057A** · …that they might attain the eternal good things. — T. Printed περὶ ἃ οἱ ἀσκηταὶ ἐπέμενον, ἐγκρατευόμενοι ἄσκησιν; the construction is broken. The Latin has *Ecce quam vim sibi intulerunt continentes monachi*.
 - **3060A** · …the mother of the lord Paul the candidatus, — P. A candidatus was a member of the imperial guard, and by this period the title had become an honorary rank.
 - **3060A** · …her husband a pagan. They had fifty miliaresia. — P. The miliaresion was a silver coin.
+- **3060A** · …of that debt? For we are in want.' — T. The negative is the Greek's: *οὐκ ὀφείλει παρασχεῖν ἡμῖν ὁ Θεὸς τῶν Χριστιανῶν τί ποτε*, printed with a full stop. Read as a question expecting *yes*, because the wife answers *Ναί*, "Yes: go where thou gavest it". The Latin has a flat statement, *nihil ut video daturus est*, "he will give nothing, as I see"; if the Greek is a statement too, "the God of the Christians is not going to give us anything" (ὀφείλει as a future auxiliary), and the wife's *yes* answers the husband's despair. Flagged by blind read R5 (probable).
 - **3060A** · …were only the poor, sitting there again ; — T. The Greek has no main verb or negative here; the Latin has *neminem vidit ... nisi solos pauperes*, "he saw no one but the poor". Translated as printed.
 - **3060A** · …he had given out to the brethren ; — T. Printed συναδελφοῖς, "fellow-brethren"; the Latin has *pauperibus*, "to the poor".
 
@@ -448,7 +449,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 - **3069** · …Athanasius of Antioch, of the household of Zemarchus, — P. Printed ζημαρχόν, read as the personal name Zemarchus (see OCR table). A Zemarchus is known as a high official under Justin II. The Latin has only *Athanasius Antiochenus*.
 - **3069** · …would serve for a ship of five myriads. — T. "Of five myriads" (μυριάδων εʹ): a ship of fifty thousand measures' burden. The Latin has *navis onerariae quinquaginta millium*.
-- **3069** · …many other things for the monastery beside him." — T. The band letter here is glued to the line as a capital Ο; we take it as D from its position low on the column.
+- **3069** · …also made many other things for his monastery." — T. The band letter here is glued to the line as a capital Ο; we take it as D from its position low on the column.
 - **3069D** · …lied, nor spoke jesting words, nor admitted jesting. — T. The scaffold has a gap ("…") after διαυγές, and the clause on oaths has lost its verb. The Latin supplies both: *pro puritate doctrinae, et splendore venustissimi eloquii Chrysostomus cognominatus est; quod ex quo salutarem baptismum accepisset nunquam omnino juraverit, neque aliquem jurare compulerit*.
 - **3072** · …gold pieces, and went and told the superior; — T. The Latin has the monk keep the coins and *another* monk report him (*habuit illa apud se. Quod cum alius monachus vidisset*). The Greek, as printed, has the monk himself go and tell. Translated as printed.
 - **3072** · …prison; and until yesterday I was not released.' — T. The Latin adds an exchange that is not in the Greek: *Nonne mortuus es, frater? Qui ait: Ita sane.*
@@ -530,7 +531,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 ## Migne's notes not placed in the running text
 
-Migne's foot-of-page apparatus was read for every page (translate/moschus-pratum/notes/result-*.jsonl). Placed in the text: 173 of 188 numbered Greek notes, and the Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne's own prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.
+Migne's foot-of-page apparatus was read for every page (translate/moschus-pratum/notes/result-*.jsonl). Placed in the text: 169 of 188 numbered Greek notes, and the Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne's own prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.
 
 - p. 0039 (lettered, a): Idem miraculum, in aliis libris, hæreticorum dolo vitiatum legitur. — keyed to existens
 - p. 0039 (lettered, b): Ejusd. syn. act. 5, in qua etiam citantur consequenter hujus lib. cap. 81 et 180. — keyed to inclusus
@@ -688,21 +689,25 @@ Aliter Callistus in Synaxario: Ἐδήλουν δὲ διὰ τῶν βαΐων,
 - p. 0173 (lettered, g): In ejusd. bibl. Taur. cod. 105, fol. 414, est ex Sophronii Synodica, cap. 35, De hæreticis atque hæresiarchis; atque in cod. 271, fol. 76, Sophronii De interpunctione. V. Cat. cit. pag. 198 et 375. HARL. — keyed to 402
 - p. 0043 (numbered, marker illegible): al. μετετέγκωμεν. — keyed to ἀπενέγκωμεν
 - p. 0047 (numbered, marker illegible): al. παλλίον. — keyed to παλίον
+- p. 0052 (numbered, marker illegible): al. αὐτῷ. — keyed to αὐτὸν
 - p. 0053 (numbered, marker illegible): Δίδαι et Δαδαί. — keyed to Τάδαι
 - p. 0054 (numbered, marker illegible): al. ins. γάρ. — keyed to Σὺ
 - p. 0059 (numbered, marker illegible): al. Χαλκηδόνι. — keyed to Χαλκηδόνι
 - p. 0060 (numbered, marker illegible): al. inser. καὶ ὡς θέλεις. — keyed to ἰδοὺ
+- p. 0060 (numbered, marker illegible): al. Φαρᾶ et Φαρῶν. — keyed to Φαρῶν
 - p. 0078 (numbered, marker illegible): Pro μαγειρεῖον. — keyed to μαγειρίον
 - p. 0089 (numbered, marker illegible): al. ὑποκαῦσαι. — keyed to καῦσαι
 - p. 0089 (numbered, marker illegible): al. σπογγίσαι. — keyed to σφογγίσαι
+- p. 0095 (numbered, marker illegible): Pro λέγουσαι. — keyed to λέγοντες
 - p. 0108 (numbered, marker illegible): Int. οἰκονομοῦντες. — keyed to οἰκονομοῦντες
 - p. 0123 (numbered, marker illegible): al. λόγος. — keyed to λογισμὸς
 - p. 0138 (numbered, marker illegible): al. add. γέροντα διακριτικόν. — keyed to ἄλλον
+- p. 0166 (numbered, marker illegible): f. ἦλθεν. — keyed to ἐλθών
 - p. 0169 (numbered, marker illegible): al. add. τοῦ αἰτιᾶσθαι ἑαυτὸν ἕκαστος πάντοτε ἐν παντὶ πράγματι. — keyed to Ποιμένος
 
 ## Readings checked at the plate
 
-Every reading the translators flagged was looked up on the page image (2026-11-04). **migne** = the plate prints it (Migne's own text); the Greek stands as printed. Of the 1,018 flagged readings, 650 were slips in our own transcription and are corrected in the Greek without comment; this table lists the 368 where the plate agrees with the machine reading: 210 where Migne's type is itself wrong and the English follows the corrected reading, 144 where the translator suspected a misprint but the plate prints that very form (Migne's own text, so not emended), and 14 not settled at the plate. No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne's page and waits on a full-page reading of each column.
+Every reading the translators flagged was looked up on the page image (2026-11-04). **migne** = the plate prints it (Migne's own text); the Greek stands as printed. Of the 1,018 flagged readings, 648 were slips in our own transcription and are corrected in the Greek without comment; this table lists the 368 where the plate agrees with the machine reading: 208 where Migne's type is itself wrong and the English follows the corrected reading, 146 where the translator suspected a misprint but the plate prints that very form (Migne's own text, so not emended), and 14 not settled at the plate. No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne's page and waits on a full-page reading of each column.
 
 | page.line | printed | read as | kind | verdict | plate |
 |---|---|---|---|---|---|
@@ -745,7 +750,7 @@ Every reading the translators flagged was looked up on the page image (2026-11-0
 | p0056.10 | Αἰγύπτου· καὶ | Αἰγύπτου καὶ | ocr | migne | plate has the point |
 | p0057.41 | ἁγία» | ἁγίᾳ | ocr | undecided | pass2: wrong line matched |
 | p0057.46 | Κώμης | Κόμης | ocr | migne | plate Κώμης |
-| p0057.47 | Διὰ τοῦτο | Διὰ τούτου | ocr | migne | plate τοῦτο note-call 81 |
+| p0057.47 | Διὰ τοῦτο | Διὰ τούτου | ocr | migne | plate τοῦτο with note-call 81; the English now follows the printed reading, the variant is Migne's note (blind read R1) |
 | p0058.21 | ἐργασείας | ἐργατείας | ocr | migne | plate ἐργασείας |
 | p0058.30 | θελήσει | θελήσῃ | ocr | migne | plate θελήσει |
 | p0058.35 | ἄρτου | ἄρτου. | ocr | migne | pass2: no period on plate |
@@ -894,7 +899,7 @@ Every reading the translators flagged was looked up on the page image (2026-11-0
 | p0112.28 | ὄφειλον | ὤφειλον | ocr | migne | plate ὄφειλον |
 | p0112.38 | Καισαρείας.. | Καισαρείας. | ocr | migne | Migne prints the ellipsis |
 | p0112.44 | σίναι | σῖναι | ocr | migne | plate σίναι |
-| p0111.23 | χώρᾳ σου | χώρᾳ μου | ocr | migne | plate σου |
+| p0111.23 | χώρᾳ σου | χώρᾳ μου | ocr | migne | plate σου; the English now keeps "thy" (blind read R4) |
 | p0113.32 | Οὕπως | Οὔ? | doubt | migne | plate as printed |
 | p0113.33 | σακκομάχην | σακκομάχιον | ocr | migne | plate σακκομάχην |
 | p0113.38 | φόλεις πέντε | φόλεις πέντε | doubt | migne | plate as printed |

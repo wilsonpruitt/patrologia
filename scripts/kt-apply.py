@@ -37,8 +37,10 @@ for r in rows:
     if v == '?': und.append(r); continue
     if v != 'R' or kind not in ('ocr', 'space', 'subscript'): continue
     m = re.match(r'p(\d{4})\.(\d+)', r['tag']); p, ln = f'p-{m.group(1)}', int(m.group(2))
-    plate = re.search(r'plate=(?:\[b: .\]\s*)?(\S+)', r['comment'] or '')
-    to = nfc(plate.group(1).replace('_', ' ')) if plate else clean(r['reading'])
+    plate = re.search(r'plate=(?:\[b: .\]\s*)?(.+?)(?:\s*\(|\s*$)', r['comment'] or '')   # the WHOLE plate form, up to a "(" note: a one-token read dropped Οἶδά, Ἰδοὺ …
+    pv = plate.group(1) if plate else None
+    if pv and '…' in pv: pv = pv.split()[0]                    # an elided form: only its first word is a reading
+    to = nfc(pv.replace('_', ' ')) if pv else clean(r['reading'])
     to = re.sub(r'^\[b: .\]\s*', '', to)       # a band letter read off the plate is the BAND layer's (mp-bands.py), never a word
     frm = nfc(r['printed'])
     fp = [x.strip() for x in frm.split('/')]; tp = [x.strip() for x in to.split('/')]

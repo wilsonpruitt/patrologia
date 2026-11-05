@@ -122,7 +122,7 @@ sheet	slot	chunk	tag	printed	reading	kind	verdict	comment
 006	1	mp-003	p0056.39	Ιεραπόλεως	Ἱεραπόλεως	ocr	R	
 006	10	mp-003	p0057.41	ἁγία»	ἁγίᾳ	ocr	?	pass2: wrong line matched
 006	11	mp-004	p0057.46	Κώμης	Κόμης	ocr	M	plate Κώμης
-006	12	mp-004	p0057.47	Διὰ τοῦτο	Διὰ τούτου	ocr	M	plate τοῦτο note-call 81
+006	12	mp-004	p0057.47	Διὰ τοῦτο	Διὰ τούτου	ocr	P	plate τοῦτο with note-call 81; the English now follows the printed reading, the variant is Migne's note (blind read R1)
 006	13	mp-004	p0058.04	οὗρανοῦ	οὐρανοῦ	ocr	R	
 006	14	mp-004	p0058.06	Εφραί-	Ἐφραί-	ocr	R	
 006	15	mp-004	p0058.12	ἐσθῆτα᾿	ἐσθῆτα	ocr	R	mark is note-call/speck
@@ -331,7 +331,7 @@ sheet	slot	chunk	tag	printed	reading	kind	verdict	comment
 014	3	mp-008	p0078.48	ΙἬμεθα	Ἤμεθα	ocr	R	
 014	4	mp-008	p0079.15	Οἵμοι	Οἴμοι	ocr	R	
 014	5	mp-008	p0079.21	ἔμειναν	ἔμεινα	ocr	M	plate ἔμειναν
-014	6	mp-009	p0079.54	ἐξικακήσατε	(uncertain; sense "wait")	doubt	P	plate as printed
+014	6	mp-009	p0079.54	ἐξικακήσατε	"(uncertain; sense ""wait"")"	doubt	P	plate as printed
 014	7	mp-009	p0080.14	Γαλοψὸς	Ὑαλοψὸς	ocr	R	
 014	8	mp-009	p0080.27	αὐτοὺ́ς	αὐτοὺς	ocr	R	
 014	9	mp-009	p0080.30	Λαβε	Λάβε	ocr	R	
@@ -562,7 +562,7 @@ sheet	slot	chunk	tag	printed	reading	kind	verdict	comment
 024	17	mp-016	p0112.44	σίναι	σῖναι	ocr	M	plate σίναι
 024	18	mp-017	p0113.10	Ἰωάννῃ	Ἰωάννη	ocr	R	
 024	19	mp-017	p0113.27	Ἰωάννῃ	Ἰωάννη	ocr	R	
-024	2	mp-016	p0111.23	χώρᾳ σου	χώρᾳ μου	ocr	M	plate σου
+024	2	mp-016	p0111.23	χώρᾳ σου	χώρᾳ μου	ocr	P	"plate σου; the English now keeps ""thy"" (blind read R4)"
 024	20	mp-017	p0113.32	Οὕπως	Οὔ?	doubt	P	plate as printed
 024	21	mp-017	p0113.33	σακκομάχην	σακκομάχιον	ocr	M	plate σακκομάχην
 024	22	mp-017	p0113.38	φόλεις πέντε	φόλεις πέντε	doubt	P	plate as printed

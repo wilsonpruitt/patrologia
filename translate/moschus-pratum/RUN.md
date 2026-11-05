@@ -183,3 +183,16 @@ read letter, the rest inferred from the regular spacing: `how` column says which
 ⬜ Not done: **`[sic:]` layer** (210 rows in `verify/PRINT-ERRORS.tsv`; Dorotheus did this with `verify/SIC-MAP.json`; needs a note↔row map, plate-read already, gate is ready) ·
 **blind polarity read** (preflight's last gate: ≈1.5–2M, Wilson's go + model; brief per runbook 4a, record with `polarity-record.mjs`) · read the draft public text ·
 deploy (Wilson's OK) · push (Wilson's OK) · `englishState: "ours"` only when shipped.
+
+## ✅ Blind polarity read DONE 2026-11-04 (6 Opus readers, ≈1.17M): preflight 10 of 10
+Reports `data/briefs/MOSCHUS-BLIND-READ-R1…R6.md`; record `data/polarity/moschus-pratum-spirituale.json` (21 findings, 19 applied; the note lists each).
+⭐ The read found a PIPELINE bug, not just translation slips: **`kt-apply.py` took only the first word of a multi-word `plate=` verdict**, silently
+dropping words from the checked Greek on 12 rows (Ἰδοὺ, Οἶδά, ὅτι, ἐστιν, 2× καὶ restored). Fixed (whole form up to a "(", `[b: X]` prefix ignored, `,,`
+collapsed) and re-run; `checked/` re-derived. Also: p0140.30 lost line restored via `GREEK-PATCHES.tsv` (appended to the line above so no number shifts);
+kt-to-site now searches a note only inside ITS page's column (a p-0060 note had landed on a p-0061 word once the restored Ἰδοὺ existed) and tolerates earlier
+notes between a line's words. 172 of 188 Greek variants placed; 16 listed in the cruces. Two verdict rows reclassified M→P (p0111.23 σου kept as "thy
+country"; p0057.47 printed Διὰ τοῦτο kept); table now 208 print errors / 146 kept / 14 undecided. `scripts/mp-verdicts.py` regenerates the public table.
+⬜ NOT changed, Wilson's call: ἐλευθερίαν printed vs "the free woman" (3065B) · Ἀννωνὰ/Μάρες/Σαφᾶς printed vs Arnon/Mardes/Saraphas · ἐφήπλωσεν · printed ὄρους
+Σινᾶ vs "Rhossus [?]" (2948A) · the "my lord abba" / "lord abba" choice · παρρησία. Readers' "clean" calls: R2 finished in 4 min/34 tool calls, so its clean
+chunks (6–10) are the least-corroborated.
+⬜ Remaining before ship: Wilson reads the DRAFT about/bio/RECENT text · deploy (own OK) · push (own OK) · then `englishState: "ours"` in pg-works.json.
