@@ -13,7 +13,7 @@ Moschus and Procopius. Same volume and scan as Moschus/Procopius (`raw/pg087c/08
 | 3217–3288 | 223–258 | Or. II *In SS. Deiparae Annuntiationem* (Αʹ–Νʹ) | yes | so-007–012 |
 | 3289–3300 | 259–264 | Or. III *De Hypapante* | **Latin only** | not in this run |
 | 3301–3308 | 265–268 | Or. IV *In exaltationem S. Crucis* | yes | so-013 |
-| 3309–3316 | 269–272 | Or. V *De festo S. Crucis* (Greek begins mid-sentence at 3309) | yes | so-013 |
+| 3309–3316 | 269–272 | Or. V *De festo S. Crucis* (heading at p-0269:17, after Or. IV's Amen; complete, not a fragment) | yes | so-013 |
 | 3317–3320 | 273–274 | Or. VI *De SS. Angelis et Archangelis* | **Latin only** | not in this run |
 | 3321–3354 | 275–291 | Or. VII *Encomium in S. Joannem Baptistam* (αʹ…) | yes | so-014–017 |
 | 3355–3364 | 292–296 | Or. VIII *In SS. App. Petrum et Paulum* (+ 2 excerpts) | yes | so-018 |
@@ -60,6 +60,11 @@ Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-
     KT_LOST_MIN=3, which found nothing new); read on the image, added to text/ + RESTORED-LINES.tsv, kt-rules re-run,
     so-010 English/note/OCR row fixed by the coordinator. Doubts for the image check: p0246.23 ἀπότευξιν, p0250.18
     (noun lost? Latin *carnem*), p0247.43 second glued B, p0255.05 συνόμιλλοι.
+  - ✅ E done (≈0.26M): so-013 58 rows, so-014 32, so-015 31; Or. IV + V complete, Or. VII §§1–9. ⚑ **E corrected the
+    card**: Or. V is NOT a fragment. p-0269:1–15 ends Or. IV (doxology + Ἀμήν at :15) and Or. V's own heading stands at
+    p-0269:17 (confirmed in the Greek by the coordinator; CARD.md and the table above fixed). Doubts for the image check:
+    p0270.27 πανόλου, p0270.45, p0271.29 σου/σε, p0277.15 οὐ συνελήφθη, p0279.16 ἄδετον, p0277.56, p0279.39, p0282.52,
+    p0283.04.
 
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·

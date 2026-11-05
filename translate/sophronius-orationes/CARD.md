@@ -34,10 +34,10 @@ one-operation / one-will teaching. A facing Latin column throughout.
    Virgin on Luke 1:26–38, speech by speech, with the preacher's exposition between; a festal close. Ballerini's
    Latin *Monitum* precedes it in Migne and is not yours.
 3. **On the Exaltation of the precious Cross and the holy Resurrection** (Or. IV; cols 3301–3309) **and On the
-   Feast of the Cross** (Or. V; cols 3309–3316), both in **so-013**. No section marks in either. ⚠ **Or. V's
-   Greek begins mid-sentence** at **p-0269:1** (`Ἅπερ ἐκ φωνῆς τῆς ἐμῆς ἐπακούσητε …`), where the running head
-   changes; Migne prints it as a fragment. so-013 puts the title line `ON THE FEAST OF THE CROSS` there, on its
-   own line, with a T note on its first sentence saying the Greek begins mid-sentence as printed.
+   Feast of the Cross** (Or. V; cols 3309–3316), both in **so-013**. No section marks in either. ⚠ **CORRECTED 2026-11-05 (the so-013 translator, confirmed by the
+   coordinator):** p-0269:1–15 (`Ἅπερ ἐκ φωνῆς …`) is the END of Or. IV (it closes with Or. IV's doxology and Ἀμήν at
+   p-0269:15); **Or. V opens with its own full heading at p-0269:17** (Σωφρονίου τοῦ ἐν μοναχοῖς ἁγιωτάτου … ὁμιλία …).
+   Migne's running head changes at col. 3309 because Or. V begins on that page. Or. V is not a fragment.
 4. **Encomium of Saint John the Forerunner** (Or. VII; cols 3321–3354; so-014 – so-017), sections αʹ … κʹ in
    lower case: the Forerunner's conception, birth, naming, the desert, the baptism, the martyrdom.
 5. **On Saints Peter and Paul** (Or. VIII; cols 3355–3364; so-018), "on the day of their birth", sections αʹ …;
@@ -139,7 +139,7 @@ report a work title once as kind `heading`.
 - **Column anchors:** `[3152]` (the Greek column number from the scaffold's page header) at the start of the
   chunk, and at the point where each new page's Greek begins.
 - **Work titles:** the first chunk of each piece opens with its title in capitals (above); so-013 carries two,
-  the second at p-0269:1. A section that runs on from the previous chunk starts without a number.
+  the second at p-0269:17. A section that runs on from the previous chunk starts without a number.
 - **Band letters:** Migne prints A/B/C/D in the gutter. The Kraken often glues the letter to the end (or start) of
   a line as a stray capital Α/Β/Γ/Δ or A/B/C/D (`…τρισσού- Β`, `Αφύσιν`). Put `[b: X]` (Latin letter) in the
   English at the point that line's text falls, and **do not** report the glued letter as a misread.
