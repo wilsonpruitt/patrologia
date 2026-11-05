@@ -30,6 +30,8 @@ def words(pdf):
         out.append(((x1 + x2) / 2, (y1 + y2) / 2, x1, y1, x2, y2, w))
     return out
 
+PAD = 70   # Kraken's column boxes start a few px BELOW the first line's centre: unpadded, the first line of a column
+           # lost words (so-021 p0274, 2026-11-05). Running heads sit ~150 px above the box and stay out.
 parts, rows, nwords = [], [], 0
 for spec in specs:
     f = spec.split(':'); pdf = int(f[0])
@@ -41,7 +43,7 @@ for spec in specs:
         bs = [b for b in boxes if ((b[0] + b[2]) / 2 < mid) == (side == 'L') and b[2] - b[0] < 2500]
         full = [b for b in boxes if b[2] - b[0] >= 2500]           # a full-width Latin band (p-0272): read once, as L
         if side == 'L': bs += full
-        ws = [w for w in W if any(b[0] <= w[0] <= b[2] and b[1] <= w[1] <= b[3] for b in bs) and ymin <= w[1] <= ymax]
+        ws = [w for w in W if any(b[0] - 40 <= w[0] <= b[2] + 40 and b[1] - PAD <= w[1] <= b[3] + PAD for b in bs) and ymin <= w[1] <= ymax]
         ws.sort(key=lambda w: w[1]); lines = []
         for w in ws:                                              # group into lines by y
             if lines and abs(w[1] - lines[-1][-1][1]) < 35: lines[-1].append(w)

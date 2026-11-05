@@ -26,6 +26,13 @@ lacking); Or. III p-0258 lower half → top of p-0265 (above Or. IV's Greek titl
 p-0272 → top of p-0275 (above Or. VII's Greek). Card supplement `CARD-LATIN.md`; 3 Opus briefs launched together.
 ⚠ The site builder has never built a PG work with no Greek: build work owed before these ship. Or. I's Greek exists
 outside Migne (Usener 1886, if memory serves; not verified): a later option for a note.
+- ⚠ **Scaffold defect found + fixed (2026-11-05):** Kraken's column boxes start a few px below the first line, so v1
+  of `kt-scaffold-latin.py` dropped words, sometimes WHOLE LINES, at column tops (Or. I: 4 whole lines + 2 partial;
+  Or. III: 1 whole + 1 partial + title lines; Or. VI: 2 partial). Fixed with PAD = 70 px (also lets in band letters,
+  some running heads and footnote lines, which translators log as stray). v1 scaffolds kept as `so-0NN.v1.md`: the
+  so-019/020 OCR tables were written against v1 tags, so remap them by line text before the image check.
+- ✅ so-021 Or. VI done (≈0.14M): 320 OCR rows on 2,500 words (the Latin OCR is poor: ≈130 per 1,000). Column-top fix
+  patched in by the translator. One doubt: p0274.L.34 `f et aqui`.
 ⬜ *De peccatorum confessione*: needs its remaining pages run through Kraken (p. 299 on) before it can be scheduled.
 
 Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-11-05: translate it anyway**, with an
