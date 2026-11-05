@@ -65,6 +65,16 @@ Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-
     p-0269:17 (confirmed in the Greek by the coordinator; CARD.md and the table above fixed). Doubts for the image check:
     p0270.27 πανόλου, p0270.45, p0271.29 σου/σε, p0277.15 οὐ συνελήφθη, p0279.16 ἄδετον, p0277.56, p0279.39, p0282.52,
     p0283.04.
+  - ✅ F done (≈0.27M): so-016 47 rows, so-017 42, so-018 57; Or. VII §§10–20 (Amen) + Or. VIII §§1–6 with the two
+    excerpts. ⚑ F reads Or. VIII's heading τῇ δ᾿ ἡμέρᾳ τῶν Γενεθλίων as δʹ = "on the FOURTH day of the Nativity" (§6
+    supports it): image-check p0292.03. Band call p0285.26 Γ vs p0285.31 Σ. Latin-only clauses not supplied:
+    p0283.47, p0284.28 (δίκαιοι), p0286.12 (ὑπό, Matt 3:14), p0288.36.
+
+## ✅ Step 1 DONE 2026-11-05: all 18 chunks translated (Opus ×6 ≈1.46M + Fable anchor ≈0.16M = ≈1.62M)
+≈799 OCR rows across the 18 tables (incl. the anchors' 21, repeated in so-001/so-007). Coordinator image reads done so
+far: p0214 lacuna (Migne's dots), p0197.31 + p0199.23 (Migne's text, note calls 7/16), p0240.42 (restored), Or. V
+division (Greek). NEXT = step 2 sweep, then step 3 image check of every row (Moschus method: `kt-sheet.py` →
+read sheets → `kt-verdict.py` → `kt-apply.py`; ≈800 rows, a fresh session's work).
 
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·

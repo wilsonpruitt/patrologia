@@ -1,5 +1,17 @@
 # Next session — resume note
 
+## ▶ 2026-11-05 (latest) — SOPHRONIUS *SYNODICA* + *ORATIONES*: ALL 18 CHUNKS TRANSLATED (≈1.62M), nothing deployed/pushed
+Wilson's go 2026-11-05 ("fable anchor and then opus") covers the whole pipeline (estimate ≈4–4.5M). Score:
+**`translate/sophronius-orationes/RUN.md`** (table of what Migne prints, every decision, every brief's findings).
+Scope: Synodical Letter (so-001–006; IN by Wilson's ruling despite Allen 2009) + Or. II, IV, V, VII, VIII. Or. I, III, VI
+are Latin-only in Migne (not done; ⬜ Wilson may want them from the Latin); *De peccatorum confessione* needs more Kraken pages.
+**NEXT, in order:** (2) sweep: section numbers vs the Latin, glossary clashes (δεσποτεία dominion vs lordship; ἀγάπησις,
+ταπείνωσις humility/humbling, συνάφεια, Θεοτόκος notes duplicated A/B), seams; (3) image check of ≈800 OCR rows
+(`kt-sheet.py sophronius-orationes` → read → `kt-verdict.py` → `kt-apply.py` → `checked/`), with RUN.md's listed doubts
+first (p0292.03 "fourth day", p0285.26/31 band, p0246.23, p0250.18 …); kt-sheet/kt-apply may need the work registered as for
+Procopius; (4) apparatus (Sonnet, every page; notes 7 and 16 of the Synodica answer two [?]s); (5) kt-to-site CONF + build;
+(6) blind read; then Wilson: about/bio, deploy, push. ⚠ kt-lost blind spot: lines Kraken never segmented (p-0240).
+
 ## ▶ 2026-11-05 (latest) — SOPHRONIUS image reads CLOSED (no tokens beyond this session) · Procopius is LIVE + pushed (`bf7dbac2`; the banner below is history)
 **Orationes:** the dropped-line reads are done. p-0242 lost the §32 opening (ΛΒʹ. Ἀλλ᾽ ἡ θεοδόχος…); p-0296 lost the closing excerpt (Καὶ μετὰ βραχέα. + 2 lines; the image reads Σάῤῥαν). Both were inserted into `raw/kraken/sophronius-orationes/text/` (gitignored), recorded in `translate/sophronius-orationes/RESTORED-LINES.tsv`, `kt-rules.py` re-run (772 changes), and kt-lost is now clean on both pages. p-0246 was a false alarm: the line is present. **Anacreontica:** nothing lost. p-0480 is the editor's Latin preface quoting the *Pratum*, p-0486 is Matranga's NOTÆ, and p-0534 is the *Triodion* title. ⚑ **The Anacreontica runs pp. 481–533; pp. 534–535 are the *Triodion*, so trim them at chunking.** p-0532 has a bracketed epigram ("Σωφρονίου μοναχοῦ ἱατροσοφιστοῦ εἰς…"); decide whether it is in scope.
 **NEXT = Wilson's go on the Orationes translation** (token stop). Size: ≈32.8K Greek tokens in `ruled/` (some running heads and notes included), so ≈4× Procopius, ≈4–4.5M all-in at Procopius's rate (Fable anchor, Opus translation, image check, apparatus, blind read). ⚠ Before scaffolding, apply rule 8: the **Synodical Letter to Sergius** (pp. ≈189–234, in this folder) is already in English (Pauline Allen, *Sophronius of Jerusalem and Seventh-Century Heresy*, OUP 2009). ✅ **Wilson, 2026-11-05: translate it anyway, "for consistency of voice and ease of access."** It gets an `elsewhere` pointer to Allen 2009, and the badge stays "New" (rule 8). Check the orations one by one for existing English too.
