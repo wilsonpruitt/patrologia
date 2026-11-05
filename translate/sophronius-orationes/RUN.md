@@ -54,7 +54,12 @@ Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-
   - ✅ C done (≈0.25M): so-007 41 rows, so-008 39, so-009 59; §§1–29 (so-009 ends inside §29). Section marks repaired
     by sequence (Θʹ, Ιʹ, ΙΓʹ, ΙΔʹ, ΙΕʹ, ΙΘʹ, ΚΓʹ). Image-check the foot-of-column NOTAE leaks p0228.54, p0231.40,
     p0234.47, p0237.31 for lost lines. C changed the anchor's title range to "1–10".
-  - E (so-013–015) and F (so-016–018) launched as A and C finished. D, E, F running.
+  - E (so-013–015) and F (so-016–018) launched as A and C finished.
+  - ✅ D done (≈0.21M): so-010 42 rows, so-011 53, so-012 46; §29 (cont.)–§50, oration complete. ✅ **p0240.42 RESTORED**:
+    the column's last line δωρούμενον (band D) was never segmented by Kraken (so kt-lost cannot see it, even with
+    KT_LOST_MIN=3, which found nothing new); read on the image, added to text/ + RESTORED-LINES.tsv, kt-rules re-run,
+    so-010 English/note/OCR row fixed by the coordinator. Doubts for the image check: p0246.23 ἀπότευξιν, p0250.18
+    (noun lost? Latin *carnem*), p0247.43 second glued B, p0255.05 συνόμιλλοι.
 
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·

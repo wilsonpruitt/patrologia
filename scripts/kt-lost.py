@@ -11,9 +11,12 @@ misclassed as footnote shows up as FOOT with a wide line pitch (>= 84 px to its 
 the same column), so FOOT lines are pitch-tested and only the wide ones are kept as "FOOT?".
 Every candidate still has to be read on the page image before it goes into text/ (record it in
 translate/<work>/RESTORED-LINES.tsv, then re-run kt-rules.py).
+⚠ BLIND SPOT: a line Kraken never SEGMENTED is in neither xml/ nor text/, so this check cannot see it (Sophronius
+p-0240 δωρούμενον, a one-word last line, 2026-11-05; caught by the translator from the sense). Translator `doubt`
+rows that say "a line seems lost" are therefore always image-checked. KT_LOST_MIN=3 lowers the 8-letter floor.
 Promoted from the Moschus session's scratch lost.py + pitch.py, 2026-11-05.
 """
-import json, re, sys, unicodedata as ud
+import json, os, re, sys, unicodedata as ud
 from pathlib import Path
 
 W = Path(__file__).resolve().parent.parent / 'raw' / 'kraken' / sys.argv[1]
@@ -33,7 +36,7 @@ def base(s):
 def greekish(t):
     g = sum(1 for c in t if 'Ͱ' <= c <= 'Ͽ' or 'ἀ' <= c <= '῿')
     l = sum(1 for c in t if c.isalpha())
-    return l >= 8 and g / l > 0.8
+    return l >= int(os.environ.get('KT_LOST_MIN', 8)) and g / l > 0.8
 
 
 def xml_lines(k):
