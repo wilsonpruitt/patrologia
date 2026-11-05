@@ -62,8 +62,15 @@ Registry `data/pg-works.json` (slug `rhetorica`, `englishState: draft`, weak bad
 RECENT line in `build-landing.mjs` are **DRAFTS for Wilson to read before any deploy** (incl. the Caesarea attribution).
 
 ## Step 6 — blind polarity read (2 Opus readers, launched 2026-11-05; `data/briefs/PROCOPIUS-BLIND-READ-{BRIEF,LAUNCH}.md`)
-⬜ record R1/R2 here; apply with `polarity-record.mjs`; rebuild; preflight 10/10; then Wilson: read the drafts · deploy (own OK)
-· push (own OK) · `englishState: "ours"`.
+✅ DONE 2026-11-05 (≈0.31M). R1 (Panegyric): 2 findings, both applied — φιλοτιμεῖσθαι μετ᾿ ἐκείνων = "take pride along with them"
+(the coordinator's own anchor had "vie with"); ἐμπιπλαμένης is what Migne PRINTS (plate-read), "set on fire" = R.'s conjecture in
+Villoison's note, now said openly in the T note (row relabelled `print`). R2 (Hagia Sophia): 4 applied — Στοαί ἑκατέρωθι δύο =
+"two colonnades, one on either side"; οἷς αὐτὸς εἵλετο = "what He chose" (a place, not persons); λόφος = hill (term slip);
+Ἄθυτος … subject = God, not the church. 0 polarity defects in ≈130 negatives. Record `data/polarity/procopius-gazaeus-rhetorica.json`.
+R2 also caught 3 Greek leftovers → `GREEK-PATCHES.tsv` (2 glued band letters; Combefis's inline `[Aug. διακέχ.]` restored, p-0029:34).
+Rebuilt; **preflight 10 of 10, clear to deploy.**
+⬜ Wilson: read the DRAFT about/bio/RECENT text (the Caesarea attribution and the slug `rhetorica` are his calls) · the 4 `?` rows
+and the 2 `[?]` lacunae stand · deploy (own OK) · push (own OK) · then `englishState: "ours"` in pg-works.json.
 
 ## Owed after the run
 - Sweep section numbering across pr-001–003 against the Latin Roman numerals (Villoison's Argumentum lists I–XXX).

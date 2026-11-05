@@ -202,7 +202,7 @@ matches it.
     sees. Epidamnus, earth-born, came forth from here and bestows his name upon the city; and later moves
     Pythian Apollo too to love of it, and he adorned it with a colony of Greeks, as a seer, surely, who knew the
     future well: that the common benefactor of all land and sea must appear from here. So then, if thou hast
-    marvelled to hear that the Athenians are earth-born, thou mayest vie with them; if thou admirest the
+    marvelled to hear that the Athenians are earth-born, thou mayest take pride along with them; if thou admirest the
     Phaeacians' kindness to strangers, the city is from them.[^5] It has, besides, the stock of the Corinthians
     and the ambition of Sparta, and Heracles for an ancestor, and through him Zeus.
 

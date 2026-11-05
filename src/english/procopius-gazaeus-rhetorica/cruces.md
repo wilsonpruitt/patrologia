@@ -47,7 +47,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **2820** · …lavished in rivalry upon the provision of food? — T. φιλοτιμουμένας has no feminine plural to agree with; taken with the abundance of money (Villoison *liberaliter insumptam*).
 - **2820** · …through the whole of a part of Thrace? — T. δι᾿ ὅλης ἐν μέρει τῆς Θρᾴκης, literally "through the whole, in part, of Thrace"; Villoison *per totam fere Thraciam*. P. The Long Wall, from the Euxine to the Propontis some forty miles west of Constantinople.
 - **2820** · …opposite directions to each other upon the wall. — S. Thucydides I.93.5: on Themistocles' wall of the Piraeus two wagons, meeting, brought up the stones.
-- **2820** · …far short of the worth of the works. — S. *Iliad* I.1 (the wrath) and XVI.112–124 (the ship of Protesilaus fired by Hector). Villoison *navi una incensa* confirms the reading ἐμπιπραμένης.
+- **2820** · …far short of the worth of the works. — T/S. Migne prints ἐμπιπλαμένης ("being filled"), plate-read; "set on fire" follows ἐμπιπραμένης, R.'s conjecture in Villoison's variant note at the foot of the page (he cites *Od.* μ 415 for the verb), which Villoison's Latin *navi una incensa* also adopts. The allusion is *Iliad* I.1 (the wrath) and XVI.112–124 (the ship of Protesilaus fired by Hector).
 - **2820** · …arrogance, when he was convicted by Persian luxury. — S. Thucydides I.130.
 - **2820** · …time has at last shown us in deeds. — S. Hesiod, *Works and Days* 109–120.
 - **2821A** · …whom fortune gave thee together with the empire. — P. Ariadne (see § 5).
@@ -61,6 +61,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **2828A** · …in Byzantium, brought about the riot called Nika; — P. The Nika riot (January 532), the rising of the circus factions in Constantinople, named from their watchword *Nika*, "Conquer!", in which the earlier church of Sophia was burnt.
 - **2828A** · …with precision, in my books on the wars. — S. Procopius, *Wars* I.24. The cross-reference is the historian's own, and is one sign that this is Procopius of Caesarea (*Buildings* I.1), not the Gazan.
 - **2828A** · …having made the name most fitting for God). — T. ἐπὶ τὰ καιριώτατα τῷ Θεῷ τὴν ἐπωνυμίαν ἀπεργασάμενοι: Sophia, "Wisdom," as the name most befitting God. Combefis: *a potissima velut dote supremo Numini indito nomine*.
+- **2829A** · …of light is poured round about this sanctuary. — T. After περικέχυται Migne prints, in square brackets, a variant from the Augsburg edition: *[Aug. διακέχ.]* ("is diffused"), plate-read; kept in the Greek as printed.
 - **2833A** · …but, hung from heaven by the golden chain, — S. The golden chain let down from heaven, Homer, *Iliad* VIII.19.
 - **2833A** · …by the golden chain, to cover the place. — T. ἐξημμένον (neuter) where the subject is the dome (θόλος, feminine); the received text of *Buildings* has ἐξημμένη. Rendered with the dome as subject; logged as `print`.
 - **2836** · …had come upon a meadow in its bloom. — T. ἐντετυχ[ηκ]έναι: the brackets appear to be an editor's supplement on the plate; read ἐντετυχηκέναι.
