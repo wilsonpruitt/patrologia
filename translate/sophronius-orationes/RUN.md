@@ -45,6 +45,16 @@ Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-
     the translator's "…" and T note stand. Terms decided by B (sweep against A): κατάθεμα = curse, συνέδριον = session,
     πρόεδρος = president, ἑνάς = henad, ταπείνωσις = humility vs ταπεινότης = lowliness, θεοσημεῖαι = God-showing signs.
   - D (so-010–012) launched when B finished.
+  - ✅ A done (≈0.25M): so-001 51 rows (15 = anchor's), so-002 57, so-003 49. New sources: p0194.14–18 = Gregory
+    Thaumaturgus *Expositio fidei*; p0198.44–p0199.01 = Leo's Tome (Ep. 28.4). ✅ **Both suspected losses checked on the
+    image and both are MIGNE'S PRINTED TEXT, each carrying a note call**: p0197.31 "Ὁμοίως δὲ καὶ ἐν θεότητι τέλειον (7)·"
+    (the manhood half is absent from the Greek, present in the Latin) and p0199.23 "ἀπεστέρηντο ¹⁶" (no negative; Latin
+    *non erant frustratæ*). Relabel both `print`; the apparatus step reads notes 7 and 16. Glossary clash to sweep:
+    δεσποτεία vs κυριότης (both "lordship" in the glossary; A gave δεσποτεία = dominion).
+  - ✅ C done (≈0.25M): so-007 41 rows, so-008 39, so-009 59; §§1–29 (so-009 ends inside §29). Section marks repaired
+    by sequence (Θʹ, Ιʹ, ΙΓʹ, ΙΔʹ, ΙΕʹ, ΙΘʹ, ΚΓʹ). Image-check the foot-of-column NOTAE leaks p0228.54, p0231.40,
+    p0234.47, p0237.31 for lost lines. C changed the anchor's title range to "1–10".
+  - E (so-013–015) and F (so-016–018) launched as A and C finished. D, E, F running.
 
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·
