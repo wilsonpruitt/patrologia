@@ -135,3 +135,17 @@ mp-030 as a conjecture against the plate.
   - mp-029 p0164.22 `καὶ (line end) θέντες` → `κατα-θέντες` (pass2: wrong line)
 ⚠ `raw/` is gitignored: `text/` (with the 3 restored lines, `RESTORED-LINES.tsv`), `ruled/` and `checked/` are rebuilt
 by `kt-rules.py` then `kt-apply.py`; never re-OCR text/ without re-adding the restored lines.
+
+## ✅ Step 5 done 2026-11-04 (in session, Sonnet): Migne's foot-of-page apparatus read off every page, pp. 39–173
+`scripts/mp-note-crops.py` cut a thumbnail + note-block tiles per page (`notes/img/`, gitignored, rebuildable; manifest
+`notes/manifest.json`); 6 Sonnet briefs `notes/task-{1..6}.md` (3 at a time, ≈1.57M tokens in all, ~10–25 min each) →
+`notes/result-{1..6}.jsonl`: **337 notes** (numbered 193 under VARIÆ LECTIONES, lettered 95, NOTÆ endnotes 49 at pp. 170–172
+keyed by lemma, not mark) + `none` lines; all 135 pages covered; 60 markers illegible (kept `marker: null`, never completed
+from the sequence); 8 notes with no anchor; 2 with `text: null`. Lettered series runs a–z (no j, w) and wraps once (z at p115).
+Re-check of the weakest stretch, pp. 54–58 (brief 1 said p-0054 was retyped from memory): independent re-read →
+`notes/verify-54-58.{jsonl,md}`, 34 rows compared, 6 text corrections + 4 markers downgraded to illegible (candidate number
+agrees), **overlay these when placing**. Thumbnails of p-0113/114/117/135/136/137 viewed in session: the `none` calls hold.
+⚑ Bracketed numerals in the Latin ((5), (6), (7), (8), (25), (26), (33), (34), (46)...) with no foot note are Migne's inline
+citations, not apparatus: NOT recorded; decide at placement. ⚑ Brief 5 and 4 saw degraded image reads early; spot-checked.
+⬜ Not yet done: `place.py` (Moschus version of the Dorotheus script: Greek numbered → `[n:]` in the Greek, lettered →
+Latin/English, NOTÆ → cruces), then (6) Latin twin + `kt-to-site.py` generalised + build + polarity read + ship (each a Wilson go).
