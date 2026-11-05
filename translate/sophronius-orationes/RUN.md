@@ -19,8 +19,13 @@ Moschus and Procopius. Same volume and scan as Moschus/Procopius (`raw/pg087c/08
 | 3355–3364 | 292–296 | Or. VIII *In SS. App. Petrum et Paulum* (+ 2 excerpts) | yes | so-018 |
 | 3365– | 297– | *De peccatorum confessione* | yes | ⚠ runs past the Kraken run (p. 298); not in this run |
 
-⬜ Wilson, later: Or. I (the 634 Christmas sermon), III and VI exist in Migne only in Latin. The Moschus/Dorotheus
-precedent leaves Latin-only stretches untranslated. Say if any of them should be done from the Latin instead.
+✅ **Wilson, 2026-11-05: "Let's do them in Latin"; "Opus go"** (≈0.75M on top). Or. I, III, VI → so-019, so-020, so-021
+from the copyA Latin OCR (`scripts/kt-scaffold-latin.py`, new: column-by-column, tags pNNNN.L|R.LL, line boxes in
+`<chunk>.lines.tsv` for the image check). True extents: Or. I pp. 215–220 (ends with Mai's note that the epilogue is
+lacking); Or. III p-0258 lower half → top of p-0265 (above Or. IV's Greek title); Or. VI from its heading partway down
+p-0272 → top of p-0275 (above Or. VII's Greek). Card supplement `CARD-LATIN.md`; 3 Opus briefs launched together.
+⚠ The site builder has never built a PG work with no Greek: build work owed before these ship. Or. I's Greek exists
+outside Migne (Usener 1886, if memory serves; not verified): a later option for a note.
 ⬜ *De peccatorum confessione*: needs its remaining pages run through Kraken (p. 299 on) before it can be scheduled.
 
 Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-11-05: translate it anyway**, with an
