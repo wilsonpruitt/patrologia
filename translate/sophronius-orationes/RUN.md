@@ -33,7 +33,12 @@ Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-
   plate-verified off the running heads at pp. 189 (3149), 223 (3217), 265 (3301), 297 (3365). greekSide from the
   Kraken regions; 17 pages carry no Greek region (Latin-only orations, Ballerini's Monitum, p. 187).
 - 18 scaffolds (`CHUNKS.tsv`, ≈32,900 Greek words incl. leaked running heads), cut at section marks or sentence ends.
-- Fable anchor: launched 2026-11-05 (Synodical opening + Or. II §§1–2, CARD, GLOSSARY, register section).
+- ✅ Fable anchor DONE 2026-11-05 (≈0.16M): `ANCHOR-synodica.en.md` (p-0188:3–p-0189:48) + `ANCHOR-or2.en.md` (p-0223:1–p-0224:8),
+  `CARD.md`, `GLOSSARY.md`, `translation-style.md` § "Seventh-century dogmatic letter and festal homily (Sophronius)" R1–R8.
+  Decisions for Wilson to see: ἐνέργεια = operation, θέλημα = will / θέλησις = volition; Θεοτόκος = Theotokos vs Θεομήτωρ =
+  Mother of God; ὁμοούσιος = consubstantial; Sergius = "you" (honorific plural throughout); μερισμός = partition vs
+  διαίρεσις = division. Image-check items from the anchor: p0223.04 `Αντον. ΒΑν.η` (editorial line?), p0223.43 `νοταΕ.` leak.
+- Step 1 launched 2026-11-05: briefs A (so-001–003), B (004–006), C (007–009), Opus, 3 at a time; D–F follow.
 
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·

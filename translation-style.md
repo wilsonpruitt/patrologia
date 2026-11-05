@@ -689,6 +689,100 @@ speech / λόγοι words · ὑπήκοοι subjects · τρόπαιον trophy
 
 - **EN/Greek ≈ 1.35** on the anchor (≈700 Greek words → ≈950 English) — budget by that for epideictic prose.
 
+## Seventh-century dogmatic letter and festal homily (Sophronius) — register rules (Fable mini-pilot on PG 87.3, 2026-11-05)
+
+Calibrated on the Synodical Letter to Sergius, opening (cols 3148–3149) and *On the Annunciation* §§ 1–2
+(cols 3217–3220), Mai's and Ballerini's texts with their facing Latin. The genre pair is new to the corpus and
+will recur at once: the monothelete controversy (Maximus, *Epistulae*, PG 91, queued next; the *Disputatio cum
+Pyrrho*; the Lateran *acta*) is written in exactly this technical vocabulary, and the Marian and sanctoral
+homilies of the seventh and eighth centuries (Andrew of Crete, Germanus, John of Damascus) in exactly this
+festal one. Everything in the PG register above carries over (Tier-2 literalism, every clause rendered, markers
+sacred, the Latin a witness never a source); nothing here relaxes Patterns 7–19; the fixed equivalences already
+ruled above (οὐσία essence · φύσις nature · ὑπόστασις hypostasis · πρόσωπον person) are extended, not
+reopened. Anchors: `translate/sophronius-orationes/ANCHOR-synodica.en.md` and `ANCHOR-or2.en.md`, repeated at
+the foot of that work's `CARD.md`.
+
+### R1. The technical vocabulary is a closed table, held across the whole controversy
+
+A dogmatic letter argues with about forty words, and the argument *is* the words: Sophronius's case against one
+operation rests on keeping ἐνέργεια apart from ἐνεργῶν, φύσις from ὑπόστασις, διαίρεσις from μερισμός, and
+θέλημα from θέλησις. **One English word per term, the same word in every chunk and every later work of the
+controversy** — the table is `translate/sophronius-orationes/GLOSSARY.md`, first section, and Maximus inherits
+it. The choices that bind: ἐνέργεια = *operation* (never "energy", never "activity"); θέλημα = *will*,
+θέλησις = *volition*; ἰδιότης = *property*, ἰδίωμα = *idiom*; ἕνωσις = *union*, συνάφεια = *conjunction*;
+Chalcedon's four adverbs = *without confusion, without change, without division, without separation*;
+μεριστός/ἀμέριστος = *partible/impartible* (so that διαίρεσις can keep *division*); οἰκονομία = *economy*;
+θεανδρικὴ ἐνέργεια = *theandric operation*; ὁμοούσιος = *consubstantial* (the creed's word, the one οὐσία-root
+not rendered on the "essence" stem); Θεοτόκος = *Theotokos*, because Θεομήτωρ = *Mother of God* stands beside
+it in the same homilies and the two must stay distinguishable. **A synonym for elegance is an error, and a
+doublet (ἄτρεπτος καὶ ἀναλλοίωτος) is two glossary words, never one word and a flourish.**
+
+### R2. The honorific plural is a plural: *you* to a patriarch, *thou* to the Virgin
+
+Pattern 17 applied without exception. The Letter addresses Sergius in the plural from its first vocative to its
+last (παμμακάριστοι, θεοτίμητοι, μακαριώτατοι, σοφώτατοι, πανιέρους ὑμᾶς, ὑμετέραις; no singular σύ in 10,500
+words), so Sergius is **you**, and the plural vocatives stay plural ("all-blessed ones", "most wise ones"). The
+English loses nothing: the plural is the letter's ceremony, and the reader sees it. Gabriel and the Virgin
+address each other in the singular (χαῖρε, σοι, σύ) and are **thou** in every speech; so are God, Christ, the
+Cross and the Forerunner when apostrophized; "brethren" and every ὑμεῖς are **you**. The congregation's
+"brethren" and the Virgin's "thou" can stand three lines apart; that is the Greek, and the number rule is what
+makes it visible.
+
+### R3. The period is the unit; the doublet is a member, not padding
+
+The Letter's sentences run to eighty words with their μέν … δέ balances, participial chains and οὐ μὴν ἀλλὰ
+καί climaxes; **carry them whole wherever English can bear it**, splitting only at Migne's colon (·) or full
+stop. Sophronius argues by near-synonym pairs and triple comparatives (ἀγαθῶν ἁπάντων ἀγαθώτερα, καὶ χρηστῶν
+ἁπάντων χρηστότερα, καὶ πάντων θαυμασίων θαυμασιώτερα): **every member rendered**, each with its own English
+word; the English may be ungainly, and that is the register. The anchor ratio is ≈ 1.4 English words per Greek
+on the figured pages (the lament, the triple good tidings), lower on the dogmatic body.
+
+### R4. The anathema catalogue keeps its form
+
+"I anathematize X, and Y, and Z, and all who …" — first person, one verb (*anathematize*), the names in their
+standard English forms whatever the Greek's spelling (Ἀπολλινάριος / Ἀπολινάριος both print), each party-name
+as the English has it (Arians, Nestorians, Eutychians, Acephali, Jacobites). The catalogue is a text with a
+reception history and a reader will look names up in it: **no expansion in the text, a one-line P note where the
+bearer is ambiguous** (two Peters, two Theodosii, two Julians). The five synods are "the holy synods" with their
+cities; "council" only in a note.
+
+### R5. Festal figures are the homily: anaphora, apostrophe, dialogue
+
+The festal homily works by repetition — εὐαγγέλια said three times, Χαῖρε opening nine clauses in a row, ὅτε …
+ὅτε … through twenty cola — and by apostrophe (to the Virgin, the Cross, the Forerunner) and staged dialogue
+(Gabriel and the Virgin, speech answering speech). **Keep every repetition at its full count and in its place**
+(the anchor's "good tidings, brethren, good tidings, and again I will say, good tidings"); never vary the
+repeated word; never merge two cola; keep the speeches inside Migne's « ». The preacher's own frame ("brethren",
+"I will say", "what then does that athlete say?") stays in his voice and number.
+
+### R6. Scripture as printed; the pastiche is the author's
+
+The homilies quote the LXX and the New Testament as printed and then **rewrite the quotation in the author's own
+words** (the Synodical Letter's second Job 29, every clause after "in darkness" Sophronius's own; Or. II's
+Luke 1 re-sung in Gabriel's mouth). Translate what is printed; a familiar verse may echo traditional English
+where the Greek matches it; an S note gives the reference and, once, says the pastiche is his. The LXX's own
+forms stand (ηὔγει, ὑλώδης, ἁδροί) and are not misreads.
+
+### R7. Section marks; a letter has none; a fragment is marked where it starts
+
+Or. II's Αʹ … Νʹ and Or. VII's lower-case αʹ … κʹ render as arabic numerals with a period opening their own
+paragraph, numbered by sequence with the Latin's Roman numerals as witness (the Kraken garbles and drops them).
+**The Synodical Letter has no marks in the Greek and no numerals in the Latin**: paragraph by sense, nothing
+numbered. Where Migne prints a fragment beginning mid-sentence (Or. V at col. 3309), the English carries the
+title line at that point and a T note on the first sentence saying so; the sentence is rendered as it stands,
+with no supplied beginning.
+
+### R8. Titles, headings, liturgical formulas
+
+Each piece opens with its fixed English title in capitals on its own line, then the printed heading's
+attribution clause in italics as printed. Εὐλόγησον, Πάτερ = "Give the blessing, Father." (the liturgical
+received-English rule above); δεσπότης = *master* (capital for Christ), συλλειτουργός = *fellow-minister*,
+ἱεράρχης = *hierarch*.
+
+- **EN/Greek ≈ 1.4** on the anchors (720 → ≈1,010; 390 → ≈560) — budget by that for both registers' figured
+  pages; the plain dogmatic body runs nearer 1.25.
+
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"
