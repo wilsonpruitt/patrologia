@@ -620,6 +620,75 @@ XXV to Decentius, Ep. VI to Exuperius, and Epp. XXIX–XXXI, which are Augustine
 Recorded as `translation.priorEnglishKnown` on the work, which `scripts/lib/first-english.mjs`
 reads. `workStatus` stays as triage wrote it (CLAUDE.md rule 8). 7089 and 7091 keep "First".
 
+## Late-antique panegyric and ekphrasis — register rules (Fable mini-pilot on Procopius of Gaza, PG 87.3, 2026-11-05)
+
+Calibrated on the *Panegyric on the Emperor Anastasius* §§ 1–2 (cols 2793–2797, Villoison's text from cod.
+Marc. gr. 428), with the *Buildings* I.1 excerpt and the *Monody on Hagia Sophia* that Migne prints after it
+read alongside. The genre is new to the corpus: classicizing Attic epideictic of the Gaza school (Procopius,
+Choricius), periodic, figured, allusive, with almost no Scripture. Everything in the PG register above carries
+over (Tier-2 literalism, every clause rendered, markers sacred, the Latin a witness never a source); nothing
+here relaxes Patterns 7–19. Anchor: the foot of `translate/procopius-rhetorica/CARD.md` (English + T/S/P notes +
+OCR rows for p-0011:6 – p-0013:22).
+
+### R1. The period is the unit
+
+Procopius builds in balanced periods: a μέν clause answered by δέ three lines later, a γάρ that explains the
+whole preceding sentence, a figure that occupies a full stop. **Carry the period whole wherever English can
+bear it**; split only where the Greek already has a colon (·) or a full stop. Never paraphrase a figure into
+the statement it stands for (the meadow, the hand held out to the sea, the lover rising to the sight, the
+seer who knew the future): the image *is* the argument. English sentence length in the anchor runs to 60
+words without strain; that is the ceiling, not a target.
+
+### R2. *thou* for the emperor, by number not by rank
+
+The Panegyric addresses Anastasius in the singular from the first line (ὦ κράτιστε βασιλεῦ … ἐπὶ σοὶ … τοῖς
+σοῖς τροπαίοις) to the last, so it is **thou/thee/thy** throughout — the standing PG rule that the second
+person is a number marker, applied to a 30-section speech. It happens to give the English its ceremonial
+height, but that is a by-product; never *thou* for reverence where the Greek is plural, never *you* to soften.
+The orator's own plural (τολμήσομεν, "we shall dare") stays "we".
+
+### R3. One word for βασιλεύς per referent
+
+**emperor** for the Roman ruler (Anastasius, Justinian), **king** for the ancients the panegyric measures him
+against (Cyrus, Agesilaus, Philip, Alexander) and for myth (Eumolpus). βασιλεία = *empire* (realm/office) or
+*reign* (time); ἡγεμονία = *rule*; ἀρχή by sense. The comparison sections (XXV–XXVII) turn on the same Greek
+word for both, and the English keeps the two apart deliberately: it is an emperor outdoing kings.
+
+### R4. Allusion stays allusion; the note carries the learning
+
+Epidamnus, the Phaeacians, the earth-born Athenians, Eumolpus taking the priesthood, Aristides and
+Pisistratus on taxes — **render the name and the predicate as printed, never expand them in the text**, and
+give a one-line P or S note on first occurrence where a reader would be lost (Thucydides I.24 for Epidamnus;
+Corcyra = Phaeacia). The Latin column's *me Hercule* for μὰ Δία is Villoison's idiom: the English keeps Zeus.
+Greek divine and heroic names stay Greek (Zeus, Ares, Heracles, Pythian Apollo) — the PG rule, against the
+Latin's Jupiter/Hercules.
+
+### R5. Villoison smooths; the English does not
+
+His Latin is a careful translation that quietly repairs the manuscript's rough places (τῷ μὲν θατέρου ψιλῶς
+ἀπολαύειν, a μέν with no δέ, becomes *quae bona, iis plane frui*). **Translate the Greek as printed, and put
+the Latin's reading in a T note** (anchor n. 4). Where the Latin and the Greek disagree on a name, number or
+negative, suspect the OCR first (card rule); where they agree on a surprising reading, it is real, and if
+wrong it is `print`, not `ocr`.
+
+### R6. Section marks and the three-work seam
+
+Letter-numerals used as section MARKS (Αʹ … Λʹ) render as arabic numerals with a period opening their own
+paragraph (the Nicetas rule); in-prose numerals are English words. The Kraken misreads the marks (Πʹ for Ηʹ,
+Αʹ for Ιʹ/Λʹ, stigma lost in 6/16/26): **number by sequence against the Latin column's Roman numerals.** The
+*Buildings* excerpt and the *Monody* carry no marks. Each of the three pieces opens with its title in capitals
+on its own line; the Gaza/Caesarea attribution is site about-text, never a translator's gloss.
+
+### R7. Fixed vocabulary (full table: `translate/procopius-rhetorica/GLOSSARY.md`)
+
+ἀρετή virtue · εὐεργέτης benefactor · ἀμοιβή requital · δωρεά gift · φιλανθρωπία humanity (kindness to
+strangers of the Phaeacians) · φιλοτιμία ambition · τύχη fortune · τὸ Κρεῖττον the Higher Power · λόγος
+speech / λόγοι words · ὑπήκοοι subjects · τρόπαιον trophy · τὸ χρυσάργυρον the chrysargyron. Hagia Sophia:
+νεώς church · θόλος dome · ἀψίς arch · πεσσός pier · μηχανικός master-builder · λῶροι the so-called *loroi*
+(transliterated, one T note).
+
+- **EN/Greek ≈ 1.35** on the anchor (≈700 Greek words → ≈950 English) — budget by that for epideictic prose.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"
