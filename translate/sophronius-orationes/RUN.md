@@ -33,6 +33,14 @@ outside Migne (Usener 1886, if memory serves; not verified): a later option for 
   so-019/020 OCR tables were written against v1 tags, so remap them by line text before the image check.
 - ✅ so-021 Or. VI done (≈0.14M): 320 OCR rows on 2,500 words (the Latin OCR is poor: ≈130 per 1,000). Column-top fix
   patched in by the translator. One doubt: p0274.L.34 `f et aqui`.
+- ✅ so-019 Or. I done (≈0.16M): 308 OCR rows; 6 column-top restorations patched in. Doubts: p0216.R.43 `euchobruto`,
+  p0217.L.59 `rec enim` → *nec enim* (a NEGATIVE rests on it: image-check first), p0219.L.36, p0218.R.45.
+- ✅ so-020 Or. III done (≈0.16M): 403 OCR rows, §§1–23 under 5 chapter heads; restorations + full source line patched in.
+  Doubts: p0260.L.15 *nula umbra* (nulla would invert the sense), p0262.L.30, p0263.L.10. *conjunctio* rendered "union"
+  (T note: hypostatic union, not the Nestorian word).
+- **Latin run total ≈0.47M.** ≈1,030 Latin OCR rows (≈90 per 1,000 words, vs ≈25 for the Greek): the image check for
+  these three is mostly æ/œ, u/n, c/e. ⚠ so-019/020 rows near restored lines use v1 numbering (one line off in cols 3204,
+  3206, 3209, 3210, 3293): remap by text against `so-0NN.v1.md` before cropping.
 ⬜ *De peccatorum confessione*: needs its remaining pages run through Kraken (p. 299 on) before it can be scheduled.
 
 Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-11-05: translate it anyway**, with an

@@ -1,10 +1,11 @@
 # Next session — resume note
 
-## ▶ 2026-11-05 (latest) — SOPHRONIUS *SYNODICA* + *ORATIONES*: ALL 18 CHUNKS TRANSLATED (≈1.62M), nothing deployed/pushed
+## ▶ 2026-11-05 (latest) — SOPHRONIUS *SYNODICA* + *ORATIONES*: ALL 21 CHUNKS TRANSLATED (≈2.1M), nothing deployed/pushed
+✅ Wilson 2026-11-05: Latin-only Or. I, III, VI translated too (so-019–021, from the copyA Latin OCR via new `scripts/kt-scaffold-latin.py`; ≈0.47M; ≈1,030 Latin OCR rows; v1-tag remap owed, see RUN.md). ⚠ The site builder has never built a PG work with NO Greek column: build work owed for these three.
 Wilson's go 2026-11-05 ("fable anchor and then opus") covers the whole pipeline (estimate ≈4–4.5M). Score:
 **`translate/sophronius-orationes/RUN.md`** (table of what Migne prints, every decision, every brief's findings).
 Scope: Synodical Letter (so-001–006; IN by Wilson's ruling despite Allen 2009) + Or. II, IV, V, VII, VIII. Or. I, III, VI
-are Latin-only in Migne (not done; ⬜ Wilson may want them from the Latin); *De peccatorum confessione* needs more Kraken pages.
+are Latin-only in Migne (now translated from the Latin, so-019–021); *De peccatorum confessione* needs more Kraken pages.
 **NEXT, in order:** (2) sweep: section numbers vs the Latin, glossary clashes (δεσποτεία dominion vs lordship; ἀγάπησις,
 ταπείνωσις humility/humbling, συνάφεια, Θεοτόκος notes duplicated A/B), seams; (3) image check of ≈800 OCR rows
 (`kt-sheet.py sophronius-orationes` → read → `kt-verdict.py` → `kt-apply.py` → `checked/`), with RUN.md's listed doubts
