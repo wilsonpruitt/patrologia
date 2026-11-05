@@ -132,6 +132,27 @@ found). `verify/PRINT-ERRORS.tsv` = the 89 M rows (the [sic:] layer).
   τελειωμένη, p0282.49 θάτερον, p0291.13 καταλειψομένην, the so-018 optatives): the English follows the emendation, so
   each needs the English brought to the plate or a T note marking our conjecture against Migne. That is step 3b.
 
+## ✅ Step 3b DONE 2026-11-05: the 36 P rows (Opus agent, coordinator-reviewed)
+Each P row (plate = the OCR's form, so the translator's "reading" was an emendation against Migne) resolved: **22 re-Englished from
+the printed Greek** (e.g. p0209.29 "our full assurance", p0233.17 "brought to completion", the so-018 optatives "may we gather",
+"would wish") or confirmed already following it; **14 kept as our conjecture with a T note naming Migne's printed form** (p0193.45,
+p0199.24, p0198.17, p0203.12, p0235.36, p0276.53, p0282.49, p0283.04, p0283.16, p0285.10, p0288.10, p0290.11, p0291.13, p0296.41).
+OCR rows relabelled `print`. ⚑ The agent thinks p0235.36, p0286.55, p0276.53 are more likely Migne's misprints (M) than his text
+(P), and that p0238.15's "articular infinitive" comment is wrong (the plate has finite προσδέδεξαι). English is right either way;
+it only affects the [sic:] layer at build. Every chunk's note markers were verified 1…n.
+
+## ✅ Step 3c DONE 2026-11-05: image check of the LATIN-only orations (so-019–021), coordinator, in session
+New `scripts/kt-sheet-latin.py` (crops from `<chunk>.lines.tsv` djvu boxes; finds the line by text, which absorbs the v1/v2
+tag offset). `kt-verdict.py` gained `--rows=` / `--out=`. Verdicts in `IMAGE-CHECK-LATIN-so-0NN.tsv`: **949 rows: R 910 · M 21 ·
+P 13 · ? 5.** The Latin OCR is noisy but the translators' readings held at ≈96%. **What the plate changed in the English:**
+so-019 *Lætam* (not *Piam*: "Joyful … day"); so-020 *Hæc … quæ* (the schools, "which judge"), *nuda umbra* ("a bare shadow",
+doubt closed), *rati* ("as they supposed", doubt closed), *naturæ suæ habitu* ("from the condition of its own nature"); so-021
+*infanda* ("unspeakable swiftness"), *et aquæ* ("and waters", doubt closed). Row-only corrections: *longe*, *cilicini*, *emi-/
+gravit*, *Adamo tantum* (no negative: English already followed the print), *quæ* (p0264.R.17).
+⬜ **Open:** p0217.L.59 *(r/nec enim*: the first letter is damaged ON THE PLATE and the English's negative rests on it. **A second
+witness is needed**; `data/volumes.json` lists PG 87 copies (087-1/2/3), only copyA is on disk. ⬜ The Latin R rows are recorded
+but not yet applied to a "checked" Latin text: kt-to-site's Latin-only build (new work) must take them from these TSVs.
+
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·
    F 016–018), three at a time (rule 5), from `kt-scaffold.py sophronius-orationes brief …`.

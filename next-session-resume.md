@@ -1,5 +1,12 @@
 # Next session — resume note
 
+## ▶ 2026-11-05 (latest, last) — SOPHRONIUS: steps 2, 3, 3b, 3c ALL DONE; nothing deployed or pushed
+Score `translate/sophronius-orationes/RUN.md`. Greek image check (641 rows) → `checked/`; P rows resolved (3b); Latin image check
+(949 rows, new `scripts/kt-sheet-latin.py`) with 8 English fixes from the plate. **NEXT, in order:** (4) apparatus, every page
+(Sonnet; the note calls listed under Step 3 first; notes 7/16 of the Synodica); (5) kt-to-site CONF + GREEK-BANDS + build, incl.
+the NEW Latin-only page type for Or. I/III/VI (Latin R rows from `IMAGE-CHECK-LATIN-*.tsv`); (6) blind read; then Wilson.
+⬜ Wilson/next session: p0217.L.59 *nec enim* needs a second PG 87 witness (only copyA on disk).
+
 ## ▶ 2026-11-05 (latest, later) — SOPHRONIUS: step 2 sweep + step 3 Greek image check DONE (`1e024c8b`, `c4595b26`); step 3b running
 Score: **`translate/sophronius-orationes/RUN.md`** ("Step 2 DONE", "Step 3 DONE"). Sweep: δεσποτεία = dominion, συζυγία = pairing,
 duplicate Theotokos note dropped, sections + seams checked (Greek ιαʹ/ιηʹ missing from the Or. VII scaffold). Image check, all 641
