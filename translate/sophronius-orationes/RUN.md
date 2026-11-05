@@ -39,6 +39,12 @@ Rule 8: the Synodical Letter is already in English (Allen 2009). **Wilson, 2026-
   Mother of God; ὁμοούσιος = consubstantial; Sergius = "you" (honorific plural throughout); μερισμός = partition vs
   διαίρεσις = division. Image-check items from the anchor: p0223.04 `Αντον. ΒΑν.η` (editorial line?), p0223.43 `νοταΕ.` leak.
 - Step 1 launched 2026-11-05: briefs A (so-001–003), B (004–006), C (007–009), Opus, 3 at a time; D–F follow.
+  - ✅ B done (≈0.22M): so-004 43 OCR rows, so-005 22, so-006 30. Leaked VARIÆ LECTIONES lines (p0202.54, p0203.55,
+    p0211.49) logged `stray`. ✅ **p0214.32–34 checked on the image: Migne prints SEVEN ROWS OF DOTS in the Greek column,
+    a lacuna in his Greek that only the Latin fills** (*ut discretionis … mercedem munifice recepturi*). Not a Kraken drop;
+    the translator's "…" and T note stand. Terms decided by B (sweep against A): κατάθεμα = curse, συνέδριον = session,
+    πρόεδρος = president, ἑνάς = henad, ταπείνωσις = humility vs ταπεινότης = lowliness, θεοσημεῖαι = God-showing signs.
+  - D (so-010–012) launched when B finished.
 
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·
