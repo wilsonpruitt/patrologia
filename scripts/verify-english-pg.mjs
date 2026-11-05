@@ -52,8 +52,11 @@ for (const c of manifest.chunks) {
   const eCols = [...eng.body.matchAll(colRe)].map(m => m[1]);
   if (gCols.join(',') !== eCols.join(','))
     errs.push(`${n}: anchor sequence mismatch (grc ${gCols.length}: ${gCols.join(' ')} | eng ${eCols.length}: ${eCols.join(' ')})`);
-  const gw = words(grc.body.replace(colRe, ''));
-  const ew = words(eng.body.replace(colRe, ''));
+  // Migne's apparatus ([n: …] variants, [sic: …], [b: X] bands) is not translated running text: a work whose pages carry many
+  // variant readings (Moschus: 48 in one chunk, 155 Greek words) would otherwise read as under-translated.
+  const noApp = t => t.replace(/\[(?:n|nt|sic|var|b|d|cj|lat|f): [^\]]*\]/g, ' ');
+  const gw = words(noApp(grc.body).replace(colRe, ''));
+  const ew = words(noApp(eng.body).replace(colRe, ''));
   const ratio = ew / gw;
   if (ratio < 1.1 || ratio > 2.0) errs.push(`${n}: EN/GRC ratio ${ratio.toFixed(2)} outside [1.1, 2.0] (${ew}/${gw})`);
   engBodies.push({ n, body: eng.body });

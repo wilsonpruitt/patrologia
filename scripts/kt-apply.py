@@ -37,8 +37,9 @@ for r in rows:
     if v == '?': und.append(r); continue
     if v != 'R' or kind not in ('ocr', 'space', 'subscript'): continue
     m = re.match(r'p(\d{4})\.(\d+)', r['tag']); p, ln = f'p-{m.group(1)}', int(m.group(2))
-    plate = re.search(r'plate=(\S+)', r['comment'] or '')
+    plate = re.search(r'plate=(?:\[b: .\]\s*)?(\S+)', r['comment'] or '')
     to = nfc(plate.group(1).replace('_', ' ')) if plate else clean(r['reading'])
+    to = re.sub(r'^\[b: .\]\s*', '', to)       # a band letter read off the plate is the BAND layer's (mp-bands.py), never a word
     frm = nfc(r['printed'])
     fp = [x.strip() for x in frm.split('/')]; tp = [x.strip() for x in to.split('/')]
     if len(tp) != len(fp): tp = [to] + [''] * (len(fp) - 1) if len(fp) > 1 else [to]
@@ -99,7 +100,7 @@ if not os.path.exists(f'{T}/verify/GREEK-PATCHES.tsv'):
     open(f'{T}/verify/GREEK-PATCHES.tsv', 'w').write('page\tline\tfrom\tto\tsource\n')
 if not DRY:
     os.makedirs(f'{K}/checked', exist_ok=True)
-    for p, L in pages.items(): open(f'{K}/checked/{p}.txt', 'w').write('\n'.join(L))
+    for p, L in pages.items(): open(f'{K}/checked/{p}.txt', 'w').write('\n'.join(l.replace(',,', ',') for l in L))   # a plate= form that carries its own comma
 from collections import Counter
 st = Counter(s for a in applied for s in a[3].split(','))
 print(f'R rows {len(applied)} ({dict(st)}); M (print errors) {len(prints)}; undecided {len(und)}'

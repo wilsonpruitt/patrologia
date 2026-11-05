@@ -203,7 +203,7 @@ if __name__ == '__main__':
            'authors': [W['author']], 'citRange': W['citRange'], 'chunkCount': N, 'greekSource': W.get('greekSource', 'ours-vision-ocr'),
            'builtBy': 'scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators\')',
            'chunks': []}
-    allcrux = []; placed_g = set()
+    allcrux = []; placed_g = set(); placed_all = set()
     def base(x): return ''.join(c for c in ud.normalize('NFD', x.lower()) if ud.category(c) in ('Ll', 'Lu', 'Lo'))
     def find_word(g, word, start):
         """end offset of `word` (or its letters, accents ignored) at or after `start`; multiword allowed"""
@@ -226,20 +226,26 @@ if __name__ == '__main__':
             if cid not in ckey.split('|'): continue
             for page, word, txt in items:
                 if not txt.strip(): continue                           # an unprinted variant line: listed, never placed
-                if (cid, page, word) in placed_g: continue
+                if (cid, page, word) in placed_g or (page, word, txt.strip()) in placed_all: continue
                 if page not in cmap: continue
-                anc = f'[{gcol(page)}]'; start = g.find(anc)
+                gm = re.sub(r'\[n: [^\]]*\]', lambda m_: '\0' * len(m_.group()), g)   # search with earlier notes masked: a note's own words are not anchors
+                anc = f'[{gcol(page)}]'; start = gm.find(anc)
                 if start < 0: continue
+                ln_ = (APP.get('greekLines', {}).get(f'{page}|{word}|{txt.strip()}') or {}).get('line')
+                if ln_:                                                  # Moschus: begin the search at the note's own line
+                    ltok = nfc(open(f'{K}/checked/p-{page:04d}.txt').read().split('\n')[ln_ - 1]).split()[1:4]
+                    k_ = gm.find(' '.join(ltok), start) if ltok else -1
+                    if k_ >= 0: start = k_
                 nth = {(940, 'ἑπτὰ'): 3}.get((page, word), 1)   # blind read R5: Migne's mark is on the THIRD ἑπτὰ of the page (Αἱ γὰρ ἑπτὰ, p0940.37)
                 for _ in range(nth - 1):
-                    k = g.find(word, start)
+                    k = gm.find(word, start)
                     if k >= 0: start = k + len(word)
-                hit = find_word(g, word, start)
+                hit = find_word(gm, word, start)
                 if hit is None: continue
-                g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word))
+                g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word)); placed_all.add((page, word, txt.strip()))
         e, crux = english(cid, SICS.get(cid, {}), APP.get('english', {}).get(cid, {}))
         ctx = None
-        if fl > 1:   # opens mid-page: the column anchor belongs to the previous chunk; this one carries it as colContext only
+        if fl > 1 and ci > 0:   # opens mid-page: the column anchor belongs to the previous chunk; this one carries it as colContext only
             ctx = f'{gcol(fp)}'
             g = re.sub(r'^\[' + ctx + r'\]\s*', '', g, count=1)
             e = re.sub(r'\[' + ctx + r'\]\s*', '', e, count=1)

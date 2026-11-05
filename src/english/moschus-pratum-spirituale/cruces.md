@@ -413,15 +413,15 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3056** · …While we were at Alexandria, at the Ennaton, — P. The Ennaton, the monastic settlement at the ninth milestone west of Alexandria (Latin *in Nono*).
 - **3056** · …his monastery: no door, no window, no spetlon, — T. σπετλόν is unknown to us; the Latin keeps it as *spetlum* and keys it to a note (29), which is read separately with Migne's notes.
 - **3056** · …never kept, even for one hour, any cash, — T. Printed λογάρην, taken as vernacular λογάριν, "cash" (see OCR table). The Latin reads *librum*.
-- **3056A** · …which thou canst give it back to me." — T. Printed δι᾿ οὗ ὠφέλησας ἀποδοῦναί μοι, which does not construe; "canst" follows the Latin *possis*.
-- **3056A** · …prostrations, and I will reckon thee one keration"; — P. The keration (Latin *siliqua*) is a twenty-fourth of a gold piece, as the story itself says below.
-- **3056A** · …he would give him food and drink . — T. "And he would give him food and drink" stands here and again a few lines below (0143.14–15); the Latin has it only once, in the second place. It may be a dittography. Translated as printed.
-- **3056A** · …piece, the elder took his bond from him — T. συντόμιον: the sense is uncertain. We take it as the short written note of the debt. The Latin omits it.
-- **3056A** · …and let him go, having given him blessings — T. Blessings (εὐλογίαι): gifts in kind.
-- **3056A** · …resolved to drink neither water, nor warm wine, — T. Warm wine (εὔκρατον), wine mixed with hot water; the Latin has *vinum*. The bracketed "[any liquid]" (ὑγρόν) is set in brackets in Migne's Greek, against a second "water" that the Latin renders *potionem aliam*.
-- **3056A** · …vegetables that could relieve him of his thirst. — T. Printed σερῆς καὶ τρόζημα, read as σέρεις ("endives") and τρώξιμα ("raw greens"); the Latin generalises to *olera quaedam comestibilia*.
-- **3056A** · …water and found it short by one jar. — T. παρ᾿ ἓν κιλίκιον: we take it as "less by one jar". The Latin has *ex magna parte imminutam*, "much diminished". For the jars (κιλίκια) the Latin gives *amphoras*.
-- **3056A** · …that they might attain the eternal good things. — T. Printed περὶ ἃ οἱ ἀσκηταὶ ἐπέμενον, ἐγκρατευόμενοι ἄσκησιν; the construction is broken. The Latin has *Ecce quam vim sibi intulerunt continentes monachi*.
+- **3057A** · …which thou canst give it back to me." — T. Printed δι᾿ οὗ ὠφέλησας ἀποδοῦναί μοι, which does not construe; "canst" follows the Latin *possis*.
+- **3057A** · …prostrations, and I will reckon thee one keration"; — P. The keration (Latin *siliqua*) is a twenty-fourth of a gold piece, as the story itself says below.
+- **3057A** · …he would give him food and drink . — T. "And he would give him food and drink" stands here and again a few lines below (0143.14–15); the Latin has it only once, in the second place. It may be a dittography. Translated as printed.
+- **3057A** · …piece, the elder took his bond from him — T. συντόμιον: the sense is uncertain. We take it as the short written note of the debt. The Latin omits it.
+- **3057A** · …and let him go, having given him blessings — T. Blessings (εὐλογίαι): gifts in kind.
+- **3057A** · …resolved to drink neither water, nor warm wine, — T. Warm wine (εὔκρατον), wine mixed with hot water; the Latin has *vinum*. The bracketed "[any liquid]" (ὑγρόν) is set in brackets in Migne's Greek, against a second "water" that the Latin renders *potionem aliam*.
+- **3057A** · …vegetables that could relieve him of his thirst. — T. Printed σερῆς καὶ τρόζημα, read as σέρεις ("endives") and τρώξιμα ("raw greens"); the Latin generalises to *olera quaedam comestibilia*.
+- **3057A** · …water and found it short by one jar. — T. παρ᾿ ἓν κιλίκιον: we take it as "less by one jar". The Latin has *ex magna parte imminutam*, "much diminished". For the jars (κιλίκια) the Latin gives *amphoras*.
+- **3057A** · …that they might attain the eternal good things. — T. Printed περὶ ἃ οἱ ἀσκηταὶ ἐπέμενον, ἐγκρατευόμενοι ἄσκησιν; the construction is broken. The Latin has *Ecce quam vim sibi intulerunt continentes monachi*.
 - **3060A** · …the mother of the lord Paul the candidatus, — P. A candidatus was a member of the imperial guard, and by this period the title had become an honorary rank.
 - **3060A** · …her husband a pagan. They had fifty miliaresia. — P. The miliaresion was a silver coin.
 - **3060A** · …were only the poor, sitting there again ; — T. The Greek has no main verb or negative here; the Latin has *neminem vidit ... nisi solos pauperes*, "he saw no one but the poor". Translated as printed.
@@ -530,7 +530,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 ## Migne's notes not placed in the running text
 
-Migne's foot-of-page apparatus was read for every page (translate/moschus-pratum/notes/result-*.jsonl). Placed in the text: 192 of 188 numbered Greek notes, and the Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne's own prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.
+Migne's foot-of-page apparatus was read for every page (translate/moschus-pratum/notes/result-*.jsonl). Placed in the text: 173 of 188 numbered Greek notes, and the Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne's own prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.
 
 - p. 0039 (lettered, a): Idem miraculum, in aliis libris, hæreticorum dolo vitiatum legitur. — keyed to existens
 - p. 0039 (lettered, b): Ejusd. syn. act. 5, in qua etiam citantur consequenter hujus lib. cap. 81 et 180. — keyed to inclusus
@@ -688,5 +688,14 @@ Aliter Callistus in Synaxario: Ἐδήλουν δὲ διὰ τῶν βαΐων,
 - p. 0173 (lettered, g): In ejusd. bibl. Taur. cod. 105, fol. 414, est ex Sophronii Synodica, cap. 35, De hæreticis atque hæresiarchis; atque in cod. 271, fol. 76, Sophronii De interpunctione. V. Cat. cit. pag. 198 et 375. HARL. — keyed to 402
 - p. 0043 (numbered, marker illegible): al. μετετέγκωμεν. — keyed to ἀπενέγκωμεν
 - p. 0047 (numbered, marker illegible): al. παλλίον. — keyed to παλίον
+- p. 0053 (numbered, marker illegible): Δίδαι et Δαδαί. — keyed to Τάδαι
+- p. 0054 (numbered, marker illegible): al. ins. γάρ. — keyed to Σὺ
 - p. 0059 (numbered, marker illegible): al. Χαλκηδόνι. — keyed to Χαλκηδόνι
+- p. 0060 (numbered, marker illegible): al. inser. καὶ ὡς θέλεις. — keyed to ἰδοὺ
+- p. 0078 (numbered, marker illegible): Pro μαγειρεῖον. — keyed to μαγειρίον
+- p. 0089 (numbered, marker illegible): al. ὑποκαῦσαι. — keyed to καῦσαι
+- p. 0089 (numbered, marker illegible): al. σπογγίσαι. — keyed to σφογγίσαι
 - p. 0108 (numbered, marker illegible): Int. οἰκονομοῦντες. — keyed to οἰκονομοῦντες
+- p. 0123 (numbered, marker illegible): al. λόγος. — keyed to λογισμὸς
+- p. 0138 (numbered, marker illegible): al. add. γέροντα διακριτικόν. — keyed to ἄλλον
+- p. 0169 (numbered, marker illegible): al. add. τοῦ αἰτιᾶσθαι ἑαυτὸν ἕκαστος πάντοτε ἐν παντὶ πράγματι. — keyed to Ποιμένος

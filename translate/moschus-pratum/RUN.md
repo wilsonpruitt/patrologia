@@ -167,17 +167,19 @@ column `drop` = Kraken's garbled read of the head, to DELETE from the Greek (96;
 `ΡΥΤ`). Spot-checked: p-0080 LXXVIII → Ὁ δὲ ἀββᾶς Ἰωάννης…, p-0128 CLX, p-0113 CXXXIV all land on the right line. Latin-only
 CXXI/CXXII (p-0106) leave a garble line still in the text: strip by pattern.
 
-## ⬜ NEXT (build, local only): generalise `scripts/kt-to-site.py` to Moschus
-1. `CONF['moschus-pratum']` (vol 87, `data/pg-column-maps/pg087c.json`, xml `raw/scans/pg087c/copyA_087c_djvu.xml`; chunk files
-   `mp-NNN.md` not `dd-`; Latin twin works as is: djvu object index = pdf page, verified at p80); **registry entry** in
-   `data/pg-works.json` (none yet: key, slug, titleEn, `citRange` PG 87.3 2851–3112, badge = weak "New" (Wortley's Cistercian
-   translation exists; rule 8, do not research), `englishState` stays unset until it ships).
-2. `greek()`: replace Dorotheus's `is_head`/`SECT` with GREEK-BREAKS (paragraph break at each `line`, delete `drop` lines).
-3. ⚠ **Band letters** (CLAUDE.md `[b: X]`, captured at chunking or never): the margin A–D are fused into Kraken lines
-   (`…ἐπὶ Πόντον, Α` trailing; `Αλέγουσι`, `ΒΔιηγήσατο` glued) and must be stripped from the Greek. Plan: take their y from the
-   `Marginalia` regions (178 boxes in `regions.json`) → line index by the same y interpolation as GREEK-BREAKS → `[b: X]`;
-   check on 5 pages by eye before trusting. The English cards already carry `[b: X]` and `[NNNN]` anchors from the translators.
-4. Feed `notes/APPARATUS.json` (`greek` = 3-tuples as Dorotheus; use `greekLines` to pick the right occurrence of a repeated word
-   instead of the hard-coded `nth`); `unplaced` → cruces.
-5. Then `mark-sentences` → `align-sentences --write` → `verify` → `plate-gate` → `build-work-page-pg` → `build-site` →
-   `build-lookup-grc` → `preflight` (never deploy without Wilson's OK) → blind polarity read (≈1.5–2M, Wilson's go + model).
+## ✅ Site build DONE 2026-11-04 (local; nothing pushed or deployed): 31 chunks, preflight 9 of 10
+`python3 scripts/kt-to-site.py moschus-pratum` (generalised: CONF + `mp` prefix, `GREEK-BREAKS.tsv` paragraph per chapter, `GREEK-BANDS.tsv`
+`[b: X]` + glued-letter strips, `GREEK-DROPS.tsv` Latin furniture deleted, APPARATUS feed placing each Greek `[n:]` ONCE at its own line,
+notes masked so none nests; first chunk keeps its opening anchor) → `mark-sentences` → **`WIDE_PARA=1`** `align-sentences moschus-pratum-spirituale --write`
+(Greek is paragraphed by chapter, English by story: 87.8% sentence-level; the switch is off by default so shipped works cannot change) →
+`verify-english-pg` OK (ratio now counts running text only, apparatus stripped; all 10 other PG works still pass) → `plate-gate` OK (0 markers) →
+`build-work-page-pg` (131 column blocks) → `build-site` → `build-lookup-grc.py` → `preflight`: **9 of 10 pass; the 10th is the blind polarity read.**
+Registry `data/pg-works.json` (key `moschus-pratum-spirituale`, slug `pratum-spirituale`, weak "New" badge: Wortley exists, not researched);
+`data/work-about.json` + `data/author-bios.json` + the RECENT line in `build-landing.mjs` are **DRAFTS for Wilson to read before any deploy.**
+Fixes made on the way: kt-apply no longer writes a plate-read band letter into a word (`[b:` was reaching the page, p46.18, p82.1) nor `,,`; mp-024.en.md
+got its missing `[3057]` anchor (before "(for the farmer did not have it)").
+Numbers: 176 of 188 Greek variants placed in the Greek (12 + the 7 unlocated listed in the cruces, keyed to their word); bands 494 (216 evidenced by a
+read letter, the rest inferred from the regular spacing: `how` column says which); 206 chapter breaks.
+⬜ Not done: **`[sic:]` layer** (210 rows in `verify/PRINT-ERRORS.tsv`; Dorotheus did this with `verify/SIC-MAP.json`; needs a note↔row map, plate-read already, gate is ready) ·
+**blind polarity read** (preflight's last gate: ≈1.5–2M, Wilson's go + model; brief per runbook 4a, record with `polarity-record.mjs`) · read the draft public text ·
+deploy (Wilson's OK) · push (Wilson's OK) · `englishState: "ours"` only when shipped.
