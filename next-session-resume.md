@@ -1,5 +1,16 @@
 # Next session — resume note
 
+## ▶ 2026-11-05 (latest, later) — SOPHRONIUS: step 2 sweep + step 3 Greek image check DONE (`1e024c8b`, `c4595b26`); step 3b running
+Score: **`translate/sophronius-orationes/RUN.md`** ("Step 2 DONE", "Step 3 DONE"). Sweep: δεσποτεία = dominion, συζυγία = pairing,
+duplicate Theotokos note dropped, sections + seams checked (Greek ιαʹ/ιηʹ missing from the Or. VII scaffold). Image check, all 641
+Greek rows, read in session: R 408 · M 89 · P 92 · ? 52 → `raw/kraken/sophronius-orationes/checked/` + 10 line patches. "Fourth
+day" (δʹ) confirmed at p0292.03. **Step 3b (Opus agent, launched):** ≈35 P rows where the English follows an emendation
+against Migne's printed text → re-English from the plate or T-note the conjecture. Review its diff, then commit.
+**NEXT after 3b:** (3c) image check of the ≈1,030 LATIN rows of so-019–021 (needs a Latin sheet builder: tags pNNNN.L|R.LL, boxes
+in `so-0NN.lines.tsv`; so-019/020 rows near restored lines use v1 numbering, remap by text first); (4) apparatus, every page, with
+the note calls listed in RUN.md first; (5) kt-to-site CONF + GREEK-BANDS + build (a no-Greek PG page is new build work); (6) blind
+read; then Wilson: about/bio, deploy, push.
+
 ## ▶ 2026-11-05 (latest) — SOPHRONIUS *SYNODICA* + *ORATIONES*: ALL 21 CHUNKS TRANSLATED (≈2.1M), nothing deployed/pushed
 ✅ Wilson 2026-11-05: Latin-only Or. I, III, VI translated too (so-019–021, from the copyA Latin OCR via new `scripts/kt-scaffold-latin.py`; ≈0.47M; ≈1,030 Latin OCR rows; v1-tag remap owed, see RUN.md). ⚠ The site builder has never built a PG work with NO Greek column: build work owed for these three.
 Wilson's go 2026-11-05 ("fable anchor and then opus") covers the whole pipeline (estimate ≈4–4.5M). Score:

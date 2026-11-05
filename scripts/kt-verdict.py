@@ -9,16 +9,17 @@ Usage: python3 scripts/kt-verdict.py <work> <sheet> "<slot><code>[:comment] …"
 import os, re, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 PASS2 = '--pass2' in sys.argv            # second pass (sheets2/): verdicts REPLACE the matching '?' rows of pass 1
-args = [a for a in sys.argv[1:] if a != '--pass2']
+OPT = dict(a[2:].split('=', 1) for a in sys.argv[1:] if a.startswith('--') and '=' in a)   # --rows=<ROWS.tsv> --out=<tsv> (Latin sheets, 2026-11-05)
+args = [a for a in sys.argv[1:] if not a.startswith('--')]
 work, sheet, spec = args[0], f'{int(args[1]):03d}', args[2]
-rows = [l.rstrip('\n').split('\t') for l in open(f'{ROOT}/raw/kraken/{work}/{"sheets2" if PASS2 else "sheets"}/ROWS.tsv')][1:]
+rows = [l.rstrip('\n').split('\t') for l in open(OPT.get('rows') or f'{ROOT}/raw/kraken/{work}/{"sheets2" if PASS2 else "sheets"}/ROWS.tsv')][1:]
 mine = {int(r[1]): r for r in rows if r[0] == sheet}
 v = {}
 for m in re.finditer(r'(\d+)([RPM?])(?::([^ ]+))?', spec):
     v[int(m.group(1))] = (m.group(2), (m.group(3) or '').replace('_', ' '))
 missing = sorted(set(mine) - set(v))
 if missing: sys.exit(f'sheet {sheet}: no verdict for slots {missing}')
-out = f'{ROOT}/translate/{work}/IMAGE-CHECK.tsv'
+out = OPT.get('out') or f'{ROOT}/translate/{work}/IMAGE-CHECK.tsv'
 head = 'sheet\tslot\tchunk\ttag\tprinted\treading\tkind\tverdict\tcomment'
 old = [l.rstrip('\n') for l in open(out)][1:] if os.path.exists(out) else []
 if PASS2:
