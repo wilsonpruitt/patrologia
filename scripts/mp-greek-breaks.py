@@ -37,6 +37,17 @@ for pdf in range(40, 171):
             drop = nxt[0] + 1; nxt = nxt[1:]
         if nxt: rows.append((pdf, nxt[0] + 1, cap, round(hy), drop))
         else: carry.append(cap)
+# Kraken's garbled heads in the Greek (CAPUT read as ΣΑΡΥΤ …) are heads too: a break at the next real line, if the djvu OCR missed it
+GARB = re.compile(r'[ΡρPp][ΥυYy][ΤτT]')
+have = {(r[0], r[1]) for r in rows}
+for pdf in range(40, 171):
+    lines = open(f'{K}/checked/p-{pdf:04d}.txt').read().split('\n')
+    for i, l in enumerate(lines):
+        t = l.strip()
+        if len(t) <= 24 and GARB.search(t) and not re.search(r'[α-ωά-ώἀ-ῼ]{4,}', t.replace('υ', '')):
+            j = next((k for k in range(i + 1, len(lines)) if lines[k].strip()), None)
+            if j is not None and (pdf, j + 1) not in have and not any(r[4] == i + 1 and r[0] == pdf for r in rows):
+                rows.append((pdf, j + 1, '(garbled head)', 'kraken', i + 1)); have.add((pdf, j + 1))
 # collapse several heads before one line to the last
 out = {}
 for pdf, ln, cap, y, dr in rows: out[(pdf, ln)] = (cap, y, dr)

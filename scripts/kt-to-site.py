@@ -20,7 +20,9 @@ import csv, json, os, re, sys, unicodedata as ud
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 CONF = {
     'dorotheus-doctrinae': dict(key='dorotheus-gazaeus-doctrinae', vol=88, cmap='data/pg-column-maps/pg088.json',
-                                xml='raw/scans/pg088/copyA_088_djvu.xml'),
+                                xml='raw/scans/pg088/copyA_088_djvu.xml', prefix='dd'),
+    'moschus-pratum': dict(key='moschus-pratum-spirituale', vol=87, cmap='data/pg-column-maps/pg087c.json',
+                           xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='mp'),
 }
 work = sys.argv[1]; DRY = '--dry' in sys.argv
 C = CONF[work]; KEY = C['key']
@@ -38,7 +40,7 @@ nfc = lambda s: ud.normalize('NFC', s)
 # ---------- chunks, in order ----------
 chunks = []
 for f in sorted(os.listdir(T)):
-    m = re.match(r'(dd-\d{3})\.md$', f)
+    m = re.match(rf'({C["prefix"]}-\d{{3}})\.md$', f)
     if not m: continue
     r = re.search(r'range: p-(\d+):(\d+) – p-(\d+):(\d+)', open(f'{T}/{f}').read()).groups()
     chunks.append((m.group(1), tuple(map(int, r))))
@@ -62,6 +64,19 @@ def patched(pdf, i, line):
         line = line.replace(a, b, 1)
     return line
 
+# ---------- Moschus: chapter breaks, band letters, garbled head lines (scripts/mp-greek-breaks.py, mp-bands.py) ----------
+MP = work == 'moschus-pratum'
+MP_GARBLE = re.compile(r'[ΡρPp][ΥυYy][ΤτT]')
+MP_BREAK, MP_DROP, MP_BANDS = set(), set(), {}
+if MP:
+    for r in csv.DictReader(open(f'{T}/verify/GREEK-BREAKS.tsv'), delimiter='\t'):
+        MP_BREAK.add((r['page'], int(r['line'])))
+        if r['drop']: MP_DROP.add((r['page'], int(r['drop'])))
+    for r in csv.DictReader(open(f'{T}/verify/GREEK-DROPS.tsv'), delimiter='\t'):
+        MP_DROP.add((r['page'], int(r['line'])))
+    for r in csv.DictReader(open(f'{T}/verify/GREEK-BANDS.tsv'), delimiter='\t'):
+        MP_BANDS[(r['page'], int(r['line']))] = (r['letter'], r['strip_from'], r['strip_to'])
+
 SECT = re.compile(r"^(\[b: .\] )?([ΑΒΓΔΕϚΖΗΘΙΚΛΜ]{1,3}['ʹ΄´′]\.|Ἐρώτησις|Ἀπόκρισις)")
 def is_head(line, prev):
     t = re.sub(r'^\[b: .\] ', '', line)
@@ -79,6 +94,16 @@ def greek(ci):
         a = fl if pdf == fp else 1; b = ll if pdf == lp else len(lines)
         items.append(('anchor', f'[{gcol(pdf)}]'))
         for i in range(a, b + 1):
+            if MP:
+                pg = f'p-{pdf:04d}'; raw_ = lines[i - 1].strip()
+                if (pg, i) in MP_DROP: continue
+                bd = MP_BANDS.get((pg, i))
+                if bd and bd[2] and raw_ == bd[1]: raw_ = bd[2]                  # the glued margin letter off
+                line = nfc(patched(pdf, i, raw_))
+                if not line: continue
+                if (pg, i) in MP_BREAK: items.append(('para', ''))
+                items.append(('line', (f'[b: {bd[0]}] ' if bd else '') + line))
+                continue
             line = nfc(patched(pdf, i, lines[i - 1].strip()))
             if not line: continue
             head = is_head(line, prev)
@@ -167,7 +192,7 @@ def frontmatter(ci, g, ctx=None):
     return '\n'.join(['---', f'workKey: "{KEY}"', f'work: "{W["title"]}"', f'workEn: "{W["titleEn"]}"',
         f'authors: ["{W["author"]}"]', 'series: "pg"', f'volume: {C["vol"]}', 'language: "grc"',
         f'chunk: {ci + 1}', f'chunkCount: {N}', f'colContext: "{ctxv}"', f'colFirst: "{cols[0]}"',
-        f'colLast: "{cols[-1]}"', f'words: {words}', f'incipit: "{inc}"', 'greekSource: "ours-vision-ocr"', '---', '']), cols, words
+        f'colLast: "{cols[-1]}"', f'words: {words}', f'incipit: "{inc}"', f'greekSource: "{W.get("greekSource", "ours-vision-ocr")}"', '---', '']), cols, words
 
 if __name__ == '__main__':
     APP = json.load(open(f'{T}/notes/APPARATUS.json')) if os.path.exists(f'{T}/notes/APPARATUS.json') else {}
@@ -175,7 +200,7 @@ if __name__ == '__main__':
     gdir, ldir, edir = (os.path.join(ROOT, d, KEY) for d in ('src/greek', 'src/pg-latin', 'src/english'))
     for d in (gdir, ldir, edir): os.makedirs(d, exist_ok=True)
     man = {'workKey': KEY, 'series': 'pg', 'volume': C['vol'], 'title': W['title'], 'titleEn': W['titleEn'],
-           'authors': [W['author']], 'citRange': W['citRange'], 'chunkCount': N, 'greekSource': 'ours-vision-ocr',
+           'authors': [W['author']], 'citRange': W['citRange'], 'chunkCount': N, 'greekSource': W.get('greekSource', 'ours-vision-ocr'),
            'builtBy': 'scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators\')',
            'chunks': []}
     allcrux = []; placed_g = set()

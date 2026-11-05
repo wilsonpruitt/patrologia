@@ -42,7 +42,11 @@ const qmarksSrc = s => (plain(s).match(IS_PG ? /[?;]/g : /\?/g) || []).length; /
 const erf = x => { const t = 1 / (1 + 0.3275911 * Math.abs(x)); const y = 1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x); return x >= 0 ? y : -y; };
 const Phi = z => 0.5 * (1 + erf(z / Math.SQRT2));
 const BEADS = [[1, 1, 0.12], [1, 2, 3.1], [2, 1, 3.1], [2, 2, 4.6]];
-const PBEADS = [[1, 1, 0.12], [1, 2, 3.5], [2, 1, 3.5], [1, 3, 5], [3, 1, 5], [2, 2, 5]];
+// WIDE_PARA=1 (Moschus): the Greek is paragraphed by CHAPTER, the English by story, so one Greek paragraph meets up to a dozen English
+// ones; Gale–Church length still prices each wide bead, and the anchor/notes penalty in `extra` still applies. Off by default so
+// a shipped work's alignment cannot change.
+const PBEADS = [[1, 1, 0.12], [1, 2, 3.5], [2, 1, 3.5], [1, 3, 5], [3, 1, 5], [2, 2, 5],
+  ...(process.env.WIDE_PARA === '1' ? [[1, 4, 6], [1, 5, 7], [1, 6, 8], [1, 7, 9], [1, 8, 10], [1, 9, 11], [1, 10, 12], [1, 12, 14], [1, 14, 16], [2, 4, 8], [2, 6, 9], [2, 8, 11]] : [])];
 function beadCost(lSents, eSents, c) {
   const lL = lSents.reduce((n, s) => n + len(s), 0), lE = eSents.reduce((n, s) => n + len(s), 0);
   const mean = c * Math.max(lL, 1), z = (lE - mean) / Math.sqrt(mean * 6.8);
