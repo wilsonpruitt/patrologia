@@ -101,3 +101,37 @@ three openings from the Greek. Rejected after reading the image: p53 5572, p120 
    030); ναύκληρος → shipmaster (mp-022); προσκομιδή → oblation, εὐλογίαι → blessings (mp-001); διακονητής → server
    (mp-017). Kept on purpose, each with a note: καλόγηρε "good old man" to laymen (mp-011, 026); κῦρι "sir" (mp-026 register).
    ⚑ Left for Wilson's eye, not swept: "lord abba" (16) vs "my lord abba" (5) for κῦρι ἀββᾶ; παρρησία "familiarity" (mp-025).
+
+## ✅ Step 4 done 2026-11-04 (in session): image check of every flagged row
+All **1,018** OCR-table rows of kind ocr/doubt/print/subscript read on the page images, in two passes:
+`scripts/kt-sheet.py` (contact sheets: the row's line found by its Greek letters, crop centred on the word; `--redo`
+= second pass, whole line ± one line, for the rows the tight crops missed) → `scripts/kt-verdict.py` (one code per
+row) → `IMAGE-CHECK.tsv`. Verdicts: **R 650** (plate shows the corrected reading) · **M 210** (Migne prints the faulty
+form himself) · **P 144** (the plate has what Kraken read; the translator's emendation is not the text) · **? 14**.
+`scripts/kt-apply.py` then built **`raw/kraken/moschus-pratum/checked/`** = `ruled/` + every R row (the plate's own form
+wins where it differs from the translator's: 45 `plate=` rows), 44 of them across a line break with the hyphen put
+back; the 13 it could not place are line-exact rows in `verify/GREEK-PATCHES.tsv` (15 patches, all apply).
+Records: `verify/APPLIED.tsv` (every R row and how it landed), `verify/PRINT-ERRORS.tsv` (the 210 M rows: the
+[sic:] layer for kt-to-site; the English already follows the correction, per the card).
+⚑ **What the check found about the translators' labels:** of 920 rows labelled `ocr`, 203 are Migne's own misprints
+(the PILOT.md finding again, measured on a whole work: about 1 in 5). Unchecked, those 203 would have emended Migne.
+⚑ **P rows:** 52 differ in letters; 47 are `doubt` rows already marked [?] in the English (now known to be Migne's
+text, which the cruces page should say); 4 `ocr` rows don't change the sense; 1 (p0167.34 εἴ τι) relabelled in
+mp-030 as a conjecture against the plate.
+⬜ **14 undecided** (left as `ruled/` reads them; decide at the plate or let them stand):
+  - mp-001 p0049.36 `κὰ` → `κα-` (pass2: line end reads καὶ ν-/νόνα; needs reading)
+  - mp-003 p0057.41 `ἁγία»` → `ἁγίᾳ` (pass2: wrong line matched)
+  - mp-003 p0057.40 `ὑτῷ` → `αὐτῷ` (pass2: word not in view)
+  - mp-003 p0057.41 `προῆλθεν` → `προσῆλθεν` (pass2: wrong line matched)
+  - mp-004 p0060.12 `πράξης` → `πράξῃς` (pass2: subscript unclear)
+  - mp-005 p0067.35 `ἰσταμένου` → `ἱσταμένου` (pass2: breathing unclear)
+  - mp-011 p0089.14 `Κοπρουθᾶʃ.` → `Κοπρουθᾶ.` (pass2: wrong line matched)
+  - mp-011 p0089.01 `ωσι` → `νῶσι (καταπονῶσι)` (pass2: damaged on plate)
+  - mp-012 p0094.02 `Ὡ` → `Ὡς` (pass2: wrong line matched)
+  - mp-014 p0102.41 `Ὥασιν` → `Ὤασιν` (pass2: breathing unclear)
+  - mp-018 p0119.16 `εύρέθη` → `εὑρέθη` (pass2: wrong line)
+  - mp-019 p0123.03–04 `κουσσοὺτ / λιν` → `κουκούλ- / λιν (?)` (pass2: next line not in view)
+  - mp-023 p0140.39 `εἴμσεν` → `εἴασεν` (pass2: wrong line)
+  - mp-029 p0164.22 `καὶ (line end) θέντες` → `κατα-θέντες` (pass2: wrong line)
+⚠ `raw/` is gitignored: `text/` (with the 3 restored lines, `RESTORED-LINES.tsv`), `ruled/` and `checked/` are rebuilt
+by `kt-rules.py` then `kt-apply.py`; never re-OCR text/ without re-adding the restored lines.
