@@ -466,14 +466,15 @@
       "title": "Pratum spiritale",
       "titleEn": "The Spiritual Meadow",
       "citRange": "PG 87.3, 2851–3112 (Greek 2852–3112; Lipomanus's preface 2849–2850; Latin notes and Sophronius's Notitia from 3113)",
-      "status": "TRANSLATED 2026-11-04 (kt method, Opus; Kraken Greek → rule pass → image-checked). Site chunks via scripts/kt-to-site.py moschus-pratum; deploy needs Wilson's OK.",
+      "status": "TRANSLATED 2026-11-04 (kt method, Opus; Kraken Greek → rule pass → image-checked → blind polarity read). Site chunks via scripts/kt-to-site.py moschus-pratum.",
       "greekSource": "ours-kraken-ocr",
       "slug": "pratum-spirituale",
       "translationStatus": "exists",
       "translationStatusNote": "An English translation exists (Wortley, Cistercian Studies 139, 1992, in copyright). Not researched further (rule 8); the work ships the WEAK claim 'New English translation'. Do NOT set 'none'.",
-      "englishState": "in-progress",
+      "englishState": "ours",
       "latinVerifier": "src/pg-latin/moschus-pratum-spirituale/",
-      "ktRecord": "translate/moschus-pratum/ (RUN.md, GLOSSARY.md, CARD.md, verify/, notes/)"
+      "ktRecord": "translate/moschus-pratum/ (RUN.md, GLOSSARY.md, CARD.md, verify/, notes/)",
+      "translated": "2026-11-04"
     }
   ]
 }
