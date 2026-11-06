@@ -232,3 +232,16 @@ Briefs 1–3 launched 2026-11-06. Then `notes/place.py` (copy from the Epistulae
 transcription 0.11M, sweep 0.23M, fixes/revisions ≈0.5M); apparatus ≈2M + blind read ≈1.5M → **≈7.5–8M all-in vs the
 ≈6M estimate** (the over-inked plates and the second image pass were not in the costing). Within the approved scope;
 reported to Wilson at the end of the session.
+- Apparatus brief 2 (pp. 29–50): 48 lines (23 notae · 12 lettered · 11 numbered; 3 markers illegible); first return was
+  INCOMPLETE (unread tiles on 4 pages, a paraphrased `en`, (g) text contaminated from (h)) → resumed with the gaps named →
+  closed; one orphan call (1) at p-0042 θεληθὲν recorded. Anchors mostly `anchorConfirmed: false` (thumbnail-located):
+  accepted, since place.py tests every anchorWord on the checked line and unlocated notes go to cruces, not the text.
+- Brief 3 (pp. 51–74): 58 lines (26 numbered · 17 lettered · 15 notae; 6 illegible) → resumed for orphan calls
+  (p-0053, p-0068) and the p-0070 variant anchors. Brief 4 launched with the completeness rules written into the prompt.
+- Brief 1 (pp. 11–28): 41 lines (17 notae · 15 numbered · 7 lettered; 7 illegible; p-0015, p-0017 none). The Greek calls (3)–(8) in Opusc. 1 key its SCHOLIA 1–8 (body text, translated in mo-003), not lost notes. Unmarked prefatory NOTÆ block on p-0011. Brief 5 launched (scholion-call rule added to the prompt).
+- Brief 3 gaps closed (61 lines): p-0070 calls 42–44 anchored (φύσις, ἑλόμενοι, γοῦν; 43/44 paired by order); p-0069 c,e,g,i → inferred. Its 'orphan' calls (2) p-0052, (3) p-0053 (Opusc. 7) and (1) p-0068 (Opusc. 8) key the pieces' SCHOLIA → relabelled scholionCall. (pp. 54–55 are duplicate leaves, no images by design.)
+- Brief 4 (pp. 75–92): 73 notes (49 numbered · 16 lettered · 8 notae; 4 illegible) → resumed: drop 19 'orphanCall' lines that are Combefis's BOLD 1675 page numbers in the Latin, re-read the p-0086/087 MONITUM in full, NOTÆ en sentence by sentence. Rule sent to briefs 5–6 and written into task-7/8.
+- Brief 6 (pp. 113–130): 32 lines (10 numbered · 7 lettered · 12 notae; 2 scholionCall; 4 illegible) → resumed: unopened tiles p-0123/124, p-0128 note t anchor, p-0127 o–r anchors, **context-restored words in long notes → [...]** (never supplied), p-0129/130 full-width small type (notes or body by type size), p-0119 continuation. Brief 7 launched with the [...] and type-size rules in its prompt.
+- Brief 5 (pp. 93–112): 68 lines (43 lettered · 12 notae · 10 numbered · 1 asterisk; 1 none p-0107; 1 orphanCall p-0112 Γρηγόριος ¹⁶; 10 illegible). Every tile opened; 12 bold-page-number lines removed after the rule; e/f notae continued across p-0098→099→100; p-0111 k anchor not found (null → place.py sends it to cruces).
+- Brief 4 gaps closed (74 lines): 19 bold-page-number lines deleted; p-0086/087 MONITUM re-read in full from 600 dpi bands (to 'quas sequentibus repræsento.'); notae a–f en sentence by sentence; gutter-clipped letters shown in [brackets] (declared supplements, accepted). Brief 8 (pp. 149–161, last) launched.
+- notes/place.py copied from the Epistulae and adapted (paths; skips orphanCall/scholionCall/fullWidthBody records). Run after brief 8.
