@@ -44,7 +44,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0029** · …own choice, present in God incarnate by appropriation. — T. κατ᾿ οἰκείωσιν, "by appropriation" (glossary § VII; Latin *arrogatio*): Christ makes our choice his own as he makes our dishonour his own, without its being his by nature.
 - **0029** · …teacher Thalassius concerning the difficulties of holy Scripture, — P. Thalassius, abbot in Africa, to whom Maximus addressed the *Quaestiones ad Thalassium*. S. Cf. *Ad Thalassium* 42, on the "unchangeableness of choice" in Christ.
 - **0032** · …dishonour by appropriation, in his love for man; — T. "Penalty" renders ἐπιτιμία: the blameless passions (hunger, death) that came upon the race as the penalty of sin, which Christ received in fact; the passions "of dishonour" (our sin and its blame) he took on by appropriation only.
-- **0032** · …declare that he is not soulless and mindless; — T. Read ἄψυχος ("soulless") for the scaffold's ἄψιλος, with the Latin *anima ac mente careret* and the pairing with ἄνους.
+- **0032** · …if indeed he is not soulless and mindless; — T. Read ἄψυχος ("soulless") for the scaffold's ἄψιλος, with the Latin *anima ac mente careret* and the pairing with ἄνους.
 - **0033** · …chapter of the Difficulties of the great Gregory, — S. *Ambigua ad Ioannem* 7 (PG 91.1068–1101), on Gregory Nazianzen, *Or.* 14.7; the "one operation of God and the saints" is at PG 91.1076C.
 - **0033** · …of the great Gregory, the account is clear. — T. Combefis's Latin sets a marginal heading here (*Una Dei et sanctorum operatio, id est, deificatio …*) that has no Greek counterpart; not rendered.
 - **0033** · …one another: what is able, power, the possible. — T. δυνάμενον, δύναμις, δυνατόν: "what is able, power, the possible". πρᾶξις is held as "practice" by the glossary; here it means the actualization of a power.
@@ -243,9 +243,10 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 ## Chunk 0014 (mo-014)
 
-- **0133** · …letter to the lord Marinus, presbyter of Cyprus.* — P. Marinus, presbyter of Cyprus (see Opusc. 1, 7, 20). T. The Greek addresses him now in the singular (θεοτίμητε πάτερ, σύ), now in the plural of respect (γεγράφατε, ὑμετέρων, ὑμῖν); the English keeps *thou* throughout, the addressee being one man. The heading's Greek word is Ἴσον, "copy" (Latin *Exemplum*).
+- **0133** · …letter to the lord Marinus, presbyter of Cyprus.* — P. Marinus, presbyter of Cyprus (see Opusc. 1, 7, 20). T. The Greek addresses him now in the singular (θεοτίμητε πάτερ, σύ), now in the plural of respect (γεγράφατε, ὑμετέρων, ὑμῶν, ὑμῖν); the English follows the text's number, *thou* where the Greek is singular and *you* where it is plural (a plural of respect, the addressee being one man). The heading's Greek word is Ἴσον, "copy" (Latin *Exemplum*).
+- **0133** · …the mediocrity, and magnifying by poverty the cheapness — T. Migne prints ἐντελές, "fullness" (confirmed on the plate); the English reads εὐτελές, "cheapness", a conjecture (Latin *tenuitatem*).
 - **0133** · …the mediocrity, and magnifying by poverty the cheapness, — S. Cf. Phil 2:7 (κένωσις) and 2 Cor 8:9 (πτωχεία): Marinus's condescension figured as Christ's.
-- **0133** · …above all, by the clarifying of thy prayers — T. ὑμετέρων, plural of respect (note 1).
+- **0133** · …above all, by the clarifying of your prayers — T. ὑμετέρων, plural of respect (note 1).
 - **0133** · …the synodical of the present most holy Pope — P. Pope Theodore I (642–649); "the queen of cities" is Constantinople (Latin glosses *Constantinopolitani*).
 - **0136** · …the ancestral sin». And for the first, they — T. "They" = the Romans, defending the pope's synodical letter.
 - **0136** · …laboured by him on the holy evangelist John; — S. Cyril of Alexandria, *Commentary on John* (cf. on John 16:14–15).
@@ -259,13 +260,14 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0137** · …attack against the one who set it out, — T. ὁ ἐκθέμενος, "the one who set it out", is the author of the commentary on John being copied.
 - **0137** · …the same. From the letter written in Rome.* — T. The heading is damaged in the Kraken text (OCR table); read from the Latin *Ex epistola Romae scripta*. A fragment, Maximus writing at Rome (after 646).
 - **0137** · …and holy doctrines, as the six holy synods, — T. "Six synods" in Greek and Latin alike, though Maximus elsewhere counts five (Opusc. 9 above); the fragment may postdate 649 or be retouched.
-- **0140** · …who believe in him: this, by two words, — T. "Two words": presumably the monothelite formula itself, or the two imperial edicts (Ekthesis and Typos).
+- **0140** · …every heretical mouth that speaks injustice on high. — S. Ps 72:8 LXX.
+- **0140** · …founded and built up: this, by two words, — T. "Two words": presumably the monothelite formula itself, or the two imperial edicts (Ekthesis and Typos).
 - **0140** · …two words, without labour and without death , — T. The bracketed καμάτου, "toil", is printed as a correction of θανάτου, "death"; the English gives both.
 
 ## Chunk 0015 (mo-015)
 
 - **0141** · …same holy Maximus, written to Peter the* illustris. — P. Peter, *illustris* and general in Africa (addressee of Letters 13–14); the excerpt survives only in Anastasius the Librarian's Latin (*Collectanea*), so the source here is Latin. T. *Defloratio*, "extract".
-- **0141** · …things, he went on:* By thy praiseworthy syllables — T. *Vestris* … *vos* … *vobis* … *discite*: the Latin's plural of respect to one man; the English keeps *thou* throughout (Peter is also addressed in the singular, *dignatus es*, *tuo*, *benedicte domine mi*).
+- **0141** · …things, he went on:* By your praiseworthy syllables — T. *Vestris* … *vos* … *vobis* … *discite*: the Latin's plural of respect to one man; the English follows the text's number, *you* where the Latin is plural and *thou* where it is singular (Peter is also addressed in the singular, *dignatus es*, *tuo*, *benedicte domine mi*).
 - **0141** · …to thine unworthy servant concerning the abbot Pyrrhus. — P. Pyrrhus, patriarch of Constantinople 638–641, deposed; in Africa and then at Rome (645–646) he sought reception without anathematizing his doctrine; Maximus calls him "abbot", the rank left to him.
 - **0141** · …cause, I should hasten to thy most renowned — T. *famosissimus*, probably for Greek ἐνδοξότατος; kept "most renowned" throughout.
 - **0141** · …their deeds and a reception without success . — T. *sine successu receptionem* is what the plate prints, so the difficulty is in the Latin, not the scan: it does not construe as a wish (perhaps Anastasius mistranslated, or *cum successu* was meant). Rendered as printed, marked [?].
@@ -274,7 +276,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0141** · …it; and again those who came after them — T. *et rursus posteriores horum*: the plate prints *rursus*, "again" (the scan read *rius*).
 - **0141** · …cultivate it to the contempt of the Godhead. — T. *divinitatis*, taken as for θεότης, "Godhead".
 - **0142** · …For they whisper here and there that Sophronius, — P. Sophronius, patriarch of Jerusalem 634–638, the first opponent of the Alexandrian Pact; Maximus's teacher.
-- **0142** · …as thou thyself bearest witness, most praiseworthy one, — T. *ut ipsi testamini, laudatissimi*: plural verb and vocative plural, as the plate prints; the plural of respect to Peter, cf. note 2.
+- **0142** · …as you yourselves bear witness, most praiseworthy ones, — T. *ut ipsi testamini, laudatissimi*: plural verb and vocative plural, as the plate prints; the plural of respect to Peter, cf. note 2.
 - **0142** · …For they were reducing him who then ruled — P. The emperor Heraclius (610–641).
 - **0143** · …of holy memory, pope of the elder Rome. — P. Pope John IV (640–642), to whom Heraclius wrote in 641 disowning the Ekthesis as Sergius's work.
 - **0143** · …they convict themselves, that these most excellent men — T. *fortissimi*, ironic; probably for Greek κράτιστοι.

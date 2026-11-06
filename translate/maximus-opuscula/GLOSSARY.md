@@ -205,7 +205,7 @@ word, held apart from every other link of the chain, and a definition stays a de
 | ἀδιάσπαστος | indissoluble | C "indissoluble", H "unsevered" |
 | ἀντίρροπος | counterpoised | D "counterpoised", E "counterweighing" |
 | ἐπίκρισις | ratification | C "ratification", E "verdict" |
-| διαστολή | demarcation | kept apart from διάκρισις = distinction; Opusc. 17 = "On the definitions of the demarcations" |
+| διαστολή, two senses | (1) logical: demarcation (Opusc. 17 "On the definitions of the demarcations"); (2) with συστολή, cosmological/Dionysian: expansion (Opusc. 7) | ruled after the blind read 2026-11-06 |
 | ἐπίνοια / κατ᾿ ἐπίνοιαν | conception / in conception | |
 | κίνημα / κίνησις | motion / movement | |
 | λογισμοί (logical sense) | reasonings | the glossary's "thoughts" stays for the ascetic sense |

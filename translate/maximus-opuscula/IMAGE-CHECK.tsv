@@ -534,7 +534,7 @@ sheet	slot	chunk	tag	printed	reading	kind	verdict	comment
 023	5	mo-018	p0099.24	Ιὸ	Τὸ	ocr	R	
 023	6	mo-018	p0099.27	ανθρώπινον	ἀνθρώπινον	ocr	M	
 023	7	mo-018	p0099.28	Ἄλλ᾿	Ἀλλ᾿	ocr	R	
-023	8	mo-018	p0099.43	ἱ̓́ση φύσις´;	ἴση φύσις;	ocr	R	pass2: plate=φύσις* note key
+023	8	mo-018	p0099.43	ἱ̓́ση φύσις´;	ἴση φύσις;	ocr	R	"plate=ἴση_φύσις; (coord: the earlier comment ""φύσις* note key"" leaked into the Greek; fixed after the blind read)"
 023	9	mo-018	p0100.03	ἱερὰρ- / χης	ἱεράρ- / χης	ocr	R	
 023	10	mo-018	p0100.14	κοινονίας	κοινωνίας	ocr	R	pass2:
 023	11	mo-018	p0100.17	ἑκτελοῦντος	ἐκτελοῦντος	ocr	R	
@@ -728,7 +728,7 @@ sheet	slot	chunk	tag	printed	reading	kind	verdict	comment
 031	7	mo-021	p0116.26	αἳ	καὶ	ocr	M	pass2: plate=.αὶ kappa missing
 031	8	mo-021	p0116.26	δι·	δι᾿	ocr	R	
 031	9	mo-021	p0116.32	παρητεῖτο	παρῃτεῖτο	ocr	M	
-031	10	mo-021	p0116.49	ὅλωςς	ὅλως·	ocr	R	pass2: plate=ὅλως with colon like mark
+031	10	mo-021	p0116.49	ὅλωςς	ὅλως·	ocr	R	plate=ὅλως· (coord: comment text had leaked into the Greek; fixed)
 031	11	mo-021	p0116.53	ἀγωνίας	ἀγωνίας [?]	doubt	P	
 031	12	mo-021	p0117.04	εὐθυς	εὐθὺς	ocr	M	
 031	13	mo-021	p0117.06	συμφυῗαν	συμφυΐαν	ocr	R	

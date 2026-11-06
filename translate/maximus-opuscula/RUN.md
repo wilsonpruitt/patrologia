@@ -292,3 +292,25 @@ a lone `Η` at p0064.30; 129 image-check `?` rows (Greek as Kraken+rules there).
 ≈1.3–1.5M on Opus (6 readers, 3 at a time, `translation-runbook.md` 4a pattern, as the Epistulae), optionally + a Latin
 clean-up of mo-015's displayed column against the plate (≈0.1M Sonnet). Then Wilson: DRAFT about/RECENT, deploy, push,
 `englishState: "ours"`, each its own OK. Burn so far ≈6.3M in agents + coordinator context (≈7.5M all-in) vs the ≈6M estimate.
+
+## Step 6 — blind polarity read (Opus, 6 readers, `data/briefs/MAXIMUS-OPUSCULA-BLIND-READ-BRIEF.md`) — Wilson "Good, deploy push ours" 2026-11-06
+Coordinator rulings as reports land (fixes applied together after R6):
+- R2 (0006–0010): F1 accept (volition FOR the fulfilment), F3 accept (neuter "it is something other"), F2 REJECT: διαστολή has
+  two senses — "expansion" (with συστολή, Opusc. 7, Dionysian) / "demarcation" (logical, Opusc. 17); glossary row added.
+- R3 (0011–0015): F1 ACCEPT (polarity: "good … to set NO obstacle", Gregory), F3 accept (for the sake of the Church of us who
+  believe; ἱερουργηθέντες passive), F4 accept (T note: Migne prints ἐντελές; English reads εὐτελές), **F6 ACCEPT: the Latin is
+  com-|patientissime across the line break ("most compassionately"); the coordinator's Latin verdict R.01 "plate=patientissime"
+  had read only the second half of the hyphenated word**, F2/F5 ACCEPT: the second person follows the Greek/Latin pronoun each
+  time (Epistulae precedent): Opusc. 10 and 12 switch to "you" where the text is plural (T notes updated).
+- R1 (0001–0005): F1 accept (polarity: "[a sameness] which is impossible"), F2 accept (heading: "not … in every way one", as the body), F3 accept (main verb out of the if-clause), F4 accept (καταγωνίζεται active: "fights against theology and economy"), typo 0004 "an destruction". R6 launched.
+- R4 (0016–0020): F2 accept (καθ᾿ ὃ neuter "in respect of that by which"; δι᾿ ἑαυτόν "for his own sake"). **R4 also found two
+  defects in the Greek FILE, both the coordinator's**: (1) p0099.43 "φύσις* note key" — a verdict COMMENT ("plate=φύσις* note
+  key") was applied as Greek by kt-apply; scan of all `plate=` applications found one more, p0116.49 "with colon like mark" →
+  both fixed in `checked/` (ἴση φύσις; · ὅλως·) and the comments cleaned; (2) νβʹ missing at p0102.30: **kt-apply applies only
+  kinds ocr/space/subscript, so R verdicts on `doubt` rows never reach the Greek** → all 14 such rows reviewed: νβʹ and
+  p0019.33–34 (εἰσί· τῷ τε) patched by hand; the rest were already in the line or are line-break splits the build joins.
+- R5 (0021–0025): F1 ACCEPT (polarity: "it is altogether necessary, too, that the one operating have NOT only one innate
+  operation"). R6 (0026–0030): F1 accept (τὰς ὑποστάσεις 2nd object of εἰσάγων: "just as [thou introducest three]
+  hypostases"); its κυρίωσιν note → cruces line (the misprint is already in PRINT-ERRORS).
+**Blind read totals: 6 readers ≈1.15M; 15 findings → 13 accepted (4 polarity), 2 rejected (διαστολή sense; R4's F1 withdrawn by
+its reader). Fixer next, then rebuild, polarity record, preflight 10/10, Wilson's deploy/push/ours (given 2026-11-06).**

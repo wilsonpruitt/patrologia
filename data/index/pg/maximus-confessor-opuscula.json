@@ -1233,11 +1233,13 @@
     {
       "refKey": "Matt.16.18-Matt.16.19",
       "refDisplay": "Matth. xvi, 18, 19.",
-      "column": "140",
+      "column": "137",
       "chunk": 14,
       "bandsInColumn": [
         "a",
-        "b"
+        "b",
+        "c",
+        "d"
       ]
     },
     {
@@ -4236,7 +4238,7 @@
   ],
   "proseNotes": [],
   "cruces": {
-    "count": 499,
+    "count": 501,
     "file": "src/english/maximus-confessor-opuscula/cruces.md"
   },
   "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",

@@ -542,14 +542,15 @@
    "title": "Opuscula theologica et polemica",
    "titleEn": "Theological and Polemical Opuscula",
    "citRange": "PG 91, 9–286",
-   "status": "TRANSLATED 2026-11-06 (kt method, Opus; image-checked twice; pp. 110/111/114 plate-transcribed; apparatus; LOCAL BUILD, not shipped)",
+   "status": "TRANSLATED 2026-11-06 (kt method, Opus; image-checked twice; pp. 110/111/114 plate-transcribed; apparatus; blind read done; SHIPPED 2026-11-06 (Wilson: \"deploy push ours\"))",
    "greekSource": "ours-kraken",
    "slug": "opuscula",
    "translationStatus": "exists",
    "translationStatusNote": "A complete English translation exists: Kevin M. Clarke, The Opuscula and the Dispute with Pyrrhus (Fathers of the Church, Catholic University of America Press, 2026), and earlier partial ones (Louth 1996: Opusc. 3, 7). Ships the WEAK claim 'New English translation' (never 'First'). Do NOT set 'none'.",
    "latinVerifier": "src/pg-latin/maximus-confessor-opuscula/",
    "ktRecord": "translate/maximus-opuscula/ (RUN.md, BUILD.md, GLOSSARY.md, CARD.md, verify/, notes/)",
-   "translated": "2026-11-06"
+   "translated": "2026-11-06",
+   "englishState": "ours"
   }
  ]
 }
