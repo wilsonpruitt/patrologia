@@ -211,3 +211,14 @@ p0116.53→0117.01 (lost phrase), mo-026 p0140.19 — the image-check pass 2 rea
 - **English fixes from the plate: `ENGLISH-FIXES.tsv` (41 rows: P verdicts where the translator's emendation is withdrawn,
   and R verdicts with a third plate form)** → one Opus fixer launched (print construes → re-translate; doesn't → keep the
   conjecture with a note "Migne prints X (confirmed on the plate)"). ENGLISH-FIXES.md = the narrative list.
+- ✅ English fixes applied (Opus fixer, ≈151K; originals diffable in the session scratchpad): 41 rows → re-translated where
+  the print construes (p0041.17 "follow God", p0053.35 "seem", p0071.16 "appeal", p0084.03 "he says", p0101.09 "of the
+  universe", p0102.30 **chapter 52**, p0106.37 "one confession", p0115.14 "by no means", p0118.09 τοῦτο, p0146.43 optative,
+  p0082.46 "and truth"); kept as conjecture with "Migne prints X (confirmed on the plate)" notes where it does not
+  (p0024.01, p0059.10, p0068.35 bracket, p0089.14, p0095.07, p0135.04/.45, p0140.19, p0148.19). Note counts: mo-003 18,
+  mo-009 16, mo-016 9, mo-019 32, mo-025 26.
+- ⚠ **Two reader verdicts were WRONG and the fixer refused them on sense; the coordinator re-read both on the plate:**
+  p0091.38 "plate=οὖν" (οὖν is the line's OPENING; the line END is the negative οὐ) and p0120.18 "plate=ἀόρατον"
+  (ἀόρατον is earlier in the same line; the END prints ὁρατόν). Verdicts → R, notes corrected (mo-016 n. 7, mo-022 n. 3).
+  ⚑ Lesson: a reader's `plate=` on a word that RECURS in the same line is not evidence; the fixer's sense check is what
+  catches it. The blind read should look hardest at any other `plate=` rows that changed the English.

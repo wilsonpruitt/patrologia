@@ -2,8 +2,8 @@
 
 Each line: tag · plate reading · what the English must do. Source = image-check verdict (sheet/slot, reader).
 
-- p0120.18 · plate **ἀόρατον** (not ὁρατόν) · "invisible": the translator's "visible" reverses the sense (B 033/20, P)
-- p0091.38 · plate **οὖν** ("Εἴ τι οὖν ἄλλο") · remove the negative the translator supplied in the definition (B 020/9, P)
+- ~~p0120.18 ἀόρατον~~ WITHDRAWN on re-read (coordinator): the line END prints ὁρατόν; ἀόρατον is earlier in the line. "visible" stands.
+- ~~p0091.38 οὖν~~ WITHDRAWN on re-read (coordinator): οὖν is the line's OPENING; the line END is the negative οὐ. The negative stands.
 - p0115.14 · plate **οὐ μὴ ἐν** · the emendation to μὴν is withdrawn; English the negative as printed (B 030/15, P)
 - p0115.01 · plate **ἀποδιώρισε** · "marked off / distinguished" (compound), not ἀφώρισε (B 030/11, R plate=)
 - p0102.30 · plate **νβʹ** (52) · the testimony number is 52, not 2 or 32 (B 024/19)
