@@ -15,7 +15,8 @@ Brief: python3 scripts/kt-scaffold.py <work> brief <ids…> (same as the Greek; 
 import json, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-WORKS = {'sophronius-orationes': ('data/pg-column-maps/pg087c.json', 'raw/scans/pg087c/copyA_087c_djvu.xml')}
+WORKS = {'sophronius-orationes': ('data/pg-column-maps/pg087c.json', 'raw/scans/pg087c/copyA_087c_djvu.xml'),
+         'maximus-opuscula': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml')}   # Opusc. 12, Latin only (pdf 87–88), 2026-11-06
 work, cid, specs = sys.argv[1], sys.argv[2], sys.argv[3:]
 cmap_path, xml_path = WORKS[work]
 cmap = {p['pdfPage']: p for p in json.load(open(os.path.join(ROOT, cmap_path)))['pages']}

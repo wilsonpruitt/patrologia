@@ -1,15 +1,11 @@
 # Next session — resume note
 
-## ▶ 2026-11-06 (later, Fable) — OPUSCULA SETUP DONE, KRAKEN RUNNING; ⚠ A COMPLETE ENGLISH EXISTS (Clarke 2026) — WILSON'S CALL BEFORE ANY PAID STEP
-Record: `translate/maximus-opuscula/RUN.md` ("Setup"). Pages = pdf **11–161**, 12 duplicate pages in six pairs (text identity),
-139 leaves = cols 9–286 exactly; `pg091.json` extended; `kt-scaffold.py` has the `maximus-opuscula` entry; Kraken launched over
-the 139 pages (`raw/kraken/maximus-opuscula/`, ≈2 h; if `text/` has <139 files next session, re-run the same `htr/pg-ocr.sh`
-line in RUN.md — it skips finished pages). **Web-checked: Kevin M. Clarke, *The Opuscula and the Dispute with Pyrrhus* (CUA
-Press, Fathers of the Church, 2026) = all 27 Opuscula + Additamenta + the *Disputatio*.** Queue #1 and #2 are no longer "New";
-the queue file's "Open before work 1 starts" has the finding and the options. ⬜ Wilson: still do the Opuscula (≈6M, "New
-English translation" badge), or move the go to the New tier (Hymni ≈0.1M with the Anacreontica pilot; PG 90 fetch for Ps 59 /
-Theopemptus / Capita alia ≈1.8M)? Then "which model, and go". If the Opuscula: `kt-rules.py maximus-opuscula` → `kt-lost.py`
-→ myriobiblos *ad Marinum* diff → PIECES/CHUNKS from the Kraken titles → card → briefs, per RUN.md "Plan".
+## ▶ 2026-11-06 (latest) — MAXIMUS *OPUSCULA*: Wilson "go in order anyway. Opus go" → STEP 0 DONE, TRANSLATION RUNNING
+Score `translate/maximus-opuscula/RUN.md`. Base built (Kraken + rules + kt-lost + myriobiblos witness, 324 doubt rows),
+27 pieces read off the images (`PIECES.tsv`, 48.3K Greek words; ⚠ Opusc. 12 Latin only → `CARD-LATIN.md`), 30 chunks,
+card + glossary § VI, 10 briefs. **Round 1 (mo-001…009) launched on Opus 2026-11-06.** If resuming: see which
+`mo-0NN.en.md` exist, launch the next briefs three at a time (RUN.md "Step 1"), then sweep → image check → apparatus →
+build → blind read → Wilson. Badge: "New English translation" (Clarke 2026 CUA is a complete English; queue file).
 
 ## ▶ (superseded above) START HERE (2026-11-06, Wilson): MAXIMUS *OPUSCULA THEOLOGICA ET POLEMICA* — queue #1, not yet started
 Score: `translate/MAXIMUS-QUEUE.md` (the complete-works queue, costed) + its method section. The Opuscula = PG 91.9–285, 27

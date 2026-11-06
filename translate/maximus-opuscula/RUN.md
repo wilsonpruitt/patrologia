@@ -31,3 +31,32 @@ never "First". Whether to spend ≈6M on it at all is Wilson's call (queue file,
    ΤΟΥ ΑΥΤΟΥ … / EJUSDEM …) — do NOT take the column bounds from memory; `PIECES.tsv` + `CHUNKS.tsv` (≈2K words, ≈26 chunks).
 3. Card (adapt `maximus-epistulae/CARD.md`), glossary inherited, briefs of 3, three at a time (Opus) → sweep → image check →
    apparatus (Combefis's notes) → build per `maximus-epistulae/BUILD.md` → blind read → Wilson.
+
+## ✅ Step 0 DONE 2026-11-06 (Opus coordinator, in session): base, pieces, chunks, card, briefs. Wilson: "go in order anyway. Opus go"
+- **Kraken finished**: 139/139 pages → `kt-rules.py` (1,995 changes: glyph 1,160, accent 454, lexical 381).
+- **kt-lost**: of ≈25 BODY candidates only **p-0011's collection title** was really lost (ΜΑΞΙΜΟΥ ΤΟΥ ΟΜΟΛΟΓΗΤΟΥ / ΠΡΟΣ
+  ΜΑΡΙΝΟΝ / ΤΟΝ ΟΣΙΩΤΑΤΟΝ ΠΡΕΣΒΥΤΕΡΟΝ; the region model classed the title as a running head) → restored from the image,
+  `RESTORED-LINES.tsv`, rules re-run. The rest: band letter Β glued to the line start (pp. 20, 92, 96, 150: text present),
+  Greek words inside the Latin column or the NOTÆ (pp. 17, 91, 127), bleed-through (p. 114), running heads. FOOT? lines =
+  Combefis's notes and variants (apparatus step).
+- **Witness**: `scripts/kt-witness.py` (new) aligns myriobiblos *prosmarinon1–4* to the ruled lines in 500-word blocks
+  (90–99% per block; file 3 = two pieces, Opusc. 7 at pp. 42–55 and Opusc. 20 at pp. 131–141) → **324 `witness` rows**
+  in `checked/DOUBTS.tsv` (`checked/` = copy of `ruled/`), shown to translators as open doubts (scaffolds `--checked`).
+- **Pieces** (`PIECES.tsv`): all 27 starts read on the page images (TOY AYTOY / EJUSDEM headings); start columns
+  9, 40, 45, 56, 64, 65, 69, 89, 112, 133, 137, 141, 145, 149, 153, 184, 212, 216, 224, 228, 245, 257, 260, 268, 269,
+  276, 280. **48,324 Greek words.** ⚠ **Opusc. 12 (to Peter the *illustris*) is LATIN ONLY** (Anastasius; pdf 87–88,
+  no Greek printed): translated from the Latin per the Sophronius precedent (Wilson 2026-11-05), `CARD-LATIN.md`,
+  `kt-scaffold-latin.py` entry added, chunk mo-015 (1,306 Latin words). Opusc. 8's Greek title was read by Kraken as
+  the Latin EXEMPLUM (card says so); Opusc. 22 opens *Καὶ πάλιν ὁ θεῖος Μάξιμος* (excerpt; Combefis: from Gregory of
+  CP via Allatius).
+- **Chunks** (`CHUNKS.tsv`): 30 (29 Greek + mo-015), ≈1–2.2K words, long pieces cut at page ends. Scaffolds `mo-0NN.md`.
+- **Card** `CARD.md` (from the Epistulae card; Kraken base; style anchor = shipped Letter 15 opening; piece table);
+  **glossary** = Epistulae glossary + § VI will-chain forecast (βουλή counsel, βούλευσις deliberation, ζήτησις inquiry,
+  σκέψις consideration, ὁρμή impulse, θελητικός volitive, γνωμικὸν θέλημα will of inclination, θεανδρική theandric …).
+  No Fable anchor (register inherited, per the queue).
+- **Briefs** `_briefs/mo-001_003 … mo-028_030` (10 × 15–21K words; mo-013_015 carries `CARD+LATIN.md`).
+
+## Step 1 — translation (Opus, 3 briefs at a time)
+- Round 1 launched 2026-11-06: briefs mo-001_003, mo-004_006, mo-007_009.
+- If resuming: check which `mo-0NN.en.md` exist; launch the next briefs from `_briefs/`, three at a time, with the
+  short prompt (read the brief once; one Write per chunk; no other files/images/web; short report).
