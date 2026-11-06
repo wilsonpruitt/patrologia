@@ -21,7 +21,7 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
 | 5 | **Expositio in Psalmum LIX** | 90.856–872 | 2,510 | PG 90 NOT on disk; myriobiblos full | check | ≈0.3M | likely |
 | 6 | **Ad Theopemptum scholasticum** | 90.1393–1400 | 1,443 | — ; myriobiblos full | check | ≈0.2M | likely |
 | 7 | **Capita alia** (the "Capita XV" etc.) | 90.1401–1461 | ≈11,000 | — | check | ≈1.3M | likely |
-| 8 | **Diversa capita ad theologiam et oeconomiam** (5 centuries; a compilation, mostly from Ad Thalassium) | 90.1177–1392 | 36,223 | — ; myriobiblos full (`theoloikon`) | none as a whole | ≈4.2M | yes, but spurious as a work |
+| 8 | Diversa capita ad theologiam et oeconomiam (5 centuries; a compilation, mostly from Ad Thalassium) | 90.1177–1392 | 36,223 | — ; myriobiblos full (`theoloikon`) | Philokalia vol. 2 (1981), "Various Texts", complete (medium confidence) | ≈4.2M | no (and spurious as a work) |
 | 9 | Quaestiones et dubia | 90.785–856 | 8,269 | — ; myriobiblos full | Prassas 2010 | ≈1.0M | no |
 | 10 | Expositio orationis dominicae | 90.872–909 | 6,412 | — ; myriobiblos full | Berthold 1985 | ≈0.75M | no |
 | 11 | Liber asceticus | 90.912–956 | ≈8,400 | — | Sherwood 1955; Berthold | ≈1.0M | no |
@@ -35,7 +35,7 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
 | — | Computus ecclesiasticus | PG 19.1217–1280 | ≈12,000 | PG 19 not on disk | none | ≈1.4M | yes (a calendar treatise; low reader value) |
 | — | Scholia in Dionysium | PG 4 | large; authorship John of Scythopolis + Maximus | PG 4 not on disk | Harrington partial | — | a separate project, under Dionysius |
 
-**Total for everything in PG 90–91: ≈55M tokens**; the "New" tier (1, 3, 5–8) ≈ 12M; the dyothelite block (1–2) ≈ 7.5M.
+**Total for everything in PG 90–91: ≈55M tokens**; the "New" tier (1, 3, 5–7) ≈ 7.6M; the dyothelite block (1–2) ≈ 7.5M.
 
 ## The order, and why
 
@@ -49,9 +49,9 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
 3. **Hymni** with the Sophronius *Anacreontica* verse pilot (Fable): two short hymns, one method decision for both.
 4. **Mystagogia**: short, central, cheap; two good Englishes exist (Armstrong 2019 is current), so it ships without a
    "New" claim and reads beside them.
-5–8. **The small PG 90 pieces with no English** (Ps 59, Theopemptus, Capita alia, Diversa capita): cheap, new, and the
-   PG 90 volume has to be fetched and Kraken-read once for all of them (≈480 pages). Diversa capita is a Byzantine
-   compilation printed under his name: ship it with the about text saying so (badge per registry rules).
+5–7. **The small PG 90 pieces with no English** (Ps 59, Theopemptus, Capita alia): cheap, new, and the PG 90 volume has
+   to be fetched and Kraken-read once for all of them (≈480 pages). 8, Diversa capita, is a Byzantine compilation
+   printed under his name and the Philokalia has it: with the Berthold/Sherwood tier below.
 9–15. **The PG 90 works with standard Englishes** (Q&D, Or. dom., Liber asceticus, Caritate, Cap. theol., Vita, Acta):
    our "one translation, one home" rule does not bar them (it governs our own texts), but they are not new and read
    beside Berthold / Sherwood / Allen–Neil. Do them when the site wants completeness over novelty.
@@ -80,5 +80,6 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
 
 ## Open before work 1 starts
 - ⬜ Confirm the Opuscula's page range and duplicate leaves in `raw/pg091/091.pdf` (djvu heads: pp. ≈20–163).
-- ⬜ Read `MAXIMUS-ENGLISH-STATUS.md` when it lands and correct the "English exists?" column above.
+- ⬜ `MAXIMUS-ENGLISH-STATUS.md` was written from a Sonnet reader's memory, NOT web-checked: verify the "English exists?"
+  column (above all Ps 59, Theopemptus, Capita alia, the Opuscula coverage of Louth/Blowers–Wilken) before any "New" badge.
 - ⬜ Wilson: which model and go, per work (the Opuscula ≈6M).
