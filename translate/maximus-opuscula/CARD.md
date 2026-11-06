@@ -46,7 +46,7 @@ monks and laity of Sicily, to Stephen of Dora, to Peter the *illustris*; some ar
 | 18 | 0126:7 | 216 | 1371 | The difficulties of Theodore of Byzantium, deacon, and their first solution (to Marinus) | mo-023 |
 | 19 | 0130:17 | 224 | 775 | Solution of the second absurdity | mo-024 |
 | 20 | 0132:12 | 228 | 3466 | Dogmatic tome to Marinus the presbyter | mo-025–026 |
-| 21 | 0141:45 | 245 | 2003 | On quality, idiom and difference, to Theodore presbyter in Mazarium | mo-027 |
+| 21 | 0141:45 | 245 | 2003 | On quality, property and difference, to Theodore presbyter in Mazarium | mo-027 |
 | 22 | 0147:8 | 257 | 716 | "And again the divine Maximus" (excerpt) | mo-028 |
 | 23 | 0148:49 | 260 | 1082 | Chapters on essence and nature, hypostasis and person (+ Eulogius, seven chapters) | mo-028 |
 | 24 | 0152:7 | 268 | 783 | That one cannot say one will in Christ | mo-029 |

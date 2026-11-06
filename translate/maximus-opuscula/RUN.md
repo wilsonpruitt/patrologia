@@ -110,3 +110,37 @@ never "First". Whether to spend ≈6M on it at all is Wilson's call (queue file,
   dodecasyllables (T note). **§ VII extended**: οἰκείωσις two senses (Christological = appropriation), ἀδιάσπαστος
   indissoluble, ἀντίρροπος counterpoised, ἐπίκρισις ratification, διαστολή demarcation, ἐπίνοια conception, κίνημα motion,
   λογισμοί (logical) reasonings. Briefs mo-025…030 rebuilt. mo-025_027 launched as H finished.
+- ✅ Brief mo-016_018 DONE: Opusc. 13–14, Opusc. 15 parts 1–2 (to Διὸ, col. 173); OCR rows 49/80/109 (1 `print`:
+  **p0103.39 ἕνωσις for ἔκθεσις**, Combefis's Latin *unio* follows the misprint). ⚠ **p-0103 (col 173): the whole Greek
+  column lost its first letters at the left margin, ≈30 rows: image-check as a block.** Image check also: p0089.14 [?]
+  (ὄντως?); p0091.38 οὐ (the definition's negative); p0095.07 δίχα→διὰ θελήσεως (Latin *voluntatis nutu*); p0093.27
+  ὑποβολῆς; p0103.11 Nestorius's title μυήσει; p0102.30 βʹ vs Latin 52/32. Sweep: θεϊκός collapsed into "divine" with
+  θεῖος → split? (suggest "godly"/"of God" or a T note); ἀδιάσπαστος "unsevered" (pre-ruling) → indissoluble;
+  ἐνούσιος "enousial" vs H "enousic" → rule; ἀναίρεσις abolition vs H destruction → rule; συναφές conjoinedness (D, F agree).
+- mo-028_030 launched as F finished: ALL TEN BRIEFS LAUNCHED.
+- ✅ Brief mo-019_021 DONE (≈274K): Opusc. 15 end, Opusc. 16 parts 1–2; OCR rows 94/**166**/78. ⚠ **mo-020: pp. 111 and 114 are
+  over-inked plates and Kraken failed there** (46% / 45% of ≥4-letter words outside a clean-Greek lexicon, against a median
+  of 18%; next worst p. 110 at 33%, then a smooth tail), so ≈1.5 pages of English were rebuilt from Combefis's Latin with
+  [?] (10 in mo-020). The plate itself is legible at 600 dpi. **Plate transcription launched** (Opus reader, line-numbered
+  strips `raw/kraken/maximus-opuscula/plate-strips/`, → `PLATE-110-114.tsv`, one row per Kraken line); then: write those
+  lines into `checked/`, re-scaffold mo-019/020 tail, and have mo-020's affected paragraphs re-translated from the plate Greek.
+  Other: p0108.11 αὐτοβουλίαν → ταυτοβουλίαν (print; the Ekthesis's word); p0106.37 μιᾶς ὁμολογίας/ἐνεργείας; p0107.42
+  ἰσώμεθα; p0116.53/p0117.01 phrase lost (Latin "yielding to the fear and dread of death"); p0118.58 marginal rubric.
+- ✅ Brief mo-028_030 DONE: Opusc. 22–27 (to the end); OCR rows 73/91/31. Image check: p0148.19 κατὰ/μετὰ τὴν Νικαέων
+  (Latin *post*); p0147.53–54 ἀναποδείκτοις; p0147.14 ὄντως [πίστεως] vs Latin *rectam*; p0153.43 παρφυᾷ→προσφυῆ;
+  p0156.13 lone καὶ; **p0153.52 heading may have lost δέκα (Latin *Capita decem*)**; Ταλμῶν→ψαλμῶν; p0160.24 Son absent in
+  the Nyssen testimony (Latin agrees: T note). Eulogius's seven chapters numbered 1–7 by the editor's count (T note).
+  Sweep: ἐνούσιος "enessential" here vs F "enousial", H "enousic" → RULE ONE; ἠρεμία quiescence vs στάσις rest; ἐναντιότης
+  contrariness; ἔννοια notion here vs A "concept" → rule; αὐθαίρετος free/freely here vs F, G "self-chosen" → rule;
+  πάθος affliction (Nemesius, losing the voice).
+- ✅ Brief mo-025_027 DONE (≈249K): Opusc. 20 whole, Opusc. 21; OCR rows 72/49/64. Image check: p0140.19 corrupt [?]
+  (Latin *verisimile est eos mentiri*); p0140.43 ἀκύρωσιν; p0142.13 πεύσει; p0135.04; p0143.21 bracket. Opusc. 21
+  addresses Theodore in the plural of respect (*you*, T note). Card's "idiom" for ἰδιότης corrected → property.
+
+## ✅ Step 1 DONE 2026-11-06: all 30 chunks translated (10 Opus briefs, ≈2.23M)
+48.3K Greek + 1.3K Latin → **63,103 English words**, **1,920 OCR rows**, notes 1..n and anchors in order in every chunk
+(script check). Plate transcription of the over-inked pp. 110, 111, 114 (Opus reader, ≈114K) → `PLATE-110-114.tsv` →
+written into `checked/` (147 lines); mo-019/020 scaffolds rebuilt; mo-019/020 translator resumed to revise those pages
+from the plate Greek and drop their OCR rows. Glossary § VIII (final rulings) written; `SWEEP.md` ready.
+## Step 2 — sweep (Sonnet, `SWEEP.md`), after the mo-020 revision lands. Then step 3 image check (coordinator, kt-sheet;
+   p-0103 and p-0121 left-margin loss as blocks; mo-015 Latin with kt-sheet-latin).

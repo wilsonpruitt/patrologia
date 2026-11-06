@@ -209,3 +209,28 @@ word, held apart from every other link of the chain, and a definition stays a de
 | ἐπίνοια / κατ᾿ ἐπίνοιαν | conception / in conception | |
 | κίνημα / κίνησις | motion / movement | |
 | λογισμοί (logical sense) | reasonings | the glossary's "thoughts" stays for the ascetic sense |
+
+## VIII. Rulings after all ten briefs (Opus coordinator, 2026-11-06) — binding; the sweep enforces §§ VII–VIII in ALL 30 chunks
+| Greek | English | rejected renderings (grep for these) |
+|---|---|---|
+| ἐνούσιος | enousial | "enousic" (H), "enessential" (J) — pairs with ἐνυπόστατος = enhypostatic |
+| ἐνύπαρκτος | enhyparctic | |
+| ἀναίρεσις / ἀναιρεῖν / ἀναιρετικός | destruction / destroy / destructive | "abolition", "abolish" (F) |
+| ἔννοια | concept | "notion" (J) — "notion" belongs to νόημα |
+| νόημα | notion | |
+| νόησις | intellection | "meaning" (I) |
+| αὐθαίρετος / αὐθαιρέτως | self-chosen / by self-choice | "free", "freely" (J) |
+| θεϊκός / θεϊκῶς | divine / divinely, as θεῖος | no split; where θεϊκός and θεῖος stand side by side, a T note gives both Greek words |
+| ἰδιότης | property | "idiom" for ἰδιότης anywhere (card slip, corrected); ἰδίωμα stays "idiom" |
+| ἀντίταξις | opposed array | "counter-array" (I) |
+| φύρσις / φυρμός / συμφύρειν | commixture / mixing / commix | |
+| συναλοιφή / συναίρεσις | fusion / coalescence | |
+| ἠρεμία / στάσις | quiescence / rest (στάσις "revolt" only for civil strife, T note) | |
+| ἐπιστήμη | science | (all agree) |
+| ἐνδιάθετος / προφορικὸς λόγος | inward / uttered word | (A, J agree) |
+| ἀνύπαρκτος / ἀνούσιος | without existence / without essence | |
+| ἀθέλητος / ἀνεθέλητος | without will / without volition (of a nature); "unwilled" only of a thing (death) | |
+| ἀνενέργητος | without operation | "inoperative" (D) |
+| ἄσχετος | without relation | |
+| διαφορότης | diversity | (kept apart from διαφορά = difference) |
+| πρᾶξις | action (the deed); practice (the ascetic triad) | by sense, as ruled |
