@@ -59,6 +59,7 @@ def witness_tokens(path):
     if path.endswith(('.html', '.htm')):
         t = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', t, flags=re.S)
         t = html.unescape(re.sub(r'<[^>]+>', ' ', t))
+    t = re.sub(r'\(\s*[^()\s]{1,3}\s*\)', ' ', t)   # the witness's own note calls (α), (10), (β)
     out = []
     for w in t.split():
         n = norm(w)
@@ -66,39 +67,43 @@ def witness_tokens(path):
     return out
 
 rows, stats = [], collections.Counter()
+def blocks(wt, size=500):
+    # a witness file may join pieces Migne prints apart (myriobiblos "Τόμοι δογματικοί"): locate each block on its own
+    for i in range(0, len(wt), size): yield wt[i:i + size]
+
 for wpath in wits:
-    wt = witness_tokens(wpath)
-    wn = [w[0] for w in wt]
-    # locate the witness in the Kraken stream by 4-gram anchors → median offset
-    offs = []
-    for j in range(0, len(wn) - 3, 5):
-        hits = index.get(tuple(wn[j:j + 4]), [])
-        if len(hits) == 1: offs.append(hits[0] - j)
-    if len(offs) < 10:
-        print(f'{wpath}: not located ({len(offs)} anchors)'); continue
-    offs.sort(); med = offs[len(offs) // 2]
-    lo = max(0, med - 200); hi = min(len(kn), med + len(wn) + 200)
-    sm = difflib.SequenceMatcher(None, kn[lo:hi], wn, autojunk=False)
-    matched = sum(b.size for b in sm.get_matching_blocks())
-    first = ktoks[lo + sm.get_matching_blocks()[0].a]
-    print(f'{os.path.basename(wpath)}: {len(wn)} words, located at {first[2]}:{first[3]}, {matched} matched ({matched / len(wn):.1%})')
-    for op, a1, a2, b1, b2 in sm.get_opcodes():
-        if op == 'equal': continue
-        if (a2 - a1) > 3 or (b2 - b1) > 3:
-            stats['large block (skip/edition)'] += 1; continue
-        if op == 'insert':   # witness has words Kraken lacks: a dropped word (or a witness addition)
-            k = ktoks[lo + max(a1 - 1, 0)]
-            rows.append((k[2], k[3], k[1], k[1], 'witness', f'{label} has + {" ".join(w[1] for w in wt[b1:b2])} after this word'))
-            stats['insert'] += 1; continue
-        ks = ktoks[lo + a1: lo + a2]
-        wtxt = ' '.join(w[1] for w in wt[b1:b2]) or '(nothing)'
-        # punctuation-only / hyphen-split artefacts: same letters overall → skip
-        if ''.join(k[0] for k in ks) == ''.join(wn[b1:b2]):
-            stats['split/join only'] += 1; continue
-        for k in ks[:1]:
-            rows.append((k[2], k[3], ' '.join(x[1] for x in ks), ' '.join(x[1] for x in ks), 'witness',
-                         f'{label} reads {wtxt}'))
-        stats[op] += 1
+  for bi, wt in enumerate(blocks(witness_tokens(wpath))):
+      wn = [w[0] for w in wt]
+      # locate the witness in the Kraken stream by 4-gram anchors → median offset
+      offs = []
+      for j in range(0, len(wn) - 3, 5):
+          hits = index.get(tuple(wn[j:j + 4]), [])
+          if len(hits) == 1: offs.append(hits[0] - j)
+      if len(offs) < 5:
+          print(f'{os.path.basename(wpath)}#{bi}: not located ({len(offs)} anchors)'); continue
+      offs.sort(); med = offs[len(offs) // 2]
+      lo = max(0, med - 60); hi = min(len(kn), med + len(wn) + 60)
+      sm = difflib.SequenceMatcher(None, kn[lo:hi], wn, autojunk=False)
+      matched = sum(b.size for b in sm.get_matching_blocks())
+      first = ktoks[lo + sm.get_matching_blocks()[0].a]
+      print(f'{os.path.basename(wpath)}#{bi}: {len(wn)} words, located at {first[2]}:{first[3]}, {matched} matched ({matched / len(wn):.1%})')
+      for op, a1, a2, b1, b2 in sm.get_opcodes():
+          if op == 'equal': continue
+          if (a2 - a1) > 3 or (b2 - b1) > 3:
+              stats['large block (skip/edition)'] += 1; continue
+          if op == 'insert':   # witness has words Kraken lacks: a dropped word (or a witness addition)
+              k = ktoks[lo + max(a1 - 1, 0)]
+              rows.append((k[2], k[3], k[1], k[1], 'witness', f'{label} has + {" ".join(w[1] for w in wt[b1:b2])} after this word'))
+              stats['insert'] += 1; continue
+          ks = ktoks[lo + a1: lo + a2]
+          wtxt = ' '.join(w[1] for w in wt[b1:b2]) or '(nothing)'
+          # punctuation-only / hyphen-split artefacts: same letters overall → skip
+          if ''.join(k[0] for k in ks) == ''.join(wn[b1:b2]):
+              stats['split/join only'] += 1; continue
+          for k in ks[:1]:
+              rows.append((k[2], k[3], ' '.join(x[1] for x in ks), ' '.join(x[1] for x in ks), 'witness',
+                           f'{label} reads {wtxt}'))
+          stats[op] += 1
 
 CHK.mkdir(exist_ok=True)
 for f in BASE.glob('p-*.txt'):

@@ -234,3 +234,5 @@ word, held apart from every other link of the chain, and a definition stays a de
 | ἄσχετος | without relation | |
 | διαφορότης | diversity | (kept apart from διαφορά = difference) |
 | πρᾶξις | action (the deed); practice (the ascetic triad) | by sense, as ruled |
+| συγγένεια / συγγενής | kindredness / kindred | "natural kinship" (mo-007, 008, 021) → natural kindredness, 2026-11-06: "kinship" is οἰκείωσις (affective) |
+| ἔννοια, by sense | concept (technical); "meaning" where it is a speaker's or a text's intent (mo-025, 027) | |

@@ -144,3 +144,27 @@ written into `checked/` (147 lines); mo-019/020 scaffolds rebuilt; mo-019/020 tr
 from the plate Greek and drop their OCR rows. Glossary § VIII (final rulings) written; `SWEEP.md` ready.
 ## Step 2 — sweep (Sonnet, `SWEEP.md`), after the mo-020 revision lands. Then step 3 image check (coordinator, kt-sheet;
    p-0103 and p-0121 left-margin loss as blocks; mo-015 Latin with kt-sheet-latin).
+- Step 2 (sweep, Sonnet, `SWEEP.md`) LAUNCHED after the mo-019/020 plate revision landed (only 2 [?] left in mo-020, both
+  illegible on the plate; 3 `print` rows added on pp. 110/114).
+## Step 3 — image check (pass 1 running)
+`kt-sheet.py maximus-opuscula` → **1,150 Greek rows, 48 sheets** (word 1,050 · line 97 · MISSING 3); mo-015's 108 Latin rows
+go through `kt-sheet-latin.py` separately. Sheet 001 read by the coordinator as calibration (R 14 · ? 8 · P 1 · M 1:
+p0013.39 the plate prints τόπον). Readers (Opus, `IMAGE-CHECK-BRIEF.md`) write per-reader files `IMAGE-CHECK-{A,B,C}.tsv`
+(kt-verdict `--out`), merged into `IMAGE-CHECK.tsv` before `kt-apply.py`. A = sheets 002–017, B = 018–033 launched; C = 034–048
+waits for a free slot (3 agents at a time with the sweep). ⚠ **`kt-apply.py` rebuilds `checked/` from `ruled/`: after it,
+re-write `PLATE-110-114.tsv` into `checked/` (the plate transcription) or pp. 110/111/114 revert to Kraken.** Then pass 2
+(`--redo` whole lines for every `?`), then p-0103 / p-0121 left-margin blocks, then the Latin rows.
+- ✅ **Latin image check (mo-015, Opusc. 12) DONE in session** (coordinator, 6 sheets, 108 rows → `IMAGE-CHECK-LATIN.tsv`:
+  R 104 · P 2 · ? 2). Real catches: L.11 *extra* (not contra); L.26 *(nam*; L.31 *rius* = **rursus**; **L.39 *cœlestem fidem*
+  (not "haeresi fidem": the sense reverses)**; R.01 *patientissime*; R.48 *tantum … lucro*, **aliis** (not mihi).
+  ⚠⚠ **Two structural faults found by the plate, not by any text check:** (1) the translator's last line (R.58 "vel cum sede
+  ejectus et Urbe in Africa") is **Combefis's footnote 91**, set full-width under both columns, and was translated as
+  Maximus; (2) **Opusc. 12 continues at the top of p. 89** (7 Latin lines, cols 145|146, above Opusc. 13's Greek) to its
+  real end *… ad gloriam Dei, et vestræ laudem sublimitatis* — the scaffold was cut at p. 88 because I set the chunk
+  bounds by the Greek pieces. Lines in `RESTORED-LINES.tsv`; mo-015's translator resumed with all corrections.
+  ⚑ Lesson for every Latin-only stretch: bound the chunk by where the LATIN ends, and test the last scaffold line for a
+  footnote (full-width, raised numeral, smaller type).
+- mo-015 revised by its translator (footnote line out, p. 89 ending in, 7 plate readings; 28 notes). 'thy sublimity' for *vestræ*: the sweep's second-person check to rule.
+- Image check pass 1: reader B (018–033) DONE: R 190 · P 24 · M 40 · ? 130 (p0103/p0118 clipped margins; wrong-word crops). Sense changes → ENGLISH-FIXES.md. Reader C (034–048) launched.
+- Reader A (002–017) DONE: R 186 · P 9 · M 65 · ? 124. ⚠ kt-sheet 'line'-located crops mostly land on the WRONG line (A): pass 2 must use whole-line crops with wider context.
+- kt-sheet line matching: tried a hard window (+38 MISSING) and a soft ordinal penalty (+20 MISSING), both worse → reverted; pass 2 uses the stock --redo whole-line crops (±1 line of context).
