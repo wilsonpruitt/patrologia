@@ -111,3 +111,48 @@ it in your report (Greek → English, one line). Briefs run in parallel, so clas
 | θεομίμητος | imitating God |
 | ἐξομοίωσις | assimilation |
 | ἐμφάσεις | reflections |
+
+## V. Rulings from the run (Fable, 2026-11-06) — the sweep enforces these across all 28 chunks
+
+Terms the Opus briefs decided independently; where briefs clashed, the ruling is the first form. One rendering, the whole work.
+
+| Greek | English (ruled) | clash seen |
+|---|---|---|
+| ἰδικός / ἰδικώτατος | specific / most specific (Porphyry's *species specialissima*) | brief F had "particular": μερικός = particular, ἰδικός = specific |
+| σύνοδος (of natures, of soul and body; Gregory's σύνοδος) | concourse | "concurrence" in E; συνδρομή = concurrence (F), so σύνοδος = concourse |
+| συνδιάθεσις | co-disposition | "fellow-disposition" in E |
+| ἑτεροούσιος / ἑτεροφυής / ἑτεροϋπόστατος / ὁμοϋπόστατος | of other essence / of other nature / of other hypostasis / of one hypostasis | "of another …" in F; τὸ ἑτεροούσιον = the being of other essence; ἑτερουσία = otherness of essence |
+| ἀπαράλλακτος / ἀπαραλλαξία | invariant / invariance | "unvarying / unvarying likeness" in B |
+| διάκρισις / διακρίνω / ἀδιάκριτος | distinction / distinguish / undistinguished | agreed |
+| ἀφορίζω / ἀφοριστικός | mark off / distinguishing (ἰδιώματα) | agreed (F, G) |
+| ὅρος / ὁρισμός / ὑπογραφή | definition / definition / description | ὅρος and ὁρισμός both "definition": harmless, kept |
+| ποσόν / ποσότης | quantity | both; D's T note once |
+| θεωτικός / θεοποιός | deifying | both; θεουργέω = make divine (B) |
+| μεταβολή / μεταβάλλειν | conversion / be converted | kept apart from τροπή = change (E); περιτροπή = conversion too (G): acceptable |
+| ὁμοφυής | connatural | agreed |
+| μερίζω / μεμερισμένος / ἀμέριστος | partition / partitioned / unpartitioned | B; μεριστός = partible (§ I) |
+| ἐγκράτεια | self-mastery | agreed (B, C) |
+| οἰκείωσις / ἀλλοτρίωσις | kinship / alienation | A, G |
+| προσπάθεια | passionate attachment | A |
+| πρόθεσις | intent | A (kept apart from προαίρεσις = choice) |
+| ψυχικός | psychic | C (kept apart from φυσικός) |
+| θέσει | by adoption (sonship) · by imposition (names) | C: two senses, the context decides |
+| ἀεικινησία | ever-moving | C |
+| ὀντότης | true being | C |
+| βασιλεία | kingship (human rule) / kingdom (God's) | C |
+| συμβεβηκότα | accidents | F |
+| πρόσληψις / προσλαμβάνειν | assumption / assume | F |
+| γενητός / ἀγένητος | originated / unoriginated | F (γεννητός = begotten) |
+| συναίρεσις | coalescence | D |
+| ἡ ἄκρα ἕνωσις | the utmost union | D |
+| ῥοπὴ τοῦ θελήματος | the nod of his will | D |
+| καγκελλάριος / ἀμμᾶς | cancellarius / amma | D |
+| φιλανθρωπία | love for man | E; sweep: one form everywhere (not "love of mankind") |
+| αἰώνιος | everlasting | E (§ IV) |
+| μονάς (of a single person) / μονάδες προσωπικαί | monad / personal monads (lower case) | D, E, G; the Trinity's Monad keeps its capital |
+| ἀπογένεσις | passing-away | G |
+| συμπληρωτικός | completive | G |
+| ἔμφασις / ἐμφατικός | reflection / reflective | G (§ IV) |
+| περίστασις | distress | F |
+| αἴσθησις | sense | F; αἰσθητός = sensible |
+| θεσμός | ordinance | F |
