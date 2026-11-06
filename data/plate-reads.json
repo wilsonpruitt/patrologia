@@ -17957,6 +17957,1224 @@
      "found": "coordinator plate read 2026-11-06: p0357.03 νέο,: a word lost or misread; the Latin also breaks off (operum ...); English [?] stays"
     }
    ]
+  },
+  "maximus-confessor-opuscula": {
+   "series": "pg",
+   "volume": 91,
+   "scan": "raw/pg091/091.pdf (archive.org PG 91), Kraken pages rendered to raw/kraken/maximus-opuscula/pages/",
+   "page_map": "data/pg-column-maps/pg091.json (derived, not plate-anchored; the running-head column numbers agree on every page checked)",
+   "note": "Greek = our Kraken read, rule pass, every flagged reading looked up at the plate in two passes (IMAGE-CHECK.tsv, 1,150 rows); pp. 110/111/114 transcribed by eye. No [sic:]/[var:] marker is placed: the 194 print-error rows are listed on the cruces page. The pages recorded here carry the English [?] marks that remain (our doubts) or print-error rows; each was read at the plate by the coordinator, the page was not read through.",
+   "reads": [
+    {
+     "page": 13,
+     "cols": [
+      "0013",
+      "0014"
+     ],
+     "from": "0013",
+     "to": "0014",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 16,
+     "cols": [
+      "0019",
+      "0020"
+     ],
+     "from": "0019",
+     "to": "0020",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 20,
+     "cols": [
+      "0027",
+      "0028"
+     ],
+     "from": "0027",
+     "to": "0028",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 21,
+     "cols": [
+      "0029",
+      "0030"
+     ],
+     "from": "0029",
+     "to": "0030",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 22,
+     "cols": [
+      "0031",
+      "0032"
+     ],
+     "from": "0031",
+     "to": "0032",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 24,
+     "cols": [
+      "0035",
+      "0036"
+     ],
+     "from": "0035",
+     "to": "0036",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 27,
+     "cols": [
+      "0041",
+      "0042"
+     ],
+     "from": "0041",
+     "to": "0042",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 29,
+     "cols": [
+      "0045",
+      "0046"
+     ],
+     "from": "0045",
+     "to": "0046",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 32,
+     "cols": [
+      "0051",
+      "0052"
+     ],
+     "from": "0051",
+     "to": "0052",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 33,
+     "cols": [
+      "0053",
+      "0054"
+     ],
+     "from": "0053",
+     "to": "0054",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 34,
+     "cols": [
+      "0055",
+      "0056"
+     ],
+     "from": "0055",
+     "to": "0056",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 35,
+     "cols": [
+      "0057",
+      "0058"
+     ],
+     "from": "0057",
+     "to": "0058",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 36,
+     "cols": [
+      "0059",
+      "0060"
+     ],
+     "from": "0059",
+     "to": "0060",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 37,
+     "cols": [
+      "0061",
+      "0062"
+     ],
+     "from": "0061",
+     "to": "0062",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 41,
+     "cols": [
+      "0065",
+      "0066"
+     ],
+     "from": "0065",
+     "to": "0066",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 43,
+     "cols": [
+      "0069",
+      "0070"
+     ],
+     "from": "0069",
+     "to": "0070",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 46,
+     "cols": [
+      "0071",
+      "0072"
+     ],
+     "from": "0071",
+     "to": "0072",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 48,
+     "cols": [
+      "0075",
+      "0076"
+     ],
+     "from": "0075",
+     "to": "0076",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 50,
+     "cols": [
+      "0079",
+      "0080"
+     ],
+     "from": "0079",
+     "to": "0080",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 51,
+     "cols": [
+      "0081",
+      "0082"
+     ],
+     "from": "0081",
+     "to": "0082",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 53,
+     "cols": [
+      "0085",
+      "0086"
+     ],
+     "from": "0085",
+     "to": "0086",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 56,
+     "cols": [
+      "0087",
+      "0088"
+     ],
+     "from": "0087",
+     "to": "0088",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 57,
+     "cols": [
+      "0089",
+      "0090"
+     ],
+     "from": "0089",
+     "to": "0090",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 58,
+     "cols": [
+      "0091",
+      "0092"
+     ],
+     "from": "0091",
+     "to": "0092",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 64,
+     "cols": [
+      "0099",
+      "0100"
+     ],
+     "from": "0099",
+     "to": "0100",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 65,
+     "cols": [
+      "0101",
+      "0102"
+     ],
+     "from": "0101",
+     "to": "0102",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 69,
+     "cols": [
+      "0105",
+      "0106"
+     ],
+     "from": "0105",
+     "to": "0106",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 70,
+     "cols": [
+      "0107",
+      "0108"
+     ],
+     "from": "0107",
+     "to": "0108",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 71,
+     "cols": [
+      "0109",
+      "0110"
+     ],
+     "from": "0109",
+     "to": "0110",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 72,
+     "cols": [
+      "0111",
+      "0112"
+     ],
+     "from": "0111",
+     "to": "0112",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 73,
+     "cols": [
+      "0113",
+      "0114"
+     ],
+     "from": "0113",
+     "to": "0114",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 74,
+     "cols": [
+      "0115",
+      "0116"
+     ],
+     "from": "0115",
+     "to": "0116",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 75,
+     "cols": [
+      "0117",
+      "0118"
+     ],
+     "from": "0117",
+     "to": "0118",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 76,
+     "cols": [
+      "0119",
+      "0120"
+     ],
+     "from": "0119",
+     "to": "0120",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 77,
+     "cols": [
+      "0121",
+      "0122"
+     ],
+     "from": "0121",
+     "to": "0122",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 78,
+     "cols": [
+      "0123",
+      "0124"
+     ],
+     "from": "0123",
+     "to": "0124",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 79,
+     "cols": [
+      "0125",
+      "0126"
+     ],
+     "from": "0125",
+     "to": "0126",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 80,
+     "cols": [
+      "0127",
+      "0128"
+     ],
+     "from": "0127",
+     "to": "0128",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 82,
+     "cols": [
+      "0131",
+      "0132"
+     ],
+     "from": "0131",
+     "to": "0132",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 83,
+     "cols": [
+      "0133",
+      "0134"
+     ],
+     "from": "0133",
+     "to": "0134",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 84,
+     "cols": [
+      "0135",
+      "0136"
+     ],
+     "from": "0135",
+     "to": "0136",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 85,
+     "cols": [
+      "0137",
+      "0138"
+     ],
+     "from": "0137",
+     "to": "0138",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 87,
+     "cols": [
+      "0141",
+      "0142"
+     ],
+     "from": "0141",
+     "to": "0142",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0087.L.20 [?] (sine successu receptionem): the plate confirms the Latin as printed; Opusc. 12 is Latin only, the page was read through for the image check"
+    },
+    {
+     "page": 88,
+     "cols": [
+      "0143",
+      "0144"
+     ],
+     "from": "0143",
+     "to": "0144",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: Opusc. 12, Latin only: the page was read through at the plate for the Latin image check; the line carrying Combefis's footnote 91 is apparatus, not text"
+    },
+    {
+     "page": 89,
+     "cols": [
+      "0145",
+      "0146"
+     ],
+     "from": "0145",
+     "to": "0146",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0089.14 [?] (ὄντως?): the plate prints a form that does not construe, the English keeps the doubt; the top-of-page Latin lines (end of Opusc. 12) read at the plate"
+    },
+    {
+     "page": 93,
+     "cols": [
+      "0153",
+      "0154"
+     ],
+     "from": "0153",
+     "to": "0154",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 94,
+     "cols": [
+      "0155",
+      "0156"
+     ],
+     "from": "0155",
+     "to": "0156",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 95,
+     "cols": [
+      "0157",
+      "0158"
+     ],
+     "from": "0157",
+     "to": "0158",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 98,
+     "cols": [
+      "0163",
+      "0164"
+     ],
+     "from": "0163",
+     "to": "0164",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 99,
+     "cols": [
+      "0165",
+      "0166"
+     ],
+     "from": "0165",
+     "to": "0166",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 103,
+     "cols": [
+      "0173",
+      "0174"
+     ],
+     "from": "0173",
+     "to": "0174",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 106,
+     "cols": [
+      "0175",
+      "0176"
+     ],
+     "from": "0175",
+     "to": "0176",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 107,
+     "cols": [
+      "0177",
+      "0178"
+     ],
+     "from": "0177",
+     "to": "0178",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 108,
+     "cols": [
+      "0179",
+      "0180"
+     ],
+     "from": "0179",
+     "to": "0180",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 110,
+     "cols": [
+      "0183",
+      "0184"
+     ],
+     "from": "0183",
+     "to": "0184",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: pp. 110/111/114 are over-inked plates: transcribed line for line by eye (PLATE-110-114.tsv); no [?] on this page"
+    },
+    {
+     "page": 111,
+     "cols": [
+      "0185",
+      "0186"
+     ],
+     "from": "0185",
+     "to": "0186",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: over-inked plate, transcribed by eye (PLATE-110-114.tsv)"
+    },
+    {
+     "page": 112,
+     "cols": [
+      "0187",
+      "0188"
+     ],
+     "from": "0187",
+     "to": "0188",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 113,
+     "cols": [
+      "0189",
+      "0190"
+     ],
+     "from": "0189",
+     "to": "0190",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 114,
+     "cols": [
+      "0191",
+      "0192"
+     ],
+     "from": "0191",
+     "to": "0192",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: over-inked plate, transcribed by eye (PLATE-110-114.tsv): p0114.02 and p0114.15 [?] are illegible on the plate and stay as our doubts"
+    },
+    {
+     "page": 116,
+     "cols": [
+      "0195",
+      "0196"
+     ],
+     "from": "0195",
+     "to": "0196",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0116.53 -> p0117.01 [?]: a phrase lost at the page turn (Latin: yielding to the fear and dread of death); the English keeps the [?]"
+    },
+    {
+     "page": 117,
+     "cols": [
+      "0197",
+      "0198"
+     ],
+     "from": "0197",
+     "to": "0198",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0116.53 -> p0117.01 [?]: continuation, as p. 116"
+    },
+    {
+     "page": 118,
+     "cols": [
+      "0199",
+      "0200"
+     ],
+     "from": "0199",
+     "to": "0200",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 119,
+     "cols": [
+      "0201",
+      "0202"
+     ],
+     "from": "0201",
+     "to": "0202",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 122,
+     "cols": [
+      "0207",
+      "0208"
+     ],
+     "from": "0207",
+     "to": "0208",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 123,
+     "cols": [
+      "0209",
+      "0210"
+     ],
+     "from": "0209",
+     "to": "0210",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 124,
+     "cols": [
+      "0211",
+      "0212"
+     ],
+     "from": "0211",
+     "to": "0212",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 126,
+     "cols": [
+      "0215",
+      "0216"
+     ],
+     "from": "0215",
+     "to": "0216",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 129,
+     "cols": [
+      "0221",
+      "0222"
+     ],
+     "from": "0221",
+     "to": "0222",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 130,
+     "cols": [
+      "0223",
+      "0224"
+     ],
+     "from": "0223",
+     "to": "0224",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 132,
+     "cols": [
+      "0227",
+      "0228"
+     ],
+     "from": "0227",
+     "to": "0228",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 133,
+     "cols": [
+      "0229",
+      "0230"
+     ],
+     "from": "0229",
+     "to": "0230",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 134,
+     "cols": [
+      "0231",
+      "0232"
+     ],
+     "from": "0231",
+     "to": "0232",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 135,
+     "cols": [
+      "0233",
+      "0234"
+     ],
+     "from": "0233",
+     "to": "0234",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 136,
+     "cols": [
+      "0235",
+      "0236"
+     ],
+     "from": "0235",
+     "to": "0236",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 137,
+     "cols": [
+      "0237",
+      "0238"
+     ],
+     "from": "0237",
+     "to": "0238",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 138,
+     "cols": [
+      "0239",
+      "0240"
+     ],
+     "from": "0239",
+     "to": "0240",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 139,
+     "cols": [
+      "0241",
+      "0242"
+     ],
+     "from": "0241",
+     "to": "0242",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 140,
+     "cols": [
+      "0243",
+      "0244"
+     ],
+     "from": "0243",
+     "to": "0244",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0140.19 [?]: corrupt on the plate (Latin *verisimile est eos mentiri*); the English keeps the [?]"
+    },
+    {
+     "page": 141,
+     "cols": [
+      "0245",
+      "0246"
+     ],
+     "from": "0245",
+     "to": "0246",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 142,
+     "cols": [
+      "0247",
+      "0248"
+     ],
+     "from": "0247",
+     "to": "0248",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 143,
+     "cols": [
+      "0249",
+      "0250"
+     ],
+     "from": "0249",
+     "to": "0250",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 144,
+     "cols": [
+      "0251",
+      "0252"
+     ],
+     "from": "0251",
+     "to": "0252",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 145,
+     "cols": [
+      "0253",
+      "0254"
+     ],
+     "from": "0253",
+     "to": "0254",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 146,
+     "cols": [
+      "0255",
+      "0256"
+     ],
+     "from": "0255",
+     "to": "0256",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 147,
+     "cols": [
+      "0257",
+      "0258"
+     ],
+     "from": "0257",
+     "to": "0258",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 148,
+     "cols": [
+      "0259",
+      "0260"
+     ],
+     "from": "0259",
+     "to": "0260",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 149,
+     "cols": [
+      "0261",
+      "0262"
+     ],
+     "from": "0261",
+     "to": "0262",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 150,
+     "cols": [
+      "0263",
+      "0264"
+     ],
+     "from": "0263",
+     "to": "0264",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 151,
+     "cols": [
+      "0265",
+      "0266"
+     ],
+     "from": "0265",
+     "to": "0266",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 152,
+     "cols": [
+      "0267",
+      "0268"
+     ],
+     "from": "0267",
+     "to": "0268",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 153,
+     "cols": [
+      "0269",
+      "0270"
+     ],
+     "from": "0269",
+     "to": "0270",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 155,
+     "cols": [
+      "0273",
+      "0274"
+     ],
+     "from": "0273",
+     "to": "0274",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    },
+    {
+     "page": 159,
+     "cols": [
+      "0281",
+      "0282"
+     ],
+     "from": "0281",
+     "to": "0282",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: every reading the translators flagged on this page was looked up at the plate in the image check (IMAGE-CHECK.tsv, two passes); the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+    }
+   ]
   }
  }
 }

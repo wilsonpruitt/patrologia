@@ -267,3 +267,9 @@ locators mirrored** to a translator's S note (103 locators vs 246 S notes) · 4 
 18 lines not located (placed by word). Every brief needed at least one resume for completeness (unopened tiles, the call
 cross-check, paraphrased `en`, context-restored words, bold 1675 page numbers misread as calls).
 ## Step 5 — site build (Sonnet, `BUILD.md`) — LAUNCHED
+## ✅ Step 5 DONE 2026-11-06 (local, nothing pushed or deployed): site build, preflight 9 of 10 (blind polarity read owed)
+Registry `maximus-confessor-opuscula` (slug `opuscula`, DRAFT about/RECENT line; no `englishState`; bio reused). `CONF['maximus-opuscula']` in `kt-to-site.py`
+(`stripcalls`, `lineinitial`, `wrapnotes`, `showen`, `anglenotes`; no `unwrap`). Tables by `scripts/ox-tables.py` after `mp-bands.py` (MP_RANGES=11-86,89-161);
+mo-015 by `kt-apply-latin.py` + `scripts/ox-latin-residue.py` (run the latter, it re-runs the former). Rebuild: ox-tables -> ox-latin-residue -> kt-to-site maximus-opuscula
+-> mark-sentences -> `WIDE_PARA=1` align -> verify -> plate-gate -> build-work-page-pg -> index-work-pg -> build-site -> build-lookup-grc -> preflight.
+Epistulae, Sophronius, Moschus, Procopius rebuilt byte-identical (Moschus/Procopius `generated` dates restored).

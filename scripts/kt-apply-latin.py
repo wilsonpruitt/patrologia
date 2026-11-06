@@ -37,7 +37,8 @@ DROPS = {'p0220.L.01', 'p0220.R.01', 'p0262.L.01', 'p0262.R.01', 'p0265.L.01', '
          'p0258.L.02', 'p0258.R.03', 'p0264.R.16', 'p0273.R.50', 'p0262.R.38'}
 # DEVIATION from the spec's drop list (reported): eight foot-of-column apparatus lines (scripture locators / note numerals) that the
 # wider Kraken pad let into the column and that no translator logged as stray. They are Migne's notes, which place.py places (step 4).
-FOOT_DROPS = {'p0216.L.58', 'p0216.R.58', 'p0218.L.58', 'p0218.R.58', 'p0220.L.46', 'p0260.L.55', 'p0260.R.56', 'p0274.L.59'}
+FOOT_DROPS = {'p0216.L.58', 'p0216.R.58', 'p0218.L.58', 'p0218.R.58', 'p0220.L.46', 'p0260.L.55', 'p0260.R.56', 'p0274.L.59',
+              'p0088.R.58'}   # Maximus mo-015: Combefis's footnote 91 (full width under both columns), not Maximus's text
 CALL = re.compile(r'\(\d+(?:[-·]\d+)?\)|\s*(?:\*+|[“„]+)(?=[\s.,;:?!»]|$)')   # numbered calls, plus asterisk/quote marks no stray row logged
 OFFS = [0, 1, -1, 2, -2, 3, -3]
 

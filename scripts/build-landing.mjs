@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-11-06 session (DRAFT line, Wilson to read before any deploy; LOCAL BUILD): Maximus the Confessor's Theological and Polemical Opuscula (twenty-seven pieces from Combefis's edition, on the two wills and two operations of Christ); the Greek is our own OCR of the plates, every doubtful reading checked against the page, and Opusculum 12, which survives only in Anastasius's Latin, is translated from it.
+  'pg/91/opuscula',
   // — 2026-11-06 session (DRAFT line, Wilson to read before any deploy; LOCAL BUILD): Maximus the Confessor's forty-five Letters, from a Migne volume with no transcription; the Greek is our own reading of the plates (a vision read checked line by line against the page), with Combefis's variant notes set into it.
   'pg/91/epistulae',
   // — 2026-11-05 session (DRAFT line, Wilson to review before any deploy; LOCAL BUILD): Sophronius of Jerusalem's Synodical Letter to Sergius and his festal orations (Annunciation, Cross, John the Baptist, Peter and Paul, and three that survive only in Latin); the Greek is our own Kraken reading, plate-checked.

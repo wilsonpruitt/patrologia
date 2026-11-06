@@ -32,6 +32,10 @@ CONF = {
     # (pg091.json duplicateLeaves). stripcalls: Combefis's note calls (b), (1), (ι΄), 19 are removed from the Greek lines by pattern.
     'maximus-epistulae': dict(key='maximus-confessor-epistulae', vol=91, cmap='data/pg-column-maps/pg091.json',
                               xml='raw/pg091/091_djvu.xml', prefix='me', unwrap=True, lineinitial=True, stripcalls=True, wrapnotes=True),   # wrapnotes 2026-11-06: 22 hard-wrapped notes were cut to their first line in cruces.md
+    # Maximus, Opuscula (2026-11-06): Kraken base (kt-rules + kt-apply image check; pp. 110/111/114 plate-transcribed), 12 duplicate leaves absent; mo-015 = Opusc. 12, LATIN ONLY
+    # (Anastasius's Latin, pdf 87-88 + its last 7 lines at the top of p-0089, from RESTORED-LINES.tsv). Cards are not hard-wrapped (no unwrap).
+    'maximus-opuscula': dict(key='maximus-confessor-opuscula', vol=91, cmap='data/pg-column-maps/pg091.json',
+                             xml='raw/pg091/091_djvu.xml', prefix='mo', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv
@@ -156,6 +160,7 @@ def greek(ci):
                 items.append(('para', ''))
             items.append(('line', line))
             prev = line
+    while C.get('stripcalls') and items and items[-1][0] == 'anchor': items.pop()      # Maximus: a trailing page anchor with no kept line after it (the chunk ends on dropped junk lines) belongs to the next chunk
     return join(items)
 
 
@@ -172,6 +177,11 @@ def latin_source(ci, app):
     for tag, (x1, x2) in geo.items(): med.setdefault(tag[:7], []).append((x1, x2))
     med = {k: (statistics.median(a for a, _ in v), statistics.median(b for _, b in v)) for k, v in med.items()}
     heads = {r['replaces'].split(',')[0] for r in csv.DictReader(open(f'{T}/verify/LATIN-HEADS.tsv'), delimiter='\t') if r['chunk'] == cid}
+    if C.get('stripcalls'):                                       # Maximus mo-015: the title block Kraken's scaffold does not carry (plate read 2026-11-06), from LATIN-HEADS.tsv rows whose tag is not a scaffold line
+        have = {t_ for t_, _ in rows}
+        hf = f'{T}/verify/LATIN-HEADS-RESTORED.tsv'
+        pre = [(r['replaces'], r['text']) for r in csv.DictReader(open(hf), delimiter='\t') if r['chunk'] == cid and r['replaces'] not in have] if os.path.exists(hf) else []
+        rows = pre + rows; heads |= {t_ for t_, _ in pre}
     notes = {}
     for rec in app.get('latin', {}).get(cid, []):                 # [tag, anchor, text, kind, nth, en]
         notes.setdefault(rec[0], []).append(rec)
@@ -179,7 +189,7 @@ def latin_source(ci, app):
     SENT = re.compile(r'[.?!:»]$')
     for tag, text in rows:
         pg, side = int(tag[1:5]), tag[6]
-        col = cmap[pg]['colLeft'] if side == 'L' else cmap[pg]['colRight']
+        col = '%04d' % (cmap[pg]['colLeft'] if side == 'L' else cmap[pg]['colRight'])   # 4 digits (PG 91 has 3-digit columns; Sophronius's were already 4)
         if (pg, side) not in seen_cols:
             seen_cols.add((pg, side)); items.append(('anchor', f'[{col}]'))
         plain = re.sub(r'^\[b: .\] ', '', text)
@@ -205,7 +215,20 @@ def latin_source(ci, app):
         for pos, ins_t in sorted(ins, key=lambda x: -x[0]): text = text[:pos] + ins_t + text[pos:]
         items.append(('line', text))
         in_head = ishead; prev = plain; prev_x2 = None if ishead else geo[tag][1]
-    return join(items)
+    rl = f'{T}/RESTORED-LINES.tsv'
+    if C.get('stripcalls') and os.path.exists(rl):          # Maximus mo-015: Opusc. 12 ends in 7 Latin lines at the TOP of p-0089 (tags L.top1-4, R.top1-3), above Opusc. 13's Greek
+        tops = [r for r in csv.DictReader(open(rl), delimiter='\t') if re.match(r'[LR]\.top\d', r['line']) and r['page'] == 'p-0089']
+        for side in 'LR':
+            rs = [r for r in tops if r['line'][0] == side]
+            if rs: items.append(('anchor', '[%04d]' % (cmap[89]['colLeft'] if side == 'L' else cmap[89]['colRight'])))
+            for r in rs: items.append(('line', nfc(r['greek'])))
+    out = join(items)
+    if C.get('stripcalls'):
+        out = re.sub(r' +,', ',', out)
+        out = re.sub(r'(?<![\w])(Et paulo post\.|Et post pauca\.|Et post pauxillum\s?[.:]|Et post\. nonnulla\.|Et post\. pusilla\s?:|Paulo post\.|Post aliqua\.|Post brevia\.)\s*', lambda m: '\n\n' + m.group(1) + '\n\n', out)   # Anastasius's link-formulas: a paragraph of their own, as in the English
+        out = re.sub(r'(?<=\.) (Itaque si vult haereticus|Itaque si vult hereticus)', r'\n\n\1', out)   # the English's paragraph (So if he wishes not to be a heretic...)
+        out = re.sub(r'\n{3,}', '\n\n', out)
+    return out
 
 # ---------- Latin twin (witness) ----------
 regions = json.load(open(f'{K}/regions.json'))
@@ -237,7 +260,7 @@ def card(cid):
 def english(cid, sics, ns):
     """sics: {note_no: printed} -> [sic:]; ns: {note_no: migne_text} -> [n:]. Others -> cruces (returned)."""
     body, notes = card(cid)
-    if C.get('stripcalls'): body = re.sub(r'(?<![\w^])\[(\d{3})\](?!\()', r'[0\1]', body)     # Maximus: the cards anchor columns as [364]; the builders want [0364]
+    if C.get('stripcalls'): body = re.sub(r'(?<![\w^])\[(\d{1,3})\](?!\()', lambda m_: '[%04d]' % int(m_.group(1)), body)     # Maximus: the cards anchor columns as [364]; the builders want [0364]
     if C.get('unwrap'): body = re.sub(r'(?<!\n)\n(?!\n)', ' ', body)      # Sophronius: hard-wrapped cards (single newline = same paragraph)
     body = re.sub(r'^#{2,4} ', '', body, flags=re.M)     # so-020's `### Chapter` heads: plain text (no builder renders ###)
     body = body.replace('**', '')                      # Instruction heads: plain (the builder's *…* is italic only)
@@ -281,7 +304,7 @@ if __name__ == '__main__':
            'authors': [W['author']], 'citRange': W['citRange'], 'chunkCount': N, 'greekSource': W.get('greekSource', 'ours-vision-ocr'),
            'builtBy': 'scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators\')',
            'chunks': []}
-    allcrux = []; placed_g = set(); placed_all = set()
+    allcrux = []; placed_g = set(); placed_all = set(); prev_g = ''
     def base(x): return ''.join(c for c in ud.normalize('NFD', x.lower()) if ud.category(c) in ('Ll', 'Lu', 'Lo'))
     def find_word(g, word, start):
         """end offset of `word` (or its letters, accents ignored) at or after `start`; multiword allowed"""
@@ -327,14 +350,16 @@ if __name__ == '__main__':
                 if MP:                                                   # a note belongs to ITS page's column: never look past the next column anchor
                     nx = re.search(r'\[\d{4}\]', gm[start + len(anc):])
                     if nx and hit > start + len(anc) + nx.start(): continue
+                if C.get('anglenotes'): txt = txt.replace('[', '⟨').replace(']', '⟩')   # Combefis's `lemma] reading` and `[…]` inside a note would end the marker early (the builder reads [^\]]*)
                 g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word)); placed_all.add((page, word, txt.strip()))
         e, crux = english(cid, SICS.get(cid, {}), APP.get('english', {}).get(cid, {}))
         ctx = None
-        if fl > 1 and ci > 0 and LANG.get(chunks[ci - 1][0]) == LANG.get(cid):   # (LANG guard: a Greek chunk after a Latin one keeps its anchor)   # opens mid-page: the column anchor belongs to the previous chunk; this one carries it as colContext only
+        if fl > 1 and ci > 0 and LANG.get(chunks[ci - 1][0]) == LANG.get(cid) and not (C.get('stripcalls') and (re.findall(r'\[\d{4}\]', prev_g) or [''])[-1] != f'[{gcol(fp)}]'):   # (LANG guard: a Greek chunk after a Latin one keeps its anchor)   # opens mid-page: the column anchor belongs to the previous chunk; this one carries it as colContext only
             ctx = f'{gcol(fp)}'
             g = re.sub(r'^\[' + ctx + r'\]\s*', '', g, count=1)
             e = re.sub(r'\[' + ctx + r'\]\s*', '', e, count=1)
         fm, cols, words = frontmatter(ci, g, ctx)
+        prev_g = g
         allcrux += [(ci + 1, cid) + c for c in crux]
         pages = [p for p in range(fp, lp + 1) if p not in SKIP]
         lat = '\n\n'.join(f'[{lcol(p)}] ' + latin(p) for p in pages)
@@ -378,7 +403,8 @@ if __name__ == '__main__':
                 'prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.\n\n')
         for n in miss:
             o.write(f"- p. {n['page'][2:]} ({n.get('series')}, {n.get('marker') or 'marker illegible'}): {n['text']}"
-                    + (f" — keyed to {n.get('latinWord') or n.get('greekWord') or ''}" if (n.get('latinWord') or n.get('greekWord')) else '') + '\n')
+                    + (f" — keyed to {n.get('latinWord') or n.get('greekWord') or ''}" if (n.get('latinWord') or n.get('greekWord')) else '')
+                    + (f" — **working translation** (a first reading by the apparatus reader, not yet reviewed): {n['en']}" if C.get('showen') and n.get('en') else '') + '\n')
         pef = f'{T}/verify/PRINT-ERRORS.tsv'; icf = f'{T}/IMAGE-CHECK.tsv'
         if C.get('stripcalls') and os.path.exists(pef) and os.path.exists(icf):      # Maximus: the plate check's M rows are the [sic:] layer, listed here, NOT applied to the Greek
             ic = list(csv.DictReader(open(icf), delimiter='\t')); cnt = {v: sum(1 for r in ic if r['verdict'] == v) for v in 'RMP?'}
@@ -409,7 +435,22 @@ if __name__ == '__main__':
             for r in csv.DictReader(open(vf), delimiter='\t'):
                 cell = lambda x: x.replace('|', '/').replace('\n', ' ')
                 o.write(f"| {r['tag']} | {cell(r['printed'])} | {cell(r['reading'])} | {r['kind']} | {r['verdict']} | {cell(r['plate'])} |\n")
-    if LANG:                                                  # Latin-only chunks: two more cruces sections (LATIN-ONLY-SPEC.md section 4)
+    if LANG and C.get('stripcalls'):                          # Maximus mo-015 (Opusc. 12): Latin-only chunk of a mostly Greek work
+        lf = f'{T}/IMAGE-CHECK-LATIN.tsv'
+        with open(f'{edir}/cruces.md', 'a') as o:
+            nrow = [r for r in csv.DictReader(open(lf), delimiter='\t')]
+            cnt = {v: sum(1 for r in nrow if r['verdict'] == v) for v in 'RMP?'}
+            o.write("\n## Opusculum 12 (Latin only): readings checked at the plate\n\nOpusculum 12 survives only in Anastasius's Latin, which Migne prints "
+                    "without a Greek column (cols. 141-146); the Latin column is therefore the source and is translated as it stands. Every reading the translator flagged "
+                    f"({len(nrow)}) was looked up on the page image (2026-11-06): {cnt['R']} were slips in our transcription of the scan and are corrected without comment; "
+                    f"{cnt['P']} are readings where the plate prints the form the translator doubted (Migne's text, kept); {cnt['?']} were not settled at the plate "
+                    "(a blotted word, and the line that carries Combefis's footnote 91, which is apparatus and not text). The unsettled and kept rows:\n\n")
+            o.write('| page.line | the scaffold read | reading | verdict | note |\n|---|---|---|---|---|\n')
+            for r in nrow:
+                if r['verdict'] == 'R': continue
+                cell = lambda x: (x or '').replace('|', '/').replace('\n', ' ')
+                o.write(f"| {r['tag']} | {cell(r['printed'])} | {cell(r['reading'])} | {r['verdict']} | {cell(r['comment'])} |\n")
+    elif LANG:                                                # Latin-only chunks: two more cruces sections (LATIN-ONLY-SPEC.md section 4)
         with open(f'{edir}/cruces.md', 'a') as o:
             o.write("\n## Migne's notes to the Latin-only orations, in English\n\nOrations I, III and VI survive in Migne only in Latin, so his Latin-column apparatus stands "
                     "in the Latin text as `[n:]` (a locator) or `[nt:]` (prose). Each prose note is listed here with a **working translation of Migne's note** "

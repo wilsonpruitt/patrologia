@@ -81,6 +81,9 @@ function sentenceRows(text, terminalRe) {
       const at = mm.index + mm[0].length;
       if (!insideMarker(at)) last = at; // a terminal inside a marker is not a sentence end
     }
+    // a sentence that spans TWO anchors (Maximus Opuscula mo-015: Opusc. 12's last sentence runs over cols 0145-0146): the cut would
+    // fall before the previous anchor and leave that column's row without its anchor; cut at the anchor itself instead
+    if (i > 0 && last <= anchors[i - 1].index) last = m.index;
     // the anchor's own fallback position can sit inside a marker too — back the
     // cut out to the marker's start rather than through its middle
     const span = spans.find(([a, b]) => last > a && last < b);
