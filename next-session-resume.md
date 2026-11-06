@@ -1,6 +1,17 @@
 # Next session — resume note
 
-## ▶ START HERE (2026-11-06, Wilson): MAXIMUS *OPUSCULA THEOLOGICA ET POLEMICA* — queue #1, not yet started
+## ▶ 2026-11-06 (later, Fable) — OPUSCULA SETUP DONE, KRAKEN RUNNING; ⚠ A COMPLETE ENGLISH EXISTS (Clarke 2026) — WILSON'S CALL BEFORE ANY PAID STEP
+Record: `translate/maximus-opuscula/RUN.md` ("Setup"). Pages = pdf **11–161**, 12 duplicate pages in six pairs (text identity),
+139 leaves = cols 9–286 exactly; `pg091.json` extended; `kt-scaffold.py` has the `maximus-opuscula` entry; Kraken launched over
+the 139 pages (`raw/kraken/maximus-opuscula/`, ≈2 h; if `text/` has <139 files next session, re-run the same `htr/pg-ocr.sh`
+line in RUN.md — it skips finished pages). **Web-checked: Kevin M. Clarke, *The Opuscula and the Dispute with Pyrrhus* (CUA
+Press, Fathers of the Church, 2026) = all 27 Opuscula + Additamenta + the *Disputatio*.** Queue #1 and #2 are no longer "New";
+the queue file's "Open before work 1 starts" has the finding and the options. ⬜ Wilson: still do the Opuscula (≈6M, "New
+English translation" badge), or move the go to the New tier (Hymni ≈0.1M with the Anacreontica pilot; PG 90 fetch for Ps 59 /
+Theopemptus / Capita alia ≈1.8M)? Then "which model, and go". If the Opuscula: `kt-rules.py maximus-opuscula` → `kt-lost.py`
+→ myriobiblos *ad Marinum* diff → PIECES/CHUNKS from the Kraken titles → card → briefs, per RUN.md "Plan".
+
+## ▶ (superseded above) START HERE (2026-11-06, Wilson): MAXIMUS *OPUSCULA THEOLOGICA ET POLEMICA* — queue #1, not yet started
 Score: `translate/MAXIMUS-QUEUE.md` (the complete-works queue, costed) + its method section. The Opuscula = PG 91.9–285, 27
 pieces, ≈52K Greek words, est. ≈6M all-in (Opus translators, Sonnet volume work, no Fable anchor: the register and glossary
 are the *Epistulae*'s — `translate/maximus-epistulae/{CARD,GLOSSARY}.md`, `translation-style.md` M1–M6). **Needs Wilson's

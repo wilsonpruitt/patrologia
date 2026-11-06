@@ -1,1039 +1,2024 @@
 {
-"volume": 91,
-"file": "raw/pg091/091.pdf",
-"work": "maximus-epistulae",
-"colRange": [
-363,
-650
-],
-"method": "2 columns per pdf page from p200 = 363/364 (Ep. 1 begins col 364), 16 duplicate leaves removed (text-identical re-scans: 266-271=260-265, 318-323=312-317, 328-331=324-327); Greek side from the CLLG gutter split (right on even pdf pages, left on odd); running-head numbers checked where legible (2026-11-06)",
-"anchorsPlateVerified": false,
-"duplicateLeaves": [
-265,
-266,
-267,
-268,
-269,
-270,
-317,
-318,
-319,
-320,
-321,
-322,
-327,
-328,
-329,
-330
-],
-"pages": [
-{
-"leaf": 199,
-"pdfPage": 200,
-"colLeft": 363,
-"colRight": 364,
-"greekSide": "right"
-},
-{
-"leaf": 200,
-"pdfPage": 201,
-"colLeft": 365,
-"colRight": 366,
-"greekSide": "left"
-},
-{
-"leaf": 201,
-"pdfPage": 202,
-"colLeft": 367,
-"colRight": 368,
-"greekSide": "right"
-},
-{
-"leaf": 202,
-"pdfPage": 203,
-"colLeft": 369,
-"colRight": 370,
-"greekSide": "left"
-},
-{
-"leaf": 203,
-"pdfPage": 204,
-"colLeft": 371,
-"colRight": 372,
-"greekSide": "right"
-},
-{
-"leaf": 204,
-"pdfPage": 205,
-"colLeft": 373,
-"colRight": 374,
-"greekSide": "left"
-},
-{
-"leaf": 205,
-"pdfPage": 206,
-"colLeft": 375,
-"colRight": 376,
-"greekSide": "right"
-},
-{
-"leaf": 206,
-"pdfPage": 207,
-"colLeft": 377,
-"colRight": 378,
-"greekSide": "left"
-},
-{
-"leaf": 207,
-"pdfPage": 208,
-"colLeft": 379,
-"colRight": 380,
-"greekSide": "right"
-},
-{
-"leaf": 208,
-"pdfPage": 209,
-"colLeft": 381,
-"colRight": 382,
-"greekSide": "left"
-},
-{
-"leaf": 209,
-"pdfPage": 210,
-"colLeft": 383,
-"colRight": 384,
-"greekSide": "right"
-},
-{
-"leaf": 210,
-"pdfPage": 211,
-"colLeft": 385,
-"colRight": 386,
-"greekSide": "left"
-},
-{
-"leaf": 211,
-"pdfPage": 212,
-"colLeft": 387,
-"colRight": 388,
-"greekSide": "right"
-},
-{
-"leaf": 212,
-"pdfPage": 213,
-"colLeft": 389,
-"colRight": 390,
-"greekSide": "left"
-},
-{
-"leaf": 213,
-"pdfPage": 214,
-"colLeft": 391,
-"colRight": 392,
-"greekSide": "right"
-},
-{
-"leaf": 214,
-"pdfPage": 215,
-"colLeft": 393,
-"colRight": 394,
-"greekSide": "left"
-},
-{
-"leaf": 215,
-"pdfPage": 216,
-"colLeft": 395,
-"colRight": 396,
-"greekSide": "right"
-},
-{
-"leaf": 216,
-"pdfPage": 217,
-"colLeft": 397,
-"colRight": 398,
-"greekSide": "left"
-},
-{
-"leaf": 217,
-"pdfPage": 218,
-"colLeft": 399,
-"colRight": 400,
-"greekSide": "right"
-},
-{
-"leaf": 218,
-"pdfPage": 219,
-"colLeft": 401,
-"colRight": 402,
-"greekSide": "left"
-},
-{
-"leaf": 219,
-"pdfPage": 220,
-"colLeft": 403,
-"colRight": 404,
-"greekSide": "right"
-},
-{
-"leaf": 220,
-"pdfPage": 221,
-"colLeft": 405,
-"colRight": 406,
-"greekSide": "left"
-},
-{
-"leaf": 221,
-"pdfPage": 222,
-"colLeft": 407,
-"colRight": 408,
-"greekSide": "right"
-},
-{
-"leaf": 222,
-"pdfPage": 223,
-"colLeft": 409,
-"colRight": 410,
-"greekSide": "left"
-},
-{
-"leaf": 223,
-"pdfPage": 224,
-"colLeft": 411,
-"colRight": 412,
-"greekSide": "right"
-},
-{
-"leaf": 224,
-"pdfPage": 225,
-"colLeft": 413,
-"colRight": 414,
-"greekSide": "left"
-},
-{
-"leaf": 225,
-"pdfPage": 226,
-"colLeft": 415,
-"colRight": 416,
-"greekSide": "right"
-},
-{
-"leaf": 226,
-"pdfPage": 227,
-"colLeft": 417,
-"colRight": 418,
-"greekSide": "left"
-},
-{
-"leaf": 227,
-"pdfPage": 228,
-"colLeft": 419,
-"colRight": 420,
-"greekSide": "right"
-},
-{
-"leaf": 228,
-"pdfPage": 229,
-"colLeft": 421,
-"colRight": 422,
-"greekSide": "left"
-},
-{
-"leaf": 229,
-"pdfPage": 230,
-"colLeft": 423,
-"colRight": 424,
-"greekSide": "right"
-},
-{
-"leaf": 230,
-"pdfPage": 231,
-"colLeft": 425,
-"colRight": 426,
-"greekSide": "left"
-},
-{
-"leaf": 231,
-"pdfPage": 232,
-"colLeft": 427,
-"colRight": 428,
-"greekSide": "right"
-},
-{
-"leaf": 232,
-"pdfPage": 233,
-"colLeft": 429,
-"colRight": 430,
-"greekSide": "left"
-},
-{
-"leaf": 233,
-"pdfPage": 234,
-"colLeft": 431,
-"colRight": 432,
-"greekSide": "right"
-},
-{
-"leaf": 234,
-"pdfPage": 235,
-"colLeft": 433,
-"colRight": 434,
-"greekSide": "left"
-},
-{
-"leaf": 235,
-"pdfPage": 236,
-"colLeft": 435,
-"colRight": 436,
-"greekSide": "right"
-},
-{
-"leaf": 236,
-"pdfPage": 237,
-"colLeft": 437,
-"colRight": 438,
-"greekSide": "left"
-},
-{
-"leaf": 237,
-"pdfPage": 238,
-"colLeft": 439,
-"colRight": 440,
-"greekSide": "right"
-},
-{
-"leaf": 238,
-"pdfPage": 239,
-"colLeft": 441,
-"colRight": 442,
-"greekSide": "left"
-},
-{
-"leaf": 239,
-"pdfPage": 240,
-"colLeft": 443,
-"colRight": 444,
-"greekSide": "right"
-},
-{
-"leaf": 240,
-"pdfPage": 241,
-"colLeft": 445,
-"colRight": 446,
-"greekSide": "left"
-},
-{
-"leaf": 241,
-"pdfPage": 242,
-"colLeft": 447,
-"colRight": 448,
-"greekSide": "right"
-},
-{
-"leaf": 242,
-"pdfPage": 243,
-"colLeft": 449,
-"colRight": 450,
-"greekSide": "left"
-},
-{
-"leaf": 243,
-"pdfPage": 244,
-"colLeft": 451,
-"colRight": 452,
-"greekSide": "right"
-},
-{
-"leaf": 244,
-"pdfPage": 245,
-"colLeft": 453,
-"colRight": 454,
-"greekSide": "left"
-},
-{
-"leaf": 245,
-"pdfPage": 246,
-"colLeft": 455,
-"colRight": 456,
-"greekSide": "right"
-},
-{
-"leaf": 246,
-"pdfPage": 247,
-"colLeft": 457,
-"colRight": 458,
-"greekSide": "left"
-},
-{
-"leaf": 247,
-"pdfPage": 248,
-"colLeft": 459,
-"colRight": 460,
-"greekSide": "right"
-},
-{
-"leaf": 248,
-"pdfPage": 249,
-"colLeft": 461,
-"colRight": 462,
-"greekSide": "left"
-},
-{
-"leaf": 249,
-"pdfPage": 250,
-"colLeft": 463,
-"colRight": 464,
-"greekSide": "right"
-},
-{
-"leaf": 250,
-"pdfPage": 251,
-"colLeft": 465,
-"colRight": 466,
-"greekSide": "left"
-},
-{
-"leaf": 251,
-"pdfPage": 252,
-"colLeft": 467,
-"colRight": 468,
-"greekSide": "right"
-},
-{
-"leaf": 252,
-"pdfPage": 253,
-"colLeft": 469,
-"colRight": 470,
-"greekSide": "left"
-},
-{
-"leaf": 253,
-"pdfPage": 254,
-"colLeft": 471,
-"colRight": 472,
-"greekSide": "right"
-},
-{
-"leaf": 254,
-"pdfPage": 255,
-"colLeft": 473,
-"colRight": 474,
-"greekSide": "left"
-},
-{
-"leaf": 255,
-"pdfPage": 256,
-"colLeft": 475,
-"colRight": 476,
-"greekSide": "right"
-},
-{
-"leaf": 256,
-"pdfPage": 257,
-"colLeft": 477,
-"colRight": 478,
-"greekSide": "left"
-},
-{
-"leaf": 257,
-"pdfPage": 258,
-"colLeft": 479,
-"colRight": 480,
-"greekSide": "right"
-},
-{
-"leaf": 258,
-"pdfPage": 259,
-"colLeft": 481,
-"colRight": 482,
-"greekSide": "left"
-},
-{
-"leaf": 259,
-"pdfPage": 260,
-"colLeft": 483,
-"colRight": 484,
-"greekSide": "right"
-},
-{
-"leaf": 260,
-"pdfPage": 261,
-"colLeft": 485,
-"colRight": 486,
-"greekSide": "left"
-},
-{
-"leaf": 261,
-"pdfPage": 262,
-"colLeft": 487,
-"colRight": 488,
-"greekSide": "right"
-},
-{
-"leaf": 262,
-"pdfPage": 263,
-"colLeft": 489,
-"colRight": 490,
-"greekSide": "left"
-},
-{
-"leaf": 263,
-"pdfPage": 264,
-"colLeft": 491,
-"colRight": 492,
-"greekSide": "right"
-},
-{
-"leaf": 264,
-"pdfPage": 265,
-"colLeft": 493,
-"colRight": 494,
-"greekSide": "left"
-},
-{
-"leaf": 271,
-"pdfPage": 272,
-"colLeft": 495,
-"colRight": 496,
-"greekSide": "right"
-},
-{
-"leaf": 272,
-"pdfPage": 273,
-"colLeft": 497,
-"colRight": 498,
-"greekSide": "left"
-},
-{
-"leaf": 273,
-"pdfPage": 274,
-"colLeft": 499,
-"colRight": 500,
-"greekSide": "right"
-},
-{
-"leaf": 274,
-"pdfPage": 275,
-"colLeft": 501,
-"colRight": 502,
-"greekSide": "left"
-},
-{
-"leaf": 275,
-"pdfPage": 276,
-"colLeft": 503,
-"colRight": 504,
-"greekSide": "right"
-},
-{
-"leaf": 276,
-"pdfPage": 277,
-"colLeft": 505,
-"colRight": 506,
-"greekSide": "left"
-},
-{
-"leaf": 277,
-"pdfPage": 278,
-"colLeft": 507,
-"colRight": 508,
-"greekSide": "right"
-},
-{
-"leaf": 278,
-"pdfPage": 279,
-"colLeft": 509,
-"colRight": 510,
-"greekSide": "left"
-},
-{
-"leaf": 279,
-"pdfPage": 280,
-"colLeft": 511,
-"colRight": 512,
-"greekSide": "right"
-},
-{
-"leaf": 280,
-"pdfPage": 281,
-"colLeft": 513,
-"colRight": 514,
-"greekSide": "left"
-},
-{
-"leaf": 281,
-"pdfPage": 282,
-"colLeft": 515,
-"colRight": 516,
-"greekSide": "right"
-},
-{
-"leaf": 282,
-"pdfPage": 283,
-"colLeft": 517,
-"colRight": 518,
-"greekSide": "left"
-},
-{
-"leaf": 283,
-"pdfPage": 284,
-"colLeft": 519,
-"colRight": 520,
-"greekSide": "right"
-},
-{
-"leaf": 284,
-"pdfPage": 285,
-"colLeft": 521,
-"colRight": 522,
-"greekSide": "left"
-},
-{
-"leaf": 285,
-"pdfPage": 286,
-"colLeft": 523,
-"colRight": 524,
-"greekSide": "right"
-},
-{
-"leaf": 286,
-"pdfPage": 287,
-"colLeft": 525,
-"colRight": 526,
-"greekSide": "left"
-},
-{
-"leaf": 287,
-"pdfPage": 288,
-"colLeft": 527,
-"colRight": 528,
-"greekSide": "right"
-},
-{
-"leaf": 288,
-"pdfPage": 289,
-"colLeft": 529,
-"colRight": 530,
-"greekSide": "left"
-},
-{
-"leaf": 289,
-"pdfPage": 290,
-"colLeft": 531,
-"colRight": 532,
-"greekSide": "right"
-},
-{
-"leaf": 290,
-"pdfPage": 291,
-"colLeft": 533,
-"colRight": 534,
-"greekSide": "left"
-},
-{
-"leaf": 291,
-"pdfPage": 292,
-"colLeft": 535,
-"colRight": 536,
-"greekSide": "right"
-},
-{
-"leaf": 292,
-"pdfPage": 293,
-"colLeft": 537,
-"colRight": 538,
-"greekSide": "left"
-},
-{
-"leaf": 293,
-"pdfPage": 294,
-"colLeft": 539,
-"colRight": 540,
-"greekSide": "right"
-},
-{
-"leaf": 294,
-"pdfPage": 295,
-"colLeft": 541,
-"colRight": 542,
-"greekSide": "left"
-},
-{
-"leaf": 295,
-"pdfPage": 296,
-"colLeft": 543,
-"colRight": 544,
-"greekSide": "right"
-},
-{
-"leaf": 296,
-"pdfPage": 297,
-"colLeft": 545,
-"colRight": 546,
-"greekSide": "left"
-},
-{
-"leaf": 297,
-"pdfPage": 298,
-"colLeft": 547,
-"colRight": 548,
-"greekSide": "right"
-},
-{
-"leaf": 298,
-"pdfPage": 299,
-"colLeft": 549,
-"colRight": 550,
-"greekSide": "left"
-},
-{
-"leaf": 299,
-"pdfPage": 300,
-"colLeft": 551,
-"colRight": 552,
-"greekSide": "right"
-},
-{
-"leaf": 300,
-"pdfPage": 301,
-"colLeft": 553,
-"colRight": 554,
-"greekSide": "left"
-},
-{
-"leaf": 301,
-"pdfPage": 302,
-"colLeft": 555,
-"colRight": 556,
-"greekSide": "right"
-},
-{
-"leaf": 302,
-"pdfPage": 303,
-"colLeft": 557,
-"colRight": 558,
-"greekSide": "left"
-},
-{
-"leaf": 303,
-"pdfPage": 304,
-"colLeft": 559,
-"colRight": 560,
-"greekSide": "right"
-},
-{
-"leaf": 304,
-"pdfPage": 305,
-"colLeft": 561,
-"colRight": 562,
-"greekSide": "left"
-},
-{
-"leaf": 305,
-"pdfPage": 306,
-"colLeft": 563,
-"colRight": 564,
-"greekSide": "right"
-},
-{
-"leaf": 306,
-"pdfPage": 307,
-"colLeft": 565,
-"colRight": 566,
-"greekSide": "left"
-},
-{
-"leaf": 307,
-"pdfPage": 308,
-"colLeft": 567,
-"colRight": 568,
-"greekSide": "right"
-},
-{
-"leaf": 308,
-"pdfPage": 309,
-"colLeft": 569,
-"colRight": 570,
-"greekSide": "left"
-},
-{
-"leaf": 309,
-"pdfPage": 310,
-"colLeft": 571,
-"colRight": 572,
-"greekSide": "right"
-},
-{
-"leaf": 310,
-"pdfPage": 311,
-"colLeft": 573,
-"colRight": 574,
-"greekSide": "left"
-},
-{
-"leaf": 311,
-"pdfPage": 312,
-"colLeft": 575,
-"colRight": 576,
-"greekSide": "right"
-},
-{
-"leaf": 312,
-"pdfPage": 313,
-"colLeft": 577,
-"colRight": 578,
-"greekSide": "left"
-},
-{
-"leaf": 313,
-"pdfPage": 314,
-"colLeft": 579,
-"colRight": 580,
-"greekSide": "right"
-},
-{
-"leaf": 314,
-"pdfPage": 315,
-"colLeft": 581,
-"colRight": 582,
-"greekSide": "left"
-},
-{
-"leaf": 315,
-"pdfPage": 316,
-"colLeft": 583,
-"colRight": 584,
-"greekSide": "right"
-},
-{
-"leaf": 316,
-"pdfPage": 317,
-"colLeft": 585,
-"colRight": 586,
-"greekSide": "left"
-},
-{
-"leaf": 323,
-"pdfPage": 324,
-"colLeft": 587,
-"colRight": 588,
-"greekSide": "right"
-},
-{
-"leaf": 324,
-"pdfPage": 325,
-"colLeft": 589,
-"colRight": 590,
-"greekSide": "left"
-},
-{
-"leaf": 325,
-"pdfPage": 326,
-"colLeft": 591,
-"colRight": 592,
-"greekSide": "right"
-},
-{
-"leaf": 326,
-"pdfPage": 327,
-"colLeft": 593,
-"colRight": 594,
-"greekSide": "left"
-},
-{
-"leaf": 331,
-"pdfPage": 332,
-"colLeft": 595,
-"colRight": 596,
-"greekSide": "right"
-},
-{
-"leaf": 332,
-"pdfPage": 333,
-"colLeft": 597,
-"colRight": 598,
-"greekSide": "left"
-},
-{
-"leaf": 333,
-"pdfPage": 334,
-"colLeft": 599,
-"colRight": 600,
-"greekSide": "right"
-},
-{
-"leaf": 334,
-"pdfPage": 335,
-"colLeft": 601,
-"colRight": 602,
-"greekSide": "left"
-},
-{
-"leaf": 335,
-"pdfPage": 336,
-"colLeft": 603,
-"colRight": 604,
-"greekSide": "right"
-},
-{
-"leaf": 336,
-"pdfPage": 337,
-"colLeft": 605,
-"colRight": 606,
-"greekSide": "left"
-},
-{
-"leaf": 337,
-"pdfPage": 338,
-"colLeft": 607,
-"colRight": 608,
-"greekSide": "right"
-},
-{
-"leaf": 338,
-"pdfPage": 339,
-"colLeft": 609,
-"colRight": 610,
-"greekSide": "left"
-},
-{
-"leaf": 339,
-"pdfPage": 340,
-"colLeft": 611,
-"colRight": 612,
-"greekSide": "right"
-},
-{
-"leaf": 340,
-"pdfPage": 341,
-"colLeft": 613,
-"colRight": 614,
-"greekSide": "left"
-},
-{
-"leaf": 341,
-"pdfPage": 342,
-"colLeft": 615,
-"colRight": 616,
-"greekSide": "right"
-},
-{
-"leaf": 342,
-"pdfPage": 343,
-"colLeft": 617,
-"colRight": 618,
-"greekSide": "left"
-},
-{
-"leaf": 343,
-"pdfPage": 344,
-"colLeft": 619,
-"colRight": 620,
-"greekSide": "right"
-},
-{
-"leaf": 344,
-"pdfPage": 345,
-"colLeft": 621,
-"colRight": 622,
-"greekSide": "left"
-},
-{
-"leaf": 345,
-"pdfPage": 346,
-"colLeft": 623,
-"colRight": 624,
-"greekSide": "right"
-},
-{
-"leaf": 346,
-"pdfPage": 347,
-"colLeft": 625,
-"colRight": 626,
-"greekSide": "left"
-},
-{
-"leaf": 347,
-"pdfPage": 348,
-"colLeft": 627,
-"colRight": 628,
-"greekSide": "right"
-},
-{
-"leaf": 348,
-"pdfPage": 349,
-"colLeft": 629,
-"colRight": 630,
-"greekSide": "left"
-},
-{
-"leaf": 349,
-"pdfPage": 350,
-"colLeft": 631,
-"colRight": 632,
-"greekSide": "right"
-},
-{
-"leaf": 350,
-"pdfPage": 351,
-"colLeft": 633,
-"colRight": 634,
-"greekSide": "left"
-},
-{
-"leaf": 351,
-"pdfPage": 352,
-"colLeft": 635,
-"colRight": 636,
-"greekSide": "right"
-},
-{
-"leaf": 352,
-"pdfPage": 353,
-"colLeft": 637,
-"colRight": 638,
-"greekSide": "left"
-},
-{
-"leaf": 353,
-"pdfPage": 354,
-"colLeft": 639,
-"colRight": 640,
-"greekSide": "right"
-},
-{
-"leaf": 354,
-"pdfPage": 355,
-"colLeft": 641,
-"colRight": 642,
-"greekSide": "left"
-},
-{
-"leaf": 355,
-"pdfPage": 356,
-"colLeft": 643,
-"colRight": 644,
-"greekSide": "right"
-},
-{
-"leaf": 356,
-"pdfPage": 357,
-"colLeft": 645,
-"colRight": 646,
-"greekSide": "left"
-},
-{
-"leaf": 357,
-"pdfPage": 358,
-"colLeft": 647,
-"colRight": 648,
-"greekSide": "right"
-},
-{
-"leaf": 358,
-"pdfPage": 359,
-"colLeft": 649,
-"colRight": 650,
-"greekSide": "left"
-}
-]
+ "volume": 91,
+ "file": "raw/pg091/091.pdf",
+ "work": "maximus-epistulae + maximus-opuscula (pdf pp. 11–161 added 2026-11-06)",
+ "colRange": [
+  9,
+  650
+ ],
+ "method": "OPUSCULA (2026-11-06): 2 columns per pdf page from p11 = 9/10 (title leaf; p13 = 13/14), 12 duplicate leaves removed (text-identity scan on the djvu words, Jaccard ≥0.35 against the previous 6 pages: pdf 38–39=36–37, 44–45=42–43, 54–55=52–53, 62–63=60–61, 66–67=64–65, 104–105=102–103); p161 = 285/286, p162 = 287 (DISPUTATIO CUM PYRRHO head) — the same law reaches p200 = 363/364. Running heads checked on the djvu OCR at pp. 13, 24, 28, 36, 37, 40, 42, 48, 57, 58, 60, 65, 68, 100, 107, 161, 162. greekSide from colLeft mod 4 (3 → right, 1 → left), which equals the Epistulae rule (right on even pdf pages). EPISTULAE: 2 columns per pdf page from p200 = 363/364 (Ep. 1 begins col 364), 16 duplicate leaves removed (text-identical re-scans: 266-271=260-265, 318-323=312-317, 328-331=324-327); Greek side from the CLLG gutter split (right on even pdf pages, left on odd); running-head numbers checked where legible (2026-11-06)",
+ "anchorsPlateVerified": false,
+ "duplicateLeaves": [
+  37,
+  38,
+  43,
+  44,
+  53,
+  54,
+  61,
+  62,
+  65,
+  66,
+  103,
+  104,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  327,
+  328,
+  329,
+  330
+ ],
+ "pages": [
+  {
+   "leaf": 10,
+   "pdfPage": 11,
+   "colLeft": 9,
+   "colRight": 10,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 11,
+   "pdfPage": 12,
+   "colLeft": 11,
+   "colRight": 12,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 12,
+   "pdfPage": 13,
+   "colLeft": 13,
+   "colRight": 14,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 13,
+   "pdfPage": 14,
+   "colLeft": 15,
+   "colRight": 16,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 14,
+   "pdfPage": 15,
+   "colLeft": 17,
+   "colRight": 18,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 15,
+   "pdfPage": 16,
+   "colLeft": 19,
+   "colRight": 20,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 16,
+   "pdfPage": 17,
+   "colLeft": 21,
+   "colRight": 22,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 17,
+   "pdfPage": 18,
+   "colLeft": 23,
+   "colRight": 24,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 18,
+   "pdfPage": 19,
+   "colLeft": 25,
+   "colRight": 26,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 19,
+   "pdfPage": 20,
+   "colLeft": 27,
+   "colRight": 28,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 20,
+   "pdfPage": 21,
+   "colLeft": 29,
+   "colRight": 30,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 21,
+   "pdfPage": 22,
+   "colLeft": 31,
+   "colRight": 32,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 22,
+   "pdfPage": 23,
+   "colLeft": 33,
+   "colRight": 34,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 23,
+   "pdfPage": 24,
+   "colLeft": 35,
+   "colRight": 36,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 24,
+   "pdfPage": 25,
+   "colLeft": 37,
+   "colRight": 38,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 25,
+   "pdfPage": 26,
+   "colLeft": 39,
+   "colRight": 40,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 26,
+   "pdfPage": 27,
+   "colLeft": 41,
+   "colRight": 42,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 27,
+   "pdfPage": 28,
+   "colLeft": 43,
+   "colRight": 44,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 28,
+   "pdfPage": 29,
+   "colLeft": 45,
+   "colRight": 46,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 29,
+   "pdfPage": 30,
+   "colLeft": 47,
+   "colRight": 48,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 30,
+   "pdfPage": 31,
+   "colLeft": 49,
+   "colRight": 50,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 31,
+   "pdfPage": 32,
+   "colLeft": 51,
+   "colRight": 52,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 32,
+   "pdfPage": 33,
+   "colLeft": 53,
+   "colRight": 54,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 33,
+   "pdfPage": 34,
+   "colLeft": 55,
+   "colRight": 56,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 34,
+   "pdfPage": 35,
+   "colLeft": 57,
+   "colRight": 58,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 35,
+   "pdfPage": 36,
+   "colLeft": 59,
+   "colRight": 60,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 36,
+   "pdfPage": 37,
+   "colLeft": 61,
+   "colRight": 62,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 39,
+   "pdfPage": 40,
+   "colLeft": 63,
+   "colRight": 64,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 40,
+   "pdfPage": 41,
+   "colLeft": 65,
+   "colRight": 66,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 41,
+   "pdfPage": 42,
+   "colLeft": 67,
+   "colRight": 68,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 42,
+   "pdfPage": 43,
+   "colLeft": 69,
+   "colRight": 70,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 45,
+   "pdfPage": 46,
+   "colLeft": 71,
+   "colRight": 72,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 46,
+   "pdfPage": 47,
+   "colLeft": 73,
+   "colRight": 74,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 47,
+   "pdfPage": 48,
+   "colLeft": 75,
+   "colRight": 76,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 48,
+   "pdfPage": 49,
+   "colLeft": 77,
+   "colRight": 78,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 49,
+   "pdfPage": 50,
+   "colLeft": 79,
+   "colRight": 80,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 50,
+   "pdfPage": 51,
+   "colLeft": 81,
+   "colRight": 82,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 51,
+   "pdfPage": 52,
+   "colLeft": 83,
+   "colRight": 84,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 52,
+   "pdfPage": 53,
+   "colLeft": 85,
+   "colRight": 86,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 55,
+   "pdfPage": 56,
+   "colLeft": 87,
+   "colRight": 88,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 56,
+   "pdfPage": 57,
+   "colLeft": 89,
+   "colRight": 90,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 57,
+   "pdfPage": 58,
+   "colLeft": 91,
+   "colRight": 92,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 58,
+   "pdfPage": 59,
+   "colLeft": 93,
+   "colRight": 94,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 59,
+   "pdfPage": 60,
+   "colLeft": 95,
+   "colRight": 96,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 60,
+   "pdfPage": 61,
+   "colLeft": 97,
+   "colRight": 98,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 63,
+   "pdfPage": 64,
+   "colLeft": 99,
+   "colRight": 100,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 64,
+   "pdfPage": 65,
+   "colLeft": 101,
+   "colRight": 102,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 67,
+   "pdfPage": 68,
+   "colLeft": 103,
+   "colRight": 104,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 68,
+   "pdfPage": 69,
+   "colLeft": 105,
+   "colRight": 106,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 69,
+   "pdfPage": 70,
+   "colLeft": 107,
+   "colRight": 108,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 70,
+   "pdfPage": 71,
+   "colLeft": 109,
+   "colRight": 110,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 71,
+   "pdfPage": 72,
+   "colLeft": 111,
+   "colRight": 112,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 72,
+   "pdfPage": 73,
+   "colLeft": 113,
+   "colRight": 114,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 73,
+   "pdfPage": 74,
+   "colLeft": 115,
+   "colRight": 116,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 74,
+   "pdfPage": 75,
+   "colLeft": 117,
+   "colRight": 118,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 75,
+   "pdfPage": 76,
+   "colLeft": 119,
+   "colRight": 120,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 76,
+   "pdfPage": 77,
+   "colLeft": 121,
+   "colRight": 122,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 77,
+   "pdfPage": 78,
+   "colLeft": 123,
+   "colRight": 124,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 78,
+   "pdfPage": 79,
+   "colLeft": 125,
+   "colRight": 126,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 79,
+   "pdfPage": 80,
+   "colLeft": 127,
+   "colRight": 128,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 80,
+   "pdfPage": 81,
+   "colLeft": 129,
+   "colRight": 130,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 81,
+   "pdfPage": 82,
+   "colLeft": 131,
+   "colRight": 132,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 82,
+   "pdfPage": 83,
+   "colLeft": 133,
+   "colRight": 134,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 83,
+   "pdfPage": 84,
+   "colLeft": 135,
+   "colRight": 136,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 84,
+   "pdfPage": 85,
+   "colLeft": 137,
+   "colRight": 138,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 85,
+   "pdfPage": 86,
+   "colLeft": 139,
+   "colRight": 140,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 86,
+   "pdfPage": 87,
+   "colLeft": 141,
+   "colRight": 142,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 87,
+   "pdfPage": 88,
+   "colLeft": 143,
+   "colRight": 144,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 88,
+   "pdfPage": 89,
+   "colLeft": 145,
+   "colRight": 146,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 89,
+   "pdfPage": 90,
+   "colLeft": 147,
+   "colRight": 148,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 90,
+   "pdfPage": 91,
+   "colLeft": 149,
+   "colRight": 150,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 91,
+   "pdfPage": 92,
+   "colLeft": 151,
+   "colRight": 152,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 92,
+   "pdfPage": 93,
+   "colLeft": 153,
+   "colRight": 154,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 93,
+   "pdfPage": 94,
+   "colLeft": 155,
+   "colRight": 156,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 94,
+   "pdfPage": 95,
+   "colLeft": 157,
+   "colRight": 158,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 95,
+   "pdfPage": 96,
+   "colLeft": 159,
+   "colRight": 160,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 96,
+   "pdfPage": 97,
+   "colLeft": 161,
+   "colRight": 162,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 97,
+   "pdfPage": 98,
+   "colLeft": 163,
+   "colRight": 164,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 98,
+   "pdfPage": 99,
+   "colLeft": 165,
+   "colRight": 166,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 99,
+   "pdfPage": 100,
+   "colLeft": 167,
+   "colRight": 168,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 100,
+   "pdfPage": 101,
+   "colLeft": 169,
+   "colRight": 170,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 101,
+   "pdfPage": 102,
+   "colLeft": 171,
+   "colRight": 172,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 102,
+   "pdfPage": 103,
+   "colLeft": 173,
+   "colRight": 174,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 105,
+   "pdfPage": 106,
+   "colLeft": 175,
+   "colRight": 176,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 106,
+   "pdfPage": 107,
+   "colLeft": 177,
+   "colRight": 178,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 107,
+   "pdfPage": 108,
+   "colLeft": 179,
+   "colRight": 180,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 108,
+   "pdfPage": 109,
+   "colLeft": 181,
+   "colRight": 182,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 109,
+   "pdfPage": 110,
+   "colLeft": 183,
+   "colRight": 184,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 110,
+   "pdfPage": 111,
+   "colLeft": 185,
+   "colRight": 186,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 111,
+   "pdfPage": 112,
+   "colLeft": 187,
+   "colRight": 188,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 112,
+   "pdfPage": 113,
+   "colLeft": 189,
+   "colRight": 190,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 113,
+   "pdfPage": 114,
+   "colLeft": 191,
+   "colRight": 192,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 114,
+   "pdfPage": 115,
+   "colLeft": 193,
+   "colRight": 194,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 115,
+   "pdfPage": 116,
+   "colLeft": 195,
+   "colRight": 196,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 116,
+   "pdfPage": 117,
+   "colLeft": 197,
+   "colRight": 198,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 117,
+   "pdfPage": 118,
+   "colLeft": 199,
+   "colRight": 200,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 118,
+   "pdfPage": 119,
+   "colLeft": 201,
+   "colRight": 202,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 119,
+   "pdfPage": 120,
+   "colLeft": 203,
+   "colRight": 204,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 120,
+   "pdfPage": 121,
+   "colLeft": 205,
+   "colRight": 206,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 121,
+   "pdfPage": 122,
+   "colLeft": 207,
+   "colRight": 208,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 122,
+   "pdfPage": 123,
+   "colLeft": 209,
+   "colRight": 210,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 123,
+   "pdfPage": 124,
+   "colLeft": 211,
+   "colRight": 212,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 124,
+   "pdfPage": 125,
+   "colLeft": 213,
+   "colRight": 214,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 125,
+   "pdfPage": 126,
+   "colLeft": 215,
+   "colRight": 216,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 126,
+   "pdfPage": 127,
+   "colLeft": 217,
+   "colRight": 218,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 127,
+   "pdfPage": 128,
+   "colLeft": 219,
+   "colRight": 220,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 128,
+   "pdfPage": 129,
+   "colLeft": 221,
+   "colRight": 222,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 129,
+   "pdfPage": 130,
+   "colLeft": 223,
+   "colRight": 224,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 130,
+   "pdfPage": 131,
+   "colLeft": 225,
+   "colRight": 226,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 131,
+   "pdfPage": 132,
+   "colLeft": 227,
+   "colRight": 228,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 132,
+   "pdfPage": 133,
+   "colLeft": 229,
+   "colRight": 230,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 133,
+   "pdfPage": 134,
+   "colLeft": 231,
+   "colRight": 232,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 134,
+   "pdfPage": 135,
+   "colLeft": 233,
+   "colRight": 234,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 135,
+   "pdfPage": 136,
+   "colLeft": 235,
+   "colRight": 236,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 136,
+   "pdfPage": 137,
+   "colLeft": 237,
+   "colRight": 238,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 137,
+   "pdfPage": 138,
+   "colLeft": 239,
+   "colRight": 240,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 138,
+   "pdfPage": 139,
+   "colLeft": 241,
+   "colRight": 242,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 139,
+   "pdfPage": 140,
+   "colLeft": 243,
+   "colRight": 244,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 140,
+   "pdfPage": 141,
+   "colLeft": 245,
+   "colRight": 246,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 141,
+   "pdfPage": 142,
+   "colLeft": 247,
+   "colRight": 248,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 142,
+   "pdfPage": 143,
+   "colLeft": 249,
+   "colRight": 250,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 143,
+   "pdfPage": 144,
+   "colLeft": 251,
+   "colRight": 252,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 144,
+   "pdfPage": 145,
+   "colLeft": 253,
+   "colRight": 254,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 145,
+   "pdfPage": 146,
+   "colLeft": 255,
+   "colRight": 256,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 146,
+   "pdfPage": 147,
+   "colLeft": 257,
+   "colRight": 258,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 147,
+   "pdfPage": 148,
+   "colLeft": 259,
+   "colRight": 260,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 148,
+   "pdfPage": 149,
+   "colLeft": 261,
+   "colRight": 262,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 149,
+   "pdfPage": 150,
+   "colLeft": 263,
+   "colRight": 264,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 150,
+   "pdfPage": 151,
+   "colLeft": 265,
+   "colRight": 266,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 151,
+   "pdfPage": 152,
+   "colLeft": 267,
+   "colRight": 268,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 152,
+   "pdfPage": 153,
+   "colLeft": 269,
+   "colRight": 270,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 153,
+   "pdfPage": 154,
+   "colLeft": 271,
+   "colRight": 272,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 154,
+   "pdfPage": 155,
+   "colLeft": 273,
+   "colRight": 274,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 155,
+   "pdfPage": 156,
+   "colLeft": 275,
+   "colRight": 276,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 156,
+   "pdfPage": 157,
+   "colLeft": 277,
+   "colRight": 278,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 157,
+   "pdfPage": 158,
+   "colLeft": 279,
+   "colRight": 280,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 158,
+   "pdfPage": 159,
+   "colLeft": 281,
+   "colRight": 282,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 159,
+   "pdfPage": 160,
+   "colLeft": 283,
+   "colRight": 284,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 160,
+   "pdfPage": 161,
+   "colLeft": 285,
+   "colRight": 286,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 199,
+   "pdfPage": 200,
+   "colLeft": 363,
+   "colRight": 364,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 200,
+   "pdfPage": 201,
+   "colLeft": 365,
+   "colRight": 366,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 201,
+   "pdfPage": 202,
+   "colLeft": 367,
+   "colRight": 368,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 202,
+   "pdfPage": 203,
+   "colLeft": 369,
+   "colRight": 370,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 203,
+   "pdfPage": 204,
+   "colLeft": 371,
+   "colRight": 372,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 204,
+   "pdfPage": 205,
+   "colLeft": 373,
+   "colRight": 374,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 205,
+   "pdfPage": 206,
+   "colLeft": 375,
+   "colRight": 376,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 206,
+   "pdfPage": 207,
+   "colLeft": 377,
+   "colRight": 378,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 207,
+   "pdfPage": 208,
+   "colLeft": 379,
+   "colRight": 380,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 208,
+   "pdfPage": 209,
+   "colLeft": 381,
+   "colRight": 382,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 209,
+   "pdfPage": 210,
+   "colLeft": 383,
+   "colRight": 384,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 210,
+   "pdfPage": 211,
+   "colLeft": 385,
+   "colRight": 386,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 211,
+   "pdfPage": 212,
+   "colLeft": 387,
+   "colRight": 388,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 212,
+   "pdfPage": 213,
+   "colLeft": 389,
+   "colRight": 390,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 213,
+   "pdfPage": 214,
+   "colLeft": 391,
+   "colRight": 392,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 214,
+   "pdfPage": 215,
+   "colLeft": 393,
+   "colRight": 394,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 215,
+   "pdfPage": 216,
+   "colLeft": 395,
+   "colRight": 396,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 216,
+   "pdfPage": 217,
+   "colLeft": 397,
+   "colRight": 398,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 217,
+   "pdfPage": 218,
+   "colLeft": 399,
+   "colRight": 400,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 218,
+   "pdfPage": 219,
+   "colLeft": 401,
+   "colRight": 402,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 219,
+   "pdfPage": 220,
+   "colLeft": 403,
+   "colRight": 404,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 220,
+   "pdfPage": 221,
+   "colLeft": 405,
+   "colRight": 406,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 221,
+   "pdfPage": 222,
+   "colLeft": 407,
+   "colRight": 408,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 222,
+   "pdfPage": 223,
+   "colLeft": 409,
+   "colRight": 410,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 223,
+   "pdfPage": 224,
+   "colLeft": 411,
+   "colRight": 412,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 224,
+   "pdfPage": 225,
+   "colLeft": 413,
+   "colRight": 414,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 225,
+   "pdfPage": 226,
+   "colLeft": 415,
+   "colRight": 416,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 226,
+   "pdfPage": 227,
+   "colLeft": 417,
+   "colRight": 418,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 227,
+   "pdfPage": 228,
+   "colLeft": 419,
+   "colRight": 420,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 228,
+   "pdfPage": 229,
+   "colLeft": 421,
+   "colRight": 422,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 229,
+   "pdfPage": 230,
+   "colLeft": 423,
+   "colRight": 424,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 230,
+   "pdfPage": 231,
+   "colLeft": 425,
+   "colRight": 426,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 231,
+   "pdfPage": 232,
+   "colLeft": 427,
+   "colRight": 428,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 232,
+   "pdfPage": 233,
+   "colLeft": 429,
+   "colRight": 430,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 233,
+   "pdfPage": 234,
+   "colLeft": 431,
+   "colRight": 432,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 234,
+   "pdfPage": 235,
+   "colLeft": 433,
+   "colRight": 434,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 235,
+   "pdfPage": 236,
+   "colLeft": 435,
+   "colRight": 436,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 236,
+   "pdfPage": 237,
+   "colLeft": 437,
+   "colRight": 438,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 237,
+   "pdfPage": 238,
+   "colLeft": 439,
+   "colRight": 440,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 238,
+   "pdfPage": 239,
+   "colLeft": 441,
+   "colRight": 442,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 239,
+   "pdfPage": 240,
+   "colLeft": 443,
+   "colRight": 444,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 240,
+   "pdfPage": 241,
+   "colLeft": 445,
+   "colRight": 446,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 241,
+   "pdfPage": 242,
+   "colLeft": 447,
+   "colRight": 448,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 242,
+   "pdfPage": 243,
+   "colLeft": 449,
+   "colRight": 450,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 243,
+   "pdfPage": 244,
+   "colLeft": 451,
+   "colRight": 452,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 244,
+   "pdfPage": 245,
+   "colLeft": 453,
+   "colRight": 454,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 245,
+   "pdfPage": 246,
+   "colLeft": 455,
+   "colRight": 456,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 246,
+   "pdfPage": 247,
+   "colLeft": 457,
+   "colRight": 458,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 247,
+   "pdfPage": 248,
+   "colLeft": 459,
+   "colRight": 460,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 248,
+   "pdfPage": 249,
+   "colLeft": 461,
+   "colRight": 462,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 249,
+   "pdfPage": 250,
+   "colLeft": 463,
+   "colRight": 464,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 250,
+   "pdfPage": 251,
+   "colLeft": 465,
+   "colRight": 466,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 251,
+   "pdfPage": 252,
+   "colLeft": 467,
+   "colRight": 468,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 252,
+   "pdfPage": 253,
+   "colLeft": 469,
+   "colRight": 470,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 253,
+   "pdfPage": 254,
+   "colLeft": 471,
+   "colRight": 472,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 254,
+   "pdfPage": 255,
+   "colLeft": 473,
+   "colRight": 474,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 255,
+   "pdfPage": 256,
+   "colLeft": 475,
+   "colRight": 476,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 256,
+   "pdfPage": 257,
+   "colLeft": 477,
+   "colRight": 478,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 257,
+   "pdfPage": 258,
+   "colLeft": 479,
+   "colRight": 480,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 258,
+   "pdfPage": 259,
+   "colLeft": 481,
+   "colRight": 482,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 259,
+   "pdfPage": 260,
+   "colLeft": 483,
+   "colRight": 484,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 260,
+   "pdfPage": 261,
+   "colLeft": 485,
+   "colRight": 486,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 261,
+   "pdfPage": 262,
+   "colLeft": 487,
+   "colRight": 488,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 262,
+   "pdfPage": 263,
+   "colLeft": 489,
+   "colRight": 490,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 263,
+   "pdfPage": 264,
+   "colLeft": 491,
+   "colRight": 492,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 264,
+   "pdfPage": 265,
+   "colLeft": 493,
+   "colRight": 494,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 271,
+   "pdfPage": 272,
+   "colLeft": 495,
+   "colRight": 496,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 272,
+   "pdfPage": 273,
+   "colLeft": 497,
+   "colRight": 498,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 273,
+   "pdfPage": 274,
+   "colLeft": 499,
+   "colRight": 500,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 274,
+   "pdfPage": 275,
+   "colLeft": 501,
+   "colRight": 502,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 275,
+   "pdfPage": 276,
+   "colLeft": 503,
+   "colRight": 504,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 276,
+   "pdfPage": 277,
+   "colLeft": 505,
+   "colRight": 506,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 277,
+   "pdfPage": 278,
+   "colLeft": 507,
+   "colRight": 508,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 278,
+   "pdfPage": 279,
+   "colLeft": 509,
+   "colRight": 510,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 279,
+   "pdfPage": 280,
+   "colLeft": 511,
+   "colRight": 512,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 280,
+   "pdfPage": 281,
+   "colLeft": 513,
+   "colRight": 514,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 281,
+   "pdfPage": 282,
+   "colLeft": 515,
+   "colRight": 516,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 282,
+   "pdfPage": 283,
+   "colLeft": 517,
+   "colRight": 518,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 283,
+   "pdfPage": 284,
+   "colLeft": 519,
+   "colRight": 520,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 284,
+   "pdfPage": 285,
+   "colLeft": 521,
+   "colRight": 522,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 285,
+   "pdfPage": 286,
+   "colLeft": 523,
+   "colRight": 524,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 286,
+   "pdfPage": 287,
+   "colLeft": 525,
+   "colRight": 526,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 287,
+   "pdfPage": 288,
+   "colLeft": 527,
+   "colRight": 528,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 288,
+   "pdfPage": 289,
+   "colLeft": 529,
+   "colRight": 530,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 289,
+   "pdfPage": 290,
+   "colLeft": 531,
+   "colRight": 532,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 290,
+   "pdfPage": 291,
+   "colLeft": 533,
+   "colRight": 534,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 291,
+   "pdfPage": 292,
+   "colLeft": 535,
+   "colRight": 536,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 292,
+   "pdfPage": 293,
+   "colLeft": 537,
+   "colRight": 538,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 293,
+   "pdfPage": 294,
+   "colLeft": 539,
+   "colRight": 540,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 294,
+   "pdfPage": 295,
+   "colLeft": 541,
+   "colRight": 542,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 295,
+   "pdfPage": 296,
+   "colLeft": 543,
+   "colRight": 544,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 296,
+   "pdfPage": 297,
+   "colLeft": 545,
+   "colRight": 546,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 297,
+   "pdfPage": 298,
+   "colLeft": 547,
+   "colRight": 548,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 298,
+   "pdfPage": 299,
+   "colLeft": 549,
+   "colRight": 550,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 299,
+   "pdfPage": 300,
+   "colLeft": 551,
+   "colRight": 552,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 300,
+   "pdfPage": 301,
+   "colLeft": 553,
+   "colRight": 554,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 301,
+   "pdfPage": 302,
+   "colLeft": 555,
+   "colRight": 556,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 302,
+   "pdfPage": 303,
+   "colLeft": 557,
+   "colRight": 558,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 303,
+   "pdfPage": 304,
+   "colLeft": 559,
+   "colRight": 560,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 304,
+   "pdfPage": 305,
+   "colLeft": 561,
+   "colRight": 562,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 305,
+   "pdfPage": 306,
+   "colLeft": 563,
+   "colRight": 564,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 306,
+   "pdfPage": 307,
+   "colLeft": 565,
+   "colRight": 566,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 307,
+   "pdfPage": 308,
+   "colLeft": 567,
+   "colRight": 568,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 308,
+   "pdfPage": 309,
+   "colLeft": 569,
+   "colRight": 570,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 309,
+   "pdfPage": 310,
+   "colLeft": 571,
+   "colRight": 572,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 310,
+   "pdfPage": 311,
+   "colLeft": 573,
+   "colRight": 574,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 311,
+   "pdfPage": 312,
+   "colLeft": 575,
+   "colRight": 576,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 312,
+   "pdfPage": 313,
+   "colLeft": 577,
+   "colRight": 578,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 313,
+   "pdfPage": 314,
+   "colLeft": 579,
+   "colRight": 580,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 314,
+   "pdfPage": 315,
+   "colLeft": 581,
+   "colRight": 582,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 315,
+   "pdfPage": 316,
+   "colLeft": 583,
+   "colRight": 584,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 316,
+   "pdfPage": 317,
+   "colLeft": 585,
+   "colRight": 586,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 323,
+   "pdfPage": 324,
+   "colLeft": 587,
+   "colRight": 588,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 324,
+   "pdfPage": 325,
+   "colLeft": 589,
+   "colRight": 590,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 325,
+   "pdfPage": 326,
+   "colLeft": 591,
+   "colRight": 592,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 326,
+   "pdfPage": 327,
+   "colLeft": 593,
+   "colRight": 594,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 331,
+   "pdfPage": 332,
+   "colLeft": 595,
+   "colRight": 596,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 332,
+   "pdfPage": 333,
+   "colLeft": 597,
+   "colRight": 598,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 333,
+   "pdfPage": 334,
+   "colLeft": 599,
+   "colRight": 600,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 334,
+   "pdfPage": 335,
+   "colLeft": 601,
+   "colRight": 602,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 335,
+   "pdfPage": 336,
+   "colLeft": 603,
+   "colRight": 604,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 336,
+   "pdfPage": 337,
+   "colLeft": 605,
+   "colRight": 606,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 337,
+   "pdfPage": 338,
+   "colLeft": 607,
+   "colRight": 608,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 338,
+   "pdfPage": 339,
+   "colLeft": 609,
+   "colRight": 610,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 339,
+   "pdfPage": 340,
+   "colLeft": 611,
+   "colRight": 612,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 340,
+   "pdfPage": 341,
+   "colLeft": 613,
+   "colRight": 614,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 341,
+   "pdfPage": 342,
+   "colLeft": 615,
+   "colRight": 616,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 342,
+   "pdfPage": 343,
+   "colLeft": 617,
+   "colRight": 618,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 343,
+   "pdfPage": 344,
+   "colLeft": 619,
+   "colRight": 620,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 344,
+   "pdfPage": 345,
+   "colLeft": 621,
+   "colRight": 622,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 345,
+   "pdfPage": 346,
+   "colLeft": 623,
+   "colRight": 624,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 346,
+   "pdfPage": 347,
+   "colLeft": 625,
+   "colRight": 626,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 347,
+   "pdfPage": 348,
+   "colLeft": 627,
+   "colRight": 628,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 348,
+   "pdfPage": 349,
+   "colLeft": 629,
+   "colRight": 630,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 349,
+   "pdfPage": 350,
+   "colLeft": 631,
+   "colRight": 632,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 350,
+   "pdfPage": 351,
+   "colLeft": 633,
+   "colRight": 634,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 351,
+   "pdfPage": 352,
+   "colLeft": 635,
+   "colRight": 636,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 352,
+   "pdfPage": 353,
+   "colLeft": 637,
+   "colRight": 638,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 353,
+   "pdfPage": 354,
+   "colLeft": 639,
+   "colRight": 640,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 354,
+   "pdfPage": 355,
+   "colLeft": 641,
+   "colRight": 642,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 355,
+   "pdfPage": 356,
+   "colLeft": 643,
+   "colRight": 644,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 356,
+   "pdfPage": 357,
+   "colLeft": 645,
+   "colRight": 646,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 357,
+   "pdfPage": 358,
+   "colLeft": 647,
+   "colRight": 648,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 358,
+   "pdfPage": 359,
+   "colLeft": 649,
+   "colRight": 650,
+   "greekSide": "left"
+  }
+ ]
 }

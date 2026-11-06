@@ -25,6 +25,7 @@ WORKS = {  # work -> (column map, copyA djvu xml)
     # checked once against the plate (raw/pg091/checked/, pilot 0i, CLOSED 2026-10-15); DOUBTS.tsv there = its 298 open
     # readings + the lines where a duplicate leaf's second read differs. Run with --checked so the doubts reach the scaffold.
     'maximus-epistulae': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml'),
+    'maximus-opuscula': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml'),   # Kraken base, pp. 11–161 of the same volume (2026-11-06)
 }
 
 SRC = None

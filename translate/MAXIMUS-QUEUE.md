@@ -14,8 +14,8 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
 | # | work | PG | Greek words | base on disk | English exists? (see STATUS) | est. burn | "New"? |
 |---|---|---|---|---|---|---|---|
 | ✅ | Epistulae 1–45 | 91.364–650 | 55,130 | API read + Kraken; LIVE | Louth: Ep. 2 only | 6.4M (spent) | yes (shipped) |
-| 1 | **Opuscula theologica et polemica** (27 pieces) | 91.9–285 | ≈52,000 (myriobiblos has *ad Marinum* 16K) | pdf on disk (`raw/pg091/091.pdf` pp. ≈20–163); Kraken to run | partial only (Louth 3, 7; Blowers–Wilken some) | ≈6M | **yes** |
-| 2 | **Disputatio cum Pyrrho** | 91.287–354 | 11,670 | pdf pp. ≈165–185; myriobiblos full | Farrell 1990 (out of print) | ≈1.4M | weak |
+| 1 | **Opuscula theologica et polemica** (27 pieces) | 91.9–285 | ≈52,000 (myriobiblos has *ad Marinum* 16K) | pdf on disk (`raw/pg091/091.pdf` **pp. 11–161**, 12 duplicate leaves; Kraken running 2026-11-06) | ⚠ **Clarke 2026 (CUA, FOTC) = complete English of all 27 + Additamenta 16–19** (web-checked 2026-11-06, see STATUS); before it: Louth 3, 7; Blowers–Wilken 6; Gohl 1 | ≈6M | **no longer** |
+| 2 | **Disputatio cum Pyrrho** | 91.287–354 | 11,670 | pdf pp. 162–≈196; myriobiblos full | Farrell 1990 (out of print); ⚠ **Clarke 2026 (same CUA volume)** | ≈1.4M | no |
 | 3 | **Hymni** (two hymns) | 91.1417–1424 | ≈400 | pdf p. ≈773 | none found | ≈0.1M (Fable verse pilot, with the Anacreontica) | yes |
 | 4 | **Mystagogia** | 91.657–717 | 11,280 | pdf pp. ≈361–390; myriobiblos full | Berthold 1985; Armstrong 2019 | ≈1.3M | no |
 | 5 | **Expositio in Psalmum LIX** | 90.856–872 | 2,510 | PG 90 NOT on disk; myriobiblos full | check | ≈0.3M | likely |
@@ -79,7 +79,14 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
   it is the Migne printing and not a reprint, render, Kraken all ≈480 pages in one background run (≈5 h).
 
 ## Open before work 1 starts
-- ⬜ Confirm the Opuscula's page range and duplicate leaves in `raw/pg091/091.pdf` (djvu heads: pp. ≈20–163).
-- ⬜ `MAXIMUS-ENGLISH-STATUS.md` was written from a Sonnet reader's memory, NOT web-checked: verify the "English exists?"
-  column (above all Ps 59, Theopemptus, Capita alia, the Opuscula coverage of Louth/Blowers–Wilken) before any "New" badge.
-- ⬜ Wilson: which model and go, per work (the Opuscula ≈6M).
+- ✅ 2026-11-06: Opuscula = pdf pp. 11–161 (title leaf p. 11 = col. 9; p. 162 opens the *Disputatio*, col. 287); 12 duplicate
+  pages (38–39, 44–45, 54–55, 62–63, 66–67, 104–105) found by text identity on the djvu words; 139 real leaves = cols 9–286
+  exactly. Map extended in `data/pg-column-maps/pg091.json`; Kraken launched over the 139 pages (`raw/kraken/maximus-opuscula/`).
+- ⚠ **2026-11-06, web-checked: the "no complete English" premise of #1 and #2 is gone.** Kevin M. Clarke, *The Opuscula and
+  the Dispute with Pyrrhus: The Theological and Polemical Works*, Fathers of the Church (CUA Press, 2026; ISBN
+  978-0-8132-4082-4) — Opuscula 1–27, Additamenta 16–19, and the *Disputatio*; the publisher's page calls it the first
+  complete English of the Opuscula. (bibliovault.org/p/cua/9780813240831.) Our rule 8 still allows the work — the queue is
+  flexible, the badge is garnish — and the dyothelite block is the heart of Maximus; but the "New" tier now = 3, 5–7 only,
+  and the sponsor argument ("new works are the funding lever") points at them or at the PG 90 fetch first. **Wilson's call.**
+- ⬜ The rest of `MAXIMUS-ENGLISH-STATUS.md` (Ps 59, Theopemptus, Capita alia) is still unchecked on the web.
+- ⬜ Wilson: which model and go, per work (the Opuscula ≈6M), with the Clarke finding in view.
