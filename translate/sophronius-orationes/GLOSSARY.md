@@ -48,7 +48,7 @@ Letter's argument is made of these words, and a synonym is an error.**
 | πάθος / παθήματα | passion / sufferings | Christ's πάθος = passion; πάθη of the soul = passions |
 | θαύματα | miracles | θαυματουργεῖν = work miracles |
 | θεοπρεπής / ἀνθρωποπρεπής | befitting God / befitting man | the Letter's test for which operation belongs to which nature |
-| αὐτεξούσιος | self-determining | γνώμη = judgement, γνωμικός = of judgement (Maximus later) |
+| αὐτεξούσιος | self-determining | γνώμη = judgement where it occurs here (so-005, so-014: non-technical); ⚠ **Maximus rules γνώμη = inclination** (`translate/maximus-epistulae/GLOSSARY.md`, 2026-11-06), because his κρίσις needs "judgement" |
 | κοινωνία | communion | the Letter's closing demand for communion |
 
 ## Orthodoxy, heresy, the councils

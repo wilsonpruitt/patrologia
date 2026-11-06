@@ -783,6 +783,60 @@ received-English rule above); δεσπότης = *master* (capital for Christ), 
   pages; the plain dogmatic body runs nearer 1.25.
 
 
+## Seventh-century ascetic and dogmatic letter (Maximus) — register rules (Fable mini-pilot on PG 91, 2026-11-06)
+
+Calibrated on Letter 1 to George, prefect of Africa, opening (cols 364–365), Combefis's text with his facing Latin.
+The Sophronius section above carries over whole (R1–R8: the closed technical table, number-marked second person, the
+period as unit, scripture as printed); the dogmatic letters (12–15, 19) are that register and inherit that glossary.
+What is new is Maximus's paraenetic prose, which no shipped work had. Anchor:
+`translate/maximus-epistulae/ANCHOR-ep1.en.md`, repeated at the foot of that work's `CARD.md`.
+
+### M1. A noun for his noun
+
+Maximus thinks in substantivized adjectives and verbal nouns — τὸ ὡσαύτως ἔχειν, τὸ εὐέμπτωτον καὶ εὐσκέδαστον, τῆς
+γνώμης τὸ βάσιμον, τῆς διαθέσεως τὸ στάσιμον, τοῦ τρόπου τὸ ἥμερον — and the sentence is built on them (the
+threat "shifts the stability of thy disposition", not "unsettles thee"). **The English keeps a noun phrase where the
+Greek has one**: "the holding ever the same", "the proneness to fall", "the firm footing", "the stability", "the
+gentleness of thy manner", "the soul's good tension". Turning these into verbs reads better and loses the thing he is
+talking about, which is a state of the soul, not an event.
+
+### M2. The inference is spoken
+
+γάρ, ἄρα, τοίνυν, εἰ γάρ … , πῶς; — Maximus argues out loud, in the paraenesis as much as in the dogmatic letters
+("For if what is longed for by him is one … then he too … has become one"). Every connective is rendered at its
+weight ("for", "then", "therefore", "if … then"), and a rhetorical question stays a question. In the dogmatic letters
+the dilemma (ἤτοι γενικὴ … ἢ μοναδική) and the reductio (εἰ δὲ … πῶς …) keep their form, step by step, and a definition
+is rendered as a definition.
+
+### M3. The ascetic table is closed too
+
+γνώμη = inclination (never "opinion", "mind", "judgement"; κρίσις = judgement) · διάθεσις = disposition · ἕξις =
+habit · σχέσις = relation · κίνησις = movement, στάσις = rest · λόγος/τρόπος = principle/mode in the technical pair,
+by sense elsewhere · ἔρως = yearning, πόθος = longing, ἔφεσις = aspiration, ἐπιθυμία = desire, θυμός = anger, ὄρεξις =
+appetite · ἡδονή/ὀδύνη = pleasure/pain · ἀπάθεια = dispassion · φιλαυτία = self-love · θέωσις = deification · πρᾶξις /
+θεωρία / γνῶσις = practice / contemplation / knowledge · μοναδικός = singular (never "monadic"). The full table:
+`translate/maximus-epistulae/GLOSSARY.md` § II.
+
+### M4. Anaphora at full count
+
+μὴ χρόνος … μὴ ἀπειλή … μὴ λόγος … μὴ ὄρεξις … μὴ πόθος; μὴ νόσος, μὴ ὑγεία, μὴ πλοῦτος, μὴ πενία, μὴ ψόγος, μὴ
+ἔπαινος, μὴ θάνατος, μὴ ζωή, μὴ τὸ παρόν, μὴ τὸ μέλλον: every member, in order, each with its own "not"; the
+English list is as long as the Greek one.
+
+### M5. The addressee's number is the Greek's
+
+Most letters are to one man and run in the singular: *thou* throughout (δέσποτά μου εὐλογημένε = "my blessed master",
+σε = thee). Maximus can turn to the plural inside the same sentence (καθ᾿ ὑμᾶς εὐλογημένοις = "blessed ones such as
+you") and back; the English follows each pronoun. His own "we the lowly" is plural and stays so.
+
+### M6. Combefis's apparatus is not the text
+
+The note calls (a), (b), (1), (2) printed inside the Greek are stripped (kind `stray`); Combefis's Latin notes at the
+foot are read separately and go to the cruces. His Latin version paraphrases freely (κατὰ γνώμην → *mentis proposito
+ac voluntate*) and is a witness to the sense only.
+
+- **EN/Greek ≈ 1.4** on the paraenetic anchor (590 → ≈820); the dogmatic letters run nearer 1.25.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"

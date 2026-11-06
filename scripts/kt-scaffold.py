@@ -21,6 +21,10 @@ WORKS = {  # work -> (column map, copyA djvu xml)
     'moschus-pratum': ('data/pg-column-maps/pg087c.json', 'raw/scans/pg087c/copyA_087c_djvu.xml'),
     'procopius-rhetorica': ('data/pg-column-maps/pg087c.json', 'raw/scans/pg087c/copyA_087c_djvu.xml'),   # pp. 11–35 of the same volume
     'sophronius-orationes': ('data/pg-column-maps/pg087c.json', 'raw/scans/pg087c/copyA_087c_djvu.xml'),  # pp. 188–296 of the same volume
+    # Maximus: NOT a Kraken base. raw/kraken/maximus-epistulae/{ruled,checked}/ = the API vision read of PG 91.363–650
+    # checked once against the plate (raw/pg091/checked/, pilot 0i, CLOSED 2026-10-15); DOUBTS.tsv there = its 298 open
+    # readings + the lines where a duplicate leaf's second read differs. Run with --checked so the doubts reach the scaffold.
+    'maximus-epistulae': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml'),
 }
 
 SRC = None
