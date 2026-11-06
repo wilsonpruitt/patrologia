@@ -153,6 +153,18 @@ gravit*, *Adamo tantum* (no negative: English already followed the print), *quæ
 witness is needed**; `data/volumes.json` lists PG 87 copies (087-1/2/3), only copyA is on disk. ⬜ The Latin R rows are recorded
 but not yet applied to a "checked" Latin text: kt-to-site's Latin-only build (new work) must take them from these TSVs.
 
+## ✅ Step 4 DONE 2026-11-05: Migne's apparatus read off every page (Sonnet ×7 briefs) + `notes/place.py`
+`scripts/mp-note-crops.py sophronius-orationes` (112 pages, 584 tiles, `notes/img/` gitignored) → 6 briefs `notes/task-{1..6}.md`
+(3 at a time, ≈1.4M tokens) → `notes/result-{1..6}.jsonl`. Brief 1's agent admitted it guessed pp. 187–190 (images came back empty
+for it) → **`task-1b` re-read pp. 187–192 clean; `result-1b.jsonl` REPLACES result-1 for those pages** (done in place.py).
+**430 notes** (numbered 4xx, lettered 5, notae 4, asterisk 1, unmarked 1); `APPARATUS.json`: **132 Greek-keyed notes placed
+candidates · 298 unplaced** (Latin-column scripture locators etc. → cruces page). 4 Greek anchors not on the checked page
+(p228 ἀμαυρεῖ, p237 ἀκίνητον, p241 δηλοῦται, p258 ἀψίχορος) + 15 with no located line → kt-to-site fuzzy match or cruces.
+⚑ Weak spots: ≈45 markers illegible (kept null, never completed); thumbnail-only anchors pp. 239–243, 251–262; Or. III has TWO
+number series on the same pages (scripture vs parenthesised) so markers collide: tell apart by text; p-0258 "43·1" compound;
+p-0221/222/298 notes are in no chunk (Ballerini preface, Mai) → cruces only. Notes 7 & 16 of the Synodica + the Step-3 call
+list (p197.20 κατ᾿ αὐτὸ…) are in result-1/-2/-3: read them when editing T notes.
+
 ## Plan
 1. Translation: 6 Opus briefs × 3 chunks (A so-001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 ·
    F 016–018), three at a time (rule 5), from `kt-scaffold.py sophronius-orationes brief …`.
