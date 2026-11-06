@@ -168,3 +168,46 @@ re-write `PLATE-110-114.tsv` into `checked/` (the plate transcription) or pp. 11
 - Image check pass 1: reader B (018–033) DONE: R 190 · P 24 · M 40 · ? 130 (p0103/p0118 clipped margins; wrong-word crops). Sense changes → ENGLISH-FIXES.md. Reader C (034–048) launched.
 - Reader A (002–017) DONE: R 186 · P 9 · M 65 · ? 124. ⚠ kt-sheet 'line'-located crops mostly land on the WRONG line (A): pass 2 must use whole-line crops with wider context.
 - kt-sheet line matching: tried a hard window (+38 MISSING) and a soft ordinal penalty (+20 MISSING), both worse → reverted; pass 2 uses the stock --redo whole-line crops (±1 line of context).
+
+## ✅ Step 2 DONE 2026-11-06: sweep (Sonnet, ≈230K)
+≈75 edits over all 30 chunks: § VII/VIII rulings enforced (growing-together, convergence, abbot, indissoluble,
+counterpoised, ratification, enousial, appropriation (Christological) vs kinship (ascetic), destroy/destruction ×36,
+concept, self-chosen, without operation, commix, opposed array); "gnomic" kept once (mo-001 T note); headings 1–27 in
+order; 11 seams read, no loss; mo-030's four unclosed « fixed; 5 repeated P notes in mo-019 → cross-references; S-note
+abbreviations normalised; second person: no slips. Coordinator after the sweep: συγγένεια = kindredness ("natural
+kinship" ×4 → natural kindredness); ἔννοια "meaning" kept where it is intent (by-sense ruling). **6 [?] left**: mo-015
+L.20 (plate confirms the Latin), mo-016 p0089.14, mo-020 p0114.02 + p0114.15 (illegible on the plate), mo-021
+p0116.53→0117.01 (lost phrase), mo-026 p0140.19 — the image-check pass 2 reads the non-plate-settled ones.
+- ✅ Pass 1 merged → `IMAGE-CHECK.tsv` (1,150 rows): **R 526 · M 169 · P 41 · ? 414**. Reader C: R 136 · P 7 · M 63 · ? 152.
+  M convention review (coordinator): 84 of 169 M rows differ only in marks/case/punctuation; they are Migne's type slips and
+  stay M (Epistulae precedent: ταυτὸν without coronis = M); only 2 case conventions (θεοτόκου lower-case, Ἔλλαμψιν) → P.
+  ⚠ the pass-2 brief says "ταυτὸν without coronis = P": **normalise after the pass-2 merge (coronis → M; case → P)**.
+- The "clipped" margins (pp. 103, 118, 121, 153) are NOT clipped: the letters are on the plate, squeezed into the gutter
+  curve; kt-sheet's 30 px pad missed them. New `scripts/kt-sheet-half.py` (Greek half from the column map, text-matched
+  line, ±1 line) → `sheets3/`, 414 rows / 42 sheets (half 412 · MISSING 2). `kt-sheet.py` gained KT_PAD (redo pad).
+  **Pass 2 launched** (3 Opus readers, `IMAGE-CHECK2-BRIEF.md` → `IMAGE-CHECK2-{A,B,C}.tsv`); sheet 001 by the coordinator.
+- Pass 2 readers: B (016–029) R 79 · P 5 · M 5 · ? 51; A (002–015) R 64 · P 13 · M 15 · ? 48 (blotted breathings/subscripts;
+  ϊ vs ῖ indistinguishable in this type: "diaeresis_or_circumflex_merged"). New sense items: p0118.37–38 ἀνέργη-|τον for
+  ἀνενέργητον (M); p0118.09–10 τοῦ-|το (P, emendation withdrawn); p0084.26 ἀνε-|κλήθησαν (M? sense check); p0085.03 ὧν;
+  p0046.20 ἐκεῖνο for ἐκεῖνα (M); p0068.35 plate = OCR, so "[κατὰ φύσιν ἓν]" is the translator's conjecture (T note, not
+  text); p0082.46 καὶ ἀλήθεια without ἡ (P: Combefis's text).
+- ⚠ **pp. 103 and 121 ARE clipped** in our scan (lines start at the image edge; first letters partly off it), unlike p. 153.
+  Second-witness search: archive.org `PatrologiaGraeca` "Vol. 091" = the SAME physical scan (leaf 110 = our p. 111, same
+  over-inking; leaf = pdf − 1); Calfa has no PG 91; the three Google Books ids return the "image not available" placeholder.
+  **No second witness reachable** → the clipped line-start letters on pp. 103/121 stay `?` (scan-clipped), the English rests
+  on the translators' sense readings, and no [sic:] is fired on them (CLAUDE.md: "unreadable is a fact about your copy").
+
+## ✅ Step 3 DONE 2026-11-06: image check of every flagged Greek row (pass 1 + pass 2) + Latin
+- Pass 2 (`kt-sheet-half.py`, 3 Opus readers + coordinator sheet 001): 414 rows → merged. **Final, 1,150 Greek rows:
+  R 760 · M 194 · P 67 · ? 129** (the ? = breathings/subscripts/ϊ-vs-ῖ blotted in this type, and the scan-clipped line
+  starts of pp. 103/121; Greek stays as Kraken+rules there). Latin (mo-015): R 104 · P 2 · ? 2.
+- `kt-apply.py` → `checked/` (645 applied, 75 applied~, 4 already; M 194 → `verify/PRINT-ERRORS.tsv`, the [sic:] layer);
+  the 31 NOT FOUND (cross-line / band-letter splits) hand-patched → **39 rows in `verify/GREEK-PATCHES.tsv`**, every
+  `from` verified on its line. Then the plate transcription of pp. 110/111/114 re-written into `checked/` (147 lines;
+  kt-apply had reset them to Kraken); `checked/DOUBTS.tsv` + `WITNESS.tsv` survive (kt-apply writes only p-*.txt).
+- New sense-bearing M (English keeps the correction; the build's [sic:] shows Migne's form): p0050.33 ὑπαρξίαν (for
+  ἀνυπαρξίαν), p0118.37 ἀνέργητον (ἀνενέργητον), p0140.43 κυρίωσιν (ἀκύρωσιν; Combefis's note (d) on it), p0142.02 τὸ
+  θεῖα, p0148.39 φημὴ, p0103.39 ἕνωσις (ἔκθεσις) …
+- **English fixes from the plate: `ENGLISH-FIXES.tsv` (41 rows: P verdicts where the translator's emendation is withdrawn,
+  and R verdicts with a third plate form)** → one Opus fixer launched (print construes → re-translate; doesn't → keep the
+  conjecture with a note "Migne prints X (confirmed on the plate)"). ENGLISH-FIXES.md = the narrative list.

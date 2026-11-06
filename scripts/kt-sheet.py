@@ -29,6 +29,7 @@ PER = int(opt.get('per', 24))
 COLS = int(opt.get('cols', 3))
 OUT = opt.get('out', os.path.join(ROOT, 'raw/kraken', work, 'sheets'))
 HALF = int(os.environ.get('KT_HALF', 230))
+PAD = int(os.environ.get('KT_PAD', 30))   # left/right pad of --redo line crops; 2026-11-06 Opuscula: 160 catches gutter-squeezed line starts
 K = os.path.join(ROOT, 'raw/kraken', work)
 os.makedirs(OUT, exist_ok=True)
 FONT = ImageFont.truetype('/System/Library/Fonts/Supplemental/Times New Roman.ttf', 30)
@@ -74,9 +75,9 @@ def locate(p, ln, printed):
     if i >= 0 and bx:
         cx = x1 + (x2 - x1) * (i + len(tok) / 2) / len(bx)
         a = max(x1 - 20, int(cx - HALF)); b = min(x2 + 20, int(cx + HALF))
-        if REDO: return (x1 - 30, y1 - h, x2 + 30, y2 + h, cx - x1 + 30, y1, y2), 'word'
+        if REDO: return (max(0, x1 - PAD), y1 - h, x2 + PAD, y2 + h, cx - max(0, x1 - PAD), y1, y2), 'word'
         return (a, y1 - h // 3, b, y2 + h // 3, cx - a, y1, y2), 'word'
-    if REDO: return (x1 - 30, y1 - h, x2 + 30, y2 + h, None, y1, y2), 'line'
+    if REDO: return (max(0, x1 - PAD), y1 - h, x2 + PAD, y2 + h, None, y1, y2), 'line'
     return (x1 - 20, y1 - h // 3, x2 + 20, y2 + h // 3, None, y1, y2), 'line'
 
 rows = []
