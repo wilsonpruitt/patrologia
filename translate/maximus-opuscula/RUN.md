@@ -314,3 +314,13 @@ Coordinator rulings as reports land (fixes applied together after R6):
   hypostases"); its κυρίωσιν note → cruces line (the misprint is already in PRINT-ERRORS).
 **Blind read totals: 6 readers ≈1.15M; 15 findings → 13 accepted (4 polarity), 2 rejected (διαστολή sense; R4's F1 withdrawn by
 its reader). Fixer next, then rebuild, polarity record, preflight 10/10, Wilson's deploy/push/ours (given 2026-11-06).**
+- ✅ Fixer applied 13 findings (Opus, ≈0.10M); rebuild → polarity record (`data/polarity/maximus-confessor-opuscula.json`, 30
+  chunks, 15 sites) → **preflight 10 of 10**.
+
+## ✅ SHIPPED 2026-11-06 (Wilson: "Good, deploy push ours")
+DRAFT prefix removed from the about text; `englishState: "ours"` on the registry record (badge stays "New English translation":
+Clarke 2026 named). Deployed `dpl_2hTx58xh6YmPAvgGbTetLiLUBan5` → **migne.app/pg/91/opuscula/** (+ /cruces/pg/91/opuscula/),
+smoke-tested on the alias (200, badge, Clarke, no DRAFT). Pushed a134ceb8..227dc33c. Burn ≈8.5M all-in (est. ≈6M).
+⬜ Carried: mo-015's displayed Latin OCR residue (no flag caught it); 129 image-check `?` rows; the kt-apply gap (R verdicts on
+`doubt`/`print` rows never reach `checked/`; comments with `plate=` text can leak into the Greek) is worth a code fix before the
+next kt work.

@@ -1,13 +1,10 @@
 # Next session — resume note
 
-## ▶ 2026-11-06 (latest) — MAXIMUS *OPUSCULA*: TRANSLATED, CHECKED, APPARATUS, BUILT LOCALLY — ⏸ WAITING ON WILSON'S GO FOR THE BLIND READ
-Score `translate/maximus-opuscula/RUN.md` (steps 0–5 DONE; last section "STOPPED for Wilson's go"). 30 chunks (27 pieces;
-Opusc. 12 Latin-only) translated (Opus), swept (Sonnet), image-checked twice (1,150 Greek rows: R 760 · M 194 · P 67 · ? 129;
-108 Latin rows), pp. 110/111/114 plate-transcribed, 41 plate-driven English fixes, apparatus 361 notes, LOCAL build
-(`site/pg/91/opuscula/`, commits 5286d2cc + 1d395ee5), **preflight 9/10 — only the polarity gate**. Nothing deployed or pushed.
-**NEXT:** (6) blind polarity read, ≈1.3–1.5M Opus, needs Wilson's "go" (run is over its ≈6M estimate: ≈7.5M all-in so far);
-then Wilson reads the DRAFT about/RECENT text (names Clarke 2026 CUA as the complete English; badge "New"), deploy
-(`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`, own OK), push (own OK), `englishState: "ours"`.
+## ▶ 2026-11-06 (latest) — MAXIMUS *OPUSCULA* LIVE at migne.app/pg/91/opuscula/ (deployed, pushed, englishState ours)
+Score `translate/maximus-opuscula/RUN.md` (closed: "SHIPPED"). Next in the Maximus queue (`translate/MAXIMUS-QUEUE.md`):
+#2 *Disputatio cum Pyrrho* (pdf pp. 162–≈196; Farrell 1990 + Clarke 2026 exist → "New" badge), needs Wilson's model + go.
+⚠ Before the next kt work: fix `kt-apply.py` (R verdicts on doubt/print rows are skipped; `plate=` comments can leak into the
+Greek) — see the Opuscula RUN.md, Step 6. Carried: mo-015 Latin display residue; 129 `?` rows.
 
 ## ▶ (superseded above) START HERE (2026-11-06, Wilson): MAXIMUS *OPUSCULA THEOLOGICA ET POLEMICA* — queue #1, not yet started
 Score: `translate/MAXIMUS-QUEUE.md` (the complete-works queue, costed) + its method section. The Opuscula = PG 91.9–285, 27

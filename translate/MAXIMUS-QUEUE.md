@@ -14,7 +14,7 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
 | # | work | PG | Greek words | base on disk | English exists? (see STATUS) | est. burn | "New"? |
 |---|---|---|---|---|---|---|---|
 | ✅ | Epistulae 1–45 | 91.364–650 | 55,130 | API read + Kraken; LIVE | Louth: Ep. 2 only | 6.4M (spent) | yes (shipped) |
-| 1 | **Opuscula theologica et polemica** (27 pieces) | 91.9–285 | ≈52,000 (myriobiblos has *ad Marinum* 16K) | pdf on disk (`raw/pg091/091.pdf` **pp. 11–161**, 12 duplicate leaves; Kraken running 2026-11-06) | ⚠ **Clarke 2026 (CUA, FOTC) = complete English of all 27 + Additamenta 16–19** (web-checked 2026-11-06, see STATUS); before it: Louth 3, 7; Blowers–Wilken 6; Gohl 1 | ≈6M | **no longer** |
+| ✅ | **Opuscula theologica et polemica** (27 pieces) — LIVE 2026-11-06 migne.app/pg/91/opuscula/ | 91.9–285 | ≈52,000 (myriobiblos has *ad Marinum* 16K) | pdf on disk (`raw/pg091/091.pdf` **pp. 11–161**, 12 duplicate leaves; Kraken running 2026-11-06) | ⚠ **Clarke 2026 (CUA, FOTC) = complete English of all 27 + Additamenta 16–19** (web-checked 2026-11-06, see STATUS); before it: Louth 3, 7; Blowers–Wilken 6; Gohl 1 | ≈6M | **no longer** |
 | 2 | **Disputatio cum Pyrrho** | 91.287–354 | 11,670 | pdf pp. 162–≈196; myriobiblos full | Farrell 1990 (out of print); ⚠ **Clarke 2026 (same CUA volume)** | ≈1.4M | no |
 | 3 | **Hymni** (two hymns) | 91.1417–1424 | ≈400 | pdf p. ≈773 | none found | ≈0.1M (Fable verse pilot, with the Anacreontica) | yes |
 | 4 | **Mystagogia** | 91.657–717 | 11,280 | pdf pp. ≈361–390; myriobiblos full | Berthold 1985; Armstrong 2019 | ≈1.3M | no |
