@@ -139,6 +139,11 @@
    ],
    [
     205,
+    "ἄφραστον",
+    "L. ἄφθαρτον."
+   ],
+   [
+    205,
     "φύσεων",
     "L. κτιστοῖς φυσικῶς."
    ],
@@ -804,6 +809,10 @@
    "line": 42,
    "anchorLine": "λείας, ἣν²⁵ οὐκ εἰς μακρὰν ὑποδέξοιτο, ὁμολογ.."
   },
+  "205|ἄφραστον|L. ἄφθαρτον.": {
+   "line": 2,
+   "anchorLine": "ἀθάνατα, ἢ πρὸς οὐσίαν μετελήλυθεν ἄφραστον²⁶,"
+  },
   "205|φύσεων|L. κτιστοῖς φυσικῶς.": {
    "line": 12,
    "anchorLine": "χτιστῆς φύσεων ²⁷ ἐμφολεύουσιν, διὸ τοῦτο καὶ πρὸ"
@@ -1435,22 +1444,6 @@
    "anchorLine": "neque Christus resurrexit ²⁶, » et reliqua : ita eorum cogitationibus [et",
    "en": null,
    "latinWord": "resurrexit",
-   "chunks": [
-    "so-004",
-    "so-005"
-   ]
-  },
-  {
-   "page": "p-0205",
-   "series": "numbered",
-   "marker": "26",
-   "markerState": "read",
-   "text": "L. ἄφθαρτον.",
-   "where": "foot",
-   "column": "greek",
-   "anchorWord": null,
-   "anchorLine": "Οὕτως ἀνθρώπων ψυχαὶ διαμένουσιν ἄφθαρτοι· [call 26 on this line is not seen; variant keyed 26 in the VARIÆ LECTIONES; anchor uncertain]",
-   "en": null,
    "chunks": [
     "so-004",
     "so-005"
@@ -5050,7 +5043,7 @@
    [
     "p0263.L.31",
     "Israel",
-    "ibid. 50. [glyph before 0 reads like 5; context Luc. ii, 30]",
+    "ibid. 50.",
     "n",
     0,
     null
@@ -5197,7 +5190,7 @@
     "p0273.R.01",
     "momento",
     "Vivi tempore judicii in ip… rituros, sed tantum immutand… … continut, non mo…",
-    "n",
+    "nt",
     0,
     null
    ],
@@ -5252,22 +5245,27 @@
    "8": "Gen. III, 16.",
    "9": "Gen. III, 19.",
    "10": "I Reg. II, 6.",
-   "13": "Ephes. II, 14, 15.",
-   "15": "Sap. I, 13.",
-   "16": "Osee XIII, 14; I Cor. XV, 55.",
-   "17": "Rom. XI, 33.",
-   "12": "Luc. II, 14.",
-   "20": "Psal. LXXXI, 6.",
-   "28": "Jac. II, 17.",
-   "30": "Joan. XV, 14.",
-   "36": "Isa. LIII, 9; I Petr. II, 22.",
-   "37": "II Cor. V, 21.",
-   "41": "Num. XX, 12.",
-   "43": "II Reg. XXIII, 15.",
-   "45": "Matth. XIII, 17.",
-   "46": "I Petr. I, 8-12.",
-   "47": "Joan. XV, 13.",
-   "48": "II Reg. XXIII, 15."
+   "12": "Luc. I, 14.",
+   "13": "Luc. II, 14.",
+   "15": "Ephes. II, 14, 15.",
+   "16": "Sap. I, 13.",
+   "17": "Osee XIII, 14; I Cor. XV, 55.",
+   "18": "Rom. XI, 33.",
+   "21": "Psal. LXXXI, 6.",
+   "29": "Jac. II, 17.",
+   "31": "Matth. VII, 51.",
+   "32": "Joan. XIV, 12.",
+   "33": "Joan. XV, 14.",
+   "39": "Isa. LIII, 9; I Petr. II, 22.",
+   "40": "II Cor. V, 21.",
+   "44": "Num. XX, 12.",
+   "47": "Joan. IV, 10 seqq.",
+   "48": "II Reg. XXIII, 15.",
+   "49": "Matth. XIII, 17.",
+   "50": "I Petr. I, 8-12.",
+   "51": "Joan. XV, 13.",
+   "52": "II Reg. XXIII, 15.",
+   "53": "ibid. 17."
   },
   "so-020": {
    "2": "I Cor. i, 20.",
@@ -5280,31 +5278,46 @@
    "17": "Joan. iii, 19.",
    "18": "Joan. i, 5.",
    "19": "Joan. i, 9.",
-   "27": "Luc. ii, 31.",
-   "22": "Exod. xiii, 2 ; Luc. ii, 23.",
-   "24": "Joan. i, 14.",
-   "25": "Luc. ii, 22.",
-   "29": "Luc. ii, 29.",
-   "28": "ibid. 26.",
-   "36": "Psal. xcvii, 1.",
-   "39": "I Cor. v, 7.",
-   "37": "Psal. xcvii, 1.",
-   "41": "ibid. 3",
-   "42": "ibid. 34.",
-   "45": "Joan. i, 12.",
-   "46": "Luc. ii, 35.",
-   "47": "Luc. ii, 35.",
-   "50": "Matth. xxiii, 4.",
-   "51": "Matth. xi, 30.",
-   "52": "Luc. ii, 38.",
-   "55": "II Cor. iii, 6.",
-   "60": "Matth. v, 48."
+   "21": "Luc. ii, 31.",
+   "23": "Exod. xiii, 2 ; Luc. ii, 23.",
+   "25": "Joan. i, 14.",
+   "26": "Luc. ii, 22.",
+   "28": "Luc. ii, 29.",
+   "29": "ibid. 26.",
+   "30": "ibid. 30.",
+   "31": "ibid. 31.",
+   "38": "Psal. xcvii, 1.",
+   "39": "Ibid.",
+   "40": "Ibid.",
+   "42": "I Cor. v, 7.",
+   "43": "Psal. xcvii, 1.",
+   "45": "ibid. 3",
+   "46": "Luc. ii, 29.",
+   "47": "ibid. 50.",
+   "48": "ibid. 34.",
+   "51": "Joan. i, 12.",
+   "52": "Luc. ii, 35.",
+   "54": "Luc. ii, 35.",
+   "55": "Rom. i, 16.",
+   "56": "Psal. xcvii, 2.",
+   "57": "Matth. xxiii, 4.",
+   "58": "Matth. xi, 30.",
+   "59": "Luc. ii, 38.",
+   "61": "Luc. iii, 7.",
+   "63": "II Cor. iii, 6.",
+   "64": "Matth. x, 6.",
+   "67": "Psal. xl, 11.",
+   "68": "Matth. v, 48."
   },
   "so-021": {
+   "17": "Psal. xlvi, 2.",
    "18": "Ezech. i, 1 seqq.",
-   "20": "Luc. i, 36.",
-   "27": "Luc. xv, 6.",
-   "31": "Gen. i, 26, 27."
+   "19": "Luc. i, 36.",
+   "21": "Luc. i, 28.",
+   "28": "Luc. xv, 6.",
+   "32": "Esther. xiii, 10.",
+   "33": "Gen. i, 26, 27.",
+   "34": "Psal. viii, 6."
   }
  }
 }

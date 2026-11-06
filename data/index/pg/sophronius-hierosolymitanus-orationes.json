@@ -14,7 +14,7 @@
   "colLast": 3364,
   "counts": {
     "scripture": 79,
-    "fontes": 1,
+    "fontes": 0,
     "unparsed": 0,
     "bands": 397
   },
@@ -202,7 +202,7 @@
     {
       "col": 3210,
       "grc": "salientis in vitam æternam [n: Joan. IV, 10 seqq.]. »",
-      "en": "springing up into life eternal.» This holy cistern designated the"
+      "en": "springing up into life eternal.» [n: Joan. IV, 10 seqq.]"
     },
     {
       "col": 3211,
@@ -396,7 +396,7 @@
     },
     {
       "col": 3288,
-      "grc": "[b: A] λαμπρότητα, καὶ πᾶσαν ὑπεραίρει φαιδρότητα, καὶ πᾶσαν ἀποκρύπτει",
+      "grc": "[b: A] λαμπρότητα, καὶ πᾶσαν ὑπεραίρει φαιδρότητα, καὶ πᾶσαν [n:",
       "en": "[b: A] brightness, and exceed all radiance, and obscure all"
     },
     {
@@ -516,7 +516,7 @@
     },
     {
       "col": 3318,
-      "grc": "degunt in momento [n: Vivi tempore judicii in ip… rituros,",
+      "grc": "degunt in momento [nt: Vivi tempore judicii in ip… rituros,",
       "en": "die in a moment, and as it were in the"
     },
     {
@@ -1219,7 +1219,7 @@
     },
     {
       "refKey": "Luke.2.29",
-      "refDisplay": "ibid. 50. [glyph before 0 reads like 5; context Luc. ii, 30",
+      "refDisplay": "ibid. 50.",
       "antecedent": "Luc. ii, 29.",
       "antecedentColumn": "3297",
       "ibidResolved": true,
@@ -1458,16 +1458,7 @@
       ]
     }
   ],
-  "fontes": [
-    {
-      "raw": "Vivi tempore judicii in ip… rituros, sed tantum immutand… … continut, non mo…",
-      "column": "3318",
-      "chunk": 16,
-      "bandsInColumn": [
-        "d"
-      ]
-    }
-  ],
+  "fontes": [],
   "unparsed": [],
   "bands": [
     {
@@ -3556,10 +3547,15 @@
       "raw": "De Paulo Samosateno agit S. Ephræm Syrus in Testamento quo Bardesanem strenue confutatum esse tradit Theodoretus lib. I Hær. fab., cap. 22 ; de hoc etiam agit S. Epiphanius hæresi 22.",
       "column": "3295",
       "chunk": 14
+    },
+    {
+      "raw": "Vivi tempore judicii in ip… rituros, sed tantum immutand… … continut, non mo…",
+      "column": "3318",
+      "chunk": 16
     }
   ],
   "cruces": {
-    "count": 489,
+    "count": 501,
     "file": "src/english/sophronius-hierosolymitanus-orationes/cruces.md"
   },
   "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",

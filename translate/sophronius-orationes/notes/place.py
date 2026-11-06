@@ -18,6 +18,11 @@ for k in range(1, 7):
         if l.strip(): rows.append(json.loads(l))
 rows = [r for r in rows if not (r['page'] in OVER)]
 rows += [json.loads(l) for l in open(f'{T}/notes/result-1b.jsonl') if l.strip()]
+# Anchor fixes from the blind polarity read (2026-11-05): the note reader left the anchor null; the reader R1 read it at the plate.
+ANCHOR_FIX = {('p-0205', '26', 'L. ἄφθαρτον.'): ('ἄφραστον', 'ἀθάνατα, ἢ πρὸς οὐσίαν μετελήλυθεν ἄφραστον²⁶,')}
+for r in rows:
+    fx = ANCHOR_FIX.get((r.get('page'), str(r.get('marker')), r.get('text')))
+    if fx and r.get('column') == 'greek': r['anchorWord'], r['anchorLine'] = fx
 notes, seen, dups = [], set(), 0
 for r in rows:
     if r.get('none'): continue
@@ -124,18 +129,59 @@ for u in app['unplaced']:
     if anchor not in text:                                               # a near match (Samosatenii / Samosateni): the note stands on the line's own token
         anchor = next((t_.strip('.,;:?!»«()') for t_ in text.split() if len(base(t_)) >= 6 and (base(t_) in ba or ba[:-2] in base(t_))), anchor)
     nth = len([w for w in toks(before) if w == base(anchor)]) if has(base(text)) else 0          # which occurrence of the anchor word on the line
-    kind = 'n' if u.get('en') is None else 'nt'
-    app['latin'].setdefault(cid, []).append([tag, anchor, u['text'].strip(), kind, nth, u.get('en')])
-    placed_lat.append((cid, tag, anchor)); mirrored = False
-    if kind == 'n':                                                    # mirror the Scripture locator into the English S note
-        refs = migne_refs(u['text'])
-        for no, t in card_notes(cid).items():
-            if (cid, no) in used_s or not t.lstrip().startswith('S'): continue
-            sr = s_refs(t)
-            if any(a[0] == b[0] and a[1] == b[1] and abs(a[2] - b[2]) <= 2 for a in refs for b in sr) or \
-               any(a[0] == b[0] == 'ps' and abs(a[1] - b[1]) <= 1 and abs(a[2] - b[2]) <= 1 for a in refs for b in sr):
-                used_s.add((cid, no)); app['english'].setdefault(cid, {})[no] = u['text'].strip(); mirrored = True; break
+    ntext = re.sub(r'\s*\[[^\]]*\]\s*$', '', u['text'].strip())            # the note reader's own bracketed remark is not Migne's text
+    # a locator is a Scripture reference or an Ibid. (blind read 2026-11-05: en=None alone let a prose note, p-0273 *Vivi tempore
+    # judicii ...*, through as a locator); everything else is prose -> [nt:]
+    isloc = u.get('en') is None and bool(re.match(r'\s*(?:(?:I{1,3}V?|IV)\.?\s+)?[A-Z][a-z]+\.?\s+[ivxlcIVXLC]+\s*[,.]\s*\d+|\s*[Ii]bid', ntext))
+    kind = 'n' if isloc else 'nt'
+    app['latin'].setdefault(cid, []).append([tag, anchor, ntext, kind, nth, u.get('en')])
+    placed_lat.append((cid, tag, anchor))
 app['unplaced'] = keep_unplaced
+# ---- mirror Migne's Scripture locators into the English S notes: a MONOTONE alignment (blind read 2026-11-05) ----
+# The first version took, note by note in page order (not text order), the first unused S note whose reference was within
+# +-2 verses: so locators were swapped (Luc. ii, 29 / ibid. 31), an Ibid. resolved against the wrong predecessor, and one S
+# note covering three quotations absorbed only one locator. Now: the chunk's locators in TEXT order (Ibid. resolved in that
+# order), its S notes in note order (= text order: notes are numbered by position), and a dynamic programme picks the
+# order-preserving one-to-one matching of greatest score: 5 where the S note quotes Migne's printed locator (*Luc. iii, 7.*:
+# how a translator pins a misprinted locator), 3 for an exact verse, 1 within +-2 verses (Psalms: +-1 chapter, LXX/Vulgate).
+def nrm(x): return re.sub(r'[^a-z0-9]', '', x.lower())
+if latin:
+    for cid in LCH:
+        order = {l.split('\t', 1)[0]: i for i, l in enumerate(open(f'{LATIN_DIR}/{cid}.tsv'))}
+        lat_lines = {l.split('\t', 1)[0]: l.rstrip('\n').split('\t', 1)[1] for l in open(f'{LATIN_DIR}/{cid}.tsv')}
+        def pos(r):
+            t = lat_lines.get(r[0], ''); ms = [m.start() for m in re.finditer(re.escape(r[1]), t)]
+            return (order.get(r[0], 10**6), ms[min(r[4], len(ms) - 1)] if ms else 0)
+        locs = sorted([r for r in app['latin'].get(cid, []) if r[3] == 'n'], key=pos)
+        LAST[0] = None
+        refs = []
+        for r in locs:
+            if re.match(r'\s*[Ii]bid\.?\s*$', r[2]) and LAST[0]: refs.append([LAST[0]])      # bare Ibid. = the previous reference
+            else: refs.append(migne_refs(r[2]))
+        cn = card_notes(cid)
+        S = [(no, t) for no, t in sorted(cn.items(), key=lambda x: int(x[0])) if t.lstrip().startswith('S')]
+        def score(i, j):
+            t = S[j][1]
+            if nrm(locs[i][2]) and nrm(locs[i][2]) in nrm(t): return 5
+            sr = s_refs(t); a_ = refs[i]
+            if any(a[0] == b[0] and a[1] == b[1] and a[2] == b[2] for a in a_ for b in sr): return 3
+            if any(a[0] == b[0] and a[1] == b[1] and abs(a[2] - b[2]) <= 2 for a in a_ for b in sr) or \
+               any(a[0] == b[0] == 'ps' and abs(a[1] - b[1]) <= 1 and abs(a[2] - b[2]) <= 1 for a in a_ for b in sr): return 1
+            return 0
+        n_, m_ = len(locs), len(S)
+        D = [[0] * (m_ + 1) for _ in range(n_ + 1)]
+        for i in range(n_ - 1, -1, -1):
+            for j in range(m_ - 1, -1, -1):
+                sc = score(i, j)
+                D[i][j] = max(D[i + 1][j], D[i][j + 1], (sc + D[i + 1][j + 1]) if sc else 0)
+        i = j = 0
+        while i < n_ and j < m_:
+            sc = score(i, j)
+            if sc and D[i][j] == sc + D[i + 1][j + 1]:
+                app['english'].setdefault(cid, {})[S[j][0]] = locs[i][2]; i += 1; j += 1
+            elif D[i][j] == D[i + 1][j]: i += 1
+            else: j += 1
+        print(f'  {cid}: {n_} locators, {len(app["english"].get(cid, {}))} mirrored into the English')
 json.dump(app, open(f'{T}/notes/APPARATUS.json', 'w'), ensure_ascii=False, indent=1)
 if latin:
     cand = [n for n in notes if n.get('column') == 'latin' and any(int(n['page'][2:]) in r for r in LCH.values())]

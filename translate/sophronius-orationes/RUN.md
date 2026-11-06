@@ -195,3 +195,34 @@ so the step-3 grep gives 0 (spec drop list had only 13 furniture lines); (3) res
 LATIN-OVERRIDES (keeps M 21 / P 13 / ? 5); (4) gutter-letter rule is position-based (bands ~1330 px apart), the lone `p`/`ç` at p0259.R.45,
 p0273.R.45, p0274.R.30 are gutter D/D/C read at the plate; (5) band/anchor id dedupe applies only to pages with Latin-only runs (shipped
 Moschus/Procopius pages carry a repeated band id and must rebuild byte-identical); (6) WIDE_PARA applies to the Greek chunks only.
+
+## ✅ Blind polarity read DONE 2026-11-05 (6 Opus readers): preflight 10 of 10 (local; nothing pushed or deployed)
+Reports `data/briefs/SOPHRONIUS-BLIND-READ-R1…R6.md`; record `data/polarity/sophronius-hierosolymitanus-orationes.json` (28 findings = 26 numbered + R1's
+ὑμέτερα and stray-Ν side items; 27 applied, 1 rejected; the note lists each). Every fix is in the SOURCE English (`so-0NN.en.md`); notes renumbered 1..n
+and markers verified per card (so-004, so-019, so-020, so-021 renumbered; `verify/SIC-MAP.json` re-keyed: so-019 30/35/41, so-020 44).
+- **English, our slips:** so-001 "since they are indeed just"; so-002 "the latter … the former" (τοῦτο/ἐκεῖνο: Nestorius grieved by no-division);
+  so-003 "one essential and natural operation"; so-006 ἵνα μή carried to the judgement clause; so-011 "nor bearing them into identity of essence";
+  so-012 "these good tidings"; so-020 "he showed"; so-021 "by his own wife"; so-016 "the priest is great", "the old man", the leaping granted by
+  Christ (δωρούμενος with λυτρούμενος, Latin *sineret*); so-017 "to forsake that time ⟨of the liturgy⟩" (ὃν ≠ ἔρημος); so-018 "love towards one
+  another" (1 Pet 4:8), "call Joseph so". so-019 "To Adam alone" → "To Adam" (plate: no *non*; R2's "Not only" NOT adopted: nothing supplied).
+- ⚑ **Where the English now departs from Migne's print (each has a T note naming the printed form):** so-003 ἀπεστέρηντο → "were NOT at all deprived"
+  (Migne's own VL 16 *L.* οὐχ ἐστέρηντο + Latin *non*); so-004 ἄφραστον → "incorruptible" (VL 26 *L.* ἄφθαρτον, now placed in the Greek) and ὑμέτερα →
+  "our"; so-008 γεγεννημένη → "having become Mother of God"; so-010 γεννησόμενος → "will become so" (γενν- for γεν-, the plate's habit); so-014 οὐ
+  συνελήφθη → "who had been conceived" (misprint for ὃς; the printed negative is not rendered: the 3325A doubt is closed). PRINT-ERRORS/IMAGE-CHECK
+  rows for p0233.47, p0241.30 still say P (Migne's text): they would be M if a [sic:] layer is ever built for the Greek.
+- **Locators (R2 F3, R4 F3/F4, R5 F1), a PIPELINE fix:** `notes/place.py` mirrored each Latin locator to the FIRST unused S note within ±2 verses,
+  note by note in page order, so locators swapped (Luc. ii 29/31), Ibid. resolved against the wrong predecessor, and a 3-quotation S note took one.
+  Now a monotone DP over locators in TEXT order × S notes in note order (5 = the S note quotes Migne's printed locator, the pin for his misprinted ones;
+  3 exact verse; 1 within ±2). Input: S notes added/moved/split in so-019 (5 new, S43 moved to David's words), so-020 (8 new + 4 pins), so-021 (4 new,
+  S18/S31 split). **Every printed locator now stands in the English at Migne's point: 28/28, 40/40, 8/8** (was 23/29/4, with swaps). Rule: Migne's
+  misprinted locators are carried as printed, the S note (cruces) gives the right verse.
+- **[nt:] rule, uniform (spec §4):** Migne's prose notes in the Latin-only chunks are `[nt:]` in the Latin only; their English is the cruces' working
+  translation. 0007's "inline [nt:]" (R4) was a stale incipit in the shared frontmatter, gone on rebuild. p-0273 *Vivi tempore judicii…* was typed a
+  locator (en = null) and is now `[nt:]` (a locator must look like one). Reader's bracketed remark stripped from *ibid. 50.* R2 F4 rejected on this rule.
+- **Greek file:** GREEK-PATCHES p-0211:34 Πιθιανῶνη → Πιθιανῶν, p-0203:45 stray Ν dropped. ⭐ kt-to-site began a note's search at the line's 2nd word, so
+  **every note anchored on a line's FIRST word was silently unplaced**: fixed (`lineinitial` CONF flag, Sophronius only; Moschus/Procopius kt-to-site
+  output hash-identical old vs new script, pages `cmp` identical). Greek notes placed 110 → 126 of 133 (incl. VL 36·37 Ἡφιωνητῶν. L. Σηθιανῶν., VL 26).
+  place.py ANCHOR_FIX gives VL 26 its anchor ἄφραστον. LATIN-RESIDUE-FIXES: p0262.L.10 *naturæ* (R4, plate).
+- Rebuild: kt-apply-latin → place.py → kt-to-site → mark → `WIDE_PARA=1` align (85.6% sentence-level) → verify OK → plate-gate OK → build-site →
+  build-lookup-grc → preflight **10 of 10**.
+⬜ Remaining before ship: Wilson reads the DRAFT about/bio/RECENT text and the ⚑ departures above · deploy (own OK) · push (own OK) · `englishState: "ours"`.

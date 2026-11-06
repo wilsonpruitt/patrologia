@@ -27,7 +27,7 @@ CONF = {
                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='pr'),
     # Sophronius: so-001..018 Greek + so-019..021 Latin-only (LATIN-ONLY-SPEC.md, built 2026-11-05): all 21 chunks, in COLUMN order.
     'sophronius-orationes': dict(key='sophronius-hierosolymitanus-orationes', vol=87, cmap='data/pg-column-maps/pg087c.json',
-                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='so', unwrap=True),   # unwrap: the so- cards are hard-wrapped at ~120 columns; join lines inside a paragraph
+                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='so', unwrap=True, lineinitial=True),   # unwrap: the so- cards are hard-wrapped at ~120 columns; join lines inside a paragraph
 }
 work = sys.argv[1]; DRY = '--dry' in sys.argv
 C = CONF[work]; KEY = C['key']
@@ -301,6 +301,10 @@ if __name__ == '__main__':
                 ln_ = (APP.get('greekLines', {}).get(f'{page}|{word}|{txt.strip()}') or {}).get('line')
                 if ln_:                                                  # Moschus: begin the search at the note's own line
                     ltok = nfc(open(f'{K}/checked/p-{page:04d}.txt').read().split('\n')[ln_ - 1]).split()[1:4]
+                    l0 = nfc(patched(page, ln_, open(f'{K}/checked/p-{page:04d}.txt').read().split('\n')[ln_ - 1].strip())).split()
+                    if C.get('lineinitial') and l0 and base(word) and base(l0[0]).startswith(base(word)[:max(3, len(base(word)) - 2)]):
+                        ltok = l0[:3]                            # blind read 2026-11-05: the anchor IS the line's first word; searching from
+                                                                 # word 2 began past it (Πιθιανῶν, φήσωμεν, [ἐ]σεις were never placed). Start AT the line.
                     m_ = re.compile(r'(?:\s|\0)+'.join(re.escape(t_) for t_ in ltok)).search(gm, start) if ltok else None   # earlier notes sit between the line's words as \0 runs
                     if m_: start = m_.start()
                 nth = {(940, 'ἑπτὰ'): 3}.get((page, word), 1)   # blind read R5: Migne's mark is on the THIRD ἑπτὰ of the page (Αἱ γὰρ ἑπτὰ, p0940.37)

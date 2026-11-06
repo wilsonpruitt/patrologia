@@ -44,8 +44,8 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3168** · …he naturally worked the things of each essence — T. Migne prints τὰς ἑκατέρας φυσικῶς οὐσίας εἰργάζετο, "he naturally worked the two essences", which makes the essences, not their works, the object; "the things of each essence" is our conjecture against the printed text (τὰ τῆς ἑκατέρας … οὐσίας), with the Latin *quæ sunt utriusque substantiæ* and the singular ἑκατέρᾳ that follows.
 - **3168** · …and in another, as the divine Cyril maintained; — S. Cyril of Alexandria's formula κατ᾿ ἄλλο καὶ ἄλλο, "in one respect and in another"; the passage is
 - **3168** · …other, that which it has as its own: — S. Leo, Tome to Flavian (Ep. 28.4): *Agit enim utraque forma cum alterius communione quod proprium
-- **3169A** · …without confusion, were wholly deprived of these , — T. τούτων παντελῶς ἀπεστέρηντο, "were wholly deprived of these", as given; the Latin reads a negative,
-- **3169A** · …these , and were shown in one hypostasis. — T. Migne prints διεδείκνυτο, singular, though its subject is αἱ φύσεις (feminine plural, beside the plural ἀπεστέρηντο); "were shown" is our conjecture against the printed text (διεδείκνυντο), with the Latin *monstrabantur*.
+- **3169A** · …confusion, were not at all deprived of these, — T. Migne prints τούτων παντελῶς ἀπεστέρηντο, "were wholly deprived of these" (plate, p. 199), which reverses the argument: natures that stay unchanged and unconfused keep their natural properties. His own *Variae lectiones* note 16 on the same page reads *L.* οὐχ ἐστέρηντο, and the Latin has *his penitus non erant frustratæ*; the English follows the note and the Latin, "were not at all deprived of these" (blind read, 2026-11-05).
+- **3169A** · …of these, and were shown in one hypostasis. — T. Migne prints διεδείκνυτο, singular, though its subject is αἱ φύσεις (feminine plural, beside the plural ἀπεστέρηντο); "were shown" is our conjecture against the printed text (διεδείκνυντο), with the Latin *monstrabantur*.
 - **3172A** · …a plaything by the children of the Acephali, — P. The Acephali, "the headless": Monophysites who broke with their own patriarchs over the Henoticon
 
 ## Chunk 0004 (so-004)
@@ -55,11 +55,13 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3177** · …ages and recent, according to the holy Scriptures.» — S. Not located here. The "God-minded … crowned for Christ" are cited as a body, and the rule of assigning the sayings to each nature is the one Gregory Nazianzen (Or. 29.18) and Leo's Tome lay down. The Latin's gloss *[confessiones]* for συνέσεις matches the variant συναινέσεις that leaked in at p0203.55.
 - **3177** · …the nature whose own the thing done is. — T. Migne prints ἧς ἐστιν οἰκεῖον τὸν γινόμενον, a masculine accusative that cannot be the subject of ἐστιν; "the thing done" is our conjecture against the printed text (τὸ γινόμενον), with the Latin *quod geritur*.
 - **3177** · …force is also the common operation, called theandric, — T + S. θεανδρικὴ ἐνέργεια, "theandric operation", Dionysius's word kept in its Greek-English form: Ps.-Dionysius, Ep. 4 (to Gaius), καινή τις ἡ θεανδρικὴ ἐνέργεια. Dionysius the Areopagite was converted by Paul (Acts 17:34). The printed text has κοινήν ("common"). The Latin *nova [communis]* follows the variant καινήν ("new", Dionysius's own word), which leaked in at p0203.55. Ταύτης … τῆς δυνάμεως: "of this force", i.e. of the same mixed kind; the Latin has *hujus virtutis*.
+- **3177D** · …division, wisely and truly undergoing all our works — T. Migne prints τὰ ὑμέτερα ἔργα, "your works" (plate, p. 203), addressed as it would be to Sergius; Christ underwent OUR works and passions, as the Latin *vere nostra gerens opera* has it, so the English reads ἡμέτερα, "our" (the ἡμεῖς/ὑμεῖς confusion of the itacist pronunciation).
 - **3177D** · …any guile at all found in his mouth. — S. 1 Pet 2:22 (after Isa 53:9), ἁμαρτίαν οὐκ ἐποίησεν, οὐδὲ εὑρέθη δόλος ἐν τῷ στόματι αὐτοῦ, here freely given (ηὕρηται, τὸ σύνολον).
 - **3180** · …water and saving blood after death and deadness, — S. The passion narrative: Matt 26:67–27:50; Mark 15:17–19; John 19:2, 29–34; Luke 23:46.
 - **3180** · …as akin to him and of one stock; — S. Luke 24:39–43; John 20:22, 27.
 - **3180** · …truly unending, admitting no end and no fulfilment. — S. Matt 16:27 / Rom 2:6; Luke 1:33.
 - **3180** · …flowing and transient manner of the sensible things, — T. εὐπάροιστον is not a word. The sense must be "passing away" (Latin *defluunt atque pertranseunt*), perhaps εὐπάροδον. The English gives "transient" and marks it [?].
+- **3181A** · …have they passed over to an incorruptible essence; — T. Migne prints ἄφραστον, "inexpressible" (plate, p. 205), with a call to his own *Variae lectiones* note 26, *L.* ἄφθαρτον; "incorruptible" follows the note and the Latin *incorruptibilem*, as the argument (corruption and death) requires.
 - **3181A** · …the corruption that lurks in all created nature — T. τὴν πᾶσι κτιστῆς φύσεων ἐμφολεύουσαν does not construe as printed. The Latin's *quae omnibus creaturis naturaliter insidet* points to something like πᾶσι κτιστοῖς φυσικῶς; the English gives the sense and marks it [?].
 - **3181A** · …and his fellow-initiates and like-minded, Didymus and Evagrius, — P. Didymus the Blind and Evagrius Ponticus, condemned with Origen in 553 (cf. so-005).
 - **3181A** · …will be added: Then your faith is empty. — S. 1 Cor 15:16 (εἰ γὰρ νεκροὶ οὐκ ἐγείρονται, οὐδὲ Χριστὸς ἐγήγερται); then 15:14, κενὴ καὶ ἡ πίστις ὑμῶν (cf. 15:17, ματαία).
@@ -95,7 +97,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3193A** · …shown forth in our times a new Sabellius. — P. Peter of Callinicum, Monophysite patriarch of Antioch, quarrelled with Damian of Alexandria; each accused the other, the one of tritheism, the other of Sabellianism.
 - **3193A** · …one another, as it were, in friendly fashion, — T. ἀλλήλοις μὲν φησι φιλικῶς συμφερόμενοι: the plate prints φησι followed by Migne's note calls 34 and 35, which the OCR read as letters (φησιοις; image check 2026-11-05). φησί is the parenthetic "so to speak", which the Latin renders *quasi amicabiliter*: hence "as it were". The leaked variant συμφυρόμεναι (p0211.49) probably belongs to συμφερόμενοι; the Latin's *[conjunguntur, G.]* agrees.
 - **3193B** · …be clothed in, the anathema and the curse: — S. Ps 108:18 (LXX), ἐνεδύσατο κατάραν ὡς ἱμάτιον.
-- **3193C** · …the Isaians', the Agnoetes', the Jacobites', the Tritheites', — T. The Latin's list has more names than the Greek. Between the Tatherians and the Dulians it adds *Cyrcianorum, Spatirianorum [for. Sphironistarum]*, and it brackets *[Martianorum]* and *[Venustianorum]* as readings. In the Greek, ἡ Μαρτια- / νῶν runs on unbroken from line to line, with no gap. ἡ Πιθιανῶνη is read as Σηθιανῶν, with the Latin *Sethianorum*.
+- **3193C** · …the Isaians', the Agnoetes', the Jacobites', the Tritheites', — T. The Latin's list has more names than the Greek. Between the Tatherians and the Dulians it adds *Cyrcianorum, Spatirianorum [for. Sphironistarum]*, and it brackets *[Martianorum]* and *[Venustianorum]* as readings. In the Greek, ἡ Μαρτια- / νῶν runs on unbroken from line to line, with no gap. Migne prints ἡ Πιθιανῶν with calls 36·37 (plate, p. 211; the scaffold's final η was the call), and his *Variae lectiones* read Ἡφιωνητῶν, *L.* Σηθιανῶν; the English follows his *L.* and the Latin *Sethianorum*, "the Sethians'".
 - **3197A** · …called to account by Christ the chief shepherd — S. John 10:10 (the thief who steals, slaughters and destroys); 1 Pet 5:4, ἀρχιποίμενος.
 - **3197D** · …sins have now unexpectedly risen up against us, — P. The Arab invasion of Palestine (634), the year of the Letter.
 - **3200** · …as they are, as a footstool, as before, — S. Ps 109:1 (LXX), ὑποπόδιον τῶν ποδῶν σου.
@@ -110,8 +112,10 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3201** · …thou call this light the Lady of days, — T. *dierum Dominam*: a play on *Dominica*, the Lord's Day, on which this Christmas fell; "Lady" keeps the feminine.
 - **3201** · …divine rising of God the Best and Greatest? — T. *Dei Optimi Maximi*: Mai's classicizing title, probably for a Greek superlative of God; kept literally here and at col. 3206.
 - **3203A** · …his vast goodness, heal him that was struck. — S. Cf. Job 5:18; Deut 32:39.
+- **3203A** · …God in the highest, and on earth peace — S. Luke 2:14. Migne prints the locator twice in this verse: *Luc. I, 14.* after *pax* (a slip for II, 14) and *Luc. II, 14.* after *voluntatis*; both kept where he sets them.
 - **3203A** · …on earth peace to men of good will.» — S. Luke 2:14; the hymn recurs as a refrain through the oration, sometimes in « », sometimes not, as printed.
-- **3203A** · …contemplate the glory of God with unveiled face. — S. Eph 2:14 (*medium parietem maceriae*); 2 Cor 3:18.
+- **3203A** · …Father, he showed himself to be our peace. — S. Eph 2:14–17; Col 1:20.
+- **3203A** · …contemplate the glory of God with unveiled face. — S. Eph 2:14 (*medium parietem maceriae*); 2 Cor 3:18. Migne's locator *Ephes. II, 14, 15.* stands here.
 - **3203A** · …he rejoice in the destruction of the living» — S. Wis 1:13; the parenthesis "since he is most good" is the preacher's.
 - **3203A** · …thy victory? where, O hell, is thy sting?» — S. 1 Cor 15:55, with *inferne* ("hell") in the second member, as in Hos 13:14.
 - **3203A** · …riches of the wisdom and power of God!» — S. Rom 11:33, where the apostle has "knowledge" (*scientiae*); the Latin as printed reads *potentiae*, "power".
@@ -126,7 +130,8 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3206A** · …which barred the approach to such a place, — S. Gen 3:24.
 - **3207** · …once also the shepherd of this flock, dead, — S. Jas 2:17, 26. James the brother of the Lord was by tradition the first bishop of Jerusalem: hence "shepherd of this flock".
 - **3207** · …adorn faith with works as with certain wings, — T. Migne prints *quasi aliis quibusdam* (plate, 2026-11-05); read *alis*, "wings", to answer *pennis* in the next clause.
-- **3207** · …ye do the things which I command you.» — S. Matt 7:21; John 14:15; John 15:14.
+- **3207** · …will of my Father, who is in heaven.» — S. Matt 7:21; Migne prints *Matth. VII, 51.* (a slip for 21).
+- **3207** · …Again: «If ye love me, keep my commandments.» — S. John 14:15; Migne prints *Joan. XIV, 12.* (a slip for 15).
 - **3207** · …life, he joined to himself according to hypostasis, — T. *secundum hypostasin adjunxit*: καθ᾿ ὑπόστασιν, "according to hypostasis". S. Leo, *Tome* (Ep. 28); Cyril, Second Letter to Nestorius.
 - **3207** · …our salvation, both had a conception without seed — T. Migne prints *similis expertem conceptionem* (plate, 2026-11-05); read *seminis*, "without seed", which the parenthesis (no cooperation of a man) explains.
 - **3208** · …and nonetheless showed her openly to be Theotokos. — T. *Deiparam*: Theotokos (Θεοτόκος), transliterated as across the work to keep it apart from "Mother of God"; *Dei Genitrix* (col. 3212) likewise.
@@ -137,8 +142,9 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3209A** · …befall God to be frustrated of his purpose. — T. Text at the head of col. 3209 restored after a scaffold fix (coordinator, 2026-11-05).
 - **3209A** · …the feast day of this so great Deity, — T. *numinis*: "Deity", kept apart from *divinitas*, "Godhead".
 - **3209A** · …was by no means permitted to enter there. — S. Deut 34:1–5; Num 20:7–12. The Latin says *Deum non benedixit*, "he did not bless God", where Num 20:12 has "ye did not sanctify me".
-- **3209A** · …likened, wretchedly enough, on this day's light ; — T. *Adamo tantum … assimilamur: verum Davidis quoque*: the *verum … quoque* expects "not only to Adam", but the print has no negative; the English follows it. A lost *non* (or *Nec*) is possible; image check.
+- **3209A** · …likened, wretchedly enough, on this day's light ; — T. *Adamo tantum … assimilamur: verum Davidis quoque*: the plate (p. 219) prints no negative (blind read, 2026-11-05). *Tantum … verum … quoque* is the elliptical "not only … but also", so *tantum* is not rendered "alone", which would deny the "and to divine Moses" that follows; nothing is supplied.
 - **3210** · …fount of water springing up into life eternal.» — T. Text at the head of col. 3210 restored after a scaffold fix (coordinator, 2026-11-05).
+- **3210** · …fount of water springing up into life eternal.» — S. John 4:13–14 (the Samaritan woman); Migne: *Joan. IV, 10 seqq.*
 - **3211** · …that went, and the peril of their souls?» — S. 2 Sam 23:16–17 (the "Kingdoms" are 1–4 Kgs in the Greek and Latin numbering).
 - **3212** · …standing in this divine temple of the Theotokos, — T. *in divino hoc Dei Genitricis templo*: "this divine temple of the Theotokos"; the church is not named further.
 
@@ -177,7 +183,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3236** · …full of grace, the Lord is with thee.» — S. Luke 1:28.
 - **3237A** · …too? Hail, O bearer of the heavenly joy; — T. Χαίροις (optative) throughout the anaphora is rendered "Hail", like Χαῖρε; the Latin *Gaude*.
 - **3237C** · …the leaderships of the Principalities; thou hast unnerved — T. ἠνεύρωσας: read as ἀ- privative with νευρόω, "unnerved", as the Latin *enervasti*; a rare form,
-- **3237D** · …Mother of God, born out of all creation. — T. γεγεννημένη, "born", as Migne prints it (plate check); the Latin *sola ex omnibus creaturis Dei mater effecta es* read γεγενημένη, "become".
+- **3237D** · …become Mother of God out of all creation. — T. Migne prints γεγεννημένη, "born" (plate, p. 233); read γεγενημένη, "having become", the last of the chain of participles (receiving, bearing, giving birth, becoming Mother of God), with the Latin *Dei mater effecta es*. The double ν for γεν- is this plate's habit (cf. γεννησόμενος beside γενησόμενος, col. 3253); "born out of all creation" would make the Virgin a product of the creation (blind read, 2026-11-05).
 - **3240B** · …thee puts on the form of a servant, — S. Phil 2:7, μορφὴν δούλου λαβών.
 
 ## Chunk 0010 (so-009)
@@ -203,7 +209,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3252D** · …from another, but bestowing salvation on all men. — T. The last line of the column, δωρούμενον ("bestowing", band D), was dropped by the OCR and restored from the page image (coordinator, 2026-11-05; `RESTORED-LINES.tsv`). The Latin has *salutem omnibus hominibus conferentem*.
 - **3253A** · …this reason «thou shalt call his name Jesus,» — S. Luke 1:31.
 - **3253A** · …of peace, Father of the age to come.» — S. Isa 9:6 (LXX 9:5), with the Hebrew titles (Wonderful, Counsellor, mighty God …) added to the LXX's "Angel of great counsel," as in the longer Greek recensions.
-- **3253A** · …is not great, and afterwards will be born, — T. Migne prints γεννησόμενος, "will be born", here and γενησόμενος, "will become", in the answering member (p0241.31); both kept as printed (plate check). The Latin has *evasurus* for the first and paraphrases the second (*permanebit*).
+- **3253A** · …is not great, and afterwards will become so, — T. Migne prints γεννησόμενος, "will be born", here and γενησόμενος, "will become", in the answering member (p0241.31; plate check). The two members are built in strict parallel (μὴ μέγας ὢν … γ-ησόμενος / ἀεὶ μέγας ὢν … γενησόμενος), so the first is read γενησόμενος, "will become so", with the Latin *magnus postea sit evasurus* (blind read, 2026-11-05).
 - **3253A** · …surely also have identity in essence with thee. — T. τὴν σὴν ἕξει κατ᾿ οὐσίαν ταυτότητα, "identity in essence with thee," as printed: from the Son's connaturality with the Father the preacher passes to his sameness of essence with his mother. The Latin agrees (*eamdem tecum substantiam habebit*) and sets the Father clause after it.
 - **3253A** · …shall be called Son of the Most High.» — S. Luke 1:32.
 - **3256A** · …of his kingdom there shall be no end.» — S. Luke 1:32–33.
@@ -279,16 +285,20 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3296** · …says, «has saved him, and his holy arm.» — S. Ps 97:1 (LXX), "his right hand has saved him".
 - **3296** · …destruction from the condition of its own nature) — T. *ex naturæ suæ habitu semper ad interitum vergit*: the plate prints *naturæ suæ habitu*, "from the condition of its own nature" (image check 2026-11-05); the scaffold's *nature sua labitu* was misread.
 - **3297** · …needing salvation at the late coming of Christ, — T. Migne prints *serum adventu Christi* (plate, 2026-11-05); read *sero adventu Christi*, "at the late coming of Christ".
+- **3297** · …gentiles, and the glory of thy people Israel.» — S. Luke 2:30–32; Migne prints *ibid. 50.* (a slip for 30).
 - **3298** · …for the fall of the sons of bondage, — T. *in ruinam servorum filters*: *filters* read as *filiorum*, "the sons of bondage" (*servorum filiorum*, against *filiorum gratiæ*: Gal 4:22–31). Image check.
 - **3298** · …made from earth, dusty, had an earthly affection. — S. 1 Cor 15:47.
-- **3299** · …for a sign which shall be spoken against; — S. Luke 2:34.
-- **3299** · …Christ came forth, the fulfilment of the law; — S. Rom 10:4.
+- **3299** · …Therefore thoughts are revealed out of many hearts, — S. Luke 2:35.
+- **3299** · …for a sign which shall be spoken against; — S. Luke 2:34. Migne's locator *Luc. ii, 35.* stands here.
+- **3299** · …Christ came forth, the fulfilment of the law; — S. Rom 10:4. Migne prints *Rom. i, 16.*
+- **3299** · …his justice: and that the law is not, — S. Ps 97:2 (LXX), just quoted; Migne sets his locator after *lex*.
 - **3299** · …is Jesus: since Jesus too is interpreted Saviour. — S. Matt 1:21.
+- **3300** · …the Salvation of God had been made known, — S. Luke 2:30–32 (Anna, Luke 2:38); Migne prints *Luc. iii, 7.*, a slip.
 - **3300** · …did he offer one pair of either kind, — S. Lev 12:8; Luke 2:24.
-- **3300** · …simplicity and emptiness of malice, Christ calls simple; — S. Matt 10:16.
+- **3300** · …simplicity and emptiness of malice, Christ calls simple; — S. Matt 10:16. Migne prints *Matth. x, 6.*
 - **3300** · …the Lord and the end of the flood, — S. Gen 8:11.
 - **3301** · …when to Noah, the second begetter of life — T. *secundum ab auctore generis Adamo vit genitorem*: *vit* read as *vitæ*, "begetter of life"; image check.
-- **3301** · …«Be still, and see that I am God,» — S. Ps 45:11 (LXX).
+- **3301** · …«Be still, and see that I am God,» — S. Ps 45:11 (LXX). Migne prints *Psal. xl, 11.*
 
 ## Chunk 0015 (so-013)
 
@@ -342,8 +352,8 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3318** · …the tabernacle of Moses from the bloodthirsty enemy, — S. The crossing: Exod 14:19. "Jesus Nave" is Joshua son of Nun (LXX Ἰησοῦς Ναυή), Josh 5:13–15. T. *Moysi tabernaculum a sanguinario hoste liberasti*: probably Michael's contest with the devil over the body of Moses (Jude 9), "tabernacle" being the body (2 Pet 1:13–14); rendered as printed.
 - **3318** · …out a foul smell and are wholly rotting; — S. Heb 12:12 / Isa 35:3 (the slack hands); Ps 37:6 (LXX), *putruerunt et corruptae sunt cicatrices meae*.
 - **3318** · …labours. Again, Michael in deed and in name, — T. *re et nomine Michael*: the name means "Who is like God?"; the prayer calls him Michael in fact as well as in name.
-- **3318** · …and of the sound of those keeping festival.» — S. Ps 16:8 (the covering of the wings); Ps 41:5 (LXX), as printed: the Latin's *soni festum celebrantium* for the Vulgate's *sonus epulantis*.
-- **3318** · …it was held, and didst make it fruitful, — S. Ezek 1:1–3 (the vision at the river Chobar; Gabriel's part in it is the author's, cf. Dan 8:16); Luke 1:7–24 (Elisabeth).
+- **3318** · …and of the sound of those keeping festival.» — S. Ps 16:8 (the covering of the wings); Ps 41:5 (LXX), as printed: the Latin's *soni festum celebrantium* for the Vulgate's *sonus epulantis*. Migne prints *Psal. xlvi, 2.*
+- **3318** · …of God. Thou who didst open to Ezekiel — S. Ezek 1:1–3 (the vision at the river Chobar; Gabriel's part in it is the author's, cf. Dan 8:16).
 - **3319** · …fruitful, flood my unhappy and afflicted soul too — T. *meam quoque infelicem afflictamque animam*: words restored after a scaffold fix (coordinator, 2026-11-05).
 - **3319** · …sacred and most pure Lady, the Theotokos Mary, — S. Luke 1:26–38. *Dominae nostrae Genitricis Dei Mariae*: *Dei Genitrix* rendered Theotokos (house rule for the Latin). The torn garment of mourning: Ps 29:12; Isa 61:3.
 - **3319** · …manifold, unspeakable swiftness, essence that cannot be circumscribed, — T. *substantia quae circumscribi nequit*: *substantia* taken for οὐσία, "essence" (house rule), here of the angelic order.
@@ -356,7 +366,8 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3320** · …the dreadful Judge stands at the very threshold; — S. 2 Pet 3:10–12; Ps 96:5 (the elements as wax); 1 Cor 7:31 (the fashion of this world); Jas 5:9 (the Judge at the doors).
 - **3321** · …and of punishing in which you are strong): — S. Dionysius, *Celestial Hierarchy* 15.5 (the sceptres, rods and spears the angels carry).
 - **3321** · …that lacks all grief and wants for nothing, — T. *vieque* read as *vitaeque*, "and of the life"; *viaeque*, "and of the way", is the other possibility. Image check.
-- **3321** · …had first been taken up and brought forth. — S. Gen 1:26; 2:7; Ps 8:6; Gen 3:1–19, 23 (the sweat, 3:19).
+- **3321** · …contained in their compass, by thy nod alone; — S. Esth 13:10 (Vulgate; Additions to Esther); Migne prints *Esther. xiii, 10.*
+- **3321** · …had first been taken up and brought forth. — S. Gen 2:7; Gen 3:1–19, 23 (the sweat, 3:19).
 - **3322** · …image, and seal, and Son, and expressed form. — S. *peculium*: Exod 19:5; *character … imago … forma*: Heb 1:3; Col 1:15; Phil 2:6–7. T. *terminus* rendered "boundary"; it probably stands for ὅρος ("definition" of the Father).
 - **3322** · …which had been brought on through the tree. — S. Matt 27:34; John 19:34; Gal 3:13; Gen 3:17.
 - **3322** · …Bridegroom, make us hear the voice of blessing. — S. Matt 25:10 (the closed door of the bridal chamber), 25:33–34 (the right hand, the blessing).
@@ -371,7 +382,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3324** · …loose it long ago for Zacharias thy father — T. Migne prints Ζαχαρίας (nominative), which cannot stand beside τῷ πατρί and the second-person ἔλυσας (the Forerunner is addressed, not Zacharias); "for Zacharias" is our conjecture against the printed text (Ζαχαρίᾳ).
 - **3324** · …him for the public declaring of thy name. — S. Luke 1:20, 63–64.
 - **3325A** · …be a prelude of joy to the world? — S. Luke 1:13–14.
-- **3325A** · …of the Trinity — was not conceived —? — T. οὐ συνελήφθη ("was not conceived") does not construe with τὸ τῆς Τριάδος ἑνὸς μήτηρ ἀπειρόγαμος ἔσεσθαι, and the Latin renders nothing for it; a relative (ὃν συνέλαβε?) may stand behind it. Kept as printed, negative included, pending the plate. S. Luke 1:39–40, 56 (the journey and the three months).
+- **3325A** · …One of the Trinity who had been conceived? — T. Migne prints οὐ συνελήφθη, "was not conceived" (plate, p. 277: smooth breathing, no relative; read at the plate in the blind read, 2026-11-05), which does not construe with τὸ τῆς Τριάδος ἑνὸς μήτηρ ἀπειρόγαμος ἔσεσθαι, and the Latin renders nothing for it. Read as Migne's misprint for a relative, ὃς συνελήφθη, "who had been conceived": Mary had conceived before the Visitation (Luke 1:31, 39), and the clause is about her faith in what she already carried. The negative of the print is not rendered. S. Luke 1:39–40, 56 (the journey and the three months).
 - **3325A** · …a mere woman he cast off his fear? — S. Mark 6:17–20; Matt 14:3–11.
 - **3325A** · …beauty alone, but of the soul's beauty too? — S. Gen 29:16–26.
 - **3325A** · …if the prelude of his passage into being, — T. εἰ τῆς εἰς τὸ εἶναι παρόδου προοίμιον: εἰ ("if") gives no sense; the Latin's *qui introitus fuit ad vitam* reads a relative (ἣ?). Image check.
@@ -491,7 +502,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3352** · …him as head, as the vessel of election — S. Acts 9:15: Paul.
 - **3353A** · …of the nations, and elsewhere ships of Carthage, — S. Isa 23:1, 14 (LXX πλοῖα Καρχηδόνος for Tarshish); the mountains and hills, Isa 2:2; the islands of the nations, Gen 10:5.
 - **3353A** · …the divine grace that would soon overtake them — T. Migne prints καταλειψομένην, "that would leave", which contradicts the good tidings to the deserts; "overtake" is our conjecture against the printed text (καταληψομένην), with the Latin *gratiam … citius adventuram*.
-- **3353B** · …possible for me, nor fitting for thy festival. — T. ὃν κἂν πρὸς βραχύ: ὃν has the καιρός of the liturgy as its nearest masculine; the clause is elliptical and is rendered as it stands. The Latin paraphrases: *Si brevius dixerimus quam ipse desideras … veniam nobis concede.*
+- **3353B** · …possible for me, nor fitting for thy festival. — T. ὃν κἂν πρὸς βραχύ: ὃν is masculine, so it cannot be ἔρημος (feminine); its nearest masculine is the καιρός of the liturgy, and the clause is elliptical ("which ⟨to forsake⟩ even for a short while …"). The English supplies the sense, "to forsake that time ⟨of the liturgy⟩", so that the beloved desert is not read as the thing "not desired by thee" (blind read, 2026-11-05). The Latin paraphrases: *Si brevius dixerimus quam ipse desideras … veniam nobis concede.*
 - **3353B** · …to us who unceasingly lay hold of it; — T. τοῖς ταύτης … ἐγχειρίζουσιν: ἐγχειρίζω does not take the genitive; the Latin *indigentibus nobis* suggests χρῄζουσιν. Rendered as printed with [?]. Image check.
 - **3353B** · …into one of the cities ranked under thee, — S. Luke 19:17, 19, the cities given to the faithful servants.
 - **3353B** · …and in some way, obeyed thy holy ordinances; — T. πειθαρχήσαντι is a singular dative agreeing with no stated person, most naturally the preacher. The Latin construes otherwise, making Christ the one who served John's ordinances (*Dicere non audeo Christum … sanctis institutis tuis … inserviret*).
@@ -537,7 +548,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 ## Migne's notes not placed in the running text
 
-Migne's foot-of-page apparatus was read for every page (translate/sophronius-orationes/notes/result-*.jsonl). Placed in the text: 110 of 132 numbered Greek notes, and the Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne's own prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.
+Migne's foot-of-page apparatus was read for every page (translate/sophronius-orationes/notes/result-*.jsonl). Placed in the text: 126 of 133 numbered Greek notes, and the Scripture notes whose quotation a translator had marked. The rest are listed here by page: notes to Migne's own prefatory notice, his cautions on the Latin, and Scripture references with no marked quotation.
 
 - p. 0188 (numbered, 1): Est hæc Sophronii synodica Epistola Græca in ms. bibl. Regis Christianiss. Co!. 2951, al. 1026, fol. 73. HARDUINUS. — keyed to sanctissimo
 - p. 0189 (numbered, 1): Job xxix, 2-10. — keyed to me
@@ -552,7 +563,6 @@ Migne's foot-of-page apparatus was read for every page (translate/sophronius-ora
 - p. 0198 (numbered, 8): Ms. noster, affirmavit. HARD. — keyed to protestatus
 - p. 0202 (numbered, 1): Joan. vii, 15. — keyed to didicerit
 - p. 0205 (numbered, 26): II Cor. xv, 16. — keyed to resurrexit
-- p. 0205 (numbered, 26): L. ἄφθαρτον.
 - p. 0206 (numbered, 27): Isa. LXVI, 24; Marc. IX, 43. — keyed to exstinguetur
 - p. 0206 (numbered, 9): Ms. noster, vituperantes. HARD. — keyed to pessimarum
 - p. 0207 (numbered, 31): None — keyed to κυροῦσα
@@ -748,26 +758,11 @@ Cæterum aliqua Garnerio excusatio ex eo non defuerit, quod Petavius, quem oppug
 - p. 0296 (numbered, marker illegible): Luc. iii, 23. — keyed to retulit
 - p. 0296 (numbered, marker illegible): Luc. ii, 48. — keyed to te
 - p. 0298 (notae, 1): Sensus requirit : τοὺς θείους κανόνας μὴ ἐπιστάμενοι κενοδοξίᾳ καὶ ἀνθρωπαρεσκείᾳ παραχαράττοντες. — keyed to ἐπιστάμενοι
-- p. 0192 (numbered, marker illegible): καινολογοῦντες. — keyed to κενολογοῦντες
-- p. 0194 (numbered, marker illegible): εἰδώς L. — keyed to εἰωθώς
-- p. 0197 (numbered, marker illegible): ἀναλλοιώτῳ διαφορᾷ. — keyed to διάφορα
-- p. 0202 (numbered, marker illegible): πήρωσις. — keyed to πώρωσις
 - p. 0203 (numbered, marker illegible): συναινέσεις. — keyed to ἔσεις
-- p. 0204 (numbered, marker illegible): ἀγαθάς τις. — keyed to ἀγαθάς
-- p. 0205 (numbered, marker illegible): φήσομεν. — keyed to φήσωμεν
-- p. 0211 (numbered, marker illegible): Ἡφιωνητῶν. L. Σηθιανῶν. — keyed to Πιθιανῶν
 - p. 0228 (numbered, marker illegible): C. Cæs. ἀμαυρεῖ. — keyed to ἀμαυρεῖ
 - p. 0231 (numbered, marker illegible): Cod. τοῦ. — keyed to οὗ
 - p. 0237 (numbered, marker illegible): Nic. tria incisa omittit; post sequens vero incisum, quæ pertinent ad § XXVII. — keyed to ἀκίνητον
-- p. 0238 (numbered, marker illegible): Cod. διαπύρσιον. — keyed to διαπρύσιον
-- p. 0239 (numbered, marker illegible): Nic. omitt. σε. — keyed to σε
 - p. 0241 (numbered, marker illegible): Cod. δηλοῦται. — keyed to δηλοῦται
-- p. 0248 (numbered, marker illegible): Nic. seqq. omittit usque ad οὐ γάρ. — keyed to γεννήματος
-- p. 0252 (numbered, marker illegible): Nic. p. 223 βεβούληται. — keyed to βούλευται
-- p. 0254 (numbered, marker illegible): Cod. οὐδεμία. — keyed to μία
-- p. 0256 (numbered, marker illegible): Cod. Cæs. hic finem fecit hisce verbis : τέλος καὶ τούτων, eorum nempe quæ ex Sophronii sermone scriptor decerpserat. — keyed to φέρουσα
-- p. 0256 (numbered, marker illegible): Nic. pag. 242 omittit hæc εὐαγγέλια, quam deinde vocem ex sequenti inciso et hic et deinceps suffuratur, usque ad πρὸς σάρκα, ubi sermoni abrupto conjungit quæ § 50 occurrunt : Ἆρα μὴ ταπεινή, κ. τ. λ. — keyed to Εὐαγγέλια
-- p. 0258 (numbered, marker illegible): Nic. πᾶσιν. — keyed to πᾶσαν
 - p. 0258 (numbered, marker illegible): Cod. ἀψιχόρως. — keyed to ἀψίχορος
 
 ## Migne's notes to the Latin-only orations, in English
@@ -794,6 +789,7 @@ Orations I, III and VI survive in Migne only in Latin, so his Latin-column appar
 - **3295** · Latin *Polemonisque* (so-020) — working translation of Migne's note: Theodoret (Haereticarum fabularum book 4, ch. 9) reports that Polemon, having taken occasion from Apollinaris's writings, said that a confusion of substances was made in Christ, and a commingling of divinity and body.
 - **3295** · Latin *Ebiones* (so-020) — working translation of Migne's note: Ebion, chief of the heresy which called Christ a mere man, against whom and against Cerinthus St. John wrote his Gospel. Theodoret treats of him in his compendium of heretical fables, book 2, ch. 1; St. Epiphanius, heresy 51, and others.
 - **3295** · Latin *Samosateni* (so-020) — working translation of Migne's note: St. Ephrem the Syrian treats of Paul of Samosata in his Testament, in which, Theodoret reports (Haer. fab. book 1, ch. 22), Bardesanes is vigorously refuted; St. Epiphanius also treats of him, heresy 22.
+- **3318** · Latin *momento* (so-021) — working translation of Migne's note: (no English recorded)
 
 ## Readings checked at the plate: Orations I, III, VI
 
