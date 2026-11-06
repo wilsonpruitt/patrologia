@@ -42,6 +42,15 @@ Letter 43 = Letter 24 nearly verbatim (a second witness the translator used). Le
 copyist's error per Combefis. Letter 19's central phrase τὴν μίαν ἐνέργειαν (base: μὲν) → image check first.
 Sweep brief `SWEEP.md`; rulings `GLOSSARY.md` § V.
 
+## ✅ Step 4 DONE 2026-11-06: Combefis's apparatus read off every page (8 Sonnet briefs, ≈2.0M) + `notes/place.py`
+`scripts/mp-note-crops.py maximus-epistulae` (144 pages, 542 tiles; the yolo tile list is unreliable here — duplicates,
+empty strips — so the readers cut their own 600 dpi crops) → `notes/result-{1..8}.jsonl`: **436 notes** (lettered 355 =
+Combefis's Scripture locators in the Latin + his long NOTÆ keyed (a)…(z); numbered 121 = the VARIÆ LECTIONES "Fr./Ven./Reg."
+variants keyed in the Greek; asterisk 8; 67 markers illegible, kept null). Brief 8's agent caught itself writing rows from
+"media removed" images for pp. 342–347 and re-read them. `place.py` → `APPARATUS.json`: **96 Greek-keyed variants to
+place · 340 unplaced → cruces** (6 anchors not on the checked page, 15 lines not located → kt-to-site fuzzy match or cruces).
+⬜ Combefis's long NOTÆ have `en` (Sonnet working translations) — cruces only, labelled.
+
 ## Round 1 findings 2026-11-06 (briefs A–C back: me-001–009, ≈0.75M)
 - ⚠ **The CLOSED base text has holes the plate check never saw, two classes, both from reading column STRIPS:**
   (1) **a column head cut off** — p-0204 (col 372): the read began at the strip holding "σμεύσῃς δὶς ἁμαρτίαν", so the
