@@ -60,3 +60,53 @@ never "First". Whether to spend ≈6M on it at all is Wilson's call (queue file,
 - Round 1 launched 2026-11-06: briefs mo-001_003, mo-004_006, mo-007_009.
 - If resuming: check which `mo-0NN.en.md` exist; launch the next briefs from `_briefs/`, three at a time, with the
   short prompt (read the brief once; one Write per chunk; no other files/images/web; short report).
+- ✅ Brief mo-001_003 DONE (≈197K): Opusc. 1 whole + Scholia 1–8; 5,031 Greek → 6,278 English; OCR rows 73/49/47 (no `print`).
+  For the image check: p0011.10/.13 Combefis's [γνώσεως] bracket; p0013.39 τρόπον for τόπον (Latin *modus*); p0012.06
+  lost line end, ἀντίπαλον supplied (myriobiblos agrees); p0019.34 εἰσί· τῷ τε; p0017.20 ἢ/ἡ σχέσις; p0018.14–16;
+  p0022.34 ἄψυχος; p0024.17 οὐσιώδης; **p0025.43 scholion Δι᾿ αὐτοῦ ζῶμεν vs Acts 17:28 ἐν αὐτῷ: print?**
+  For the sweep (translator's own decisions, to hold or overrule across all chunks): ἐξουσία authority · δόξα opinion ·
+  φρόνησις prudence · φρόνημα prudent thought · προαιρετικός elective · τὰ ἐφ᾿ ἡμῖν things in our power · νόησις
+  intellection · ἔννοια concept · ἐνθύμησις pondering · διαλογισμός reasoning · ἐνδιάθετος/προφορικὸς λόγος inward/uttered
+  word · ἀνάληψις taking-up vs πρόσληψις assumption · οὐσίωσις essentiation · πρᾶγμα reality · παρυφίστασθαι subsist
+  parasitically · ἑτερόβουλος/ἑτερόγνωμος of other counsel / of other inclination.
+- Round 2 started: mo-010_012 launched as A finished (keep three running).
+- ✅ Brief mo-004_006 DONE: Opusc. 2–6; 4,992 Greek → ≈6,450 English; OCR rows 29/57/79 (1 `print`: p0027.27 ποιότητα for
+  ποσότητα, Combefis's Latin corrects *[quantitatem]*). Image check: **p0030.29 θανατώσας τὸν θάνατον vs myriobiblos τήν +
+  Latin *peccatum* → τὴν ἁμαρτίαν? (Rom 8:3)**; p0029.39 νοῦ/τοῦ κινήμασι; p0033.39 ἀφιεμένη→ἐφιεμένη; p0035.02 περὶ;
+  p0042.24 θέλησις/θέσις; p0035.38 ἀγνοούμενον; p0041.17 θείῳ. Sweep: **ἡγούμενος — glossary "abbot" vs card "hegumen":
+  rule once**; συμφυΐα cohesion · συνουσίωσις co-essentiation · ἀντιστροφή reciprocation · ταυτοβουλία identity of counsel
+  · σύννευσις consent · διάστασις standing apart · Θεομήτωρ Mother of God · θεοπλαστία God-fashioning · ἐπιστήμη science ·
+  κατ᾿ ἐπικράτειαν by prevailing · κατ᾿ ἐνέργειαν "in operation" (T note "in act").
+- mo-013_015 launched as B finished.
+- ✅ Brief mo-007_009 DONE (≈258K): Opusc. 7 whole + scholia, Opusc. 8 to col. 97; OCR rows 44/53/40. Image check: p0046.06
+  νύχος → νέφος (Latin *tenebras*) or ψῦχος; p0050.33 ἀνυπαρξίαν; p0057.02–03 προσεξετάσαι δεχώμεθα; p0053.35 δόξῃ→δείξῃ
+  (Latin *doceret*); p0060.28; p0058.55–56 garbled repeat line; p0061.14 καλοφροσύνης/κακοφροσύνης. Scholion siglum "Εr."
+  read as Ἑρ(μηνεία) — check (it may be Combefis's "Fr." = *Forte*/ variant mark, as in the NOTÆ). Sweep: πρᾶξις action
+  (deed) vs practice (triad); στάσις revolt (civil strife) vs rest (triad); ἀδιάσπαστος indissoluble; ἐπίκρισις
+  ratification; ἐφετόν object of aspiration; παράλογος contrary to reason vs ἄλογος irrational.
+- **Glossary § VII rulings** written before round 3 (συμφυΐα growing-together, σύννευσις convergence, ἡγούμενος abbot …);
+  briefs mo-016…030 REBUILT with them; card's "hegumen(s)" → "abbot(s)". mo-001–015 get them from the sweep.
+- mo-016_018 launched as C finished.
+- ✅ Brief mo-013_015 DONE: end of Opusc. 9, Opusc. 10–11, **Opusc. 12 from the Latin** (1,306 Latin → ≈1,775 English).
+  OCR rows 34/53/**121** (the djvu Latin of pp. 87–88 is poor: 96 ocr + 12 doubt → the Latin image check, `kt-sheet-latin.py`,
+  must read all of them). Image check: p0084.34 πεισθεῖεν; p0084.42 σχεδίῳ; p0084.29 lost noun (Latin *voces*); p0085.42
+  Πάντα (Latin *Omnes*); p0085.32 τεύχους (*voluminis*); Latin L.20 *sine successu receptionem* [?]; R.57–58 *anaucre*
+  (*annuere*?) + a line seems lost before *vel cum sede ejectus*; L.31, L.39, R.13 corrupt. Sweep: κατ᾿ ἀναφοράν by
+  reference; ἀντίρροπος counterweighing; ἄσχετος without relation; ἐπίκρισις "verdict" here vs "ratification" in C → rule;
+  διαφορότης diversity; προϊέναι go forth vs ἐκπορεύεσθαι proceed; Anastasius's varied link-lines kept varied (literal).
+- mo-019_021 launched as E finished.
+- ✅ Brief mo-010_012 DONE (≈221K): Opusc. 8 rest + scholion, Opusc. 9 part 1; OCR rows 55/35/58. Checked: the "missing"
+  [102]/[103] anchors are the LATIN columns of pp. 65/68 (Greek alternates sides); text runs on (καθάπερ καὶ | ἡ
+  Θεανδρικὴ ἐνέργεια); no loss. Image check: p0068.35 lost "[by nature] one" (Latin *vel unione vel natura unum*);
+  p0065.24–25 ἓν, ἑτέρου; p0069.42 "Confession" for Cyril on Matthew; p0072.18 possible lost negative; p0071.16
+  προσκλίσει; p0072.10 ἐξάνυσιν; p0073.09 ὑμετέρῳ (*servo vestro*). Sweep: συμφυΐα "cohesion" here (pre-§ VII) → growing-
+  together; φωνή expression (voice for Christ's bodily voice); συγγένεια kindredness; ἀνδρικός manly; κίνημα motion vs
+  κίνησις movement; ἀντίρροπος counterpoised vs E's counterweighing → rule; λογισμοί (logical) reasonings vs glossary
+  thought → rule; Θεοπάτωρ ancestor of God; ὁμόθεος co-divine.
+- mo-022_024 launched as D finished. Remaining: mo-025_027, mo-028_030.
+- ✅ Brief mo-022_024 DONE: Opusc. 16 end + scholia, Opusc. 17–19; OCR rows 62/47/33. p0121's left edge clipped (many lost
+  first syllables, all logged): read those on the image. Image check: p0127.39 παρὰ τοῦ Πατρὸς (Latin *a Gregorio*);
+  p0128.01 lost -των; p0131.08 Combefis's lacuna supplement [δυσωπούμενοι]; p0120.30. Opusc. 17's scholion is in
+  dodecasyllables (T note). **§ VII extended**: οἰκείωσις two senses (Christological = appropriation), ἀδιάσπαστος
+  indissoluble, ἀντίρροπος counterpoised, ἐπίκρισις ratification, διαστολή demarcation, ἐπίνοια conception, κίνημα motion,
+  λογισμοί (logical) reasonings. Briefs mo-025…030 rebuilt. mo-025_027 launched as H finished.

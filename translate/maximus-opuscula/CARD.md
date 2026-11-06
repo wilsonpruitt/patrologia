@@ -29,12 +29,12 @@ monks and laity of Sicily, to Stephen of Dora, to Peter the *illustris*; some ar
 | 1 | 0011:2 | 9 | 4865 | To Marinus the presbyter (on the definitions of will, choice, inclination …) | mo-001–003 |
 | 2 | 0026:3 | 40 | 1084 | To the same Marinus: from the treatise on operations and wills, ch. 50 | mo-004 |
 | 3 | 0029:22 | 45 | 1735 | From the same treatise, ch. 51: the Fathers' two wills are natural laws, not inclinations | mo-005 |
-| 4 | 0034:46 | 56 | 1088 | To George, presbyter and hegumen, on the mystery of Christ | mo-006 |
+| 4 | 0034:46 | 56 | 1088 | To George, presbyter and abbot, on the mystery of Christ | mo-006 |
 | 5 | 0040:2 | 64 | 357 | Against those who say one operation of Christ "by prevailing" | mo-006 |
 | 6 | 0041:8 | 65 | 728 | On "Father, if it be possible, let this cup pass" | mo-006 |
 | 7 | 0043:17 | 69 | 3851 | Dogmatic tome sent to Cyprus, to Marinus the deacon | mo-007–008 |
 | 8 | 0057:34 | 89 | 4057 | Copy of a letter to Nicander the bishop, on the two operations in Christ | mo-009–011 |
-| 9 | 0072:34 | 112 | 3740 | To the holy fathers, hegumens, monks and orthodox laity of Sicily | mo-012–013 |
+| 9 | 0072:34 | 112 | 3740 | To the holy fathers, abbots, monks and orthodox laity of Sicily | mo-012–013 |
 | 10 | 0083:2 | 133 | 956 | Copy of a letter to the lord Marinus, presbyter of Cyprus | mo-014 |
 | 11 | 0085:39 | 137 | 252 | From the letter written in Rome | mo-014 |
 | 12 | 0087:1 | 141 | — (Latin only) | From the letter to Peter the illustris (LATIN ONLY, via Anastasius) | mo-015 |
@@ -42,7 +42,7 @@ monks and laity of Sicily, to Stephen of Dora, to Peter the *illustris*; some ar
 | 14 | 0091:20 | 149 | 713 | Various definitions | mo-016 |
 | 15 | 0093:23 | 153 | 5749 | Spiritual and dogmatic tome against the Ekthesis of Heraclius | mo-017–019 |
 | 16 | 0110:39 | 184 | 5272 | On the two wills of the one Christ our God | mo-020–022 |
-| 17 | 0124:25 | 212 | 350 | On the definitions of the distinctions | mo-023 |
+| 17 | 0124:25 | 212 | 350 | On the definitions of the demarcations | mo-023 |
 | 18 | 0126:7 | 216 | 1371 | The difficulties of Theodore of Byzantium, deacon, and their first solution (to Marinus) | mo-023 |
 | 19 | 0130:17 | 224 | 775 | Solution of the second absurdity | mo-024 |
 | 20 | 0132:12 | 228 | 3466 | Dogmatic tome to Marinus the presbyter | mo-025–026 |

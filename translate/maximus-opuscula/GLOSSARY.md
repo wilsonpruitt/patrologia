@@ -132,7 +132,7 @@ Terms the Opus briefs decided independently; where briefs clashed, the ruling is
 | ὁμοφυής | connatural | agreed |
 | μερίζω / μεμερισμένος / ἀμέριστος | partition / partitioned / unpartitioned | B; μεριστός = partible (§ I) |
 | ἐγκράτεια | self-mastery | agreed (B, C) |
-| οἰκείωσις / ἀλλοτρίωσις | kinship / alienation | A, G |
+| οἰκείωσις / ἀλλοτρίωσις | kinship / alienation | A, G — ⚠ affective sense only; the Christological sense (Opuscula) = appropriation, § VII |
 | προσπάθεια | passionate attachment | A |
 | πρόθεσις | intent | A (kept apart from προαίρεσις = choice) |
 | ψυχικός | psychic | C (kept apart from φυσικός) |
@@ -185,3 +185,27 @@ word, held apart from every other link of the chain, and a definition stays a de
 | ἐκ … ἐν … (δύο φύσεων) | from … in … | "from two natures" (Severus) vs "in two natures" (Chalcedon): prepositions kept exactly |
 | Ἀκέφαλοι / Θεοπασχῖται | Acephali / Theopaschites | |
 | φλορίλεγιον, χρήσεις | testimonies | the patristic proofs of Opusc. 15, 24–27: «quoted as printed», S note per testimony |
+
+## VII. Rulings from the run (Opus coordinator, 2026-11-06) — binding; the sweep enforces them in mo-001–015
+| Greek | English | why |
+|---|---|---|
+| συμφυΐα | growing-together | B had "cohesion", C "growing-together": the φυ- root carries the argument about φύσις |
+| σύννευσις / συννεύειν | convergence / converge | B had "consent": too close to γνώμη, which Maximus holds apart |
+| συνουσίωσις | co-essentiation | (B and C agreed) |
+| οὐσίωσις / οὐσιοῦσθαι | essentiation / be essentiated | |
+| Θεομήτωρ | Mother of God | kept apart from Θεοτόκος = Theotokos |
+| ἡγούμενος | abbot | glossary § III and the shipped Epistulae; the card's "hegumen" (Opusc. 4 heading) is withdrawn |
+| ἀνάληψις / πρόσληψις | taking-up / assumption | |
+| κατ᾿ ἐπικράτειαν | by prevailing | |
+| ἐνέργεια against ἐπίνοια | operation (T note "in act" once) | the glossary word holds even here |
+| προαιρετικός | elective | προαιρετικὸν θέλημα = elective will |
+| φρόνησις / φρόνημα | prudence / prudent thought | |
+| ἐξουσία | authority | |
+| οἰκείωσις, two senses | (1) Christological: **appropriation**, κατ᾿ οἰκείωσιν = by appropriation, σχετικὴ οἰκείωσις = relative appropriation, οἰκειοῦσθαι = make one's own; (2) affective/ascetic (the Epistulae, § V): kinship | E and H both found "kinship" breaks Opusc. 18–19; Latin *arrogatio*. Sense (1) wherever Christ makes our things his own |
+| ἀδιάσπαστος | indissoluble | C "indissoluble", H "unsevered" |
+| ἀντίρροπος | counterpoised | D "counterpoised", E "counterweighing" |
+| ἐπίκρισις | ratification | C "ratification", E "verdict" |
+| διαστολή | demarcation | kept apart from διάκρισις = distinction; Opusc. 17 = "On the definitions of the demarcations" |
+| ἐπίνοια / κατ᾿ ἐπίνοιαν | conception / in conception | |
+| κίνημα / κίνησις | motion / movement | |
+| λογισμοί (logical sense) | reasonings | the glossary's "thoughts" stays for the ascetic sense |
