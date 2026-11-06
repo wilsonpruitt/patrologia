@@ -342,7 +342,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0540** · …see a nation of the desert and barbarous — P. The Arabs, as Combefis's note says: the conquests of the 630s, which reached Egypt and the borders of Africa while Maximus was there; the letter belongs to those years.
 - **0540** · …shape of human form; and the Jewish people, — P. Maximus writes in the years of the conquest, when Heraclius's measures against the Jews and reports of Jewish collaboration with the invaders were current (Combefis's note connects them); the invective is rendered as printed.
 - **0541** · …that it has fallen, limping on both hams, — S. 3 Kgdms 18:21 LXX, χωλανεῖτε ἐπ᾿ ἀμφοτέραις ταῖς ἰγνύαις.
-- **0541** · …permitted to lift up its hands in wrath — T. ὀργὴν, "in wrath", is in the Greek as printed but has nothing in the Latin (*ut adversus Dei haereditatem manus extendat*), and it stands awkwardly between κληρονομίας and ἐπανατείνεσθαι χεῖρας; translated, and flagged.
+- **0541** · …to look on itself lifting up its hands — T. The read had ὀργὴν ("in wrath") here; the plate (checked 2026-11-06) prints ὁρᾷν: κατὰ τῆς θείας κληρονομίας ὁρᾷν ἐπανατείνεσθαι χεῖρας, "to see [it] stretching out its hands against the divine inheritance" (Combefis: *ut adversus Dei haereditatem manus extendat*).
 - **0541** · …for us; and we have travelled pathless tracks, — S. Wis 5:7, διωδεύσαμεν ἐρήμους ἀβάτους.
 - **0541** · …weighed down the more in surfeiting and drunkenness. — S. Luke 21:34. T. The plate prints προσευξιώμεθα and κραιπίλῃ (both misprints, at the plate check); read προσευξώμεθα and κραιπάλῃ.
 - **0541** · …foretold; and we are not at all astonished, — S. Cf. 1 Pet 4:12.

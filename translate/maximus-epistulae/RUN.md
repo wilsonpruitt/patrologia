@@ -140,3 +140,13 @@ re-verified 1..n in all 28 cards.
 - Rebuild: kt-apply → kt-to-site → mark → `WIDE_PARA=1` align (100%) → verify OK → plate-gate OK → build-work-page-pg → build-site → build-lookup-grc → polarity-record
   → preflight **10 of 10**. Moschus, Procopius, Sophronius rebuilt through build-work-page-pg: `src/` byte-identical, only `generated` dates (restored from git).
 ⬜ Remaining before ship: Wilson reads the DRAFT about/bio/RECENT text and the ⚑ call above · deploy (own OK) · push (own OK) · `englishState: "ours"`.
+
+## ✅ Closed 2026-11-06 (coordinator): the 21 unapplied R rows of kind doubt/print
+`kt-apply.py` applies only ocr/space/subscript rows; the R verdicts on `doubt`/`print` rows (plate = the translator's reading) were
+added as 21 line-exact rows to `verify/GREEK-PATCHES.tsv` (67 rows now) and the chain re-run: preflight **10 of 10**. One changed
+the English: p0295.22 the plate prints **ὁρᾷν**, not ὀργὴν (me-018 "in wrath" → "to look on itself lifting up its hands"; note 17).
+Burn, whole run: ≈6.4M (Fable ≈0.3M · Opus translation ≈2.5M · Sonnet sweep 0.27M + apparatus 2.0M + build 0.28M + 3b 0.08M ·
+Opus blind read 1.2M + apply 0.26M), against the ≈5.5–6M estimate. **Ready for Wilson: read the DRAFT about/bio/RECENT text
+(`data/work-about.json` pg:maximus-confessor-epistulae, `data/author-bios.json` "Maximus the Confessor", `scripts/build-landing.mjs`),
+the departures from print listed above (Letter 43 Οὔπω followed; Letter 44 heading περὶ θετικῆς; ⟨God⟩ in Letter 9), then deploy
+(own OK) → push (own OK) → `englishState: "ours"`.**
