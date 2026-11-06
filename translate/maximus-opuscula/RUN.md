@@ -273,3 +273,22 @@ Registry `maximus-confessor-opuscula` (slug `opuscula`, DRAFT about/RECENT line;
 mo-015 by `kt-apply-latin.py` + `scripts/ox-latin-residue.py` (run the latter, it re-runs the former). Rebuild: ox-tables -> ox-latin-residue -> kt-to-site maximus-opuscula
 -> mark-sentences -> `WIDE_PARA=1` align -> verify -> plate-gate -> build-work-page-pg -> index-work-pg -> build-site -> build-lookup-grc -> preflight.
 Epistulae, Sophronius, Moschus, Procopius rebuilt byte-identical (Moschus/Procopius `generated` dates restored).
+
+## ✅ Step 5 DONE 2026-11-06: LOCAL site build (Sonnet, ≈0.34M; commit 5286d2cc) + coordinator fix (1d395ee5)
+30 chunks → src/ + `site/pg/91/opuscula/` (143 column blocks), cruces 499, 121 `[n:]`, 517 `[b:]`, 194 print errors listed
+(not applied), 6 `[?]`, alignment 94.4% (la 96.4%, grc 93.8%), verify OK, plate-gate OK (93 plate reads), index 142 cols /
+82 scripture; Epistulae, Sophronius, Moschus, Procopius rebuilt byte-identical. New: `scripts/ox-tables.py`,
+`scripts/ox-latin-residue.py` (79 mechanical Latin fixes in mo-015), kt-to-site CONF flags `anglenotes`/`showen`, 4-digit
+English anchors, builder fix for a sentence spanning two anchors (cols 0145|0146). Builder's own plate reads: p0087.L.01/02
+signifi-/care, p0152.04, p0016.38, **p0153.52 Κεφάλαια ιʹ περὶ** (Opusc. 25 heading: "ten" is printed as the numeral).
+Coordinator after the build: **Opusc. 12's Latin rubric** (*Ubi Pyrrhi et sancti Sophronii Hierosolymitani episcopi, atque
+papæ Honorii mentionem facit: ita post aliqua prosecutus:*, plate p-0087) was in neither column → added to
+`verify/LATIN-HEADS-RESTORED.tsv` + an italic English line in mo-015; chain re-run; **preflight 9 of 10 (only the polarity
+gate: the blind read)**. Registry/about/RECENT are DRAFTS ("DRAFT (Wilson to read).").
+⬜ Known residue: mo-015's displayed Latin still has OCR noise no flag caught (`ws` L.34, stray " .", reprobate, hereticus);
+a lone `Η` at p0064.30; 129 image-check `?` rows (Greek as Kraken+rules there).
+
+## ⏸ STOPPED for Wilson's go (2026-11-06): step 6 = blind polarity read
+≈1.3–1.5M on Opus (6 readers, 3 at a time, `translation-runbook.md` 4a pattern, as the Epistulae), optionally + a Latin
+clean-up of mo-015's displayed column against the plate (≈0.1M Sonnet). Then Wilson: DRAFT about/RECENT, deploy, push,
+`englishState: "ours"`, each its own OK. Burn so far ≈6.3M in agents + coordinator context (≈7.5M all-in) vs the ≈6M estimate.
