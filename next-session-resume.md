@@ -1,6 +1,6 @@
 # Next session — resume note
 
-## ▶ 2026-11-06 (latest) — MAXIMUS *EPISTULAE* BUILT LOCALLY, preflight 10/10; awaiting Wilson (drafts → deploy → push). Sophronius *Orationes* LIVE + pushed
+## ▶ 2026-11-06 (latest) — MAXIMUS *EPISTULAE* LIVE at migne.app/pg/91/epistulae/ (deployed + pushed, englishState ours). Sophronius *Orationes* LIVE + pushed
 ✅ Sophronius *Synodica* + *Orationes* LIVE 2026-11-06 at migne.app/pg/87/orationes/ (`14fa1b44`, englishState ours).
 **Wilson 2026-11-06: "shift the queue towards Maximus."** Head of the PG queue = Maximus *Epistulae* (PG 91.361–650), already ruled
 2026-10-14 (pg-paired-pilot 0f) and PAUSED 2026-10-15 only on cost; the Greek base text is CLOSED (`raw/pg091/checked/`, 160 pp,
