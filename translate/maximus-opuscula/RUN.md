@@ -222,3 +222,13 @@ p0116.53→0117.01 (lost phrase), mo-026 p0140.19 — the image-check pass 2 rea
   (ἀόρατον is earlier in the same line; the END prints ὁρατόν). Verdicts → R, notes corrected (mo-016 n. 7, mo-022 n. 3).
   ⚑ Lesson: a reader's `plate=` on a word that RECURS in the same line is not evidence; the fixer's sense check is what
   catches it. The blind read should look hardest at any other `plate=` rows that changed the English.
+
+## Step 4 — Combefis's apparatus (Sonnet, 8 briefs, 3 at a time) — RUNNING
+`mp-note-crops.py maximus-opuscula` → 139 pages, 716 tiles (`notes/img/`, `notes/manifest.json`); `notes/task-{1..8}.md`
+generated from the Epistulae template + Opuscula specifics (mid-page NOTÆ blocks = series `notae`; pp. 87–88 Latin-only;
+p. 87's top block continues p. 86's note; note 91 on p. 88; SCHOLIA are body text, skipped; gutter loss pp. 103/118/121).
+Briefs 1–3 launched 2026-11-06. Then `notes/place.py` (copy from the Epistulae) → APPARATUS.json → build.
+⚠ **Burn check (coordinator, 2026-11-06):** ≈4.0M spent so far (translation 2.23M, image check 2 passes ≈1.0M, plate
+transcription 0.11M, sweep 0.23M, fixes/revisions ≈0.5M); apparatus ≈2M + blind read ≈1.5M → **≈7.5–8M all-in vs the
+≈6M estimate** (the over-inked plates and the second image pass were not in the costing). Within the approved scope;
+reported to Wilson at the end of the session.
