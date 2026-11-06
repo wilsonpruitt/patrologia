@@ -1,5 +1,14 @@
 # Next session — resume note
 
+## ▶ 2026-11-06 (latest) — QUEUE SHIFTED TO MAXIMUS (Wilson); Sophronius *Orationes* LIVE + pushed
+✅ Sophronius *Synodica* + *Orationes* LIVE 2026-11-06 at migne.app/pg/87/orationes/ (`14fa1b44`, englishState ours).
+**Wilson 2026-11-06: "shift the queue towards Maximus."** Head of the PG queue = Maximus *Epistulae* (PG 91.361–650), already ruled
+2026-10-14 (pg-paired-pilot 0f) and PAUSED 2026-10-15 only on cost; the Greek base text is CLOSED (`raw/pg091/checked/`, 160 pp,
+≈62K words, $14.15; 298 doubts in `DOUBTS.tsv` settled at translation, only where they change the English; pilot 0i). Next:
+translation by the kt pattern (Fable anchor → Opus briefs → sweep → apparatus → build → blind read), adapted to a non-Kraken base
+(no `ruled/` tags; DOUBTS.tsv replaces the image-check rows). ⏸ Sophronius *Anacreontica* (Fable verse pilot) moves behind Maximus.
+⬜ Carried: p0217.L.59 *nec enim* 2nd witness; Sophronius about-text "untranslated" claim unchecked.
+
 ## ▶ 2026-11-05 (latest, last) — SOPHRONIUS: steps 2, 3, 3b, 3c ALL DONE; nothing deployed or pushed
 Score `translate/sophronius-orationes/RUN.md`. Greek image check (641 rows) → `checked/`; P rows resolved (3b); Latin image check
 (949 rows, new `scripts/kt-sheet-latin.py`) with 8 English fixes from the plate. **NEXT, in order:** (4) apparatus, every page
