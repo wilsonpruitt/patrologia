@@ -34,6 +34,14 @@ words** in 45 letters (Letter 12 = 10.4K, 15 = 6.4K, 1 = 5.5K, 13 = 4.9K; 30–4
   `CARD.md`; register section "Seventh-century ascetic and dogmatic letter (Maximus)" M1–M6 in `translation-style.md`.
   ⚠ The Sophronius glossary's forecast "γνώμη = judgement" is superseded (its row now says so): κρίσις needs the word.
 
+## ✅ Step 1 DONE 2026-11-06: all 28 chunks translated (10 Opus briefs, ≈2.5M)
+55,130 Greek → **70,393 English words (ratio 1.28)**, **642 OCR rows**, markers verified 1..n in every chunk, 36 `[?]`
+(26 = Migne's own dotted gaps in Letters 40–42, *exesa in codice*; 10 = spots for the coordinator's plate read). Three
+column-head / full-width lacunae read from the plate and translated in (p-0204, p-0222, p-0304: `RESTORED-LINES.tsv`).
+Letter 43 = Letter 24 nearly verbatim (a second witness the translator used). Letter 14's "dogmatic letter" title is a
+copyist's error per Combefis. Letter 19's central phrase τὴν μίαν ἐνέργειαν (base: μὲν) → image check first.
+Sweep brief `SWEEP.md`; rulings `GLOSSARY.md` § V.
+
 ## Round 1 findings 2026-11-06 (briefs A–C back: me-001–009, ≈0.75M)
 - ⚠ **The CLOSED base text has holes the plate check never saw, two classes, both from reading column STRIPS:**
   (1) **a column head cut off** — p-0204 (col 372): the read began at the strip holding "σμεύσῃς δὶς ἁμαρτίαν", so the
