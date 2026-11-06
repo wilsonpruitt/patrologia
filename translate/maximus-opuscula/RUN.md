@@ -245,3 +245,25 @@ reported to Wilson at the end of the session.
 - Brief 5 (pp. 93–112): 68 lines (43 lettered · 12 notae · 10 numbered · 1 asterisk; 1 none p-0107; 1 orphanCall p-0112 Γρηγόριος ¹⁶; 10 illegible). Every tile opened; 12 bold-page-number lines removed after the rule; e/f notae continued across p-0098→099→100; p-0111 k anchor not found (null → place.py sends it to cruces).
 - Brief 4 gaps closed (74 lines): 19 bold-page-number lines deleted; p-0086/087 MONITUM re-read in full from 600 dpi bands (to 'quas sequentibus repræsento.'); notae a–f en sentence by sentence; gutter-clipped letters shown in [brackets] (declared supplements, accepted). Brief 8 (pp. 149–161, last) launched.
 - notes/place.py copied from the Epistulae and adapted (paths; skips orphanCall/scholionCall/fullWidthBody records). Run after brief 8.
+- Brief 7 (pp. 131–148): 36 notes (13 notae · 11 numbered · 11 lettered · 1 asterisk; 11 illegible; 6 none pages) → resumed: the call cross-check it skipped (every raised mark → note / scholionCall / orphanCall), confirm the 6 none pages at 600 dpi, re-read suspected Latin letter shapes in the NOTÆ.
+- Brief 8 (pp. 149–161): 14 notes (9 numbered · 5 lettered; 5 none; 5 illegible); every tile opened; p-0161 MONITUM (Disputatio preface) has no notes keyed to the Opuscula → resumed for the call cross-check + 600 dpi anchors.
+- Brief 8 cross-check done (22 lines): 6 anchors corrected, markers p-0153 = 36 and p-0155 = 38 now read (3 still illegible), 2 orphanCall (p-0154 creatricem speck, p-0160 ἐνεργήσειεν tick), 5 none pages confirmed. Brief 7: calls matched, 6 none pages confirmed; NOTÆ letter re-read running.
+- Brief 6 gaps closed (33 lines; old file kept in the scratchpad): ⚠ **its reader reported that many first-pass tile reads had
+  been STRIPPED from its context ("media removed"), so parts of the first pass were not based on a visible image** (the
+  Epistulae brief 8 had the same fault). Its second pass re-cut 600 dpi crops for every note region; markers it cannot see
+  are now illegible (10), context-restored words → […], p-0126 r *inficetus*, p-0129 full-width block = body (same type
+  size), p-0119 note ends at "ac qua id ratione" (no continuation).
+- **Coordinator spot check of the other briefs for the same fault** (one random short note each, read on the plate foot):
+  brief 1 p-0019 (c) *1 Tim. ii, 4.* ✓ · brief 4 p-0084 ⁷⁹ *Fr. V. 1, κατὰ ταύτην.* ✓ · brief 5 p-0094 ¹ *Epist. ad
+  Cledonium.* ✓ · brief 2 p-0033 ¹⁷ not in the cropped band (unchecked). No sign of invented reads; ⚑ the blind read
+  should still compare a few cruces notes against the plate.
+- Brief 7 NOTÆ re-read done (42 lines; 6 words corrected: p-0140 βαίνειν, subdititiam; p-0141, p-0142 sæcula, terribilis;
+  p-0143 → […] where blotted).
+
+## ✅ Step 4 DONE 2026-11-06: apparatus read off all 139 pages (8 Sonnet briefs + targeted resumes, ≈2.9M with repairs)
+**361 notes** (389 lines incl. none/orphanCall/scholionCall/fullWidthBody records) → `notes/place.py` → `APPARATUS.json`:
+**124 Greek-keyed placed-candidates · 158 unplaced → cruces** (notae 100 · lettered 41 · numbered 17) · **79 Latin Scripture
+locators mirrored** to a translator's S note (103 locators vs 246 S notes) · 4 numbered anchors not on the checked page ·
+18 lines not located (placed by word). Every brief needed at least one resume for completeness (unopened tiles, the call
+cross-check, paraphrased `en`, context-restored words, bold 1675 page numbers misread as calls).
+## Step 5 — site build (Sonnet, `BUILD.md`) — LAUNCHED
