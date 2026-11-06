@@ -15,7 +15,7 @@ follow), except where a note is replaced in the text by a [sic:] (plate-confirme
 Migne's own [n:] (notes/APPARATUS.json, when present). After this: mark-sentences.mjs <key> (Greek) ->
 align-sentences.mjs <key> --write -> verify-english-pg.mjs <key>.
 """
-import csv, json, os, re, sys, unicodedata as ud
+import csv, json, os, re, statistics, sys, unicodedata as ud
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 CONF = {
@@ -25,10 +25,9 @@ CONF = {
                            xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='mp'),
     'procopius-rhetorica': dict(key='procopius-gazaeus-rhetorica', vol=87, cmap='data/pg-column-maps/pg087c.json',
                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='pr'),
-    # Sophronius: Greek chunks so-001..018 only (maxn). so-019..021 are Latin-only (LATIN-ONLY-SPEC.md) and are built later;
-    # raise/remove maxn then.
+    # Sophronius: so-001..018 Greek + so-019..021 Latin-only (LATIN-ONLY-SPEC.md, built 2026-11-05): all 21 chunks, in COLUMN order.
     'sophronius-orationes': dict(key='sophronius-hierosolymitanus-orationes', vol=87, cmap='data/pg-column-maps/pg087c.json',
-                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='so', maxn=18, unwrap=True),   # unwrap: the so- cards are hard-wrapped at ~120 columns; join lines inside a paragraph
+                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='so', unwrap=True),   # unwrap: the so- cards are hard-wrapped at ~120 columns; join lines inside a paragraph
 }
 work = sys.argv[1]; DRY = '--dry' in sys.argv
 C = CONF[work]; KEY = C['key']
@@ -44,18 +43,25 @@ def lcol(pdf): m = cmap[pdf]; return m['colLeft'] if m['greekSide'] == 'right' e
 nfc = lambda s: ud.normalize('NFC', s)
 
 # ---------- chunks, in order ----------
-chunks = []
+chunks = []; LANG = {}
 for f in sorted(os.listdir(T)):
     m = re.match(rf'({C["prefix"]}-\d{{3}})\.md$', f)
     if not m: continue
     if int(m.group(1)[-3:]) > C.get('maxn', 10**9): continue
-    r = re.search(r'range: p-(\d+):(\d+) – p-(\d+):(\d+)', open(f'{T}/{f}').read()).groups()
-    chunks.append((m.group(1), tuple(map(int, r))))
+    s_ = open(f'{T}/{f}').read()
+    r = re.search(r'range: p-(\d+):(\d+) – p-(\d+):(\d+)', s_)
+    if r: chunks.append((m.group(1), tuple(map(int, r.groups())))); continue
+    pg = re.search(r'^pages: (.*)$', s_, re.M)                # a scaffold with `pages:` and no `range:` is Latin-only (LATIN-ONLY-SPEC.md section 2)
+    if pg:
+        ps = [int(x.split(':')[0]) for x in pg.group(1).split()]
+        chunks.append((m.group(1), (ps[0], 0, ps[-1], 999))); LANG[m.group(1)] = 'la'
 # the Doctrina I pilot (dd-001–003) was cut on RAW Kraken line numbers; in the checked text its heading
 # ΤΟΥ ΕΝ ΑΓΙΟΙΣ ΠΑΤΡΟΣ… is line 6 of p-0839, not 7 (the other two pilot boundaries coincide; checked by eye)
 OVERRIDE = {'dorotheus-doctrinae': {'dd-001': (839, 6, 843, 4)}}.get(work, {})
 chunks = [(c, OVERRIDE.get(c, r)) for c, r in chunks]
+if LANG: chunks.sort(key=lambda c: (c[1][0], c[1][1]))        # Latin chunks interleave by column; Greek-only works keep file order (= page order)
 N = len(chunks)
+isla = lambda ci: LANG.get(chunks[ci][0]) == 'la'
 
 # ---------- Greek ----------
 patches = {}
@@ -91,6 +97,32 @@ def is_head(line, prev):
     if letters and all(not c.islower() for c in letters): return True          # ΔΙΔΑΣΚΑΛΙΑ Β'. / ΤΟΥ ΕΝ ΑΓΙΟΙΣ …
     return prev is not None and prev.startswith('ΔΙΔΑΣΚΑΛΙΑ') and len(t.split()) <= 10   # its title line
 
+def join(items):
+    # join: hyphenated breaks close up; an anchor or band marker inside a broken word moves after it
+    out, pend = '', []          # pend = markers waiting for the end of a broken word
+    for kind, t in items:
+        if kind == 'para':
+            m = re.search(r'(\[\d{4}\])\s*$', out)          # an anchor just placed opens the NEW paragraph
+            if m: out = out[:m.start()].rstrip() + '\n\n' + m.group(1) + ' '
+            else: out = out.rstrip() + '\n\n'
+            continue
+        if kind == 'anchor':
+            if out.endswith('-'): pend.append(t)
+            else: out += ('' if out.endswith('\n') or not out else ' ') + t + ' '
+            continue
+        bands = re.match(r'^(\[b: .\] )', t)
+        if bands: t = t[len(bands.group(1)):]
+        if out.endswith('-') and not out.endswith(' -'):
+            w, _, rest = t.partition(' ')
+            out = out[:-1] + w
+            marks = pend + ([bands.group(1).strip()] if bands else [])
+            out += (' ' + ' '.join(marks) if marks else '') + (' ' + rest if rest else '')
+            pend = []
+        else:
+            sep = '' if (not out or out.endswith('\n') or out.endswith(' ')) else ' '
+            out += sep + (bands.group(1) if bands else '') + t
+    return re.sub(r'[ \t]+', ' ', out).strip()
+
 def greek(ci):
     cid, (fp, fl, lp, ll) = chunks[ci]
     items = []   # (kind, text): 'anchor' | 'line' | 'para'
@@ -118,30 +150,56 @@ def greek(ci):
                 items.append(('para', ''))
             items.append(('line', line))
             prev = line
-    # join: hyphenated breaks close up; an anchor or band marker inside a broken word moves after it
-    out, pend = '', []          # pend = markers waiting for the end of a broken word
-    for kind, t in items:
-        if kind == 'para':
-            m = re.search(r'(\[\d{4}\])\s*$', out)          # an anchor just placed opens the NEW paragraph
-            if m: out = out[:m.start()].rstrip() + '\n\n' + m.group(1) + ' '
-            else: out = out.rstrip() + '\n\n'
-            continue
-        if kind == 'anchor':
-            if out.endswith('-'): pend.append(t)
-            else: out += ('' if out.endswith('\n') or not out else ' ') + t + ' '
-            continue
-        bands = re.match(r'^(\[b: .\] )', t)
-        if bands: t = t[len(bands.group(1)):]
-        if out.endswith('-') and not out.endswith(' -'):
-            w, _, rest = t.partition(' ')
-            out = out[:-1] + w
-            marks = pend + ([bands.group(1).strip()] if bands else [])
-            out += (' ' + ' '.join(marks) if marks else '') + (' ' + rest if rest else '')
-            pend = []
+    return join(items)
+
+
+# ---------- Latin-only chunks (LATIN-ONLY-SPEC.md): the Latin column IS the source ----------
+def latin_source(ci, app):
+    """raw/kraken/<work>/latin-checked/<cid>.tsv (kt-apply-latin.py) -> source text: a [col] anchor at each column's first kept
+    line, Migne's Latin-column notes (APP['latin']) as [n:]/[nt:], paragraph breaks from the plate's geometry, joined by join()."""
+    cid = chunks[ci][0]
+    rows = [l.rstrip('\n').split('\t', 1) for l in open(f'{K}/latin-checked/{cid}.tsv') if l.strip()]
+    geo = {}
+    for l in open(f'{T}/{cid}.lines.tsv').read().split('\n')[1:]:
+        if l: r = l.split('\t'); geo[r[0]] = (int(r[1]), int(r[3]))
+    med = {}
+    for tag, (x1, x2) in geo.items(): med.setdefault(tag[:7], []).append((x1, x2))
+    med = {k: (statistics.median(a for a, _ in v), statistics.median(b for _, b in v)) for k, v in med.items()}
+    heads = {r['replaces'].split(',')[0] for r in csv.DictReader(open(f'{T}/verify/LATIN-HEADS.tsv'), delimiter='\t') if r['chunk'] == cid}
+    notes = {}
+    for rec in app.get('latin', {}).get(cid, []):                 # [tag, anchor, text, kind, nth, en]
+        notes.setdefault(rec[0], []).append(rec)
+    items, prev, prev_x2, seen_cols, in_head = [], None, None, set(), False
+    SENT = re.compile(r'[.?!:»]$')
+    for tag, text in rows:
+        pg, side = int(tag[1:5]), tag[6]
+        col = cmap[pg]['colLeft'] if side == 'L' else cmap[pg]['colRight']
+        if (pg, side) not in seen_cols:
+            seen_cols.add((pg, side)); items.append(('anchor', f'[{col}]'))
+        plain = re.sub(r'^\[b: .\] ', '', text)
+        ishead = '+' in tag or tag in heads
+        brk = False
+        if ishead:
+            brk = (not in_head) or plain.startswith(('Ex ms.', 'Interprete')) or (prev is not None and re.match(r'^[IVX]+\.( [A-D])?$', prev))
         else:
-            sep = '' if (not out or out.endswith('\n') or out.endswith(' ')) else ' '
-            out += sep + (bands.group(1) if bands else '') + t
-    return re.sub(r'[ \t]+', ' ', out).strip()
+            x1, x2 = geo[tag]; m1, m2 = med[tag[:7]]
+            if in_head: brk = True
+            elif prev is not None and SENT.search(prev) and x1 > m1 + 35: brk = True
+            elif prev is not None and SENT.search(prev) and prev_x2 is not None and prev_x2 < m2 - 250: brk = True
+            if re.match(r'^Cap\. [IVX]+\.', plain) or re.match(r'^\d{1,2}\. [A-ZÆŒ«]', plain) or tag == 'p0220.R.42': brk = True
+        if brk and prev is not None: items.append(('para', ''))
+        # Migne's notes after their anchor word (the nth occurrence on the line); several on one line: right to left
+        ins = []
+        for rec in notes.get(tag, []):
+            anchor, ntext, kind = rec[1], rec[2], rec[3]; nth = rec[4] if len(rec) > 4 else 0
+            ms = [m_ for m_ in re.finditer(r'(?<!\w)' + re.escape(anchor), text)] or [m_ for m_ in re.finditer(re.escape(anchor), text)]
+            if not ms: sys.exit(f'Latin note anchor {anchor!r} not on {tag}: {text!r}')
+            m_ = ms[min(nth, len(ms) - 1)]
+            ins.append((m_.end(), f' [{kind}: {ntext}]'))
+        for pos, ins_t in sorted(ins, key=lambda x: -x[0]): text = text[:pos] + ins_t + text[pos:]
+        items.append(('line', text))
+        in_head = ishead; prev = plain; prev_x2 = None if ishead else geo[tag][1]
+    return join(items)
 
 # ---------- Latin twin (witness) ----------
 regions = json.load(open(f'{K}/regions.json'))
@@ -170,6 +228,7 @@ def english(cid, sics, ns):
     """sics: {note_no: printed} -> [sic:]; ns: {note_no: migne_text} -> [n:]. Others -> cruces (returned)."""
     body, notes = card(cid)
     if C.get('unwrap'): body = re.sub(r'(?<!\n)\n(?!\n)', ' ', body)      # Sophronius: hard-wrapped cards (single newline = same paragraph)
+    body = re.sub(r'^#{2,4} ', '', body, flags=re.M)     # so-020's `### Chapter` heads: plain text (no builder renders ###)
     body = body.replace('**', '')                      # Instruction heads: plain (the builder's *…* is italic only)
     crux = []; col = None; band = None
     def rep(m):
@@ -196,11 +255,11 @@ def frontmatter(ci, g, ctx=None):
     cols = body or [ctx]
     ctxv = ctx or cols[0]
     words = len(re.sub(r'\[[^\]]*\]', ' ', g).split())
-    inc = ' '.join(g.split()[:14]).replace('"', '\\"')
+    inc = ' '.join((re.sub(r'\[nt?: [^\]]*\]', ' ', g) if isla(ci) else g).split()[:14]).replace('"', '\\"')   # Latin-only: Migne's notes are not the incipit
     return '\n'.join(['---', f'workKey: "{KEY}"', f'work: "{W["title"]}"', f'workEn: "{W["titleEn"]}"',
-        f'authors: ["{W["author"]}"]', 'series: "pg"', f'volume: {C["vol"]}', 'language: "grc"',
+        f'authors: ["{W["author"]}"]', 'series: "pg"', f'volume: {C["vol"]}', f'language: "{"la" if isla(ci) else "grc"}"',
         f'chunk: {ci + 1}', f'chunkCount: {N}', f'colContext: "{ctxv}"', f'colFirst: "{cols[0]}"',
-        f'colLast: "{cols[-1]}"', f'words: {words}', f'incipit: "{inc}"', f'greekSource: "{W.get("greekSource", "ours-vision-ocr")}"', '---', '']), cols, words
+        f'colLast: "{cols[-1]}"', f'words: {words}', f'incipit: "{inc}"', (f'latinSource: "ours-djvu-ocr-image-checked"' if isla(ci) else f'greekSource: "{W.get("greekSource", "ours-vision-ocr")}"'), '---', '']), cols, words
 
 if __name__ == '__main__':
     APP = json.load(open(f'{T}/notes/APPARATUS.json')) if os.path.exists(f'{T}/notes/APPARATUS.json') else {}
@@ -229,7 +288,7 @@ if __name__ == '__main__':
                     return end
         return None
     for ci, (cid, (fp, fl, lp, ll)) in enumerate(chunks):
-        g = greek(ci)
+        g = latin_source(ci, APP) if isla(ci) else greek(ci)
         for ckey, items in APP.get('greek', {}).items():           # Migne's numbered notes, keyed to the GREEK
             if cid not in ckey.split('|'): continue
             for page, word, txt in items:
@@ -256,7 +315,7 @@ if __name__ == '__main__':
                 g = g[:hit] + f' [n: {txt}]' + g[hit:]; placed_g.add((cid, page, word)); placed_all.add((page, word, txt.strip()))
         e, crux = english(cid, SICS.get(cid, {}), APP.get('english', {}).get(cid, {}))
         ctx = None
-        if fl > 1 and ci > 0:   # opens mid-page: the column anchor belongs to the previous chunk; this one carries it as colContext only
+        if fl > 1 and ci > 0 and LANG.get(chunks[ci - 1][0]) == LANG.get(cid):   # (LANG guard: a Greek chunk after a Latin one keeps its anchor)   # opens mid-page: the column anchor belongs to the previous chunk; this one carries it as colContext only
             ctx = f'{gcol(fp)}'
             g = re.sub(r'^\[' + ctx + r'\]\s*', '', g, count=1)
             e = re.sub(r'\[' + ctx + r'\]\s*', '', e, count=1)
@@ -266,11 +325,13 @@ if __name__ == '__main__':
         lat = '\n\n'.join(f'[{lcol(p)}] ' + latin(p) for p in pages)
         n4 = f'{ci + 1:04d}.md'
         man['chunks'].append({'chunk': ci + 1, 'file': n4, 'source': cid, 'colFirst': cols[0], 'colLast': cols[-1],
-                              'words': words, 'pdfPages': pages})
+                              'words': words, 'pdfPages': pages, **({'language': LANG.get(cid, 'grc')} if LANG else {})})
         if DRY: print(n4, cid, cols[0], cols[-1], words); continue
         open(f'{gdir}/{n4}', 'w').write(fm + '\n' + g + '\n')
         open(f'{edir}/{n4}', 'w').write(fm + '\n' + e + '\n')
-        open(f'{ldir}/{n4}', 'w').write(f'<!-- Latin twin for {KEY} chunk {ci + 1} ({cid}). Facing Latin columns of pdf pages '
+        if isla(ci):
+            open(f'{ldir}/{n4}', 'w').write(f'<!-- No twin: Migne prints this oration in Latin only; the Latin IS the source (src/greek/{KEY}/{n4}). -->\n')
+        else: open(f'{ldir}/{n4}', 'w').write(f'<!-- Latin twin for {KEY} chunk {ci + 1} ({cid}). Facing Latin columns of pdf pages '
             f'{pages[0]}–{pages[-1]}, WHOLE pages (the twin can start before and run past the Greek). Source: {C["xml"]} '
             f'(archive.org OCR). ⛔ WITNESS, NOT AUTHORITY. Built by scripts/kt-to-site.py -->\n\n{lat}\n')
     if DRY: sys.exit()
@@ -319,4 +380,25 @@ if __name__ == '__main__':
             for r in csv.DictReader(open(vf), delimiter='\t'):
                 cell = lambda x: x.replace('|', '/').replace('\n', ' ')
                 o.write(f"| {r['tag']} | {cell(r['printed'])} | {cell(r['reading'])} | {r['kind']} | {r['verdict']} | {cell(r['plate'])} |\n")
+    if LANG:                                                  # Latin-only chunks: two more cruces sections (LATIN-ONLY-SPEC.md section 4)
+        with open(f'{edir}/cruces.md', 'a') as o:
+            o.write("\n## Migne's notes to the Latin-only orations, in English\n\nOrations I, III and VI survive in Migne only in Latin, so his Latin-column apparatus stands "
+                    "in the Latin text as `[n:]` (a locator) or `[nt:]` (prose). Each prose note is listed here with a **working translation of Migne's note** "
+                    "(a first reading, not yet reviewed), by column and Latin anchor word.\n\n")
+            for cid_, recs in sorted(APP.get('latin', {}).items()):
+                for tag, anchor, ntext, kind, *rest in recs:
+                    if kind != 'nt': continue
+                    pg_ = int(tag[1:5]); col_ = cmap[pg_]['colLeft'] if tag[6] == 'L' else cmap[pg_]['colRight']
+                    o.write(f"- **{col_}** · Latin *{anchor}* ({cid_}) — working translation of Migne's note: {(rest[1] if len(rest) > 1 and rest[1] else '(no English recorded)')}\n")
+            lf = f'{T}/verify/LATIN-OVERRIDES.tsv'
+            nrow = list(csv.DictReader(open(lf), delimiter='\t'))
+            cnt = {v: sum(1 for r in nrow if r['verdict'] == v) for v in 'MP?'}
+            o.write("\n## Readings checked at the plate: Orations I, III, VI\n\nMigne prints these orations in Latin only. Every reading the translators flagged (949) "
+                    "was looked up on the page image (2026-11-05): 910 were slips in our transcription of the scan and are corrected without comment; "
+                    f"the table lists the other {len(nrow)}: {cnt['M']} where Migne's type is itself wrong (the Latin column prints it as he did; the English follows the corrected reading), "
+                    f"{cnt['P']} where the plate prints the form the translator doubted (Migne's text, kept), {cnt['?']} not settled at the plate.\n\n")
+            o.write('| page.line | the scaffold read | the Latin column prints | verdict |\n|---|---|---|---|\n')
+            for r in nrow:
+                cell = lambda x: x.replace('|', '/').replace('\n', ' ')
+                o.write(f"| {r['tag']} | {cell(r['printed'])} | {cell(r['latin'])} | {r['verdict']} |\n")
     print(f'{N} chunks -> {gdir}, {ldir}, {edir}; {len(allcrux)} cruces')

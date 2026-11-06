@@ -7,8 +7,8 @@
   "authors": [
     "Sophronius of Jerusalem"
   ],
-  "citRange": "PG 87.3, 3147-3364 (Greek chunks only so far: Synodical Letter 3147-3200; Or. II 3217-3288; Or. IV-V 3301-3316; Or. VII 3321-3354; Or. VIII 3355-3364; Or. I, III, VI are Latin-only and not yet built)",
-  "chunkCount": 18,
+  "citRange": "PG 87.3, 3147–3364",
+  "chunkCount": 21,
   "greekSource": "ours-kraken-ocr",
   "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
   "chunks": [
@@ -25,7 +25,8 @@
         190,
         191,
         192
-      ]
+      ],
+      "language": "grc"
     },
     {
       "chunk": 2,
@@ -41,7 +42,8 @@
         195,
         196,
         197
-      ]
+      ],
+      "language": "grc"
     },
     {
       "chunk": 3,
@@ -56,7 +58,8 @@
         199,
         200,
         201
-      ]
+      ],
+      "language": "grc"
     },
     {
       "chunk": 4,
@@ -71,7 +74,8 @@
         203,
         204,
         205
-      ]
+      ],
+      "language": "grc"
     },
     {
       "chunk": 5,
@@ -87,7 +91,8 @@
         208,
         209,
         210
-      ]
+      ],
+      "language": "grc"
     },
     {
       "chunk": 6,
@@ -102,11 +107,29 @@
         212,
         213,
         214
-      ]
+      ],
+      "language": "grc"
     },
     {
       "chunk": 7,
       "file": "0007.md",
+      "source": "so-019",
+      "colFirst": "3201",
+      "colLast": "3212",
+      "words": 4203,
+      "pdfPages": [
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "language": "la"
+    },
+    {
+      "chunk": 8,
+      "file": "0008.md",
       "source": "so-007",
       "colFirst": "3217",
       "colLast": "3228",
@@ -118,11 +141,12 @@
         226,
         227,
         228
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 8,
-      "file": "0008.md",
+      "chunk": 9,
+      "file": "0009.md",
       "source": "so-008",
       "colFirst": "3229",
       "colLast": "3240",
@@ -135,11 +159,12 @@
         232,
         233,
         234
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 9,
-      "file": "0009.md",
+      "chunk": 10,
+      "file": "0010.md",
       "source": "so-009",
       "colFirst": "3241",
       "colLast": "3252",
@@ -152,11 +177,12 @@
         238,
         239,
         240
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 10,
-      "file": "0010.md",
+      "chunk": 11,
+      "file": "0011.md",
       "source": "so-010",
       "colFirst": "3253",
       "colLast": "3264",
@@ -169,11 +195,12 @@
         244,
         245,
         246
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 11,
-      "file": "0011.md",
+      "chunk": 12,
+      "file": "0012.md",
       "source": "so-011",
       "colFirst": "3265",
       "colLast": "3273",
@@ -185,11 +212,12 @@
         249,
         250,
         251
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 12,
-      "file": "0012.md",
+      "chunk": 13,
+      "file": "0013.md",
       "source": "so-012",
       "colFirst": "3276",
       "colLast": "3288",
@@ -203,11 +231,31 @@
         256,
         257,
         258
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 13,
-      "file": "0013.md",
+      "chunk": 14,
+      "file": "0014.md",
+      "source": "so-020",
+      "colFirst": "3287",
+      "colLast": "3302",
+      "words": 4841,
+      "pdfPages": [
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265
+      ],
+      "language": "la"
+    },
+    {
+      "chunk": 15,
+      "file": "0015.md",
       "source": "so-013",
       "colFirst": "3301",
       "colLast": "3316",
@@ -221,11 +269,27 @@
         270,
         271,
         272
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 14,
-      "file": "0014.md",
+      "chunk": 16,
+      "file": "0016.md",
+      "source": "so-021",
+      "colFirst": "3315",
+      "colLast": "3322",
+      "words": 2360,
+      "pdfPages": [
+        272,
+        273,
+        274,
+        275
+      ],
+      "language": "la"
+    },
+    {
+      "chunk": 17,
+      "file": "0017.md",
       "source": "so-014",
       "colFirst": "3321",
       "colLast": "3329",
@@ -236,11 +300,12 @@
         277,
         278,
         279
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 15,
-      "file": "0015.md",
+      "chunk": 18,
+      "file": "0018.md",
       "source": "so-015",
       "colFirst": "3332",
       "colLast": "3337",
@@ -251,11 +316,12 @@
         281,
         282,
         283
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 16,
-      "file": "0016.md",
+      "chunk": 19,
+      "file": "0019.md",
       "source": "so-016",
       "colFirst": "3340",
       "colLast": "3345",
@@ -266,11 +332,12 @@
         285,
         286,
         287
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 17,
-      "file": "0017.md",
+      "chunk": 20,
+      "file": "0020.md",
       "source": "so-017",
       "colFirst": "3348",
       "colLast": "3353",
@@ -281,11 +348,12 @@
         289,
         290,
         291
-      ]
+      ],
+      "language": "grc"
     },
     {
-      "chunk": 18,
-      "file": "0018.md",
+      "chunk": 21,
+      "file": "0021.md",
       "source": "so-018",
       "colFirst": "3356",
       "colLast": "3364",
@@ -296,10 +364,11 @@
         294,
         295,
         296
-      ]
+      ],
+      "language": "grc"
     }
   ],
   "colFirst": "3148",
   "colLast": "3364",
-  "words": 31836
+  "words": 43240
 }

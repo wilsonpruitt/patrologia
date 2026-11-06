@@ -66,7 +66,8 @@ function colIncipits(text, n = 10) {
   const parts = text.split(/\[(\d{4})\]\s*/);
   const out = {};
   for (let i = 1; i < parts.length; i += 2)
-    out[parts[i]] = (parts[i + 1] || '').replace(/\s+/g, ' ').trim().split(' ').slice(0, n).join(' ');
+    if (!(parts[i] in out)) out[parts[i]] = (parts[i + 1] || '')   // a shared column (two chunks share it) keeps its FIRST occurrence
+     .replace(/\s+/g, ' ').trim().split(' ').slice(0, n).join(' ');
   return out;
 }
 
@@ -124,7 +125,9 @@ function handleNote(raw, col, chunk) {
 const tokenRe = /\[(n|nt): ([^\]]*)\]|\[([0-9]{3,5}[A-D]?)\]/g;
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
-  const p = path.join(engDir, name);
+  // a Latin-only chunk (language: "la") holds Migne's apparatus in the SOURCE file (placed there by notes/place.py); the English twin only
+  // mirrors the Scripture locators, so walking both would count each twice. Walk the source for those chunks.
+  const p = path.join(c.language === 'la' ? grcDir : engDir, name);
   if (!fs.existsSync(p)) continue;
   const text = stripMarkers(fs.readFileSync(p, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, ''));
   let col = c.colContext ?? c.colFirst ?? null; // Antiochus's manifest carries colFirst, the Calfa works colContext

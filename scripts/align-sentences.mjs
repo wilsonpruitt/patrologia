@@ -36,7 +36,8 @@ const split = raw => { const m = raw.match(/^(---\n[\s\S]*?\n---\n)([\s\S]*)$/);
 const plain = s => s.replace(/\[(?:n|nt|cn|fn|vl|f|b|bid|sic|ed|d|var|lat|cj): [^\]]*\]|\[\d{3,5}[A-D]?\]/g, ' ').replace(/\s+/g, ' ').trim();
 const len = s => plain(s).length;
 const qmarks = s => (plain(s).match(/\?/g) || []).length;
-const qmarksSrc = s => (plain(s).match(IS_PG ? /[?;]/g : /\?/g) || []).length; // Greek ; IS the question mark (English ; is not)
+let LATIN_CHUNK = false;   // set per chunk: a Latin-only PG chunk (language: "la") uses ? only (; is not a question mark in Latin)
+const qmarksSrc = s => (plain(s).match(IS_PG && !LATIN_CHUNK ? /[?;]/g : /\?/g) || []).length; // Greek ; IS the question mark (English ; is not)
 
 // ---- Gale–Church ----
 const erf = x => { const t = 1 / (1 + 0.3275911 * Math.abs(x)); const y = 1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x); return x >= 0 ? y : -y; };
@@ -45,8 +46,9 @@ const BEADS = [[1, 1, 0.12], [1, 2, 3.1], [2, 1, 3.1], [2, 2, 4.6]];
 // WIDE_PARA=1 (Moschus): the Greek is paragraphed by CHAPTER, the English by story, so one Greek paragraph meets up to a dozen English
 // ones; Gale–Church length still prices each wide bead, and the anchor/notes penalty in `extra` still applies. Off by default so
 // a shipped work's alignment cannot change.
-const PBEADS = [[1, 1, 0.12], [1, 2, 3.5], [2, 1, 3.5], [1, 3, 5], [3, 1, 5], [2, 2, 5],
-  ...(process.env.WIDE_PARA === '1' ? [[1, 4, 6], [1, 5, 7], [1, 6, 8], [1, 7, 9], [1, 8, 10], [1, 9, 11], [1, 10, 12], [1, 12, 14], [1, 14, 16], [2, 4, 8], [2, 6, 9], [2, 8, 11]] : [])];
+const PBEADS_NARROW = [[1, 1, 0.12], [1, 2, 3.5], [2, 1, 3.5], [1, 3, 5], [3, 1, 5], [2, 2, 5]];
+const PBEADS_WIDE = [...PBEADS_NARROW,
+  ...(process.env.WIDE_PARA === '1' ? [[1, 4, 6], [1, 5, 7], [1, 6, 8], [1, 7, 9], [1, 8, 10], [1, 9, 11], [1, 10, 12], [1, 12, 14], [1, 14, 16], [2, 4, 8], [2, 6, 9], [2, 8, 11]] : [])];   // WIDE_PARA applies to the Greek chunks only: a Latin-only chunk is paragraphed like its English (spec: WIDE_PARA stays off)
 function beadCost(lSents, eSents, c) {
   const lL = lSents.reduce((n, s) => n + len(s), 0), lE = eSents.reduce((n, s) => n + len(s), 0);
   const mean = c * Math.max(lL, 1), z = (lE - mean) / Math.sqrt(mean * 6.8);
@@ -80,22 +82,26 @@ const isLatPara = l => l.trim() && !/^##\s/.test(l);
 const isEngPara = l => isLatPara(l) && !isEditorialOnly(l);
 const anchorsOf = s => (s.match(/\[\d{3,5}[A-D]?\]/g) || []).join(',');
 const notesOf = s => (s.match(/\[(?:n|nt): /g) || []).length;
-let sumL = 0, sumE = 0;
+const sums = { la: [0, 0], grc: [0, 0] };   // per-language length constant: the EN/LA ratio (~1.33) is not the EN/GRC one
 const chunks = manifest.chunks.map(c => {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
   const lat = split(fs.readFileSync(path.join(latDir, name), 'utf8')), eng = split(fs.readFileSync(path.join(engDir, name), 'utf8'));
   if (!lat.body.includes('⟦p')) { console.error(`${name}: Latin is not stamped — run mark-sentences.mjs first`); process.exit(1); }
   eng.body = stripMarkers(eng.body);
   const lp = lat.body.split('\n').filter(isLatPara), ep = eng.body.split('\n').filter(isEngPara);
-  lp.forEach(l => { sumL += len(stripMarkers(l)); }); ep.forEach(l => { sumE += len(l); });
-  return { name, c, lat, eng };
+  const la = /^language: "la"/m.test(lat.fm), sm = sums[la ? 'la' : 'grc'];
+  lp.forEach(l => { sm[0] += len(stripMarkers(l)); }); ep.forEach(l => { sm[1] += len(l); });
+  return { name, c, lat, eng, la };
 });
-const C = sumE / sumL;
+const Cof = la => { const [a, b] = sums[la ? 'la' : 'grc']; return b / a; };
+const C = Cof(false), CLA = Cof(true);
+const stat = { la: [0, 0], grc: [0, 0] };   // [paragraphs, sentence-level] per language
 
 const rows = [];
 let nFallback = 0, nRagged = 0, wideBeads = 0;
 const fb = (ids, first) => `⟦s${ids.map((x, i) => (i === 0 ? x : `s${x}`)).join('+')}⟧`;
 for (const ch of chunks) {
+  LATIN_CHUNK = ch.la; const Cc = ch.la ? CLA : C;
   const outLines = ch.eng.body.split('\n');
   const engIdx = outLines.map((l, i) => (isEngPara(l) ? i : -1)).filter(i => i >= 0);
   const latParas = ch.lat.body.split('\n').filter(isLatPara).map(line => {
@@ -117,7 +123,7 @@ for (const ch of chunks) {
       const la = pl.slice(i, i + a).map(anchorsOf).filter(Boolean).join(','), ea = pe.slice(j, j + b).map(anchorsOf).filter(Boolean).join(',');
       return (la !== ea ? 5 : 0) + (pl.slice(i, i + a).reduce((n, x) => n + notesOf(x), 0) !== pe.slice(j, j + b).reduce((n, x) => n + notesOf(x), 0) ? 2 : 0);
     };
-    const beads = align(pl, pe, C, null, PBEADS, extra);
+    const beads = align(pl, pe, Cc, null, ch.la && IS_PG ? PBEADS_NARROW : PBEADS_WIDE, extra);
     if (!beads) { console.error(`${ch.name}: cannot pair ${latParas.length} Latin and ${engParas.length} English paragraphs`); process.exit(1); }
     groups = beads.map(b => [b.l[0], b.l[1], b.e[0], b.e[1]]);
     nRagged += groups.filter(g => g[1] - g[0] !== 1 || g[3] - g[2] !== 1).length;
@@ -130,7 +136,7 @@ for (const ch of chunks) {
     LP.forEach((p, pi) => p.sents.forEach((x, si) => { L.push(x); bounds.push(pi); lmap.push([pi, si + 1]); }));
     const E = [], emap = [];
     EP.forEach((p, pj) => p.sents.forEach(x => { E.push(x); emap.push(pj); }));
-    const beads = L.length && E.length ? align(L, E, C, bounds) : null;
+    const beads = L.length && E.length ? align(L, E, Cc, bounds) : null;
     const doubtful = b => Math.abs(b.z) > Z_MAX || b.qBreak;
     let conf = !!beads && beads.every(b => !doubtful(b));
     // PG only: a long group (a whole Greek chunk is one paragraph) must not fall back wholesale
@@ -172,6 +178,7 @@ for (const ch of chunks) {
       for (let k = 1; k < LP.length; k++) outE[outE.length - 1].push(`⟦p${LP[k].pid}⟧ ${fb(all[k])}`);
     }
     EP.forEach((p, pj) => { outLines[p.i] = p.lead + outE[pj].join(' ').replace(/ +$/, ''); });
+    LP.forEach(() => { stat[ch.la ? 'la' : 'grc'][0]++; if (conf) stat[ch.la ? 'la' : 'grc'][1]++; });
     LP.forEach((p, pi) => rows.push([`${idno}.${ch.c.chunk}.${p.pid}`, p.sents.length, E.length, shape, worstZ, conf ? 'sentence' : 'paragraph', ragged ? `${l1 - l0}:${e1 - e0}` : ''].join('\t')));
   }
   ch.out = ch.eng.fm + outLines.join('\n');
@@ -180,6 +187,7 @@ const dir = path.join(ROOT, 'data/sentence-align');
 fs.mkdirSync(dir, { recursive: true });
 fs.writeFileSync(path.join(dir, `${idno}.tsv`), 'paraId\tlatSents\tengSents\tbeads\tworstZ\tlevel\tgroup\n' + rows.join('\n') + '\n');
 const nP = rows.length, nSentLvl = nP - nFallback;
-console.log(`${idno}: ${nP} paragraphs, ${nSentLvl} sentence-level (${(100 * nSentLvl / nP).toFixed(1)}%), ${nFallback} fall back to paragraph level; ${nRagged} ragged paragraph group(s)${IS_PG ? `; ${wideBeads} wide (merged) bead(s)` : ''}; ratio ${C.toFixed(2)}; Z_MAX ${Z_MAX}`);
+console.log(`${idno}: ${nP} paragraphs, ${nSentLvl} sentence-level (${(100 * nSentLvl / nP).toFixed(1)}%), ${nFallback} fall back to paragraph level; ${nRagged} ragged paragraph group(s)${IS_PG ? `; ${wideBeads} wide (merged) bead(s)` : ''}; ratio ${(sums.grc[0] ? C : CLA).toFixed(2)}${sums.grc[0] && sums.la[0] ? ` (la ${CLA.toFixed(2)})` : ''}; Z_MAX ${Z_MAX}`);
+for (const k of ['la', 'grc']) if (stat[k][0]) console.log(`  ${k}: ${stat[k][1]}/${stat[k][0]} paragraphs sentence-level (${(100 * stat[k][1] / stat[k][0]).toFixed(1)}%), ratio ${Cof(k === 'la').toFixed(2)}`);
 if (WRITE) { for (const ch of chunks) fs.writeFileSync(path.join(engDir, ch.name), ch.out); console.log('written to src/english'); }
 else console.log('(dry run; --write to stamp src/english)');

@@ -64,7 +64,87 @@ for n in notes:
     elif w: u['greekWord'] = w
     u['chunks'] = cids
     app['unplaced'].append(u)
+# ---------------- Latin pass (LATIN-ONLY-SPEC.md section 4): notes keyed in the LATIN column of so-019/020/021 ----------------
+# The Latin of these three orations IS the source text (no Greek), so Migne's Latin-column apparatus is placed there:
+#   [n: text] for a locator (en is null: Scripture, Ibid.), [nt: text] for prose (Hardouin, Mai, Ballerini, Bollandist).
+# Scripture locators are also mirrored into the English (Dorotheus's matcher) against the chunk's translator S notes.
+# What does not locate stays in unplaced[] (cruces only). Mai's note printed IN the column (p0220.R.42-44, unmarked) is dropped.
+LATIN_DIR = 'raw/kraken/sophronius-orationes/latin-checked'
+LCH = {'so-019': range(215, 221), 'so-020': range(258, 266), 'so-021': range(272, 276)}
+SUP = {c: str(i) for i, c in enumerate('⁰¹²³⁴⁵⁶⁷⁸⁹')}
+src = open('translate/dorotheus-doctrinae/notes/place.py').read()
+exec(src[src.index('ROMAN = '):src.index('def card(')])           # roman, BOOK, EN, LAST, migne_refs, s_refs: Dorotheus's matcher, reused unchanged
+def card_notes(cid):
+    s = open(f'{T}/{cid}.en.md').read(); nt = s.partition('\n## Notes')[2].partition('\n## OCR')[0]
+    return {m.group(1): m.group(2) for m in re.finditer(r'^\[\^(\d+)\]:\s*(.*)$', nt, re.M)}
+latin = {}
+if os.path.isdir(LATIN_DIR):
+    for cid in LCH:
+        for l in open(f'{LATIN_DIR}/{cid}.tsv'):
+            tag, text = l.rstrip('\n').split('\t', 1)
+            latin.setdefault((cid, int(tag[1:5])), []).append((tag, re.sub(r'^\[b: .\] ', '', text)))
+def call_word(n):
+    """the word just before the call in the reader's anchorLine when it shows the call, else anchorWord; plus which occurrence"""
+    al = n.get('anchorLine') or ''; w = n.get('anchorWord') or ''
+    al2 = ''.join(SUP.get(c, c) if c in SUP else c for c in al)
+    cands = list(re.finditer(r'(\S+?)\s*(?:\((\d+(?:[-·]\d+)?)\)|([⁰¹²³⁴⁵⁶⁷⁸⁹]+)|(\*+))', al))
+    pick = None
+    for m in cands:
+        num = m.group(2) or (''.join(SUP[c] for c in m.group(3)) if m.group(3) else None)
+        if num and str(n.get('marker')) == num.split('-')[0].split('·')[0]: pick = m; break
+    if pick is None and len(cands) == 1: pick = cands[0]
+    if pick and base(pick.group(1)): return pick.group(1).strip('.,;:?!»«()').replace('-', ''), al[:pick.start(1)]
+    return w.replace('-', ''), al[:al.find(w)] if w in al else ''
+placed_lat, used_s = [], set()
+app['latin'] = {}; app['english'] = {}
+keep_unplaced = []
+for u in app['unplaced']:
+    page = int(u['page'][2:]); cid = next((c for c, r in LCH.items() if page in r), None)
+    if cid is None or u.get('column') != 'latin' or not latin: keep_unplaced.append(u); continue
+    if u.get('series') == 'unmarked' and page == 220:        # Mai's note, already printed in the column (p0220.R.42-44)
+        placed_lat.append(('dropped (printed in the column)', u['page'], u.get('marker'))); continue
+    anchor, before = call_word(u)
+    lt = lambda x: {w for w in toks(x) if len(w) >= 4}                      # content words only: et/in/sum cannot make a match
+    A = lt(re.sub(r'[⁰¹²³⁴⁵⁶⁷⁸⁹*]+', ' ', u.get('anchorLine') or '')); best = (0, None, None, None)
+    ba = base(anchor)
+    def has(bt): return bool(ba) and (ba in bt or (len(ba) >= 8 and ba[:-2] in bt))
+    lines_ = latin.get((cid, page), [])
+    need = 1 if len(A) <= 2 else 2                                       # a short anchorLine needs one shared content word, else two
+    for i, (tag, text) in enumerate(lines_):
+        win = [text, (lines_[i - 1][1] + ' ' + text) if i else text, (text + ' ' + lines_[i + 1][1]) if i + 1 < len(lines_) else text]   # the reader's line can run over a plate line
+        ov = max(len(A & lt(w_)) for w_ in win)
+        if ov >= need and has(base(text)) and ov > best[0]: best = (ov, tag, text, anchor)
+        if text.endswith('-') and i + 1 < len(lines_) and lines_[i + 1][0][:7] == tag[:7]:   # an anchor word broken across the line: the note stands after its tail
+            t2 = lines_[i + 1][1]; j = re.sub(r'\W+$', '', text[:-1].split()[-1]) + (t2.split() or [''])[0]
+            ov2 = len(A & lt(text + ' ' + t2))
+            if ov2 >= need and ba and ba in base(j) and not has(base(text)) and not has(base(t2)) and ov2 > best[0]:
+                best = (ov2, lines_[i + 1][0], t2, re.sub(r'[^\w]+$', '', (t2.split() or [''])[0]))
+    if best[1] is None or not anchor: keep_unplaced.append(u); continue
+    tag, text, anchor = best[1], best[2], best[3]
+    if anchor not in text:                                               # a near match (Samosatenii / Samosateni): the note stands on the line's own token
+        anchor = next((t_.strip('.,;:?!»«()') for t_ in text.split() if len(base(t_)) >= 6 and (base(t_) in ba or ba[:-2] in base(t_))), anchor)
+    nth = len([w for w in toks(before) if w == base(anchor)]) if has(base(text)) else 0          # which occurrence of the anchor word on the line
+    kind = 'n' if u.get('en') is None else 'nt'
+    app['latin'].setdefault(cid, []).append([tag, anchor, u['text'].strip(), kind, nth, u.get('en')])
+    placed_lat.append((cid, tag, anchor)); mirrored = False
+    if kind == 'n':                                                    # mirror the Scripture locator into the English S note
+        refs = migne_refs(u['text'])
+        for no, t in card_notes(cid).items():
+            if (cid, no) in used_s or not t.lstrip().startswith('S'): continue
+            sr = s_refs(t)
+            if any(a[0] == b[0] and a[1] == b[1] and abs(a[2] - b[2]) <= 2 for a in refs for b in sr) or \
+               any(a[0] == b[0] == 'ps' and abs(a[1] - b[1]) <= 1 and abs(a[2] - b[2]) <= 1 for a in refs for b in sr):
+                used_s.add((cid, no)); app['english'].setdefault(cid, {})[no] = u['text'].strip(); mirrored = True; break
+app['unplaced'] = keep_unplaced
 json.dump(app, open(f'{T}/notes/APPARATUS.json', 'w'), ensure_ascii=False, indent=1)
+if latin:
+    cand = [n for n in notes if n.get('column') == 'latin' and any(int(n['page'][2:]) in r for r in LCH.values())]
+    nplaced = sum(len(v) for v in app['latin'].values())
+    print(f'LATIN PASS: {len(cand)} Latin-column records on the so-019/020/021 pages | placed {nplaced} '
+          f'({ {c: len(v) for c, v in app["latin"].items()} }) | mirrored into English {sum(len(v) for v in app["english"].values())} | dropped {sum(1 for p in placed_lat if str(p[0]).startswith("dropped"))}')
+    print('  not located (-> cruces):')
+    for u in app['unplaced']:
+        if any(int(u['page'][2:]) in r for r in LCH.values()): print('   ', u['page'], u.get('marker'), u.get('column'), (u.get('text') or '')[:70])
 print('notes', len(notes), '(dropped exact duplicates:', dups, ')')
 print('greek placed-candidates', sum(len(v) for v in app['greek'].values()), '| unplaced', len(app['unplaced']),
       Counter(u.get('series') for u in app['unplaced']))

@@ -103,7 +103,46 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3200** · …to shepherd the flocks of Christ here … — T. The Greek breaks off at ποίμνια… and resumes at ..πᾶσαν, with a stray η between, so Migne prints a gap here. The Latin column continues where the Greek stops: *ut discretionis ac scientiae praesidio muniti, a caulis ovium … furentes et insidiantes lupos arceamus, populumque nobis commissum periculi immunem Creatori praesentemus, pro laboribus nostris ab aequissimo judice mercedem munifice recepturi*. That clause is not translated, because it is not in the Greek.
 - **3200** · …Lord, and pray for me, most holy brother. — T. The salutation turns to the singular (ἐῤῥωμένος … ὑπερεύχου μου, ἁγιώτατε ἀδελφέ), the first singular address in the Letter. The English imperative shows no number, so "pray" is kept and the honorific "you" is not broken.
 
-## Chunk 0007 (so-007)
+## Chunk 0007 (so-019)
+
+- **3201** · …which had then fallen on the Lord's Day.* — T. The printed heading: *S. Sophronii archiepiscopi Hierosolymitani in Christi Servatoris natalitia, quae tum in Dominicam diem inciderant, Oratio*; Migne's note calls (1) and (2) in it are not reproduced. Latin only: this is Mai's Latin of a Greek Migne does not print, and every term below stands for a Greek we cannot see.
+- **3201** · …goodness, and our land shall yield her fruit. — S. Ps 84:11–13 (LXX), as printed: the Latin has *Dominus noster Jesus Christus* in v. 13, where the psalm has only "the Lord"; the gloss is the preacher's (or his editor's), not the psalm's.
+- **3201** · …thou call this light the Lady of days, — T. *dierum Dominam*: a play on *Dominica*, the Lord's Day, on which this Christmas fell; "Lady" keeps the feminine.
+- **3201** · …divine rising of God the Best and Greatest? — T. *Dei Optimi Maximi*: Mai's classicizing title, probably for a Greek superlative of God; kept literally here and at col. 3206.
+- **3203A** · …his vast goodness, heal him that was struck. — S. Cf. Job 5:18; Deut 32:39.
+- **3203A** · …on earth peace to men of good will.» — S. Luke 2:14; the hymn recurs as a refrain through the oration, sometimes in « », sometimes not, as printed.
+- **3203A** · …contemplate the glory of God with unveiled face. — S. Eph 2:14 (*medium parietem maceriae*); 2 Cor 3:18.
+- **3203A** · …he rejoice in the destruction of the living» — S. Wis 1:13; the parenthesis "since he is most good" is the preacher's.
+- **3203A** · …thy victory? where, O hell, is thy sting?» — S. 1 Cor 15:55, with *inferne* ("hell") in the second member, as in Hos 13:14.
+- **3203A** · …riches of the wisdom and power of God!» — S. Rom 11:33, where the apostle has "knowledge" (*scientiae*); the Latin as printed reads *potentiae*, "power".
+- **3204** · …before, he brought us forth out of nothing. — T. Text at the head of col. 3204 restored after a scaffold fix (coordinator, 2026-11-05).
+- **3204** · …he may become a partaker of the Godhead? — T. *divinitas* is rendered "Godhead" throughout (the glossary's θεότης), as the Christological passages require.
+- **3204** · …himself of his own accord as food. Who — T. *Ecquis euchobruto illo alimento*: a garbled token; read as *Ecquis enim bruto illo alimento* ("brutish fodder", the beasts' food of the manger set against the divine food). Image check.
+- **3205A** · …the divine Magi too, and greatly esteem them; — T. Text at the head of col. 3205 restored after a scaffold fix (coordinator, 2026-11-05).
+- **3205A** · …familiarly than to demand of any at all). — S. Matt 2:1–12; the gifts, Matt 2:11.
+- **3205A** · …off and hobbled by fear of the Saracens; — P. At Christmas 634 the Arab armies held the country round Jerusalem, and the road to Bethlehem was closed; the preacher calls them Saracens, Agarenes (from Hagar) and Ismaelites.
+- **3205A** · …we do not look on them from afar), — T. The first letter of *(?ec enim a longinquo illa aspicimus)* is damaged on the copyA plate (it reads most like *r*; no second witness has been consulted), so the negative is read *nec enim* by the sense: Bethlehem is near (*vicinam habemus*, col. 3206), so "we do not look on them from afar". The negative rests on that reading.
+- **3206A** · …would bring gifts to God with the Magi, — T. Text at the head of col. 3206 restored after a scaffold fix (coordinator, 2026-11-05).
+- **3206A** · …which barred the approach to such a place, — S. Gen 3:24.
+- **3207** · …once also the shepherd of this flock, dead, — S. Jas 2:17, 26. James the brother of the Lord was by tradition the first bishop of Jerusalem: hence "shepherd of this flock".
+- **3207** · …adorn faith with works as with certain wings, — T. Migne prints *quasi aliis quibusdam* (plate, 2026-11-05); read *alis*, "wings", to answer *pennis* in the next clause.
+- **3207** · …ye do the things which I command you.» — S. Matt 7:21; John 14:15; John 15:14.
+- **3207** · …life, he joined to himself according to hypostasis, — T. *secundum hypostasin adjunxit*: καθ᾿ ὑπόστασιν, "according to hypostasis". S. Leo, *Tome* (Ep. 28); Cyril, Second Letter to Nestorius.
+- **3207** · …our salvation, both had a conception without seed — T. Migne prints *similis expertem conceptionem* (plate, 2026-11-05); read *seminis*, "without seed", which the parenthesis (no cooperation of a man) explains.
+- **3208** · …and nonetheless showed her openly to be Theotokos. — T. *Deiparam*: Theotokos (Θεοτόκος), transliterated as across the work to keep it apart from "Mother of God"; *Dei Genitrix* (col. 3212) likewise.
+- **3208** · …share in any change, confusion, cutting and division. — T. *mutationis, confusionis, sectionis, et divisionis*: change, confusion, cutting, division (τροπή, σύγχυσις, τμῆσις, διαίρεσις, as the glossary has them); four nouns, kept four.
+- **3208** · …were most poor, might attain his immortal riches? — S. 2 Cor 8:9.
+- **3208** · …whom no sin falls, made sin for us: — S. 2 Cor 5:21; "likeness of sinful flesh", Rom 8:3.
+- **3208** · …free, and was mighty as natural Lord , — T. Migne prints *nateralisque Domini polleret* (plate, 2026-11-05); read *naturalisque*. With *Domini* as printed the genitive has nothing to govern it (*dominio*? *jure*?). Rendered by the sense, "mighty as natural Lord".
+- **3209A** · …befall God to be frustrated of his purpose. — T. Text at the head of col. 3209 restored after a scaffold fix (coordinator, 2026-11-05).
+- **3209A** · …the feast day of this so great Deity, — T. *numinis*: "Deity", kept apart from *divinitas*, "Godhead".
+- **3209A** · …was by no means permitted to enter there. — S. Deut 34:1–5; Num 20:7–12. The Latin says *Deum non benedixit*, "he did not bless God", where Num 20:12 has "ye did not sanctify me".
+- **3209A** · …likened, wretchedly enough, on this day's light ; — T. *Adamo tantum … assimilamur: verum Davidis quoque*: the *verum … quoque* expects "not only to Adam", but the print has no negative; the English follows it. A lost *non* (or *Nec*) is possible; image check.
+- **3210** · …fount of water springing up into life eternal.» — T. Text at the head of col. 3210 restored after a scaffold fix (coordinator, 2026-11-05).
+- **3211** · …that went, and the peril of their souls?» — S. 2 Sam 23:16–17 (the "Kingdoms" are 1–4 Kgs in the Greek and Latin numbering).
+- **3212** · …standing in this divine temple of the Theotokos, — T. *in divino hoc Dei Genitricis templo*: "this divine temple of the Theotokos"; the church is not named further.
+
+## Chunk 0008 (so-007)
 
 - **3217** · …of Sophronius, patriarch of Jerusalem, among the saints.* — T. The printed heading: Τοῦ ἐν ἁγίοις πατριάρχου Ἱεροσολύμων Σωφρονίου λόγος εἰς τὸν Εὐαγγελισμὸν τῆς
 - **3217** · …Jerusalem, among the saints.* Give the blessing, Father. — T. Εὐλόγησον, Πάτερ: the reader's request for the blessing before the homily, a liturgical formula
@@ -125,7 +164,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3228** · …as children of the light and light-nurtured offspring, — S. Eph 5:8; 1 Thess 5:5, children of light.
 - **3228** · …of the will of man, but of God.» — S. John 1:12–13, as printed.
 
-## Chunk 0008 (so-008)
+## Chunk 0009 (so-008)
 
 - **3229** · …the image and likeness of his own goodness, — S. Gen 1:26–27; that the image and likeness are "of his own goodness" is Sophronius's.
 - **3229C** · …Since also «whosoever exalteth himself shall be humbled», — S. Luke 14:11; 18:14.
@@ -141,7 +180,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3237D** · …Mother of God, born out of all creation. — T. γεγεννημένη, "born", as Migne prints it (plate check); the Latin *sola ex omnibus creaturis Dei mater effecta es* read γεγενημένη, "become".
 - **3240B** · …thee puts on the form of a servant, — S. Phil 2:7, μορφὴν δούλου λαβών.
 
-## Chunk 0009 (so-009)
+## Chunk 0010 (so-009)
 
 - **3240** · …souls, and making truce with the abominable Greeks); — P. Origen, Didymus the Blind and Evagrius Ponticus, whose teaching on the pre-existence of souls was
 - **3241A** · …lesser share of brightness. «God is with thee»: — T. Θεὸς μετὰ σοῦ: the preacher varies the verse (Luke has ὁ Κύριος), and Θεὸς ἐκ σοῦ follows it;
@@ -158,7 +197,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3249A** · …inspired heat, and with it a light-living brilliance. — S. Ps 18:5–7 (LXX): the tabernacle, the bridegroom from his chamber, the giant's course from heaven's
 - **3252A** · …of his kingdom there shall be no end.» — S. Luke 1:31–33.
 
-## Chunk 0010 (so-010)
+## Chunk 0011 (so-010)
 
 - **3252** · …«Behold, thou shalt conceive in the womb» — S. Luke 1:31. The section (29.) opens in so-009 with the same verse; this chunk enters in mid-section.
 - **3252D** · …from another, but bestowing salvation on all men. — T. The last line of the column, δωρούμενον ("bestowing", band D), was dropped by the OCR and restored from the page image (coordinator, 2026-11-05; `RESTORED-LINES.tsv`). The Latin has *salutem omnibus hominibus conferentem*.
@@ -177,7 +216,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3264A** · …the will of a man and of flesh; — S. John 1:13.
 - **3264A** · …God will newly work in thee; another fashioning — T. τὴν ἀπότευξιν: the word means "failure" and cannot stand. The Latin's *exstructionem* takes it from τεύχω ("make"), so Ballerini read the same letters; a word for delivery (ἀποκύησιν?) would answer σύλληψιν in the doublet. English follows the Latin's sense, marked.
 
-## Chunk 0011 (so-011)
+## Chunk 0012 (so-011)
 
 - **3264** · …of God all things have come to be;» — S. Cf. John 1:3; Ps 32:6 (LXX); the wording is not a verse as it stands.
 - **3265A** · …thee, the undefiled, «as rain upon a fleece,» — S. Ps 71:6 (LXX), ὡς ὑετὸς ἐπὶ πόκον.
@@ -195,7 +234,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3273A** · …let himself down into so great an emptying, — S. Phil 2:7.
 - **3273A** · …born holy shall be called Son of God.» — S. Luke 1:35.
 
-## Chunk 0012 (so-012)
+## Chunk 0013 (so-012)
 
 - **3276A** · …all things, and «in him all things consist» — S. Col 1:17.
 - **3276A** · …Gabriel, brought to interpretation, declares God and man. — P. Gabriel read as *gever* ("man") + *El* ("God"): the name taken to say "God and man" of the child, not "man of God" as usually rendered.
@@ -212,7 +251,46 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3285B** · …enriched to cry and to shout, «Abba, Father.» — S. 1 Cor 15:45–47; Rom 8:15; Gal 4:6.
 - **3288A** · …spirit you have willing, but the flesh weak; — S. Matt 26:41.
 
-## Chunk 0013 (so-013)
+## Chunk 0014 (so-020)
+
+- **3287** · …Bollandists, Acta Sanctorum, February, vol. I, p. 274.* — T. Heading *Oratio de Hypapante sive occursu Domini*; source line *Ex ms. Graeco Mediceo Regis Franciae. Edid. Bollandist. Act. Sanct., Februar. t. I, p. 274*, restored after a scaffold fix (coordinator, 2026-11-05). The translation is of the Bollandists' Latin.
+- **3289A** · …foretold, where God is born in the flesh — T. Migne prints points here (`(3) .. . .`), apparently marking a gap in the manuscript, keyed to note 3; rendered […]. The clause after it ("where God, working miracles, passed his life") lacks its place-name.
+- **3289A** · …and the sides of the north are foreshown, — S. Ps 47:3 (LXX), "Mount Sion, the sides of the north".
+- **3289A** · …comprehended, is unto salvation to everyone that believes.» — S. Rom 1:16; "which cannot be comprehended" is not in the verse and stands as printed.
+- **3289A** · …bring forth the ineffable might of the Godhead? — T. *Numinis*, "of the Godhead"; the Latin's word is *numen*, not *divinitas* or *deitas*.
+- **3290** · …knife of the leather-cutter's craft has mown down, — T. The fisherman's reed is Peter's (or the apostles') pen; the leather-cutter's knife is Paul the tentmaker's (Acts 18:3). *demessui!* read as *demessuit* (see table).
+- **3290** · …her, lately honoured mystically on a festal day. — T. *atque hanc nos … coluimus*: *hanc* takes *matrem* grammatically ("her"); the sense may be the Nativity itself, kept "lately" with a festal day before the eighth-day Circumcision.
+- **3291** · …raves — another who did not go forth, — T. *Filium ait esse alium, qui processerit, in alioque ,delirat, qui non processerit*: *in alioque* read as *aliumque* ("and another"), *delirat* parenthetic. The two Sons of the Nestorian charge.
+- **3291** · …mystery of Christ would be a bare shadow, — T. *et nuda umbra hoc Christi esset mysterium*, "a bare shadow": the plate prints *nuda* (image check 2026-11-05); the scaffold's *nula* was a misread d.
+- **3291** · …of those whose union was made in hypostasis. — T. *quorum in hypostasi facta est conjunctio*: the hypostatic union; the Latin's *conjunctio* rendered "union" (the glossary's "conjunction" is Nestorius's pejorative word, which this is not). *substantiam* = essence (glossary).
+- **3291** · …no one be slow to the divine meeting; — T. *taret* is not a word; *tardet* ("be slow") is read by sense and the run of the anaphora.
+- **3292** · …together, and receive that bright and everlasting light — T. *lavemque illam claram ac sempiternam excipiamus*: *lavem* read as *lucem*; *lampadem* is the other candidate. Image check.
+- **3293** · …and admitted into the arms of the mind, — T. *con-|speximus, ac visa Dei præsentia ulnisque mentis admissa*: text restored after a scaffold fix (coordinator, 2026-11-05).
+- **3293** · …declare that she who bears is properly Theotokos. — T. *Deiparam* = Theotokos (glossary); *Dei Mater* elsewhere = Mother of God.
+- **3294A** · …men demanded, this was written in humbler wise, — T. *humilius hoc con-|scriptum est, vel maxime ob te amentiamque tuam*: text restored after a scaffold fix (coordinator, 2026-11-05).
+- **3294A** · …and the bond of the law were loosed. — S. Luke 2:26; "and the bond of the law were loosed" is the preacher's addition, inside the indirect speech.
+- **3294A** · …out of old (both Galilee of the nations — S. Isa 9:1; Matt 4:15.
+- **3295** · …and the Apollinarii, the Severi and the Dioscori, — T. The names stand in the plural (*Eunomii et Eudoxii … Apollinarii, Severi ac Dioscori*): "men of the stamp of" each. Eunomius and Eudoxius (Anomoean Arians), Asterius (the Arian sophist), Apollinarius, Severus and Dioscorus.
+- **3295** · …wretched and truly headless gangrene of the Acephali. — P. The Acephali: the Monophysites "without a head", who refused communion with any patriarch after 482.
+- **3295** · …accept the wretched juggleries of Apollinarius and Polemon. — P. Polemon: a disciple of Apollinarius, founder of the Polemians, who taught the flesh consubstantial with the Godhead.
+- **3295** · …the Father in eternity, but, as they supposed, — T. *Deum exstitisse rati*: the plate prints *rati*, "supposing" (image check 2026-11-05); the scaffold's *tali* was a misread r.
+- **3296** · …and with the aged woman and prophetess Anna — T. *Et si quidem … repellantur, ut nos … eamus, eumque … excipiamus* has no main clause; the next sentence opens with *Ambo enim*. The anacoluthon is kept.
+- **3296** · …us sing to the Lord a new song.» — S. Ps 95:1, 97:1 (LXX); "for he has done wonderful things", Ps 97:1.
+- **3296** · …says, «has saved him, and his holy arm.» — S. Ps 97:1 (LXX), "his right hand has saved him".
+- **3296** · …destruction from the condition of its own nature) — T. *ex naturæ suæ habitu semper ad interitum vergit*: the plate prints *naturæ suæ habitu*, "from the condition of its own nature" (image check 2026-11-05); the scaffold's *nature sua labitu* was misread.
+- **3297** · …needing salvation at the late coming of Christ, — T. Migne prints *serum adventu Christi* (plate, 2026-11-05); read *sero adventu Christi*, "at the late coming of Christ".
+- **3298** · …for the fall of the sons of bondage, — T. *in ruinam servorum filters*: *filters* read as *filiorum*, "the sons of bondage" (*servorum filiorum*, against *filiorum gratiæ*: Gal 4:22–31). Image check.
+- **3298** · …made from earth, dusty, had an earthly affection. — S. 1 Cor 15:47.
+- **3299** · …for a sign which shall be spoken against; — S. Luke 2:34.
+- **3299** · …Christ came forth, the fulfilment of the law; — S. Rom 10:4.
+- **3299** · …is Jesus: since Jesus too is interpreted Saviour. — S. Matt 1:21.
+- **3300** · …did he offer one pair of either kind, — S. Lev 12:8; Luke 2:24.
+- **3300** · …simplicity and emptiness of malice, Christ calls simple; — S. Matt 10:16.
+- **3300** · …the Lord and the end of the flood, — S. Gen 8:11.
+- **3301** · …when to Noah, the second begetter of life — T. *secundum ab auctore generis Adamo vit genitorem*: *vit* read as *vitæ*, "begetter of life"; image check.
+- **3301** · …«Be still, and see that I am God,» — S. Ps 45:11 (LXX).
+
+## Chunk 0015 (so-013)
 
 - **3301** · …RESURRECTION *An oration of Sophronius, archbishop of Jerusalem.* — T. The printed heading: Σωφρονίου ἀρχιεπισκόπου Ἱεροσολύμων λόγος εἰς τὴν ὕψωσιν τοῦ τιμίου σταυροῦ, καὶ εἰς τὴν ἁγίαν ἀνάστασιν. The fixed title stands in capitals; the attribution clause follows in italics. The facing Latin column on this page (3302) is the close of Or. III (§§ 21–23), not this oration.
 - **3301C** · …«tore up the handwriting that was against us,» — S. Col 2:14, τὸ καθ᾿ ἡμῶν χειρόγραφον; Paul's ἐξαλείψας ("blotted out") is here ἔῤῥηξε, "tore up".
@@ -246,7 +324,44 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3316** · …operations, attain, and become worthy beholders and worshippers, — T. ἧς (feminine) is taken with ὁδόν above, "this good and kindly road"; the Latin's *quarum* refers it to the sufferings.
 - **3316B** · …for the enjoyment of those eternal good things; — T. εἰς ἀῤῥαβῶνα μὲν … εἰς ἀπόλαυσιν μὲν: the second μέν looks like δέ (Latin *quidem … vero*, and it adds *in typum*). Image check.
 
-## Chunk 0014 (so-014)
+## Chunk 0016 (so-021)
+
+- **3315** · …*Theodore Peltanus translator. Compare Biblioth. Concionat. VIII, 226.* — T. The printed heading: *Sophronii Hierosolymorum episcopi, sanctorum Archangelorum, et Angelorum, caeterarumque caelestium Virtutum Encomion. Interprete Theodoro Peltano. — Compar. Biblioth. Concionat. VIII, 226.* Migne prints the piece in Latin only, in the version of the Jesuit Theodore Peltanus (16th c.); the Greek he rendered is not on the page, so this English translates a translation. "Biblioth. Concionat." is presumably Combefis's *Bibliotheca Patrum concionatoria*. The heading calls Sophronius *episcopus*, not *patriarcha*.
+- **3315** · …order. O Seraphim, who, adorned with six wings — S. Isa 6:2. The Seraphim stand first of the nine orders as in Dionysius, *Celestial Hierarchy* 6–7.
+- **3315** · …infinite splendour of that threefold and single principality, — T. *trini unicique principatus illius, numeris omnibus absoluti*: "that threefold and single principality", the Trinity as source (Greek probably θεαρχία). The "secondary lights" received "without any medium" are Dionysian (*Celestial Hierarchy* 7.1).
+- **3316** · …designated by the names of burners and warmers, — S. *incensorum et calfactorum nominibus*: Dionysius, *Celestial Hierarchy* 7.1, where "Seraphim" is glossed as "kindlers" and "warmers" (ἐμπρηστὰς καὶ θερμαίνοντας).
+- **3316** · …O you Cherubim, full of eyes and four-formed, — S. Ezek 1:10, 18; 10:12; Rev 4:6–8. "Fountains and springs of knowledge": Dionysius, *Celestial Hierarchy* 7.1 (Cherubim = fullness of knowledge, outpouring of wisdom).
+- **3316** · …and the resting-place of God, Best and Greatest, — T. *Dei Opt. Maximi*: the Latin translator's Roman formula (*Deus Optimus Maximus*), rendered as printed.
+- **3317** · …to the last breath of life. O Powers, — T. The orders as the Latin names them: *Throni* Thrones, *Dominationes* Dominions, *Potestates* Powers, *Virtutes* Virtues, *Principatus* Principalities (Col 1:16; Eph 1:21). The title's "the other heavenly Powers" renders *caeterarumque caelestium Virtutum*, where *Virtutes* is the generic word (δυνάμεις); in the catalogue it is the order of Virtues, kept distinct from *Potestates*, the order of Powers.
+- **3317** · …manfully and trample those spiritual serpents and scorpions. — S. Luke 10:19.
+- **3317** · …are set over the third choir of angels: — T. *tertio angelorum choro praelati*: the Principalities head the third (lowest) hierarchy of Dionysius, *Celestial Hierarchy* 9.
+- **3317** · …wast once the leader of the Jewish people, — S. Dan 10:21; 12:1; Michael as captain of Israel, cf. Exod 23:20–23.
+- **3317** · …hand, they will swoon for fear and horror. — S. The trumpet: 1 Thess 4:16; Matt 24:31. The signs: Rev 6:12–17 (sun black as sackcloth of hair, moon as blood, stars as unripe figs shaken by the wind, heaven rolled up as a book, every mountain and island moved, the great and mighty); Isa 34:4; Joel 2:31; Matt 24:29; gnashing of teeth, Matt 8:12.
+- **3318** · …to the punishments that are appointed for them; — S. 1 Cor 15:52; Rev 20:13; 1 Thess 4:17.
+- **3318** · …thou art to give: then, O holy arch-satrap, — T. *archisatrapa*: Peltanus's word, very likely for ἀρχιστράτηγος, "chief captain", Michael's standing title (cf. Josh 5:14 LXX); rendered literally.
+- **3318** · …the tabernacle of Moses from the bloodthirsty enemy, — S. The crossing: Exod 14:19. "Jesus Nave" is Joshua son of Nun (LXX Ἰησοῦς Ναυή), Josh 5:13–15. T. *Moysi tabernaculum a sanguinario hoste liberasti*: probably Michael's contest with the devil over the body of Moses (Jude 9), "tabernacle" being the body (2 Pet 1:13–14); rendered as printed.
+- **3318** · …out a foul smell and are wholly rotting; — S. Heb 12:12 / Isa 35:3 (the slack hands); Ps 37:6 (LXX), *putruerunt et corruptae sunt cicatrices meae*.
+- **3318** · …labours. Again, Michael in deed and in name, — T. *re et nomine Michael*: the name means "Who is like God?"; the prayer calls him Michael in fact as well as in name.
+- **3318** · …and of the sound of those keeping festival.» — S. Ps 16:8 (the covering of the wings); Ps 41:5 (LXX), as printed: the Latin's *soni festum celebrantium* for the Vulgate's *sonus epulantis*.
+- **3318** · …it was held, and didst make it fruitful, — S. Ezek 1:1–3 (the vision at the river Chobar; Gabriel's part in it is the author's, cf. Dan 8:16); Luke 1:7–24 (Elisabeth).
+- **3319** · …fruitful, flood my unhappy and afflicted soul too — T. *meam quoque infelicem afflictamque animam*: words restored after a scaffold fix (coordinator, 2026-11-05).
+- **3319** · …sacred and most pure Lady, the Theotokos Mary, — S. Luke 1:26–38. *Dominae nostrae Genitricis Dei Mariae*: *Dei Genitrix* rendered Theotokos (house rule for the Latin). The torn garment of mourning: Ps 29:12; Isa 61:3.
+- **3319** · …manifold, unspeakable swiftness, essence that cannot be circumscribed, — T. *substantia quae circumscribi nequit*: *substantia* taken for οὐσία, "essence" (house rule), here of the angelic order.
+- **3319** · …all; you are winds, and spirits, and waters, — T. *et aquæ*, "and waters": the plate prints *et aquæ* (image check 2026-11-05); the scaffold's *f et aqui* was a bracket mark and a misread æ.
+- **3319** · …and images, and sailors, and ships, and pilots. — S. The catalogue draws on Dionysius, *Celestial Hierarchy* 15 (winds, horses, clouds, mirrors and images, the bearing of sceptres and rods), and on Ps 103:4 and Heb 1:14 ("ministers"). *libripendes* (scaffold *libri-peniles*) are "weighers".
+- **3319** · …alone is he upon whom no change falls); — S. Jas 1:17.
+- **3320** · …are adorned with such and so great glory, — T. *Cum igitur tali tantaque gloria sitis exornati*: words restored after a scaffold fix (coordinator, 2026-11-05).
+- **3320** · …to go out of this vessel of clay, — S. 2 Cor 4:7.
+- **3320** · …me, friends, for I have found the sheep» — S. Luke 15:4–7; the sheep "in the mountains" is Matt 18:12.
+- **3320** · …the dreadful Judge stands at the very threshold; — S. 2 Pet 3:10–12; Ps 96:5 (the elements as wax); 1 Cor 7:31 (the fashion of this world); Jas 5:9 (the Judge at the doors).
+- **3321** · …and of punishing in which you are strong): — S. Dionysius, *Celestial Hierarchy* 15.5 (the sceptres, rods and spears the angels carry).
+- **3321** · …that lacks all grief and wants for nothing, — T. *vieque* read as *vitaeque*, "and of the life"; *viaeque*, "and of the way", is the other possibility. Image check.
+- **3321** · …had first been taken up and brought forth. — S. Gen 1:26; 2:7; Ps 8:6; Gen 3:1–19, 23 (the sweat, 3:19).
+- **3322** · …image, and seal, and Son, and expressed form. — S. *peculium*: Exod 19:5; *character … imago … forma*: Heb 1:3; Col 1:15; Phil 2:6–7. T. *terminus* rendered "boundary"; it probably stands for ὅρος ("definition" of the Father).
+- **3322** · …which had been brought on through the tree. — S. Matt 27:34; John 19:34; Gal 3:13; Gen 3:17.
+- **3322** · …Bridegroom, make us hear the voice of blessing. — S. Matt 25:10 (the closed door of the bridal chamber), 25:33–34 (the right hand, the blessing).
+
+## Chunk 0017 (so-014)
 
 - **3321** · …of the Word, the running of the word, — S. John 1:23 (φωνή), 5:35 (ὁ λύχνος). The play Λόγου Πρόδρομε, τοῦ λόγου τὸν δρόμον ("Forerunner of the Word … the running of the word") is kept.
 - **3321** · …and more than all that are our own. — T. κατὰ χρέος πατρῷόν τε καὶ ἰδικῶν πάντων πλέον, as printed: the τε … καί joins "by an ancestral debt" to "more than all our own". The isolated line πατρῴων (p0275.09) is a foot-of-page variant for πατρῷον; with it the phrase would read "more than all ancestral and personal [saints]", which the Latin follows (*majora tibi … quam patribus et coaetaneis tuis*). English follows the printed text.
@@ -273,7 +388,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3329A** · …the death that follows on old age , — T. καὶ τοῦτο γήρᾳ παρεπομένου θανάτου τὸν ἄδετον does not construe (τοῦτο, ἄδετον "unbound"); the Latin gives only *ne morte senectutem insequente*. Something like τὸ … ἄδηλον ("the uncertainty") may stand behind it. Image check.
 - **3329A** · …and the Father, for us men, unto slaughter. — S. Luke 1:8–9 (the course, κατὰ τὴν τάξιν τῆς ἐφημερίας); Heb 9:7; Isa 53:7. Zacharias's entry is put "into the Holy of Holies" as printed.
 
-## Chunk 0015 (so-015)
+## Chunk 0018 (so-015)
 
 - **3329** · …the Word with the persistence of his prayer, — T. τὸν φύσαντα προσδεχθεὶς τῇ ἐπιμονῇ τῆς δεήσεως: προσδεχθείς ("having been received") does not take τὸν φύσαντα; the Latin's *genitorem continuis efflagitabat precibus* reads a verb of asking (προσδεηθείς?). Image check. τὸν φύσαντα, "the Begetter", is the Father.
 - **3329** · …tidings of the right hand and from heaven. — S. Luke 1:11. The play δεξιὸν τοῦ θυσιαστηρίου … ἀγγελίαν δεξιάν ("at the right … tidings of the right hand", i.e. of good omen) is kept.
@@ -306,7 +421,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3337A** · …I think, underwent an ecstasy like that Isaac, — S. Gen 27:33, ἐξέστη δὲ Ἰσαὰκ ἔκστασιν μεγάλην.
 - **3337A** · …and the unbelief of those under the law — T. Migne prints τὸν ὑπὸ νόμον, a masculine singular with no construction beside τὸ ἄπιστον; "of those under the law" is our conjecture against the printed text (τῶν ὑπὸ νόμον), from the answering τῶν ὑπὸ χάριν ἐθνῶν τὸ πιστόν.
 
-## Chunk 0016 (so-016)
+## Chunk 0019 (so-016)
 
 - **3337B** · …fruit, according to that divine and God-wrought voice. — S. Matt 12:33; 7:18; Luke 6:43–44.
 - **3337B** · …on seeing the blessed Virgin come to her, — T. ἀνέλυσε (p0283.29) does not construe with θεωρήσασα … ἀνηγόρευσε, and the Latin has nothing for it (*ut beatam Virginem ad se venientem vidit*). Not rendered: [?]. Image check.
@@ -343,7 +458,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3345B** · …of tongue and of hand, each of them. — T. ἐνέργεια kept "operation" (glossary), here the working of tongue and hand.
 - **3345B** · …willing to confess defeat. At which all wondered; — S. Luke 1:63, καὶ ἐθαύμασαν πάντες.
 
-## Chunk 0017 (so-017)
+## Chunk 0020 (so-017)
 
 - **3345** · …circumcision by faith, and the uncircumcision through faith»: — S. Rom 3:29–30, as printed (ἀληθῶς for Paul's ναί; ὃς δικαιώσει … διὰ τῆς πίστεως). The quotation opens «Ἡ γὰρ,» … «ἢ» (see the table).
 - **3348A** · …grace to both of these, equal and alike. — T. A verbless accusative phrase, in apposition to the radiance "set before all" above; the Latin supplies a verb, *aequalis ergo utrisque et similis apparet gratia Dei*.
@@ -382,7 +497,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **3353B** · …and in some way, obeyed thy holy ordinances; — T. πειθαρχήσαντι is a singular dative agreeing with no stated person, most naturally the preacher. The Latin construes otherwise, making Christ the one who served John's ordinances (*Dicere non audeo Christum … sanctis institutis tuis … inserviret*).
 - **3353B** · …up for thee, and to Jesus our Lord; — T. καὶ Ἰησοῦ τῷ Κυρίῳ ἡμῶν: a dative, read with συναπτόμενοι; the Latin has *in Christo Jesu Domino nostro*. The full stop after ἡμῶν is the machine's (δι᾿ οὗ follows).
 
-## Chunk 0018 (so-018)
+## Chunk 0021 (so-018)
 
 - **3356A** · …apostles, on the fourth day of the Nativity.* — T. The printed heading: Τοῦ ἐν ἁγίοις Πατρὸς ἡμῶν Σωφρονίου ἀρχ(ι)επισκόπου Ἱεροσολύμων εἰς τοὺς ἁγίους Πέτρον καὶ Παῦλον τοὺς μακαρίους ἀποστόλους τῇ δ᾿ ἡμέρᾳ τῶν Γενεθλίων. The scaffold's δ᾿ is read as the numeral δʹ, "the fourth day of the Nativity" (τὰ Γενέθλια, Christ's birth-feast), which § 6 confirms: the apostles keep the fourth festival after Christ's birth, Stephen the third. "The day of their birth" would need αὐτῶν and is not what is printed. The Latin column carries no heading on this page.
 - **3356A** · …himself; he who knows the hearts and reins, — S. Ps 7:10 (LXX); Jer 17:10.
@@ -447,37 +562,6 @@ Migne's foot-of-page apparatus was read for every page (translate/sophronius-ora
 - p. 0211 (numbered, 16): Legendum videtur Psathyrianorum Cyrtianorum, Psathyrianorum Dulianorum, et in Græco : ἡ Ψαθυριανῶν, ἡ Κυρτιανῶν, ἡ Δουλιανῶν, ex Theodoreto l. IV. Hæretic. fab. c. 4. HARD. — keyed to Tatherianorum
 - p. 0211 (numbered, 17): Alibi, Barsanuphitarum. HARD. — keyed to Versunophitarum
 - p. 0212 (numbered, marker illegible): None — keyed to προθέσεσιν
-- p. 0215 (numbered, 1): Psal. LXXXIV, 11-13. — keyed to sunt
-- p. 0215 (numbered, 2): Luc. I, 28. — keyed to tecum
-- p. 0215 (numbered, 3): Luc. II, 10, 11. — keyed to David
-- p. 0215 (numbered, 4): Matth. XXVIII, 9. — keyed to exaudiunt
-- p. 0215 (numbered, 5): Gen. III, 16. — keyed to filios
-- p. 0215 (numbered, 1): Sophronium hunc posteriorem esse priore illo altero cujus ut presbyteri meminit, descripsitque vitam sanctus Hieronymus in Scriptorum ecclesiasticorum catalogo : cum ille sancto Hieronymo σύγχρονος ad tempora Joannis 44 Hierosolymitani pontificis vixerit. Hic vero cum in sua de Christi natalitiis oratione multis agat de immani sævaque tyrannide Saracenorum qui per id tempus oppidum Bethleem occupabant, satis indicat se illum esse Sophronium 62, ac postremum Pontificem Hierosolymitanum, cujus meminit Nicephori Constantinopolitani Chronologia. Pleniora de S. Sophronio Hierosolymitano episcopo suppeditabit tomo VIII Annalium ecclesiasticorum exact. 13, sextæ synodi ex concilio Romano sub S. Martino Papa, secretario 2, tomo III. Ex Theophane in Miscella et aliis. Consule quoque notas ad Romanum Martyrologium 11 Martii. Consignatur obitus sancti Sophronii sub Heraclio imperatore, anno salutis 636, 11 Martii, quo die ejus natalis inter sanctos inscriptus habetur publicis Latinæ et Græcæ Ecclesiæ tabulis. Bibliotheca Patrum, t. XII, 206. — keyed to archiepiscopi
-- p. 0215 (numbered, 2): Attexuntur huic quædam etiam de immani sævaque Saracenorum tyrannide, qui per id tempus oppidum Bethleem, vel occuparant, vel certe obsessum tenebant. — keyed to Oratio
-- p. 0216 (numbered, 6): Gen. III, 19. — keyed to filios
-- p. 0216 (numbered, 7): I Reg. II, 6. — keyed to est
-- p. 0216 (numbered, 8): Luc. I, 14. — keyed to altissimis
-- p. 0216 (numbered, 9): Ephes. II, 14, 15. — keyed to queamus
-- p. 0216 (numbered, 10): Sap. I, 13. — keyed to lætatur
-- p. 0216 (numbered, 11): Osee XIII, 14; I Cor. XV, 55. — keyed to inferne
-- p. 0216 (numbered, marker illegible): Rom. XI, 33. — keyed to divinæ
-- p. 0216 (numbered, marker illegible): Luc. II, 14. — keyed to voluntatis
-- p. 0216 (numbered, marker illegible): Psal. LXXXI, 6. — keyed to omnes
-- p. 0218 (numbered, 15): Jac. II, 17. — keyed to Domini
-- p. 0218 (numbered, 16): Matth. VII, 51. — keyed to cœlo
-- p. 0218 (numbered, 17): Joan. XIV, 12. — keyed to servate
-- p. 0218 (numbered, 18): Joan. XV, 14. — keyed to vobis
-- p. 0218 (numbered, 19): Isa. LIII, 9; I Petr. II, 22. — keyed to ejus
-- p. 0218 (numbered, 20): II Cor. V, 21. — keyed to fecit
-- p. 0219 (numbered, 21): Num. XX, 12. — keyed to est
-- p. 0219 (numbered, 22): Joan. IV, 10 seqq. — keyed to æternam
-- p. 0219 (numbered, 23): II Reg. XXIII, 15. — keyed to portam
-- p. 0219 (numbered, 24): Matth. XIII, 17. — keyed to audierunt
-- p. 0219 (numbered, 25): I Petr. I, 8-12. — keyed to prospicere
-- p. 0220 (numbered, 26): Joan. XV, 13. — keyed to suis
-- p. 0220 (numbered, 27): II Reg. XXIII, 15. — keyed to David
-- p. 0220 (numbered, 28): ibid. 17. — keyed to bibam
-- p. 0220 (unmarked, marker illegible): In codice Græco, quo usus sum, deest orationis epilogus, quem ex chartæ spatio quod reliquum erat, tres aut quatuor periodos excessisse non puto.
 - p. 0221 (numbered, 1): Vid. Præfat. ad tom. X Spicilegii Romani, § 6, pag. VI. — keyed to universim
 - p. 0221 (numbered, 2): Vid. Præfat. ad tom. X Novæ Collectionis veterum scriptorum, § 16, pag. 24. — keyed to doleret
 - p. 0221 (numbered, 3): In tom. III Spicilegii Romani. — keyed to Joannis
@@ -603,64 +687,6 @@ Cæterum aliqua Garnerio excusatio ex eo non defuerit, quod Petavius, quem oppug
 - p. 0257 (numbered, 46): Patet e contextu hæc Sophronii verba ad illud Apostoli spectare (Philipp. III, 20) : Ἡμῶν γὰρ τὸ πολίτευμα ἐν οὐρανοῖς ὑπάρχει, nostra autem conversatio in cœlis est. — keyed to habemus
 - p. 0257 (numbered, 47): Frequentissima apud SS. Patres occurrit comparatio sanctæ Virginis cum terra illa virgine, e qua primus Adam formatus est. Comparationem autem inde et a nobis institui, quod utraque terra purissima fuerit, nec maledictioni subjecta, in Commentario prosequimur. — keyed to virgine
 - p. 0258 (numbered, 42): Matth. xxvi, 41. — keyed to infirmam
-- p. 0258 (numbered, 43.1): I Cor. i, 20. — keyed to sæculi
-- p. 0258 (numbered, 2): I Cor. i, 21. — keyed to credentes
-- p. 0258 (numbered, 3): Rom. xi, 33, 34. — keyed to fuit
-- p. 0258 (numbered, 1): Schola Stoicorum et Peripateticorum. — keyed to Stoa
-- p. 0259 (numbered, 4): Psal. xlvii, 3. — keyed to exsurgit
-- p. 0259 (numbered, 5): Rom. i, 16. — keyed to credenti
-- p. 0259 (numbered, 2): Gymnasium Athenis, in quo docuit Aristoteles. — keyed to Lyceum
-- p. 0259 (numbered, 3): Desunt nonnulla, potissimum de urbe Hierosolymitana. — keyed to nascitur
-- p. 0259 (numbered, 4): De his philosophis agit Laertius in libris De Vitis philosophorum, et passim antiqui. — keyed to Aristagoræ
-- p. 0259 (numbered, 5): Apostolos Petrum et Paulum intelligit : ita eosdem S. Chrysostomus aliique Patres describunt. — keyed to piscatorius
-- p. 0259 (numbered, 6): Græce ταύτην τὴν πόλιν, ubi se degere indicat. — keyed to Hierosolymam
-- p. 0260 (numbered, 6): Joan. iii, 19. — keyed to mundum
-- p. 0260 (numbered, 7): Luc. i, 78. — keyed to alto
-- p. 0260 (numbered, 8): Joan. iii, 19. — keyed to lucem
-- p. 0260 (numbered, 9): Joan. i, 5. — keyed to comprehenderunt
-- p. 0260 (numbered, 10): Joan. i, 9. — keyed to mundum
-- p. 0260 (numbered, 11): Luc. ii, 31. — keyed to Simeon
-- p. 0260 (numbered, 7): Græce, οὔτε συγχέων τὴν ἕνωσιν (potius οὐσίαν) τῶν ἐξ ὧν ἡ καθ᾽ ὑπόστασιν γέγονεν ἕνωσις. — keyed to substantiam
-- p. 0260 (numbered, 8): Græce φωτοφορίας ἀλλότριος, allusione ad cereos qui ferebantur, facta. — keyed to luce
-- p. 0261 (numbered, 12): Exod. xiii, 2 ; Luc. ii, 23. — keyed to vocabitur
-- p. 0261 (numbered, 13): Joan. i, 14. — keyed to est
-- p. 0261 (numbered, 14): Luc. ii, 22. — keyed to eorum
-- p. 0261 (numbered, 15): Luc. ii, 29. — keyed to pace
-- p. 0261 (numbered, 16): ibid. 26. — keyed to dictum
-- p. 0261 (numbered, 17): ibid. 30. — keyed to tuum
-- p. 0261 (numbered, 18): ibid. 31. — keyed to Israel
-- p. 0261 (numbered, 9): Intelligi solam Christi deitatem infra patet, ubi hæretici de ea male sentientes perstringuntur. — keyed to accedit
-- p. 0262 (numbered, 19): Psal. xcvii, 1. — keyed to novum
-- p. 0262 (numbered, 20): Ibid. — keyed to fecit
-- p. 0262 (numbered, 21): Ibid. — keyed to ejus
-- p. 0262 (numbered, 10-11): Eudoxius Arianus Constantinopolitanæ invasor sedis baptizavit Valentem imperatorem, cui se adjunxit Aetius magister Eunomii, dein ab Eudoxio constituti episcopi Cyziceni, quem expulsum apud se Constantinopoli detinuit. Ita Socr. l. IV, c. 1 et 7, et S. Epiphan. hæres. 75, n. 38, qui hæreticis Anomæis annumerat, quorum princeps Eunomius habebatur. — keyed to Eudoxii
-- p. 0262 (numbered, 12): Asterius Sophista in persecutione Maximiani Christianam fidem ejuravit. S. Epiphan. hæres. 76, n. 3. Agunt de eo homine Cappadoce et Ariano, ejusque libris Socr. l. I, c. 24 ; Sozom. l. II, c. 31 ; S. Athanasius De Synodo, aliique. — keyed to Asterii
-- p. 0262 (numbered, 13): Apollinaris Laodiceni hæreses describit Epiphan. hæresi 77, n. 22 ; scilicet Christum corpus e cœlo detulisse, animam non assumpsisse, corpus divinitati consubstantiale fuisse. Agit de eo Sozomen. l. VI, c. 25, et alii : eum S. Damasus papa Romæ in synodo damnavit anno 373. — keyed to Apollinarii
-- p. 0262 (numbered, 14): Severus sedem Antiochenam expulso S. Flaviano per vim invasit anno 513, ex secta Acephalorum, oppugnator concil. Chalcedonensis. Coluntur SS. Flavianus, et Elias tunc quoque per ipsum e sede Hierosolymitana pulsus, 4 Julii. — keyed to ac
-- p. 0262 (numbered, 15): Dioscorus episcopus Alexandrinus patronus Eutychetis, cum eo in concilio Chalcedonensi damnatus. De eo agemus 18 Febr. ad Vitam S. Flaviani episcopi Constantinopolitani, ab ejus factionis hominibus in exsilium pulsi. — keyed to Dioscori
-- p. 0262 (numbered, 16): Cum Petrus Moggus in sedem Alexandrinam anno 482 receptus, Henotico Zenonis imperatoris admisso, Catholicos simul et hæreticos offendisset, Eutychiani plures ab utrisque deficientes, Acephali, id est, sine capite sunt appellati : in varias mox sectas divisi. — keyed to Acephalorum
-- p. 0262 (numbered, 17): Polemonem ex scriptis Apollinarii ansam nactum, dixisse in Christo substantiarum confusionem factam, et commistionem divinitatis et corporis tradit Theodoretus, l. IV Hæret. fabul. cap. 9. — keyed to Polemonisque
-- p. 0262 (numbered, 18): Ebion princeps hæresis, quæ Christum nudum hominem appellavit, contra quem et Cerinthum S. Joannes suum Evangelium scripsit. Agunt de eo Theodoretus in compendio hæreticarum fabularum, earumque lib. II, cap. 1 ; S. Epiphanius hæresi 51, aliique. — keyed to Ebiones
-- p. 0262 (numbered, 19): De Paulo Samosateno agit S. Ephræm Syrus in Testamento quo Bardesanem strenue confutatum esse tradit Theodoretus lib. I Hær. fab., cap. 22 ; de hoc etiam agit S. Epiphanius hæresi 22. — keyed to Samosatenii
-- p. 0263 (numbered, marker illegible): I Cor. v, 7. — keyed to conspersio
-- p. 0263 (numbered, marker illegible): Psal. xcvii, 1. — keyed to ejus
-- p. 0263 (numbered, marker illegible): ibid. 3 — keyed to suam
-- p. 0263 (numbered, marker illegible): Luc. ii, 29. — keyed to pace
-- p. 0263 (numbered, 26): ibid. 50. [glyph before 0 reads like 5; context Luc. ii, 30] — keyed to Israel
-- p. 0263 (numbered, 27): ibid. 34. — keyed to Israel
-- p. 0263 (numbered, 28): Joan. i, 12. — keyed to confert
-- p. 0263 (numbered, 29): Luc. ii, 35. — keyed to gladius
-- p. 0264 (numbered, marker illegible): Luc. ii, 35. — keyed to contradicetur
-- p. 0264 (numbered, 31): Rom. i, 16. — keyed to est
-- p. 0264 (numbered, marker illegible): Psal. xcvii, 2. — keyed to lex
-- p. 0264 (numbered, marker illegible): Matth. xxiii, 4. — keyed to importabilia
-- p. 0264 (numbered, 34): Matth. xi, 30. — keyed to portatu
-- p. 0264 (numbered, marker illegible): Luc. ii, 38. — keyed to Israel
-- p. 0264 (numbered, marker illegible): Luc. iii, 7. — keyed to Dei
-- p. 0264 (numbered, 37): II Cor. iii, 6. — keyed to obtemperantem
-- p. 0264 (numbered, marker illegible): Matth. x, 6. — keyed to vocat
-- p. 0265 (numbered, marker illegible): Psal. xl, 11. — keyed to Deus
-- p. 0265 (numbered, 40): Matth. v, 48. — keyed to est
 - p. 0265 (numbered, (1)): Habemus hanc orationem ex bibliotheca Maximi Margunii. Latine versa est jam olim ab Achille Statio, Lusitano, cujus versio, postquam hanc novam confeceram, Roma ad me missa est a R. P. Hieronymo Brunello, Societatis nostræ presbytero. Auctor orationis hujus est Sophronius patriarcha Hierosolymitanus, cujus anniversariam memoriam Græci et Latini agunt 2 die Martii. Græci hoc Elogio : « Sancti Patris nostri Sophr. patriarchæ Hierosolymitani, ex civitate Damasco, multiplici eruditione, divinarum litterarum scientia et pietate insignis. Floruit temporibus Heraclii, cujus anno 19 ad sedem illam evectus est, mortuus anno 28 ejusdem : « Cum, ut inquit Cedrenus, diu multumque adversus Heraclium, et cum eo sentientes Sergium, ac Pyrrhum Monothelitas, decertasset, » et multa scripta Ecclesiæ reliquisset ; inter quæ liber qui Pratum spirituale inscribitur ; Vita Mariæ Ægyptiacæ, varia Encomia in sanctos, duæ homiliæ in crucem ; et Epistola synodica ad Joannem Pontif. Max. et Sergium episcopum Constantinopolitanum. Vide Cedrenum et Zonaram in Heraclio. Habuit Sophronius orationem hanc pridie Exaltationis sanctæ crucis, nempe 13 Septembris ; quo die celebratur Hierosolymis dedicatio templi, quod Anastasis seu Resurrectio vocabatur. Typicum Sabæ, 13 die, Τὰ ἐγκαίνια τῆς ἁγίας Χριστοῦ Θεοῦ ἡμῶν ἀναστάσεως · Dedicatio sanctæ Christi Dei nostri Resurrectionis. Et de hac resurrectione loquitur in tota hac oratione Sophronius ; non autem de festo Resurrectionis seu Paschæ. — keyed to oratio
 - p. 0266 (numbered, 1): Coloss. ii, 14. — keyed to disrupit
 - p. 0266 (numbered, 2): Rom. v, 20. — keyed to gratia
@@ -673,15 +699,6 @@ Cæterum aliqua Garnerio excusatio ex eo non defuerit, quod Petavius, quem oppug
 - p. 0268 (numbered, 8): Ephes. ii, 14. — keyed to nostra
 - p. 0268 (numbered, 9): I Cor. i, 30. — keyed to sanctificatio
 - p. 0269 (numbered, 10): Galat. v, 17. — keyed to adversatur
-- p. 0273 (numbered, 1): Psal. xlvi, 2. — keyed to celebrantium
-- p. 0273 (numbered, 2): Ezech. i, 1 seqq. — keyed to Ezechieli
-- p. 0273 (numbered, 3): Luc. i, 36. — keyed to solvisti
-- p. 0273 (numbered, (2)): Vivi tempore judicii in ip… rituros, sed tantum immutand… … continut, non mo… — keyed to momento
-- p. 0274 (numbered, marker illegible): Luc. i, 28. — keyed to imbuisti
-- p. 0274 (numbered, marker illegible): Luc. xv, 6. — keyed to ovem
-- p. 0275 (numbered, 6·7): Esther. xiii, 10. — keyed to condidisti
-- p. 0275 (numbered, 8): Gen. i, 26, 27. — keyed to formasti
-- p. 0275 (numbered, 9): Psal. viii, 6. — keyed to diminutum
 - p. 0275 (asterisk, marker illegible): πατρῴων. — keyed to πατρῴων
 - p. 0278 (numbered, marker illegible): Gen. iii, 19. — keyed to reverteris
 - p. 0279 (numbered, marker illegible): Luc. i, 12. — keyed to irruit
@@ -752,3 +769,74 @@ Cæterum aliqua Garnerio excusatio ex eo non defuerit, quod Petavius, quem oppug
 - p. 0256 (numbered, marker illegible): Nic. pag. 242 omittit hæc εὐαγγέλια, quam deinde vocem ex sequenti inciso et hic et deinceps suffuratur, usque ad πρὸς σάρκα, ubi sermoni abrupto conjungit quæ § 50 occurrunt : Ἆρα μὴ ταπεινή, κ. τ. λ. — keyed to Εὐαγγέλια
 - p. 0258 (numbered, marker illegible): Nic. πᾶσιν. — keyed to πᾶσαν
 - p. 0258 (numbered, marker illegible): Cod. ἀψιχόρως. — keyed to ἀψίχορος
+
+## Migne's notes to the Latin-only orations, in English
+
+Orations I, III and VI survive in Migne only in Latin, so his Latin-column apparatus stands in the Latin text as `[n:]` (a locator) or `[nt:]` (prose). Each prose note is listed here with a **working translation of Migne's note** (a first reading, not yet reviewed), by column and Latin anchor word.
+
+- **3201** · Latin *Sophronii* (so-019) — working translation of Migne's note: That this Sophronius is the later one, distinct from the earlier one whom Jerome mentions as a presbyter and whose life he wrote in his catalogue of ecclesiastical writers (Jerome being a contemporary of the Jerusalem bishop John), is clear: for in this oration on Christ's Nativity he speaks at length of the savage tyranny of the Saracens who at that time held Bethlehem, which shows that he is the Sophronius who was the last Patriarch of Jerusalem and who is mentioned in the Chronology of Nicephorus of Constantinople. Fuller details on St Sophronius will be given in volume VIII of the Annales ecclesiastici (year 13 [sic as printed: exact. 13]), in the acts of the sixth synod from the Roman council under St Martin the Pope (secretary 2, vol. III), from Theophanes in the Miscella, and others. See also the notes to the Roman Martyrology at 11 March. The death of St Sophronius is recorded under Emperor Heraclius, in the year of salvation 636, on 11 March, the day on which his feast is entered among the saints in the public tables of the Latin and Greek Church. Bibliotheca Patrum, vol. XII, 206.
+- **3201** · Latin *Oratio* (so-019) — working translation of Migne's note: Some remarks are also woven into this oration about the savage and monstrous tyranny of the Saracens, who at that time had either occupied the town of Bethlehem or at least held it besieged.
+- **3288** · Latin *Stoa* (so-020) — working translation of Migne's note: The school of the Stoics and Peripatetics.
+- **3289** · Latin *Lyceum* (so-020) — working translation of Migne's note: The gymnasium at Athens in which Aristotle taught.
+- **3289** · Latin *nascitur* (so-020) — working translation of Migne's note: Some things are missing, especially concerning the city of Jerusalem.
+- **3289** · Latin *Aristagoræ* (so-020) — working translation of Migne's note: Laertius treats of these philosophers in his books On the Lives of the Philosophers, and the ancients passim.
+- **3290** · Latin *piscatorius* (so-020) — working translation of Migne's note: He means the Apostles Peter and Paul; so St. Chrysostom and other Fathers describe them.
+- **3290** · Latin *Hierosolymam* (so-020) — working translation of Migne's note: In Greek 'this city' (ταύτην τὴν πόλιν), where he indicates that he is living.
+- **3291** · Latin *tiam* (so-020) — working translation of Migne's note: In Greek: 'neither confounding the union (rather: the substance) of those out of which the union in hypostasis came about'.
+- **3292** · Latin *luce* (so-020) — working translation of Migne's note: In Greek 'a stranger to the light-bearing' (φωτοφορίας ἀλλότριος), the allusion being to the candles that were carried.
+- **3293** · Latin *accedit* (so-020) — working translation of Migne's note: It is to be understood of Christ's divinity alone, as becomes clear below, where heretics who think wrongly about it are rebuked.
+- **3295** · Latin *Eudoxii* (so-020) — working translation of Migne's note: Eudoxius the Arian, usurper of the see of Constantinople, baptised the emperor Valens, to whom Aetius, the teacher of Eunomius, attached himself, and who was afterwards appointed bishop of Cyzicus by Eudoxius, who kept him with himself at Constantinople when he was expelled. So Socrates, book 4, chs. 1 and 7, and St. Epiphanius, heresy 75 [sic, as I read it], n. 38, who reckons him among the Anomoean heretics, whose leader Eunomius was held to be.
+- **3295** · Latin *Asterii* (so-020) — working translation of Migne's note: Asterius the Sophist abjured the Christian faith in the persecution of Maximian. St. Epiphanius, heresy 76, n. 3. Socrates, book 1, ch. 24; Sozomen, book 2, ch. 31; St. Athanasius On the Synod, and others, treat of this man, a Cappadocian and an Arian, and of his books.
+- **3295** · Latin *Apollinarii* (so-020) — working translation of Migne's note: Epiphanius describes the heresies of Apollinaris of Laodicea in heresy 77, n. 22: namely that Christ brought a body from heaven, did not assume a soul, and that the body was consubstantial with the divinity. Sozomen, book 6, ch. 25, and others treat of him: Pope St. Damasus condemned him at Rome in a synod in the year 373.
+- **3295** · Latin *ac* (so-020) — working translation of Migne's note: Severus seized the see of Antioch by force in the year 513, St. Flavian having been expelled; he was of the sect of the Acephali and an opponent of the Council of Chalcedon. SS. Flavian, and Elias, who was likewise then driven from the see of Jerusalem by him, are honoured on 4 July.
+- **3295** · Latin *Dioscori* (so-020) — working translation of Migne's note: Dioscorus, bishop of Alexandria, patron of Eutyches, was condemned together with him at the Council of Chalcedon. We shall treat of him on 18 February, in the Life of St. Flavian, bishop of Constantinople, who was driven into exile by men of his faction.
+- **3295** · Latin *Acephalorum* (so-020) — working translation of Migne's note: When Peter Mongus, received into the see of Alexandria in the year 482 on the admission of the emperor Zeno's Henoticon, had offended Catholics and heretics alike, many Eutychians, falling away from both sides, were called Acephali, that is, 'headless': they were soon divided into various sects.
+- **3295** · Latin *Polemonisque* (so-020) — working translation of Migne's note: Theodoret (Haereticarum fabularum book 4, ch. 9) reports that Polemon, having taken occasion from Apollinaris's writings, said that a confusion of substances was made in Christ, and a commingling of divinity and body.
+- **3295** · Latin *Ebiones* (so-020) — working translation of Migne's note: Ebion, chief of the heresy which called Christ a mere man, against whom and against Cerinthus St. John wrote his Gospel. Theodoret treats of him in his compendium of heretical fables, book 2, ch. 1; St. Epiphanius, heresy 51, and others.
+- **3295** · Latin *Samosateni* (so-020) — working translation of Migne's note: St. Ephrem the Syrian treats of Paul of Samosata in his Testament, in which, Theodoret reports (Haer. fab. book 1, ch. 22), Bardesanes is vigorously refuted; St. Epiphanius also treats of him, heresy 22.
+
+## Readings checked at the plate: Orations I, III, VI
+
+Migne prints these orations in Latin only. Every reading the translators flagged (949) was looked up on the page image (2026-11-05): 910 were slips in our transcription of the scan and are corrected without comment; the table lists the other 39: 21 where Migne's type is itself wrong (the Latin column prints it as he did; the English follows the corrected reading), 13 where the plate prints the form the translator doubted (Migne's text, kept), 5 not settled at the plate.
+
+| page.line | the scaffold read | the Latin column prints | verdict |
+|---|---|---|---|
+| p0215.R.02 | mortius | mortius | M |
+| p0216.R.43 | tanquám | tanquám | M |
+| p0216.R.46 | in-excelsis | in·excelsis | M |
+| p0217.L.24 | usque | usque | M |
+| p0217.R.05 | ineffense | ineffense | M |
+| p0217.R.38 | aaimo quæsixerimus | aoimo quæsiverimus | M |
+| p0218.L.05 | aliis | aliis | M |
+| p0218.L.29 | Agarenoium arcam | Agarenorum arcam | M |
+| p0218.L.56 | similis expertem | similis expertem | M |
+| p0218.R.45 | nateralisque Domini | nateralisque Domini | M |
+| p0260.R.39 | oppletus/illum | oppletus/illum | M |
+| p0260.R.44 | misit. lucem | misit. lucem | M |
+| p0261.R.06 | que p°perit, … illà | quæ pºperit, … illà | M |
+| p0263.L.18 | serum adventu. | serum adventu | M |
+| p0263.L.23 | relevavit … **, » | relevavit … » | M |
+| p0264.L.18 | preli | preli | M |
+| p0264.R.03 | praceptis in po- | præceptis in po- | M |
+| p0264.R.04 | Gabricie | Gabricie | M |
+| p0264.R.41 | eum alio | eum alio | M |
+| p0265.R.34 | uudique | uudique | M |
+| p0274.R.29 | qu | quæ | M |
+| p0215.L.25 | Noster | Noster | P |
+| p0216.R.43 | euchobruto | euchobruto | P |
+| p0219.L.36 | Adamo tantum | Adamo tantum | P |
+| p0219.L.47 | desiderabat? | desiderabat? | P |
+| p0219.R.44 | desideremus. | desideremus. | P |
+| p0220.L.20 | aque que | aquæ quæ | P |
+| p0219.R.47 | Betlileem duceret | Bethleem duceret | P |
+| p0258.R.09 | scientie Dei ? | scientiæ Dei ? | P |
+| p0259.R.51 | in alioque | in alioque | P |
+| p0261.L.42 | prasefert | præsefert | P |
+| p0261.R.28 | novilali | novitati | P |
+| p0263.L.10 | apparentes nos jam veteris | apparentes nos jam veteris | P |
+| p0264.R.15 | latarum Epilogus | latarum Epilogus | P |
+| p0215.R.02 | cidem | eidem | ? |
+| p0217.L.59 | (rec enim | (nec enim | ? |
+| p0263.L.55 | it. … “; » | in … ; » | ? |
+| p0264.R.51–52 | solita-/vii | solita-/rii | ? |
+| p0275.R.34 | n e | me | ? |

@@ -183,3 +183,15 @@ lone letters / one Latin siglum line), GREEK-BANDS (glued band letters stripped)
 stray/space/heading (translator readings, not plate-checked). 110 of 132 Greek-keyed Migne notes placed in the Greek, the rest in the cruces. `[sic:]` layer NOT done
 (89 rows in PRINT-ERRORS.tsv, as for Moschus). Blind polarity read NOT done (preflight's last gate). Site chunk order is so-order (0001–0018); the Latin-only spec
 interleaves them by column later (a renumbering).
+
+## ✅ Latin-only orations built into the site 2026-11-05 (so-019/020/021 = 0007/0014/0016 of 21; local, nothing pushed or deployed)
+LATIN-ONLY-SPEC.md steps 1–8 done; preflight 9 of 10 (blind polarity read owed, Wilson's go). New: `scripts/kt-apply-latin.py`
+(0 NOT FOUND; R 910, table 80+2, overrides 39, spec drops 13), `scripts/kt-latin-residue.py` (run with system python3 +
+`PYTHONPATH=~/.venvs/collatinus/lib/python3.14/site-packages`: that venv has no `bin/python` on this Mac), `verify/LATIN-*.tsv`,
+`verify/SIC-MAP.json` (4 [sic:]), place.py Latin pass (97 of 100 Latin-column records placed + Mai's note dropped), builder/mark/align/index
+changes per spec. Deviations from the spec, each reported to Wilson: (1) 2 table ocr rows absent from the image check (pipe in the printed
+cell) were applied as table rows; stray count is 61 not 60; (2) 8 foot-of-column apparatus lines + unlogged `*`/`“`/`„` marks were dropped/stripped
+so the step-3 grep gives 0 (spec drop list had only 13 furniture lines); (3) residue fixes live in `verify/LATIN-RESIDUE-FIXES.tsv`, not in
+LATIN-OVERRIDES (keeps M 21 / P 13 / ? 5); (4) gutter-letter rule is position-based (bands ~1330 px apart), the lone `p`/`ç` at p0259.R.45,
+p0273.R.45, p0274.R.30 are gutter D/D/C read at the plate; (5) band/anchor id dedupe applies only to pages with Latin-only runs (shipped
+Moschus/Procopius pages carry a repeated band id and must rebuild byte-identical); (6) WIDE_PARA applies to the Greek chunks only.

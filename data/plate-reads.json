@@ -17769,6 +17769,81 @@
      "found": "blind read + every-line check of the Greek column; flagged readings re-read 2026-10-27"
     }
    ]
+  },
+  "sophronius-hierosolymitanus-orationes": {
+   "series": "pg",
+   "volume": 87,
+   "scan": "raw/pg087c/087c.pdf (archive.org copyA, PG 87 pt 3), Kraken pages rendered to raw/kraken/sophronius-orationes/pages/",
+   "page_map": "data/pg-column-maps/pg087c.json (left col = 2*pdf page + 2771), plate-verified off the running heads; calibrated again 2026-11-05 against the printed corners of p-0218 (3207/3208) and p-0263 (3297/3298).",
+   "second_witness": "none on disk for the Latin-only orations (so-019/020/021): data/volumes.json lists PG 87 copies 087-1/2/3, not downloaded. The copyA damage at p0217.L.59 (nec enim) is therefore unsettled.",
+   "note": "Latin-only orations (Or. I, III, VI): the 949 translator-flagged readings were looked up on the page images 2026-11-05 (IMAGE-CHECK-LATIN-so-0NN.tsv). The four [sic:] markers (so-019 aliis, similis expertem, nateralisque; so-020 serum adventu) stand on the two pages recorded here, each read whole with the corner numbers first, and each flagged line re-read at the plate. Heads of so-019 (p-0215), so-020 (p-0258), so-021 (p-0272) read for LATIN-HEADS.tsv.",
+   "reads": [
+    {
+     "page": 218,
+     "cols": [
+      "3207",
+      "3208"
+     ],
+     "from": "3207",
+     "to": "3208",
+     "depth": "read",
+     "date": "2026-11-05",
+     "corners_checked": true,
+     "found": "corners 3207/3208 read first (running head S. SOPHRONII PATRIARCHAE HIEROSOL.); lines p0218.L.05 (aliis), L.56 (similis expertem), R.45 (nateralisque) re-read at full resolution: Migne prints them as marked"
+    },
+    {
+     "page": 263,
+     "cols": [
+      "3297",
+      "3298"
+     ],
+     "from": "3297",
+     "to": "3298",
+     "depth": "read",
+     "date": "2026-11-05",
+     "corners_checked": true,
+     "found": "corners 3297/3298 read first (running head ORATIO III. - DE HYPAPANTE.); line p0263.L.18 (serum adventu) re-read at full resolution: Migne prints it as marked"
+    },
+    {
+     "page": 215,
+     "cols": [
+      "3201",
+      "3202"
+     ],
+     "from": "3201",
+     "to": "3202",
+     "depth": "read",
+     "date": "2026-11-05",
+     "corners_checked": false,
+     "found": "head of Or. I read for LATIN-HEADS.tsv (title block, calls (1) (2), gutter A); the page was not read through"
+    },
+    {
+     "page": 258,
+     "cols": [
+      "3287",
+      "3288"
+     ],
+     "from": "3287",
+     "to": "3288",
+     "depth": "read",
+     "date": "2026-11-05",
+     "corners_checked": false,
+     "found": "head of Or. III read for LATIN-HEADS.tsv (III. / Oratio de Hypapante sive occursu Domini / source line); the page was not read through"
+    },
+    {
+     "page": 272,
+     "cols": [
+      "3317",
+      "3318"
+     ],
+     "from": "3317",
+     "to": "3318",
+     "depth": "read",
+     "date": "2026-11-05",
+     "corners_checked": false,
+     "found": "head of Or. VI read for LATIN-HEADS.tsv (VI., title, Combef. source line, gutter C); the page was not read through"
+    }
+   ]
   }
  }
 }

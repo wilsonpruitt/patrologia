@@ -36,13 +36,14 @@ for (const c of manifest.chunks) {
   const fm = raw.match(/^---\n[\s\S]*?\n---\n/)[0];
   const body = raw.slice(fm.length);
   if (hasMarkers(body) && !flag('--force')) { skipped++; continue; }
+  const LA = /^language: "la"/m.test(fm);
   const clean = body.replace(/⟦[^⟧\n]*⟧ ?/g, '');
   let p = 0;
   const lines = clean.split('\n').map(line => {
     if (!line.trim() || /^##\s/.test(line)) return line;
     const lead = line.startsWith('- ') ? '- ' : '';
     const text = line.slice(lead.length);
-    const sents = segment(text, GREEK);
+    const sents = segment(text, GREEK && !LA);                  // a Latin-only chunk (language: "la") breaks on . ? ! only
     p++; totalP++; totalS += sents.length;
     return `${lead}⟦p${p}⟧ ` + sents.map((s, i) => `⟦s${i + 1}⟧ ${s}`).join(' ');
   });

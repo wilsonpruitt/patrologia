@@ -43,7 +43,7 @@ const body = (f, chunk, keep) => {
   const raw = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
   return (keep ? qualifyMarkers(raw, chunk) : stripMarkers(raw)).trim();
 };
-const joined = (dir, keep = false) => manifest.chunks
+const joined = (dir, keep = false, chunks = manifest.chunks) => chunks
   .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`), c.chunk, keep))
   .join('\n\n');
 
@@ -95,6 +95,8 @@ function sentenceRows(text, terminalRe) {
 // Greek: '.' and ';' (erotimatiko) end sentences — the ano teleia does NOT.
 const GRC_TERM = /[.;][)\]»]*\s+(?=(?:⟦q[^⟧]*⟧ ?)*(?:[A-ZΑ-ΩἈ-ᾯὉ-Ὗ«]|\[\d{4}\]))/g;
 const ENG_TERM = /[.!?][)\]»”"']*\s+(?=(?:⟦q[^⟧]*⟧ ?)*(?:[A-ZΑ-Ω«“"]|\[\d{4}\]))/g;
+// Latin-only chunks (language: "la": Or. I, III, VI of Sophronius, which Migne prints in Latin only): '.', '!' and '?' end a sentence.
+const LAT_TERM = /[.!?][)\]»]*\s+(?=(?:⟦q[^⟧]*⟧ ?)*(?:[A-ZÆŒ«]|\[\d{4}\]))/g;
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const colId = c => 'c' + String(parseInt(c, 10));
@@ -170,13 +172,20 @@ function qualifyBands(text) {
   });
 }
 
+// A column printed twice in one page (a shared column: the Greek of one oration ends in it, a Latin-only oration begins in it)
+// carries its id only at the first occurrence: ids must be unique, and `#c3288` lands on the column's head.
+const seenIds = new Set();
+// ONLY on a page with Latin-only runs (`dedupeIds`, set below): the shipped PG pages (Moschus, Procopius) already carry a repeated band id
+// (e.g. id="c2825a" twice) and the spec requires them to rebuild byte-identical, so their ids are left exactly as they were.
+let dedupeIds = false;
+const idOnce = id => { if (!dedupeIds) return true; if (seenIds.has(id)) return false; seenIds.add(id); return true; };
 function paras(text, { anchorIds }) {
   return text.split(/\n\n+/).map(p => {
     const inline = assertWellNested(esc(p.replace(/\n/g, ' '))
       // Phase B sentence boundaries (empty spans; see qualifyMarkers): data-p = paragraph, data-s = source sentences
       .replace(/⟦q([0-9.]+[a-z]?)\|([0-9+]+)⟧ ?/g, (_, pid, ids) => `<span class="sm" data-p="${pid}" data-s="${ids.split('+').join(',')}"></span>`)
       .replace(/\[(\d{4})\]\s*/g, (_, c) =>
-        `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
+        `<a class="anchor" href="#${colId(c)}"${anchorIds && idOnce(colId(c)) ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
       // Inline markers. These MUST be transformed here or they reach the reader as
       // raw bracket text: this builder shipped the PG pilot without them, and 47
       // markers across the four PG works (17 [ed:], 17 [lat:], 13 [var:]) rendered
@@ -214,7 +223,7 @@ function paras(text, { anchorIds }) {
       // column-level and a lone marginal letter on the one work that has the data
       // would read as a defect rather than as Migne's apparatus.
       .replace(/\[bid:([a-z0-9]+)\]/g, (_, id) =>
-        anchorIds ? `<span class="band" id="${id}"></span>` : '')
+        anchorIds ? (idOnce(id) ? `<span class="band" id="${id}"></span>` : '<span class="band"></span>') : '')
       .replace(/\*([^*]+)\*/g, '<i>$1</i>')
       .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`), p);
     return `<p>${inline}</p>`;
@@ -223,32 +232,44 @@ function paras(text, { anchorIds }) {
 
 // Qualify bands before the text is split into sentence rows or paragraphs — the
 // running column that resolves `[b: C]` into an id crosses both boundaries.
-const grcText = qualifyBands(joined(grcDir, true));
-const engText = qualifyBands(joined(engDir, true));
-const hasSentences = engText.includes('⟦q');
+// A work with Latin-only chunks is cut into maximal RUNS of one `language`; each run goes through exactly the pipeline an
+// all-Greek work always had (joined -> qualifyBands -> sentenceRows -> row/word/anchor checks), and the runs are rendered
+// one after another in column order. An all-Greek work is one run, so its page is byte-identical to what it always was.
+const runs = [];
+for (const c of manifest.chunks) {
+  const lang = c.language ?? 'grc';
+  if (runs.length && runs[runs.length - 1].lang === lang) runs[runs.length - 1].chunks.push(c); else runs.push({ lang, chunks: [c] });
+}
+const hasLatinOnly = runs.some(r => r.lang === 'la');
+dedupeIds = hasLatinOnly;
 // Phase C: click-a-word reads the GREEK lookup layer (site/lexg/, scripts/build-lookup-grc.py)
 const hasWords = fs.existsSync(path.join(ROOT, 'site/lexg/manifest.json'));
-const grcBlocks = sentenceRows(grcText, GRC_TERM);
-const engBlocks = sentenceRows(engText, ENG_TERM);
-if (grcBlocks.length !== engBlocks.length || grcBlocks.some((b, i) => b.col !== engBlocks[i].col)) {
-  console.error('row mismatch — run verify-english-pg.mjs first');
-  process.exit(1);
-}
-// no words lost or duplicated by the row cuts
 const words = s => s.replace(anchorRe, '').split(/\s+/).filter(Boolean).length;
-for (const [blocks, full, name] of [[grcBlocks, grcText, 'grc'], [engBlocks, engText, 'eng']]) {
-  const rowWords = blocks.reduce((a, b) => a + words(b.text), 0);
-  if (rowWords !== words(full)) { console.error(`${name}: row cut lost/duplicated words (${rowWords} vs ${words(full)})`); process.exit(1); }
-  for (const b of blocks) {
-    const inRow = [...b.text.matchAll(anchorRe)].map(m => m[1]);
-    if (inRow.length !== 1 || inRow[0] !== b.col) { console.error(`${name}: row ${b.col} carries anchors [${inRow}]`); process.exit(1); }
+let passages = '', nBlocks = 0;
+for (const run of runs) {
+  run.grcText = qualifyBands(joined(grcDir, true, run.chunks));
+  run.engText = qualifyBands(joined(engDir, true, run.chunks));
+  const term = run.lang === 'la' ? LAT_TERM : GRC_TERM;
+  const grcBlocks = sentenceRows(run.grcText, term);
+  const engBlocks = sentenceRows(run.engText, ENG_TERM);
+  if (grcBlocks.length !== engBlocks.length || grcBlocks.some((b, i) => b.col !== engBlocks[i].col)) {
+    console.error('row mismatch — run verify-english-pg.mjs first');
+    process.exit(1);
   }
-}
-
-const passages = grcBlocks.map((gb, i) => `
+  // no words lost or duplicated by the row cuts
+  for (const [blocks, full, name] of [[grcBlocks, run.grcText, run.lang === 'la' ? 'lat' : 'grc'], [engBlocks, run.engText, 'eng']]) {
+    const rowWords = blocks.reduce((a, b) => a + words(b.text), 0);
+    if (rowWords !== words(full)) { console.error(`${name}: row cut lost/duplicated words (${rowWords} vs ${words(full)})`); process.exit(1); }
+    for (const b of blocks) {
+      const inRow = [...b.text.matchAll(anchorRe)].map(m => m[1]);
+      if (inRow.length !== 1 || inRow[0] !== b.col) { console.error(`${name}: row ${b.col} carries anchors [${inRow}]`); process.exit(1); }
+    }
+  }
+  const cls = run.lang === 'la' ? 'latin' : 'greek';
+  passages += (passages ? '\n' : '') + grcBlocks.map((gb, i) => `
 <div class="col-rules passage colpair">
   <div>
-    <div class="coltext greek" lang="grc">
+    <div class="coltext ${cls}" lang="${run.lang}">
 ${paras(gb.text, { anchorIds: true })}
     </div>
   </div>
@@ -258,6 +279,11 @@ ${paras(engBlocks[i].text, { anchorIds: false })}
     </div>
   </div>
 </div>`).join('\n');
+  nBlocks += grcBlocks.length;
+}
+const grcText = runs.map(r => r.grcText).join('\n\n');
+const engText = runs.map(r => r.engText).join('\n\n');
+const hasSentences = engText.includes('⟦q');
 
 const vol = manifest.volume;
 const slug = work.slug ?? work.titleEn.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -355,7 +381,7 @@ ${nav('graeca')}
     <p class="crumbs"><a href="/#shelf-pg-sec">Patrologia Græca</a> · <span>Vol. ${vol}</span> · ${authorNode}</p>
     <h1>${esc(work.title.toUpperCase())}</h1>
     <p class="byline">${authorNode}${datesDisp} · ${esc(work.titleEn)}</p>
-    <p class="meta">PG ${vol}, coll. ${colFirst}–${colLast} &nbsp;·&nbsp; Greek from the Migne printing &nbsp;·&nbsp; <span class="first">${badge}</span> &nbsp;·&nbsp; column numbers follow the original plates; Greek and Latin swap sides page by page, so the Greek runs in the columns marked</p>
+    <p class="meta">PG ${vol}, coll. ${colFirst}–${colLast} &nbsp;·&nbsp; ${hasLatinOnly ? 'Greek from the Migne printing; Orations I, III and VI survive in Migne only in Latin, which faces the English there' : 'Greek from the Migne printing'} &nbsp;·&nbsp; <span class="first">${badge}</span> &nbsp;·&nbsp; column numbers follow the original plates; Greek and Latin swap sides page by page, so the Greek runs in the columns marked</p>
   </div>
 </div>
 ${authorCard}
@@ -432,4 +458,4 @@ css += `
 `;
 fs.writeFileSync(cssPath, css);
 
-console.log(`built site/pg/${vol}/${slug}/index.html (${grcBlocks.length} column blocks)`);
+console.log(`built site/pg/${vol}/${slug}/index.html (${nBlocks} column blocks)`);
