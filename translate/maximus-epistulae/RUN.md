@@ -42,6 +42,17 @@ Letter 43 = Letter 24 nearly verbatim (a second witness the translator used). Le
 copyist's error per Combefis. Letter 19's central phrase τὴν μίαν ἐνέργειαν (base: μὲν) → image check first.
 Sweep brief `SWEEP.md`; rulings `GLOSSARY.md` § V.
 
+## ✅ Step 3 DONE 2026-11-06: image check of every flagged row (coordinator, in session)
+**567** rows of kind ocr/doubt/print read on the plate in two passes (`kt-sheet.py` 24 sheets → `--redo` whole lines, 19 sheets):
+**R 233 · M 304 · P 25 · ? 5** → `kt-apply.py` → `checked/` (182 applied, 17 applied~, 6 cross-line → `verify/GREEK-PATCHES.tsv`);
+`verify/PRINT-ERRORS.tsv` = the 304 M rows (the [sic:] layer). ⚑ **On this base more than half of what the translators flagged
+is Migne's own type (304 of 567), not a misread**: the API read was faithful to a careless print (οὐχ before vowels, ταυτόν
+unaccented, ᾅδη for ᾅδῃ, κ/χ swaps the compositor made). Settled on the plate: Letter 19's central phrase prints **τὴν μίαν
+ἐνέργειαν** (the base's μὲν was the read's error); the three negatives of p0274.05–07 are as the translator restored them
+(σώζεσθαι without οὐ, οὔτε φρίττουσι, ἀντικειμένης); p0254.47 prints εὖ δεξάμενα (sense needs οὐ: M); Letter 44's heading
+prints περὶ θετικῆς (Latin *commendatitia*); p0356.51 θεοχάριστον is lower-case (an epithet, not a name). Lost-line scan
+(`scripts/kt-lost-base.py`, Kraken's read as witness): nothing beyond the three holes already read.
+
 ## ✅ Step 4 DONE 2026-11-06: Combefis's apparatus read off every page (8 Sonnet briefs, ≈2.0M) + `notes/place.py`
 `scripts/mp-note-crops.py maximus-epistulae` (144 pages, 542 tiles; the yolo tile list is unreliable here — duplicates,
 empty strips — so the readers cut their own 600 dpi crops) → `notes/result-{1..8}.jsonl`: **436 notes** (lettered 355 =
