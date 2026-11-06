@@ -265,7 +265,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 ## Chunk 0015 (mo-015)
 
 - **0141** · …same holy Maximus, written to Peter the* illustris. — P. Peter, *illustris* and general in Africa (addressee of Letters 13–14); the excerpt survives only in Anastasius the Librarian's Latin (*Collectanea*), so the source here is Latin. T. *Defloratio*, "extract".
-- **0141** · …to Peter the* illustris. By thy praiseworthy syllables — T. *Vestris* … *vos* … *vobis* … *discite*: the Latin's plural of respect to one man; the English keeps *thou* throughout (Peter is also addressed in the singular, *dignatus es*, *tuo*, *benedicte domine mi*).
+- **0141** · …things, he went on:* By thy praiseworthy syllables — T. *Vestris* … *vos* … *vobis* … *discite*: the Latin's plural of respect to one man; the English keeps *thou* throughout (Peter is also addressed in the singular, *dignatus es*, *tuo*, *benedicte domine mi*).
 - **0141** · …to thine unworthy servant concerning the abbot Pyrrhus. — P. Pyrrhus, patriarch of Constantinople 638–641, deposed; in Africa and then at Rome (645–646) he sought reception without anathematizing his doctrine; Maximus calls him "abbot", the rank left to him.
 - **0141** · …cause, I should hasten to thy most renowned — T. *famosissimus*, probably for Greek ἐνδοξότατος; kept "most renowned" throughout.
 - **0141** · …their deeds and a reception without success . — T. *sine successu receptionem* is what the plate prints, so the difficulty is in the Latin, not the scan: it does not construe as a wish (perhaps Anastasius mistranslated, or *cum successu* was meant). Rendered as printed, marked [?].
