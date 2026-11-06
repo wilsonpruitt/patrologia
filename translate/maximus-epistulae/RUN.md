@@ -34,6 +34,27 @@ words** in 45 letters (Letter 12 = 10.4K, 15 = 6.4K, 1 = 5.5K, 13 = 4.9K; 30–4
   `CARD.md`; register section "Seventh-century ascetic and dogmatic letter (Maximus)" M1–M6 in `translation-style.md`.
   ⚠ The Sophronius glossary's forecast "γνώμη = judgement" is superseded (its row now says so): κρίσις needs the word.
 
+## Round 1 findings 2026-11-06 (briefs A–C back: me-001–009, ≈0.75M)
+- ⚠ **The CLOSED base text has holes the plate check never saw, two classes, both from reading column STRIPS:**
+  (1) **a column head cut off** — p-0204 (col 372): the read began at the strip holding "σμεύσῃς δὶς ἁμαρτίαν", so the
+  first **35 lines** (Lazarus and the rich man, David and Job, Sir 7:6–8) were never read; (2) **full-width lines** —
+  where one column ends early Migne sets the other across the whole page; the strip kept only the right halves
+  (p-0222 col 408 lines 3–5, Bar 5:2–4). Both read from the plate by the coordinator (`RESTORED-LINES.tsv`; p-0204
+  lines inserted at the top → me-001's p0204 tags renumbered +35, DOUBTS likewise); the translators then re-Englished
+  the passages. ⬜ **A systematic lost-line scan is owed before the image check**: Kraken's own read of the 144 pages
+  (running) is the witness — compare its Greek-column lines with the base page by page (kt-lost.py needs adapting:
+  here text/ IS the base and the Kraken text is the extra witness). Candidate pages from a djvu line count: 224, 291,
+  304, 342 (base ≥20 lines short), then 230, 237, 238, 325, 332, 344, 351.
+- ⚠ `pdfimages` is the WRONG renderer for pages/: on 103 of 144 pages it extracted a 1034×204 embedded image, not the
+  scan. Re-rendered with `pdftoppm -r 600 -gray` (what pg-ocr.sh does); Kraken re-run on those.
+- Translators' first-pass judgements that held on the plate: p-0234.49–50 "φιλίας." = a leaked foot-of-page variant
+  (²⁵ Alter cod. Reg. καὶ φιλίας); p-0241.38 "dropped clause" = Combefis's gloss (*siquidem Deus est*), the Greek is
+  whole. Letter 6's numbered points run α΄–ε΄ (the card said three). Letters 2–3 address a plural *you*.
+- Terms the Opus translators decided (sweep list): μερίζω/ἀμέριστον = partition/unpartitioned, ἀπαράλλακτος =
+  unvarying, θεουργέω = make divine (vs θέωσις deification), θεοποιός = deifying (= θεωτικός: sweep), ἐγκράτεια =
+  self-mastery, οἰκείωσις = kinship, προσπάθεια = passionate attachment, πρόθεσις = intent, ψυχικός = psychic,
+  θέσει = by adoption, ἀεικινησία = ever-moving, ὀντότης = true being, βασιλεία = kingship (human) / kingdom (God's).
+
 ## Plan
 1. Translation: 10 Opus briefs × 3 chunks (A 001–003 · B 004–006 · C 007–009 · D 010–012 · E 013–015 · F 016–018 ·
    G 019–021 · H 022–024 · I 025–027 · J 028), three at a time, from `kt-scaffold.py maximus-epistulae brief …`.
