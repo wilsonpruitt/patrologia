@@ -17844,6 +17844,119 @@
      "found": "head of Or. VI read for LATIN-HEADS.tsv (VI., title, Combef. source line, gutter C); the page was not read through"
     }
    ]
+  },
+  "maximus-confessor-epistulae": {
+   "series": "pg",
+   "volume": 91,
+   "scan": "raw/pg091/091.pdf (archive.org PG 91), Kraken pages rendered to raw/kraken/maximus-epistulae/pages/",
+   "page_map": "data/pg-column-maps/pg091.json (derived, not plate-anchored; the running-head column numbers agree on every page checked)",
+   "note": "Greek = our API vision read, checked line by line and every flagged reading looked up at the plate (IMAGE-CHECK.tsv, 567 rows). No [sic:]/[var:] marker is placed: the 304 print-error rows are listed on the cruces page. The pages recorded here carry the English [?] marks that remain (our doubts); each was read by the coordinator at the plate, the page was not read through.",
+   "reads": [
+    {
+     "page": 206,
+     "cols": [
+      "0375",
+      "0376"
+     ],
+     "from": "0375",
+     "to": "0376",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0206.48-49 two blank gaps (τε[?] / [?]σωμεν / φθειρομένη[?] [?]χὴν): the plate prints blanks; English \"then\" [?] and \"bind\" [?] stay as our doubts"
+    },
+    {
+     "page": 247,
+     "cols": [
+      "0457",
+      "0458"
+     ],
+     "from": "0457",
+     "to": "0458",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0247.18 καταυχρηθεῖσα: non-word on the plate; English [?] stays"
+    },
+    {
+     "page": 274,
+     "cols": [
+      "0499",
+      "0500"
+     ],
+     "from": "0499",
+     "to": "0500",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0274.10 θρέψαντα: does not construe; English [?] stays"
+    },
+    {
+     "page": 317,
+     "cols": [
+      "0585",
+      "0586"
+     ],
+     "from": "0585",
+     "to": "0586",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0317.42 no participle printed after νοερῶς; English [?] stays"
+    },
+    {
+     "page": 340,
+     "cols": [
+      "0611",
+      "0612"
+     ],
+     "from": "0611",
+     "to": "0612",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0340.25 no participle printed after ἐκ πυθμένος; English [?] stays"
+    },
+    {
+     "page": 351,
+     "cols": [
+      "0633",
+      "0634"
+     ],
+     "from": "0633",
+     "to": "0634",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0351.18 εἴσοδόν σου. prints without ἔξοδον (Combefis's Latin has exitum tuum); English [?] stays"
+    },
+    {
+     "page": 352,
+     "cols": [
+      "0635",
+      "0636"
+     ],
+     "from": "0635",
+     "to": "0636",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0352.20 (ἔχοντός εἰμι καὶ σπουδαίως, does not construe), p0352.46 μορφῆς (note call 4), p0352.47 Παραπέμπει (blotted word); English [?] stay. The dotted gaps of Letters 40-42 on this page are Migne's own and stand as ellipses"
+    },
+    {
+     "page": 357,
+     "cols": [
+      "0645",
+      "0646"
+     ],
+     "from": "0645",
+     "to": "0646",
+     "depth": "read",
+     "date": "2026-11-06",
+     "corners_checked": false,
+     "found": "coordinator plate read 2026-11-06: p0357.03 νέο,: a word lost or misread; the Latin also breaks off (operum ...); English [?] stays"
+    }
+   ]
   }
  }
 }

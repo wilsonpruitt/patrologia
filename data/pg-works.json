@@ -513,6 +513,24 @@
    "latinVerifier": "src/pg-latin/sophronius-hierosolymitanus-orationes/",
    "ktRecord": "translate/sophronius-orationes/ (RUN.md, GLOSSARY.md, CARD.md, verify/, notes/)",
    "translated": "2026-11-05"
+  },
+  {
+   "key": "maximus-confessor-epistulae",
+   "series": "pg",
+   "volume": 91,
+   "author": "Maximus the Confessor",
+   "authorNote": "DRAFT (Wilson to read). Monk and theologian (c. 580-662), the chief opponent of Monothelitism; Migne prints Combefis's collection of forty-five letters, in Greek with Combefis's Latin facing.",
+   "title": "Epistulae",
+   "titleEn": "The Letters",
+   "citRange": "PG 91, 364–649",
+   "status": "TRANSLATED 2026-11-06 (kt method on a closed API base, Fable anchor + Opus; image-checked; apparatus; LOCAL BUILD, not shipped)",
+   "greekSource": "ours-api-vision-read",
+   "slug": "epistulae",
+   "translationStatus": "exists",
+   "translationStatusNote": "Several of the letters exist in English (Letter 2 in Louth, Maximus the Confessor, 1996, in copyright; a few others in anthologies). Not researched further (rule 8); ships the WEAK claim 'New English translation'. Do NOT set 'none'.",
+   "latinVerifier": "src/pg-latin/maximus-confessor-epistulae/",
+   "ktRecord": "translate/maximus-epistulae/ (RUN.md, BUILD.md, GLOSSARY.md, CARD.md, verify/, notes/)",
+   "translated": "2026-11-06"
   }
  ]
 }

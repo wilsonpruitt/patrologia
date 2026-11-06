@@ -17,11 +17,13 @@ import os
 PAGES = range(int(os.environ.get('MP_FIRST', 40)), int(os.environ.get('MP_LAST', 170)) + 1)
 if os.environ.get('MP_RANGES'):   # e.g. 188-214,223-258 (Sophronius: skip the Latin-only pages)
     PAGES = [n for a_, b_ in (r_.split('-') for r_ in os.environ['MP_RANGES'].split(',')) for n in range(int(a_), int(b_) + 1)]   # MP_FIRST/MP_LAST override (Procopius 11–35)
-djvu = open('raw/scans/pg087c/copyA_087c_djvu.xml').read().split('<OBJECT ')
+djvu = open(os.environ.get('MP_DJVU', 'raw/scans/pg087c/copyA_087c_djvu.xml')).read().split('<OBJECT ')   # Maximus: MP_DJVU=raw/pg091/091_djvu.xml
 regs = json.load(open(f'{K}/regions.json'))
-cmap = {p['pdfPage']: p for p in json.load(open('data/pg-column-maps/pg087c.json'))['pages']}
+cmap = {p['pdfPage']: p for p in json.load(open(os.environ.get('MP_CMAP', 'data/pg-column-maps/pg087c.json')))['pages']}   # Maximus: MP_CMAP=data/pg-column-maps/pg091.json
+BYCLASS = bool(os.environ.get('MP_BYCLASS'))   # Maximus: the gutter lies between the page's Greek and Latin column boxes (it moves from page to page), not at a fixed x
 def base(x): return ''.join(c for c in ud.normalize('NFD', x.lower()) if ud.category(c) in ('Ll', 'Lo'))
 freq = {}
+PAGES = [n for n in PAGES if os.path.exists(f'{K}/checked/p-{n:04d}.txt')]   # Maximus: duplicate leaves have no files
 for n in PAGES:
     for l in open(f'{K}/checked/p-{n:04d}.txt').read().split('\n'):
         for w in l.split(): freq[base(w)] = freq.get(base(w), 0) + 1
@@ -31,6 +33,11 @@ LATIN = set('ABCD')
 def gutter_letters(pdf):
     mains = [r['box'] for r in regs[f'p-{pdf:04d}'] if r['class'].startswith('MainText') and r['box'][2] - r['box'][0] < 2200]
     left = [b for b in mains if (b[0] + b[2]) / 2 < 1985]; right = [b for b in mains if (b[0] + b[2]) / 2 >= 1985]
+    if BYCLASS:
+        gk = [r['box'] for r in regs[f'p-{pdf:04d}'] if r['class'] == 'MainText_ColGreek' and r['box'][2] - r['box'][0] < 2200]
+        lk = [r['box'] for r in regs[f'p-{pdf:04d}'] if r['class'] == 'MainText_ColLatin' and r['box'][2] - r['box'][0] < 2200]
+        if cmap[pdf]['greekSide'] == 'right': left, right = lk, gk
+        else: left, right = gk, lk
     if not left or not right: return [], None
     lo, hi = max(b[2] for b in left) - 60, min(b[0] for b in right) + 60
     out = []
@@ -51,6 +58,8 @@ for pdf, (seen, top) in pages.items():
     ks = sorted(d)
     if len(ks) >= 3 and (d[ks[-1]] - d[ks[0]]) / (ks[-1] - ks[0]) > 1200: ds.append((d[ks[-1]] - d[ks[0]]) / (ks[-1] - ks[0]))
 D0 = statistics.median(ds)
+def ch_is_word(m, t):   # MP_STRICT (Maximus): a capital Α/Β/Γ/Δ before more Greek is a real word-initial unless it is mixed-script; the freq rule over-strips (Δεῖ, Διὰ, Γρηγόριος)
+    return bool(re.match(r'[Α-Ωα-ώἀ-ῼ]', t[1:])) and m.group(1) in 'ΑΒΓΔ'
 bands, review, nfit = [], [], {'fit': 0, 'default': 0, 'none': 0}
 for pdf in PAGES:
     seen, top = pages[pdf]
@@ -88,6 +97,8 @@ for pdf in PAGES:
         elif m2: ch, new = m2.group(1), t[m2.end():]
         else:
             m = re.match(r'^([ΑΒΓΔABCD])(?=\S)', t)
+            if m and os.environ.get('MP_STRICT') and not re.match(r'[Α-Ωα-ώἀ-ῼ]', t[1:]): m = None   # Maximus: a letter-numeral (Α΄. — heading) is not a glued band letter
+            if m and os.environ.get('MP_STRICT') and ch_is_word(m, t): m = None
             if m:
                 ch, rest = m.group(1), t[1:]
                 w0, r0 = t.split()[0], rest.split()[0]

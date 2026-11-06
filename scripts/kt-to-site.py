@@ -28,7 +28,12 @@ CONF = {
     # Sophronius: so-001..018 Greek + so-019..021 Latin-only (LATIN-ONLY-SPEC.md, built 2026-11-05): all 21 chunks, in COLUMN order.
     'sophronius-orationes': dict(key='sophronius-hierosolymitanus-orationes', vol=87, cmap='data/pg-column-maps/pg087c.json',
                                  xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='so', unwrap=True, lineinitial=True),   # unwrap: the so- cards are hard-wrapped at ~120 columns; join lines inside a paragraph
+    # Maximus, Epistulae (2026-11-06): Greek = our API vision read of PG 91 pp. 200-359 (checked once against the plate), NOT Kraken; 16 duplicate leaves absent
+    # (pg091.json duplicateLeaves). stripcalls: Combefis's note calls (b), (1), (ι΄), 19 are removed from the Greek lines by pattern.
+    'maximus-epistulae': dict(key='maximus-confessor-epistulae', vol=91, cmap='data/pg-column-maps/pg091.json',
+                              xml='raw/pg091/091_djvu.xml', prefix='me', unwrap=True, lineinitial=True, stripcalls=True),
 }
+CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv
 C = CONF[work]; KEY = C['key']
 T = os.path.join(ROOT, 'translate', work)
@@ -38,8 +43,8 @@ W = next(w for w in reg['works'] if w['key'] == KEY)
 _m = json.load(open(os.path.join(ROOT, C['cmap'])))
 cmap = {p['pdfPage']: p for p in _m['pages']}
 SKIP = {l + 1 for l in _m.get('duplicateLeaves', [])}
-def gcol(pdf): m = cmap[pdf]; return m['colRight'] if m['greekSide'] == 'right' else m['colLeft']
-def lcol(pdf): m = cmap[pdf]; return m['colLeft'] if m['greekSide'] == 'right' else m['colRight']
+def gcol(pdf): m = cmap[pdf]; return '%04d' % (m['colRight'] if m['greekSide'] == 'right' else m['colLeft'])   # zero-padded to 4 digits: every builder's anchor is \[\d{4}\] (PG 91 has 3-digit columns)
+def lcol(pdf): m = cmap[pdf]; return '%04d' % (m['colLeft'] if m['greekSide'] == 'right' else m['colRight'])
 nfc = lambda s: ud.normalize('NFC', s)
 
 # ---------- chunks, in order ----------
@@ -138,6 +143,7 @@ def greek(ci):
                 if (pg, i) in MP_DROP: continue
                 bd = MP_BANDS.get((pg, i))
                 if bd and bd[2] and raw_ == bd[1]: raw_ = bd[2]                  # the glued margin letter off
+                if C.get('stripcalls'): raw_ = CALLRE.sub('', raw_).strip()      # Maximus: Combefis's note calls (b) (1) (ι΄) ¹⁹ off the Greek line
                 line = nfc(patched(pdf, i, raw_))
                 if not line: continue
                 if (pg, i) in MP_BREAK: items.append(('para', ''))
@@ -227,6 +233,7 @@ def card(cid):
 def english(cid, sics, ns):
     """sics: {note_no: printed} -> [sic:]; ns: {note_no: migne_text} -> [n:]. Others -> cruces (returned)."""
     body, notes = card(cid)
+    if C.get('stripcalls'): body = re.sub(r'(?<![\w^])\[(\d{3})\](?!\()', r'[0\1]', body)     # Maximus: the cards anchor columns as [364]; the builders want [0364]
     if C.get('unwrap'): body = re.sub(r'(?<!\n)\n(?!\n)', ' ', body)      # Sophronius: hard-wrapped cards (single newline = same paragraph)
     body = re.sub(r'^#{2,4} ', '', body, flags=re.M)     # so-020's `### Chapter` heads: plain text (no builder renders ###)
     body = body.replace('**', '')                      # Instruction heads: plain (the builder's *…* is italic only)
@@ -349,7 +356,7 @@ if __name__ == '__main__':
     with open(f'{edir}/cruces.md', 'w') as o:
         o.write(f'# Cruces — {KEY}\n\nTranslators\' notes (kt method, 2026-10-27), moved out of the running English. Each is keyed by '
                 'chunk, column and band, and quotes the English words it follows. Plate verdicts: '
-                f'`translate/{work}/verify/VERDICTS.tsv`. Glossary: `translate/{work}/GLOSSARY.md`. In the English, ⟨…⟩ marks words '
+                f'`translate/{work}/' + ('IMAGE-CHECK.tsv' if C.get('stripcalls') else 'verify/VERDICTS.tsv') + f'`. Glossary: `translate/{work}/GLOSSARY.md`. In the English, ⟨…⟩ marks words '
                 'we supply where the printed sentence needs them (whether the plate lost them or Migne\'s text never had them); '
                 'each has a note below.\n\n')
         cur = None
@@ -368,6 +375,20 @@ if __name__ == '__main__':
         for n in miss:
             o.write(f"- p. {n['page'][2:]} ({n.get('series')}, {n.get('marker') or 'marker illegible'}): {n['text']}"
                     + (f" — keyed to {n.get('latinWord') or n.get('greekWord') or ''}" if (n.get('latinWord') or n.get('greekWord')) else '') + '\n')
+        pef = f'{T}/verify/PRINT-ERRORS.tsv'; icf = f'{T}/IMAGE-CHECK.tsv'
+        if C.get('stripcalls') and os.path.exists(pef) and os.path.exists(icf):      # Maximus: the plate check's M rows are the [sic:] layer, listed here, NOT applied to the Greek
+            ic = list(csv.DictReader(open(icf), delimiter='\t')); cnt = {v: sum(1 for r in ic if r['verdict'] == v) for v in 'RMP?'}
+            o.write('\n## Readings checked at the plate\n\nGreek source: our own reading of Migne\'s plates (a vision read, checked line by line against the page, then every doubtful reading '
+                    'looked up again on the page image, 2026-11-06). Every reading the translators flagged '
+                    f'({len(ic)}) was looked up: {cnt["R"]} were slips in our own transcription and are corrected in the Greek without comment; {cnt["M"]} are Migne\'s (Combefis\'s) own type, '
+                    'wrong or irregular on the page itself (the Greek stands as printed; where the sense needs it the English follows the corrected reading); '
+                    f'{cnt["P"]} are readings where the plate prints the form the translator doubted (Migne\'s text, kept); {cnt["?"]} were not settled at the plate. '
+                    'No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne\'s page and waits on a full-page reading of each column. '
+                    f'The {cnt["M"]} print-error rows:\n\n')
+            o.write('| page.line | printed | read as | note |\n|---|---|---|---|\n')
+            for r in csv.DictReader(open(pef), delimiter='\t'):
+                cell = lambda x: (x or '').replace('|', '/').replace('\n', ' ')
+                o.write(f"| {r['tag']} | {cell(r['printed'])} | {cell(r['reading'])} | {cell(r['comment'])} |\n")
         vf = f'{T}/verify/VERDICTS.tsv'
         if os.path.exists(vf):
             if MP: o.write('\n## Readings checked at the plate\n\nEvery reading the translators flagged was looked up on the page image '

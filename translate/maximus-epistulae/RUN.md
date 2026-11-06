@@ -93,3 +93,17 @@ place · 340 unplaced → cruces** (6 anchors not on the checked page, 15 lines 
 5. Site build (kt-to-site CONF, GREEK-BANDS from the plate's gutter letters — not read with this text —, mark/align,
    verify, plate-gate, build-site, lookup, preflight). Registry key `maximus-confessor-epistulae`, slug `epistulae`.
 6. Blind polarity read (Opus), then Wilson: about/bio text, deploy (own OK), push (own OK), `englishState: ours`.
+
+## ✅ Step 5 DONE 2026-11-06 (Sonnet, from BUILD.md; local, nothing pushed or deployed): 28 site chunks, preflight 9 of 10
+Registry key `maximus-confessor-epistulae` (slug `epistulae`, DRAFT about/bio/RECENT line for Wilson; NO `englishState`). `CONF['maximus-epistulae']` in `kt-to-site.py`
+(`unwrap`, `lineinitial`, new `stripcalls`: Combefis's calls `(b)` `(1)` `(ι΄)` `¹⁹` stripped by pattern, 0 left in `src/greek/`; columns zero-padded to `[0364]`,
+every builder wants `\[\d{4}\]`, PG 91 has 3-digit columns, so the English cards' `[364]` are padded on the way in). Tables by `scripts/mx-tables.py` (after
+`MP_STRICT=1 MP_WORK=maximus-epistulae MP_DJVU=raw/pg091/091_djvu.xml MP_CMAP=data/pg-column-maps/pg091.json MP_BYCLASS=1 MP_RANGES=200-265,272-317,324-327,332-359 python3
+scripts/mp-bands.py`, which gained those switches; defaults unchanged): GREEK-BREAKS 99 (45 letter heads + 24 numbered scholia + 30 italic subheadings of Letters 12/13/15 + ΣΧΟΛΙΟΝ/ΣΧΟΛΙΑ,
+located by eye), GREEK-DROPS 8 whole lines, GREEK-BANDS 541 (1 glued letter stripped by mp-bands, p-0274:1 `Ἀ` by the table), GREEK-PATCHES +31 (stray/space/heading rows, translator
+readings, NOT plate-checked; the 7 heading numerals not plate-checked either, 3 seen on the plate agree). `notes/place.py`: English mirror (monotone DP, 182 of 260 Combefis Scripture
+locators now `[n:]` in the English where a translator's S note has the same reference). 87 of 96 Greek-keyed variants placed in the Greek; 158 notes + 482 translator notes on the cruces page,
+plus the 304 print-error rows as a table (no `[sic:]`). Me-027: 22 `[?]` that stand on Migne's dotted gaps became `…`; 4 stay (p0351.18, 0352.20, 0352.46, 0352.47: no dots on the plate).
+`plate-reads.json`: 8 pages (206, 247, 274, 317, 340, 351, 352, 357) for the 11 `[?]` that remain. Align (`WIDE_PARA=1`) 96.3% sentence-level, ratio 1.14; verify OK; plate-gate OK (0 markers).
+Moschus, Procopius, Sophronius rebuilt through kt-to-site → mark → align → verify → build-work-page-pg: `src/` byte-identical; only `generated` dates differed (restored from git).
+⬜ Blind polarity read (preflight's 10th), then Wilson: about/bio/RECENT text, deploy (own OK), push (own OK), `englishState: ours`.
