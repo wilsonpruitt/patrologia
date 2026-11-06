@@ -1,10 +1,10 @@
 # Next session — resume note
 
-## ▶ 2026-11-06 (latest) — MAXIMUS *EPISTULAE* RUNNING (Fable go); Sophronius *Orationes* LIVE + pushed
+## ▶ 2026-11-06 (latest) — MAXIMUS *EPISTULAE* BUILT LOCALLY, preflight 10/10; awaiting Wilson (drafts → deploy → push). Sophronius *Orationes* LIVE + pushed
 ✅ Sophronius *Synodica* + *Orationes* LIVE 2026-11-06 at migne.app/pg/87/orationes/ (`14fa1b44`, englishState ours).
 **Wilson 2026-11-06: "shift the queue towards Maximus."** Head of the PG queue = Maximus *Epistulae* (PG 91.361–650), already ruled
 2026-10-14 (pg-paired-pilot 0f) and PAUSED 2026-10-15 only on cost; the Greek base text is CLOSED (`raw/pg091/checked/`, 160 pp,
-≈62K words, $14.15; 298 doubts in `DOUBTS.tsv` settled at translation, only where they change the English; pilot 0i). Setup DONE (commit ac74ee81; score `translate/maximus-epistulae/RUN.md`): 28 chunks, anchor, glossary, card, register M1–M6; round 1
+≈62K words, $14.15; 298 doubts in `DOUBTS.tsv` settled at translation, only where they change the English; pilot 0i). ALL STEPS DONE through the blind read (score `translate/maximus-epistulae/RUN.md`, last section "Closed 2026-11-06"): nothing left but Wilson's reading of the DRAFT about/bio/RECENT text and his own OKs for deploy (`node scripts/build-site.mjs && node scripts/preflight.mjs && cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`) and push, then `englishState: "ours"`. Setup was commit ac74ee81: 28 chunks, anchor, glossary, card, register M1–M6; round 1
 (briefs A–C) launched 2026-11-06. If resuming mid-run: check which `me-0NN.en.md` exist, launch the next briefs from `_briefs/`
 (3 at a time), then the Plan in RUN.md (sweep → image check → apparatus → build → blind read). Translation by the kt pattern (Fable anchor → Opus briefs → sweep → apparatus → build → blind read), adapted to a non-Kraken base
 (no `ruled/` tags; DOUBTS.tsv replaces the image-check rows). ⏸ Sophronius *Anacreontica* (Fable verse pilot) moves behind Maximus.
