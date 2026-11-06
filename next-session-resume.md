@@ -1,5 +1,18 @@
 # Next session — resume note
 
+## ▶ START HERE (2026-11-06, Wilson): MAXIMUS *OPUSCULA THEOLOGICA ET POLEMICA* — queue #1, not yet started
+Score: `translate/MAXIMUS-QUEUE.md` (the complete-works queue, costed) + its method section. The Opuscula = PG 91.9–285, 27
+pieces, ≈52K Greek words, est. ≈6M all-in (Opus translators, Sonnet volume work, no Fable anchor: the register and glossary
+are the *Epistulae*'s — `translate/maximus-epistulae/{CARD,GLOSSARY}.md`, `translation-style.md` M1–M6). **Needs Wilson's
+"which model, and go" at the start of the session.** First steps, in order: (1) locate the Opuscula's pdf pages in
+`raw/pg091/091.pdf` (djvu heads say ≈pp. 20–163) and scan for duplicate leaves (the PG 91 scan had 16 in the Epistulae
+range: text-identity check, see `translate/maximus-epistulae/RUN.md` "Setup"); (2) extend `data/pg-column-maps/pg091.json`
+to those pages; (3) render with `pdftoppm -r 600 -gray` (NEVER pdfimages) and run `htr/pg-ocr.sh` (Kraken, ≈0.6 min/page,
+background) → `kt-rules.py` → the base; (4) myriobiblos `prosmarinon` (ad Marinum, 16K words) as a second witness: restore
+graves, align to Kraken lines, diff → DOUBTS rows; (5) chunk (≈2K words), card (adapt `maximus-epistulae/CARD.md`: the 27
+pieces by number, Combefis's headings, fragments), briefs of 3, three at a time; then sweep → image check → apparatus →
+build (`BUILD.md` pattern) → blind read → Wilson. Register as `maximus-confessor-opuscula`, slug `opuscula`.
+
 ## ▶ 2026-11-06 (latest) — MAXIMUS *EPISTULAE* LIVE at migne.app/pg/91/epistulae/ (deployed + pushed, englishState ours). Sophronius *Orationes* LIVE + pushed
 ✅ Sophronius *Synodica* + *Orationes* LIVE 2026-11-06 at migne.app/pg/87/orationes/ (`14fa1b44`, englishState ours).
 **Wilson 2026-11-06: "shift the queue towards Maximus."** Head of the PG queue = Maximus *Epistulae* (PG 91.361–650), already ruled
