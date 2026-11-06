@@ -5,44 +5,44 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 ## Chunk 0001 (me-001)
 
-- **0364** · …the lord George, the all-praised prefect of Africa.* — P. George, prefect (ἔπαρχος, *praefectus praetorio*) of Africa in the late 630s, the civil governor to whom
-- **0364** · …taught that virtue is a matter of inclination, — T. γνώμη, here and throughout the letters = *inclination*; γνωμικῶς = *by inclination* (the scholarship's
-- **0365** · …has made the reflections of the divine idioms — T. τῶν θείων ἰδιωμάτων … τὰς ἐμφάσεις: the "idioms" are the characteristic marks proper to God (the glossary's
-- **0365** · …to be, be able to adulterate this philosophy, — T. φιλοσοφία: the ascetic life itself, as in the monastic writers; not an argument but a way of living, which
+- **0364** · …the lord George, the all-praised prefect of Africa.* — P. George, prefect (ἔπαρχος, *praefectus praetorio*) of Africa in the late 630s, the civil governor to whom Maximus, then in the African monasteries, writes Letters 1, 18 (in George's name) and 44–45. Migne's heading (Combefis's) gives the piece both titles: *Λόγος παραινετικός*, "hortatory discourse", and "in the form of a letter"; the Latin runs *Sermo hortatorius epistolari forma*.
+- **0364** · …taught that virtue is a matter of inclination, — T. γνώμη, here and throughout the letters = *inclination*; γνωμικῶς = *by inclination* (the scholarship's "gnomic will"). Maximus opposes it to τάξις (rank) and, two lines on, pairs it with διάθεσις (disposition): the three are kept apart in the English as in the Greek. See the glossary.
+- **0365** · …has made the reflections of the divine idioms — T. τῶν θείων ἰδιωμάτων … τὰς ἐμφάσεις: the "idioms" are the characteristic marks proper to God (the glossary's ἰδίωμα, distinct from ἰδιότης = property), their "reflections" (ἐμφάσεις) the appearances of them in a life.
+- **0365** · …to be, be able to adulterate this philosophy, — T. φιλοσοφία: the ascetic life itself, as in the monastic writers; not an argument but a way of living, which is why it can "nurture" a man.
 - **0368** · …soul, and power, and our neighbour as ourselves; — S. Matt 22:37–39 (cf. Mark 12:30–31; Dt 6:5), with "ourselves" (ἑαυτούς) for "thyself".
-- **0368** · …from our own willing? And perhaps the word, — T. ὁ λόγος: the divine word, i.e. Scripture (the Latin has *Scriptura*); lower case, since the glossary
-- **0368** · …nature, to the things not in our power, — T. τὰ ἐφ᾿ ἡμῖν / τὰ οὐκ ἐφ᾿ ἡμῖν = "the things in our power / not in our power", the Stoic pair; scholia 4–5
+- **0368** · …from our own willing? And perhaps the word, — T. ὁ λόγος: the divine word, i.e. Scripture (the Latin has *Scriptura*); lower case, since the glossary reserves "the Word" for the Son, as just below ("receiving the Word as He mounts").
+- **0368** · …nature, to the things not in our power, — T. τὰ ἐφ᾿ ἡμῖν / τὰ οὐκ ἐφ᾿ ἡμῖν = "the things in our power / not in our power", the Stoic pair; scholia 4–5 gloss it as τὸ αὐτεξούσιον, *self-determination*. προαίρεσις below = *choice*.
 - **0369** · …in good order, the course of the virtues. — S. cf. Zech 9:9; Matt 21:2–7 (the colt that bears the Lord).
 - **0369** · …not commixed — let us neither, when rule — T. ἀρχή: rule as an office held (the Latin *magistratus*), the prefect's own; so "authority" for ἐξουσία below.
 - **0372** · …to have the chastising fire as his portion. — S. Luke 16:19–31 (Lazarus, Abraham's bosom, the chasm, the fire).
 - **0372** · …down in the crowd, and bind sin twice. — S. Sir 7:6–8, as printed (μὴ οὐκ ἰσχύσῃς for the LXX's ἰσχύσεις; καταβάλῃς ἑαυτόν for σεαυτόν).
 - **0372** · …thy head, and many have marvelled at thee; — S. Sir 11:12–13, turned to the second person.
 - **0372** · …the fragrant spreading of thy virtues has come. — S. Ps 18:5 LXX (cf. Rom 10:18), said of the apostles and here bent to George.
-- **0373** · …their mother's womb didst guide them toward righteousness. — S. Job 31:17–18, turned from Job's first person to George's second; the catalogue that follows is Job 29–31
+- **0373** · …their mother's womb didst guide them toward righteousness. — S. Job 31:17–18, turned from Job's first person to George's second; the catalogue that follows is Job 29–31 in the same way. The preposition is cut off at the line end (ἐπ…): read ἐπί, "toward", with the Latin *ad justitiam*.
 - **0373** · …their shoulders with the fleece of thy lambs. — S. Job 31:19–20.
 - **0373** · …didst not set thy gold upon thy dust — S. Job 31:24; "dust" (χοῦς) is glossed at once by Maximus himself.
 - **0373** · …of enemies, and thy heart say: Well done. — S. Job 31:5 (mockers; the foot hastening to deceit); 31:29.
 - **0373** · …price, nor crush the souls of its masters. — S. Job 31:38–39.
 - **0373** · …unjust gifts thou didst draw back thy hands; — S. cf. Isa 33:15.
-- **0373** · …the hardship that is according to the flesh, — T. τὸ κατὰ σάρκα δυσπαθές / δυσπάθεια = *hardship* (of the flesh), εὐπάθεια = *comfort*: the pair runs into
+- **0373** · …the hardship that is according to the flesh, — T. τὸ κατὰ σάρκα δυσπαθές / δυσπάθεια = *hardship* (of the flesh), εὐπάθεια = *comfort*: the pair runs into the next chunk and is kept one word each.
 
 ## Chunk 0002 (me-002)
 
-- **0376** · …the procurer of kinship — T. οἰκείωσις = *kinship* (with God, and in the third chunk with the devil); the Latin *necessitudo*. Not in the
-- **0376** · …as Gregory, the divine mouth of Christ, said — S. Gregory Nazianzen, *Or.* 14, *On the love of the poor* (so Combefis's margin, *Orat. de amore pauperum*), on
-- **0376** · …— apart from identity with Him in essence. — T. θεοὶ κατὰ χάριν … χωρὶς τῆς πρὸς αὐτὸν κατ᾿ οὐσίαν ταυτότητος: deification by grace, with identity in
+- **0376** · …the procurer of kinship — T. οἰκείωσις = *kinship* (with God, and in the third chunk with the devil); the Latin *necessitudo*. Not in the glossary: chosen here.
+- **0376** · …as Gregory, the divine mouth of Christ, said — S. Gregory Nazianzen, *Or.* 14, *On the love of the poor* (so Combefis's margin, *Orat. de amore pauperum*), on the flesh that "will suffer what is its own"; cf., exact place not located.
+- **0376** · …— apart from identity with Him in essence. — T. θεοὶ κατὰ χάριν … χωρὶς τῆς πρὸς αὐτὸν κατ᾿ οὐσίαν ταυτότητος: deification by grace, with identity in essence (ταυτότης, the glossary's *identity*) expressly excepted.
 - **0376** · …grass has withered, and the flower has fallen. — S. Isa 40:6–7 (cf. 1 Pet 1:24).
-- **0376** · …extremes with one another at the same point, — T. "the extremes … the middle": scholion 6 below explains, the extremes being coming-to-be and corruption, the
-- **0376** · …the moment the soul that does not perish; — T. Two gaps on the plate (p0206.48–49). "the soul that does not perish" is sure (Latin *animam, quae non sit
+- **0376** · …extremes with one another at the same point, — T. "the extremes … the middle": scholion 6 below explains, the extremes being coming-to-be and corruption, the middle the thing generated.
+- **0376** · …the moment the soul that does not perish; — T. Two gaps on the plate (p0206.48–49). "the soul that does not perish" is sure (Latin *animam, quae non sit interitioni obnoxia*); the verb survives only as …σωμεν, and "bind" is the Latin's *alligemus*; "then" stands for a particle read only as τε…, the Latin *itaque*.
 - **0377** · …not working the like things with the Sodomites: — S. Gen 19:15–17 (Sodom, the mountain, Lot; συμπαραληφθῶμεν echoes 19:15, 17 LXX). Scholion 7 glosses the point.
-- **0377** · …nature the passing flux as their very hypostasis, — T. ὑπόστασις kept as *hypostasis* by the corpus rule, though here it is the mere reality of passing things: their
+- **0377** · …nature the passing flux as their very hypostasis, — T. ὑπόστασις kept as *hypostasis* by the corpus rule, though here it is the mere reality of passing things: their whole mode of being is flux. The Latin reads *substantiam*.
 - **0377** · …it beforehand to God through those in need — S. cf. Prov 19:17 (he who pities the poor lends to God).
-- **0377** · …this age passes away, as the Saint said; — S. 1 Cor 7:31. T. ὁ Ἅγιος, "the Saint", here and in "the God of the Saint" just after; the Latin has
-- **0377** · …the Saint has said. And let us await — T. Migne prints δεχώμεθα "let us receive" with the bracketed alternative [ἐκδεχώμ(εθα)], "let us await", which
+- **0377** · …this age passes away, as the Saint said; — S. 1 Cor 7:31. T. ὁ Ἅγιος, "the Saint", here and in "the God of the Saint" just after; the Latin has *Apostolus* and *apostoli Deus* both times.
+- **0377** · …the Saint has said. And let us await — T. Migne prints δεχώμεθα "let us receive" with the bracketed alternative [ἐκδεχώμ(εθα)], "let us await", which the Latin follows (*exspectemus*); the English takes the bracket.
 - **0377** · …alterations, as one of our wise men said, — S. cf. Basil, *Hexaemeron* 1.3 (the argument from the corruptibility of the parts to that of the whole).
 - **0380** · …to all this, considering exactly how we walk, — S. Eph 5:15.
 - **0380** · …be a new heaven and a new earth, — S. 2 Pet 3:10; Rev 21:1 (Isa 65:17).
-- **0380** · …by Him; and a shuddering threat of blazing — T. αἰθομένου with Migne's bracketed alternative [καιομένου], both "blazing". S. cf. Ps 96:3, 5 LXX (fire round
+- **0380** · …by Him; and a shuddering threat of blazing — T. αἰθομένου with Migne's bracketed alternative [καιομένου], both "blazing". S. cf. Ps 96:3, 5 LXX (fire round about; mountains melting like wax).
 - **0380** · …of fire, he says, was drawing before Him. — S. Dan 7:10 (Theodotion).
 - **0380** · …and the outer darkness, and the sleepless worm — S. Matt 8:12 (outer darkness); Mark 9:48 (the worm); Luke 16:26 (the chasm).
 - **0381** · …them. And behold, a man and his work; — S. cf. Isa 62:11 (40:10).
@@ -51,13 +51,13 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 ## Chunk 0003 (me-003)
 
-- **0384** · …of deceit. Just is thy judgement, O God; — S. Ps 118:137 LXX; what follows is Prov 1:24–31, turned into the confession of the condemned ("thou didst call
+- **0384** · …of deceit. Just is thy judgement, O God; — S. Ps 118:137 LXX; what follows is Prov 1:24–31, turned into the confession of the condemned ("thou didst call us, and we did not obey").
 - **0384** · …all that there is a wage of holiness. — S. Wis 2:21–22.
 - **0384** · …trace to find, nor path of its keel — S. Wis 5:7–11. T. τρόπεως, with Migne's bracketed alternative [τρόπιος], the LXX's form; both are "keel".
 - **0385** · …now, our tongue burning with a fearful thirst. — S. cf. Luke 16:24.
 - **0385** · …then, of what we did, do we receive; — S. Luke 23:41.
-- **0385** · …wages worthy of our own disposition by intent: — T. κατὰ πρόθεσιν = *by intent*; πρόθεσις is not in the glossary and is kept apart from προαίρεσις (choice) and
-- **0388** · …a gaping depth, and the gloom of cowering. — T. στυγνότητα πτήξεως, "the gloom of cowering": Combefis's note (c) says this is the reading of the Venetian
+- **0385** · …wages worthy of our own disposition by intent: — T. κατὰ πρόθεσιν = *by intent*; πρόθεσις is not in the glossary and is kept apart from προαίρεσις (choice) and γνώμη (inclination).
+- **0388** · …a gaping depth, and the gloom of cowering. — T. στυγνότητα πτήξεως, "the gloom of cowering": Combefis's note (c) says this is the reading of the Venetian codex, which he prefers; πτῆξις is the crouching of an animal that dares not come out for fear.
 - **0388** · …ask through prayer for the grace of knowledge. — S. Matt 7:7–8.
 - **0388** · …light, nor to see the life of mortals, — S. Matt 22:13; Job 10:21–22.
 - **0389** · …Love, both being it and being called it — S. 1 John 4:8, 16.
@@ -65,9 +65,9 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0389** · …away, and all the things in it wither. — S. 1 John 2:17.
 - **0389** · …eyes and ears and understandings mysteries altogether strange. — S. cf. 1 Cor 2:9.
 - **0389** · …becomes, and is called, all things to all, — S. 1 Cor 15:28.
-- **0392** · …who, because of thee, sojourn in this land — P. The monks living in Africa (so Combefis's note 18), among whom Maximus writes; "because of thee" — under
+- **0392** · …who, because of thee, sojourn in this land — P. The monks living in Africa (so Combefis's note 18), among whom Maximus writes; "because of thee" — under George's protection.
 - **0392** · …for us, our all-holy, glorious Lady, the Theotokos — T. Θεοτόκος, "Theotokos", the God-bearer: the Chalcedonian title of Mary, first used in these letters here.
-- **0392** · …ever-virgin Mary, with all the saints. Amen. SCHOLIA — T. The seven Greek scholia printed after the letter (α΄–ζ΄), keyed to the calls (1)–(7) set in the text and not
+- **0392** · …ever-virgin Mary, with all the saints. Amen. SCHOLIA — T. The seven Greek scholia printed after the letter (α΄–ζ΄), keyed to the calls (1)–(7) set in the text and not reproduced: (1) "not to rule over men" (col 365); (2) "all that concerns ourselves" (365); (3) "the divine purpose" (368); (4) "as in a definition" (368); (5) "Not in our power" (368); (6) "the middle" (376); (7) "like the blessed Lot" (377). Scholion 4–5's τὸ αὐτεξούσιον = *self-determination*; εἴτουν = "that is".
 
 ## Chunk 0004 (me-004)
 
@@ -171,7 +171,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 - **0445** · …*Of the same, to Thalassius, presbyter and abbot.* — P. Thalassius, presbyter and abbot of a monastery in Africa, Maximus's correspondent and the addressee of the *Quaestiones ad Thalassium*.
 - **0445** · …moved by wish and inclination according to choice: — T. βούλησις = wish, γνώμη = inclination, προαίρεσις = choice: three faculty-words in one clause, kept apart.
-- **0445** · …nature — except, however, nature. For that one — T. Ἐκείνη γάρ, "that one", as printed: the masculine ἀγαθός … δωρούμενος shows that God, the first of the three agents, is meant. Combefis's Latin makes it explicit (*Verbi gratia, siquidem Deus est qui agit trahitque hominem*), a gloss and not a witness to a lost clause; the plate reads as our Greek. θέσει = "by adoption" (Latin *adoptione*), opposed to φύσει.
+- **0445** · …by nature — except, however, nature. For she — T. As printed the sentence has no subject for πέφυκε: Ἐκείνη ("she", nature, the exception just named) is the subject of διαφυλάττει, but nature cannot cut man off from nature, and the masculine ἀγαθός … δωρούμενος and the paired clauses that follow (Εἰ δὲ φύσις … Εἰ δὲ κόσμος …) require God, the first of the three agents. Combefis's Latin supplies him (*Verbi gratia, siquidem Deus est qui agit trahitque hominem*), which may render a clause his manuscript had (εἰ μὲν Θεὸς ἄγει …); the plate reads as our Greek. ⟨God⟩ is supplied. θέσει = "by adoption" (Latin *adoptione*), opposed to φύσει.
 - **0448** · …to be led by the Spirit of God, — S. Rom 8:14.
 - **0448** · …looking to the author of our salvation, Jesus, — S. Heb 12:2; cf. Heb 2:10.
 - **0448** · …I think, has called the natural man psychic, — S. 1 Cor 2:14. T. ψυχικός = psychic, "of the soul", kept apart from φυσικός = natural; the triad carnal, psychic, spiritual is Paul's (1 Cor 2:14–3:3).
@@ -239,12 +239,12 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0480** · …ignorant of how to put division to flight? — T. τροπώσασθαι = "to rout, put to flight": without the word for union nothing drives division off. Combefis's Latin has *divisionem convenire*, and his margin note offers another reading; the Greek as printed construes and is kept.
 - **0480** · …other of confusion, because of Apollinarius and Eutyches, — P. Apollinarius of Laodicea (d. c. 390) and Eutyches (d. after 454), whose Christologies the Chalcedonians held to confuse the natures.
 - **0480** · …through this the utmost union may be shown, — T. ἡ ἄκρα ἕνωσις: "the utmost union" (ἄκρος as an adjective, not the glossary's ἄκρον = extreme).
-- **0481** · …Cyril supposes in the second memorandum to Succensus, — S. Cyril, Second Letter to Succensus (Ep. 46), which takes up the objection that "two natures united undividedly" conflicts with "one incarnate nature of the Word"; Maximus quotes its closing passage "at the end of the same letter", below.
+- **0481** · …Cyril supposes in the second memorandum to Succensus, — S. Cyril, Second Letter to Succensus (Ep. 46), which takes up the objection that "two natures united without division" conflicts with "one incarnate nature of the Word"; Maximus quotes its closing passage "at the end of the same letter", below.
 - **0481** · …thought to the just Judge of our affairs, — S. Cf. Matt 12:36.
 - **0481** · …of honour, by identity of counsel, by authority. — T. ἰσοτιμία, ταυτοβουλία, αὐθεντεία: "equality of honour, identity of counsel, authority", the marks of the Nestorian "relational" (σχετική) union; ταυτοβουλία is rendered from ταυτότης = identity and βουλή = counsel.
 - **0484** · …who subsist by themselves, specifically, in personal monads. — T. Migne's margin flags both definitions (Ὅρος τῆς καθ᾿ ὑπόστασιν ἑνώσεως … ἀκριβής τε καὶ σύντομος; Ὅρος τῆς σχετικῆς ἑνώσεως); a scrap of the first was read into the text at p0260.52. σύνοδος here = "concourse", not "synod"; ἑτεροούσια = "things of other essence"; θελήματος κίνησις = "movement of will"; γνωμικὴ ταυτότης = "identity of inclination"; μονάσι προσωπικαῖς = "personal monads", units each a person, lower case and kept apart from the Monad of the Trinity.
 - **0484** · …and have undividedness, by a certain loving co-disposition, — T. συνδιάθεσις: "co-disposition", built on διάθεσις = disposition.
-- **0485** · …predicated of nothing, ironically, to deceive the simpler. — T. The clause is knotted in the Greek (μηδέ … προφέρουσι, a dative where the accusative subject is wanted); rendered by its sense, with Combefis's Latin (*nec nuda solaque voce … proferunt*), and nothing added but the arrangement.
+- **0485** · …of which they confess the difference to be. — T. The clause is knotted in the Greek (μηδέ … προφέρουσι, a dative where the accusative subject is wanted); rendered by its sense, with Combefis's Latin (*nec nuda solaque voce … proferunt*), and nothing added but the arrangement: the μηδέ goes with the condition (εἴπερ … μὴ ἦν).
 - **0485** · …quality toward quality, or of property toward property, — T. Combefis's Latin adds *vel quantitatis cum quantitate* between quality and property; the Greek as given has no such member. Plate-checked 2026-11-06: Migne prints no such member, so the English has none.
 - **0488** · …assumption of flesh having an intellectual soul. » — S. Cyril, *Scholia on the Incarnation*; Combefis's note says the words do not occur in the Scholia as they survive.
 - **0488** · …of necessity and fittingly, contained by one another: — T. γένεσις here = coming-to-be (the triad of the glossary's second table); ἀκουσίως = involuntarily, ἀπροαιρέτως = without choice (προαίρεσις = choice).
@@ -262,19 +262,19 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0496** · …mischievously put forward in the mode Nestorius held. — S. The series paraphrases Cyril: "Incarnate" and the definition of manhood from the Second Letter to Succensus (Ep. 46); "two natures united" accepted in a non-Nestorian sense, cf. the Letter to Eulogius (Ep. 44).
 - **0497** · …they can. Therefore I, the least, exhort you — T. ὑμᾶς, plural: Maximus turns from John to John and those with him, so "you" here.
 - **0497** · …of their manner, the Lord in the Gospels, — T. The printed γὰρ after ἐν Εὐαγγελίοις does not construe after the opening δέ and is left unrendered (OCR table, doubt); the Latin has *ipse Dominus*.
-- **0497** · …comes, and⟩ even now is in the world. — S. 1 John 4:1–3. T. The Greek as printed passes from "and this is" to "even now is in the world", skipping τὸ τοῦ ἀντιχρίστου, ὃ ἀκηκόατε ὅτι ἔρχεται; Combefis's Latin has the whole verse and his foot-note supplies the Greek. The words in ⟨ ⟩ are supplied from it.
+- **0497** · …comes, and even now is in the world. — S. 1 John 4:1–3. T. Migne prints the whole verse: the words τὸ τοῦ Ἀντιχρίστου, ὃ ἀκηκόατε ὅτι ἔρχεται run over at the end of the line into the Latin column (p-0273), and our first read of the page dropped them; restored in the Greek from the plate (re-read 2026-11-06). Combefis's Latin has the verse too.
 
 ## Chunk 0014 (me-014)
 
 - **0500** · …as the great evangelist John explicitly cries out; — S. 1 John 4:2–3, quoted at the end of the previous chunk; the sentence runs on from it ("not to confess in the flesh our Lord …").
-- **0500** · …in Christ; and thus they do not shudder — T. Read with the Latin (*non horrent*; *adversae Deo opinionis*) and the second read of the page: οὐ φρίττουσι for φρίττουσι, ἀντικειμένης for ἐνσωματουμένης, and the οὐ printed before σώζεσθαι in the line above dropped, since it reverses the sense. See the OCR table.
-- **0500** · …reap a fruit worthy of their own folly: — T. [?] The printed ἄξιον τῆς αὑτῶν θρέψαντα ἐνίας καρπῶν does not construe. ἐνίας is read ἀνοίας (the second read; Latin *dementiae*); the verb "reap" is supplied from the Latin *decerpunt*, perhaps a form of δρέπομαι behind θρέψαντα. Not settled.
+- **0500** · …in Christ; and thus they do not shudder — T. The plate prints σώζεσθαι with no οὐ before it, οὔτε φρίττουσι and ἀντικειμένης, as the Latin reads (*non horrent*; *adversae Deo opinionis*); our first read of the page had οὐ σώζεσθαι, οὕτω φρίττουσι and ἐνσωματουμένης (image check, and re-read 2026-11-06). The Greek is corrected.
+- **0500** · …reap a fruit worthy of their own folly: — T. The plate prints ἄξιον τῆς αὑτῶν δρέπονται ἀνοίας καρπῶν, "they reap a fruit worthy of their own folly", with the Latin (*dignum dementiae suae fructum decerpunt*); our first read of the page had θρέψαντα ἐνίας, which does not construe (image check, re-read 2026-11-06). The Greek is corrected.
 - **0500** · …knowing him as being in Godhead and manhood. — T. ἐκ δύο φύσεων / ἐν δύο φύσεσι = "from two natures" / "in two natures": the prepositions are the argument, and they are kept apart throughout.
 - **0501** · …by adding "Incarnate", the signification of our essence. — T. Cyril's formula μία φύσις τοῦ Θεοῦ Λόγου σεσαρκωμένη, which Severus claimed for his side; Maximus reads it as a periphrasis naming both natures. S. Cyril, Second Letter to Succensus (Ep. 46).
 - **0501** · …manhood, except that it is flesh intellectually ensouled?» — S. Cyril, Second Letter to Succensus (Ep. 46); the Latin names Cyril in the text.
 - **0501** · …natural union" in the sense of saying "true", — T. φυσικὴ ἕνωσις ἀντὶ τοῦ ἀληθῆ: Cyril's own gloss, "natural" meaning "real, true"; cf. his defence of the third anathematism against Theodoret.
 - **0504** · …holy all-glorious Virgin properly and in truth Theotokos, — T. Θεοτόκος, "God-bearer", kept in its Greek form.
-- **0504** · …acceptable and perfect; and keeping watch unto it. — S. Rom 12:2 (σκοποῦντας where the Apostle has δοκιμάζειν); cf. Eph 6:18.
+- **0504** · …acceptable and perfect; and keeping watch unto it. — S. Rom 12:2, as Maximus prints it (σκοποῦντας, "considering", where the Apostle has δοκιμάζειν, "proving"); cf. Eph 6:18.
 - **0504** · …faith things that do not belong to it, — S. Cf. 1 Cor 3:10–12.
 - **0504** · …light, nor to see the life of mortals, — S. Job 10:21–22.
 - **0505** · …time also fittingly to pursue the divine philosophy, — T. φιλοσοφία: the ascetic life, as in Letter 1.
@@ -346,7 +346,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0541** · …for us; and we have travelled pathless tracks, — S. Wis 5:7, διωδεύσαμεν ἐρήμους ἀβάτους.
 - **0541** · …weighed down the more in surfeiting and drunkenness. — S. Luke 21:34. T. The plate prints προσευξιώμεθα and κραιπίλῃ (both misprints, at the plate check); read προσευξώμεθα and κραιπάλῃ.
 - **0541** · …foretold; and we are not at all astonished, — S. Cf. 1 Pet 4:12.
-- **0544** · …those who are infants, and awaiting the Word — T. The Greek as read has Διὸ οὖν, which does not construe; the relative ὃς that follows wants a masculine antecedent, and the Latin has *vocantem Sermonem*. Read Λόγον ("the Word"); the plate check could not settle the letters.
+- **0544** · …those who are infants, and awaiting the Word — T. The plate prints Λόγον ("the Word"), the γ failed to ink (re-read 2026-11-06, p-0296); our first read of the page had Διὸ οὖν, which does not construe. The relative ὃς that follows wants the masculine, and the Latin has *vocantem Sermonem*. The Greek is corrected.
 - **0544** · …contests of those who lawfully fight for piety, — S. Cf. 2 Tim 2:5.
 - **0544** · …of each of these speaks the two expressions. — T. The scholion (numbered α΄) glosses the passage at col. 536 on number and the two expressions, "two natures" and "the one nature of God the Word incarnate".
 
@@ -365,7 +365,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0548** · …the essence.» And again in the Farewell oration: — S. Gregory Nazianzen, Or. 42.15 (the farewell oration at Constantinople, 381).
 - **0548** · …glory, in whom baptism too has its perfecting — T. Gregory's text and Combefis's Latin have one more phrase here: «both of names and of realities» (*tam in nominibus quam in rebus*). Plate-checked 2026-11-06: Migne's quotation prints the shorter text, without these words; Gregory's own text has them. Not translated from the Latin. The Latin also ends with *ut nonnullis placet* ("as some like to say") where the Greek has only «that is persons».
 - **0548** · …on the Lights too the same says this: — S. Gregory Nazianzen, Or. 39.11 (*On the Holy Lights*).
-- **0549** · …are wholly of other hypostases from one another. — T. ἑτεροϋπόστατος = "of other hypostasis" (pl. "of other hypostases"), ὁμοϋπόστατος = "of one hypostasis", ἑτεροούσιος = "of other essence", against ὁμοούσιος = consubstantial; ὁμοφυής = connatural. They are the four terms the rest of the letter turns on.
+- **0549** · …are certainly of other hypostases from one another. — T. ἑτεροϋπόστατος = "of other hypostasis" (pl. "of other hypostases"), ὁμοϋπόστατος = "of one hypostasis", ἑτεροούσιος = "of other essence", against ὁμοούσιος = consubstantial; ὁμοφυής = connatural. They are the four terms the rest of the letter turns on.
 - **0549** · …generation, the Holy Spirit is (for it proceeds): — S. Cf. Gregory Nazianzen, Or. 41.9 (πάντα ὅσα ὁ Πατήρ, τοῦ Υἱοῦ, πλὴν τῆς ἀγεννησίας …) and Or. 31.9.
 - **0552** · …with all things that have had their concourse — T. σύνοδος here and through the letter is the "concourse" or coming-together of the parts, not a council. The Latin varies (*coeunt*, *concursus*, *conjunctio*).
 - **0552** · …by the principle of the personal undivided monad — T. μονάς here is the "monad" (lower case) of the single person, the unit the parts complete. Maximus uses the same word as for the Trinity's Monad above, and that is the point of the comparison.
@@ -512,7 +512,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0629** · …But give a share of solid food too, — S. Heb 5:12–14.
 - **0629** · …with the subtler principle of providence and judgement; — T. The glossary's Evagrian pair, "the principle of providence and judgement".
 - **0629** · …principles of the things eternal — strengthen them: — S. Ps 4:8; 103:15 LXX.
-- **0632** · …unforgetting knowledge, as with wine, warming the heart — T. The Greek prints τὴν χρείαν ("the need"), which does not construe with διαθερμαίνων; the Latin has *discipulorum tuorum corda concalefacias*, and the English reads καρδίαν, "heart".
+- **0632** · …unforgetting knowledge, as with wine, warming the heart — T. The plate prints τὴν καρδίαν, "the heart" (re-read 2026-11-06, p-0350), with the Latin *discipulorum tuorum corda concalefacias*; our first read of the page had τὴν χρείαν ("the need"), which does not construe with διαθερμαίνων. The Greek is corrected.
 
 ## Chunk 0027 (me-027)
 
@@ -543,7 +543,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0637** · …war set up against God through the passions, — T. The plate has ἣν before διὰ τῶν παθῶν, which cannot agree with πόλεμον; Letter 24 has καὶ, and the English reads it. In the next phrase σπονδὰς αὐτοῖς is taken as σπονδὰς αὑτοῖς, "treaties for ourselves" (Letter 24: σπονδὰς ἀλύτους, "indissoluble treaties").
 - **0640** · …greatly the friendship with him has corrupted us, — T. The plate has ὅσον κατείδομεν ἡμᾶς τῇ πρὸς αὐτὸν φιλίᾳ κατέφθειρε, where κατέφθειρε lacks a subject; the English reads ἡ … φιλία with Letter 24 and the Latin (*quantam … ejus nobis amicitia labem intulerit*).
 - **0640** · …the divine nature and sharers in its eternity, — T. τῆς αὐτῆς ἀϊδιότητος, "its" (the divine nature's) eternity; Letter 24 has αὐτοῦ, "his".
-- **0641** · …receiving from God our being gods. For thus — T. The plate has Οὕπω ("not yet"), and the Latin read it (*Nondum enim divina munera honorantur*); Letter 24 has Οὕτω ("thus"), which the sense requires. The English follows Οὕτω.
+- **0641** · …from God our being gods. For not yet — T. Migne prints Οὕπω, i.e. οὔπω, "not yet" (plate re-read 2026-11-06, p-0355), and Combefis's Latin reads it (*Nondum enim divina munera honorantur*); the English follows the print: the divine gifts are not yet honoured while the soul is still at war with God. Letter 24's twin sentence reads Οὕτω ("For thus are the divine gifts honoured …"), and the print here may be a slip for it.
 
 ## Chunk 0028 (me-028)
 
@@ -740,7 +740,7 @@ Migne's foot-of-page apparatus was read for every page (translate/maximus-epistu
 
 ## Readings checked at the plate
 
-Greek source: our own reading of Migne's plates (a vision read, checked line by line against the page, then every doubtful reading looked up again on the page image, 2026-11-06). Every reading the translators flagged (567) was looked up: 234 were slips in our own transcription and are corrected in the Greek without comment; 303 are Migne's (Combefis's) own type, wrong or irregular on the page itself (the Greek stands as printed; where the sense needs it the English follows the corrected reading); 25 are readings where the plate prints the form the translator doubted (Migne's text, kept); 5 were not settled at the plate. No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne's page and waits on a full-page reading of each column. The 303 print-error rows:
+Greek source: our own reading of Migne's plates (a vision read, checked line by line against the page, then every doubtful reading looked up again on the page image, 2026-11-06). Every reading the translators flagged (567) was looked up: 235 were slips in our own transcription and are corrected in the Greek without comment; 301 are Migne's (Combefis's) own type, wrong or irregular on the page itself (the Greek stands as printed; where the sense needs it the English follows the corrected reading); 26 are readings where the plate prints the form the translator doubted (Migne's text, kept); 5 were not settled at the plate. No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne's page and waits on a full-page reading of each column. The 301 print-error rows:
 
 | page.line | printed | read as | note |
 |---|---|---|---|
@@ -881,7 +881,6 @@ Greek source: our own reading of Migne's plates (a vision read, checked line by 
 | p0272.53 | ἡγούμενον | ἡγούμενοι | pass2:  |
 | p0273.19 | Οἱ γὰρ, τοιοῦτοι | Οἱ γὰρ τοιοῦτοι |  |
 | p0273.32 | γὰρ | — | plate |
-| p0273.48 | ἐστι καὶ νῦν | ἐστι τὸ τοῦ ἀντιχρίστου, ὃ ἀκηκόατε ὅτι ἔρχεται, καὶ νῦν | Migne |
 | p0263.50 | ἤτουν | ἤγουν | plate |
 | p0264.08 | ᾿πρόσθεν | πρόσθεν | aphaeresis |
 | p0264.10 | σοφοῦ. | σοφοῦ, |  |
@@ -1032,7 +1031,6 @@ Greek source: our own reading of Migne's plates (a vision read, checked line by 
 | p0355.05 | Ἔπειξιν | ἔπειξιν | capital |
 | p0352.49 | διδασκόμενος . . . . . | ? | dots |
 | p0355.17 | Ἔλλαμψις | ἔλλαμψις | capital |
-| p0355.29 | Οὕπω | Οὕτω | plate |
 | p0355.37 | ἀξιώσοι | ἀξιώσαι |  |
 | p0353.03 | εἰρηνικὸν ..... | ? | dots |
 | p0353.04 | ἄνω .... αὐταί … εἴ τις . . ..., | ? | dots |

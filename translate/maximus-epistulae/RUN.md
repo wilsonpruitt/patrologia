@@ -107,3 +107,36 @@ plus the 304 print-error rows as a table (no `[sic:]`). Me-027: 22 `[?]` that st
 `plate-reads.json`: 8 pages (206, 247, 274, 317, 340, 351, 352, 357) for the 11 `[?]` that remain. Align (`WIDE_PARA=1`) 96.3% sentence-level, ratio 1.14; verify OK; plate-gate OK (0 markers).
 Moschus, Procopius, Sophronius rebuilt through kt-to-site → mark → align → verify → build-work-page-pg: `src/` byte-identical; only `generated` dates differed (restored from git).
 ⬜ Blind polarity read (preflight's 10th), then Wilson: about/bio/RECENT text, deploy (own OK), push (own OK), `englishState: ours`.
+
+## ✅ Blind polarity read DONE 2026-11-06 (6 Opus readers): preflight 10 of 10 (local; nothing pushed or deployed)
+Reports `data/briefs/MAXIMUS-BLIND-READ-R1…R6.md`; record `data/polarity/maximus-confessor-epistulae.json` (26 findings: 23 applied, 3 rejected; the
+note lists each). Every fix is in the SOURCE English (`me-0NN.en.md`), each checked against the Greek and Combefis's Latin; no note added or removed, markers
+re-verified 1..n in all 28 cards.
+- **English, our slips:** me-001 "by his inclining toward the One, free of relation" (ἄσχετος), "when it wishes" (βουλομένην circumstantial); me-009 "For she
+  preserves man …; but ⟨God⟩ is of a nature to make him god" + T note (Migne's Greek has no subject; Combefis supplies *Deus*); me-010 "not to hold back … anything";
+  me-011 "it follows to say that the other is not either"; me-012 "the invisible endured to fall under our sense", the μηδέ of 485A carried inside the condition
+  ("not even as of things" was added); me-014 "Considering" (σκοποῦντας as printed), "entreaty to blasphemies"; me-024 "contempt for those words", "shown in no way
+  idle", "so that he, being seen even bodily"; me-027 "believing that these had not been sent". **Class sweeps:** ἀδιαιρέτως = "without division" (me-011, me-012 ×5
+  + note, me-021 with "without confusion"); πάντως modal = "certainly" (the five named sites me-015 ×2, me-019 ×3, plus me-013, me-014, me-015, me-020, me-021 ×3;
+  "altogether" renderings and πάντη τε καὶ πάντως left); thou for singular second persons (Cyril, me-011; Deut 6:5 in me-014; no other singular Scripture "you").
+- ⚑ **Editorial call, Letter 43 col 641:** Migne prints Οὕπω (= οὔπω, "not yet"), Combefis *Nondum*; it construes as a reproach, so the English now FOLLOWS THE
+  PRINT ("For not yet are the divine gifts honoured, nor …") with a T note that Letter 24's twin reads Οὕτω and the print may be a slip. IMAGE-CHECK p0355.29 M → P
+  (`kt-apply.py` re-run: checked/ identical, PRINT-ERRORS −1). **Departures from Migne's print that stand** (each visible in a T note or the print-error table):
+  me-006 Ἀνέχετε → "Take away" (Ἀνέλετε, Latin *Auferte*; note 5); me-027 Letter 43 φθειρομένην → "carried" (Letter 24's φερομένην; PRINT-ERRORS p0354.42 only, no
+  anchored note); and the earlier logged M rows (ποιότητος, ἀκούσιον, καλῶς, καινῆς …).
+- **Greek file = our read, not Migne (GREEK-PATCHES +8):** p-0273:48 τὸ τοῦ Ἀντιχρίστου, ὃ ἀκηκόατε ὅτι ἔρχεται· restored (the line runs over into the Latin
+  column; IMAGE-CHECK p0273.48 was M "Migne" → R, so the print-error table no longer accuses Migne), me-013's ⟨⟩ and T note corrected; p-0274:5–11 σώζεσθαι without
+  οὐ, οὔτε φρίττουσι, ἀντικειμένης, δρέπονται ἀνοίας (plate seen; me-014's [?] resolved to "reap", notes rewritten); p-0296:16 Λόγον; p-0350:1 καρδίαν; each T note
+  now says the misreading was ours. ⚠ **Cause: `kt-apply.py` applies R verdicts only of kind ocr/space/subscript**, so plate-confirmed R rows of kind doubt/print
+  never reached `checked/` (the coordinator's "already applied" for p0350.01 was not so). ⬜ **21 such rows remain unapplied** (p0216.10, 0234.34, 0265.04, 0265.35,
+  0276.44, 0287.20, 0289.22, 0284.29, 0295.22/33/35, 0301.02/03/06, 0316.43/46/49, 0317.37, 0325.37, 0333.14, 0352.01): some are clear (προβιβάζουσιν, σπουδάσωμεν,
+  κραιπάλῃ, παμφαοῦς), some conflict with a crux (p0317.37 ὁ ἡμῶν ἀγαθός, p0316.43 ἡ κατοικία, p0295.22 plate=ὁρᾷν) — a coordinator's call, not patched blind.
+- **Pipeline:** (1) `align-sentences.mjs` paired a letter's heading lines into the previous letter's group, so "LETTER 30" carried Letter 28's markers and a stray
+  `⟦p2⟧ ⟦s1+…⟧` hung after the title (R6); same in 0011 at a Letter 12 subhead. Fixed by letter-head parity in the pairing and sentence costs and by splitting a group
+  at its English openers (LETTER lines, whole-italic subheads) when they match the Greek paragraphs one for one — gated on works whose English has LETTER lines
+  (Moschus/Procopius/Sophronius terms are 0). Alignment **96.3% → 100% sentence-level**. (2) `kt-to-site.py` cut hard-wrapped notes to their FIRST line on the cruces
+  page (22 Maximus notes): `wrapnotes` CONF flag, Maximus only. ⬜ Sophronius has 41 hard-wrapped notes with the same truncation; turning the flag on there changes its
+  cruces.md (a separate, approved rebuild). (3) R5's duplicate ⟦s17⟧ is NOT a defect: a repeated id is the aligner's one-to-many convention (lib/sentence-markers.mjs).
+- Rebuild: kt-apply → kt-to-site → mark → `WIDE_PARA=1` align (100%) → verify OK → plate-gate OK → build-work-page-pg → build-site → build-lookup-grc → polarity-record
+  → preflight **10 of 10**. Moschus, Procopius, Sophronius rebuilt through build-work-page-pg: `src/` byte-identical, only `generated` dates (restored from git).
+⬜ Remaining before ship: Wilson reads the DRAFT about/bio/RECENT text and the ⚑ call above · deploy (own OK) · push (own OK) · `englishState: "ours"`.

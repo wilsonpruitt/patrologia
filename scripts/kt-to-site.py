@@ -31,7 +31,7 @@ CONF = {
     # Maximus, Epistulae (2026-11-06): Greek = our API vision read of PG 91 pp. 200-359 (checked once against the plate), NOT Kraken; 16 duplicate leaves absent
     # (pg091.json duplicateLeaves). stripcalls: Combefis's note calls (b), (1), (ι΄), 19 are removed from the Greek lines by pattern.
     'maximus-epistulae': dict(key='maximus-confessor-epistulae', vol=91, cmap='data/pg-column-maps/pg091.json',
-                              xml='raw/pg091/091_djvu.xml', prefix='me', unwrap=True, lineinitial=True, stripcalls=True),
+                              xml='raw/pg091/091_djvu.xml', prefix='me', unwrap=True, lineinitial=True, stripcalls=True, wrapnotes=True),   # wrapnotes 2026-11-06: 22 hard-wrapped notes were cut to their first line in cruces.md
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv
@@ -227,7 +227,11 @@ def card(cid):
     body, _, rest = s.partition('\n## Notes')
     notes_txt, _, _ = rest.partition('\n## OCR')
     body = re.sub(r'^title:.*\n', '', body.lstrip()); body = re.sub(r'^---\s*\n', '', body.lstrip())
-    notes = {m.group(1): m.group(2).strip() for m in re.finditer(r'^\[\^(\d+)\]:\s*(.*)$', notes_txt, re.M)}
+    if C.get('wrapnotes'):   # a hard-wrapped note runs on until the next [^n]: (the single-line regex kept only its FIRST line on the cruces page)
+        notes = {m.group(1): re.sub(r'\s*\n\s*', ' ', m.group(2)).strip()
+                 for m in re.finditer(r'^\[\^(\d+)\]:\s*(.*?)(?=\n\[\^\d+\]:|\n\s*\n|\Z)', notes_txt, re.M | re.S)}
+    else:
+        notes = {m.group(1): m.group(2).strip() for m in re.finditer(r'^\[\^(\d+)\]:\s*(.*)$', notes_txt, re.M)}
     return body.strip(), notes
 
 def english(cid, sics, ns):

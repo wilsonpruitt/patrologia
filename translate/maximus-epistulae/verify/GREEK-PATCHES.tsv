@@ -36,3 +36,11 @@ p-0325	30	ΙΗ.	ΙΘ΄	OCR-TABLE me-023 kind=heading (translator reading, not pl
 p-0345	35	καλοῦ-ποιμένος	καλοῦ ποιμένος	OCR-TABLE me-026 kind=space (translator reading, not plate-checked): words wrongly joined by a hyphen
 p-0346	12	Λ.	Λ΄.	OCR-TABLE me-026 kind=heading (translator reading, not plate-checked): numeral 30 lacks its keraia
 p-0355	40	ΙΑ΄.	ΜΔ΄.	OCR-TABLE me-028 kind=heading (translator reading, not plate-checked): numeral misread; Letter 44 by the table (Latin XLIV)
+p-0273	48	καὶ τοῦτό ἐστι	καὶ τοῦτό ἐστι τὸ τοῦ Ἀντιχρίστου, ὃ ἀκηκόατε ὅτι ἔρχεται·	BLIND READ R3 G1 2026-11-06 (plate: the line runs over into the Latin column; our read dropped the run-over; IMAGE-CHECK p0273.48 M -> R)
+p-0274	5	Χριστῷ οὐ σώζεσθαί	Χριστῷ σώζεσθαί	IMAGE-CHECK p0274.05 (R, kind doubt: kt-apply skips doubt rows) + BLIND READ R3 G2 (plate: no οὐ)
+p-0274	6	καὶ οὕτω φρίττουσι	καὶ οὔτε φρίττουσι	IMAGE-CHECK p0274.06 (R, kind doubt; RUN step 3: οὔτε φρίττουσι) + BLIND READ R3 G3
+p-0274	7	ἐνσωματουμέ-	ἀντικειμέ-	IMAGE-CHECK p0274.07 (R, kind doubt) + BLIND READ R3 G3 (plate begins ἀντ-; Latin *adversae*)
+p-0274	10	θρέψαντα	δρέπονται	IMAGE-CHECK p0274.10 (R, kind doubt, plate=δρέπονται) + BLIND READ R3 G3 (Latin *decerpunt*)
+p-0274	11	ἐνίας	ἀνοίας	IMAGE-CHECK p0274.11 (R, kind doubt) + BLIND READ R3 G3 (Latin *dementiae*)
+p-0296	16	Διὸ οὖν	Λόγον	IMAGE-CHECK p0296.16 (R, kind doubt: never applied) + BLIND READ R4 (plate: Λό_ον, the γ failed to ink)
+p-0350	1	τὴν χρείαν	τὴν καρδίαν	IMAGE-CHECK p0350.01 (R, kind doubt: never applied) + BLIND READ R6 F1 (plate καρδίαν; Latin *corda*)

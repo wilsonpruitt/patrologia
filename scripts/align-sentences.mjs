@@ -82,6 +82,8 @@ const isLatPara = l => l.trim() && !/^##\s/.test(l);
 const isEngPara = l => isLatPara(l) && !isEditorialOnly(l);
 const anchorsOf = s => (s.match(/\[\d{3,5}[A-D]?\]/g) || []).join(',');
 const notesOf = s => (s.match(/\[(?:n|nt): /g) || []).length;
+const isEngHead = s => /^LETTER \d+\b/.test(plain(s));                                           // Maximus letter heads (see `extra`)
+const isGrcHead = s => /^[ΑΒΓΔΕϚΖΗΘΙΚΛΜΝ]{1,3}[΄ʹ'´′]\.?\s*—/.test(plain(s));
 const sums = { la: [0, 0], grc: [0, 0] };   // per-language length constant: the EN/LA ratio (~1.33) is not the EN/GRC one
 const chunks = manifest.chunks.map(c => {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
@@ -93,6 +95,9 @@ const chunks = manifest.chunks.map(c => {
   lp.forEach(l => { sm[0] += len(stripMarkers(l)); }); ep.forEach(l => { sm[1] += len(l); });
   return { name, c, lat, eng, la };
 });
+const WORK_LETTERS = chunks.some(ch => ch.eng.body.split('\n').some(l => isEngPara(l) && isEngHead(l)));   // Maximus: the heading rules below apply
+// an English "opener": a LETTER line, or a whole-italic subheading paragraph that is not the address right after a LETTER line
+const openers = paras => paras.map((p, k) => isEngHead(p.text) || (/^\*[^*].*\*$/.test(plain(p.text)) && !(k > 0 && isEngHead(paras[k - 1].text))));
 const Cof = la => { const [a, b] = sums[la ? 'la' : 'grc']; return b / a; };
 const C = Cof(false), CLA = Cof(true);
 const stat = { la: [0, 0], grc: [0, 0] };   // [paragraphs, sentence-level] per language
@@ -110,6 +115,8 @@ for (const ch of chunks) {
     return { pid, sents };
   });
   const engParas = engIdx.map(i => { const { lead, text } = paraOf(outLines[i]); return { i, lead, text, sents: segment(text) }; });
+  const CH_LETTERS = engParas.some(p => isEngHead(p.text));   // Maximus letter heads (see `extra` below)
+  const OPEN = WORK_LETTERS ? openers(engParas) : engParas.map(() => false);
 
   // 1. pair paragraphs into groups [latStart, latEnd, engStart, engEnd)
   let groups;
@@ -121,13 +128,30 @@ for (const ch of chunks) {
     const pl = latParas.map(p => p.sents.join(' ')), pe = engParas.map(p => p.text);
     const extra = (i, a, j, b) => {
       const la = pl.slice(i, i + a).map(anchorsOf).filter(Boolean).join(','), ea = pe.slice(j, j + b).map(anchorsOf).filter(Boolean).join(',');
-      return (la !== ea ? 5 : 0) + (pl.slice(i, i + a).reduce((n, x) => n + notesOf(x), 0) !== pe.slice(j, j + b).reduce((n, x) => n + notesOf(x), 0) ? 2 : 0);
+      return (la !== ea ? 5 : 0) + (pl.slice(i, i + a).reduce((n, x) => n + notesOf(x), 0) !== pe.slice(j, j + b).reduce((n, x) => n + notesOf(x), 0) ? 2 : 0)
+        + (LETTERS ? 10 * Math.abs(pl.slice(i, i + a).filter(isGrcHead).length - pe.slice(j, j + b).filter(isEngHead).length) + (pe.slice(j + 1, j + b).some(isEngHead) && !pl.slice(i, i + a).slice(1).some(isGrcHead) ? 10 : 0) : 0)
+        + (WORK_LETTERS && OPEN.slice(j + 1, j + b).filter(Boolean).length > a - 1 ? 10 : 0);   // 0011: Letter 12's italic subheads
     };
+    // Maximus (2026-11-06): one Greek paragraph per LETTER, heading inside it, against an English that sets "LETTER 30" and the
+    // italic address as paragraphs of their own. Without this a bead could take the next letter's heading lines into the previous
+    // letter's group (0026: Letter 30's heading carried Letter 28's markers and a stray ⟦p2⟧ line). Only where the English has
+    // LETTER lines; elsewhere the term is 0 for every path.
+    const LETTERS = pe.some(isEngHead);
     const beads = align(pl, pe, Cc, null, ch.la && IS_PG ? PBEADS_NARROW : PBEADS_WIDE, extra);
     if (!beads) { console.error(`${ch.name}: cannot pair ${latParas.length} Latin and ${engParas.length} English paragraphs`); process.exit(1); }
     groups = beads.map(b => [b.l[0], b.l[1], b.e[0], b.e[1]]);
     nRagged += groups.filter(g => g[1] - g[0] !== 1 || g[3] - g[2] !== 1).length;
   }
+
+  // 1b. Maximus: a group holding several LETTERS is split at the English LETTER lines when they match the Greek heads one for one,
+  // so each letter is aligned (or falls back) on its own and no letter's heading lines carry the previous letter's markers
+  // (and at Letter 12/13/15's italic subheads, which open Greek paragraphs too: every Greek paragraph of the group must have its opener)
+  if (WORK_LETTERS) groups = groups.flatMap(([l0, l1, e0, e1]) => {
+    if (l1 - l0 < 2) return [[l0, l1, e0, e1]];
+    const eh = []; for (let k = e0; k < e1; k++) if (OPEN[k]) eh.push(k);
+    if (eh.length !== l1 - l0 || eh[0] !== e0) return [[l0, l1, e0, e1]];
+    return eh.map((k, x) => [l0 + x, l0 + x + 1, k, x + 1 < eh.length ? eh[x + 1] : e1]);
+  });
 
   // 2. align each group's sentences and write the markers
   for (const [l0, l1, e0, e1] of groups) {
@@ -136,7 +160,10 @@ for (const ch of chunks) {
     LP.forEach((p, pi) => p.sents.forEach((x, si) => { L.push(x); bounds.push(pi); lmap.push([pi, si + 1]); }));
     const E = [], emap = [];
     EP.forEach((p, pj) => p.sents.forEach(x => { E.push(x); emap.push(pj); }));
-    const beads = L.length && E.length ? align(L, E, Cc, bounds) : null;
+    // the same letter-heading parity inside a group (Maximus): a "LETTER 29" sentence goes with the Greek heading sentence, not the end of Letter 28
+    const hx = CH_LETTERS ? (i, a, j, b) => 10 * Math.abs(L.slice(i, i + a).filter(isGrcHead).length - E.slice(j, j + b).filter(isEngHead).length)
+      + (E.slice(j + 1, j + b).some(isEngHead) ? 10 : 0) : null;   // and a LETTER line opens its bead (not "Amen." + "LETTER 34")
+    const beads = L.length && E.length ? align(L, E, Cc, bounds, BEADS, hx) : null;
     const doubtful = b => Math.abs(b.z) > Z_MAX || b.qBreak;
     let conf = !!beads && beads.every(b => !doubtful(b));
     // PG only: a long group (a whole Greek chunk is one paragraph) must not fall back wholesale
