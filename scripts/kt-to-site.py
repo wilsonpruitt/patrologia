@@ -25,6 +25,10 @@ CONF = {
                            xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='mp'),
     'procopius-rhetorica': dict(key='procopius-gazaeus-rhetorica', vol=87, cmap='data/pg-column-maps/pg087c.json',
                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='pr'),
+    # Sophronius: Greek chunks so-001..018 only (maxn). so-019..021 are Latin-only (LATIN-ONLY-SPEC.md) and are built later;
+    # raise/remove maxn then.
+    'sophronius-orationes': dict(key='sophronius-hierosolymitanus-orationes', vol=87, cmap='data/pg-column-maps/pg087c.json',
+                                 xml='raw/scans/pg087c/copyA_087c_djvu.xml', prefix='so', maxn=18, unwrap=True),   # unwrap: the so- cards are hard-wrapped at ~120 columns; join lines inside a paragraph
 }
 work = sys.argv[1]; DRY = '--dry' in sys.argv
 C = CONF[work]; KEY = C['key']
@@ -44,6 +48,7 @@ chunks = []
 for f in sorted(os.listdir(T)):
     m = re.match(rf'({C["prefix"]}-\d{{3}})\.md$', f)
     if not m: continue
+    if int(m.group(1)[-3:]) > C.get('maxn', 10**9): continue
     r = re.search(r'range: p-(\d+):(\d+) – p-(\d+):(\d+)', open(f'{T}/{f}').read()).groups()
     chunks.append((m.group(1), tuple(map(int, r))))
 # the Doctrina I pilot (dd-001–003) was cut on RAW Kraken line numbers; in the checked text its heading
@@ -164,6 +169,7 @@ def card(cid):
 def english(cid, sics, ns):
     """sics: {note_no: printed} -> [sic:]; ns: {note_no: migne_text} -> [n:]. Others -> cruces (returned)."""
     body, notes = card(cid)
+    if C.get('unwrap'): body = re.sub(r'(?<!\n)\n(?!\n)', ' ', body)      # Sophronius: hard-wrapped cards (single newline = same paragraph)
     body = body.replace('**', '')                      # Instruction heads: plain (the builder's *…* is italic only)
     crux = []; col = None; band = None
     def rep(m):

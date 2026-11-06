@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-11-05 session (DRAFT line, Wilson to review before any deploy; LOCAL BUILD, Greek chunks only): Sophronius of Jerusalem's Synodical Letter to Sergius and his festal orations (Annunciation, Cross, John the Baptist, Peter and Paul); the Greek is our own Kraken reading, plate-checked.
+  'pg/87/orationes',
   // — 2026-11-04 session (DRAFT line, Wilson to review before any deploy): John Moschus's Spiritual Meadow, some 220 short chapters on the monks of Palestine and Egypt, from a Migne volume with no transcription; the Greek is our own Kraken reading, plate-checked, with Migne's own variant notes set into it.
   // — 2026-11-05 session (DRAFT line, Wilson to review before any deploy): Procopius of Gaza's Panegyric on the emperor Anastasius, with the two pieces on Hagia Sophia Migne prints after it; the Greek is our own Kraken reading, plate-checked.
   'pg/87/rhetorica',

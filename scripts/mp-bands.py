@@ -14,7 +14,9 @@ import csv, json, os, re, statistics, sys, unicodedata as ud
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from mpcommon import K, T, line_ys
 import os
-PAGES = range(int(os.environ.get('MP_FIRST', 40)), int(os.environ.get('MP_LAST', 170)) + 1)   # MP_FIRST/MP_LAST override (Procopius 11–35)
+PAGES = range(int(os.environ.get('MP_FIRST', 40)), int(os.environ.get('MP_LAST', 170)) + 1)
+if os.environ.get('MP_RANGES'):   # e.g. 188-214,223-258 (Sophronius: skip the Latin-only pages)
+    PAGES = [n for a_, b_ in (r_.split('-') for r_ in os.environ['MP_RANGES'].split(',')) for n in range(int(a_), int(b_) + 1)]   # MP_FIRST/MP_LAST override (Procopius 11–35)
 djvu = open('raw/scans/pg087c/copyA_087c_djvu.xml').read().split('<OBJECT ')
 regs = json.load(open(f'{K}/regions.json'))
 cmap = {p['pdfPage']: p for p in json.load(open('data/pg-column-maps/pg087c.json'))['pages']}

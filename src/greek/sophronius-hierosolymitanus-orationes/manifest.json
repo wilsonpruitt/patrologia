@@ -1,0 +1,305 @@
+{
+  "workKey": "sophronius-hierosolymitanus-orationes",
+  "series": "pg",
+  "volume": 87,
+  "title": "Epistola synodica et Orationes",
+  "titleEn": "The Synodical Letter and the Orations",
+  "authors": [
+    "Sophronius of Jerusalem"
+  ],
+  "citRange": "PG 87.3, 3147-3364 (Greek chunks only so far: Synodical Letter 3147-3200; Or. II 3217-3288; Or. IV-V 3301-3316; Or. VII 3321-3354; Or. VIII 3355-3364; Or. I, III, VI are Latin-only and not yet built)",
+  "chunkCount": 18,
+  "greekSource": "ours-kraken-ocr",
+  "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "so-001",
+      "colFirst": "3148",
+      "colLast": "3156",
+      "words": 1664,
+      "pdfPages": [
+        188,
+        189,
+        190,
+        191,
+        192
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "0002.md",
+      "source": "so-002",
+      "colFirst": "3157",
+      "colLast": "3165",
+      "words": 1872,
+      "pdfPages": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
+      ]
+    },
+    {
+      "chunk": 3,
+      "file": "0003.md",
+      "source": "so-003",
+      "colFirst": "3168",
+      "colLast": "3173",
+      "words": 1557,
+      "pdfPages": [
+        197,
+        198,
+        199,
+        200,
+        201
+      ]
+    },
+    {
+      "chunk": 4,
+      "file": "0004.md",
+      "source": "so-004",
+      "colFirst": "3176",
+      "colLast": "3181",
+      "words": 1708,
+      "pdfPages": [
+        201,
+        202,
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "chunk": 5,
+      "file": "0005.md",
+      "source": "so-005",
+      "colFirst": "3184",
+      "colLast": "3192",
+      "words": 1690,
+      "pdfPages": [
+        205,
+        206,
+        207,
+        208,
+        209,
+        210
+      ]
+    },
+    {
+      "chunk": 6,
+      "file": "0006.md",
+      "source": "so-006",
+      "colFirst": "3193",
+      "colLast": "3200",
+      "words": 1645,
+      "pdfPages": [
+        210,
+        211,
+        212,
+        213,
+        214
+      ]
+    },
+    {
+      "chunk": 7,
+      "file": "0007.md",
+      "source": "so-007",
+      "colFirst": "3217",
+      "colLast": "3228",
+      "words": 1686,
+      "pdfPages": [
+        223,
+        224,
+        225,
+        226,
+        227,
+        228
+      ]
+    },
+    {
+      "chunk": 8,
+      "file": "0008.md",
+      "source": "so-008",
+      "colFirst": "3229",
+      "colLast": "3240",
+      "words": 1796,
+      "pdfPages": [
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ]
+    },
+    {
+      "chunk": 9,
+      "file": "0009.md",
+      "source": "so-009",
+      "colFirst": "3241",
+      "colLast": "3252",
+      "words": 1680,
+      "pdfPages": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240
+      ]
+    },
+    {
+      "chunk": 10,
+      "file": "0010.md",
+      "source": "so-010",
+      "colFirst": "3253",
+      "colLast": "3264",
+      "words": 1779,
+      "pdfPages": [
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ]
+    },
+    {
+      "chunk": 11,
+      "file": "0011.md",
+      "source": "so-011",
+      "colFirst": "3265",
+      "colLast": "3273",
+      "words": 1665,
+      "pdfPages": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
+      ]
+    },
+    {
+      "chunk": 12,
+      "file": "0012.md",
+      "source": "so-012",
+      "colFirst": "3276",
+      "colLast": "3288",
+      "words": 1754,
+      "pdfPages": [
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ]
+    },
+    {
+      "chunk": 13,
+      "file": "0013.md",
+      "source": "so-013",
+      "colFirst": "3301",
+      "colLast": "3316",
+      "words": 2465,
+      "pdfPages": [
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ]
+    },
+    {
+      "chunk": 14,
+      "file": "0014.md",
+      "source": "so-014",
+      "colFirst": "3321",
+      "colLast": "3329",
+      "words": 1640,
+      "pdfPages": [
+        275,
+        276,
+        277,
+        278,
+        279
+      ]
+    },
+    {
+      "chunk": 15,
+      "file": "0015.md",
+      "source": "so-015",
+      "colFirst": "3332",
+      "colLast": "3337",
+      "words": 1581,
+      "pdfPages": [
+        279,
+        280,
+        281,
+        282,
+        283
+      ]
+    },
+    {
+      "chunk": 16,
+      "file": "0016.md",
+      "source": "so-016",
+      "colFirst": "3340",
+      "colLast": "3345",
+      "words": 1922,
+      "pdfPages": [
+        283,
+        284,
+        285,
+        286,
+        287
+      ]
+    },
+    {
+      "chunk": 17,
+      "file": "0017.md",
+      "source": "so-017",
+      "colFirst": "3348",
+      "colLast": "3353",
+      "words": 1856,
+      "pdfPages": [
+        287,
+        288,
+        289,
+        290,
+        291
+      ]
+    },
+    {
+      "chunk": 18,
+      "file": "0018.md",
+      "source": "so-018",
+      "colFirst": "3356",
+      "colLast": "3364",
+      "words": 1876,
+      "pdfPages": [
+        292,
+        293,
+        294,
+        295,
+        296
+      ]
+    }
+  ],
+  "colFirst": "3148",
+  "colLast": "3364",
+  "words": 31836
+}

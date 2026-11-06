@@ -173,3 +173,13 @@ list (p197.20 κατ᾿ αὐτὸ…) are in result-1/-2/-3: read them when edi
 4. Apparatus: Migne's foot-of-page notes + VARIÆ LECTIONES, every page (Sonnet), `place.py`.
 5. Site build (kt-to-site CONF, mark/align, verify, plate-gate, build-site, lookup, preflight).
 6. Blind polarity read (Opus), then Wilson: about/bio text, deploy (own OK), push (own OK), `englishState: ours`.
+
+## ✅ Step 5 DONE 2026-11-05 (local, nothing pushed or deployed): site build of the GREEK chunks so-001–018 (18 site chunks, preflight 9 of 10)
+Registry key `sophronius-hierosolymitanus-orationes` (slug `orationes`, DRAFT; about/bio/RECENT line are DRAFTS for Wilson). `CONF['sophronius-orationes']` in
+`kt-to-site.py` has `maxn=18` (so-019–021 are skipped until LATIN-ONLY-SPEC is built: drop `maxn` then) and `unwrap=True` (the so- cards are hard-wrapped; single
+newlines had become 139 "paragraphs"). Tables made by `scripts/so-tables.py` (after `MP_WORK=sophronius-orationes MP_RANGES=188-214,223-258,265-272,275-296 python3
+scripts/mp-bands.py`): GREEK-BREAKS (a paragraph per section numeral, garbled ones too, + Or. V title), GREEK-DROPS (33 NOTAE headings / leaked variant lines /
+lone letters / one Latin siglum line), GREEK-BANDS (glued band letters stripped), and 69 patches appended to GREEK-PATCHES from the OCR-table rows of kind
+stray/space/heading (translator readings, not plate-checked). 110 of 132 Greek-keyed Migne notes placed in the Greek, the rest in the cruces. `[sic:]` layer NOT done
+(89 rows in PRINT-ERRORS.tsv, as for Moschus). Blind polarity read NOT done (preflight's last gate). Site chunk order is so-order (0001–0018); the Latin-only spec
+interleaves them by column later (a renumbering).
