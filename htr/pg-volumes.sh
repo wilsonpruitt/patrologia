@@ -27,6 +27,10 @@ for entry in $tomes; do
   [[ -e $k/STOP ]] && { echo "$(date '+%m-%d %H:%M') STOP file found, stopping before $tome" >> $log; exit 0; }
   [[ -e $out/DONE ]] && continue
   (( ${SKIP[(Ie)$tome]} )) && continue
+  # two parts of one tome sharing one scan (007, 086, 087): the second part is covered by the first
+  if [[ $tome == *-2 && $ia != - && -e $k/pg-${tome%-2}-1/DONE ]] && grep -q "^${tome%-2}-1|$ia\$" <<< "${(F)tomes}"; then
+    echo "covered by pg-${tome%-2}-1: same archive.org scan" > $out/DONE 2>/dev/null || { mkdir -p $out; echo "covered by pg-${tome%-2}-1" > $out/DONE; }; continue
+  fi
   pdf=""
   for c in $raw/pg$tome/$tome.pdf $raw/pg-pdf/$tome.pdf $HOME/scriptura/studies/sensus/sources/editions/pg$tome.pdf; do
     [[ -s $c ]] && { pdf=$c; break; }
