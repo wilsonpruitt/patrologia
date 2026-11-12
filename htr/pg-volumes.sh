@@ -44,11 +44,11 @@ print(max(fs, key=lambda f: int(f.get('size', 0)))['name'] if fs else '')")
     if [[ -z $name ]]; then echo "$(date '+%m-%d %H:%M') SKIP $tome: no PDF in $ia" >> $log; continue; fi
     pdf=$raw/pg-pdf/$tome.pdf
     echo "$(date '+%m-%d %H:%M') get  $tome $ia/$name" >> $log
-    curl -sL --retry 3 -o $pdf.part "https://archive.org/download/$ia/${name// /%20}" && mv $pdf.part $pdf \
+    curl -sfL --retry 3 -o $pdf.part "https://archive.org/download/$ia/${name// /%20}" && mv $pdf.part $pdf \
       || { echo "$(date '+%m-%d %H:%M') FAILED download $tome" >> $log; rm -f $pdf.part; continue; }
   fi
   n=$(pdfinfo $pdf 2>/dev/null | awk '/^Pages:/{print $2}')
-  [[ -z $n ]] && { echo "$(date '+%m-%d %H:%M') FAILED $tome: unreadable PDF" >> $log; continue; }
+  [[ -z $n ]] && { echo "$(date '+%m-%d %H:%M') FAILED $tome: unreadable PDF (deleted; rerun fetches it again)" >> $log; [[ $pdf == $raw/pg-pdf/* ]] && rm -f $pdf; continue; }
   echo "$(date '+%m-%d %H:%M') start $tome ($n pages, $pdf)" >> $log
   if $here/pg-ocr.sh $pdf 1 $n $out >> $out.run.log 2>&1; then
     rm -f $out/pages/p-*.png
