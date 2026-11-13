@@ -102,10 +102,14 @@ def nums(line):
     return {v for v in c if v > 0}
 
 
-def fit(reads, n):
+def fit(reads, n, half=False):
     """Viterbi over offsets b (colL = 2p + b, colL odd). Returns {page: (colL, supported)}.
-    States are the offsets two or more pages support (a single misread cannot found a run)."""
-    cand = {p: {v - 2 * p for v in nums(l) if v % 2 == 1} for p, l in reads.items()}
+    States are the offsets two or more pages support (a single misread cannot found a run).
+    half=True: the scan carries every Migne page twice, once under the author head and once under the
+    work head, so colL = 2*ceil(p/2) + b and the column advances 2 every two PDF pages (the Chrysostom
+    block PG 47-63 and PG 50, 2026-11-13). run() fits both and keeps the one more pages support."""
+    K = (lambda p: 2 * ((p + 1) // 2)) if half else (lambda p: 2 * p)
+    cand = {p: {v - K(p) for v in nums(l) if v % 2 == 1} for p, l in reads.items()}
     support = {}
     for bs in cand.values():
         for x in bs: support[x] = support.get(x, 0) + 1
@@ -136,7 +140,7 @@ def fit(reads, n):
         path_.append(s); s = bp[s]
     path_.reverse()
     # columns below 1 are front matter before Migne's column count begins
-    return {p: (None if b is NONE or 2 * p + b < 1 else (2 * p + b, b in cand.get(p, set())))
+    return {p: (None if b is NONE or K(p) + b < 1 else (K(p) + b, b in cand.get(p, set())))
             for p, b in zip(range(1, n + 1), path_)}
 
 
@@ -150,7 +154,7 @@ def run(vol, refit=False):
         n = npages(pdf)
         with tempfile.TemporaryDirectory() as tmp, cf.ThreadPoolExecutor(4) as ex:
             reads = dict(ex.map(head, [(pdf, p, tmp) for p in range(1, n + 1)]))
-    f = fit(reads, n)
+    f = max((fit(reads, n), fit(reads, n, half=True)), key=lambda g: sum(r[1] for r in g.values() if r))
     os.makedirs(OUT, exist_ok=True)
     ok = 0
     with open(os.path.join(OUT, f'{vol}.tsv'), 'w', encoding='utf-8') as o:
