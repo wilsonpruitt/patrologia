@@ -55,13 +55,17 @@ def head(args):
         im = Image.open(png + '.png').convert('L')
     except OSError:
         return p, ''
+    box = im.point(lambda v: 255 if v < 250 else 0).getbbox()   # a scan set inside a white PDF page (PG 148)
+    if box and (box[2] - box[0]) * (box[3] - box[1]) > .3 * im.size[0] * im.size[1]:
+        im = im.crop(box)
     w, h = im.size
     col1 = im.resize((1, h))
     prof = list(col1.get_flattened_data() if hasattr(col1, 'get_flattened_data') else col1.getdata())             # mean grey per row
-    bg = sorted(prof)[len(prof) // 2]                     # the page's ground (median row)
+    bg = sorted(prof)[int(len(prof) * .9)]                # the page's ground: a bright row (on a dense page the median row is text: PG 148, 154)
     ink = next((y for y in range(int(h * .02), int(h * .4)) if prof[y] < min(bg, 250) - 4), 0)
     lines = []
-    for y0 in (max(0, ink - 20), max(0, ink - 20) + int(h * .05)):   # the first band, then the next
+    first = max(0, ink - 20)
+    for y0 in dict.fromkeys((first, 0, first + int(h * .05))):   # the first band, the page top, the next band
         band = ImageOps.autocontrast(im.crop((0, y0, w, min(h, y0 + int(h * .08)))), cutoff=1)
         band.save(png + 'b.png')
         r = subprocess.run(['tesseract', png + 'b.png', '-', '--psm', '6', '-l', 'lat'],
