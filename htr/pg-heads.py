@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+"""Read the running head of every page of a PG volume PDF: Migne columns and the work title.
+
+    python3 -I htr/pg-heads.py 011            # raw/pg-pdf/011.pdf -> data/pg-heads/011.tsv
+    python3 -I htr/pg-heads.py 001 002 ...    # several volumes, one after another
+
+Each PG page carries a running head "<colL> <AUTHOR or WORK TITLE> <colR>" (e.g. "1101 CONTRA
+CELSUM LIB. IV. 1102"). The top strip of each page is rendered at 200 dpi and read by Tesseract
+(lat), about half a second a page on the CPU, so it runs beside Kraken (GPU) without slowing it.
+
+Columns: the OCR digits are noisy (691 read as "E", 1101 as "Hot", 1579 as "13590"), so the column
+is fitted, not copied. Within a run of ordinary pages colL = 2*page + b; a plate, a front-matter page
+or a re-scanned block changes b (see scripts/pg-column-map-rebuild.py on PG 88). A Viterbi pass
+over candidate offsets b picks the sequence that best explains the readings, with a penalty per
+change of b. A page whose own reading agrees with the fit is marked `read`; one that only takes the
+fit is `fit`. Pages before the first column, and runs no reading supports, get no column.
+⚠ Columns from here are OCR evidence, not plate reads; cite them as "col. ≈N" until checked.
+
+Output TSV: page, colL, colR, status (read/fit/-), head (the title text of the head, digits
+stripped), raw (Tesseract's first line).
+"""
+import concurrent.futures as cf, os, re, subprocess, sys, tempfile
+
+ROOT = os.path.expanduser('~/patrologia')
+OUT = os.path.join(ROOT, 'data/pg-heads')
+SWITCH = 6.0          # cost of changing the offset b
+
+
+def pdf_for(vol):
+    for c in (f'{ROOT}/raw/pg{vol}/{vol}.pdf', f'{ROOT}/raw/pg-pdf/{vol}.pdf',
+              os.path.expanduser(f'~/scriptura/studies/sensus/sources/editions/pg{vol}.pdf')):
+        if os.path.getsize(c) if os.path.exists(c) else 0:
+            return c
+    raise SystemExit(f'no PDF for {vol}')
+
+
+def npages(pdf):
+    out = subprocess.run(['pdfinfo', pdf], capture_output=True, text=True).stdout
+    return int(re.search(r'^Pages:\s+(\d+)', out, re.M).group(1))
+
+
+def head(args):
+    pdf, p, tmp = args
+    png = os.path.join(tmp, f'h{p}')
+    # whole page at 200 dpi is ~1355-1630 x 2200-2260 px; the head sits in the top 9-16%
+    subprocess.run(['pdftoppm', '-r', '200', '-f', str(p), '-l', str(p), '-gray', '-png', '-singlefile',
+                    '-x', '0', '-y', '0', '-W', '1800', '-H', '360', pdf, png], capture_output=True)
+    r = subprocess.run(['tesseract', png + '.png', '-', '--psm', '6', '-l', 'lat'],
+                       capture_output=True, text=True).stdout
+    try: os.remove(png + '.png')
+    except OSError: pass
+    # the head is the first line that carries a column number; a scan's dark edge band or a wide top
+    # margin can push it below the first line Tesseract finds (PG 5)
+    lines = [l.strip() for l in r.splitlines() if len(l.strip()) > 2]
+    line = next((l for l in lines[:4] if nums(l)), lines[0] if lines else '')
+    return p, line
+
+
+SUBS = {'$': '35', 'S': '53', 'l': '1', 'I': '1', 'i': '1', 'O': '0', 'o': '0', 'g': '9', 'B': '8', 'Z': '2'}
+
+
+def _variants(tok):
+    """Digit readings of an OCR token: '$51' -> 351, 551; 'l2O' -> 120. At most 2 misread characters."""
+    tok = tok.strip('[](){}.,:;\'"*»«-—^|!')
+    if not tok or len(tok) > 4 or sum(not c.isdigit() for c in tok) > 2 or not any(c.isdigit() for c in tok):
+        return set()
+    out = {''}
+    for c in tok:
+        opts = c if c.isdigit() else SUBS.get(c, '')
+        if not opts: return set()
+        out = {o + d for o in out for d in opts}
+    return {int(o) for o in out if o and o[0] != '0'}
+
+
+def nums(line):
+    """Candidate colL values implied by a head line: a leading number is colL, a trailing one colR."""
+    toks = line.split()
+    c = set()
+    if toks:
+        c |= _variants(toks[0])
+        c |= {v - 1 for v in _variants(toks[-1])}
+    return {v for v in c if v > 0}
+
+
+def fit(reads, n):
+    """Viterbi over offsets b (colL = 2p + b, colL odd). Returns {page: (colL, supported)}."""
+    cand = {p: {v - 2 * p for v in nums(l) if v % 2 == 1} for p, l in reads.items()}
+    offs = sorted({b for s in cand.values() for b in s})
+    if not offs: return {}
+    NONE = None
+    states = offs + [NONE]
+    cost = {s: 0.0 for s in states}
+    back = []
+    for p in range(1, n + 1):
+        obs = cand.get(p, set())
+        new, bp = {}, {}
+        best_prev = min(cost, key=cost.get)
+        for s in states:
+            # emission: 0 if the reading supports s, 1 if the page reads nothing, 2 if it reads otherwise
+            e = 0.0 if (s is not NONE and s in obs) else (0.6 if not obs else 1.5)
+            if s is NONE: e = 2.0 if obs else 1.0
+            stay = cost[s]
+            sw = cost[best_prev] + SWITCH
+            if stay <= sw: new[s], bp[s] = stay + e, s
+            else: new[s], bp[s] = sw + e, best_prev
+        cost = new; back.append(bp)
+    s = min(cost, key=cost.get)
+    path_ = []
+    for bp in reversed(back):
+        path_.append(s); s = bp[s]
+    path_.reverse()
+    # columns below 1 are front matter before Migne's column count begins
+    return {p: (None if b is NONE or 2 * p + b < 1 else (2 * p + b, b in cand.get(p, set())))
+            for p, b in zip(range(1, n + 1), path_)}
+
+
+def run(vol):
+    pdf = pdf_for(vol)
+    n = npages(pdf)
+    with tempfile.TemporaryDirectory() as tmp, cf.ThreadPoolExecutor(4) as ex:
+        reads = dict(ex.map(head, [(pdf, p, tmp) for p in range(1, n + 1)]))
+    f = fit(reads, n)
+    os.makedirs(OUT, exist_ok=True)
+    ok = 0
+    with open(os.path.join(OUT, f'{vol}.tsv'), 'w', encoding='utf-8') as o:
+        o.write('page\tcolL\tcolR\tstatus\thead\traw\n')
+        for p in range(1, n + 1):
+            r = f.get(p)
+            raw = reads[p].replace('\t', ' ')
+            title = re.sub(r'^\S*\d\S*\s+|\s+\S*\d{2,}\S*$', '', raw).strip()
+            if r:
+                ok += r[1]
+                o.write(f'{p}\t{r[0]}\t{r[0] + 1}\t{"read" if r[1] else "fit"}\t{title}\t{raw}\n')
+            else:
+                o.write(f'{p}\t\t\t-\t{title}\t{raw}\n')
+    cols = [r[0] for r in f.values() if r]
+    print(f'{vol}: {n} pages, columns {min(cols) if cols else "-"}–{max(cols) + 1 if cols else "-"}, '
+          f'{ok} pages read their own column, {sum(1 for r in f.values() if r)} placed', flush=True)
+
+
+if __name__ == '__main__':
+    for v in sys.argv[1:]:
+        run(v)
