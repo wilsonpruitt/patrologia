@@ -1039,15 +1039,16 @@
     {
       "tome": "063",
       "status": "matched",
-      "archiveId": "patrologiae_cursus_completus_gr_vol_063",
+      "archiveId": "patrologiaecurs104migngoog",
       "matchConfidence": "high",
-      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_063\"",
+      "matchSignal": "2026-11-13: replaced patrologiae_cursus_completus_gr_vol_063; running heads read better (data/pg-alt.log)",
       "title": "Patrologiae Cursus Completus - Series Graeca - Volume 63",
       "volume": null,
       "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 63, Google Books id Zga4BQtGhXkC",
       "creator": "Google Books",
       "date": "1862",
-      "error": null
+      "error": null,
+      "supersededArchiveId": "patrologiae_cursus_completus_gr_vol_063"
     },
     {
       "tome": "064",
@@ -2184,9 +2185,9 @@
     {
       "tome": "138",
       "status": "matched",
-      "archiveId": "patrologiaecurs31hopfgoog",
+      "archiveId": "patrologiaecurs114migngoog",
       "matchConfidence": "high",
-      "matchSignal": "volumes.json registry link",
+      "matchSignal": "2026-11-13: replaced patrologiaecurs31hopfgoog; running heads read better (data/pg-alt.log)",
       "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
       "volume": "138",
       "description": [
@@ -2200,7 +2201,8 @@
       ],
       "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
       "date": "1857",
-      "error": null
+      "error": null,
+      "supersededArchiveId": "patrologiaecurs31hopfgoog"
     },
     {
       "tome": "139",
@@ -2355,9 +2357,9 @@
     {
       "tome": "147",
       "status": "matched",
-      "archiveId": "patrologicursus46migngoog",
+      "archiveId": "patrologiaecurs04hopfgoog",
       "matchConfidence": "high",
-      "matchSignal": "volume field \"147\"",
+      "matchSignal": "2026-11-13: replaced patrologicursus46migngoog; running heads read better (data/pg-alt.log)",
       "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
       "volume": "147",
       "description": [
@@ -2372,7 +2374,8 @@
       ],
       "creator": "Jacques Paul Migne",
       "date": "1857",
-      "error": null
+      "error": null,
+      "supersededArchiveId": "patrologicursus46migngoog"
     },
     {
       "tome": "148",
@@ -2485,9 +2488,9 @@
     {
       "tome": "157",
       "status": "matched",
-      "archiveId": "patrologicursus98migngoog",
+      "archiveId": "patrologiaecurs08hopfgoog",
       "matchConfidence": "high",
-      "matchSignal": "volume field \"157\"",
+      "matchSignal": "2026-11-13: replaced patrologicursus98migngoog; running heads read better (data/pg-alt.log)",
       "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
       "volume": "157",
       "description": [
@@ -2502,7 +2505,8 @@
       ],
       "creator": "Jacques Paul Migne",
       "date": "1857",
-      "error": null
+      "error": null,
+      "supersededArchiveId": "patrologicursus98migngoog"
     },
     {
       "tome": "158",
