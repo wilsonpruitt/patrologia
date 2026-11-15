@@ -21,7 +21,7 @@ work, ic = args[0], args[1]
 K = os.path.join(ROOT, 'raw/kraken', work)
 OUT = opt.get('out', os.path.join(K, 'sheets3')); os.makedirs(OUT, exist_ok=True)
 PER = int(opt.get('per', 10)); PAD = int(opt.get('pad', 160))
-cm_path = {'maximus-opuscula': 'data/pg-column-maps/pg091.json', 'maximus-epistulae': 'data/pg-column-maps/pg091.json'}[work]
+cm_path = {'maximus-opuscula': 'data/pg-column-maps/pg091.json', 'maximus-disputatio': 'data/pg-column-maps/pg091.json', 'maximus-epistulae': 'data/pg-column-maps/pg091.json'}[work]
 CM = {p['pdfPage']: p for p in json.load(open(os.path.join(ROOT, cm_path)))['pages']}
 FONT = ImageFont.truetype('/System/Library/Fonts/Supplemental/Times New Roman.ttf', 30)
 nfc = lambda s: ud.normalize('NFC', s)

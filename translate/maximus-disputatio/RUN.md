@@ -87,3 +87,17 @@ sheeted). Sheet 001 read by the coordinator as calibration → `IMAGE-CHECK-coor
 plate prints γʹ (the third indiction, July 645) → R**; p0164.39 the plate prints φύσαντες (sense φήσαντες) → M. Six of
 the eight ? are crops on the wrong line. Readers (Opus, `IMAGE-CHECK-BRIEF.md`, now with the plate=-last comment rule):
 A = sheets 002–007, B = 008–012, launched.
+- ✅ Reader B (sheets 008–012, 107 slots): R 58 · P 9 · M 6 · ? 34. M: p0180.55 ὁμονύμως, p0182.13 σενρέτῳ (σεκρέτῳ),
+  p0183.18 πρό-, p0186.36 σώ ατος, **p0189.46 the plate prints ἀντιδόντες (translator ἀπιδόντες: sense check owed)**,
+  p0194.19 (low). P withdrawing an emendation → ENGLISH-FIXES: **p0191.40 πεπολιτευμένον**, **p0191.50 ἡμῶν (not ὑμῶν)**,
+  010/14 διὰ τί (not τὸ); punctuation P at 010/19, 010/22, 011/4; 009/12 plate [προκυλινδ.].
+- ✅ Reader A (sheets 002–007, 144 slots): R 52 · P 4 · M 19 · ? 69. Sense items: p0172.15 the plate prints ἤ (reading εἰ)
+  → M; p0172.50 no ἄν on the plate → M (conjecture stands, T note); p0173.02 Αὐτὸ γὰρ [αὐτῷ τῷ] → M (emendation);
+  **p0174.06 plate=τῇ (not ἡ/ᾑ): sense check owed**; **p0178.16 the plate prints κοινότητος → P (translator's καινότητος
+  withdrawn: ENGLISH-FIXES)**; p0180.01 διαλῆφθαι M; p0180.07 ἑτοιμάσομέν M (mood); p0178.11 ἀγνόω M; p0167.43 δι᾿ ἐκ on
+  the plate → P; θεϊκῶς slots ? (diaeresis vs circumflex merged in this type, as in the Opuscula).
+- Merged → `IMAGE-CHECK.tsv` (275: R 125 · M 26 · P 13 · ? 111). Pass-2 sheets from `kt-sheet-half.py` (registered the
+  work) → `sheets3/`, 111 rows / 12 sheets (half-page width; kt-sheet's `--redo` crops still missed the gutter). **p. 169's
+  Greek line starts are smeared in THIS scan** (a black bar over the first letters; no second scan of PG 91 is reachable,
+  Opuscula finding) → those stay ? (`line_start_damaged_in_scan`) and the English rests on the translator's reading.
+  Sheet 002 by the coordinator (R 5 · P 1 · ? 4); readers A (001, 003–007), B (008–012) launched with `IMAGE-CHECK2-BRIEF.md`.
