@@ -169,3 +169,14 @@ re-cut). Brief 1 launched beside the two pass-2 readers (three at a time); 2 and
 pass 1 0.18 · pass 2 0.20 · English fixer 0.13 · apparatus briefs 1–3 + resume 0.70 · gap 1b **0.36** · gap 1c running
 (≈0.35 est.) → **≈2.6M before build and blind read** (+≈0.7M) → **≈3.3M all-in vs the 2M go.** Coordinator STOPS before
 the build for Wilson's call. The gap passes cost ≈21K per page re-swept (≈10 band crops a page).
+- ✅ Gap 1c (pp. 169–174, 176 + NOTÆ (h)/(j), ≈196K): calls matched on every page, 0 orphans (bold inline 1675 page
+  numbers 168–175 logged, not calls); markers 60, 61, m (p-0173, lettered), p-0174 "a" → **n**; p-0172 "l/1" left open;
+  all Greek anchors confirmed, reconstructed anchorLines replaced by the printed lines; (h) defloremus; (j) "in meo de
+  Monothelitarum", `en` re-rendered.
+
+## ✅ Step 4 DONE 2026-11-14: apparatus (≈1.3M with the gap passes)
+`place.py` → `notes/APPARATUS.json`: **120 notes** (4 exact duplicates dropped) · **65 Greek placed-candidates** · **33
+unplaced → cruces** (notae 13 · lettered 10 · numbered 7 · other 3) · 22 Latin Scripture locators mirrored to the
+translators' S notes · 3 numbered anchors not in `checked/` (p-0169 ἀπόδειξιν, p-0192 94 συστατικῶς, 95 σχέμματα: the
+build reports where they land) · 11 placed by word.
+**⏸ STOPPED before Step 5 (build) for Wilson's call: ≈2.6M spent vs the 2M go; build + blind read ≈0.7M more.**
