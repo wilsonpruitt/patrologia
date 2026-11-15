@@ -26,6 +26,7 @@ WORKS = {  # work -> (column map, copyA djvu xml)
     # readings + the lines where a duplicate leaf's second read differs. Run with --checked so the doubts reach the scaffold.
     'maximus-epistulae': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml'),
     'maximus-opuscula': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml'),   # Kraken base, pp. 11–161 of the same volume (2026-11-06)
+    'maximus-disputatio': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml'),  # Kraken base, pp. 162–195 (2026-11-14)
 }
 
 SRC = None

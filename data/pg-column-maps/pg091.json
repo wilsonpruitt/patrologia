@@ -1,12 +1,12 @@
 {
  "volume": 91,
  "file": "raw/pg091/091.pdf",
- "work": "maximus-epistulae + maximus-opuscula (pdf pp. 11–161 added 2026-11-06)",
+ "work": "maximus-epistulae + maximus-opuscula (pdf pp. 11–161 added 2026-11-06) + maximus-disputatio (pdf pp. 162–195 added 2026-11-14)",
  "colRange": [
   9,
   650
  ],
- "method": "OPUSCULA (2026-11-06): 2 columns per pdf page from p11 = 9/10 (title leaf; p13 = 13/14), 12 duplicate leaves removed (text-identity scan on the djvu words, Jaccard ≥0.35 against the previous 6 pages: pdf 38–39=36–37, 44–45=42–43, 54–55=52–53, 62–63=60–61, 66–67=64–65, 104–105=102–103); p161 = 285/286, p162 = 287 (DISPUTATIO CUM PYRRHO head) — the same law reaches p200 = 363/364. Running heads checked on the djvu OCR at pp. 13, 24, 28, 36, 37, 40, 42, 48, 57, 58, 60, 65, 68, 100, 107, 161, 162. greekSide from colLeft mod 4 (3 → right, 1 → left), which equals the Epistulae rule (right on even pdf pages). EPISTULAE: 2 columns per pdf page from p200 = 363/364 (Ep. 1 begins col 364), 16 duplicate leaves removed (text-identical re-scans: 266-271=260-265, 318-323=312-317, 328-331=324-327); Greek side from the CLLG gutter split (right on even pdf pages, left on odd); running-head numbers checked where legible (2026-11-06)",
+ "method": "OPUSCULA (2026-11-06): 2 columns per pdf page from p11 = 9/10 (title leaf; p13 = 13/14), 12 duplicate leaves removed (text-identity scan on the djvu words, Jaccard ≥0.35 against the previous 6 pages: pdf 38–39=36–37, 44–45=42–43, 54–55=52–53, 62–63=60–61, 66–67=64–65, 104–105=102–103); p161 = 285/286, p162 = 287 (DISPUTATIO CUM PYRRHO head) — the same law reaches p200 = 363/364. Running heads checked on the djvu OCR at pp. 13, 24, 28, 36, 37, 40, 42, 48, 57, 58, 60, 65, 68, 100, 107, 161, 162. greekSide from colLeft mod 4 (3 → right, 1 → left), which equals the Epistulae rule (right on even pdf pages). EPISTULAE: 2 columns per pdf page from p200 = 363/364 (Ep. 1 begins col 364), 16 duplicate leaves removed (text-identical re-scans: 266-271=260-265, 318-323=312-317, 328-331=324-327); Greek side from the CLLG gutter split (right on even pdf pages, left on odd); running-head numbers checked where legible (2026-11-06) DISPUTATIO (2026-11-14): pdf 162–195 = cols 287–354 by the same law (p162 head DISPUTATIO CUM PYRRHO, djvu p194 prints 352; p196 = 355 opens De anima); no duplicate leaves in the stretch (p200 = 363/364 holds).",
  "anchorsPlateVerified": false,
  "duplicateLeaves": [
   37,
@@ -1010,6 +1010,244 @@
    "pdfPage": 161,
    "colLeft": 285,
    "colRight": 286,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 161,
+   "pdfPage": 162,
+   "colLeft": 287,
+   "colRight": 288,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 162,
+   "pdfPage": 163,
+   "colLeft": 289,
+   "colRight": 290,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 163,
+   "pdfPage": 164,
+   "colLeft": 291,
+   "colRight": 292,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 164,
+   "pdfPage": 165,
+   "colLeft": 293,
+   "colRight": 294,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 165,
+   "pdfPage": 166,
+   "colLeft": 295,
+   "colRight": 296,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 166,
+   "pdfPage": 167,
+   "colLeft": 297,
+   "colRight": 298,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 167,
+   "pdfPage": 168,
+   "colLeft": 299,
+   "colRight": 300,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 168,
+   "pdfPage": 169,
+   "colLeft": 301,
+   "colRight": 302,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 169,
+   "pdfPage": 170,
+   "colLeft": 303,
+   "colRight": 304,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 170,
+   "pdfPage": 171,
+   "colLeft": 305,
+   "colRight": 306,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 171,
+   "pdfPage": 172,
+   "colLeft": 307,
+   "colRight": 308,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 172,
+   "pdfPage": 173,
+   "colLeft": 309,
+   "colRight": 310,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 173,
+   "pdfPage": 174,
+   "colLeft": 311,
+   "colRight": 312,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 174,
+   "pdfPage": 175,
+   "colLeft": 313,
+   "colRight": 314,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 175,
+   "pdfPage": 176,
+   "colLeft": 315,
+   "colRight": 316,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 176,
+   "pdfPage": 177,
+   "colLeft": 317,
+   "colRight": 318,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 177,
+   "pdfPage": 178,
+   "colLeft": 319,
+   "colRight": 320,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 178,
+   "pdfPage": 179,
+   "colLeft": 321,
+   "colRight": 322,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 179,
+   "pdfPage": 180,
+   "colLeft": 323,
+   "colRight": 324,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 180,
+   "pdfPage": 181,
+   "colLeft": 325,
+   "colRight": 326,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 181,
+   "pdfPage": 182,
+   "colLeft": 327,
+   "colRight": 328,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 182,
+   "pdfPage": 183,
+   "colLeft": 329,
+   "colRight": 330,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 183,
+   "pdfPage": 184,
+   "colLeft": 331,
+   "colRight": 332,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 184,
+   "pdfPage": 185,
+   "colLeft": 333,
+   "colRight": 334,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 185,
+   "pdfPage": 186,
+   "colLeft": 335,
+   "colRight": 336,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 186,
+   "pdfPage": 187,
+   "colLeft": 337,
+   "colRight": 338,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 187,
+   "pdfPage": 188,
+   "colLeft": 339,
+   "colRight": 340,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 188,
+   "pdfPage": 189,
+   "colLeft": 341,
+   "colRight": 342,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 189,
+   "pdfPage": 190,
+   "colLeft": 343,
+   "colRight": 344,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 190,
+   "pdfPage": 191,
+   "colLeft": 345,
+   "colRight": 346,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 191,
+   "pdfPage": 192,
+   "colLeft": 347,
+   "colRight": 348,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 192,
+   "pdfPage": 193,
+   "colLeft": 349,
+   "colRight": 350,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 193,
+   "pdfPage": 194,
+   "colLeft": 351,
+   "colRight": 352,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 194,
+   "pdfPage": 195,
+   "colLeft": 353,
+   "colRight": 354,
    "greekSide": "left"
   },
   {
