@@ -161,3 +161,11 @@ re-cut). Brief 1 launched beside the two pass-2 readers (three at a time); 2 and
   p0191.40; p0166.41 clause supplied in brackets from the Latin (no [?] left). **Polarity: p0189.32 the plate has no οὐ;
   the English KEEPS "not" (the following γάρ clause explains a denial; Latin *non est*), note 22 says so — coordinator
   agrees; flag for the blind read and Wilson.** p0185.35 and p0180.55 negatives kept as printed.
+- ✅ Gap 1b (p-0162 Latin, 164–168): calls 16 found / 16 matched / 0 orphans; 14 markers read (49 54 55 56 58 read-weak;
+  p-0166 n3 and p-0167 n1 stay partial: "5?" + an angular glyph), all anchors confirmed (p-0164 δημιουργικὸν; p-0165 καὶ
+  270. pinned to the second ἢ; p-0167 call heads the next line). **p-0166 orphan (k) λυμαίνεται WITHDRAWN** (no such mark
+  or word on the page at 600 dpi: mis-paged). Gutters vary x≈1720–2250 (not 2000).
+⚠⚠ **Burn tally (coordinator, measured from agent reports, 2026-11-14):** translation 0.53 · sweep 0.18 · image check
+pass 1 0.18 · pass 2 0.20 · English fixer 0.13 · apparatus briefs 1–3 + resume 0.70 · gap 1b **0.36** · gap 1c running
+(≈0.35 est.) → **≈2.6M before build and blind read** (+≈0.7M) → **≈3.3M all-in vs the 2M go.** Coordinator STOPS before
+the build for Wilson's call. The gap passes cost ≈21K per page re-swept (≈10 band crops a page).
