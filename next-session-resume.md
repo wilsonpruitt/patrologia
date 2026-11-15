@@ -8,7 +8,9 @@ rewritten). ⚠ **The gap also hit shipped works:** live Epistulae Greek = old o
 translation). Their `checked/` hold no hand edits, so a rerun is safe: `python3 scripts/kt-apply.py <work>` → rebuild chain → deploy
 (Wilson's OK). ⚑ Look at Epistulae p0295.22 first: the reader's `plate=ὁρᾷν` replaces ὀργὴν, which construes (ὀργὴν ἐπανατείνεσθαι);
 re-read that plate before applying. Opuscula: nothing owed (its 2 lines were hand-patched). Sophronius/Procopius: no change.
-▶ Then Maximus queue #2 *Disputatio cum Pyrrho* (needs "which model, and go").
+▶ **Maximus queue #2 *Disputatio cum Pyrrho* STARTED 2026-11-14 (Wilson: "opus go", ≈2M).** Score
+`translate/maximus-disputatio/RUN.md`. Step 0 done (`fbcfa16b`); round 1 = all 3 Opus briefs launched. If resuming: check which
+`md-00N.en.md` exist, relaunch any missing brief, then sweep → image check → kt-apply → apparatus → build → blind read.
 
 ## ▶ 2026-11-06 (latest) — MAXIMUS *OPUSCULA* LIVE at migne.app/pg/91/opuscula/ (deployed, pushed, englishState ours)
 Score `translate/maximus-opuscula/RUN.md` (closed: "SHIPPED"). Next in the Maximus queue (`translate/MAXIMUS-QUEUE.md`):
