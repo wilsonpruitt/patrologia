@@ -1,5 +1,14 @@
 # Next session — resume note
 
+## ▶ 2026-11-15 (latest) — kt-apply rerun on the shipped works DONE (local commit, not pushed, not deployed)
+p0295.22 re-read on the plate: **ὁρᾷν** is printed (the reader was right; English already follows it). `kt-apply.py` rerun:
+`checked/` changed exactly 29 lines (Epistulae) + 2 (Moschus), nothing else moved. Chain kt-to-site → mark → WIDE_PARA align →
+verify OK → plate-gate OK. **Correction to the 11-14 banner: Epistulae's live Greek was already right**: the 11-06 GREEK-PATCHES
+rows covered all 29, so `src/` is byte-identical and nothing is owed there. (The p-0216:10 "patch does not apply" warning is
+harmless: kt-apply now does that patch's work.) **Moschus: 2 real fixes** in `src/greek` (p0117.52 stray »ʹ removed; p0158.22
+λέγεις → λέγει). They ride along with the next migne.app deploy (build-work-page-pg → build-site → preflight first); a
+deploy just for them isn't worth it. Still open: *Disputatio* build + blind read (≈0.7M), waiting for Wilson's yes.
+
 ## ▶ 2026-11-14 (latest) — kt-apply FIXED (`0241c7da`); a decision owed on two SHIPPED works
 `scripts/kt-apply.py`: R verdicts on `doubt`/`print` rows now reach `checked/` (skipped as doubt-same/-break/-band where the row
 names no change); `plate=` stops at the reader's prose. Tested old vs new on all five kt works in scratch (nothing in the repo
