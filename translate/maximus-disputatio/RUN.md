@@ -68,3 +68,22 @@ full-width footnote; kt-apply resets `checked/` from `ruled/`, so any plate tran
   συνεκτικός sustaining; συνθεολογεῖσθαι be theologized together with; θεοφάντωρ God-revealing; τοποτηρηταί topoteretae;
   φρατρία fraternity; πολιτεία way of life; θεοσημίαι divine signs; ἐπείσακτος imported; ἐπιχειρήσεις arguments; ὑμεῖς
   forms = plural "you".
+- ✅ Brief md-003_004 DONE (≈184K): md-003 1,978 → 2,485, 28 notes, 101 rows (59 ocr, 24 heading, 9 stray, 5 space,
+  3 doubt, 1 print); md-004 2,227 → 2,629, 31 notes, 78 rows (39 ocr, 18 stray, 11 heading, 7 space, 3 doubt). Image
+  check: p0172.15 ἢ → εἰ (Latin *si*); p0173.02 Combefis's [αὐτῷ τῷ] (print); p0172.50 μετέβαλεν without ἄν; p0172.10
+  [καὶ γὰρ ἓν]; **p0180.55 οὐχ ὁμονύμως kept, myriobiblos drops οὐχ — polarity, plate**; p0178.16 κοινότητος → καινότητος
+  (Latin *novitatis*; doubt); p0181.06 ἐπινοουμένης; p0180.01 διειλῆφθαι. T-noted, not corrected: John 1:43 εἰσελθεῖν,
+  Phil 2:8 cited as "Hebrews" (the Latin agrees with both).
+
+## ✅ Step 1 DONE 2026-11-14: all 6 chunks translated (3 Opus briefs, ≈0.53M); 14,806 English words, 162 notes, 489 OCR rows
+Glossary § IX written (φρόνημα way of thinking; ἀντιστροφή reciprocation; the choice verbs split: προαιρεῖσθαι choose,
+αἱρεῖσθαι prefer, ἐπιλέγεσθαι select, ἐκλέγεσθαι pick out; ἑτερόβουλος of other counsel; ἐναντίος contrary; no "ye") —
+commit 1a28da8c.
+
+## Step 2 — sweep (Sonnet, `SWEEP.md`) LAUNCHED 2026-11-14.
+## Step 3 — image check, pass 1 (concurrent with the sweep: it reads only the OCR tables, which the sweep may not touch)
+`kt-sheet.py maximus-disputatio` → **275 rows, 12 sheets** (word 230 · line 45; heading/stray/space rows are not
+sheeted). Sheet 001 read by the coordinator as calibration → `IMAGE-CHECK-coord.tsv`: R 15 · ? 8 · M 1. **p0162.09: the
+plate prints γʹ (the third indiction, July 645) → R**; p0164.39 the plate prints φύσαντες (sense φήσαντες) → M. Six of
+the eight ? are crops on the wrong line. Readers (Opus, `IMAGE-CHECK-BRIEF.md`, now with the plate=-last comment rule):
+A = sheets 002–007, B = 008–012, launched.
