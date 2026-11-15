@@ -1,5 +1,10 @@
 # Next session — resume note
 
+## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
+Three hymns (not two), 297 lines, cols 1417–1424. `translation-style.md` has the new "Greek verse" section V1–V10 (the *Anacreontica* inherits it); anchor + glossary in
+`translate/maximus-hymni/`. ⚑ Attribution probably Maximus MARGUNIUS (d. 1602), unverified: see RUN.md before any about text. ▶ NEXT: translate (Opus, one agent) → build
+(Sonnet; needs a verse/line mode, two columns per pdf page) → blind read. Score `translate/maximus-hymni/RUN.md`. Each step needs Wilson's model + go.
+
 ## ▶ 2026-11-15 (final) — DISPUTATIO LIVE at migne.app/pg/91/disputatio/ (deployed dpl_9a5NaBUJ…, pushed `1232068f`); Moschus fixes rode along
 Wilson kept «in our power» (p0191.50) and said deploy + push. DRAFT prefix stripped from the about text. ⬜ **`englishState: "ours"` NOT yet set** (not asked;
 setting it changes the badge/landing and needs its own rebuild + deploy OK). Maximus queue next: see `translate/MAXIMUS-QUEUE.md` (#3).

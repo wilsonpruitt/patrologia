@@ -837,6 +837,77 @@ ac voluntate*) and is a witness to the sense only.
 
 - **EN/Greek ≈ 1.4** on the paraenetic anchor (590 → ≈820); the dogmatic letters run nearer 1.25.
 
+## Greek verse (anacreontics, hemiambs) — register rules (Fable mini-pilot on the *Hymni*, PG 91.1417–1424, 2026-11-15)
+
+The first verse work in the corpus, and the rulebook Sophronius's *Anacreontica* (PG 87.3733–3839) inherits. Anchor:
+`translate/maximus-hymni/ANCHOR.en.md` (Hymn III entire, Hymn I lines 1–33), read it before translating a line. Everything in
+"Register (PG / Greek)" and the Patterns still holds (Pattern 7 above all: literal; Pattern 17: thou is the singular). What
+verse adds is the LINE, and every rule below is about what the line may and may not do.
+
+### V1. The sentence is the unit of sense; the line is the unit of the page
+Migne prints the verse in lines (8a: so do we, one for one), and prints a Latin verse rendering beside it that keeps the
+line COUNT while moving words between lines inside a sentence. That is the model, and it is on the plate. **For each Greek
+sentence, the English has exactly as many lines as the Greek, and the whole hymn therefore has the same line count as the
+Greek.** Never merge two lines, never split one, never carry words across a sentence boundary. Inside the sentence, put in
+each English line what its Greek line holds wherever English order bears it; where it does not, move the fewest words the
+shortest distance (a genitive up one line, a verb down one) and never further than the sentence. A reader's eye goes
+straight across the row: he should usually find there what he was looking for.
+
+### V2. No metre, no rhyme, no padding
+The English is plain, literal lines in a prose rhythm. Do not count syllables, do not reach for an iambic fall, do not add
+a word to fill a short line or drop one to trim a long one. A Greek line of two words gives an English line of two or
+three. English that scans by accident is fine; English bent to scan is a Pattern 7 defect, the same as any other
+embellishment.
+
+### V3. What the metre made the poet do is not rendered
+Epic and Ionic forms (ἔην, Θεοῖο, ὑδάτεσσιν, τεόν, Μαρίης, -ῃσι) are metrical dress: render the plain word, with no
+archaism beyond the house *thou*. Filler particles (τε … τε, γε, ῥα, a second δέ) are rendered only where they carry
+logic; M2 ("the inference is spoken") applies to γάρ, οὖν, ἐπεί, ἀλλά, never to a τε that only fills the foot.
+Interjections (οἴμοι, φεῦ) are words, not filler: each is rendered, in its own line (*alas*, *ah*), one English word per
+Greek word across the work.
+
+### V4. A compound epithet stays an epithet
+παγκάκιστος, παντεχνήμων, ἀπειρολέκτρου, τρισήλιος: one English epithet each, a hyphenated compound where English has or
+will take one (*all-wicked*, *three-sunned*), otherwise the shortest phrase (*skilled in every art*, *unwedded*). Never a
+relative clause where a phrase will do, and the same English every time the epithet returns (glossary). Poets coin; a coinage
+that is transparent in Greek may be as new in English as it is in Greek.
+
+### V5. Every line begins with a capital; punctuation is the plate's
+Migne capitalises each line of the Greek and of the Latin; the English does the same (it is the plate's layout, Pattern 8).
+Punctuation follows the Greek at the corresponding point of sense, with · rendered ; or : as in prose. No dashes, no
+exclamation marks the plate does not print.
+
+### V6. Acrostics are noted, never imitated
+Hymn III's line initials spell ΜΑΞΙΜΟΣ ΤΑΔΕ ΓΡΑΨΕΝ ("Maximus wrote these"); Sophronius's anacreontics run alphabetic
+acrostics by stanza. The English never bends a word to reproduce one. The acrostic is stated once: a T note at the first
+line of the poem, and in the "On this text" note. Where the plate prints the stanza letter or a refrain (the *koukoulion*)
+as a line of its own, it is a line of the text and is carried as printed.
+
+### V7. The facing Latin is a paraphrase in verse: a witness at one further remove
+It reorders lines, expands, and sometimes simply misses (Hymn I line 1: τλήμονα, *wretched*, is *beatum* in the Latin).
+The English follows the Greek. `[lat: …]` (Pattern 16) is for a departure of SENSE that a reader comparing columns would
+take for ours (the *beatum* case); never for reordering, expansion or a looser word, which is every line. Expect a handful
+of `[lat:]` per hymn, not dozens. A Latin line that renders two Greek lines (1423, G19–20) is not a defect of either.
+
+### V8. Metre is evidence about the base, never a licence to emend
+Hemiambs run seven syllables (x – ⏑ – ⏑ – –), anacreontics eight (⏑ ⏑ – ⏑ – ⏑ – –). A line of our Greek that will not
+scan is a lead: look at the plate. If the plate prints it, it is Migne's (or his poet's) and stays; the crux says the line
+does not scan. Never restore a reading because the metre wants it.
+
+### V9. Headings, divisions, the unit of display
+A hymn's printed title is prose and is translated as prose (*Hymn of thanksgiving and supplication to God*). A blank line
+stands only where Migne prints a division: between hymns, at a stanza break he sets, at a refrain he sets apart. The
+*Hymni* have none inside a hymn, so each hymn is one unbroken run of lines. Column anchors `[1419]` and band letters
+`[b: B]` open the line they fall on. In the chunk files one printed line is one line of the file, in the Greek, the Latin
+and the English alike; the builder must keep the line break and may align by line number within the sentence (V1 is what
+makes that possible), so the sentence aligner is not run on verse.
+
+### V10. Fixed vocabulary (full table: `translate/maximus-hymni/GLOSSARY.md`)
+ξένος / ξένως *strange / strangely* (never *wondrous*, never *as a stranger*); πλάστης *Moulder*, πλασθείς *moulded*; νόες
+*minds* (the angels); τρυφή *delight* (Eden's); μόρος *doom*; πρόνοια *providence*; ἄφραστος *unspeakable*, ἄῤῥητος
+*ineffable* (two words, kept apart); ἀρχή said of the Father *source*, γόνος *offspring*, ἄημα *breath*; σπλάγχνα
+*compassion*; ὄφις *serpent*, δράκων *dragon* (kept apart); ψάλλειν *to sing*, ὑμνεῖν *to hymn*; κράτος *might*.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"
