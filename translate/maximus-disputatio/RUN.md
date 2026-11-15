@@ -145,3 +145,8 @@ re-cut). Brief 1 launched beside the two pass-2 readers (three at a time); 2 and
   (series at 99: probably 100, recorded as read). p-0195: three lettered Greek notes keyed to the Disputatio's closing
   lines (`work: disputatio`); *De anima* carries none. Accepted without resume (cross-check and none-page confirmation done).
 - English fixer (Opus, `ENGLISH-FIXES.md`) launched in brief 3's slot.
+- Brief 1 resume (≈193K total): full 600 dpi cross-check done only for pp. 162–163 (p-0163 markers 67/68 read, 6 anchors
+  confirmed; p-0162's Latin sweep under-covered), then stopped on context. Rest → two FRESH Sonnet gap agents with
+  `notes/task-1b.md` (p-0162 Latin, 164–168) and `task-1c.md` (169–173), writing `result-1b/1c.jsonl` (corrections with
+  `replaces`, orphanCalls, one `crosscheck` line per page). place.py reads result-1, 1b, 1c, 2, 3 and skips crosscheck lines.
+  1b launched; 1c waits for a slot.
