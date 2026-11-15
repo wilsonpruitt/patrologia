@@ -1,0 +1,186 @@
+{
+  "generated": "scripts/index-work-pg.mjs",
+  "workKey": "maximus-confessor-hymni",
+  "slug": "hymni",
+  "series": "pg",
+  "volume": 91,
+  "title": "Hymni",
+  "titleEn": "Hymns",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 91, 1417–1424",
+  "colFirst": 1417,
+  "colLast": 1424,
+  "counts": {
+    "scripture": 0,
+    "fontes": 0,
+    "unparsed": 0,
+    "bands": 22
+  },
+  "columns": [
+    {
+      "col": 1417,
+      "grc": "S. MAXIMI CONFESSORIS HYMNI. (Daniel, Thesaur. hymnolog., III, 97 seqq.)",
+      "en": "*Hymns of Saint Maximus the Confessor.* (Daniel, Thesaur. hymnolog., III,"
+    },
+    {
+      "col": 1418,
+      "grc": "Ἦμος Θεοῦ μεγίστου Ὑπ' ἀφράστῳ προνοίῃ Ἔρωτί τ' ἰσομοίρῳ Φῶς",
+      "en": "When, by the greatest God's Unspeakable providence And love of"
+    },
+    {
+      "col": 1419,
+      "grc": "[b: A] Γαίης μέσον πόλου τε Ζῶον κατεστὼς οἴμοι. Λάμπον",
+      "en": "Midway between earth and sky Set as a living creature,"
+    },
+    {
+      "col": 1420,
+      "grc": "[b: A] Πῦρ μοι, ὃ ἐμπέφυρται. Σὺ δ' ἀλλ' ἐμοὶ",
+      "en": "Fire in me, which is blended in. But do thou"
+    },
+    {
+      "col": 1421,
+      "grc": "[b: A] Ἀβουλίας φρενῶν τε Καὶ δουλικῆς ἀνάγκης; Κακοσχόλου τε",
+      "en": "And for my mind's ill counsel And slavish constraint; And"
+    },
+    {
+      "col": 1422,
+      "grc": "[b: A] Ἄγειρεν ἡ τοσαύτην Βλάβην ἔνοικον αὐτῇ Θυμόν τ'",
+      "en": "Which gathered so great A harm to dwell within it,"
+    },
+    {
+      "col": 1423,
+      "grc": "[b: A] Δοτῆρα τῶν ἀρίστων Τούτων τε συντελεστὴν, Βροτοὺς ἅπερ",
+      "en": "Giver of the best things And their accomplisher, Which save"
+    },
+    {
+      "col": 1424,
+      "grc": "[b: A] Ἂν μὴ ἄναγνον ὕλην Χόρτον πυρός τ' ἄναμμα.",
+      "en": "If not impure wood, Hay, and kindling for fire. And"
+    }
+  ],
+  "heads": [],
+  "scripture": [],
+  "fontes": [],
+  "unparsed": [],
+  "bands": [
+    {
+      "column": "1419",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1419",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1419",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1419",
+      "band": "d",
+      "chunk": 1
+    },
+    {
+      "column": "1420",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1420",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1420",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1420",
+      "band": "d",
+      "chunk": 1
+    },
+    {
+      "column": "1421",
+      "band": "a",
+      "chunk": 2
+    },
+    {
+      "column": "1421",
+      "band": "b",
+      "chunk": 2
+    },
+    {
+      "column": "1421",
+      "band": "c",
+      "chunk": 2
+    },
+    {
+      "column": "1421",
+      "band": "d",
+      "chunk": 2
+    },
+    {
+      "column": "1422",
+      "band": "a",
+      "chunk": 2
+    },
+    {
+      "column": "1422",
+      "band": "b",
+      "chunk": 2
+    },
+    {
+      "column": "1422",
+      "band": "c",
+      "chunk": 2
+    },
+    {
+      "column": "1422",
+      "band": "d",
+      "chunk": 2
+    },
+    {
+      "column": "1423",
+      "band": "a",
+      "chunk": 2
+    },
+    {
+      "column": "1423",
+      "band": "b",
+      "chunk": 2
+    },
+    {
+      "column": "1423",
+      "band": "c",
+      "chunk": 2
+    },
+    {
+      "column": "1424",
+      "band": "a",
+      "chunk": 2
+    },
+    {
+      "column": "1424",
+      "band": "b",
+      "chunk": 3
+    },
+    {
+      "column": "1424",
+      "band": "c",
+      "chunk": 3
+    }
+  ],
+  "proseNotes": [],
+  "cruces": {
+    "count": 41,
+    "file": "src/english/maximus-confessor-hymni/cruces.md"
+  },
+  "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",
+  "indexed": null
+}

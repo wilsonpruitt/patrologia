@@ -56,3 +56,15 @@ the card-1 title line renders Migne's "S. MAXIMI CONFESSORIS HYMNI" as printed (
 **Glossary:** +28 rows (ἄναρχος, πόλος/πόλονδε "sky/skyward", πνοή, πνεῦσις, κακόφρων, ἄναγνος, ἐρείπια/ὄλεθρος, θυμός, ἄκραντος/ἄπειρος/ἄπλετος, σωφροσύνη, εὐσπλαγχνία, συνεργός/συνεργάστης,
 Ἑωσφόρος/φαεσφόρος, μοναί, ὑμνῳδός, etc.).
 NEXT is step 2 above ("Build", Sonnet), then the blind read.
+
+## 2026-11-15 — step 4 DONE: local site build (Sonnet; nothing deployed or pushed)
+New `scripts/hy-to-site.py` (verse builder; CONF-driven, the Sophronius *Anacreontica* can reuse it): cards + `base/` -> `src/greek|english|pg-latin/maximus-confessor-hymni/` (3 chunks hy-001..003: 125/159/18 lines
+incl. headings, 26/28/4 sentences), manifests, `cruces.md` (41 notes keyed by column + band). One paragraph (⟦pN⟧) per Greek SENTENCE, every printed line carries ⟦sK⟧ (so the parallel view pairs line
+with line); sentence ends are the ENGLISH ones applied to the Greek at the same line index; the one place Greek punctuation disagrees (1421 line 4, Greek `;` mid-sentence) is listed by the script. Band letters
+([b: X], base/BANDS.tsv file-line numbers) Greek only. The sentence aligner is NOT run (V9); `mark-sentences` is not run either (markers written directly). Column anchors repeat across chunks where a hymn begins
+mid-column (1420 in hy-001 and hy-002, 1424 in hy-002 and hy-003), as in the cards; the page builder's id logic tolerated it (first `id="c1420"` wins).
+`scripts/build-work-page-pg.mjs`: new `work.verse` mode (registry flag `"verse": true`): a newline inside a paragraph renders `<br>`; rows are cut AT the column anchor's line (not at a "sentence end": in verse every
+line starts with a capital and the heading numeral "I." read as one, cutting Greek and English at different places). Every other work rebuilds unchanged (guarded by `work.verse`; not re-run for the others).
+Registry entry `maximus-confessor-hymni` (slug `hymni`, `verse: true`, greekSource ours-vision-ocr, translationStatus unclear: not researched, rule 8), DRAFT about text (attribution doubtful; "Wilson to read"), DRAFT RECENT line.
+verify-english-pg OK · plate-gate OK (0 [sic:]/[var:]) · index 8 columns / 41 cruces · Greek lookup rebuilt · **preflight 9 of 10 (only the blind polarity read).**
+⬜ NEXT: blind read (Opus, 1 reader; briefs pattern `data/briefs/`; the five hard spots listed in step 3) -> fixes -> `polarity-record.mjs maximus-confessor-hymni` -> rebuild -> preflight 10/10 -> Wilson: about text, deploy, push.

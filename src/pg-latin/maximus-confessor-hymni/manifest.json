@@ -1,0 +1,29 @@
+{
+  "workKey": "maximus-confessor-hymni",
+  "source": "translate/maximus-hymni/base/*.latin.txt",
+  "builtBy": "scripts/hy-to-site.py",
+  "role": "WITNESS for adjudication and vocabulary. Not authority.",
+  "chunks": [
+    {
+      "chunk": 1,
+      "pdfPages": [
+        771,
+        772
+      ]
+    },
+    {
+      "chunk": 2,
+      "pdfPages": [
+        772,
+        773,
+        774
+      ]
+    },
+    {
+      "chunk": 3,
+      "pdfPages": [
+        774
+      ]
+    }
+  ]
+}

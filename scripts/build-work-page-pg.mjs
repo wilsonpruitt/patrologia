@@ -75,6 +75,10 @@ function sentenceRows(text, terminalRe) {
   const insideMarker = i => spans.some(([a, b]) => i > a && i < b);
   const cuts = anchors.map((m, i) => {
     if (i === 0) return 0;
+    // VERSE (work.verse, hy-to-site.py): a column's anchor sits on the same printed line in the Greek and the English, so the row is cut AT the
+    // anchor's line (backing over the line's own ⟦q…⟧ marker), never at a "sentence end" — in verse every line begins with a capital, and a numeral
+    // like "I." in a hymn's heading would pass for one, cutting Greek and English at different places.
+    if (work.verse) { let at = m.index; const pre = text.slice(0, at).match(/(?:⟦q[^⟧]*⟧ ?)+$/); return pre ? at - pre[0].length : at; }
     let last = m.index, mm;
     terminalRe.lastIndex = 0;
     while ((mm = terminalRe.exec(text.slice(0, m.index)))) {
@@ -184,7 +188,8 @@ let dedupeIds = false;
 const idOnce = id => { if (!dedupeIds) return true; if (seenIds.has(id)) return false; seenIds.add(id); return true; };
 function paras(text, { anchorIds }) {
   return text.split(/\n\n+/).map(p => {
-    const inline = assertWellNested(esc(p.replace(/\n/g, ' '))
+    // work.verse (hy-to-site.py): a sentence's printed lines stay lines — a newline inside a paragraph becomes <br>, everywhere else it is a space
+    const inline = assertWellNested(esc(p.replace(/\n/g, work.verse ? '\u0001' : ' ')).replace(/\u0001/g, '<br>')
       // Phase B sentence boundaries (empty spans; see qualifyMarkers): data-p = paragraph, data-s = source sentences
       .replace(/⟦q([0-9.]+[a-z]?)\|([0-9+]+)⟧ ?/g, (_, pid, ids) => `<span class="sm" data-p="${pid}" data-s="${ids.split('+').join(',')}"></span>`)
       .replace(/\[(\d{4})\]\s*/g, (_, c) =>

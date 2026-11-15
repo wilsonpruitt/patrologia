@@ -569,6 +569,25 @@
    "latinVerifier": "src/pg-latin/maximus-confessor-disputatio/",
    "ktRecord": "translate/maximus-disputatio/ (RUN.md, BUILD.md, GLOSSARY.md, CARD.md, verify/, notes/)",
    "translated": "2026-11-14"
+  },
+  {
+   "key": "maximus-confessor-hymni",
+   "series": "pg",
+   "volume": 91,
+   "author": "Maximus the Confessor",
+   "authorNote": "Printed by Migne among the works of Maximus the Confessor (c. 580-662); the attribution is doubtful.",
+   "title": "Hymni",
+   "titleEn": "Hymns",
+   "citRange": "PG 91, 1417–1424",
+   "status": "TRANSLATED 2026-11-15 (kt verse method, Opus; Greek read at the plate); site build in progress, not shipped",
+   "greekSource": "ours-vision-ocr",
+   "slug": "hymni",
+   "verse": true,
+   "translationStatus": "unclear",
+   "translationStatusNote": "Not researched (rule 8). Ships the WEAK claim 'New English translation' at most; never 'First'. Attribution to the Confessor doubtful (probably Maximus Margunius, unverified): see translate/maximus-hymni/RUN.md.",
+   "latinVerifier": "src/pg-latin/maximus-confessor-hymni/",
+   "ktRecord": "translate/maximus-hymni/ (RUN.md, ANCHOR.en.md, GLOSSARY.md, PLATE-CHECKS.tsv, base/)",
+   "translated": "2026-11-15"
   }
  ]
 }

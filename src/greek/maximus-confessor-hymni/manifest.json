@@ -1,0 +1,55 @@
+{
+  "workKey": "maximus-confessor-hymni",
+  "series": "pg",
+  "volume": 91,
+  "title": "Hymni",
+  "titleEn": "Hymns",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 91, 1417–1424",
+  "chunkCount": 3,
+  "greekSource": "ours-vision-ocr",
+  "builtBy": "scripts/hy-to-site.py (verse: one printed line per line, one paragraph per sentence)",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "hy-001",
+      "colFirst": "1417",
+      "colLast": "1420",
+      "words": 543,
+      "pdfPages": [
+        771,
+        772
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "0002.md",
+      "source": "hy-002",
+      "colFirst": "1420",
+      "colLast": "1424",
+      "words": 691,
+      "pdfPages": [
+        772,
+        773,
+        774
+      ]
+    },
+    {
+      "chunk": 3,
+      "file": "0003.md",
+      "source": "hy-003",
+      "colFirst": "1424",
+      "colLast": "1424",
+      "words": 92,
+      "pdfPages": [
+        774
+      ]
+    }
+  ],
+  "colFirst": "1417",
+  "colLast": "1424",
+  "words": 1326
+}
