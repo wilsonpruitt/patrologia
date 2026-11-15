@@ -1,5 +1,15 @@
 # Next session — resume note
 
+## ▶ 2026-11-14 (latest) — kt-apply FIXED (`0241c7da`); a decision owed on two SHIPPED works
+`scripts/kt-apply.py`: R verdicts on `doubt`/`print` rows now reach `checked/` (skipped as doubt-same/-break/-band where the row
+names no change); `plate=` stops at the reader's prose. Tested old vs new on all five kt works in scratch (nothing in the repo
+rewritten). ⚠ **The gap also hit shipped works:** live Epistulae Greek = old output, so **29 plate-confirmed lines in
+`maximus-epistulae` and 2 in `moschus-pratum` never reached the displayed Greek** (English unaffected: the doubts were settled at
+translation). Their `checked/` hold no hand edits, so a rerun is safe: `python3 scripts/kt-apply.py <work>` → rebuild chain → deploy
+(Wilson's OK). ⚑ Look at Epistulae p0295.22 first: the reader's `plate=ὁρᾷν` replaces ὀργὴν, which construes (ὀργὴν ἐπανατείνεσθαι);
+re-read that plate before applying. Opuscula: nothing owed (its 2 lines were hand-patched). Sophronius/Procopius: no change.
+▶ Then Maximus queue #2 *Disputatio cum Pyrrho* (needs "which model, and go").
+
 ## ▶ 2026-11-06 (latest) — MAXIMUS *OPUSCULA* LIVE at migne.app/pg/91/opuscula/ (deployed, pushed, englishState ours)
 Score `translate/maximus-opuscula/RUN.md` (closed: "SHIPPED"). Next in the Maximus queue (`translate/MAXIMUS-QUEUE.md`):
 #2 *Disputatio cum Pyrrho* (pdf pp. 162–≈196; Farrell 1990 + Clarke 2026 exist → "New" badge), needs Wilson's model + go.
