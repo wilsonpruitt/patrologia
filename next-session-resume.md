@@ -1,5 +1,9 @@
 # Next session — resume note
 
+## ▶ 2026-11-15 (final) — DISPUTATIO LIVE at migne.app/pg/91/disputatio/ (deployed dpl_9a5NaBUJ…, pushed `1232068f`); Moschus fixes rode along
+Wilson kept «in our power» (p0191.50) and said deploy + push. DRAFT prefix stripped from the about text. ⬜ **`englishState: "ours"` NOT yet set** (not asked;
+setting it changes the badge/landing and needs its own rebuild + deploy OK). Maximus queue next: see `translate/MAXIMUS-QUEUE.md` (#3).
+
 ## ▶ 2026-11-15 (latest, last) — DISPUTATIO blind read DONE, preflight 10 of 10 (local commit; NOT deployed, NOT pushed)
 9 fixes applied, p0189.32 kept, one call owed by Wilson: md-006 p0191.50 «in our power» (plate ἡμῶν) vs «your» (R3, Combefis *vestri*). Incl. a plate
 re-read at p0174.06 (ἡ, not τῇ; an added phrase dropped). Detail: `translate/maximus-disputatio/RUN.md` "Step 6 DONE". ▶ NEXT: Wilson reads DRAFT
