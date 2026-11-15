@@ -155,7 +155,7 @@ re-cut). Brief 1 launched beside the two pass-2 readers (three at a time); 2 and
   leaning → folded into gap brief 1c (now pp. 169–176 + (h)/(j)), launched.
 ⚠ Burn: apparatus ≈0.88M so far (3 briefs + resume) + 2 gap agents (≈0.3M est.) → apparatus ≈1.2M, not 0.7M; all-in now
   ≈2.9M est.
-- ✅ English fixer (Opus, ≈?K) on the 30 rows: 3 notes added (md-003/004/005, renumbered; cross-refs updated); re-translated
+- ✅ English fixer (Opus, ≈127K) on the 30 rows: 3 notes added (md-003/004/005, renumbered; cross-refs updated); re-translated
   from the print where it construes: p0178.16 "commonness" (κοινότητος), p0181.06, p0188.22 διά τι, **p0191.50 "our power"
   (ἡμῶν)**, p0174.06 τῇ; kept with "Migne prints X (confirmed on the plate)" notes: p0167.43, p0189.46 ἀντιδόντες,
   p0191.40; p0166.41 clause supplied in brackets from the Latin (no [?] left). **Polarity: p0189.32 the plate has no οὐ;
