@@ -101,7 +101,7 @@ def cur(p, i):
             if a in t: t = t.replace(a, q['to'], 1)
     return t
 new, skipped = [], []
-MANUAL = [(173, 25, 'vσπερ', 'ὥσπερ', 'p0173.25 image-check ? (line start damaged in the scan): translator reading ὥσπερ (Latin v for ὥ), read from the sense'), (178, 27, '(κοῦντος', 'κοῦντος', 'stray row p0178.26 (multi-line): paren debris at the line start'), (167, 49, 'καθ᾿ ὐ ἡμᾶς', 'καθ᾿ ἡμᾶς', 'stray row p0167.49: fragment ὐ after καθ᾿'), (195, 8, 'λίβελλον. Ταῦτα', 'λίβελλον.¶Ταῦτα', 'mid-line paragraph break: Pyrrhus\'s last turn ends and the narrative begins (sentinel split by kt-to-site)')]
+MANUAL = [(174, 6, 'ᾑ τοῦ σιδήρου', 'ἡ τοῦ σιδήρου', 'p0174.06 blind read R2 + plate re-read 2026-11-15: the plate prints ἡ (rough breathing, a speck beneath is not an iota subscript; no τῇ): the article of ἡ … αὐγὴ καὶ λαμπρότης'), (173, 25, 'vσπερ', 'ὥσπερ', 'p0173.25 image-check ? (line start damaged in the scan): translator reading ὥσπερ (Latin v for ὥ), read from the sense'), (178, 27, '(κοῦντος', 'κοῦντος', 'stray row p0178.26 (multi-line): paren debris at the line start'), (167, 49, 'καθ᾿ ὐ ἡμᾶς', 'καθ᾿ ἡμᾶς', 'stray row p0167.49: fragment ὐ after καθ᾿'), (195, 8, 'λίβελλον. Ταῦτα', 'λίβελλον.¶Ταῦτα', 'mid-line paragraph break: Pyrrhus\'s last turn ends and the narrative begins (sentinel split by kt-to-site)')]
 for p_, i_, a_, b_, why_ in MANUAL:
     if a_ in cur(p_, i_): q = dict(page=f'p-{p_:04d}', line=str(i_), **{'from': a_, 'to': b_}, source='OCR-TABLE manual (translator reading, not plate-checked): ' + why_); pat.append(q); new.append(q)
     else: print('  MANUAL not applicable', p_, i_)

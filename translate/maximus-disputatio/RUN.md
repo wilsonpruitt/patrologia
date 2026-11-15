@@ -202,3 +202,16 @@ the Epistulae rebuild mid-run at p-0216:10; the earlier "byte-identical" claim f
 over all 28 chunks). ⬜ Next: **blind polarity read** (Opus, 3 readers, `translation-runbook.md` 4a; brief pattern
 `data/briefs/MAXIMUS-OPUSCULA-BLIND-READ-BRIEF.md`, ≈0.3–0.5M est.), flag p0189.32 (plate has no οὐ; English keeps "not") for it;
 then Wilson: DRAFT about/RECENT, deploy, push, `englishState: "ours"` (own OKs).
+
+## ✅ Step 6 DONE 2026-11-15: blind polarity read (3 Opus readers, ≈0.45M; reports `data/briefs/MAXIMUS-DISPUTATIO-BLIND-READ-R{1,2,3}.md`)
+11 findings → **9 applied**, 1 kept, 1 open. Applied (source cards + notes): md-001 296C «separate him from the Father in respect of the wills»
+(θελήμασι dative of respect, τοῦ Πατρός genitive of separation); md-003 312A **rust/iron: the plate prints ἡ, not τῇ** (the first image check's
+τῇ was a speck under the eta; "the iron's casting off" was an ADDED phrase: dropped; Greek patched ᾑ→ἡ in `dx-tables.py`; note 13 rewritten);
+md-004 329A «things out of their own heart» (Jer 23:16: was readable as "sincerely"), 325A genitive absolute (habit conceived before the readiness),
+325D–328A Maximus's turn re-joined (it was split by a blank line, which put a ⟦p⟧ on the wrong speaker; alignment 99.5% → 100%); md-005 340B «the
+singleness of the person», 333C «not having been established»; md-006 345A «the body's natural operation», 345C Dionysius's participle agrees with Christ.
+**Kept: p0189.32** (R3 read the plate: no οὐ; the γάρ clause shows "not" is right; Combefis *non est*). ⬜ **Open for Wilson: md-006 p0191.50 «let this be
+in our power»**: the plate prints ἡμῶν; R3 argues ὑμῶν (βούλεσθε "you wish"; Combefis *vestri*). English left as printed. Marker oddities R3 saw
+(`⟦s1+2+…⟧` runs) were the aligner's merged beads, not text defects. Polarity record written; **preflight 10 of 10**. Nothing deployed or pushed.
+⬜ Remaining, each its own OK: Wilson reads DRAFT about/RECENT + the p0191.50 call → deploy (`build-site` → `preflight` → `cd site && npx vercel --prod
+--archive=tgz --scope wilson-pruitts-projects`, with the Moschus fixes riding along) → push → `englishState: "ours"`.

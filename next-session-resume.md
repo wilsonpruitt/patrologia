@@ -1,5 +1,10 @@
 # Next session — resume note
 
+## ▶ 2026-11-15 (latest, last) — DISPUTATIO blind read DONE, preflight 10 of 10 (local commit; NOT deployed, NOT pushed)
+9 fixes applied, p0189.32 kept, one call owed by Wilson: md-006 p0191.50 «in our power» (plate ἡμῶν) vs «your» (R3, Combefis *vestri*). Incl. a plate
+re-read at p0174.06 (ἡ, not τῇ; an added phrase dropped). Detail: `translate/maximus-disputatio/RUN.md` "Step 6 DONE". ▶ NEXT: Wilson reads DRAFT
+about/RECENT + decides the p0191.50 call; then deploy (own OK; carries the Moschus fixes) → push (own OK) → `englishState: "ours"`.
+
 ## ▶ 2026-11-15 (latest, later) — DISPUTATIO site build DONE (local, preflight 9 of 10); blind read is next
 `translate/maximus-disputatio/RUN.md` "Step 5 DONE 2026-11-15" has the counts and every deviation. 6 chunks, 34 columns, alignment 99.5%,
 `[?]` 0, `[sic:]` 0, notes 118 (not 120). Other five kt works rebuilt byte-identical. ⚠ Epistulae p-0274:6: the plate reads **οὔτε**
