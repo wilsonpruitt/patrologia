@@ -136,3 +136,12 @@ re-cut). Brief 1 launched beside the two pass-2 readers (three at a time); 2 and
   across a line end → 12 rows in `verify/GREEK-PATCHES.tsv`, each `from` asserted on its line; 33 M → `verify/PRINT-ERRORS.tsv`.
 - `ENGLISH-FIXES.tsv` (30 rows: 20 P, 4 R-with-third-form, + p0166.41 Migne's own omission, the 3 polarity rows, p0189.46,
   p0174.06) + `ENGLISH-FIXES.md` (Opus fixer brief) — launch when a slot frees (3 apparatus briefs running).
+- Apparatus brief 1 (pp. 162–173, ≈182K): 35 notes (32 numbered · 1 lettered · 2 notae), 1 orphan (p-0166 (k)), **31
+  markers illegible** (checked: p-0163's ⁶⁷/⁶⁸ ARE blotted blobs, so some are real), Greek anchors pp. 162–168 low-zoom,
+  **call cross-check skipped** → resumed (same agent) for the full mark-by-mark check at 600 dpi, 2× marker crops (note
+  AND call), anchors confirmed. Numbered variants carry Combefis's MS numbers (`τόπου. 270. 336.`): text, not markers.
+- ✅ Apparatus brief 3 (pp. 185–195): 27 notes (14 numbered · 10 lettered · 3 notae), 8 illegible, 1 orphanCall (p-0189
+  (m), not on p-0189/190; (n) follows on p-0190), p-0188 none (600 dpi). p-0194's last numbered marker prints as "1"
+  (series at 99: probably 100, recorded as read). p-0195: three lettered Greek notes keyed to the Disputatio's closing
+  lines (`work: disputatio`); *De anima* carries none. Accepted without resume (cross-check and none-page confirmation done).
+- English fixer (Opus, `ENGLISH-FIXES.md`) launched in brief 3's slot.
