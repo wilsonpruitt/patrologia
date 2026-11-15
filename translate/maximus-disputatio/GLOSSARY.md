@@ -236,3 +236,24 @@ word, held apart from every other link of the chain, and a definition stays a de
 | πρᾶξις | action (the deed); practice (the ascetic triad) | by sense, as ruled |
 | συγγένεια / συγγενής | kindredness / kindred | "natural kinship" (mo-007, 008, 021) → natural kindredness, 2026-11-06: "kinship" is οἰκείωσις (affective) |
 | ἔννοια, by sense | concept (technical); "meaning" where it is a speaker's or a text's intent (mo-025, 027) | |
+
+## IX. Rulings for the *Disputatio* (Opus coordinator, 2026-11-14) — binding; the sweep enforces them in md-001–006
+| Greek | English | rejected renderings (grep for these) |
+|---|---|---|
+| φρόνημα | way of thinking (all 4: p0162.31 the Christians' way of thinking; p0166.19 common; p0174.25; p0183.37 standing firm in no way of thinking) | "mind" (md-001), "prudent thought" (§ VII: the Disputatio never uses φρόνημα inside the definitional chain) |
+| ἀντιστροφή | reciprocation (p0163.46 εὔλογος ἀντιστροφή; p0193.47 σὺν ἀντιθέσει ἀντιστροφή "reciprocation with contrariety", T note: the logicians' *conversio per contrapositionem*) | "converse" (md-001) |
+| νεῦμα | nod (νεύματι τοῦ Λόγου "at the nod of the Word") | (ῥοπή does not occur in this work: no clash with § V "the nod of his will") |
+| ἐναντίος / ὑπεναντίος / ἐναντιότης / ἐναντίωσις | contrary / contrary / contrariness / opposition (where ἐναντίος and ὑπεναντίος stand side by side, a T note gives both) | "opposed" for ἐναντίος (md-003) |
+| προαιρεῖσθαι / προαίρεσις | choose / choice (also in Isa 7:15–16, προελέσθαι) | "prefer" (md-003) |
+| αἱρεῖσθαι | prefer | "select" (md-002) |
+| ἐπιλέγεσθαι / ἐπιλογή | select / selection | |
+| ἐκλέγεσθαι | pick out | "choose" (md-003) |
+| ἑτερόβουλος / ὁμοθελής | of other counsel / of one will | "of other will" (md-003) |
+| φωνή / λέξις | term (a word as said) / expression; "voice" only for a bodily voice | |
+| ἀποτέλεσμα / ἐνέργημα | result / operated effect, as § I | |
+| σχῆμα (monastic) | monastic estate (ἕξις = habit) | |
+| ἐπιτηδειότης / προχείρησις | aptitude / readiness | |
+| ἐξουσιαστικός / ὑπεξούσιος / αὐθεντία | authoritative / under authority / mastery | |
+| δημιουργός / δημιουργικός / δημιουργία | creator / creative / making | "fashioning" (md-003) |
+| χρῆσις (a cited text) | testimony | |
+| plural address | *you* (never "ye", also in Matt 23:37: Jerusalem *thou*, her children *you*) | "ye" (md-004) |

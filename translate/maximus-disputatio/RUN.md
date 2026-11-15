@@ -42,3 +42,29 @@ full-width footnote; kt-apply resets `checked/` from `ruled/`, so any plate tran
 
 ## Step 1 — translation (Opus, all three briefs at once)
 - Round 1 launched 2026-11-14: md-001_002, md-003_004, md-005_006.
+- ✅ Brief md-001_002 DONE (≈169K): md-001 1,926 Greek → 2,422 English, 20 notes, 51 OCR rows (21 ocr, 16 heading,
+  8 stray, 4 space, 2 doubt), 1 [?]; md-002 1,836 → 2,267, 18 notes, 105 rows (51 ocr, 31 heading, 17 stray, 5 space,
+  1 doubt; one non-row p0168.46 Ἀπολινάριον deleted by the coordinator). Script check: anchors 288…305 in order, notes
+  1..n matched, turns alternate. Image check: **p0162.09 γιʹ → γʹ (the indiction: July 645 = ind. 3) — `print` or ocr?
+  read the plate before touching a date**; p0166.41 line lost? (Latin adds "so also the union without division of their
+  natural things": eye-skip τῶν αὐτῶν … τῶν αὐτῶν, [?] in English); p0165.30 ὁρῶμεν → ὁρμῶμεν (Latin *aggredimur*);
+  **p0169.43–55 lost line starts, a block** (reconstruction rests on myriobiblos + Latin: p0169.46 ἃ/γὰρ, .47 ἓν/τὴν);
+  p0167.43 stray δι᾿; p0171.08 οὐ τοὺς πως (Latin *aliquo modo*); Combefis's brackets [ἐγκρίτων/ἐκκρίτων],
+  [παραδεδώκασι/παρέδωκε] (followed the singular, Latin *tradidit*). md-002 ends mid-turn ("Those men, not from evil
+  intent and villainy,"). Sweep: **νεῦμα "nod" clashes with ruled ῥοπή "nod"**; **φρόνημα "mind" vs Opuscula "prudent
+  thought"**; φαντασία illusion; ἐναντιότης contrariness (ἐναντίωσις opposition); ἀντιστροφή converse (logical; Opuscula
+  ruled "reciprocation"?); αἱρεῖσθαι select vs προαιρεῖσθαι choose; δειλία fear; ἀρχαί starting-points; ἀφορμή recoil;
+  ἀνθεκτικὴ δύναμις power that clings; τυποῦν figure; ὑπογραμμός pattern; ἀρχηγός author; ἐπαλλαγή interchange;
+  ἀνεδέξατο took on / ἀνειληφέναι took up; ὑπόληψις repute/supposition.
+- ✅ Brief md-005_006 DONE (≈177K): md-005 2,217 Greek → 2,804 English, 24 notes, 102 rows (64 ocr, 21 heading, 13 stray,
+  6 space, 4 doubt; opens mid-turn, T note 1); md-006 2,086 → 2,566, 31 notes, 52 rows (22 ocr, 18 heading, 7 stray,
+  3 space, 2 doubt), ends at Ἀμήν. Script check OK (anchors 332…353). Image check: **p0189.32 supplied οὐ (Latin *non est
+  nobis quaestio*) — polarity, plate first**; **p0185.35 μὴ συσταθέντα kept, Latin has no negative — polarity**;
+  p0189.46 Ὁπόταν/ἀντιδόντες (read ἀπιδόντες; Latin *Quod vero* = ὅτι δέ?); p0185.18 [προκυλινδι] printed bracket?;
+  p0191.50 ἡμῶν → ὑμῶν (Latin *vestri*); p0191.40 πεπολιτευμένον (Dionysius -ος; Migne's own?); p0192.54 πιστεύετε. S notes
+  weak: Cyril «ποιητοῦ καὶ ποιήματος» (cf. Thesaurus), "fasting forty days" unlocated. Sweep: **ἀντιστροφή reciprocation
+  here vs md-002 "converse" → rule (Opuscula: reciprocation)**; σχῆμα monastic estate (ἕξις habit); ἀποτέλεσμα result;
+  δυαδικός twofold / διπλοῦς double; δυϊκῶς/ἑνικῶς dually/singly; ἀνυπαρξία non-existence; συνεκδοχικῶς by implication;
+  συνεκτικός sustaining; συνθεολογεῖσθαι be theologized together with; θεοφάντωρ God-revealing; τοποτηρηταί topoteretae;
+  φρατρία fraternity; πολιτεία way of life; θεοσημίαι divine signs; ἐπείσακτος imported; ἐπιχειρήσεις arguments; ὑμεῖς
+  forms = plural "you".
