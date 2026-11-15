@@ -101,3 +101,9 @@ A = sheets 002–007, B = 008–012, launched.
   Greek line starts are smeared in THIS scan** (a black bar over the first letters; no second scan of PG 91 is reachable,
   Opuscula finding) → those stay ? (`line_start_damaged_in_scan`) and the English rests on the translator's reading.
   Sheet 002 by the coordinator (R 5 · P 1 · ? 4); readers A (001, 003–007), B (008–012) launched with `IMAGE-CHECK2-BRIEF.md`.
+- ✅ Step 2 sweep DONE (Sonnet, ≈176K): 31 edits (16 rulings, 13 notes: 7 person notes → "(see note N, md-00M)",
+  scripture abbreviations, italics); OCR tables untouched; notes 1..n in all six; turns alternate; one [?] (md-001
+  p0166.41 n18). Coordinator after it: **the md-002|003 "lost line" is not lost** — p0171.44 κακῇ καὶ πανουργίᾳ | p0172.01
+  τινὶ τοῦτο εἶπον runs straight → the sentence joined across the seam ("Those men said this not from evil intent and
+  villainy | of any kind, but …"), md-003 n1 rewritten; ellipses removed at the md-003|004 seam; md-001 [288] προτιμῆσαι
+  "set … before" (prefer = αἱρεῖσθαι). Left: md-005 "the term of heretics" (φωνή, § IX).
