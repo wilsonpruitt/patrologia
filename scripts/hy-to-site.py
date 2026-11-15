@@ -162,7 +162,7 @@ for ci in range(N):
     for d in (gdir, ldir, edir): os.makedirs(d, exist_ok=True)
     open(f'{gdir}/{n4}', 'w').write(fm + '\n' + gtxt + '\n')
     open(f'{edir}/{n4}', 'w').write(fm + '\n' + etxt + '\n')
-    open(f'{ldir}/{n4}', 'w').write(f'<!-- Latin twin for {KEY} chunk {n} ({C["prefix"]}-{n:03d}). The facing Latin verse (Rittershausen?: unverified) of the same hymn, line for line, from raw/kraken/{work}/pages by plate reading '
+    open(f'{ldir}/{n4}', 'w').write(f'<!-- Latin twin for {KEY} chunk {n} ({C["prefix"]}-{n:03d}). Migne\'s facing Latin verse (translator unidentified; NOT Rittershausen\'s, which the 1601 edition prints) of the same hymn, line for line, from raw/kraken/{work}/pages by plate reading '
                                    f'(translate/{work}/base/*.latin.txt). ⛔ WITNESS, NOT AUTHORITY. Built by scripts/hy-to-site.py -->\n\n' + '\n'.join(lat) + '\n')
 
 if problems:
