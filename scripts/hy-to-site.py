@@ -86,8 +86,8 @@ man = {'workKey': KEY, 'series': 'pg', 'volume': C['vol'], 'title': W['title'], 
 crux_all = []; problems = []; review = []
 def fm_for(ci, g, ctxcols):
     cols = re.findall(r'\[(\d{4})\]', g) or [ctxcols[0]]
-    words = len(re.sub(r'\[[^\]]*\]', ' ', g).split())
-    inc = ' '.join(re.sub(r'\[b: [A-D]\]|\[\d{4}\]', ' ', g).split()[:14]).replace('"', '\\"')
+    words = len(re.sub(r'\[[^\]]*\]|⟦[^⟧]*⟧', ' ', g).split())
+    inc = ' '.join(re.sub(r'\[b: [A-D]\]|\[\d{4}\]|⟦[^⟧]*⟧', ' ', g).split()[:14]).replace('"', '\\"')
     return '\n'.join(['---', f'workKey: "{KEY}"', f'work: "{W["title"]}"', f'workEn: "{W["titleEn"]}"', f'authors: ["{W["author"]}"]',
         'series: "pg"', f'volume: {C["vol"]}', 'language: "grc"', f'chunk: {ci + 1}', f'chunkCount: {N}', f'colContext: "{ctxcols[0]}"',
         f'colFirst: "{cols[0]}"', f'colLast: "{cols[-1]}"', f'words: {words}', f'incipit: "{inc}"', f'greekSource: "{W.get("greekSource", "ours-vision-ocr")}"', '---', '']), cols, words

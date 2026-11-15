@@ -68,3 +68,14 @@ line starts with a capital and the heading numeral "I." read as one, cutting Gre
 Registry entry `maximus-confessor-hymni` (slug `hymni`, `verse: true`, greekSource ours-vision-ocr, translationStatus unclear: not researched, rule 8), DRAFT about text (attribution doubtful; "Wilson to read"), DRAFT RECENT line.
 verify-english-pg OK · plate-gate OK (0 [sic:]/[var:]) · index 8 columns / 41 cruces · Greek lookup rebuilt · **preflight 9 of 10 (only the blind polarity read).**
 ⬜ NEXT: blind read (Opus, 1 reader; briefs pattern `data/briefs/`; the five hard spots listed in step 3) -> fixes -> `polarity-record.mjs maximus-confessor-hymni` -> rebuild -> preflight 10/10 -> Wilson: about text, deploy, push.
+
+## 2026-11-15 — step 5 DONE: blind read (one Opus reader, 297/297 lines) -> 7 fixes -> preflight 10 of 10 (local; nothing deployed or pushed)
+Report: `data/briefs/MAXIMUS-HYMNI-BLIND-READ-R1.md` (23 candidates rejected, listed). No dropped/added negative, no missing line. 7 sites, all fixed in the cards:
+I 1419 l.14 «tiller… he» -> «the Father» (who sets Adam: class 2) · I 1420 ll.52–53 Ἄκραντα is an ADVERB: «hymn endlessly / Thy goodness» (note 17 extended) · I 1419 l.23 ἀγνῶς/ἁγνῶς: the breathing is the same blob as the
+certain rough on ἁμαρτάδεσσιν at 3x, so the base now reads **ἁγνῶς** (DOUBTS row added) and «purely» stands, note 5 rewritten (Latin *invisibiliter* = the other reading; **a judgment call, flagged for Wilson**) ·
+II 1421 ll.34–35 ὕπουλον goes with φρόνημα: «To the unknowing a festering / Way of thinking put on» (note 5) · II 1421 ll.43–44 «which of old hurled the Typhon / Swiftly from the sky» (pride is the subject; note 7 stands) ·
+II 1421/1422 ll.57–59 ἡ = the soul (feminine, no accent printed): «for my soul a slipping; / She gathered so great / A harm to dwell within her» (note 9) · II 1422 ll.62–63 διέγνων + inf. = «I have resolved to lay / The rock down as foundation» (no note).
+Kept after judging: ἤρυξας «ward off», Οἰκέτριβας «house-slaves», ἦν as «if it is pure» (note 15 corrected: the circumflex IS clear at the plate), the whispering line, Hymn III «strange breath… equal to both».
+Builder fix: `hy-to-site.py` frontmatter `words` no longer counts ⟦sK⟧ markers. Polarity record written (sites 7, chunks 3). **Preflight 10 of 10.**
+⬜ Remaining, each its own OK from Wilson: read the DRAFT about text + RECENT line (and the title line «Hymns of Saint Maximus the Confessor.» as Migne prints it) -> deploy (`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`)
+-> push. Unpushed local commits: `8ef3aa9c`, `7bb05500`, `10164946`, `28946329`, `e4382d0b`, `1b269f9a`, the brief commit, and this one. `data/volumes.json` `generated` was restored from git (a rebuild bumps it).
