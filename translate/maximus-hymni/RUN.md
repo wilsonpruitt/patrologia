@@ -34,3 +34,25 @@ Maximus the Confessor; the attribution is doubtful" and no more. Same class as t
    (the PL chunker already carries verse `<l>` as an in-block newline: see `scripts/lib/chunk-core.mjs` NL); alignment by line within sentence, no align-sentences run (V9). Check
    `verify-english-pg` ratio and dedupe on short lines. Registry key `maximus-confessor-hymni`, slug `hymni`, citRange PG 91, 1417–1424.
 3. **Blind read** (Opus, 1 reader: 297 lines), polarity record, preflight, then Wilson: about text (with the attribution settled), deploy, push.
+
+## 2026-11-15 — step 3 DONE: translation (Opus, one agent, the whole work)
+`hy-001.en.md` (Hymn I), `hy-002.en.md` (Hymn II), `hy-003.en.md` (Hymn III): one English line per printed Greek line, column anchors `[NNNN]` at the first line of each column
+(and on each card's heading line), no blank lines inside a hymn; band letters NOT written in the English (the builder takes them from `base/BANDS.tsv`). Hymn III and Hymn I ll. 1–33 carried
+over verbatim from the anchor, notes renumbered from 1 in hy-003. **One addition to an anchor line:** Hymn I l.1 now carries the inline `[lat: the Latin has *beatum*, blessed]` that the
+anchor's own note 1 says "stands here" but its table row did not print.
+**Line counts (English = Greek, every column; self-check script):** I: 1417 2, 1418 6, 1419 60, 1420 54 = 122 · II: 1420 2, 1421 55, 1422 66, 1423 27, 1424 8 = 158 · III: 1424 17 · total 297.
+V1 check (sentence ends coincide line for line; no sentence ends mid-line): clean after one fix (a colon at II, 1421 G35 where the Greek has a comma).
+**Notes:** hy-001 17 (5 anchor), hy-002 21, hy-003 3 (anchor). `[lat:]` fired 6 times: I *beatum* (l.1), *Cladem exterorum* (1420 G9), *egisti* (1420 G43); II *damnosos hospites*
+(1421 G38), *Consciente agno* (1422 G23), *Angelicum … Cibum* (1422 G28).
+**Plate:** 16 checks, `PLATE-CHECKS.tsv`. **One base fix:** 1420 G25 `Θερμὸν` → `Θερμὴν` (η plain at 600 dpi against Σὴν in the same column; logged in DOUBTS.tsv as PLATE-FIX;
+sense unchanged). Everything else stands as printed: ἤρυξας (clear; NOT emended to ἤνυσας), ἀνάγκης; (the question mark is printed), βροτόν (not βρωτόν), Οἰκέτριβας, αἱμορούσης.
+Metre (V8): a syllable count over all 297 lines finds every line at 7; the metre raised no lead.
+**Decided:** I l.31 ἀγνῶς (anchor note 5's open question): the breathing is an indeterminate blob at the plate, so the Latin's *invisibiliter* may read ἀγνώς from the same print: NO `[lat:]`,
+"purely" kept. Anchor note 5's last sentence ("the translator … decides") is an instruction left in a published note: Wilson to replace it (suggested: "The breathing cannot be told at
+the plate; the Latin may read the other one, so no `[lat:]`.").
+**Open for the blind reader:** ἤρυξας "ward off" vs the Latin's sense (I, 1420 G43); οἰκέτριβας "house-slaves" vs "house-wreckers" (II, 1421 G38); ἦν taken as ἤν "if" (II, 1422 G31);
+τυφῶνα as "the Typhon" in apposition to the Morning-star (II, 1421 G41); ἡ/ἣ at 1422 G1 (the soul); 1421 G2's printed `;` rendered as a pause; πνοή and ἄημα both "breath" (glossary ⚑);
+the card-1 title line renders Migne's "S. MAXIMI CONFESSORIS HYMNI" as printed (attribution flag above: notes never call the hymns the Confessor's).
+**Glossary:** +28 rows (ἄναρχος, πόλος/πόλονδε "sky/skyward", πνοή, πνεῦσις, κακόφρων, ἄναγνος, ἐρείπια/ὄλεθρος, θυμός, ἄκραντος/ἄπειρος/ἄπλετος, σωφροσύνη, εὐσπλαγχνία, συνεργός/συνεργάστης,
+Ἑωσφόρος/φαεσφόρος, μοναί, ὑμνῳδός, etc.).
+NEXT is step 2 above ("Build", Sonnet), then the blind read.
