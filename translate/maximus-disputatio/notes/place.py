@@ -31,7 +31,7 @@ for r in rows:
     if fx and r.get('column') == 'greek': r['anchorWord'], r['anchorLine'] = fx
 notes, seen, dups = [], set(), 0
 for r in rows:
-    if r.get('none') or any(k in r for k in ('orphanCall', 'scholionCall', 'fullWidthBody', 'crosscheck')): continue   # Opuscula: calls/flags, not notes
+    if r.get('none') or any(k in r for k in ('orphanCall', 'scholionCall', 'fullWidthBody', 'crosscheck', 'callCrossCheck')): continue   # Opuscula: calls/flags, not notes
     key = (r['page'], r.get('marker'), r.get('text'), r.get('anchorWord'))
     if key in seen: dups += 1; continue
     seen.add(key); notes.append(r)

@@ -180,3 +180,25 @@ unplaced → cruces** (notae 13 · lettered 10 · numbered 7 · other 3) · 22 L
 translators' S notes · 3 numbered anchors not in `checked/` (p-0169 ἀπόδειξιν, p-0192 94 συστατικῶς, 95 σχέμματα: the
 build reports where they land) · 11 placed by word.
 **⏸ STOPPED before Step 5 (build) for Wilson's call: ≈2.6M spent vs the 2M go; build + blind read ≈0.7M more.**
+
+## ✅ Step 5 DONE 2026-11-15: LOCAL site build (Sonnet; nothing deployed or pushed)
+`scripts/dx-tables.py` (adapted from `ox-tables.py`; run after `mp-bands.py` with `MP_WORK=maximus-disputatio MP_RANGES=162-195`) writes
+`verify/GREEK-{DROPS,BREAKS,BANDS}.tsv` and appends OCR-table patches (181 rows now). Breaks: 188 speaker labels (patched ΠΥΡ./ΜΑΞ.
+forms) + the recorder's record (p-0162:2) + the closing narrative (p-0195:12); **one mid-line break** at p-0195:8 is a `¶` sentinel
+patch that `kt-to-site.py` now splits (Pyrrhus's last turn / the narrative). Drops 21 (incl. p-0167:53 leaked variants, p-0194:56
+foot-of-page junk); bands 130 (15 glued letters stripped). Manual patches: p0173.25 `vσπερ`→ὥσπερ (image check left `?`, line start
+damaged in the scan: read from the sense, as the about-text says), p0167.49, p0178.27, p0195.8 (¶). `CONF['maximus-disputatio']`
+(prefix `md`; same flags as the Opuscula). Registry `maximus-confessor-disputatio` (slug `disputatio`, no `englishState`), about + RECENT
+are DRAFTS, 22 plate-reads entries. `place.py` now skips `callCrossCheck` page records: **118 real notes** (the "120" above counted
+two cross-check records); 65 Greek candidates, 56 placed (`[n:]`), 9 unplaced + 31 other unplaced → cruces (138 cruces lines).
+Counts: 6 chunks · 34 column blocks · alignment **99.5%** (196/197 paragraphs sentence-level) · `[sic:]` 0 · `[?]` 0 · verify OK ·
+plate-gate OK · index 34 columns / 24 scripture. **Preflight 9 of 10 (only the blind polarity read).**
+Other five kt works rebuilt through kt-to-site → mark → align → build-work-page-pg: `src/` byte-identical (Moschus's 2 fixes from
+`44bb9a15` aside), `generated` dates restored. ⚠ **Two shipped-work patch rows re-based** (Epistulae `GREEK-PATCHES.tsv`): kt-apply's
+rerun now writes the image-check reading into `checked/`, so p-0274:6 `from` is now «καὶ οὕτω οὐ φρίττουσι» → «καὶ οὔτε φρίττουσι»
+(**the plate reads οὔτε** — looked at 2026-11-15; the image-check's "οὕτω οὐ" is wrong and the 11-06 blind-read ruling stands) and the
+redundant p-0316:43 row was dropped. `kt-to-site.py` `patched()` now skips a patch already applied upstream (it had been aborting
+the Epistulae rebuild mid-run at p-0216:10; the earlier "byte-identical" claim for Epistulae was untested past chunk 3, now verified
+over all 28 chunks). ⬜ Next: **blind polarity read** (Opus, 3 readers, `translation-runbook.md` 4a; brief pattern
+`data/briefs/MAXIMUS-OPUSCULA-BLIND-READ-BRIEF.md`, ≈0.3–0.5M est.), flag p0189.32 (plate has no οὐ; English keeps "not") for it;
+then Wilson: DRAFT about/RECENT, deploy, push, `englishState: "ours"` (own OKs).

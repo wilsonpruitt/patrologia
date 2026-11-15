@@ -1,0 +1,113 @@
+{
+  "workKey": "maximus-confessor-disputatio",
+  "series": "pg",
+  "volume": 91,
+  "title": "Disputatio cum Pyrrho",
+  "titleEn": "Disputation with Pyrrhus",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 91, 287–354",
+  "chunkCount": 6,
+  "greekSource": "ours-kraken",
+  "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "md-001",
+      "colFirst": "0288",
+      "colLast": "0296",
+      "words": 1858,
+      "pdfPages": [
+        162,
+        163,
+        164,
+        165,
+        166
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "0002.md",
+      "source": "md-002",
+      "colFirst": "0297",
+      "colLast": "0305",
+      "words": 1754,
+      "pdfPages": [
+        167,
+        168,
+        169,
+        170,
+        171
+      ]
+    },
+    {
+      "chunk": 3,
+      "file": "0003.md",
+      "source": "md-003",
+      "colFirst": "0308",
+      "colLast": "0317",
+      "words": 1904,
+      "pdfPages": [
+        172,
+        173,
+        174,
+        175,
+        176,
+        177
+      ]
+    },
+    {
+      "chunk": 4,
+      "file": "0004.md",
+      "source": "md-004",
+      "colFirst": "0320",
+      "colLast": "0329",
+      "words": 2155,
+      "pdfPages": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ]
+    },
+    {
+      "chunk": 5,
+      "file": "0005.md",
+      "source": "md-005",
+      "colFirst": "0332",
+      "colLast": "0341",
+      "words": 2125,
+      "pdfPages": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+      ]
+    },
+    {
+      "chunk": 6,
+      "file": "0006.md",
+      "source": "md-006",
+      "colFirst": "0344",
+      "colLast": "0353",
+      "words": 2007,
+      "pdfPages": [
+        190,
+        191,
+        192,
+        193,
+        194,
+        195
+      ]
+    }
+  ],
+  "colFirst": "0288",
+  "colLast": "0353",
+  "words": 11803
+}

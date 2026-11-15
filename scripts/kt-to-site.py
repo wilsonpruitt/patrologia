@@ -36,6 +36,10 @@ CONF = {
     # (Anastasius's Latin, pdf 87-88 + its last 7 lines at the top of p-0089, from RESTORED-LINES.tsv). Cards are not hard-wrapped (no unwrap).
     'maximus-opuscula': dict(key='maximus-confessor-opuscula', vol=91, cmap='data/pg-column-maps/pg091.json',
                              xml='raw/pg091/091_djvu.xml', prefix='mo', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
+    # Maximus, Disputatio cum Pyrrho (2026-11-14): Kraken base (kt-rules + kt-apply, image check x3), all Greek, pp. 162-195 (p-0195 lines 1-19 only); tables by scripts/dx-tables.py.
+    # A '¶' in a patched line (p-0195:8) is a mid-line paragraph break (Pyrrhus's last turn / the closing narrative).
+    'maximus-disputatio': dict(key='maximus-confessor-disputatio', vol=91, cmap='data/pg-column-maps/pg091.json',
+                               xml='raw/pg091/091_djvu.xml', prefix='md', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv
@@ -82,6 +86,7 @@ def patched(pdf, i, line):
         a, b = p['from'], p['to']
         if a.startswith('(no band letter)'): line = f'{b} {line}'; continue
         if ' / ' in a: a = a.split(' / ')[-1]; b = {'αἰτιᾶσθαι': 'τιᾶσθαι'}.get(b, b)
+        if a not in line and b and b in line: continue                       # already applied upstream (kt-apply now does the image-check R rows itself)
         if a not in line: sys.exit(f'patch does not apply: p-{pdf:04d}:{i} {a!r} in {line!r}')
         line = line.replace(a, b, 1)
     return line
@@ -151,6 +156,10 @@ def greek(ci):
                 line = nfc(patched(pdf, i, raw_))
                 if not line: continue
                 if (pg, i) in MP_BREAK: items.append(('para', ''))
+                if '¶' in line:                                                   # mid-line paragraph break (Disputatio p-0195:8)
+                    first, second = line.split('¶', 1)
+                    items.append(('line', (f'[b: {bd[0]}] ' if bd else '') + first)); items.append(('para', '')); items.append(('line', second))
+                    continue
                 items.append(('line', (f'[b: {bd[0]}] ' if bd else '') + line))
                 continue
             line = nfc(patched(pdf, i, lines[i - 1].strip()))

@@ -551,6 +551,24 @@
    "ktRecord": "translate/maximus-opuscula/ (RUN.md, BUILD.md, GLOSSARY.md, CARD.md, verify/, notes/)",
    "translated": "2026-11-06",
    "englishState": "ours"
+  },
+  {
+   "key": "maximus-confessor-disputatio",
+   "series": "pg",
+   "volume": 91,
+   "author": "Maximus the Confessor",
+   "authorNote": "DRAFT (Wilson to read). Monk and theologian (c. 580-662), the chief opponent of Monothelitism; Migne prints Combefis's edition (1675) of the record of his debate with Pyrrhus at Carthage in July 645, in Greek with Combefis's Latin facing.",
+   "title": "Disputatio cum Pyrrho",
+   "titleEn": "Disputation with Pyrrhus",
+   "citRange": "PG 91, 287–354",
+   "status": "TRANSLATED 2026-11-14 (kt method, Opus; image-checked in three passes; apparatus; LOCAL BUILD, not shipped)",
+   "greekSource": "ours-kraken",
+   "slug": "disputatio",
+   "translationStatus": "exists",
+   "translationStatusNote": "English translations exist: Kevin M. Clarke, The Opuscula and the Dispute with Pyrrhus (Fathers of the Church, Catholic University of America Press, 2026), and Joseph P. Farrell, The Disputation with Pyrrhus (1990). Ships the WEAK claim 'New English translation' (never 'First'). Do NOT set 'none'.",
+   "latinVerifier": "src/pg-latin/maximus-confessor-disputatio/",
+   "ktRecord": "translate/maximus-disputatio/ (RUN.md, BUILD.md, GLOSSARY.md, CARD.md, verify/, notes/)",
+   "translated": "2026-11-14"
   }
  ]
 }

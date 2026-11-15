@@ -1,5 +1,11 @@
 # Next session — resume note
 
+## ▶ 2026-11-15 (latest, later) — DISPUTATIO site build DONE (local, preflight 9 of 10); blind read is next
+`translate/maximus-disputatio/RUN.md` "Step 5 DONE 2026-11-15" has the counts and every deviation. 6 chunks, 34 columns, alignment 99.5%,
+`[?]` 0, `[sic:]` 0, notes 118 (not 120). Other five kt works rebuilt byte-identical. ⚠ Epistulae p-0274:6: the plate reads **οὔτε**
+(shipped text correct; the kt-apply rerun had put the image-check's «οὕτω οὐ» into `checked/`, patch row re-based). Nothing deployed/pushed.
+▶ NEXT: blind polarity read (Opus; flag p0189.32), then Wilson's OKs. The 11-15 banner below still stands for the Moschus fixes.
+
 ## ▶ 2026-11-15 (latest) — kt-apply rerun on the shipped works DONE (local commit, not pushed, not deployed)
 p0295.22 re-read on the plate: **ὁρᾷν** is printed (the reader was right; English already follows it). `kt-apply.py` rerun:
 `checked/` changed exactly 29 lines (Epistulae) + 2 (Moschus), nothing else moved. Chain kt-to-site → mark → WIDE_PARA align →
