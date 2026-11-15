@@ -150,3 +150,14 @@ re-cut). Brief 1 launched beside the two pass-2 readers (three at a time); 2 and
   `notes/task-1b.md` (p-0162 Latin, 164–168) and `task-1c.md` (169–173), writing `result-1b/1c.jsonl` (corrections with
   `replaces`, orphanCalls, one `crosscheck` line per page). place.py reads result-1, 1b, 1c, 2, 3 and skips crosscheck lines.
   1b launched; 1c waits for a slot.
+- ✅ Apparatus brief 2 (pp. 174–184, ≈262K): 50 lines (22 numbered · 20 lettered · 8 notae c–j), 5 illegible, 4 orphan
+  calls (pp. 177–179). Gaps: p-0174/176 not re-checked, some anchorLines reconstructed, NOTÆ (h)/(j) `en` paraphrase-
+  leaning → folded into gap brief 1c (now pp. 169–176 + (h)/(j)), launched.
+⚠ Burn: apparatus ≈0.88M so far (3 briefs + resume) + 2 gap agents (≈0.3M est.) → apparatus ≈1.2M, not 0.7M; all-in now
+  ≈2.9M est.
+- ✅ English fixer (Opus, ≈?K) on the 30 rows: 3 notes added (md-003/004/005, renumbered; cross-refs updated); re-translated
+  from the print where it construes: p0178.16 "commonness" (κοινότητος), p0181.06, p0188.22 διά τι, **p0191.50 "our power"
+  (ἡμῶν)**, p0174.06 τῇ; kept with "Migne prints X (confirmed on the plate)" notes: p0167.43, p0189.46 ἀντιδόντες,
+  p0191.40; p0166.41 clause supplied in brackets from the Latin (no [?] left). **Polarity: p0189.32 the plate has no οὐ;
+  the English KEEPS "not" (the following γάρ clause explains a denial; Latin *non est*), note 22 says so — coordinator
+  agrees; flag for the blind read and Wilson.** p0185.35 and p0180.55 negatives kept as printed.
