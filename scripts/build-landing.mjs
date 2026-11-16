@@ -18,7 +18,7 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
-  // — 2026-11-15 session (DRAFT line, Wilson to read before any deploy; LOCAL BUILD): Maximus the Confessor's Mystagogia, his interpretation of the church building and of the liturgy (c. 628–630), in twenty-four short chapters; Combefis's edition as Migne prints it, Greek our own plate reading, variants as notes.
+  // — 2026-11-15 session (DRAFT line, Wilson to read before any deploy; LOCAL BUILD): Maximus the Confessor's Mystagogia, his interpretation of the church building and of the liturgy (c. 628–630), in twenty-four short chapters; as Migne prints it (after the Augsburg edition), Greek our own plate reading, variants as notes.
   'pg/91/mystagogia',
   // — 2026-11-15 session: the three Hymni printed among Maximus the Confessor's works (PG 91.1417–1424) but by Maximus Margunius, bishop of Cythera, from his 1601 Hymni Anacreontici; anacreontic verse, English one line per Greek line, Greek our own plate reading.
   'pg/91/hymni',
