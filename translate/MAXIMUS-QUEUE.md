@@ -17,7 +17,7 @@ are the myriobiblos mirror's where it covers the work (`raw/mirrors/myriobiblos-
 | ✅ | **Opuscula theologica et polemica** (27 pieces) — LIVE 2026-11-06 migne.app/pg/91/opuscula/ | 91.9–285 | ≈52,000 (myriobiblos has *ad Marinum* 16K) | pdf on disk (`raw/pg091/091.pdf` **pp. 11–161**, 12 duplicate leaves; Kraken running 2026-11-06) | ⚠ **Clarke 2026 (CUA, FOTC) = complete English of all 27 + Additamenta 16–19** (web-checked 2026-11-06, see STATUS); before it: Louth 3, 7; Blowers–Wilken 6; Gohl 1 | ≈6M | **no longer** |
 | 2 | **Disputatio cum Pyrrho** | 91.287–354 | 11,670 | pdf pp. 162–≈196; myriobiblos full | Farrell 1990 (out of print); ⚠ **Clarke 2026 (same CUA volume)** | ≈1.4M | no |
 | 3 | **Hymni** (THREE hymns, 297 verse lines; base + verse pilot done 2026-11-15, see `maximus-hymni/RUN.md`; SETTLED 2026-11-15: Maximus MARGUNIUS †1602, 1601 edition seen; SHIPPED as his) | 91.1417–1424 | ≈400 | pdf p. ≈773 | none found | ≈0.1M (Fable verse pilot, with the Anacreontica) | yes |
-| 4 | **Mystagogia** | 91.657–717 | 11,280 | pdf pp. ≈361–390; myriobiblos full | Berthold 1985; Armstrong 2019 | ≈1.3M | no |
+| ✅ 4 | **Mystagogia** — LIVE 2026-11-15 migne.app/pg/91/mystagogia/ (`maximus-mystagogia/RUN.md`; ≈2.6M; Migne prints it after the Augsburg edition, not Combefis) | 91.657–717 | 11,280 | pdf pp. ≈361–390; myriobiblos full | Berthold 1985; Armstrong 2019 | ≈1.3M | no |
 | 5 | **Expositio in Psalmum LIX** | 90.856–872 | 2,510 | PG 90 NOT on disk; myriobiblos full | check | ≈0.3M | likely |
 | 6 | **Ad Theopemptum scholasticum** | 90.1393–1400 | 1,443 | — ; myriobiblos full | check | ≈0.2M | likely |
 | 7 | **Capita alia** (the "Capita XV" etc.) | 90.1401–1461 | ≈11,000 | — | check | ≈1.3M | likely |
