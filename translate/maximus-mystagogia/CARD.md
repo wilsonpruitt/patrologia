@@ -1,5 +1,9 @@
 # TRANSLATOR CARD — one chunk of Maximus the Confessor, *Mystagogia* (PG 91.657–717)
 
+> ⚠ CORRECTION (coordinator, 2026-11-15, after the run): "Combefis" below is WRONG for this work. Migne's Monitum (col. 653, pdf p. 360) reprints
+> letters from the **Augsburg edition** of the Mystagogia (David Hoeschel, with Maximus Margunius); the facing Latin's author and the sigla A / R / Fr. are not
+> identified here. The English notes were corrected to "the facing Latin" / "variant N in Migne's apparatus".
+
 Adapted from `translate/maximus-opuscula/CARD.md` (Sonnet coordinator; same volume, same editor, same
 author; the Disputatio shipped on it). **The Greek you are given is a machine reading** of Migne's plate (Kraken, a
 fine-tuned polytonic OCR model), passed once through a rule script that fixes the commonest accent, breathing and

@@ -42,7 +42,7 @@ CONF = {
                                xml='raw/pg091/091_djvu.xml', prefix='md', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
     # Maximus, Mystagogia (2026-11-15): Kraken base (kt-rules + kt-apply, image check x2), all Greek, pdf 363-383 + 388-397 (384-387 duplicate leaves); work starts at p0363.16,
     # ends p0397.45; tables by scripts/my-tables.py (title / proem / 24 chapter-heading breaks).
-    'maximus-mystagogia': dict(key='maximus-confessor-mystagogia', vol=91, cmap='data/pg-column-maps/pg091.json',
+    'maximus-mystagogia': dict(editor='', key='maximus-confessor-mystagogia', vol=91, cmap='data/pg-column-maps/pg091.json',
                                xml='raw/pg091/091_djvu.xml', prefix='my', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
@@ -423,7 +423,7 @@ if __name__ == '__main__':
             ic = list(csv.DictReader(open(icf), delimiter='\t')); cnt = {v: sum(1 for r in ic if r['verdict'] == v) for v in 'RMP?'}
             o.write('\n## Readings checked at the plate\n\nGreek source: our own reading of Migne\'s plates (a vision read, checked line by line against the page, then every doubtful reading '
                     'looked up again on the page image, 2026-11-06). Every reading the translators flagged '
-                    f'({len(ic)}) was looked up: {cnt["R"]} were slips in our own transcription and are corrected in the Greek without comment; {cnt["M"]} are Migne\'s (Combefis\'s) own type, '
+                    f'({len(ic)}) was looked up: {cnt["R"]} were slips in our own transcription and are corrected in the Greek without comment; {cnt["M"]} are Migne\'s{(" (" + C.get("editor", "Combefis") + "\'s)") if C.get("editor", "Combefis") else ""} own type, '
                     'wrong or irregular on the page itself (the Greek stands as printed; where the sense needs it the English follows the corrected reading); '
                     f'{cnt["P"]} are readings where the plate prints the form the translator doubted (Migne\'s text, kept); {cnt["?"]} were not settled at the plate. '
                     'No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne\'s page and waits on a full-page reading of each column. '
