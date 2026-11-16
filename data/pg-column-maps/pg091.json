@@ -1,12 +1,12 @@
 {
  "volume": 91,
  "file": "raw/pg091/091.pdf",
- "work": "maximus-epistulae + maximus-opuscula (pdf pp. 11–161 added 2026-11-06) + maximus-disputatio (pdf pp. 162–195 added 2026-11-14)",
+ "work": "maximus-epistulae + maximus-opuscula (pdf pp. 11–161 added 2026-11-06) + maximus-disputatio (pdf pp. 162–195 added 2026-11-14) + maximus-mystagogia (pdf pp. 360–397 added 2026-11-15)",
  "colRange": [
   9,
   650
  ],
- "method": "OPUSCULA (2026-11-06): 2 columns per pdf page from p11 = 9/10 (title leaf; p13 = 13/14), 12 duplicate leaves removed (text-identity scan on the djvu words, Jaccard ≥0.35 against the previous 6 pages: pdf 38–39=36–37, 44–45=42–43, 54–55=52–53, 62–63=60–61, 66–67=64–65, 104–105=102–103); p161 = 285/286, p162 = 287 (DISPUTATIO CUM PYRRHO head) — the same law reaches p200 = 363/364. Running heads checked on the djvu OCR at pp. 13, 24, 28, 36, 37, 40, 42, 48, 57, 58, 60, 65, 68, 100, 107, 161, 162. greekSide from colLeft mod 4 (3 → right, 1 → left), which equals the Epistulae rule (right on even pdf pages). EPISTULAE: 2 columns per pdf page from p200 = 363/364 (Ep. 1 begins col 364), 16 duplicate leaves removed (text-identical re-scans: 266-271=260-265, 318-323=312-317, 328-331=324-327); Greek side from the CLLG gutter split (right on even pdf pages, left on odd); running-head numbers checked where legible (2026-11-06) DISPUTATIO (2026-11-14): pdf 162–195 = cols 287–354 by the same law (p162 head DISPUTATIO CUM PYRRHO, djvu p194 prints 352; p196 = 355 opens De anima); no duplicate leaves in the stretch (p200 = 363/364 holds).",
+ "method": "OPUSCULA (2026-11-06): 2 columns per pdf page from p11 = 9/10 (title leaf; p13 = 13/14), 12 duplicate leaves removed (text-identity scan on the djvu words, Jaccard ≥0.35 against the previous 6 pages: pdf 38–39=36–37, 44–45=42–43, 54–55=52–53, 62–63=60–61, 66–67=64–65, 104–105=102–103); p161 = 285/286, p162 = 287 (DISPUTATIO CUM PYRRHO head) — the same law reaches p200 = 363/364. Running heads checked on the djvu OCR at pp. 13, 24, 28, 36, 37, 40, 42, 48, 57, 58, 60, 65, 68, 100, 107, 161, 162. greekSide from colLeft mod 4 (3 → right, 1 → left), which equals the Epistulae rule (right on even pdf pages). EPISTULAE: 2 columns per pdf page from p200 = 363/364 (Ep. 1 begins col 364), 16 duplicate leaves removed (text-identical re-scans: 266-271=260-265, 318-323=312-317, 328-331=324-327); Greek side from the CLLG gutter split (right on even pdf pages, left on odd); running-head numbers checked where legible (2026-11-06) DISPUTATIO (2026-11-14): pdf 162–195 = cols 287–354 by the same law (p162 head DISPUTATIO CUM PYRRHO, djvu p194 prints 352; p196 = 355 opens De anima); no duplicate leaves in the stretch (p200 = 363/364 holds). MYSTAGOGIA (2026-11-15): pdf 363 = 657/658 (running head ΜΥΣΤΑΓΩΓΙΑ; the title and Prooemium start low on col 657), 397 = 717/718 (Ἀμήν at 717 C/D), 398 = 719/720; no duplicate leaves; same law. CORRECTION (same day): pdf 384–387 = cols 691–698 AGAIN (running heads read on the plate: 384 691/692, 385 693/694, 386 695/696, 387 697/698 = pp. 380–383), so 4 duplicate leaves (384–387); pdf 388 = 699/700 … 397 = 717/718. Jaccard on the OCR text layer found nothing (garbled), the heads decide.",
  "anchorsPlateVerified": false,
  "duplicateLeaves": [
   37,
@@ -36,7 +36,11 @@
   327,
   328,
   329,
-  330
+  330,
+  383,
+  384,
+  385,
+  386
  ],
  "pages": [
   {
@@ -2256,6 +2260,244 @@
    "pdfPage": 359,
    "colLeft": 649,
    "colRight": 650,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 359,
+   "pdfPage": 360,
+   "colLeft": 651,
+   "colRight": 652,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 360,
+   "pdfPage": 361,
+   "colLeft": 653,
+   "colRight": 654,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 361,
+   "pdfPage": 362,
+   "colLeft": 655,
+   "colRight": 656,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 362,
+   "pdfPage": 363,
+   "colLeft": 657,
+   "colRight": 658,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 363,
+   "pdfPage": 364,
+   "colLeft": 659,
+   "colRight": 660,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 364,
+   "pdfPage": 365,
+   "colLeft": 661,
+   "colRight": 662,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 365,
+   "pdfPage": 366,
+   "colLeft": 663,
+   "colRight": 664,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 366,
+   "pdfPage": 367,
+   "colLeft": 665,
+   "colRight": 666,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 367,
+   "pdfPage": 368,
+   "colLeft": 667,
+   "colRight": 668,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 368,
+   "pdfPage": 369,
+   "colLeft": 669,
+   "colRight": 670,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 369,
+   "pdfPage": 370,
+   "colLeft": 671,
+   "colRight": 672,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 370,
+   "pdfPage": 371,
+   "colLeft": 673,
+   "colRight": 674,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 371,
+   "pdfPage": 372,
+   "colLeft": 675,
+   "colRight": 676,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 372,
+   "pdfPage": 373,
+   "colLeft": 677,
+   "colRight": 678,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 373,
+   "pdfPage": 374,
+   "colLeft": 679,
+   "colRight": 680,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 374,
+   "pdfPage": 375,
+   "colLeft": 681,
+   "colRight": 682,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 375,
+   "pdfPage": 376,
+   "colLeft": 683,
+   "colRight": 684,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 376,
+   "pdfPage": 377,
+   "colLeft": 685,
+   "colRight": 686,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 377,
+   "pdfPage": 378,
+   "colLeft": 687,
+   "colRight": 688,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 378,
+   "pdfPage": 379,
+   "colLeft": 689,
+   "colRight": 690,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 379,
+   "pdfPage": 380,
+   "colLeft": 691,
+   "colRight": 692,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 380,
+   "pdfPage": 381,
+   "colLeft": 693,
+   "colRight": 694,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 381,
+   "pdfPage": 382,
+   "colLeft": 695,
+   "colRight": 696,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 382,
+   "pdfPage": 383,
+   "colLeft": 697,
+   "colRight": 698,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 387,
+   "pdfPage": 388,
+   "colLeft": 699,
+   "colRight": 700,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 388,
+   "pdfPage": 389,
+   "colLeft": 701,
+   "colRight": 702,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 389,
+   "pdfPage": 390,
+   "colLeft": 703,
+   "colRight": 704,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 390,
+   "pdfPage": 391,
+   "colLeft": 705,
+   "colRight": 706,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 391,
+   "pdfPage": 392,
+   "colLeft": 707,
+   "colRight": 708,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 392,
+   "pdfPage": 393,
+   "colLeft": 709,
+   "colRight": 710,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 393,
+   "pdfPage": 394,
+   "colLeft": 711,
+   "colRight": 712,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 394,
+   "pdfPage": 395,
+   "colLeft": 713,
+   "colRight": 714,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 395,
+   "pdfPage": 396,
+   "colLeft": 715,
+   "colRight": 716,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 396,
+   "pdfPage": 397,
+   "colLeft": 717,
+   "colRight": 718,
    "greekSide": "left"
   }
  ]

@@ -570,6 +570,24 @@
    "ktRecord": "translate/maximus-disputatio/ (RUN.md, BUILD.md, GLOSSARY.md, CARD.md, verify/, notes/)",
    "translated": "2026-11-14"
   },
+ {
+  "key": "maximus-confessor-mystagogia",
+  "series": "pg",
+  "volume": 91,
+  "author": "Maximus the Confessor",
+  "authorNote": "DRAFT (Wilson to read). Monk and theologian (c. 580-662), the chief opponent of Monothelitism; Migne prints Combefis's edition (1675) of the Mystagogia, his interpretation of the church building and of the liturgy (c. 628-630), in Greek with Combefis's Latin facing.",
+  "title": "Mystagogia",
+  "titleEn": "Mystagogy",
+  "citRange": "PG 91, 657–717",
+  "status": "TRANSLATED 2026-11-15 (kt method, Opus; image-checked in two passes; apparatus; LOCAL BUILD, not shipped)",
+  "greekSource": "ours-kraken",
+  "slug": "mystagogia",
+  "translationStatus": "exists",
+  "translationStatusNote": "English translations exist: Julian Stead, The Church, the Liturgy and the Soul of Man (St Bede's, 1982); George C. Berthold, Maximus Confessor: Selected Writings (Paulist, 1985); Jonathan Armstrong (2019). Ships the WEAK claim 'New English translation' (never 'First'). Do NOT set 'none'.",
+  "latinVerifier": "src/pg-latin/maximus-confessor-mystagogia/",
+  "ktRecord": "translate/maximus-mystagogia/ (RUN.md, BUILD.md, GLOSSARY.md, CARD.md, verify/, notes/)",
+  "translated": "2026-11-15"
+ },
   {
    "key": "maximus-confessor-hymni",
    "series": "pg",

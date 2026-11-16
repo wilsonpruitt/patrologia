@@ -40,6 +40,10 @@ CONF = {
     # A '¶' in a patched line (p-0195:8) is a mid-line paragraph break (Pyrrhus's last turn / the closing narrative).
     'maximus-disputatio': dict(key='maximus-confessor-disputatio', vol=91, cmap='data/pg-column-maps/pg091.json',
                                xml='raw/pg091/091_djvu.xml', prefix='md', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
+    # Maximus, Mystagogia (2026-11-15): Kraken base (kt-rules + kt-apply, image check x2), all Greek, pdf 363-383 + 388-397 (384-387 duplicate leaves); work starts at p0363.16,
+    # ends p0397.45; tables by scripts/my-tables.py (title / proem / 24 chapter-heading breaks).
+    'maximus-mystagogia': dict(key='maximus-confessor-mystagogia', vol=91, cmap='data/pg-column-maps/pg091.json',
+                               xml='raw/pg091/091_djvu.xml', prefix='my', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv

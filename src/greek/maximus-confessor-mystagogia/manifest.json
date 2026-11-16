@@ -1,0 +1,110 @@
+{
+  "workKey": "maximus-confessor-mystagogia",
+  "series": "pg",
+  "volume": 91,
+  "title": "Mystagogia",
+  "titleEn": "Mystagogy",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 91, 657–717",
+  "chunkCount": 6,
+  "greekSource": "ours-kraken",
+  "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "my-001",
+      "colFirst": "0657",
+      "colLast": "0668",
+      "words": 1971,
+      "pdfPages": [
+        363,
+        364,
+        365,
+        366,
+        367,
+        368
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "0002.md",
+      "source": "my-002",
+      "colFirst": "0669",
+      "colLast": "0677",
+      "words": 1880,
+      "pdfPages": [
+        369,
+        370,
+        371,
+        372,
+        373
+      ]
+    },
+    {
+      "chunk": 3,
+      "file": "0003.md",
+      "source": "my-003",
+      "colFirst": "0680",
+      "colLast": "0688",
+      "words": 1896,
+      "pdfPages": [
+        374,
+        375,
+        376,
+        377,
+        378
+      ]
+    },
+    {
+      "chunk": 4,
+      "file": "0004.md",
+      "source": "my-004",
+      "colFirst": "0689",
+      "colLast": "0697",
+      "words": 1722,
+      "pdfPages": [
+        379,
+        380,
+        381,
+        382,
+        383
+      ]
+    },
+    {
+      "chunk": 5,
+      "file": "0005.md",
+      "source": "my-005",
+      "colFirst": "0700",
+      "colLast": "0708",
+      "words": 1873,
+      "pdfPages": [
+        388,
+        389,
+        390,
+        391,
+        392
+      ]
+    },
+    {
+      "chunk": 6,
+      "file": "0006.md",
+      "source": "my-006",
+      "colFirst": "0709",
+      "colLast": "0717",
+      "words": 1873,
+      "pdfPages": [
+        393,
+        394,
+        395,
+        396,
+        397
+      ]
+    }
+  ],
+  "colFirst": "0657",
+  "colLast": "0717",
+  "words": 11215
+}
