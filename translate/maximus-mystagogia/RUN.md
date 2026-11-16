@@ -109,3 +109,17 @@ alignment **83.9%** (26 of 31 paragraphs sentence-level; 5 fall back to paragrap
 `ΚΕΦ./ΚΕΦΑΛ.` would raise it but is a shared-lib change (not made). **Preflight 9 of 10 (only the blind polarity read: "NOT POLARITY-CHECKED: maximus-confessor-mystagogia").**
 `data/volumes.json` `generated` restored. ⬜ Next: **blind polarity read** (Opus, 3 readers; flag p0371.40 μὴ/μὲν, p0374.27 Fr. ἄρα τὰ θεῖα πάσχει without οὐ, p0396 n66 ἀσυμπαθῶς/ἐμπαθῶς, p0391.17 verbless sentence);
 then Wilson: DRAFT about/RECENT, deploy, push, `englishState: "ours"` (own OKs).
+
+## Step 6 — blind polarity read (3 Opus readers) LAUNCHED 2026-11-15
+Local commit `5ddc211c` first (translation → build; not pushed). Brief `data/briefs/MAXIMUS-MYSTAGOGIA-BLIND-READ-BRIEF.md` (from the Disputatio's): R1 my-001–002, R2 my-003–004, R3 my-005–006;
+cases to judge either way: p0371.40 μὴ/μὲν, p-0374 ἆρα … οὐ πάσχει vs Fr. without οὐ, p-0396 ἐμπαθῶς vs A ἀσυμπαθῶς. Build note: alignment 83.9% (26/31 sentence-level; the chapter headings split into 3 segments by `segment.mjs`; not a defect).
+- ✅ R2 (my-003–004): 2 findings, no polarity fault. F1 my-003 col. 685D–688A: ἀμελούμενον agrees with ἀξίωμα (plate p-0377; Latin *neglectam animae dignitatem*) → "and is able [0688] to soil the dignity of the soul when that dignity is neglected"; F2 my-004 col. 692A τοῦ Θεοῦ καὶ Λόγου one person → "the God and Word being their general". **p-0374 case: KEEP** (plate ἆρα τὰ θεῖα οὐ πάσχει …; the English keeps οὐ and the question). Pending: apply with R1/R3.
+- ✅ R2 fixes applied to the source cards (my-003 col. 688 «when that dignity is neglected»; my-004 col. 692 «the God and Word»); rebuild after R3.
+- ✅ R1 (my-001–002): **clean, no changes.** **p0371.40 (col. 673, not 672): KEEP** — the plate prints μὴ, which cannot construe (the μέν half answered by τὸ δὲ ἀγαθόν); Migne's misprint for μὲν, already in the cruces. Every negative, the correspondences, θέσις/ἀφαίρεσις and thou/you checked; plate p-0371 opened.
+- ✅ R3 (my-005–006): my-005 clean; my-006 4 findings, all applied: **col. 716 B genitives of comparison («nothing is more slippery toward sin than these organs»; the old English denied the point)**; col. 713 D οὐ πάντως «does not altogether lie»;
+  col. 717 B κατὰ [καὶ τὸ] πλέον «over and above» (note 30 extended, Latin *praestant*); cols. 709/712 the Luke 15:31 locator moved to the verse (note 4 reworded so the mirror no longer matches it). **p-0396 case: KEEP** (plate ἐμπαθῶς, variant 66). Plates opened p-0393, 0395–0397.
+
+## ✅ Step 6 DONE 2026-11-15: blind polarity read (3 Opus readers, ≈0.40M; reports `data/briefs/MAXIMUS-MYSTAGOGIA-BLIND-READ-R{1,2,3}.md`)
+7 findings → **7 applied** (R2 ×2, R3 ×4 + the locator); the three brief cases all KEPT (p0371.40 μὴ = Migne's misprint for μὲν, English right; p-0374 οὐ kept; p-0396 ἐμπαθῶς kept). Rebuilt (place → kt-to-site → mark → align 83.9% → verify OK → plate-gate OK →
+page → index → polarity record (7 sites) → build-site → lookup → **preflight 10 of 10**); `volumes.json` date restored. ⚠ Burn all-in ≈2.6M (vs the 2.3–2.7M stated). Nothing deployed or pushed.
+⬜ Wilson: read DRAFT about/RECENT → deploy (own OK) → push (own OK) → `englishState: "ours"` (own OK).

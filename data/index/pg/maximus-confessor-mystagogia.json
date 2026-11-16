@@ -97,7 +97,7 @@
     {
       "col": 688,
       "grc": "[b: A] δυναμένης ἀξίωμα.Φθαρτὸν γὰρ σῶμα, φησὶ, βαρύνει ψυχὴν, καὶ",
-      "en": "to soil the dignity of the soul. *For a corruptible"
+      "en": "to soil the dignity of the soul when that dignity"
     },
     {
       "col": 689,
@@ -470,12 +470,13 @@
     {
       "refKey": "Luke.15.31",
       "refDisplay": "Luc. xv, 31.",
-      "column": "709",
+      "column": "712",
       "chunk": 6,
       "bandsInColumn": [
         "a",
         "b",
-        "c"
+        "c",
+        "d"
       ]
     },
     {
@@ -1222,7 +1223,7 @@
   ],
   "proseNotes": [],
   "cruces": {
-    "count": 133,
+    "count": 132,
     "file": "src/english/maximus-confessor-mystagogia/cruces.md"
   },
   "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",

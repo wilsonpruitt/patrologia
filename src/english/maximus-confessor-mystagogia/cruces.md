@@ -134,9 +134,8 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0709** · …no longer pursue the divine and ineffable principle — T. λόγος here "principle" (Latin «divinam arcanamque rationem»): the knowers no longer seek the divine principle through the senses; the Word himself may be heard in it, but nothing in the sentence makes it a title.
 - **0709** · …be all in all those who are saved, — S. 1 Cor. 15:28 («that God may be all in all»).
 - **0709** · …used to call faithful and virtuous and knowers — T. Subject of ἐκάλει is the holy elder of the Proem, whose teaching the chapter reports. Migne prints a « at the head of this sentence and a » after ἐπαγγελιῶν (col. 712); they do not bound any quotation the sense supports (the span is reported teaching, then Maximus's own exhortation and a cento of Colossians) and are logged as strays.
-- **0709** · …the three orders of those who are saved. — S. The three orders (slaves, hirelings, sons; fear, reward, love) after Luke 15:17–31; cf. Basil, *Regulae fusius tractatae*, prooem. 3, and Gregory Nazianzen, *Or.* 40.13.
+- **0709** · …the three orders of those who are saved. — S. The three orders (slaves, hirelings, sons; fear, reward, love) after the parable of the two sons in Luke 15 (the hired servants of 15:17 and 15:19); cf. Basil, *Regulae fusius tractatae*, prooem. 3, and Gregory Nazianzen, *Or.* 40.13.
 - **0709** · …the burden of the day and the heat, — S. Matt. 20:12.
-- **0712** · …me, and all that is mine is thine*; — S. Luke 15:31.
 - **0712** · …not know God, in the passion of desire; — S. 1 Thess. 4:5; «good works … pleasing God», cf. Col. 1:10.
 - **0712** · …wrath, and anger, and filthy speech, and lying, — S. Col. 3:8–9. ὀργή "wrath", θυμός "anger" (glossary § II).
 - **0712** · …is corrupted according to the desires of deceit, — S. Eph. 4:22; «with his practices», Col. 3:9.
@@ -151,7 +150,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0716** · …cast off the old law as a husband, — S. Rom. 7:2–3 (the law as the husband to whom the soul is bound while he lives).
 - **0717** · …them as from her whole livelihood and life, — T. βίος and ζωή, "livelihood and life": βίος is the widow's «all her living» of Mark 12:44 (ὅλον τὸν βίον αὐτῆς).
 - **0717** · …things, compared with the beholding principle of theology, — T. ἐποπτικός, "beholding", the word of the mysteries' last degree (the ἐπόπτης sees); Latin «divina inspectrice ratione».
-- **0717** · …stamp; and in respect of the more , — T. The bracket [καὶ τὸ] is Migne's (a supplement in the printed Greek), kept as printed.
+- **0717** · …stamp; and perhaps they have over and above — T. The bracket [καὶ τὸ] is Migne's (a supplement in the printed Greek), kept as printed. κατὰ [καὶ τὸ] πλέον: the mites, equal to the gold coins in bearing the royal stamp, perhaps surpass them in carrying the widow's intent (Combefis's Latin *praestant*).
 - **0717** · …fear of God that is pure and abiding, — S. Ps. 18:10 LXX («the fear of the Lord is pure, abiding for ever»).
 
 ## Migne's notes not placed in the running text
