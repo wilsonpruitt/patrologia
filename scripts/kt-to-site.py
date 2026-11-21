@@ -44,6 +44,10 @@ CONF = {
     # ends p0397.45; tables by scripts/my-tables.py (title / proem / 24 chapter-heading breaks).
     'maximus-mystagogia': dict(editor='', key='maximus-confessor-mystagogia', vol=91, cmap='data/pg-column-maps/pg091.json',
                                xml='raw/pg091/091_djvu.xml', prefix='my', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
+    # Maximus, Expositio in Psalmum LIX (2026-11-21): Kraken base, PG 90 pp. 431-439 (cmap pg090; no duplicate leaves), all Greek; work starts p0431.31 (Greek col 856), ends p0439.24;
+    # tables by scripts/ps-tables.py (title / lemma breaks).
+    'maximus-ps59': dict(editor='', key='maximus-confessor-expositio-psalmi-lix', vol=90, cmap='data/pg-column-maps/pg090.json',
+                         xml='raw/pg090/090_djvu.xml', prefix='ps', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv

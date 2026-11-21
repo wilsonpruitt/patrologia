@@ -19713,6 +19713,80 @@
         "found": "image check 2026-11-15 (two passes, IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
       }
     ]
+  },
+  "maximus-confessor-expositio-psalmi-lix": {
+    "series": "pg",
+    "volume": 90,
+    "scan": "raw/pg-pdf/090.pdf (archive.org patrologicursus55migngoog, PG 90), Kraken pages rendered to raw/kraken/maximus-ps59/pages/",
+    "page_map": "data/pg-column-maps/pg090.json (corner numbers read on the plate: p430 = 853/854, p440 = 873/874; col = 2×page − 7)",
+    "note": "Greek = our Kraken read, rule pass, every flagged reading looked up at the plate in two image-check passes. No [sic:]/[var:] marker is placed: the print-error rows are listed on the cruces page. The pages recorded here carry print-error rows; each was read at the plate in the image check, the page was not read through (p. 432 was opened whole by the coordinator).",
+    "reads": [
+      {
+        "page": 432,
+        "cols": [
+          "0857",
+          "0858"
+        ],
+        "from": "0857",
+        "to": "0858",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (two passes, IMAGE-CHECK.tsv) and the coordinator opened the whole page at 600 dpi (title lemma Μεσυποταμίαν, the three [erat Σωβάλ] / [Fr. Σωβάλ] / [etiam Fr. Σωβᾶ· et deinceps] brackets); the print-error row (PRINT-ERRORS.tsv) was read there"
+      },
+      {
+        "page": 433,
+        "cols": [
+          "0859",
+          "0860"
+        ],
+        "from": "0859",
+        "to": "0860",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (two passes, IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 434,
+        "cols": [
+          "0861",
+          "0862"
+        ],
+        "from": "0861",
+        "to": "0862",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (two passes, IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 435,
+        "cols": [
+          "0863",
+          "0864"
+        ],
+        "from": "0863",
+        "to": "0864",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (two passes, IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 438,
+        "cols": [
+          "0869",
+          "0870"
+        ],
+        "from": "0869",
+        "to": "0870",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (two passes, IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      }
+    ]
   }
  }
 }

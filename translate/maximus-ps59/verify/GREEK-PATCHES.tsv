@@ -1,1 +1,34 @@
 page	line	from	to	source
+p-0432	1	Μεσοποταμίαν	Μεσυποταμίαν	plate read 2026-11-21 (coordinator, 600 dpi): Migne prints Μεσυποταμίαν (misprint, PRINT-ERRORS); Kraken had silently normalized it
+p-0432	2	[Σωβάλ]·	[erat Σωβάλ]·	plate read 2026-11-21 (600 dpi): the plate prints «erat»; Kraken dropped it
+p-0432	35	[ Εr.Σωβα	[etiam Fr. Σωβᾶ·	plate read 2026-11-21 (pass 2 + coordinator): [etiam Fr. Σωβᾶ· | et deinceps]
+p-0432	36	ει],	et deinceps],	plate read 2026-11-21: second line of the same bracket
+p-0434	33	ὑποτιθέ-.	ὑποτιθέ-	IMAGE-CHECK R, cross-line (kt-apply NOT FOUND): stray point; ὑποτιθέ-|μενος
+p-0434	34	με͂νος	μενος	IMAGE-CHECK R, cross-line (kt-apply NOT FOUND): stray circumflex; ὑποτιθέ-|μενος
+p-0437	8	μυιας	μο-	IMAGE-CHECK R, cross-line (kt-apply NOT FOUND): ο read as υια; μο-|λυσμῶν
+p-0438	42	θαρ̀	θαῤ-	IMAGE-CHECK R, cross-line (kt-apply NOT FOUND): θαῤ-|ῥοῦντι
+p-0438	43	βοῦντι,	ῥοῦντι,	IMAGE-CHECK R, cross-line (kt-apply NOT FOUND): β for ρ; θαῤ-|ῥοῦντι
+p-0431	36	Να; ,λογραφίαν	λογραφίαν	OCR-TABLE manual (translator reading, not plate-checked): stray row p0431.35: debris inside the word at the line turn; στη-|λογραφίαν
+p-0434	28	φοβουμένοις σε-	φοβουμένοις σε	OCR-TABLE manual (translator reading, not plate-checked): space row p0434.28: σε σημείωσιν are two words; the hyphen is Kraken's
+p-0434	29	τόξου· (	τόξου·	OCR-TABLE manual (translator reading, not plate-checked): stray row p0434.29: stray parenthesis at the line end
+p-0435	45	Σκηνῶν ( διαμετρεῖ	Σκηνῶν διαμετρεῖ	OCR-TABLE manual (translator reading, not plate-checked): stray row p0435.45: stray parenthesis mid-line
+p-0431	32	ΕΡΜΗΝεΙΑ	ΕΡΜΗΝΕΙΑ	OCR-TABLE ps-001 kind=heading (translator reading, not plate-checked): lower-case ε in a capital title
+p-0431	35	Ἰ;ι ;-		OCR-TABLE ps-001 kind=stray (translator reading, not plate-checked): junk fragment removed: gutter debris before the lemma
+p-0432	2	καὶἐπέστρεψεν	καὶ ἐπέστρεψεν	OCR-TABLE ps-001 kind=space (translator reading, not plate-checked): words joined
+p-0432	9	μετα-]	μετα-	OCR-TABLE ps-001 kind=stray (translator reading, not plate-checked): stray bracket at line end
+p-0432	16	στηλογραφίαν(δὲ	στηλογραφίαν δὲ	OCR-TABLE ps-001 kind=stray (translator reading, not plate-checked): stray parenthesis, words joined
+p-0432	30	παντὸς𐅵	παντὸς	OCR-TABLE ps-001 kind=stray (translator reading, not plate-checked): stray symbol
+p-0433	16	πατάσσει-φύσιν	πατάσσει φύσιν	OCR-TABLE ps-001 kind=space (translator reading, not plate-checked): spurious hyphen joins words
+p-0433	19	καὶ- χρόνον	καὶ χρόνον	OCR-TABLE ps-001 kind=stray (translator reading, not plate-checked): spurious hyphen
+p-0433	33	παρὰφύσιν	παρὰ φύσιν	OCR-TABLE ps-001 kind=space (translator reading, not plate-checked): words joined
+p-0433	38	τέσσαρατοῖς	τέσσαρα τοῖς	OCR-TABLE ps-001 kind=space (translator reading, not plate-checked): words joined
+p-0434	55	διερεθίζουσα.Διόπερ	διερεθίζουσα. Διόπερ	OCR-TABLE ps-001 kind=space (translator reading, not plate-checked): words joined
+p-0435	1	φεύξεσθαιτοὺς	φεύξεσθαι τοὺς	OCR-TABLE ps-001 kind=space (translator reading, not plate-checked): words joined
+p-0436	1	παροῦσαΑ	παροῦσα	OCR-TABLE ps-002 kind=stray (translator reading, not plate-checked): band letter joined to the word
+p-0436	3	κοι-]	κοι-	OCR-TABLE ps-002 kind=stray (translator reading, not plate-checked): stray bracket
+p-0436	19	(«τῆς	τῆς	OCR-TABLE ps-002 kind=stray (translator reading, not plate-checked): stray parenthesis and guillemet
+p-0436	27	ἑρμηνεύε-]	ἑρμηνεύε-	OCR-TABLE ps-002 kind=stray (translator reading, not plate-checked): stray bracket
+p-0436	28	ταιπλατυσμός	ται πλατυσμός	OCR-TABLE ps-002 kind=space (translator reading, not plate-checked): words joined
+p-0436	46	πατρὸςἑρμηνεύεται	πατρὸς ἑρμηνεύεται	OCR-TABLE ps-002 kind=space (translator reading, not plate-checked): words joined
+p-0437	30	καὶσχῆμα	καὶ σχῆμα	OCR-TABLE ps-002 kind=space (translator reading, not plate-checked): words joined
+p-0439	1	Ατῶν	τῶν	OCR-TABLE ps-002 kind=stray (translator reading, not plate-checked): band letter joined to the word

@@ -1,0 +1,48 @@
+{
+  "workKey": "maximus-confessor-expositio-psalmi-lix",
+  "series": "pg",
+  "volume": 90,
+  "title": "Expositio in Psalmum LIX",
+  "titleEn": "Exposition of Psalm 59",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 90, 856–872",
+  "chunkCount": 2,
+  "greekSource": "ours-kraken",
+  "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "ps-001",
+      "colFirst": "0856",
+      "colLast": "0864",
+      "words": 1414,
+      "pdfPages": [
+        431,
+        432,
+        433,
+        434,
+        435
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "0002.md",
+      "source": "ps-002",
+      "colFirst": "0865",
+      "colLast": "0872",
+      "words": 1168,
+      "pdfPages": [
+        436,
+        437,
+        438,
+        439
+      ]
+    }
+  ],
+  "colFirst": "0856",
+  "colLast": "0872",
+  "words": 2582
+}
