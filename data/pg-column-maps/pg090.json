@@ -1,0 +1,94 @@
+{
+ "volume": 90,
+ "file": "raw/pg-pdf/090.pdf",
+ "work": "maximus-ps59 (pdf pp. 431–439 = cols 855–872; 430/440 bracket it) — added 2026-11-21",
+ "colRange": [
+  853,
+  874
+ ],
+ "method": "2026-11-21: the archive.org scan patrologicursus55migngoog (757 pdf pages = 757 djvu objects). Corner numbers read on the plate: p430 = 853/854 (Quaestiones et dubia, Greek left), p440 = 873/874 (Expositio orationis dominicae, Greek left) → col = 2×page − 7, no duplicate leaves between. Greek side by colLeft mod 4 (1 → left, 3 → right), as PG 91.",
+ "anchorsPlateVerified": [
+  430,
+  440
+ ],
+ "duplicateLeaves": [],
+ "pages": [
+  {
+   "leaf": 429,
+   "pdfPage": 430,
+   "colLeft": 853,
+   "colRight": 854,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 430,
+   "pdfPage": 431,
+   "colLeft": 855,
+   "colRight": 856,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 431,
+   "pdfPage": 432,
+   "colLeft": 857,
+   "colRight": 858,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 432,
+   "pdfPage": 433,
+   "colLeft": 859,
+   "colRight": 860,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 433,
+   "pdfPage": 434,
+   "colLeft": 861,
+   "colRight": 862,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 434,
+   "pdfPage": 435,
+   "colLeft": 863,
+   "colRight": 864,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 435,
+   "pdfPage": 436,
+   "colLeft": 865,
+   "colRight": 866,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 436,
+   "pdfPage": 437,
+   "colLeft": 867,
+   "colRight": 868,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 437,
+   "pdfPage": 438,
+   "colLeft": 869,
+   "colRight": 870,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 438,
+   "pdfPage": 439,
+   "colLeft": 871,
+   "colRight": 872,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 439,
+   "pdfPage": 440,
+   "colLeft": 873,
+   "colRight": 874,
+   "greekSide": "left"
+  }
+ ]
+}
