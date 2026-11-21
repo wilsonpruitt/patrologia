@@ -7,6 +7,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 
 - **0857** · …teaching, when he burned* *Mesopotamia and Syria Soba; — T. Migne prints [erat Σωβάλ] after Σωβᾶ: the name stood as Σωβάλ before the editor's emendation (the editor's note b: «Sic emendo», after the codices in what follows, the LXX of 2 Kgdms and 1 Paral., and the Hebrew צובה). The English follows the printed Σωβᾶ, as does the facing Latin (*Soba*). The same line prints Μεσυποταμίαν, a misprint for Μεσοποταμίαν.
 - **0857** · …and struck the valley of salt, twelve thousand.* — S. Ps 59:1–2 LXX (Ps 60 title, Heb.).
+- **0857** · …and struck the valley of salt, twelve thousand.* — S. 2 Kgdms 8:1; 10:7 LXX (2 Sam 8:1; 10:7); 1 Paral 18:1 (1 Chr 18:1): the history behind the title.
 - **0857** · …shall be changed* the present psalm is inscribed: — T. Migne prints [ἐπιγέγραπται] "has been inscribed" after ἐπιγράφεται "is inscribed"; the sense is the same.
 - **0857** · …inclination and of choice which came to pass — T. γενομένην, "which came to pass"; the facing Latin has *futuram*, "which is to come". Translated as printed.
 - **0857** · …teaching, when he burned Mesopotamia and Syria Soba*. — T. Migne prints [Fr. Σωβάλ] after Σωβᾶ: here the edition marked Fr. reads Σωβάλ.
@@ -62,8 +63,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0869** · …thou, O God, who hast cast us off?* — S. Ps 59:12 LXX (Ps 60:10 Heb.).
 - **0869** · …had pity through the bowels of thy mercy, — S. cf. Luke 1:78.
 - **0869** · …not go forth, O God, with our powers.* — S. Ps 59:12 LXX (Ps 60:10 Heb.). T. The LXX line is usually read as a question ("and wilt thou not go forth …?"); the exposition takes it as a statement, God does not go forth with those who trust in their own powers, and the facing Latin prints it so.
-- **0869** · …bow, and ascribes salvation to his own sword. — S. cf. Ps 43:7 LXX. T. κατὰ τὴν ῥομφαίαν ἐπιγραφομένῳ ἑαυτοῦ σωτήριον construes awkwardly; rendered with the facing Latin (*gladio suo salutem ascribit*).
-- **0869** · …at nought those who rise up against them, — S. cf. Ps 43:6 LXX.
+- **0869** · …and ascribes his own salvation to the sword. — S. cf. Ps 43:7 LXX. T. ἑαυτοῦ goes with σωτήριον («his own salvation»); the facing Latin takes it with the sword (*gladio suo salutem ascribit*).
 - **0869** · …tribulation, and vain is the salvation of man.* — S. Ps 59:13 LXX (Ps 60:11 Heb.).
 - **0872** · …will set at nought those who afflict us.* — S. Ps 59:14 LXX (Ps 60:12 Heb.).
 - **0872** · …in the highest degree, and entering wholly in, — T. ὅλος χωρῶν: "entering wholly in", with the facing Latin (*totusque immeans*); it could also mean "wholly making room".
