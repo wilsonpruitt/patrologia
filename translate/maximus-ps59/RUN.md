@@ -33,3 +33,22 @@ beside the English (SC gives the French that; English editions lack it).**
 
 ## Step 3 — image check pass 1 (2 Opus readers) LAUNCHED 2026-11-21
 `kt-sheet.py maximus-ps59` → **114 rows, 5 sheets** (100 word, 13 line, 1 MISSING). A = 001–003, B = 004–005. `kt-sheet-half.py` cm_path += maximus-ps59.
+- ✅ Pass 1: A (001–003) R 49 · P 5 · M 4 · ? 14; B (004–005) R 30 · P 1 · M 1 · ? 10. Pass 2 (`kt-sheet-half.py` → `sheets3/`, 24 rows, one Opus reader): R 14 · P 1 · M 2 · ? 7.
+  Sense rows: **p0433.48 ἡ (article) confirmed, not ἢ**; **p0439.15 ἑαυ-|τῶν confirmed**; p0433.23 σα-|φῶς ἀριθμόν IS on the plate (Kraken lost it).
+- **Image check merged → `IMAGE-CHECK.tsv` (114 rows): R 93 · M 7 · P 7 · ? 7** (the 7 ? = 1-bit breathings and smeared line starts: stay as printed).
+  M: p0433.26 ψοχῆς · **p0434.35 χρίσεως (sense κρίσεως, Latin *judicii*)** · p0434.36 ὀνεχομένους · p0435.49 ἀπανὴς · **p0438.14 Ἰδουμαίας. (question needs ;)** · p0438.23 ἐντολων · p0438.02 αληθῶς.
+
+## ✅ Step 3 DONE 2026-11-21: kt-apply + English fixes (coordinator, in session)
+- `kt-apply.py` → `checked/`: 78 applied, 11 applied~, 1 doubt-same, **3 NOT FOUND** (split across a line: p0434.33 ὑποτιθέ-μενος, p0437.08 μολυσμῶν, p0438.42 θαῤ-ῥοῦντι) → GREEK-PATCHES at the build.
+- **Coordinator plate reads (p-0432, opened at 600 dpi):** line 1 the title lemma prints **Μεσυποταμίαν** (misprint → PRINT-ERRORS at build); line 2 prints
+  **[erat Σωβάλ]·** (Kraken dropped «erat» → GREEK-PATCH); line 24 [Fr. Σωβάλ] ✓; lines 35–36 print **[etiam Fr. Σωβᾶ· | et deinceps]** (Kraken «[ Εr.Σωβα | ει]» → GREEK-PATCH).
+  The three brackets are one apparatus, explained by the editor's note b («Sic emendo», Σωβά after the codices/LXX/Hebrew צובה, not Σωβάλ; Maximus's «seven» = שבע).
+- English (pre-fix copies in the session scratchpad): ps-001 notes 1/5/7 rewritten from the plate + note b; old note 13 (σαφῶς ἀριθμόν "supplied") DELETED (it is on the plate);
+  NEW T notes: χρίσεως misprint (now n20), p0435.28 Migne's full stop vs the run-on construal (now n28); ps-002 n20 (Ps 59:11) + T: Migne's full stop after Ἰδουμαίας. Renumbered in order (ps-001 30 notes, ps-002 32).
+  P rows that touch nothing in the English: δαμάσσει (epic future, same sense), θλίψις (Migne's accent), 4 punctuation rows.
+
+## ✅ Step 4 DONE 2026-11-21: apparatus (one Sonnet reader, ≈0.17M) → `notes/result-1.jsonl`
+17 notes (10 lettered: editor's Latin comments (a) στηλογραφία, (b) Σωβά, (c) ἰσχύς, (d) Ὠμίασις, (e) Σκηνῶν, (f) Κραταίωσις, (g) Ἔντερον πατρός, (h) αἱματώδης πηλός + 2 locators;
+7 numbered Latin Scripture locators), p-0431 and p-0439 none, 6 markers illegible (not completed from the sequence; p-0438's three paired by position), 0 orphan calls, NO Variae lectiones block.
+Hebrew inside (a)–(c) read as printed: letter-level doubt.
+⚠ **Burn so far ≈0.65M** (translation 0.19 · image check 0.26 · apparatus 0.17 · coordinator) vs the 0.3M go. Left: build (Sonnet, ≈0.2–0.3M) + blind read (Opus, ≈0.15M) → ≈1.0M all-in. **STOPPED for Wilson's OK before the build.**
