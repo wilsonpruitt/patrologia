@@ -1,5 +1,12 @@
 # Next session — resume note
 
+## ▶ 2026-11-21 — Maximus queue #5 *Expositio in Psalmum LIX* (PG 90.856–872): steps 0–4 DONE (`097141f8`); ⏸ STOPPED before the build
+Translation (2 chunks), image check (2 passes, 114 rows), kt-apply, English note fixes from the plate, apparatus (17 notes) all done and
+committed. ≈0.65M spent vs the 0.3M go; build (Sonnet ≈0.2–0.3M, needs a ps-tables.py from `my-tables.py` + CONF in kt-to-site +
+registry + DRAFT about) + blind read (Opus ≈0.15M) await Wilson's OK. Greek patches owed at build: p0432:2 [erat Σωβάλ], p0432:35–36
+[etiam Fr. Σωβᾶ· et deinceps], the 3 NOT FOUND rows; PRINT-ERRORS += Μεσυποταμίαν. ⚠ English exists (Blowers 2015): no badge.
+Score `translate/maximus-ps59/RUN.md`.
+
 ## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
 Three hymns (not two), 297 lines, cols 1417–1424. `translation-style.md` has the new "Greek verse" section V1–V10 (the *Anacreontica* inherits it); anchor + glossary in
 `translate/maximus-hymni/`. ⚑ Attribution probably Maximus MARGUNIUS (d. 1602), unverified: see RUN.md before any about text. ▶ NEXT: translate (Opus, one agent) → build
