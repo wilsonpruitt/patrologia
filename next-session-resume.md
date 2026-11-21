@@ -1,10 +1,10 @@
 # Next session — resume note
 
-## ▶ 2026-11-21 — Maximus queue #5 *Expositio in Psalmum LIX* (PG 90.856–872): steps 0–4 DONE (`097141f8`); ⏸ STOPPED before the build
-Translation (2 chunks), image check (2 passes, 114 rows), kt-apply, English note fixes from the plate, apparatus (17 notes) all done and
-committed. ≈0.65M spent vs the 0.3M go; build (Sonnet ≈0.2–0.3M, needs a ps-tables.py from `my-tables.py` + CONF in kt-to-site +
-registry + DRAFT about) + blind read (Opus ≈0.15M) await Wilson's OK. Greek patches owed at build: p0432:2 [erat Σωβάλ], p0432:35–36
-[etiam Fr. Σωβᾶ· et deinceps], the 3 NOT FOUND rows; PRINT-ERRORS += Μεσυποταμίαν. ⚠ English exists (Blowers 2015): no badge.
+## ▶ 2026-11-21 — Maximus queue #5 *Expositio in Psalmum LIX* (PG 90.856–872): ALL STEPS DONE, preflight 10/10 (`4aa5cf31`); NOT deployed, NOT pushed
+Built at `site/pg/90/psalm-59/` (slug `psalm-59`, key `maximus-confessor-expositio-psalmi-lix`, no englishState). Blind read: polarity clean, 3 fixes applied.
+⬜ Wilson: read the DRAFT about + RECENT (`data/work-about.json`, `scripts/build-landing.mjs`), strip DRAFT, rebuild → deploy (own OK:
+`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`) → push (own OK). Then `englishState: "ours"` (own OK).
+⚠ English exists (Blowers 2015): weak badge only. Next in the queue: #6 *Ad Theopemptum* (PG 90.1393–1400; same PG 90 scan, map needs extending).
 Score `translate/maximus-ps59/RUN.md`.
 
 ## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
