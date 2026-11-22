@@ -5,7 +5,8 @@
 - **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`, key `maximus-confessor-ad-theopemptum`; ≈0.85M; blind read clean; no English found). Score `translate/maximus-theopemptus/RUN.md`.
 ⬜ Wilson: read both DRAFT about texts (`data/work-about.json`) + RECENT lines (`scripts/build-landing.mjs`); Ps 59: cut "readers who have it should keep it"?
 Then strip DRAFT, rebuild (`node scripts/build-site.mjs <key>` each, preflight) → ONE deploy for both (own OK) → push (own OK) → englishState "ours" (own OK).
-The shared Maximus bio names Combefis (true of the Letters; shows on both pages). Next queue: #7 *Capita alia* (PG 90.1401–1461, ≈11K words; starts p714).
+The shared Maximus bio names Combefis (true of the Letters; shows on both pages).
+- **#7 *Capita alia*** RUNNING (Wilson: "Opus go" on ≈2.5–3M): step 0 done (`8ee8e2f3`), 3 Opus translation briefs launched 2026-11-21. If resuming: check which `ca-00N.en.md` exist, relaunch missing briefs, then sweep (3 translators → needed) → image check → kt-apply → apparatus (Greek foot scholia!) → build → blind read. Score `translate/maximus-capita-alia/RUN.md`.
 
 ## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
 Three hymns (not two), 297 lines, cols 1417–1424. `translation-style.md` has the new "Greek verse" section V1–V10 (the *Anacreontica* inherits it); anchor + glossary in
