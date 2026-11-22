@@ -30,6 +30,7 @@ WORKS = {  # work -> (column map, copyA djvu xml)
     'maximus-mystagogia': ('data/pg-column-maps/pg091.json', 'raw/pg091/091_djvu.xml'),  # Kraken base, pp. 363–397 (2026-11-15)
     'maximus-ps59': ('data/pg-column-maps/pg090.json', 'raw/pg090/090_djvu.xml'),  # Kraken base, PG 90 pp. 431–439 (2026-11-21)
     'maximus-theopemptus': ('data/pg-column-maps/pg090.json', 'raw/pg090/090_djvu.xml'),  # Kraken base, PG 90 pp. 710–713 (2026-11-21)
+    'maximus-capita-alia': ('data/pg-column-maps/pg090.json', 'raw/pg090/090_djvu.xml'),  # Kraken base, PG 90 pp. 714–744 (2026-11-21)
 }
 
 SRC = None
