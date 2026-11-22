@@ -1,15 +1,21 @@
 {
  "volume": 90,
  "file": "raw/pg-pdf/090.pdf",
- "work": "maximus-ps59 (pdf pp. 431–439 = cols 855–872; 430/440 bracket it) — added 2026-11-21",
+ "work": "maximus-ps59 (pdf pp. 431–439 = cols 855–872; 430/440 bracket it) — added 2026-11-21 + maximus-theopemptus (pdf pp. 710–713 = cols 1393–1400; 709/714 bracket it) — added 2026-11-21",
  "colRange": [
   853,
-  874
+  1402
  ],
- "method": "2026-11-21: the archive.org scan patrologicursus55migngoog (757 pdf pages = 757 djvu objects). Corner numbers read on the plate: p430 = 853/854 (Quaestiones et dubia, Greek left), p440 = 873/874 (Expositio orationis dominicae, Greek left) → col = 2×page − 7, no duplicate leaves between. Greek side by colLeft mod 4 (1 → left, 3 → right), as PG 91.",
+ "method": "2026-11-21: the archive.org scan patrologicursus55migngoog (757 pdf pages = 757 djvu objects). Corner numbers read on the plate: p430 = 853/854 (Quaestiones et dubia, Greek left), p440 = 873/874 (Expositio orationis dominicae, Greek left) → col = 2×page − 7, no duplicate leaves between. Greek side by colLeft mod 4 (1 → left, 3 → right), as PG 91. THEOPEMPTUS (2026-11-21): the offset is different here: corners read p699 = 1371/1372, p704 = 1381/1382, p709 = 1391/1392, p710 = 1393/1394 (title ΠΡΟΣ ΘΕΟΠΕΜΠΤΟΝ, Greek left), p713 = 1399/1400, p714 = 1401/1402 (Capita alia) → col = 2×page − 27 in this stretch (10 extra leaves between p440 and p699: not located, not needed).",
  "anchorsPlateVerified": [
   430,
-  440
+  440,
+  699,
+  704,
+  709,
+  710,
+  713,
+  714
  ],
  "duplicateLeaves": [],
  "pages": [
@@ -88,6 +94,48 @@
    "pdfPage": 440,
    "colLeft": 873,
    "colRight": 874,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 708,
+   "pdfPage": 709,
+   "colLeft": 1391,
+   "colRight": 1392,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 709,
+   "pdfPage": 710,
+   "colLeft": 1393,
+   "colRight": 1394,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 710,
+   "pdfPage": 711,
+   "colLeft": 1395,
+   "colRight": 1396,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 711,
+   "pdfPage": 712,
+   "colLeft": 1397,
+   "colRight": 1398,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 712,
+   "pdfPage": 713,
+   "colLeft": 1399,
+   "colRight": 1400,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 713,
+   "pdfPage": 714,
+   "colLeft": 1401,
+   "colRight": 1402,
    "greekSide": "left"
   }
  ]
