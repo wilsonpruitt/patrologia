@@ -42,3 +42,21 @@ Work dir / Kraken key `maximus-capita-alia`. English: none found as a unit (web 
   Left: ἔρως = yearning IS the glossary's binding rendering (ἔφεσις does not occur in this work: the SWEEP ruling for it is moot; ch. 134 ἐφιεμένη «yearns» stands); couplet after ch. 137 has no «Τοῦ αὐτοῦ» on the plate (no heading: right);
   4 italic quotations with «cf.» notes (chs 18, 120, 166, 203) → blind read. Notes intact (35/37/50/53/30).
 ## Step 3 — image check pass 1: `kt-sheet` → 176 rows, 8 sheets (164 word, 10 line, 2 MISSING). Readers A = 001–004, B = 005–008.
+- ✅ Image check reader A (sheets 001–004, 96 slots, ≈0.21M): R 51 · P 5 · M 36 · ? 4 (most undecided slots settled on own 600 dpi crops; sheet line-crops often 1–3 lines off here).
+  Sense M (Migne's misprints, English already follows the sense): p0716.47 ἀπατεῖ (ἀπαιτεῖ) · p0719.05 + p0721.10 ὀφθείσῃ (ὀφθήσῃ) · p0719.25 βουλομένου (-ῳ) · p0720.14 no ἡ · p0720.16 τῆς αἰτίου ·
+  p0721.37 ἁμαρτάνει (-ῃ) · p0721.43 ἐμπάθειᾳ · p0722.06 ὄντα (ὄντων) · p0725.36 συνερχούσης · p0726.20 Εἴ τε μὴ (Εἰ δὲ μή) · p0726.36 ποιεῖς · **p0726.05 ch. 111: the plate has NO second οὔτε member
+  (note 2 + English follow the print: right)** · p0727.38 «τὰ ἀγαθά....» = Migne's own lacuna dots (ch. 122 `[?]` stands) · question marks printed as · / . at p0723.25, p0728.01.
+  P: **p0714.33 ch. 4 the plate prints οὐδ᾿ ἑτέρα (two words)** — the English «neither of them» stands (a fair reading of the two-word spelling; note 7 already says what is printed).
+- ✅ Apparatus reader 2 (pp. 730–744, ≈?M): **80 notes** (58 numbered Latin locators, 20 lettered Greek/Latin scholia with `en`, 2 asterisk: p-0734 a Bochart note, p-0744 `work: following`); 10 markers
+  illegible (units digit blobs; not completed); calls = notes on every page; ⚑ p-0737 scholion lettered «f» repeats p-0736's «f» (maybe «g»: check at build); Hebrew as «[Hebrew word]».
+- ✅ Apparatus reader 1 (pp. 714–729): **64 notes** (36 numbered Latin locators, 29 of them with illegible markers → paired by content/order, never by sequence; 28 lettered (a)–(z) Greek
+  scholia + editor's comments, all markers read; 4 run across a page: `continuedFrom`) + 1 `orphanCall` (p-0721 after «emundare», ch. 69, blob, no note found). The reader's "layout differs from
+  the brief" = the map's own parity (728 Greek left, 729 right): no issue. Degraded: p-0724 (p) Hesychius gloss `[...]`, p-0727 (s) last sentence approximate.
+  **Apparatus total: 144 notes + 1 orphan call** (≈0.42M for both readers).
+- ✅ Image check reader B (sheets 005–008, 80 slots, ≈0.16M): R 52 · P 12 · M 15 · ? 1. **Merged `IMAGE-CHECK.tsv` (176 rows): R 103 · M 51 · P 17 · ? 5** (no pass 2: both readers cut their own
+  600 dpi crops for every hard slot; the 5 ? = blotted breathings/accents + one ink blot, stay as printed). kt-apply: 87 applied, 12 applied~, 2 already, 1 doubt-same, **4 NOT FOUND** (line-split:
+  p0716.48 τέμνε-|ται εἰς, p0730.01 πτερά·, p0738.35 οἱ καρποὶ, p0738.07 πά-|θοι) → GREEK-PATCHES at build.
+- ⚠ **BRACKETS, corrected ruling (editor's notes read):** in this edition a bracket can mark a word the editor SUPPLIES (ch. 125: note (x) «Addidi negationem») OR one he DELETES
+  (**ch. 228 p0741.19 «[οὐ] σαλεύονται»: note (l) «Negatio omnino incommoda ac expungenda»**). The sweep's "supplement" ruling holds for chs 102, 125, 204, 238, 239 (sense + Latin; 125 by note);
+  ch. 228 is a deletion — its English («are shaken») already follows the editor; only the T note changes. Lesson for the card: decide each bracket from its note, not by rule.
+- `ENGLISH-FIXES.md` (20 rows: 9 P rows where the English followed an unsupported conjecture; brackets 228/125; 7 construal-changing misprints → T notes; Τί ὡραιώθης) → Opus fixer LAUNCHED.
