@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-11-21 session (DRAFT line, Wilson to read before any deploy; LOCAL BUILD): Maximus the Confessor's short letter to Theopemptus the scholasticus, answering three Gospel sayings (the unjust judge, the blow on the right cheek, "Touch me not"), each read contemplatively; the Greek is our own OCR of Migne's plates, checked against the page image, with one passage Migne's editor marks as obscure and perhaps corrupt. No published English translation found (a translation by Andrew Psarommatis was announced in 2019, unconfirmed), so the badge is the weak one.
+  'pg/90/ad-theopemptum',
   // — 2026-11-21 session (DRAFT line, Wilson to read before any deploy; LOCAL BUILD): Maximus the Confessor's exposition of Psalm 59 (LXX), his only work on the Psalms, an anagogical reading of the title (of Christ and of the change "unto the end") and then verse by verse; the Greek is our own OCR of Migne's plates, checked against the page image, with the editor's Latin notes shown with working translations. An English translation exists (Blowers, 2015), so the badge is the weak one.
   'pg/90/psalm-59',
   // — 2026-11-15 session : Maximus the Confessor's Mystagogia, his interpretation of the church building and of the liturgy (c. 628–630), in twenty-four short chapters; as Migne prints it (after the Augsburg edition), Greek our own plate reading, variants as notes.

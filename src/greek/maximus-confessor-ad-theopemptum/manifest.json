@@ -1,0 +1,33 @@
+{
+  "workKey": "maximus-confessor-ad-theopemptum",
+  "series": "pg",
+  "volume": 90,
+  "title": "Ad Theopemptum scholasticum",
+  "titleEn": "To Theopemptus the Scholasticus",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 90, 1393–1400",
+  "chunkCount": 1,
+  "greekSource": "ours-kraken",
+  "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "th-001",
+      "colFirst": "1393",
+      "colLast": "1400",
+      "words": 1449,
+      "pdfPages": [
+        710,
+        711,
+        712,
+        713
+      ]
+    }
+  ],
+  "colFirst": "1393",
+  "colLast": "1400",
+  "words": 1449
+}

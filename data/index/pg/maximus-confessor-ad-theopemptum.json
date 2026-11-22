@@ -1,0 +1,178 @@
+{
+  "generated": "scripts/index-work-pg.mjs",
+  "workKey": "maximus-confessor-ad-theopemptum",
+  "slug": "ad-theopemptum",
+  "series": "pg",
+  "volume": 90,
+  "title": "Ad Theopemptum scholasticum",
+  "titleEn": "To Theopemptus the Scholasticus",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 90, 1393–1400",
+  "colFirst": 1393,
+  "colLast": 1400,
+  "counts": {
+    "scripture": 4,
+    "fontes": 0,
+    "unparsed": 0,
+    "bands": 15
+  },
+  "columns": [
+    {
+      "col": 1393,
+      "grc": "ΜΑΞΙΜΟΥ ΜΟΝΑΧΟΥ ΠΡΟΣ ΘΕΟΠΕΜΠΤΟΝ ΣΧΟΛΑΣΤΙΚΟΝ Ἑρωτήσαντα περὶ τοῦ κριτοῦ τῆς",
+      "en": "*Of Maximus the monk.* TO THEOPEMPTUS THE SCHOLASTICUS *He had"
+    },
+    {
+      "col": 1396,
+      "grc": "[b: A] πῶς ποτε τὴν ἐμὴν ἀμβλυωπίαν πρὸς θεωρίαν ἐνάγειν",
+      "en": "adorned with which through life, how thou hast been eager"
+    },
+    {
+      "col": 1397,
+      "grc": "[b: A] ἐνδομυχοῦσαν, καὶ οἷον αἰκίζουσάν τε συνεχῶς καὶ διοχλοῦσαν",
+      "en": "bear the torment that lurks within and, as it were,"
+    },
+    {
+      "col": 1400,
+      "grc": "[b: A] τῇ προλήψει τῆς ἐνεργουμένης καλοκαγαθίας· καὶ τῇ πληγῇ",
+      "en": "with the presumption of the goodness being performed, and with"
+    }
+  ],
+  "heads": [],
+  "scripture": [
+    {
+      "refKey": "Luke.18.6",
+      "refDisplay": "Luc. xviii, 6.",
+      "column": "1393",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "refKey": "Gen.3.24",
+      "refDisplay": "Gen. iii, 24.",
+      "column": "1393",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "refKey": "Luke.18.7",
+      "refDisplay": "Luc. xviii, 7.",
+      "column": "1397",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Matt.7.18",
+      "refDisplay": "Matth. vii, 18.",
+      "column": "1397",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    }
+  ],
+  "fontes": [],
+  "unparsed": [],
+  "bands": [
+    {
+      "column": "1393",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1393",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1393",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1396",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1396",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1396",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1396",
+      "band": "d",
+      "chunk": 1
+    },
+    {
+      "column": "1397",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1397",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1397",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1397",
+      "band": "d",
+      "chunk": 1
+    },
+    {
+      "column": "1400",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1400",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1400",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1400",
+      "band": "d",
+      "chunk": 1
+    }
+  ],
+  "proseNotes": [],
+  "cruces": {
+    "count": 29,
+    "file": "src/english/maximus-confessor-ad-theopemptum/cruces.md"
+  },
+  "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",
+  "indexed": null
+}

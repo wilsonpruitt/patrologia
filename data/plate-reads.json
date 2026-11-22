@@ -19787,6 +19787,54 @@
         "found": "image check 2026-11-21 (two passes, IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
       }
     ]
+  },
+  "maximus-confessor-ad-theopemptum": {
+    "series": "pg",
+    "volume": 90,
+    "scan": "raw/pg-pdf/090.pdf (archive.org patrologicursus55migngoog, PG 90), Kraken pages rendered to raw/kraken/maximus-theopemptus/pages/",
+    "page_map": "data/pg-column-maps/pg090.json (corner numbers read on the plate: p709 = 1391/1392, p710 = 1393/1394, p713 = 1399/1400, p714 = 1401/1402; col = 2×page − 27 in this stretch)",
+    "note": "Greek = our Kraken read, rule pass, every flagged reading looked up at the plate in the image check. No [sic:]/[var:] marker is placed: the print-error rows are listed on the cruces page. The pages recorded here carry print-error rows; each was read at the plate in the image check, the page was not read through.",
+    "reads": [
+      {
+        "page": 710,
+        "cols": [
+          "1393",
+          "1394"
+        ],
+        "from": "1393",
+        "to": "1394",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through; the coordinator also read the Joan. xx, 27 footnote at the plate (Migne's misprint for xx, 17, kept as printed) and the asterisk note «Locus obscurus, ac forte mendosus»"
+      },
+      {
+        "page": 711,
+        "cols": [
+          "1395",
+          "1396"
+        ],
+        "from": "1395",
+        "to": "1396",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 713,
+        "cols": [
+          "1399",
+          "1400"
+        ],
+        "from": "1399",
+        "to": "1400",
+        "depth": "read",
+        "date": "2026-11-21",
+        "corners_checked": false,
+        "found": "image check 2026-11-21 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      }
+    ]
   }
  }
 }
