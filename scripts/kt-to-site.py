@@ -51,6 +51,9 @@ CONF = {
     # Maximus, Ad Theopemptum scholasticum (2026-11-21): Kraken base, PG 90 pp. 710-713 (cmap pg090, col = 2*page-27), all Greek; one chunk th-001; tables by scripts/th-tables.py.
     'maximus-theopemptus': dict(editor='', key='maximus-confessor-ad-theopemptum', vol=90, cmap='data/pg-column-maps/pg090.json',
                                 xml='raw/pg090/090_djvu.xml', prefix='th', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
+    # Maximus, Capita alia (2026-11-21): Kraken base, PG 90 pp. 714-744 (cmap pg090, col = 2*page-27; p0744 ends at line 11), all Greek; five chunks ca-001..005; tables by scripts/ca-tables.py.
+    'maximus-capita-alia': dict(editor='', key='maximus-confessor-capita-alia', vol=90, cmap='data/pg-column-maps/pg090.json',
+                                xml='raw/pg090/090_djvu.xml', prefix='ca', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv
