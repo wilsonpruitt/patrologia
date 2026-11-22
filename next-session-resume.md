@@ -1,11 +1,11 @@
 # Next session — resume note
 
-## ▶ 2026-11-21 — Maximus queue #5 *Expositio in Psalmum LIX* (PG 90.856–872): ALL STEPS DONE, preflight 10/10 (`4aa5cf31`); NOT deployed, NOT pushed
-Built at `site/pg/90/psalm-59/` (slug `psalm-59`, key `maximus-confessor-expositio-psalmi-lix`, no englishState). Blind read: polarity clean, 3 fixes applied.
-⬜ Wilson: read the DRAFT about + RECENT (`data/work-about.json`, `scripts/build-landing.mjs`), strip DRAFT, rebuild → deploy (own OK:
-`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`) → push (own OK). Then `englishState: "ours"` (own OK).
-⚠ English exists (Blowers 2015): weak badge only. Next in the queue: #6 *Ad Theopemptum* (PG 90.1393–1400; same PG 90 scan, map needs extending).
-Score `translate/maximus-ps59/RUN.md`.
+## ▶ 2026-11-21 — TWO Maximus PG 90 works built, preflight 10/10, NOT deployed, NOT pushed (12 local commits)
+- **#5 *Expositio in Psalmum LIX*** (`site/pg/90/psalm-59/`, key `maximus-confessor-expositio-psalmi-lix`; ≈1.1M; English exists: Blowers 2015 → weak badge). Score `translate/maximus-ps59/RUN.md`.
+- **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`, key `maximus-confessor-ad-theopemptum`; ≈0.85M; blind read clean; no English found). Score `translate/maximus-theopemptus/RUN.md`.
+⬜ Wilson: read both DRAFT about texts (`data/work-about.json`) + RECENT lines (`scripts/build-landing.mjs`); Ps 59: cut "readers who have it should keep it"?
+Then strip DRAFT, rebuild (`node scripts/build-site.mjs <key>` each, preflight) → ONE deploy for both (own OK) → push (own OK) → englishState "ours" (own OK).
+The shared Maximus bio names Combefis (true of the Letters; shows on both pages). Next queue: #7 *Capita alia* (PG 90.1401–1461, ≈11K words; starts p714).
 
 ## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
 Three hymns (not two), 297 lines, cols 1417–1424. `translation-style.md` has the new "Greek verse" section V1–V10 (the *Anacreontica* inherits it); anchor + glossary in
