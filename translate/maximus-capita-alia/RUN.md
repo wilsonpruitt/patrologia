@@ -16,3 +16,29 @@ Work dir / Kraken key `maximus-capita-alia`. English: none found as a unit (web 
   Briefs `_briefs/ca-001_002`, `ca-003_004`, `ca-005_005` (three Opus agents at once).
 
 ## Step 1 — translation (Opus, 3 briefs) LAUNCHED 2026-11-21
+- ✅ Brief ca-005 DONE: 1,488 Greek → ≈1,943 English, 30 notes, 36 OCR rows (17 ocr, 10 stray, 6 space, 2 doubt, 1 heading); cols 1452–1461; opens mid-ch. 210, chs 211–243 + Ἀμήν; numbering unbroken (σιθʹ read σιʹ).
+  ⚑ **COORDINATOR CALL, polarity: p0743.18 ch. 238 Migne's bracketed [μὴ]** — the card's "bracket = alternative reading, keep out of the English" rule made the translator DROP the
+  negative; a bracketed word in Migne's Greek is more likely the editor's SUPPLEMENT (Latin *non* follows it) → plate-read, then the English probably carries «[not]». Also p0739.14 εἴσω [ἔξω]
+  (Latin *intra res [extra res]*), p0741.19 «[ο]σαλεύονται», p0742.05 αὐτῶν/αὐτοῦ. Sweep: ἀνενέργητος "without activity" vs glossary "without operation"; ἐγκράτεια self-control, ἀπάθεια passionlessness (card over glossary).
+- **Coordinator plate read p0743.18 (600 dpi): Migne prints «ἐκ πυρὸς [μὴ] δεξαμένων»** — the editor's SUPPLEMENT; the sense needs it (the old seem at peace below *as not having
+  received* a burning; Latin *non*). → sweep: English «[not] having received», T note «Migne prints [μὴ], a word supplied by the editor; the English follows it». **Bracket ruling for
+  the sweep (all chunks):** a bracketed single word that completes the construal = supplement → English in [ ] + T note; a bracketed alternative to a word just printed (εἴσω [ἔξω]) = variant → main reading + T note.
+- ✅ Brief ca-001_002 DONE: ca-001 1,881 Greek → ≈2,380 English, 35 notes, 74 OCR rows (46 ocr, 13 stray, 7 heading, 6 space, 2 doubt), cols 1401–1412, heading + verses + chs 1–51, ends mid-52;
+  ca-002 1,872 → ≈2,400, 37 notes, 70 rows (36 ocr, 16 heading, 13 stray, 5 space), cols 1413–1424, end of 52 + chs 53–109 (clean end). Numbering unbroken on the plate (Kraken mangles koppa 90–99 etc.).
+  ⚠ **Card errors caught by the translator:** the dedicatory verses are **FOUR lines** (+ «Ἀσπάζου δ᾿ αὐτοὺς, καὶ μαθήσῃ τὸ κέρδος», p0714.09; Latin agrees), and **two more couplets «Τοῦ αὐτοῦ»** stand
+  between chs 77/78 and 107/108 (set as *Of the same.* + lines, T notes). Brief ca-003_004 was told nothing about further couplets: check its range at the sweep.
+  Bracket: ch. 102 [οὐσίας] kept out of the English (apply the bracket ruling at the sweep). p0721.48 garbled line = probably a leaked foot scholion (stray).
+  Least sure: ch. 75 ὀλίγοι … προσαπολαύσαντες; ch. 29 ἀναθερισμῷ (Latin *emundatione* → ἀνακαθαρισμῷ?); ch. 4 οὐδ᾿ ἑτέρα → οὐδετέρα; ch. 74 μεταβαλεῖν/μεταλαβεῖν; ch. 19 ἀναμάπτεται/ἀναμάττεται.
+  Sweep: πόθος longing vs card's ἔφεσις longing; ὑπόστασις = substance in chs 39, 50 (Heb 11:1; T-noted) vs binding hypostasis; ἔννοια notion / νόημα concept (card over glossary); λογισμός reasoning (ch. 72) / thought.
+- ✅ Brief ca-003_004 DONE: ca-003 2,089 Greek → ≈2,540 English, 50 notes, 57 OCR rows, cols 1425–1437, chs 110–161 (+ couplet 137/138); ca-004 1,907 → ≈2,300, 53 notes, 77 rows, cols 1440–1449, chs 162–210 (ends mid-210).
+  Least sure: ch. 125 bracket read as [μή] (Latin *non*); ch. 175 κακῶν [καλῶν] (Latin *bonorum*); ch. 204 [ἴσ. ἔμπλεως] followed; ch. 111 οὔτε without partner; **ch. 122 `[?]`** (no verb; Latin *perceperunt*). ch. 197 = Basil *Reg. fus.* 2.1 (from memory: «cf.»).
+
+## ✅ Step 1 DONE 2026-11-21: 5 chunks (3 Opus briefs, ≈0.56M); ≈11,560 English words, 205 notes, 314 OCR rows. Coordinator checks: all 243 chapters once, in order; 004/005 seam clean.
+## Step 2 — sweep (Sonnet, `SWEEP.md`: bracket ruling supplement vs variant; ἔφεσις yearning / πόθος longing; κίνημα movement; ἐνέργημα effect) LAUNCHED.
+## Step 4 (early, parallel) — apparatus: 2 Sonnet readers (pp. 714–729, 730–744; Greek foot scholia + Latin locators) LAUNCHED.
+## Step 3 — image check: sheets built (see below); readers wait for a free slot (3-agent cap).
+- ✅ **Step 2 sweep DONE** (Sonnet, ≈0.13M): brackets per ruling (ch. 102 [οὐσίας] → «[essence]» = supplement; ch. 125 «[not] fittingly»; **ch. 238 «[not] having received» (the negative restored)**;
+  ch. 204 «[full of]»; ch. 239 «[impulses]»; ch. 175/177/213 variants → notes only); κίνημα movement / κίνησις motion (4 fixes); ἐνέργημα effect; Basil «cf.»; 37 Psalm locators unified «Ps N LXX (M Heb.)».
+  Left: ἔρως = yearning IS the glossary's binding rendering (ἔφεσις does not occur in this work: the SWEEP ruling for it is moot; ch. 134 ἐφιεμένη «yearns» stands); couplet after ch. 137 has no «Τοῦ αὐτοῦ» on the plate (no heading: right);
+  4 italic quotations with «cf.» notes (chs 18, 120, 166, 203) → blind read. Notes intact (35/37/50/53/30).
+## Step 3 — image check pass 1: `kt-sheet` → 176 rows, 8 sheets (164 word, 10 line, 2 MISSING). Readers A = 001–004, B = 005–008.
