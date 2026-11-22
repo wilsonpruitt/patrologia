@@ -29,3 +29,11 @@ Structure checked: notes 30/30 in order, no editor named, no `[?]`. Sweep skippe
 
 ## Step 3 — image check (one Opus reader) LAUNCHED 2026-11-21
 `kt-sheet.py maximus-theopemptus` → 33 rows, 2 sheets (30 word, 3 line).
+- ✅ Image check (one Opus reader, ≈0.14M; it cut its own 600 dpi crops for every undecided slot, so no pass 2): **33 rows: R 17 · P 4 · M 8 · ? 4** (the 4 ? = breathings
+  the 1-bit scan cannot show, incl. **p0710.39 αὐτὸν/αὑτὸν: undecidable; English keeps αὑτὸν with T note 7**). M: p0710.26 δίχα φόβον (φόβου) · p0710.30 ἐπίγνῶναι ·
+  p0711.17 θείος · p0711.25 ταυτὴν · **p0713.04 ἃ μὴ (sense ἢ μὴ)** · p0713.20 ἀντιτείνεν · p0713.21 πρόσαξιν · p0713.50 τῆς δωρεᾶς τῆς (plate τῆς; ταύτης = conjecture).
+  **p0712.20: the plate has NO «ἢ διὰ τοῦ Υἱοῦ»** (Latin *aut per Filium* is the Latin's own) → P. kt-apply: 14 applied, 1 applied~, **2 NOT FOUND** (p0712.27 κ λὸν→καλὸν,
+  p0713.28 «ἠ̔̀ (τε»→«ἥ τε») → GREEK-PATCHES at build.
+- English (coordinator; pre-fix copy in the session scratchpad): n21 + n30 now say what the plate prints; NEW T note on ἃ μὴ → ἢ μὴ (now 31 notes).
+
+## Step 5 — build (Sonnet) next; then blind read (Opus).
