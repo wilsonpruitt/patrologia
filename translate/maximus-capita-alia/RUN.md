@@ -60,3 +60,8 @@ Work dir / Kraken key `maximus-capita-alia`. English: none found as a unit (web 
   (**ch. 228 p0741.19 «[οὐ] σαλεύονται»: note (l) «Negatio omnino incommoda ac expungenda»**). The sweep's "supplement" ruling holds for chs 102, 125, 204, 238, 239 (sense + Latin; 125 by note);
   ch. 228 is a deletion — its English («are shaken») already follows the editor; only the T note changes. Lesson for the card: decide each bracket from its note, not by rule.
 - `ENGLISH-FIXES.md` (20 rows: 9 P rows where the English followed an unsupported conjecture; brackets 228/125; 7 construal-changing misprints → T notes; Τί ὡραιώθης) → Opus fixer LAUNCHED.
+- ✅ English fixer (Opus, ≈0.11M): 20 rows done, OCR tables byte-identical. ch. 143 «the soul of knowledge» (γνωστικῆς, understood ψυχῆς); **ch. 159 the print does NOT construe** (διὰ τὸν …): English kept, T note says so;
+  ch. 164 «his own country» (οἰκείας); ch. 172 «the mind it passes to» (subject εὐχή); ch. 232 «those same things»; ch. 51 infinitive construal; ch. 150 ῥοθίζας note from the editor's (b); ch. 228/125 bracket notes;
+  misprint T notes chs 22, 74, 48, 208, 212, 44, 64; ch. 203 Τί ὡραιώθης. Notes now ca-001 36 · ca-002 38 · ca-003 51 · ca-004 53 · ca-005 30.
+⚠ Burn so far ≈1.9M (translation 0.56 · sweep 0.13 · image check 0.37 · apparatus 0.48 · fixer 0.11 · coordinator ≈0.25). Left: build ≈0.3 + blind read ≈0.4 → ≈2.6M (inside the 2.5–3M go).
+## Step 5 — build (Sonnet, `BUILD.md`) LAUNCHED.
