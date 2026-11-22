@@ -50,7 +50,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1417** · …as are the words of eternal life, drop. — S. cf. Song 4:11; Prov 16:24; John 6:68.
 - **1417** · …partake of the sweet odour of her garments? — S. cf. Song 1:13; 4:11; 1:3 (4:10). T. Migne prints μεταβαλεῖν; the sense needs μεταλαβεῖν, "partake".
 - **1417** · …will be stripped; but of that of sin, — S. cf. Rom 6:6.
-- **1417** · …life here who have enjoyed its sweet things. — T. «οἱ τῆς ἐνταῦθα ζωῆς ὀλίγοι τῶν ἡδέων προσαπολαύσαντες»: rendered as printed, with the facing Latin («pauci ex illis qui vitae hujus deliciis potiti sunt»); ὀλίγοι may instead be meant predicatively, "those who have enjoyed but little of its sweets", which gives the expected sense.
+- **1417** · …here who have enjoyed the sweet things besides. — T. «οἱ τῆς ἐνταῦθα ζωῆς ὀλίγοι τῶν ἡδέων προσαπολαύσαντες»: rendered as printed, with the facing Latin («pauci ex illis qui vitae hujus deliciis potiti sunt»); ὀλίγοι may instead be meant predicatively, "those who have enjoyed but little of its sweets", which gives the expected sense.
 - **1417** · …to sin who have hated it from disposition. — S. cf. Rom 6:2, 11.
 - **1417** · …is, before the coming stripping? *Of the same.* — T. A couplet set between chs. 77 and 78 under the heading «Τοῦ αὐτοῦ», "of the same"; the facing Latin prints the two lines without a heading. Lineated one for one; not a chapter, and the numbering runs on past it.
 - **1417** · …the same.* A soul wounded with bridal yearning — S. cf. Song 2:5; 5:8.
@@ -124,7 +124,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1441** · …food without salt is reckoned by the throat, — S. cf. Job 6:6.
 - **1441** · …be reckoned by the mind it passes to. — T. Migne prints «μετερχομένη», agreeing with «prayer» (εὐχή), which passes to the mind as the food passes the throat; the facing Latin «menti eam colenti» («by the mind that pursues it») reads «μετερχομένῳ».
 - **1441** · …of the child. 174. Of old the Amorite — P. The Amorites, the people of the hill country who drove Israel back when it went up against the Lord's word (Deut 1:44).
-- **1441** · …with terror is not a multitude of evils, — T. Migne prints «κακῶν» with «[καλῶν]» after it, a variant: «good things». The facing Latin follows the bracket («bonorum turba»); the English renders the main reading, «evils».
+- **1441** · …with terror is not a multitude of evils, — T. Migne prints «κακῶν» with «[καλῶν]» («good things») after it: the editor's conjecture (his note (e′) finds no sense in κακῶν). The facing Latin follows the bracket («bonorum turba»); the English renders the printed word, «evils».
 - **1441** · …as oil, fattening; the formless, as fragrant wine, — S. cf. Ps 103:15 LXX (104:15 Heb.).
 - **1441** · …be able to be bound by no one. — S. cf. Job 39:9–10.
 - **1441** · …even to being caught up to the Lord — S. cf. 2 Cor 12:2–4; 1 Thess 4:17.
@@ -135,7 +135,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1444** · …it too sings a new song to God; — S. cf. Ps 95:1 LXX (96:1 Heb.); Ps 143:9 LXX (144:9 Heb.).
 - **1445** · …known; and in the incorporeal, the superessential Word, — T. Migne prints «λόγος» in lower case; the superessential Word toward whom the soul departs is the Son, and the facing Latin has «superessentialis sermo».
 - **1445** · …to whom every earnest soul hastens to depart. — S. cf. Phil 1:23.
-- **1445** · …bodily waters, as one bitten by a beast; — S. cf. Ps 41:2 LXX (42:1 Heb.). T. Migne prints «[ὄφεως]» («serpent») before «beast»; the facing Latin «a serpente bestia». The English renders the main reading.
+- **1445** · …bodily waters, as one bitten by a beast; — S. cf. Ps 41:2 LXX (42:1 Heb.). T. Migne prints «[ὄφεως]» («serpent») before «beast», a word supplied by the editor (his note (f): «Quin scriptum sit Maximo, ὑπὸ θηρὸς ὄφεως, nullus dubito»); the English follows it; the facing Latin «a serpente bestia».
 - **1445** · …of nature; such as he too who declared: — S. cf. Basil, *Regulae fusius tractatae* 2.1 (PG 31.909), quoted with small differences.
 - **1448** · …desires to look upon the day of man. — S. cf. Jer 17:16.
 - **1448** · …again to look upon vanities and lying frenzies: — S. cf. Ps 39:5 LXX (40:4 Heb.).
@@ -161,7 +161,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1452** · …a barbarian; and both, as raving by demons. — T. ὡς μαινόμενοι … δαίμοσιν, "raving by (the work of) demons"; the facing Latin takes the dative as "in the judgement of demons" (*daemonum judicio*).
 - **1453** · …love of finery and of love of honour. — T. φιλόκαλος here is the love of fine and elegant things (the facing Latin *elegantioris cultus*), not the love of the beautiful; a foot scholion on «Ὁ φιλοκάλῳ πάθει» stands on this page.
 - **1453** · …deprivation that belongs to endurance in the Lord. — S. cf. Luke 21:4 (ἐκ τοῦ ὑστερήματος). T. ἀποστέρημα, "deprivation" (being defrauded), borne in the endurance that is in the Lord; the facing Latin *per ejus patientiae fraudationem quae in Domino est*.
-- **1453** · …go-between is found for them, deficiency and excess. — T. μεσίτιδος εὑρισκομένης αὐτοῖς, ἐλλείψεως καὶ ὑπερβολῆς: taken as "a go-between (standing between them and the goods) is found for them, namely deficiency and excess", which construes without a negative. The facing Latin renders as if with one: *juxta mediocritatem non invenerint*.
+- **1453** · …between is found for them, deficiency and excess. — T. μεσίτιδος εὑρισκομένης αὐτοῖς, ἐλλείψεως καὶ ὑπερβολῆς: taken as "a go-between (standing between them and the goods) is found for them, namely deficiency and excess", which construes without a negative. The facing Latin renders as if with one: *juxta mediocritatem non invenerint*.
 - **1456** · …draw near to passionlessness are shaken by imaginations; — T. Migne prints [οὐ] before σαλεύονται, and his editor's note (l) says the negation is to be deleted; the English follows the note.
 - **1456** · …part of the soul; others in the incensive; — T. τὸ θυμικόν, "the incensive" (power or part): the faculty of θυμός, which as a passion is "anger" (ch. 231).
 - **1456** · …with them the things that favour the enemies — T. τὰ τοὺς πολεμίους θέλοντα, "the things that favour (wish for) the enemies"; the facing Latin *quae hostibus faveant*.
