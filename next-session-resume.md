@@ -1,12 +1,14 @@
 # Next session — resume note
 
-## ▶ 2026-11-21 — TWO Maximus PG 90 works built, preflight 10/10, NOT deployed, NOT pushed (12 local commits)
-- **#5 *Expositio in Psalmum LIX*** (`site/pg/90/psalm-59/`, key `maximus-confessor-expositio-psalmi-lix`; ≈1.1M; English exists: Blowers 2015 → weak badge). Score `translate/maximus-ps59/RUN.md`.
-- **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`, key `maximus-confessor-ad-theopemptum`; ≈0.85M; blind read clean; no English found). Score `translate/maximus-theopemptus/RUN.md`.
-⬜ Wilson: read both DRAFT about texts (`data/work-about.json`) + RECENT lines (`scripts/build-landing.mjs`); Ps 59: cut "readers who have it should keep it"?
-Then strip DRAFT, rebuild (`node scripts/build-site.mjs <key>` each, preflight) → ONE deploy for both (own OK) → push (own OK) → englishState "ours" (own OK).
-The shared Maximus bio names Combefis (true of the Letters; shows on both pages).
-- **#7 *Capita alia*** RUNNING (Wilson: "Opus go" on ≈2.5–3M): step 0 done (`8ee8e2f3`), 3 Opus translation briefs launched 2026-11-21. If resuming: check which `ca-00N.en.md` exist, relaunch missing briefs, then sweep (3 translators → needed) → image check → kt-apply → apparatus (Greek foot scholia!) → build → blind read. Score `translate/maximus-capita-alia/RUN.md`.
+## ▶ 2026-11-21 — THREE Maximus PG 90 works built, preflight 10/10, NOT deployed, NOT pushed (20 local commits)
+- **#5 *Expositio in Psalmum LIX*** (`site/pg/90/psalm-59/`; ≈1.1M; English exists: Blowers 2015 → weak badge). Score `translate/maximus-ps59/RUN.md`.
+- **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`; ≈0.85M; blind read clean). Score `translate/maximus-theopemptus/RUN.md`.
+- **#7 *Capita alia*** (`site/pg/90/capita-alia/`, 243 chapters; ≈2.75M; polarity clean, 4 fixes). Score `translate/maximus-capita-alia/RUN.md`.
+⬜ Wilson: read the three DRAFT about texts (`data/work-about.json`) + RECENT lines (`scripts/build-landing.mjs`); Ps 59: cut "readers who have it should keep it"?
+Then strip DRAFT, rebuild (`node scripts/build-site.mjs <key>` each, preflight) → ONE deploy (own OK) → push (own OK) → englishState "ours" (own OK).
+Shared Maximus bio names Combefis (true of the Letters). Lessons in the RUNs: Migne's square brackets can mark a SUPPLEMENT or a DELETION (read the editor's note);
+Kraken drops short last lines (Theopemptus); summary sentences in about texts must come from the English (Theopemptus draft invented content).
+Next in the Maximus queue: #8 *Diversa capita* (PG 90.1177–1392, 36K words, Philokalia English exists, spurious as a work) — needs Wilson's call.
 
 ## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
 Three hymns (not two), 297 lines, cols 1417–1424. `translation-style.md` has the new "Greek verse" section V1–V10 (the *Anacreontica* inherits it); anchor + glossary in
