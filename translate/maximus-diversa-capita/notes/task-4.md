@@ -83,3 +83,8 @@ about a word Migne prints in [square brackets] in the Greek** (whether the edito
 breathings), give `anchorWord` + `column`, and an `en` for every note that is a sentence. **For every note about a bracketed word, say in `en` which it is: the editor
 SUPPLIES the word, would DELETE it, or gives a VARIANT/CONJECTURE.** Notes with no mark are series `scholion`. Count calls against notes on every page; report gaps in your last line.
 p-0709: the work ends at line 37 («Τέλος …»); a Latin MONITUM follows (Theopemptus's): any note keyed after «Τέλος» gets `"work": "following"`. 
+
+⛔ **You may write a note ONLY from an image you have actually seen.** If an image Read returns no picture (an error, a size tag only, a "request limit"), wait, retry once with a smaller
+crop (≤ 1600 px wide); if it still fails, write `{"page": "p-06NN", "unread": true, "why": "..."}` and go on. (A previous reader wrote notes for pages it could not see; they were all deleted.)
+Migne also prints bracketed readings INSIDE the Greek text (e.g. «[duo Reg. φύσιν]»): record each one you see in the Greek column as a note with series "bracket-inline", its full text, and in `en`
+whether it is a variant, a supply or a deletion — **especially p0708 «ἀμετάθετος [, μετάθετος]» and p0709 «ἀπροσδεὴς [προσδεὴς]»** (brackets that drop a privative).

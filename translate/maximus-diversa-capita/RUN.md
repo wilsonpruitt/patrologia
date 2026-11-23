@@ -88,3 +88,19 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   gratitudinis*: εὐ-), p0639.16 μετὰ (μέν), **p0641.33 παρεχομένων (παρερχομένων «passing away»)**, p0646.45 γὰ, p0638.23 ἀνατραπὴν, p0626.29 φύ-εως, p0639.42 Ἐμμὸρ. **FIXER: p0647.41 the plate prints the
   NOMINATIVE κυβερνωμένη. (agreeing with ἡ χρῆσις), which construes → the English must follow it, not the translator's genitive.** Brackets confirmed on the plate: [Regii duo ὀδύνης], [male edita προηγουμ.],
   [edit. et unus Reg. ὅτι]. Several «points» after numerals/words are ASTERISK NOTE CALLS (ζʹ, κγʹ, λʹ, μεʹ, ξζʹ, πεποιωμένος·, φέρουσαι·) → strip as calls at the build.
+- ✅ Re-read pp. 656–664 (`result-3b.jsonl`): all 9 pages SEEN, **26 notes** (16 numbered, 13 markers illegible; 6 lettered; 4 asterisk); p-0664 none. Measured against the deleted unseen version: 24 of its 29 notes match a
+  real note in outline but differ at the letter (οὐκ for the printed οὐχ; «quod soloecismus» for «quod et solœcismus»), 5 have no real counterpart → the deletion was right: a reconstructed apparatus is wrong
+  at exactly the level an apparatus exists for. (Apparatus result files: 1, 2, 3 (pp. 665–682), 3b (656–664), 4.)
+- ✅ Image check C (sheets 017–024, 192 slots): R 147 · P 16 · M 10 · ? 19 (13 breathing_1bit). **III.55 p0655.38 ἔπεστι/ἄπεστι: `?` — a solid blot, width between ε and α**: the English «is absent» stands on the Latin
+  + the myriobiblos witness (both ἄπεστι); its T note must say the plate is illegible here. **IV.36 p0673.17–18: R — the restored line is on the plate (ἐπιγίνεται).**
+  FIXER items: **p0657.01 plate διάσκεψιν** (not διάθεσιν: III.? English «disposition» → «examination»); **p0663.05 III.88: the «(» is Migne's inline note «(qu. illa 58, λύπη)» — no word lost → remove the `[?]`,
+  English «punishment», T note on the editor's note**; **IV.22 p0670.16: NO bracket on the plate → remove the English [ ] supplement brackets**; **III.94–99: NO bracket on the plate → drop that T note's bracket
+  claim**; IV.26 p0670.46: Migne prints an opening bracket that never closes → render unbracketed + T note. p0671.01 IV.27: «διάκρισις.» is a dropped line on the plate (the translator supplied it from the witness:
+  English right) → GREEK-PATCH. Brackets now READ on the plate (all R, English right): [unus Reg. ὀδύνης], [ed. ταπεινοῖ], **[male edita, τοῦ εἴδους ἀπεύχεσθαι]** and **[male edita, ἔφεσιν, cupiditatem]** (= the
+  EARLIER EDITION's bad reading: the printed text is the correction), [qq. ad Thalass. q. 58 …], [qu. 59 ad Thalass. ἐξερευνητ.], [unus Reg. πεφύκαμεν], [qq. ad Thalas. q. 61. Θεὸς].
+  M: p0655.28 τὴν δὲ (τὸν: θυμόν), p0658.26 no καί, p0667.51 πίστει, κατὰ … λόγου, p0669.25 μεταχόντων. P: p0661.40 no μή (III.81 τοῦ βασιλεύειν: right as printed).
+- ✅ Image check D (sheets 025–033, 215 slots): R 173 · P 16 · M 10 · ? 16. **IV.98 p0687.19 οὐ: R.** **p0674.10: the plate prints ἀπαθοῦς + an asterisk call; coordinator read the foot: «* Qq. ad Thalas. q. 61, παθούσης· quod et
+  legendum» + note (q) «… Sed mihi istud durius … τῆς παθούσης φύσεως· quod et reddidi» → the English «suffering nature» is the EDITOR's reading too: stays, T note cites both.** P (English must follow the plate):
+  p0681.35 τρόπῳ (not τόπῳ), p0698.34 κίνησιν, p0685.38 no μέν, p0707.13 Λόγον; clause-dividing full points ×4. Bracket contents: [qu. illa 61, ὅλως], [ibid. γνωστ.]. Asterisk calls ×6 (strip at build).
+- **Image check merged → `IMAGE-CHECK.tsv` (791 rows): R 559 · M 42 · P 47 · ? 143** (45 clipped p0604 + ~45 breathing_1bit + blots). kt-apply: 380 applied, 75 applied~, 4 already, 24 doubt-same, **79 NOT FOUND** (line-split → GREEK-PATCHES at build).
+  Restored lines + DOUBTS survived kt-apply (checked). `ENGLISH-FIXES.md` written (A 16 rows, B 16 bracket quotations + 2 asterisk notes, C 10 construal misprints); D waits for apparatus reader 4.
