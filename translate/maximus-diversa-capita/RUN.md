@@ -19,3 +19,28 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   Glossary = Capita alia's + its rulings at the head. **10 briefs** `_briefs/dc-001_002 … dc-017_018, dc-019_019`.
 
 ## Step 1 — translation (Opus, 10 briefs, three at a time)
+- ✅ dc-005_006 (round 1): dc-005 2,084 Greek → ≈2,591 English, 25 notes, 64 rows, cols 1228–1237, [II.]15 (end)–50; dc-006 1,889 → ≈2,268, 26 notes, 47 rows, cols 1240–1248, 50 (end)–76 (start). Numbering unbroken.
+  Brackets (settle at the apparatus): p0631.15 «[ἐπικτήσεως» unclosed (English unbracketed), p0631.25 «([·» debris, **p0633.53 ἡδονῆς [ὀδύνης] — English OMITS ὀδύνης (variant/deletion?)**. Negatives: ch. II.18 οὐ λήψεται restored from «ὼ» (Latin *non accipiet*).
+  Terms: ἐπίγνωσις full knowledge · Αὐτολόγος the Word himself · ἐπίνευσις assent · διάκρισις distinction (discretion ch. 70) · ἀεικινησία «the ever-moving».
+- ✅ dc-003_004: dc-003 2,031 → ≈2,509, 26 notes, 57 rows, cols 1204–1213, I.61 (cont.)–84; dc-004 2,059 → ≈2,614, 32 notes, 79 rows, cols 1216–1225, I.84–100, SECOND CENTURY, II.1–15. Numbering unbroken (koppa 90–99 mangled).
+  ⚑ **IMAGE CHECK MUST SETTLE: ch. I.77 p0619.20–21 ἐνύπαρκτον (both witnesses) — English «without existence» follows the Latin *nec vere est* (ἀνύπαρκτον)**: existence/non-existence, polarity-class.
+  I.89 p0621.34 «ὑπὲρ χάριτος . ὑπὲρ θείας ἐντολῆς» («or» supplied); I.91 λοιμόν kept vs Latin *fami*; I.99 p0623.53 duplicated line fragment. Bracket: I.64 μεταμαθοῦσαν [μεταμαθούσης] variant; lone «]» ×3 at I.62.
+  Sweep: **φρόνημα τῆς σαρκός «the way of thinking of the flesh» (Disputatio ruling) vs Capita alia «the mind of the flesh»**; μεταμέλεια remorse / μετάνοια repentance; ὑπόστασις Heb 11:1 «hypostasis» here vs Capita alia «substance».
+- Coordinator plate read p0619.20 (600 dpi, ×4): the line-end letter is a blotted CLOSED bowl with a rising stroke = most likely **ἀν-|ύπαρκτον** (ε is open in this type) → the English
+  «without existence» is right; Kraken and myriobiblos both misread the blot. Image check to confirm (R with plate=ἀν-).
+- ✅ dc-001_002: dc-001 2,062 → ≈2,740, 20 notes, **160 rows**, cols 1177–1189, title block + FIRST CENTURY I.1–29; dc-002 2,171 → ≈2,590, 22 notes, 46 rows, cols 1192–1201, I.29 (cont.)–61. Numbering unbroken.
+  ⚠ **p-0604 (col. 1181): OUR ONLY SCAN CLIPS THE LEFT MARGIN** — the opening letters of all 54 Greek lines are not on the image (checked by the coordinator; the second archive.org file
+  `patrologia-volumes/090.pdf` is the SAME scan, 93,656,294 bytes; no PG 90 in Calfa; Gallica search empty; Google Books page images «not available» for all four ids). The translator
+  supplied the openings from the myriobiblos transcription + the facing Latin (≈50 `ocr` rows at medium) and one `[?]` (p0604.10, T note 4). **Ruling (coordinator): these rows are
+  NOT plate-checkable → excluded from the image check; the Greek displays the myriobiblos fills; the cruces page says, for col. 1181, that the line openings are clipped in our scan and
+  supplied from the myriobiblos transcription.** If another PG 90 scan turns up, re-read col. 1181.
+  Brackets: p0604.36 ἀπεργάζεσθαι [ἀπεργάσασθαι] variant; p0611.17 ἐξώπλισε [ἐξήπλω(σ)ε] variant (English «armed», Latin *armavit*). Sweep: ἀΐδιος and αἰώνιος both «eternal» (needs a ruling:
+  glossary had αἰώνιος «everlasting»); ἀντιστροφή «reversal» (ascetic) vs §IX «reciprocation»; παθήματα sufferings / affections.
+- ✅ dc-007_008: dc-007 2,009 → ≈2,410, 24 notes, 61 rows (2 print: p0638.23 ἀνατραπήν/ἀνατροπήν Hab 2:15, p0639.16 μετά/μέν), cols 1249–1260, II.76 (cont.)–100, THIRD CENTURY, III.1–3; dc-008 2,115 → ≈2,601,
+  20 notes, 59 rows, cols 1261–1272, III.3–31 (ends «ἡ κατ᾿ ἔφεσιν» | noun on next page). Numbering unbroken. Brackets: p0641.39 προηγμένων [προηγουμ.] variant; p0647.01 Ἔτι [ὅτι] variant.
+  Least sure: p0641.33 παρεχομένων/παρερχομένων (English follows the Latin *fluxarum*: plate); p0646.41 ἐπιγνωμοσύνης; p0647.01 ch. III.18 damaged opening.
+- ✅ dc-009_010: dc-009 1,873 → ≈2,340, 13 notes, 39 rows, cols 1273–1281, III.31 (end)–52; dc-010 2,235 → ≈2,711, 24 notes, 60 rows, cols 1284–1293, III.52–79. **Migne prints «οϛʹ» twice (76, 77):
+  a printed numbering slip** (Latin + witness give 77). ⚑ **ch. III.55 ἔπεστι → ἄπεστι «is absent»** (Latin *nulla … occurrit*, witness): presence/absence → image check must confirm.
+  Brackets: βάσιν [φύσιν] variant (ch. 50); «[ξδʹ …]» around ch. III.64's first line (column rule? settle at the apparatus); lone «]» = column rule.
+  ⚑ **ch. III.48 «συστελλό-» cut at the p653 foot: coordinator plate read → a one-word last line «μενον.» Kraken never segmented** → restored (p0653.54, `RESTORED-LINES.tsv`).
+  Scan of all 107 page seams for the same pattern (hyphen + new chapter; unpunctuated end + new chapter): no other loss (p616 = glued band letter; p619 «φύλαε» = a leaked asterisk note «Quaest. 24 ad Thalas., φύλακε»).
