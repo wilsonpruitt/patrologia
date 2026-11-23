@@ -114,3 +114,6 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   IV.71 «mode»; V.91 «Word»; IV.39/III.55/I.77/III.93 notes from the plate; col. 1181 clipped-scan note; 19 bracket quotations corrected; asterisk notes p-0617 (II.68) and p-0632 (II.45, call unplaced); 8 misprint
   T notes; privative brackets V.95/V.99 rewritten). Coordinator accepts: of the 4 clause-dividing full points only p0684.41 splits the English; p0686.07, p0687.46, p0705.48 fall inside a construction → T notes.
   OCR-table «reading» cells now lag the English at p0621.34, p0663.05, p0670.16, p0681.35 (tables not edited: the build takes only stray/space/heading rows from them).
+- Re-read pp. 665–682 (`result-3c.jsonl`): the reader hit «[media removed: request limit]» for p-0665–0679, deleted what it had drafted unseen, and recorded **14 pages `unread`** (honest, per the rule); SEEN: p-0674 (the
+  * and (q) notes on ἀπαθοῦς/παθούσης), p-0680 ([unus Reg. παθητικόν] + 3 locators), p-0681, p-0682. The request limit is a session-level image throttle (hit by readers 2–4 when several image agents ran at once);
+  the coordinator's own image Read worked afterwards → the 14 pages re-run by ONE reader alone (`task-3d` / `result-3d.jsonl`).
