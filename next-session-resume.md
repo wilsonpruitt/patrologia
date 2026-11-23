@@ -1,14 +1,15 @@
 # Next session — resume note
 
-## ▶ 2026-11-21 — THREE Maximus PG 90 works built, preflight 10/10, NOT deployed, NOT pushed (20 local commits)
-- **#5 *Expositio in Psalmum LIX*** (`site/pg/90/psalm-59/`; ≈1.1M; English exists: Blowers 2015 → weak badge). Score `translate/maximus-ps59/RUN.md`.
-- **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`; ≈0.85M; blind read clean). Score `translate/maximus-theopemptus/RUN.md`.
-- **#7 *Capita alia*** (`site/pg/90/capita-alia/`, 243 chapters; ≈2.75M; polarity clean, 4 fixes). Score `translate/maximus-capita-alia/RUN.md`.
-⬜ Wilson: read the three DRAFT about texts (`data/work-about.json`) + RECENT lines (`scripts/build-landing.mjs`); Ps 59: cut "readers who have it should keep it"?
+## ▶ 2026-11-23 — FOUR Maximus PG 90 works built, preflight 10/10, NOT deployed, NOT pushed (40 local commits)
+- **#5 *Expositio in Psalmum LIX*** (`site/pg/90/psalm-59/`; English exists: Blowers 2015). Score `translate/maximus-ps59/RUN.md`.
+- **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`). Score `translate/maximus-theopemptus/RUN.md`.
+- **#7 *Capita alia*** (`site/pg/90/capita-alia/`, 243 chapters). Score `translate/maximus-capita-alia/RUN.md`.
+- **#8 *Diversa capita*** (`site/pg/90/diversa-capita/`, 500 chapters; ≈8.6M; English exists: Philokalia vol. 2; col. 1181 clipped in our scan, marked). Score `translate/maximus-diversa-capita/RUN.md`.
+⬜ Wilson: read the four DRAFT about texts (`data/work-about.json`) + RECENT lines (`scripts/build-landing.mjs`); Ps 59: cut "readers who have it should keep it"?
 Then strip DRAFT, rebuild (`node scripts/build-site.mjs <key>` each, preflight) → ONE deploy (own OK) → push (own OK) → englishState "ours" (own OK).
-Shared Maximus bio names Combefis (true of the Letters). Lessons in the RUNs: Migne's square brackets can mark a SUPPLEMENT or a DELETION (read the editor's note);
-Kraken drops short last lines (Theopemptus); summary sentences in about texts must come from the English (Theopemptus draft invented content).
-- **#8 *Diversa capita*** BUILT 2026-11-22 (`4ddf314d`, 500 chapters, alignment 100%, preflight 9/10; col. 1181 marked clipped on the cruces page): **blind read R1–R2 running; R3–R5 next, two at a time (image budget)**; then apply findings → polarity record → rebuild → preflight 10/10 → Wilson. Score `translate/maximus-diversa-capita/RUN.md`; brief `data/briefs/MAXIMUS-DIVERSA-CAPITA-BLIND-READ-BRIEF.md`. ⚠ English exists (Philokalia vol. 2): weak badge.
+Lessons (in the RUNs + memory): Migne's square brackets are his apparatus (supply / delete / variant / «male edita» / cross-ref: read the note); Kraken drops short and mid-page lines (seam scan +
+witness scan); image-reading agents write unseen text when the image limit bites → run them ONE at a time, stop rule at the top of brief AND prompt.
+Next in the queue: #9 *Quaestiones et dubia* (PG 90.785–856, ≈8.3K words; English exists: Prassas 2010) — in order, per Wilson; needs "which model, and go" with the burn.
 
 ## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
 Three hymns (not two), 297 lines, cols 1417–1424. `translation-style.md` has the new "Greek verse" section V1–V10 (the *Anacreontica* inherits it); anchor + glossary in
