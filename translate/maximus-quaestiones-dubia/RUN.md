@@ -64,3 +64,7 @@ Readers run ONE AT A TIME (image-agent rule): A = 001–006 LAUNCHED (beside the
   p0426.18 παλάμην = Migne's misprint for 1 Cor 3:12 καλάμην («stubble» stands; PRINT-ERRORS + T).
 
 ## Step 4 — apparatus (Sonnet, 4 readers of 9 pages, ONE AT A TIME; stop rule at the top of brief and prompt). Reader 1 (pp. 396–404) LAUNCHED.
+- ✅ Apparatus reader 1 (pp. 396–404, ≈0.41M; all 9 pages seen): 22 numbered, 17 lettered (a–q), 3 asterisk, 3 continued, 5 bracket-inline ([Ἴσ. πρός] p0400, [R. πολλαχοῦ] p0401, [Cord. ἔμπτυστε] p0402, [αὐτῶν] + [R. τὸν λογισμὸν τῆς κακίας κατὰ μνή.] p0404);
+  1 marker illegible (p-0400, not completed); p-0399 locator printed «II Thess. iv, 16» (sic: the verse is 1 Thess 4:16 → check at build); 3 placeholder lines deleted.
+- ⚠ **BURN CHECK (coordinator 2026-11-23): spent ≈1.6M** (translation 0.54 · sweep 0.15 · image check 0.43 · apparatus 1 0.41 · coordinator ≈0.1). **Projected all-in ≈3.3–3.5M** (apparatus 2–4 ≈1.0 · build ≈0.3 · blind read ≈0.35 · fixes ≈0.1)
+  vs the ≈2–2.5M go. The apparatus is the overrun (≈1.4M for 36 pages of dense lettered notes + Greek scholia). **STOPPED for Wilson's OK before apparatus reader 2.**
