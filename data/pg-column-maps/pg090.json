@@ -1,12 +1,12 @@
 {
  "volume": 90,
  "file": "raw/pg-pdf/090.pdf",
- "work": "maximus-ps59 (pdf pp. 431–439 = cols 855–872; 430/440 bracket it) — added 2026-11-21 + maximus-theopemptus (pdf pp. 710–713 = cols 1393–1400; 709/714 bracket it) — added 2026-11-21 + maximus-capita-alia (pdf pp. 714–744, cols 1401–1462) — added 2026-11-21 + maximus-diversa-capita (pdf pp. 602–709, cols 1177–1392) — added 2026-11-22",
+ "work": "maximus-ps59 (pdf pp. 431–439 = cols 855–872; 430/440 bracket it) — added 2026-11-21 + maximus-theopemptus (pdf pp. 710–713 = cols 1393–1400; 709/714 bracket it) — added 2026-11-21 + maximus-capita-alia (pdf pp. 714–744, cols 1401–1462) — added 2026-11-21 + maximus-diversa-capita (pdf pp. 602–709, cols 1177–1392) — added 2026-11-22 + maximus-quaestiones-dubia (pdf pp. 396–431, cols 785–856) — added 2026-11-23",
  "colRange": [
-  853,
-  1462
+  781,
+  1464
  ],
- "method": "2026-11-21: the archive.org scan patrologicursus55migngoog (757 pdf pages = 757 djvu objects). Corner numbers read on the plate: p430 = 853/854 (Quaestiones et dubia, Greek left), p440 = 873/874 (Expositio orationis dominicae, Greek left) → col = 2×page − 7, no duplicate leaves between. Greek side by colLeft mod 4 (1 → left, 3 → right), as PG 91. THEOPEMPTUS (2026-11-21): the offset is different here: corners read p699 = 1371/1372, p704 = 1381/1382, p709 = 1391/1392, p710 = 1393/1394 (title ΠΡΟΣ ΘΕΟΠΕΜΠΤΟΝ, Greek left), p713 = 1399/1400, p714 = 1401/1402 (Capita alia) → col = 2×page − 27 in this stretch (10 extra leaves between p440 and p699: not located, not needed). CAPITA ALIA (2026-11-21): corners p724 = 1421/1422, p734 = 1441/1442, p743 = 1459/1460, p744 = 1461/1462 (a new piece «ΤΟΥ ΑΓΙΟΥ ΜΑΞΙΜΟΥ» mid-page, «EX OPERE LXIII DUBIORUM» head), p745 = INDICES → col = 2×page − 27 holds to the end of the volume; no duplicate leaves. DIVERSA CAPITA (2026-11-22): corners p590 = 1153/1154, p600 = 1173/1174 (ΑΝΕΠΙΓΡΑΦΟΥ ΣΧΟΛΙΑ on the Capita theologica), p605 = 1183/1184 → col = 2×page − 27 from p590 at least.",
+ "method": "2026-11-21: the archive.org scan patrologicursus55migngoog (757 pdf pages = 757 djvu objects). Corner numbers read on the plate: p430 = 853/854 (Quaestiones et dubia, Greek left), p440 = 873/874 (Expositio orationis dominicae, Greek left) → col = 2×page − 7, no duplicate leaves between. Greek side by colLeft mod 4 (1 → left, 3 → right), as PG 91. THEOPEMPTUS (2026-11-21): the offset is different here: corners read p699 = 1371/1372, p704 = 1381/1382, p709 = 1391/1392, p710 = 1393/1394 (title ΠΡΟΣ ΘΕΟΠΕΜΠΤΟΝ, Greek left), p713 = 1399/1400, p714 = 1401/1402 (Capita alia) → col = 2×page − 27 in this stretch (10 extra leaves between p440 and p699: not located, not needed). CAPITA ALIA (2026-11-21): corners p724 = 1421/1422, p734 = 1441/1442, p743 = 1459/1460, p744 = 1461/1462 (a new piece «ΤΟΥ ΑΓΙΟΥ ΜΑΞΙΜΟΥ» mid-page, «EX OPERE LXIII DUBIORUM» head), p745 = INDICES → col = 2×page − 27 holds to the end of the volume; no duplicate leaves. DIVERSA CAPITA (2026-11-22): corners p590 = 1153/1154, p600 = 1173/1174 (ΑΝΕΠΙΓΡΑΦΟΥ ΣΧΟΛΙΑ on the Capita theologica), p605 = 1183/1184 → col = 2×page − 27 from p590 at least. QUAESTIONES ET DUBIA (2026-11-23): corners read p394 = 781/782 (Ad Thal. end), p395 = 783/784 (Ad Thal. scholia), p396 = 785/786 (Ad Thal. scholia end, then title ΤΟΥ ΑΥΤΟΥ ΠΕΥΣΕΙΣ … Greek left), p410 = 813/814, p420 = 833/834 → col = 2×page − 7 holds from p394; end p431 «Deest finis» above the Ps 59 Monitum.",
  "anchorsPlateVerified": [
   430,
   440,
@@ -22,10 +22,267 @@
   744,
   590,
   600,
-  605
+  605,
+  394,
+  395,
+  396,
+  410,
+  420
  ],
  "duplicateLeaves": [],
  "pages": [
+  {
+   "leaf": 393,
+   "pdfPage": 394,
+   "colLeft": 781,
+   "colRight": 782,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 394,
+   "pdfPage": 395,
+   "colLeft": 783,
+   "colRight": 784,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 395,
+   "pdfPage": 396,
+   "colLeft": 785,
+   "colRight": 786,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 396,
+   "pdfPage": 397,
+   "colLeft": 787,
+   "colRight": 788,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 397,
+   "pdfPage": 398,
+   "colLeft": 789,
+   "colRight": 790,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 398,
+   "pdfPage": 399,
+   "colLeft": 791,
+   "colRight": 792,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 399,
+   "pdfPage": 400,
+   "colLeft": 793,
+   "colRight": 794,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 400,
+   "pdfPage": 401,
+   "colLeft": 795,
+   "colRight": 796,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 401,
+   "pdfPage": 402,
+   "colLeft": 797,
+   "colRight": 798,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 402,
+   "pdfPage": 403,
+   "colLeft": 799,
+   "colRight": 800,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 403,
+   "pdfPage": 404,
+   "colLeft": 801,
+   "colRight": 802,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 404,
+   "pdfPage": 405,
+   "colLeft": 803,
+   "colRight": 804,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 405,
+   "pdfPage": 406,
+   "colLeft": 805,
+   "colRight": 806,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 406,
+   "pdfPage": 407,
+   "colLeft": 807,
+   "colRight": 808,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 407,
+   "pdfPage": 408,
+   "colLeft": 809,
+   "colRight": 810,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 408,
+   "pdfPage": 409,
+   "colLeft": 811,
+   "colRight": 812,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 409,
+   "pdfPage": 410,
+   "colLeft": 813,
+   "colRight": 814,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 410,
+   "pdfPage": 411,
+   "colLeft": 815,
+   "colRight": 816,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 411,
+   "pdfPage": 412,
+   "colLeft": 817,
+   "colRight": 818,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 412,
+   "pdfPage": 413,
+   "colLeft": 819,
+   "colRight": 820,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 413,
+   "pdfPage": 414,
+   "colLeft": 821,
+   "colRight": 822,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 414,
+   "pdfPage": 415,
+   "colLeft": 823,
+   "colRight": 824,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 415,
+   "pdfPage": 416,
+   "colLeft": 825,
+   "colRight": 826,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 416,
+   "pdfPage": 417,
+   "colLeft": 827,
+   "colRight": 828,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 417,
+   "pdfPage": 418,
+   "colLeft": 829,
+   "colRight": 830,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 418,
+   "pdfPage": 419,
+   "colLeft": 831,
+   "colRight": 832,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 419,
+   "pdfPage": 420,
+   "colLeft": 833,
+   "colRight": 834,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 420,
+   "pdfPage": 421,
+   "colLeft": 835,
+   "colRight": 836,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 421,
+   "pdfPage": 422,
+   "colLeft": 837,
+   "colRight": 838,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 422,
+   "pdfPage": 423,
+   "colLeft": 839,
+   "colRight": 840,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 423,
+   "pdfPage": 424,
+   "colLeft": 841,
+   "colRight": 842,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 424,
+   "pdfPage": 425,
+   "colLeft": 843,
+   "colRight": 844,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 425,
+   "pdfPage": 426,
+   "colLeft": 845,
+   "colRight": 846,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 426,
+   "pdfPage": 427,
+   "colLeft": 847,
+   "colRight": 848,
+   "greekSide": "right"
+  },
+  {
+   "leaf": 427,
+   "pdfPage": 428,
+   "colLeft": 849,
+   "colRight": 850,
+   "greekSide": "left"
+  },
+  {
+   "leaf": 428,
+   "pdfPage": 429,
+   "colLeft": 851,
+   "colRight": 852,
+   "greekSide": "right"
+  },
   {
    "leaf": 429,
    "pdfPage": 430,
