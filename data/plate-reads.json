@@ -20196,5 +20196,392 @@
         "found": "image check 2026-11-21 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through; the page's gutter letter A and the end of the work after «Ἀμήν» (p0744.11) were read at the plate"
       }
     ]
+  }
+,
+  "maximus-confessor-diversa-capita": {
+    "series": "pg",
+    "volume": 90,
+    "scan": "raw/pg-pdf/090.pdf (archive.org patrologicursus55migngoog, PG 90), Kraken pages rendered to raw/kraken/maximus-diversa-capita/pages/",
+    "page_map": "data/pg-column-maps/pg090.json (extended to pp. 590-708 2026-11-22; corner numbers read on the plate: p590 = 1153/1154, p600 = 1173/1174, p602 = 1177/1178, p605 = 1183/1184; col = 2×page − 27 in this stretch)",
+    "note": "Greek = our Kraken read, rule pass, every flagged reading looked up at the plate in the image check. No [sic:]/[var:] marker is placed: the print-error rows are listed on the cruces page. The pages recorded here carry print-error rows; each was read at the plate in the image check, the page was not read through. p-0604 (col. 1181) is NOT recorded: our scan clips its left margin, the line openings are supplied from another transcription, and no plate read of it exists.",
+    "reads": [
+      {
+        "page": 607,
+        "cols": [
+          "1187",
+          "1188"
+        ],
+        "from": "1187",
+        "to": "1188",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 608,
+        "cols": [
+          "1189",
+          "1190"
+        ],
+        "from": "1189",
+        "to": "1190",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 610,
+        "cols": [
+          "1193",
+          "1194"
+        ],
+        "from": "1193",
+        "to": "1194",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 611,
+        "cols": [
+          "1195",
+          "1196"
+        ],
+        "from": "1195",
+        "to": "1196",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 616,
+        "cols": [
+          "1205",
+          "1206"
+        ],
+        "from": "1205",
+        "to": "1206",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 617,
+        "cols": [
+          "1207",
+          "1208"
+        ],
+        "from": "1207",
+        "to": "1208",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 619,
+        "cols": [
+          "1211",
+          "1212"
+        ],
+        "from": "1211",
+        "to": "1212",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 626,
+        "cols": [
+          "1225",
+          "1226"
+        ],
+        "from": "1225",
+        "to": "1226",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 635,
+        "cols": [
+          "1243",
+          "1244"
+        ],
+        "from": "1243",
+        "to": "1244",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 638,
+        "cols": [
+          "1249",
+          "1250"
+        ],
+        "from": "1249",
+        "to": "1250",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 639,
+        "cols": [
+          "1251",
+          "1252"
+        ],
+        "from": "1251",
+        "to": "1252",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 641,
+        "cols": [
+          "1255",
+          "1256"
+        ],
+        "from": "1255",
+        "to": "1256",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 646,
+        "cols": [
+          "1265",
+          "1266"
+        ],
+        "from": "1265",
+        "to": "1266",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 649,
+        "cols": [
+          "1271",
+          "1272"
+        ],
+        "from": "1271",
+        "to": "1272",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 655,
+        "cols": [
+          "1283",
+          "1284"
+        ],
+        "from": "1283",
+        "to": "1284",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 658,
+        "cols": [
+          "1289",
+          "1290"
+        ],
+        "from": "1289",
+        "to": "1290",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 666,
+        "cols": [
+          "1305",
+          "1306"
+        ],
+        "from": "1305",
+        "to": "1306",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 667,
+        "cols": [
+          "1307",
+          "1308"
+        ],
+        "from": "1307",
+        "to": "1308",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 669,
+        "cols": [
+          "1311",
+          "1312"
+        ],
+        "from": "1311",
+        "to": "1312",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 672,
+        "cols": [
+          "1317",
+          "1318"
+        ],
+        "from": "1317",
+        "to": "1318",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 676,
+        "cols": [
+          "1325",
+          "1326"
+        ],
+        "from": "1325",
+        "to": "1326",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 677,
+        "cols": [
+          "1327",
+          "1328"
+        ],
+        "from": "1327",
+        "to": "1328",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 685,
+        "cols": [
+          "1343",
+          "1344"
+        ],
+        "from": "1343",
+        "to": "1344",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 691,
+        "cols": [
+          "1355",
+          "1356"
+        ],
+        "from": "1355",
+        "to": "1356",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 692,
+        "cols": [
+          "1357",
+          "1358"
+        ],
+        "from": "1357",
+        "to": "1358",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 701,
+        "cols": [
+          "1375",
+          "1376"
+        ],
+        "from": "1375",
+        "to": "1376",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 702,
+        "cols": [
+          "1377",
+          "1378"
+        ],
+        "from": "1377",
+        "to": "1378",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 706,
+        "cols": [
+          "1385",
+          "1386"
+        ],
+        "from": "1385",
+        "to": "1386",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      },
+      {
+        "page": 708,
+        "cols": [
+          "1389",
+          "1390"
+        ],
+        "from": "1389",
+        "to": "1390",
+        "depth": "read",
+        "date": "2026-11-22",
+        "corners_checked": false,
+        "found": "image check 2026-11-22 (IMAGE-CHECK.tsv): every reading flagged on this page was looked up at the plate; the page's print-error rows (PRINT-ERRORS.tsv) were read there; the page was not read through"
+      }
+    ]
   } }
 }

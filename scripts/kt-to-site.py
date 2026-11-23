@@ -54,6 +54,11 @@ CONF = {
     # Maximus, Capita alia (2026-11-21): Kraken base, PG 90 pp. 714-744 (cmap pg090, col = 2*page-27; p0744 ends at line 11), all Greek; five chunks ca-001..005; tables by scripts/ca-tables.py.
     'maximus-capita-alia': dict(editor='', key='maximus-confessor-capita-alia', vol=90, cmap='data/pg-column-maps/pg090.json',
                                 xml='raw/pg090/090_djvu.xml', prefix='ca', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
+    # Maximus, Diversa capita (2026-11-22): Kraken base, PG 90 pp. 602-709 (cmap pg090, col = 2*page-27; p0709 ends at line 37), all Greek; 19 chunks dc-001..019; tables by scripts/dc-tables.py.
+    # `clipped`: col. 1181 (p0604) is clipped at the left margin in our only scan; the line openings come from another transcription: said on the cruces page.
+    'maximus-diversa-capita': dict(editor='', key='maximus-confessor-diversa-capita', vol=90, cmap='data/pg-column-maps/pg090.json',
+                                   xml='raw/pg090/090_djvu.xml', prefix='dc', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True, clippedpage='p0604',
+                                   clipped={'1181': 'In our scan the left edge of this column is clipped; the line openings are supplied from the myriobiblos transcription and the facing Latin, and are not checked against the plate.'}),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv
@@ -428,6 +433,8 @@ if __name__ == '__main__':
             o.write(f"- p. {n['page'][2:]} ({n.get('series')}, {n.get('marker') or 'marker illegible'}): {n['text']}"
                     + (f" — keyed to {n.get('latinWord') or n.get('greekWord') or ''}" if (n.get('latinWord') or n.get('greekWord')) else '')
                     + (f" — **working translation** (a first reading by the apparatus reader, not yet reviewed): {n['en']}" if C.get('showen') and n.get('en') else '') + '\n')
+        for col_, txt_ in (C.get('clipped') or {}).items():          # a column our scan does not show whole: marked here, not counted among the plate reads
+            o.write(f'\n## Column {col_}: clipped in our scan\n\n**{col_}** \u00b7 {txt_}\n')
         pef = f'{T}/verify/PRINT-ERRORS.tsv'; icf = f'{T}/IMAGE-CHECK.tsv'
         if C.get('stripcalls') and os.path.exists(pef) and os.path.exists(icf):      # Maximus: the plate check's M rows are the [sic:] layer, listed here, NOT applied to the Greek
             ic = list(csv.DictReader(open(icf), delimiter='\t')); cnt = {v: sum(1 for r in ic if r['verdict'] == v) for v in 'RMP?'}
@@ -435,7 +442,8 @@ if __name__ == '__main__':
                     'looked up again on the page image, 2026-11-06). Every reading the translators flagged '
                     f'({len(ic)}) was looked up: {cnt["R"]} were slips in our own transcription and are corrected in the Greek without comment; {cnt["M"]} are Migne\'s{(" (" + C.get("editor", "Combefis") + "\'s)") if C.get("editor", "Combefis") else ""} own type, '
                     'wrong or irregular on the page itself (the Greek stands as printed; where the sense needs it the English follows the corrected reading); '
-                    f'{cnt["P"]} are readings where the plate prints the form the translator doubted (Migne\'s text, kept); {cnt["?"]} were not settled at the plate. '
+                    f'{cnt["P"]} are readings where the plate prints the form the translator doubted (Migne\'s text, kept); {cnt["?"]} were not settled at the plate'
+                    + (f' (of them {sum(1 for r in ic if r["verdict"] == "?" and r["tag"].startswith(C["clippedpage"]))} stand on the clipped column {next(iter(C["clipped"]))}: not plate-checkable, supplied from another transcription, and not counted as plate reads)' if C.get('clipped') and C.get('clippedpage') else '') + '. '
                     'No misprint is marked `[sic:]` in the English: that mark claims a defect in Migne\'s page and waits on a full-page reading of each column. '
                     f'The {cnt["M"]} print-error rows:\n\n')
             o.write('| page.line | printed | read as | note |\n|---|---|---|---|\n')
