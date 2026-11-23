@@ -44,3 +44,13 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   Brackets: βάσιν [φύσιν] variant (ch. 50); «[ξδʹ …]» around ch. III.64's first line (column rule? settle at the apparatus); lone «]» = column rule.
   ⚑ **ch. III.48 «συστελλό-» cut at the p653 foot: coordinator plate read → a one-word last line «μενον.» Kraken never segmented** → restored (p0653.54, `RESTORED-LINES.tsv`).
   Scan of all 107 page seams for the same pattern (hyphen + new chapter; unpunctuated end + new chapter): no other loss (p616 = glued band letter; p619 «φύλαε» = a leaked asterisk note «Quaest. 24 ad Thalas., φύλακε»).
+- ✅ dc-011_012: dc-011 2,217 → ≈2,751, 30 notes, 74 rows, cols 1296–1305, III.79 (end)–100, FOURTH CENTURY, IV.1–9; dc-012 2,245 → ≈2,664, 29 notes, **111 rows**, cols 1308–1317, IV.9–34. Numbering unbroken.
+  Brackets (settle at the apparatus): III.89 λύπης [ὀδύνης], λυπεῖ [ταπεινοῖ]; III.92 [, τοῦ εἴδους ἀπεύχεσθαι]; **III.94–99 a [ … ] pair spanning six chapters?**; IV.2, IV.18 garbled variants; IV.21 πεφύκασι [πεφύκαμεν];
+  **IV.22, IV.26 unclosed brackets rendered as supplements (extent assumed)**; IV.29 [, ἔφεσιν,]; IV.33 λόγος [Θεός]. Least sure: III.88 a word lost («κόλασις( λύπη», `[?]`); IV.6 προβαλών/προσβαλών; III.81 τοῦ βασιλεύειν (LXX μὴ).
+- ✅ dc-013_014: dc-013 1,905 → ≈2,283, 11 notes, 42 rows, cols 1320–1328, IV.34–54; dc-014 1,884 → ≈2,281, 20 notes, 42 rows, cols 1329–1337, IV.54–78. Numbering unbroken.
+  ⚑ **p0674.10 ἀπαθοῦς → παθούσης** (English follows the Latin *laborantis*; printed «passionless» reverses the argument): image check. IV.58 προσλαβόν (Latin) vs witness προλαβόν; IV.71 τόπῳ for τρόπῳ.
+  ⚠ **p0673 ch. IV.36: a MID-PAGE line dropped by Kraken** — coordinator plate read: «ἀπάθειαν, ἡ κατὰ νοῦν τῆς θείας ἡδονῆς ἐπιγίνεται» between line 17 (…τὴν γνωμικὴν) and line 18 (χάρις.).
+  → GREEK-PATCH at build: append it to p0673:17 (keeps every later tag); ENGLISH FIX: replace the `[?]` in dc-013 ch. 36 with the plate text.
+- **Lost-line audit, whole work (coordinator):** (1) seam scan of 107 page ends; (2) witness scan: every run of ≥5 myriobiblos words absent from the Kraken text → **only p0673.18** (all other hits =
+  myriobiblos navigation text). Restored so far: p0637.53, p0687.52–53, p0653.54 (`RESTORED-LINES.tsv`) + p0673 (patch). p604 = clipped scan (ruling above). One-word losses below the 5-word
+  threshold are left to the translators' «a line seems lost» rows + the image check.
