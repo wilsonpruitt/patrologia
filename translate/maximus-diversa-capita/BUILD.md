@@ -23,10 +23,11 @@ After any rebuild, restore `data/volumes.json`'s `generated` date with `git chec
    (never by regex alone: Kraken mangles the numerals, the koppa above all); list any you placed by hand. Alignment target: chapter pairs chapter; century heading pairs heading.
 4. **PRINT-ERRORS** = the **42 M rows** of `IMAGE-CHECK.tsv` (cruces page, not applied). The 143 `?` stay as printed (45 of them are the clipped p0604 rows: list them as "not plate-checkable", not as reads).
    plate-reads.json for every page with a PRINT-ERRORS row (not p-0604 unless it has a real read).
-5. **Apparatus**: `notes/result-1.jsonl` (602–628), `result-2.jsonl` (629–655), `result-3b.jsonl` (656–664, re-read), **`result-3c.jsonl` (665–682, re-read) — use it and NOT the 665–682 lines of
-   `result-3.jsonl`** (drop result-3.jsonl entirely if 3c covers all 18 pages; if 3c has `unread` pages, keep result-3's lines ONLY for those pages and list them), `result-4a.jsonl` (683–692), `result-4b.jsonl` (693–702),
-   `result-4.jsonl` (703–709). Series: numbered (Latin locators), lettered (editor's notes, Greek scholia), asterisk, scholion, `bracket-inline` (Migne's brackets INSIDE the Greek text: these are text, already
-   in the Greek; they go on the cruces page as notes, NOT placed again). Join `continued`/`continuesFrom` notes. Drop `orphanCall`, `none`, `unread`, `work: following` lines. Placement as the Capita alia.
+5. **Apparatus — use exactly these files** (all read from images actually seen; `result-3.jsonl` is RETIRED: do not use it): `notes/result-1.jsonl` (602–628), `result-2.jsonl` (629–655),
+   `result-3b.jsonl` (656–664), `result-3d.jsonl` (665–673, 675–679), `result-3c.jsonl` (ONLY its seen pages 674, 680–682; skip its `unread` lines), `result-4a.jsonl` (683–692), `result-4b.jsonl` (693–702),
+   `result-4.jsonl` (703–709). Series: numbered (Latin locators), lettered (editor's notes, Greek scholia), asterisk, scholion, `bracket-inline` (Migne's brackets INSIDE the Greek text: already text; they go on the
+   cruces page as notes, NOT placed again). Join `continued`/`continuesFrom` notes (also across files: p-0677 (r) → p-0678; p-0679 (t) → p-0680 in result-3c). Drop `orphanCall`, `none`, `unread`, `work: following`
+   lines. Placement as the Capita alia. Report counts per file.
 6. **[?] 1 expected** (I.8, dc-001, the clipped col. 1181). [sic:] 0.
 7. **Registry**: key `maximus-confessor-diversa-capita`, slug `diversa-capita`, volume 90, title "Diversa capita ad theologiam et oeconomiam spectantia", titleEn "Various Chapters on Theology and the Economy",
    citRange "PG 90, 1177–1392", 19 chunks, NO `englishState`, status "TRANSLATED 2026-11-22 (kt method, Opus; image-checked; apparatus; LOCAL BUILD, not shipped)", `translationStatus` "exists"-shape as Ps 59's (a complete
