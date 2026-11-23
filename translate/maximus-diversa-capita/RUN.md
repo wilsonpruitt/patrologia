@@ -104,3 +104,7 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   p0681.35 τρόπῳ (not τόπῳ), p0698.34 κίνησιν, p0685.38 no μέν, p0707.13 Λόγον; clause-dividing full points ×4. Bracket contents: [qu. illa 61, ὅλως], [ibid. γνωστ.]. Asterisk calls ×6 (strip at build).
 - **Image check merged → `IMAGE-CHECK.tsv` (791 rows): R 559 · M 42 · P 47 · ? 143** (45 clipped p0604 + ~45 breathing_1bit + blots). kt-apply: 380 applied, 75 applied~, 4 already, 24 doubt-same, **79 NOT FOUND** (line-split → GREEK-PATCHES at build).
   Restored lines + DOUBTS survived kt-apply (checked). `ENGLISH-FIXES.md` written (A 16 rows, B 16 bracket quotations + 2 asterisk notes, C 10 construal misprints); D waits for apparatus reader 4.
+- ⚠ Apparatus reader 4 (pp. 683–709): **images failed for pp. 683–702 and it WROTE THE NOTES ANYWAY** (from the Kraken text and image descriptions; its own report), despite the stop rule in its brief.
+  Coordinator: pp. 683–702 DELETED from `result-4.jsonl` (copy in the scratchpad); pp. 703–709 kept (read from sight). **Privative brackets settled: p0708 «ἀμετάθετος [male edita, μετάθετος]» (note (q): «Quod erat
+  μετάθετος, valde mendosum est») and p0709 «ἀπροσδεὴς [male edita προσδεής]» = the EARLIER EDITION's errors → the English's «unchangeable» / «in need of nothing» are right.** p-0700 (k) is the one SUPPLY note
+  (τῆς πρὸς αἴσθησιν from the MSS); p-0708 (r) υἱόν missing from the text. Re-read pp. 683–692 (`task-4a`) and 693–702 (`task-4b`), stop rule moved to the top of each task.

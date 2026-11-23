@@ -46,3 +46,9 @@ p0702.07 τὸν νοερὸν (τὸ) · p0708.16 ἕξιν (ἕξις) · p070
 Accent/breathing/letter misprints that change nothing: no note (the cruces page lists them).
 
 ## D. From the apparatus, pp. 683–709 (filled in by the coordinator when reader 4 reports)
+17. **V.~95 p0708.25**: Migne prints «ἀμετάθετος [male edita, μετάθετος]», and his note (q) says «Quod erat μετάθετος, valde mendosum est»: the English «unchangeable» stands; rewrite the T note («Not followed …») to say
+    the bracket records the EARLIER EDITION's faulty reading without the privative, which the editor rejects.
+18. **V.~99 p0709.18**: «ἀπροσδεὴς [male edita προσδεής]»: the same pattern; «in need of nothing» stands; T note as 17.
+19. **p0708.07** «ὑποδεκτικὴ [ἀποδεκτικὴ]» and the other dc-019 brackets: quote them as printed if result-4 gives the full bracket; p-0708 note (r): υἱόν missing from the text — check the English's chapter there.
+20. **p-0700 note (k)**: the editor SUPPLIES «τῆς πρὸς αἴσθησιν» from the manuscripts: find its chapter (V.~60–65) and make the English follow the supplement in [ ] with a T note, if it does not already.
+(Rows from the re-read of pp. 656–702 may be added below before the fixer runs.)
