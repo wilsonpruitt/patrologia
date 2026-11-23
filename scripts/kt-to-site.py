@@ -59,6 +59,9 @@ CONF = {
     'maximus-diversa-capita': dict(editor='', key='maximus-confessor-diversa-capita', vol=90, cmap='data/pg-column-maps/pg090.json',
                                    xml='raw/pg090/090_djvu.xml', prefix='dc', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True, clippedpage='p0604',
                                    clipped={'1181': 'In our scan the left edge of this column is clipped; the line openings are supplied from the myriobiblos transcription and the facing Latin, and are not checked against the plate.'}),
+    # Maximus, Quaestiones et dubia (2026-11-23): Kraken base, PG 90 pp. 396-431 (cmap pg090, col = 2*page-7; p0396 starts at line 24, p0431 ends at line 28), all Greek; six chunks qd-001..006; tables by scripts/qd-tables.py.
+    'maximus-quaestiones-dubia': dict(editor='', key='maximus-confessor-quaestiones-et-dubia', vol=90, cmap='data/pg-column-maps/pg090.json',
+                                      xml='raw/pg090/090_djvu.xml', prefix='qd', lineinitial=True, stripcalls=True, wrapnotes=True, showen=True, anglenotes=True),
 }
 CALLRE = re.compile(r'\s*\([^()\s]{1,3}\)|\s*[⁰¹²³⁴⁵⁶⁷⁸⁹]+')
 work = sys.argv[1]; DRY = '--dry' in sys.argv
@@ -175,9 +178,10 @@ def greek(ci):
                 line = nfc(patched(pdf, i, raw_))
                 if not line: continue
                 if (pg, i) in MP_BREAK: items.append(('para', ''))
-                if '¶' in line:                                                   # mid-line paragraph break (Disputatio p-0195:8)
-                    first, second = line.split('¶', 1)
-                    items.append(('line', (f'[b: {bd[0]}] ' if bd else '') + first)); items.append(('para', '')); items.append(('line', second))
+                if '¶' in line:                                                   # mid-line paragraph break (Disputatio p-0195:8; several in one line: Quaestiones et dubia, heading + question + answer)
+                    first, *others = line.split('¶')
+                    items.append(('line', (f'[b: {bd[0]}] ' if bd else '') + first))
+                    for second in others: items.append(('para', '')); items.append(('line', second))
                     continue
                 items.append(('line', (f'[b: {bd[0]}] ' if bd else '') + line))
                 continue

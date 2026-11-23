@@ -1,0 +1,115 @@
+{
+  "workKey": "maximus-confessor-quaestiones-et-dubia",
+  "series": "pg",
+  "volume": 90,
+  "title": "Quaestiones et dubia",
+  "titleEn": "Questions and Doubts",
+  "authors": [
+    "Maximus the Confessor"
+  ],
+  "citRange": "PG 90, 785–856",
+  "chunkCount": 6,
+  "greekSource": "ours-kraken",
+  "builtBy": "scripts/kt-to-site.py (kt method: translated before site chunking; cuts are the translators')",
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "source": "qd-001",
+      "colFirst": "0785",
+      "colLast": "0800",
+      "words": 1394,
+      "pdfPages": [
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "0002.md",
+      "source": "qd-002",
+      "colFirst": "0801",
+      "colLast": "0812",
+      "words": 1471,
+      "pdfPages": [
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ]
+    },
+    {
+      "chunk": 3,
+      "file": "0003.md",
+      "source": "qd-003",
+      "colFirst": "0813",
+      "colLast": "0824",
+      "words": 1491,
+      "pdfPages": [
+        410,
+        411,
+        412,
+        413,
+        414,
+        415
+      ]
+    },
+    {
+      "chunk": 4,
+      "file": "0004.md",
+      "source": "qd-004",
+      "colFirst": "0825",
+      "colLast": "0833",
+      "words": 1364,
+      "pdfPages": [
+        416,
+        417,
+        418,
+        419,
+        420
+      ]
+    },
+    {
+      "chunk": 5,
+      "file": "0005.md",
+      "source": "qd-005",
+      "colFirst": "0836",
+      "colLast": "0844",
+      "words": 1266,
+      "pdfPages": [
+        421,
+        422,
+        423,
+        424,
+        425
+      ]
+    },
+    {
+      "chunk": 6,
+      "file": "0006.md",
+      "source": "qd-006",
+      "colFirst": "0845",
+      "colLast": "0856",
+      "words": 1544,
+      "pdfPages": [
+        426,
+        427,
+        428,
+        429,
+        430,
+        431
+      ]
+    }
+  ],
+  "colFirst": "0785",
+  "colLast": "0856",
+  "words": 8530
+}
