@@ -52,3 +52,7 @@ Accent/breathing/letter misprints that change nothing: no note (the cruces page 
 19. **p0708.07** «ὑποδεκτικὴ [ἀποδεκτικὴ]» and the other dc-019 brackets: quote them as printed if result-4 gives the full bracket; p-0708 note (r): υἱόν missing from the text — check the English's chapter there.
 20. **p-0700 note (k)**: the editor SUPPLIES «τῆς πρὸς αἴσθησιν» from the manuscripts: find its chapter (V.~60–65) and make the English follow the supplement in [ ] with a T note, if it does not already.
 (Rows from the re-read of pp. 656–702 may be added below before the fixer runs.)
+21. **V.51 p0698.34**: the plate prints κίνησιν; the editor's note (i) proposes κένωσιν or χύσιν (the Latin *fundimus ac libamus*). The English keeps «motion» (the printed word); T note: «Migne prints κίνησιν; his editor
+    conjectures κένωσιν or χύσιν ("pouring out"), which the facing Latin renders.»
+22. Bracket quotations from the re-read (pp. 693–702): p0696.12 «[qu. 65, τυπικ.]», p0696.14 «[ibid. γνωστ.]», p0702.16 «[male edita δεδόμενον]» (the earlier edition's error). p-0696 (e) and p-0700 (k): the editor
+    restored ἐπείσακτον and τῆς πρὸς αἴσθησιν from the manuscripts — both stand unbracketed in Migne's text: no English change; a T note at each only if the chapter's English mentions a doubt there.
