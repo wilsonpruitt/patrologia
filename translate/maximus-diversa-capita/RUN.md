@@ -54,3 +54,7 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
 - **Lost-line audit, whole work (coordinator):** (1) seam scan of 107 page ends; (2) witness scan: every run of ≥5 myriobiblos words absent from the Kraken text → **only p0673.18** (all other hits =
   myriobiblos navigation text). Restored so far: p0637.53, p0687.52–53, p0653.54 (`RESTORED-LINES.tsv`) + p0673 (patch). p604 = clipped scan (ruling above). One-word losses below the 5-word
   threshold are left to the translators' «a line seems lost» rows + the image check.
+- ✅ dc-015_016: dc-015 2,227 → ≈2,679, 24 notes, 84 rows, cols 1340–1349, IV.78–100, FIFTH CENTURY, V.1–6; dc-016 1,894 → ≈2,294, 22 notes, 48 rows, cols 1352–1360, V.7–32. Numbering unbroken.
+  Negative restored: **IV.98 p0687.19 «παντελὸς οἶ» → παντελῶς οὐ** (Latin *non potest*). Brackets: V. p0689.19 πᾶσιν [πᾶν (unclosed) variant; p0690.49 ἤπουγε [ὅπου γε] variant.
+  ⚑ **IV.96 p0687.03: coordinator plate read → a one-word line «κακίαν.» Kraken never segmented** → GREEK-PATCH at build (append to p0687:3); ENGLISH FIX: the translator supplied «sin» → «vice» (κακία).
+  Least sure: IV.84 θέσει κίνησιν (Latin *voluntatis* = θελήσει?); V.23 ἀνάθημα/ἀνάθεμα (plate: misprint?).
