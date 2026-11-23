@@ -58,3 +58,5 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   Negative restored: **IV.98 p0687.19 «παντελὸς οἶ» → παντελῶς οὐ** (Latin *non potest*). Brackets: V. p0689.19 πᾶσιν [πᾶν (unclosed) variant; p0690.49 ἤπουγε [ὅπου γε] variant.
   ⚑ **IV.96 p0687.03: coordinator plate read → a one-word line «κακίαν.» Kraken never segmented** → GREEK-PATCH at build (append to p0687:3); ENGLISH FIX: the translator supplied «sin» → «vice» (κακία).
   Least sure: IV.84 θέσει κίνησιν (Latin *voluntatis* = θελήσει?); V.23 ἀνάθημα/ἀνάθεμα (plate: misprint?).
+- ✅ dc-019: 1,268 → ≈1,550, 14 notes, 55 rows, cols 1385–1392, V.86 (cont.)–100 + closing line. Numbering complete. **Brackets dropping a privative**: p0708.25 ἀμετάθετος [, μετάθετος]; p0709.18
+  ἀπροσδεής [προσδεής] — English keeps the printed privatives (T notes open «Not followed»): settle with the editor's notes. p0708.07 ὑποδεκτικὴ [ἀποδεκτικὴ] variant. Least sure: p0706.37 ἀκίνητος vs Latin *a se mobilis*.
