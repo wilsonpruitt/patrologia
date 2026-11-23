@@ -19,6 +19,7 @@ open a chunk's scaffold `dc-0NN.md` to see the Greek behind an English word. No 
 - **ἐπίγνωσις = full knowledge** (not «recognition»). **σύνεσις = intelligence** (not «understanding»/«insight»; διάνοια = understanding).
 - **θεώρημα = object of contemplation.** **οἴησις = conceit; τῦφος = arrogance.** **ἐνθύμησις = pondering.** **κλῆσις = name.** **ὅρος = limit** (boundary only where spatial).
 - **ἐπιγνωμοσύνη = fair judgement; εὐγνωμοσύνη = gratitude.** **οἰκειότης = intimacy** (Mystagogia ruling); **οἰκείωσις = kinship; ἀγχιστεία = near-kinship.**
+- **δικαιοσύνη = justice** (the cardinal virtue, as in the Capita alia) but **righteousness** inside a Scripture quotation or allusion (dc-017/018 used «righteousness» throughout: check each).
 - **ἄπτωτος = unfalling; ἄπταιστος = infallible; ἀδιάπτωτος = unfailing.**
 - **ἐγκράτεια = self-control; ἀπάθεια/ἀπαθής = passionlessness/passionless; ἔννοια = notion; νόημα = concept** (2 Cor 2:11 «devices» stays, S-noted).
 - **διάκρισις**: «discernment» for the virtue, «distinction» for the logical/ontological sense — leave as the translators chose by sense, but each chunk's first use carries a T note.

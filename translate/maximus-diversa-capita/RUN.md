@@ -60,3 +60,8 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   Least sure: IV.84 θέσει κίνησιν (Latin *voluntatis* = θελήσει?); V.23 ἀνάθημα/ἀνάθεμα (plate: misprint?).
 - ✅ dc-019: 1,268 → ≈1,550, 14 notes, 55 rows, cols 1385–1392, V.86 (cont.)–100 + closing line. Numbering complete. **Brackets dropping a privative**: p0708.25 ἀμετάθετος [, μετάθετος]; p0709.18
   ἀπροσδεής [προσδεής] — English keeps the printed privatives (T notes open «Not followed»): settle with the editor's notes. p0708.07 ὑποδεκτικὴ [ἀποδεκτικὴ] variant. Least sure: p0706.37 ἀκίνητος vs Latin *a se mobilis*.
+- ✅ dc-017_018: dc-017 2,055 → ≈2,526, 29 notes, 47 rows, cols 1361–1372, V.32 (cont.)–58; dc-018 2,126 → ≈2,632, 20 notes, 52 rows, cols 1373–1384, V.59–86 (ends at the colon). Numbering unbroken; no `[?]`.
+  Brackets (all variants, printed word kept): p0696.12 τοπικῆς [τυπικ.]; p0696.14 γνωμικῶς [al. γνωστ.]; p0702.16 δεχόμενον [δεδόμενον]. Least sure: V.51 κίνησιν (Latin *fundimus* → κένωσιν?); V.59 προσώπου.
+
+## ✅ Step 1 DONE 2026-11-22: all 19 chunks (10 Opus briefs, ≈2.0M); ≈48,000 English words; 500 chapters (5 × 100), numbering unbroken throughout (one printed «οϛʹ» twice in III).
+## Step 2 — sweep (Sonnet, `SWEEP.md`: 2 plate fixes IV.36/IV.96, ~20 term rulings, 18 seams) LAUNCHED. Step 4 apparatus: readers 1–2 running, 3–4 queued.
