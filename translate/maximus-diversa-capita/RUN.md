@@ -65,3 +65,9 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
 
 ## ✅ Step 1 DONE 2026-11-22: all 19 chunks (10 Opus briefs, ≈2.0M); ≈48,000 English words; 500 chapters (5 × 100), numbering unbroken throughout (one printed «οϛʹ» twice in III).
 ## Step 2 — sweep (Sonnet, `SWEEP.md`: 2 plate fixes IV.36/IV.96, ~20 term rulings, 18 seams) LAUNCHED. Step 4 apparatus: readers 1–2 running, 3–4 queued.
+## Step 3 — image check: `kt-sheet` → **791 rows, 33 sheets** (660 word, 125 line, 6 MISSING); 53 rows on clipped p0604 (sheets 001–003) → `?:clipped_scan` by ruling. Readers A 001–008, B 009–016, C 017–024, D 025–033 (Opus), launched as slots free.
+- ✅ **Step 2 sweep DONE** (Sonnet): plate fixes IV.36 (full line) + IV.96 («the vice of the soul»); terms: φρόνημα way of thinking ×2, αἰώνιος everlasting ×9, ἐπίγνωσις full knowledge ×9, σύνεσις intelligence ×4,
+  τῦφος arrogance ×6 / οἴησις conceit, ὅρος limit ×10, οἰκειότης intimacy, ἀγχιστεία near-kinship, δικαιοσύνη justice ×18 (righteousness kept in Scripture), ἄπτωτος/ἄπταιστος ×6, ἐπίνοια conception, διάκρισις T notes;
+  **seams: 6 repaired** (002/003 garbled, 004/005 doubled «of the», 008/009 «according to aspiration» missing, 010/011 object lost, 012/013 κατ᾿ εἶδος lost, 014/015 doubled «shining»);
+  structure verified (5 centuries × 1–100, 108 anchors 1177→1392); P-dupes → cross-refs; Scripture cf./italics fixes. `[?]` left: I.8 (clipped p604), IV.88 (short word lost).
+  Open for the apparatus/blind read: English [supplements] with no T note (III.84, III.94, IV.45, IV.47, IV.66, IV.68, IV.70, IV.77, V.4) — Migne's brackets or translators' supplies? check at the plate/apparatus.
