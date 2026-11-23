@@ -8,7 +8,7 @@
 Then strip DRAFT, rebuild (`node scripts/build-site.mjs <key>` each, preflight) → ONE deploy (own OK) → push (own OK) → englishState "ours" (own OK).
 Shared Maximus bio names Combefis (true of the Letters). Lessons in the RUNs: Migne's square brackets can mark a SUPPLEMENT or a DELETION (read the editor's note);
 Kraken drops short last lines (Theopemptus); summary sentences in about texts must come from the English (Theopemptus draft invented content).
-Next in the Maximus queue: #8 *Diversa capita* (PG 90.1177–1392, 36K words, Philokalia English exists, spurious as a work) — needs Wilson's call.
+- **#8 *Diversa capita*** RUNNING (Wilson's go 2026-11-21, ≈8–9M Opus, "keep going in order"): step 0 done (`c3aaa2e6`), 19 chunks / 10 briefs; round 1 (dc-001…006) launched 2026-11-22. If resuming: check which `dc-0NN.en.md` exist and launch the next briefs from `translate/maximus-diversa-capita/_briefs/` THREE at a time; then sweep → image check → kt-apply → apparatus (Greek foot scholia) → fixer → build → blind read. Score `translate/maximus-diversa-capita/RUN.md`.
 
 ## ▶ 2026-11-15 (Hymni) — queue #3 *Hymni*: plate-read base + Fable VERSE PILOT done (local commits); translation not started
 Three hymns (not two), 297 lines, cols 1417–1424. `translation-style.md` has the new "Greek verse" section V1–V10 (the *Anacreontica* inherits it); anchor + glossary in
