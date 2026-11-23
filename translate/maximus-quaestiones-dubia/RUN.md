@@ -68,3 +68,15 @@ Readers run ONE AT A TIME (image-agent rule): A = 001–006 LAUNCHED (beside the
   1 marker illegible (p-0400, not completed); p-0399 locator printed «II Thess. iv, 16» (sic: the verse is 1 Thess 4:16 → check at build); 3 placeholder lines deleted.
 - ⚠ **BURN CHECK (coordinator 2026-11-23): spent ≈1.6M** (translation 0.54 · sweep 0.15 · image check 0.43 · apparatus 1 0.41 · coordinator ≈0.1). **Projected all-in ≈3.3–3.5M** (apparatus 2–4 ≈1.0 · build ≈0.3 · blind read ≈0.35 · fixes ≈0.1)
   vs the ≈2–2.5M go. The apparatus is the overrun (≈1.4M for 36 pages of dense lettered notes + Greek scholia). **STOPPED for Wilson's OK before apparatus reader 2.**
+- **Wilson 2026-11-23: "Continue"** on the ≈3.4M all-in. Apparatus reader 2 (pp. 405–413) LAUNCHED.
+- ✅ Apparatus reader 2 (pp. 405–413, ≈0.28M; all 9 seen; several «request limit» first Reads, retried with ≤1600 px crops): 22 numbered (9 markers illegible, not completed), 12 lettered, 2 asterisk, 5 bracket-inline
+  (p0410 [ἀδιαφόρως] no siglum); p-0409 call prints (z), note headed (y): as printed. **Coordinator spot-check at the plate (p-0411 foot): note (d) «Περὶ τῶν ἐν τῷ κατακλυσμῷ. Locus hic difficilior est. Exponit Maximus, ut et scholia Græca,
+  de mortuis ante Christum, non satis illius imbutis…» matches word for word; (c)'s close «…aliaque in illis reddunt.» matches.** Reader 3 (pp. 414–422) LAUNCHED.
+- ✅ Apparatus reader 3 (pp. 414–422, ≈0.23M; thumbnails never displayed → blocks located from own 600 dpi crops, all seen): 27 numbered (20 markers illegible, not completed), 10 lettered (i–o + continuations; p-0414 head = an unkeyed continuation
+  from p-0413 (h)), 4 bracket-inline (p0414 [ἀποκύλισις], p0415 [εὐαγγελ.], p0416 [vulg. ἐν τῇ πόλει ταύτῃ], p0422 [ἀνέρρηξαν]). **Coordinator spot-check at the plate (p-0418 foot, note (l)): matches.**
+  ⚑ **Note (l) (Q.58): the editor EMENDED the text: «ἀντὶ τοῦ, παράδικον, τὸ, παροδικόν· ἀντὶ τοῦ, πονηρῷ, τὸ, μονίμῳ»** (the printed παροδικόν and μονίμῳ are his corrections) → the fixer reads Q.58 with this (translator's least-sure spot).
+  Reader 4 (pp. 423–431) LAUNCHED.
+- ✅ Apparatus reader 4 (pp. 423–431, ≈0.18M; thumbnails mostly failed → own crops; its summary miscounted: the file has 37 lines; a discarded first attempt sits in the scratchpad, not used): numbered ≈21 (4 illegible), lettered p, q, r, s, t, u (+ continuations),
+  asterisk 4, bracket-inline 2 ([Ἴσ. ἀναλήψεως] p0425; p0426 [διαγνώσεως]); p-0430, p-0431 none. **Coordinator plate check p-0423 note (p): matches; ⚑ POLARITY: «Ἐν αὐτῷ οὐχ ἤνωτο. Necessario addidi negat.» — the οὐχ at p0423.14 is the
+  EDITOR'S SUPPLEMENT** (printed without brackets) → ENGLISH-FIXES row 17; blind read to look at it.
+- **Apparatus total ≈1.1M (4 readers), 0 unread pages.** ENGLISH-FIXES.md written (18 rows: brackets with sigla, 3 sense misprints, Q.58 emendation, (p) supplement, conjectures). Opus fixer LAUNCHED.
