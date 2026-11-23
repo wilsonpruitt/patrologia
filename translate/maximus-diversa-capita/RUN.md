@@ -142,3 +142,13 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
 - ✅ R4 (dc-013–016): no reversal. F1 IV.71 col. 1336 C construal → «according to the power that clearly underlies the mode of holy Scripture» APPLIED; F2 **IV.98 our Greek «οὐ δύναται δύναται» (plate: once) → patched**.
   Cases kept: IV.36 (restored line matches the plate), IV.39, IV.96, IV.98, V.4.
 - Greek patches added for the rebuild: p0687:19, p0671:26, p0621:34–35 (I.89 conjecture bracket, from R1).
+- ✅ R5 (dc-017–019): no dropped negative; 3 class-3 fixes APPLIED — **V.53 «as one who becomes, like the Jews, a nurturer of passions»** (the participle had hung on the virtuous man: reversed the chapter's sense);
+  V.42 «and this, knowledge, … is of a nature to put away»; V.95 «and it is the unchangeable establishment» (ἵδρυσις nominative). V.65 T note cites Migne's note (l) (ἐμφέρεια = exact likeness). Cases kept: V.51, V.65–67, V.95, V.99.
+
+## ✅ Step 6 DONE 2026-11-23: blind polarity read (5 Opus readers, ≈0.92M; reports `data/briefs/MAXIMUS-DIVERSA-CAPITA-BLIND-READ-R{1..5}.md`)
+**No dropped or added negative in 500 chapters.** 9 sense fixes applied (I.2 negative scope; **III.77 right/left reversal**; V.53 participle scope; V.42, V.95, IV.71 construal; II.53, II.94); Greek file repaired from the plate
+(IV.98, IV.29, I.89). Rebuilt: place → kt-to-site (364 cruces) → mark → align **100%** (524/524) → verify OK → plate-gate OK → polarity record (9 sites, ours 9) → page (108 column blocks) → index → build-site → lookup →
+**preflight 10 of 10**; scan-raw-markers clean. One unparsed locator alias (Rom. viii, 33, 35 at 1380): harmless. OPEN (not blocking): IV.26 bracket direction (image check C «[» vs R3 «]»); III.75 «?»; duplicated ⟦s⟧ labels
+in some English paragraphs (cosmetic).
+⚠ **Burn all-in ≈8.6M** (translation 2.0 · sweep 0.29 · image check 0.98 · apparatus incl. re-reads 2.36 · fixer 0.18 · build 0.54 · blind read 0.92 · coordinator ≈1.3) vs the 8–9M go.
+⬜ Wilson: DRAFT about/RECENT → deploy (own OK) → push (own OK).

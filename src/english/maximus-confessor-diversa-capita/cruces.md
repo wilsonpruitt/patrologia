@@ -123,7 +123,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1240** · …a nature to linger in paths not straight, — S. cf. Isa 40:3; Luke 3:4 (*make his paths straight*).
 - **1240** · …not have God walking about in his paths. — S. cf. 2 Cor 6:16 (Lev 26:12), ἐμπεριπατήσω.
 - **1240** · …the spirits of *the knowledge falsely so called* — S. 1 Tim 6:20.
-- **1240** · …low the stirred-up dominion of the evil spirits. — T. «ὀρινομένην», "stirred up" (ὀρίνω), playing on ὄρος, the mountains of the verse; the facing Latin has *montium supercilio elata*. Logged as a doubt.
+- **1240** · …that has been raised up into a mountain. — T. «ὀρινομένην», paired with «φαραγγωθεῖσαν» («made a valley»), answers the mountains of Isa 40:4 (ὄρος); rendered «raised up into a mountain», with the facing Latin *montium supercilio elata*.
 - **1240** · …onsets of involuntary temptations) *shall become smooth ways*, — S. Luke 3:5.
 - **1240** · …takes pleasure in weaknesses and afflictions and necessities, — S. cf. 2 Cor 12:10.
 - **1240** · …voluntary or involuntary, becomes the death of pleasure, — T. Migne prints «ἡδονῆς [Regii duo ὀδύνης]»: his apparatus set into the text, the reading of two Regius manuscripts («pain»). The English follows the printed ἡδονῆς, as the chapter's last sentence (toil the death of pleasure) and the facing Latin (*voluptatis ac libidinis*).
@@ -154,7 +154,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1253** · …all things the spirit of the holy Scripture, — S. cf. 1 Cor 15:49.
 - **1253** · …the peaceful habit according to virtue and knowledge, — S. cf. Ps 136:5–6 LXX (137:5–6 Heb.): «let my tongue cleave to my throat, if I do not remember thee».
 - **1256** · …the corruption of the things that pass away. — T. Migne prints παρεχομένων, «of the things provided»; the facing Latin *fluxarum rerum* reads παρερχομένων, «of the things that pass away», which the English follows: the printed word is a misprint.
-- **1256** · …good disposition of the things that went before. — T. Migne prints «προηγμένων [male edita προηγουμ.]»: his apparatus set into the text, recording the earlier edition's faulty reading προηγουμένων; the printed προηγμένων is the correction. Both readings mean «what went before» (the vows of the preceding clause), and the English follows the printed text; the facing Latin has *eorum, qui proba mente oblata sunt*, «of the things offered with a good mind».
+- **1256** · …disposition of the things that have been offered. — T. Migne prints «προηγμένων [male edita προηγουμ.]»: his apparatus set into the text, recording the earlier edition's faulty reading προηγουμένων («what went before»); the printed προηγμένων, «brought forward, offered», is the correction, and the facing Latin has *oblata*: the English follows it.
 - **1256** · …of those who care for virtue and knowledge. — S. cf. Exod 14:15 (God hears Moses, who is not said to speak).
 - **1257** · …present in it according to the natural law, — S. cf. 2 Chr 32:23 (gifts brought to the Lord at Jerusalem, and presents to Hezekiah).
 - **1257** · …to the utmost is fittingly lifted above all, — S. cf. 2 Chr 32:23 (Hezekiah lifted up before the eyes of all the nations).
@@ -228,7 +228,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1293** · …and Jesus and the leaders of the families, — P. Zorobabel: see note 17, dc-008. Jesus (Joshua son of Jozadak) was the high priest who led the return with him and rebuilt the temple (Ezra 3–5).
 - **1293** · …alone will build to the Lord of Israel*; — S. Ezra 4:3 (2 Esd 4:3 LXX); cf. 1 Esd 5:70.
 - **1293** · …the passion that he establishes through it. 77. — T. Migne prints the numeral «οϛʹ» (76) here a second time; the chapter is numbered 77 by the sequence, with the second witness (οζʹ) and the facing Latin.
-- **1293** · …the right with the things on the left. — S. cf. 2 Cor 6:7 (the weapons of righteousness on the right and on the left).
+- **1293** · …right, impale upon the things on the left. — S. cf. 2 Cor 6:7 (the weapons of righteousness on the right and on the left).
 - **1293** · …alone will build to the Lord of Israel.* — S. Ezra 4:2–3 (2 Esd 4:2–3 LXX).
 - **1293** · …temple for himself, and free of every passion. — S. cf. 1 Cor 3:16–17; 2 Cor 6:16.
 
@@ -310,7 +310,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1333** · …toil in vain at things contrary to nature. — S. cf. Zech 5:3–4 LXX (the thief and the one who swears falsely by the name); Lev 19:12.
 - **1333** · …and take up my covenant through thy mouth?* — S. Ps 49:16 LXX (50:16 Heb.).
 - **1333** · …ashamed, you who are clothed in alien garments*; — S. cf. Zeph 1:8 LXX.
-- **1336** · …according to the power underlying, namely, the mode — T. Migne prints «τῷ τρόπῳ», "the mode", and the English follows it; the facing Latin has *loco* (*pro subjecta loco sacrae Scripturae vi*), as if τόπῳ, "the place" (cf. ch. 72, «κατὰ τὸν τόπον»).
+- **1336** · …to the power that clearly underlies the mode — T. Migne prints «τῷ τρόπῳ», "the mode", and the English follows it; the facing Latin has *loco* (*pro subjecta loco sacrae Scripturae vi*), as if τόπῳ, "the place" (cf. ch. 72, «κατὰ τὸν τόπον»).
 - **1337** · …as having the Lord as strength and hymn. — S. cf. Ps 117:14 LXX (118:14 Heb.).
 - **1337** · …too, by the light of knowledge shone round — T. The chunk ends mid-word, «πε-|», which the next page completes as «περιλαμπόμενος», "shone round".
 
@@ -398,7 +398,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1373** · …knowledge, is Saul choked by an evil spirit, — S. cf. 1 Kgdms 16:14; 18:10–11; 19:9–10 LXX.
 - **1373** · …he even bitterly sends away his dearest Jonathan — P. Jonathan: Saul's son and David's friend, whom Saul drove off for defending David (1 Kgdms 20:30–34).
 - **1373** · …61. Let us too beseech the intelligible David — P. David: his lyre drove the evil spirit from Saul (1 Kgdms 16:23); «the intelligible David» is Christ.
-- **1376** · …is no likeness of these to one another, — T. A bare negative, as again in ch. 67; the facing Latin softens both, «nulla … exacta omnino et accurata similitudo» and «nullam per omnia accuratam similitudinem», as from ch. 66's «οὐκ ἔστιν ἀκριβὴς ἐμφέρεια». The English keeps the Greek. Logged as a doubt.
+- **1376** · …is no likeness of these to one another, — T. A bare negative, as again in ch. 67 (the plate prints it plainly, keyed to Migne's note (l), which takes ἐμφέρεια as exact likeness, as distinct from ὁμοιότης, which is not denied); the facing Latin softens both, «nulla … exacta omnino et accurata similitudo» and «nullam per omnia accuratam similitudinem», as from ch. 66's «οὐκ ἔστιν ἀκριβὴς ἐμφέρεια». The English keeps the Greek. Logged as a doubt.
 - **1377** · …things thought. He calls «union» of the mind, — T. «He calls … he says»: the comment glosses the «union» of ch. 68, explaining it from «what follows».
 - **1377** · …ray of divine knowledge. 70. If the noetic — T. Migne prints τὸν νοερὸν; the sense needs the neuter τὸ νοερόν (the facing Latin «quod intelligens»).
 - **1377** · …suffers ecstasy toward it as toward the yearned-for; — T. ἐραστός «yearned-for», kept apart from ἐραστής «lover» and ἀγαπητός «beloved», here and in chs 83–85.
@@ -419,7 +419,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **1389** · …is prudence, as a habit illuminating, and receptive — T. Migne prints «ὑποδεκτικὴ [edit. ἀποδεκτικὴ]»: his apparatus set into the text, the reading of the edition ("accepting" for "receptive"); the English renders the printed ὑποδεκτική. The Latin *capiat* fits either.
 - **1389** · …of the understanding is temperance, being a habit — T. Migne prints ἕξιν ὑπάρχουσα; the sense needs ἕξις (as ἕξις ὑπάρχουσα of justice below; the facing Latin *habitus*).
 - **1389** · …are, and apportioning to each, according to equality, — T. Migne prints κατὰ τῷ ἴσον; the sense needs κατὰ τὸ ἴσον.
-- **1389** · …the life-giving distribution in spirit, and the unchangeable — T. Migne prints «ἀμετάθετος [male edita, μετάθετος]»: the bracket records the earlier edition's faulty reading without the privative ("changeable"), which the editor rejects (his note: «Quod erat μετάθετος, valde mendosum est»). The English follows the printed ἀμετάθετος, "unchangeable", with the Latin *immobilis sedes*.
+- **1389** · …distribution in spirit; and it is the unchangeable — T. Migne prints «ἀμετάθετος [male edita, μετάθετος]»: the bracket records the earlier edition's faulty reading without the privative ("changeable"), which the editor rejects (his note: «Quod erat μετάθετος, valde mendosum est»). The English follows the printed ἀμετάθετος, "unchangeable", with the Latin *immobilis sedes*.
 - **1389** · …natural good condition through the sojourn of reason. — T. τοῦ λόγου: "reason", with the Latin *rationis*; it could also be read "the Word".
 - **1392** · …through pleasure; and, being in need of nothing, — T. Migne prints «ἀπροσδεὴς [male edita προσδεής]»: the bracket records the earlier edition's faulty reading without the privative ("in need"), which the editor rejects. The English follows the printed ἀπροσδεής, "in need of nothing", with the sense and the Latin *nullius egeret*.
 - **1392** · …who with wisdom gave subsistence to all nature, — S. cf. Ps 103:24 LXX (104:24 Heb.).
