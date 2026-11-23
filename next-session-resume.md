@@ -1,5 +1,10 @@
 # Next session — resume note
 
+## ▶ 2026-11-23 (later) — #9 *Quaestiones et dubia* BUILT, preflight 10/10, NOT deployed, NOT pushed (8 local commits)
+- `site/pg/90/quaestiones-et-dubia/`; score `translate/maximus-quaestiones-dubia/RUN.md`; ≈3.3M (Wilson's second go ≈3.4M). English exists: Prassas 2010 (weak badge).
+- ⬜ Wilson: read the DRAFT about (`data/work-about.json` key pg:maximus-confessor-quaestiones-et-dubia) + RECENT line → strip DRAFT + `englishState: "ours"` → rebuild + preflight → ONE deploy (own OK) → push (own OK).
+- Next queue item: #10 *Expositio orationis dominicae* (PG 90.872–909, ≈6,400 words; Berthold 1985) — needs "which model, and go" (≈1.6M at the recent ≈250K/1,000-word rate).
+
 ## ▶ 2026-11-23 — FOUR Maximus PG 90 works LIVE on migne.app (deploy dpl_GPX9LfKKQ2Ko5Uq7hpPreHFfwA6X), englishState ours, pushed b58e59f6. Next: #9 *Quaestiones et dubia* — needs "which model, and go" (≈2–2.5M).
 - **#5 *Expositio in Psalmum LIX*** (`site/pg/90/psalm-59/`; English exists: Blowers 2015). Score `translate/maximus-ps59/RUN.md`.
 - **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`). Score `translate/maximus-theopemptus/RUN.md`.
