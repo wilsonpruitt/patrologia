@@ -71,3 +71,20 @@ and Virtue and Vice" → weak badge, about text names it. A Byzantine compilatio
   **seams: 6 repaired** (002/003 garbled, 004/005 doubled «of the», 008/009 «according to aspiration» missing, 010/011 object lost, 012/013 κατ᾿ εἶδος lost, 014/015 doubled «shining»);
   structure verified (5 centuries × 1–100, 108 anchors 1177→1392); P-dupes → cross-refs; Scripture cf./italics fixes. `[?]` left: I.8 (clipped p604), IV.88 (short word lost).
   Open for the apparatus/blind read: English [supplements] with no T note (III.84, III.94, IV.45, IV.47, IV.66, IV.68, IV.70, IV.77, V.4) — Migne's brackets or translators' supplies? check at the plate/apparatus.
+- ✅ Apparatus reader 1 (pp. 602–628): **93 notes** + 1 orphanCall (50 numbered Latin locators, 28 markers illegible → paired by content; 29 lettered; 10 asterisk; 4 inline bracket variants). Calls not found:
+  (s) p-0618, * p-0620 «Cf. qu. 26 ad Thalass.», **\* p-0617 «Male edita, εἶναι τῷ…» (the editor says the text is badly printed here: check its chapter at the fixer)**, p-0612 II Cor 3:12, p-0608 Rom 8:17, p-0604 Greg. Naz.
+  Brackets: p0604, p0615 = variants; (j) p-0611 conjecture ἀγαθῶς for ἀληθῶς. No supply/delete notes in this range.
+- ✅ Apparatus reader 2 (pp. 629–655): **87 notes** (40 numbered, 5 markers illegible; 29 lettered; 15 asterisk; 3 inline brackets labelled `bracket-inline`). Inline brackets now READ: p-0633 **[Regii duo ὀδύνης]** = a
+  variant of two Royal MSS (ch. II.55: the English's omission of ὀδύνης is RIGHT); p-0641 [male edita προηγουμ.] = the editor's correction of the printed word; p-0647 [edit. et unus Reg. ὅτι]; p-0654 [duo Reg. φύσιν]
+  (ch. III.50 βάσιν: variant, English «base» right). Asterisk notes with no call found: p-0632 «** Edita, γνώσεως. Malim σχέσεως» (conjecture), p-0647, p-0653.
+- ✅ Image check A (sheets 001–008, 192 slots): R 99 · P 6 · M 13 · ? 74 (45 = clipped p0604 by ruling; 15 = breathing-only: the 1-bit scan cannot show rough vs smooth, and the monotonic witness cannot either → stay as printed).
+  **p0619.20 ch. I.77: R — the plate prints ἀν-ύπαρκτον** (enclosed counter = α; the English «without existence» stands). Sense M: p0608.19 διδάσκου-κα; p0610.15 ὑπερ-απέκεινα; p0611.01 παιτὸς; p0611.20 ἐλέησε;
+  p0611.27 ταυτὴν (= ταὐτήν); p0616.16 ἐργασόμεθα; p0619.01 ἔντων. P: p0616.43 no τοῖς (added word withdrawn); **p0621.34 ch. I.89: Migne prints χάριτος [fort. ὑπὲρ θείας ἐντολῆς] — the editor's CONJECTURE, not a
+  second phrase → FIXER: English «on behalf of grace» + T note on the conjecture (drop the supplied «or … divine commandment» from the running text or bracket it as the editor's)**. p0621.38/39 α/ε blots (?).
+- ⚠ Apparatus reader 3 (pp. 656–682): **its image reads for pp. 656–664 came back blank and it WROTE THE NOTES ANYWAY** (its own report). Coordinator: those 30 lines DELETED from `result-3.jsonl` (copy of the
+  unverified file in the session scratchpad), the one guessed word (p-0680 «Dogmaticis» → «Dog[...]») restored to what is visible; pp. 665–682 kept (read from sight, 55 lines: 43 numbered / 17 lettered /
+  14 asterisk / 9 bracket-inline overall, 23 markers illegible). **Re-read of pp. 656–664 → `task-3b.md` / `result-3b.jsonl`** with a hard rule: no image seen, no note (write `unread`).
+- ✅ Image check B (sheets 009–016, 192 slots): R 140 · P 9 · M 9 · ? 34. **p0627.29 ch. II.18 οὐ λήψεται: R (negative on the plate).** M (English follows the sense): p0646.41 ἐπιγνωμοσύνης (Latin *probae
+  gratitudinis*: εὐ-), p0639.16 μετὰ (μέν), **p0641.33 παρεχομένων (παρερχομένων «passing away»)**, p0646.45 γὰ, p0638.23 ἀνατραπὴν, p0626.29 φύ-εως, p0639.42 Ἐμμὸρ. **FIXER: p0647.41 the plate prints the
+  NOMINATIVE κυβερνωμένη. (agreeing with ἡ χρῆσις), which construes → the English must follow it, not the translator's genitive.** Brackets confirmed on the plate: [Regii duo ὀδύνης], [male edita προηγουμ.],
+  [edit. et unus Reg. ὅτι]. Several «points» after numerals/words are ASTERISK NOTE CALLS (ζʹ, κγʹ, λʹ, μεʹ, ξζʹ, πεποιωμένος·, φέρουσαι·) → strip as calls at the build.
