@@ -1,6 +1,6 @@
 # Next session — resume note
 
-## ▶ 2026-11-23 — FOUR Maximus PG 90 works built, preflight 10/10, NOT deployed, NOT pushed (40 local commits)
+## ▶ 2026-11-23 — FOUR Maximus PG 90 works LIVE on migne.app (deploy dpl_GPX9LfKKQ2Ko5Uq7hpPreHFfwA6X), englishState ours, pushed b58e59f6. Next: #9 *Quaestiones et dubia* — needs "which model, and go" (≈2–2.5M).
 - **#5 *Expositio in Psalmum LIX*** (`site/pg/90/psalm-59/`; English exists: Blowers 2015). Score `translate/maximus-ps59/RUN.md`.
 - **#6 *Ad Theopemptum*** (`site/pg/90/ad-theopemptum/`). Score `translate/maximus-theopemptus/RUN.md`.
 - **#7 *Capita alia*** (`site/pg/90/capita-alia/`, 243 chapters). Score `translate/maximus-capita-alia/RUN.md`.
