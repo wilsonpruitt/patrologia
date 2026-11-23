@@ -98,3 +98,11 @@ Readers run ONE AT A TIME (image-agent rule): A = 001–006 LAUNCHED (beside the
   **preflight 9 of 10** (only NOT POLARITY-CHECKED). Build burn ≈0.39M; English fixer ≈0.2M. **Spent ≈3.0M** → blind read (2 Opus readers) ≈0.35M.
 
 ## Step 6 — blind polarity read (2 Opus readers, `data/briefs/MAXIMUS-QUAESTIONES-DUBIA-BLIND-READ-BRIEF.md`) LAUNCHED
+
+## ✅ Step 6 DONE 2026-11-23: blind polarity read (2 Opus readers, ≈0.29M; reports `data/briefs/MAXIMUS-QUAESTIONES-DUBIA-BLIND-READ-R{1,2}.md`)
+**No dropped or added negative in 79 questions.** R1 (Q.1–50): 0 findings (every negative, privative and count checked; the brief's question numbers for 4 cases were off — Q.7, 14, 13, 31 — judged by content). R2 (Q.50–79): 2 wording fixes, applied:
+Q.65 col. 837 μή governs both clauses → «and the blasphemy might not run back up to God» (class 1); Q.78 col. 852 double negative → «For he cannot, as though he had not done them, not take account of the things he did.» (class 3).
+Kept: Q.55 rhetorical question (plate + note (j)); Q.58; **Q.66 οὐχ ἤνωτο: contrast the right way round**; Q.65 «dug up»; p0428.15 «beg for» («beg off» does not construe with καὶ μὴ λιμόν); Q.68–70; Q.79.
+Rebuilt: kt-to-site → mark → align **100%** → verify OK → plate-gate OK → polarity record (2 sites, ours 2) → page → index → build-site → lookup → **preflight 10 of 10**.
+⚠ **Burn all-in ≈3.3M** (translation 0.54 · sweep 0.15 · image check 0.43 · apparatus 1.1 · fixer 0.2 · build 0.39 · blind read 0.29 · coordinator ≈0.2) vs the ≈3.4M approved at the second go.
+⬜ Wilson: read the DRAFT about/RECENT → strip DRAFT + `englishState: "ours"` → ONE deploy (own OK) → push (own OK).

@@ -163,7 +163,7 @@ Translators' notes (kt method, 2026-10-27), moved out of the running English. Ea
 - **0852** · …*the dwelling of all who rejoice.* QUESTION 78 — T. Heading lost in Kraken (the witness reads ΕΡΩΤΗΣΙΣ ΟΗʹ).
 - **0852** · …he who is leprous all over is clean? — S. Lev 13:12–13.
 - **0852** · …the soul being hollowed, that is, brought low, — T. ταπεινωθείσης: the LXX of Lev 13:3 calls the leprous spot ταπεινή, «sunken», and the word also means «humbled».
-- **0852** · …did, as though he had not done it. — T. Two negatives, as printed and as in the Latin (*non potest … non meminisse*): he cannot help reckoning with his deeds as deeds done.
+- **0852** · …not take account of the things he did. — T. Two negatives, as printed and as in the Latin (*non potest … non meminisse*): he cannot help reckoning with his deeds as deeds done.
 - **0852** · …the ox, the goat, the turtle-dove, the dove? — T. «Five» is read from Kraken's «εα,,,α, ,ἐθυσίαι» (= εʹ θυσίαι, with the witness). S. cf. Lev 1; 5:7.
 - **0852** · …rational power; the bull for the incensive power; — T. τὸ θυμικόν, «the incensive power», is the faculty; θυμός as the passion is «anger» elsewhere (Questions 17, 38). Kept apart from τὸ ἐπιθυμητικόν, «the desiring power», and τὸ λογιστικόν, «the rational power».
 - **0853** · …goes round together with the *Sun of righteousness*, — S. Mal 3:20 LXX (4:2 Eng.).
